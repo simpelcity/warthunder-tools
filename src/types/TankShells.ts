@@ -1,15 +1,18 @@
-export type Shell = "kinetic" | "chemical";
+/* TANK ROUNDS */
+export type Shell = "Kinetic" | "Chemical";
 
-export type KineticShell = "solid-ap" | "he-filled-ap" | "sub-caliber-ap";
-export type ChemicalShell = "high-explosive" | "heat" | "guided-missiles";
+export type KineticShell = "Solid-AP" | "HE-filled-AP" | "Sub-caliber-AP";
+export type ChemicalShell = "High-Explosive" | "HEAT" | "Guided-Missiles";
 
-export type SolidAP = "ap" | "apc" | "apbc" | "apcbc";
-export type HEFilledAP = "aphe" | "aphec" | "aphebc" | "aphecbc" | "ac" | "sap" | "schrapnel";
-export type SubCaliberAP = "apcr" | "apds" | "apfsds";
+export type SolidAP = "AP" | "APC" | "APBC" | "APCBC";
+export type HEFilledAP = "APHE" | "APHEC" | "APHEBC" | "APHECBC" | "AC" | "SAP" | "Schrapnel";
+export type SubCaliberAP = "APCR" | "APDS" | "APFSDS";
 
-export type HighExplosive = "he" | "he-tf" | "he-grenade" | "vog" | "rocket" | "hesh" | "smoke";
-export type Heat = "heat" | "heat-fs" | "heatmp" | "heat-grenade";
-export type GuidedMissiles = "atgm" | "atgm-ota" | "atgm-vt" | "atgm-tandem" | "atgm-he" | "atgm-ap" | "sam";
+export type HighExplosive = "HE" | "HE-TF" | "HE-Grenade" | "VOG" | "Rocket" | "HESH" | "Smoke";
+export type Heat = "HEAT" | "HEAT-FS" | "HEATMP" | "HEAT-Grenade";
+export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE" | "ATGM-AP";
+
+export type explosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A"
 
 export type KineticShellVariant = SolidAP | HEFilledAP | SubCaliberAP;
 export type ChemicalShellVariant = HighExplosive | Heat | GuidedMissiles;
@@ -24,13 +27,13 @@ export interface BaseTankShell {
 }
 
 export interface KineticTankShell extends BaseTankShell {
-	category: "kinetic";
+	category: "Kinetic";
 	family: KineticShell;
 	variant: KineticShellVariant;
 }
 
 export interface ChemicalTankShell extends BaseTankShell {
-	category: "chemical";
+	category: "Chemical";
 	family: ChemicalShell;
 	variant: ChemicalShellVariant;
 }
@@ -41,14 +44,17 @@ export interface TankShellPerformance {
 	id: string;
 	vehicleId: string;
 	vehicleName: string;
-	caliberMm?: number;
-	velocityMs?: number;
+	caliberMm: number;
+	penetrationMm: number;
+	velocityMs: number;
+  projectileMassKg: number;
+  fuzeDelayM?: number;
+  fuzeSensitivityMm?: number;
 	explosiveMassKg?: number;
-	penetrationMm?: number;
-	notes?: string;
+  explosiveType?: explosiveType;
+	tntEquivalentKg?: number;
 }
 
 export type TankShellDefinition = TankShell & {
 	performances: TankShellPerformance[];
 };
-

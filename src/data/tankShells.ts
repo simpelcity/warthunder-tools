@@ -2,28 +2,39 @@ import type { TankShellDefinition } from "../types/TankShells";
 
 export const tankShells: TankShellDefinition[] = [
 	{
-		id: "dm53",
-		designation: "DM53",
-		category: "kinetic",
-		family: "sub-caliber-ap",
-		variant: "apfsds",
-		performances: [
-			{
-				id: "dm53-leopard-2a5",
-				vehicleId: "leopard-2a5",
-				vehicleName: "Leopard 2A5",
-				caliberMm: 120,
-				velocityMs: 1670,
-				penetrationMm: 623,
-			},
-			{
-				id: "dm53-leopard-2a7v",
-				vehicleId: "leopard-2a7v",
-				vehicleName: "Leopard 2A7V",
-				caliberMm: 120,
-				velocityMs: 1750,
-				penetrationMm: 653,
-			},
-		],
+		id: "m74",
+    designation: "M74",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    performances: [
+      {
+        id: "m74_us_m2a4",
+        vehicleId: "us_m2a4",
+        vehicleName: "M2A4",
+        caliberMm: 37,
+        penetrationMm: 77,
+        velocityMs: 870,
+        projectileMassKg: 0.87,
+      },
+    ],
 	},
+  {
+    id: "m51b1",
+    designation: "M51B1",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    performances: [
+      {
+        id: "m51b1_us_m2a4",
+        vehicleId: "us_m2a4",
+        vehicleName: "M2A4",
+        caliberMm: 37,
+        penetrationMm: 86,
+        velocityMs: 870,
+        projectileMassKg: 0.87,
+      },
+    ],
+  },
 ];
