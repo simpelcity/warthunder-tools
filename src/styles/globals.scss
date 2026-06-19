@@ -1,0 +1,25 @@
+@use "variables" as *;
+
+body {
+  font-family: "Nunito" !important;
+  background-color: $body-bg;
+  color: $light !important;
+}
+
+body,
+a {
+  font-weight: 500 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
