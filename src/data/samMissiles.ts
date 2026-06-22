@@ -1,4 +1,4 @@
-import type { SamMissileDefinition } from "@/src/types/SAMMissile"
+import type { SamMissileDefinition } from "@/types/SAMMissiles"
 
 export const samMissiles: SamMissileDefinition[] = [
   {
