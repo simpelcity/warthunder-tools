@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from './App.tsx'
-import Home from './pages/Home.tsx'
-import './styles/globals.scss'
+import App from '@/src/App.tsx'
+import Home from '@/pages/Home.tsx'
+import Shells from '@/pages/Shells.tsx'
+import '@/styles/globals.scss'
 
 const router = createBrowserRouter([
   {
@@ -11,6 +12,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: '/', element: <Home /> },
+      { path: '/ammo/shells', element: <Shells /> },
     ],
   },
 ]);

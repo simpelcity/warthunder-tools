@@ -1,7 +1,13 @@
 $primary: #e53935cc;
 $primary-hover: #e53935;
 
-$body-bg: #161617;
-$dark: #232324;
+$light: #f5f5f5;
+
+$body-bg: #232324;
+$body-color: #f5f5f5;
+$dark: #161617;
+
+$popover-bg: $dark;
+$popover-header-bg: $dark;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

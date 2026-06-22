@@ -1,13 +1,15 @@
 @use "variables" as *;
 
-body {
+body,
+span,
+button {
   font-family: "Nunito" !important;
-  background-color: $body-bg;
   color: $light !important;
 }
 
 body,
-a {
+a,
+span {
   font-weight: 500 !important;
 }
 
