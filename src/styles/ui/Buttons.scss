@@ -1,0 +1,15 @@
+@use '../variables.scss' as *;
+
+.btn {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  color: $light !important;
+  &:hover {
+    background-color: $primary-hover !important;
+    color: $light !important;
+  }
+}
