@@ -16,7 +16,7 @@ const variantIconFile: Partial<Record<TankShellVariant, string>> = {
 	SAP: "sap_tank.png",
 	SAPCBC: "sapbc_tank.png",
   SAPHEI: "sapbc_tank.png",
- SAPHECBC: "sapbc_tank.png",
+  SAPHECBC: "sapbc_tank.png",
 	HE: "he_frag_tank.png",
   "HE-TF": "he_frag_dist_fuse_ship.png",
 	"HE-VT": "he_frag_proxi_fuze_ship.png",

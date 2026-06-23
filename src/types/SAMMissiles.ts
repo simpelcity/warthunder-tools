@@ -1,70 +1,135 @@
 /* SPAA SAMS */
 export type Sam = "IR" | "ARH" | "Semi-Automatic" | "Beam riding";
 
-export type SamIR = "IR" | "IR+IOG" | "IR+IOG+DL" | "IR+IOG+GNSS+DL";
-export type SamARH = "ARH+IOG+DL";
-export type SamSemiAutomatic = "Semi-Automatic (SACLOS)";
-export type SamBeamRiding = "Beam riding";
+export type IRSam = "IR" | "IR+IOG" | "IR+IOG+DL" | "IR+IOG+GNSS+DL";
+export type ARHSam = "ARH+IOG+DL";
+export type SemiAutomaticSam = "Semi-Automatic (SACLOS)";
+export type BeamRidingSam = "Beam riding";
 
-export type SamVariant = SamIR | SamARH | SamSemiAutomatic | SamBeamRiding;
+export type SamMissileVariant = IRSam | ARHSam | SemiAutomaticSam | BeamRidingSam;
 
-export type SamIRAspect = "All-aspects";
+export type IRSamAspect = "All-aspects";
 
-export type SamExplosiveType = "PBXN-110";
+export type SamExplosiveType = "PBXN-110" | "Composition B";
 
 export interface BaseSam {
   id: string;
   designation: string;
-  category: Sam;
+  family: Sam;
 }
 
 export interface IRSamMissile extends BaseSam {
-  category: "IR";
-  variant: SamIR;
+  family: "IR";
+  variant: IRSam;
 }
 
 export interface ARHSamMissile extends BaseSam {
-  category: "ARH";
-  variant: SamARH;
+  family: "ARH";
+  variant: ARHSam;
 }
 
 export interface SemiAutomaticSamMissile extends BaseSam {
-  category: "Semi-Automatic";
-  variant: SamSemiAutomatic;
+  family: "Semi-Automatic";
+  variant: SemiAutomaticSam;
 }
 
 export interface BeamRidingSamMissile extends BaseSam {
-  category: "Beam riding";
-  variant: SamBeamRiding;
+  family: "Beam riding";
+  variant: BeamRidingSam;
 }
 
 export type SamMissile = IRSamMissile | ARHSamMissile | SemiAutomaticSamMissile | BeamRidingSamMissile;
 
-export interface SamMissilePerformance {
+export interface BaseSamPerformance {
   id: string;
   vehicleId: string;
   vehicleName: string;
-  guidance: SamVariant;
   caliberMm: number;
   projectileMassKg: number;
+  launchRangeKm: number;
+  maximumSpeedMs: number;
+  missileGuidanceTimeS: number;
   explosiveType: SamExplosiveType;
   explosiveMassKg: number;
   tntEquivalentKg: number;
-  guidanceTimeS: number;
-  maximumOverloadG: number;
-  maximumSpeedMs: number;
-  launchRangeKm: number;
-  lockRangeKm?: number;
-  aspect?: SamIRAspect;
-  shootDown?: string;
-  lockRangeInRearAspectKm?: number;
-  lockRangeInAllAspectKm?: number;
-  IRCCM?: true | false;
-  fuzeDelayM?: number;
-  fuzeSensitivityMm?: number;
-  radarBand?: string;
 }
 
-export type SamMissileDefinition = SamMissile & {
-  performances: SamMissilePerformance[];
+export interface IRSamPerformance extends BaseSamPerformance {
+  guidance: IRSam;
+  aspect: IRSamAspect;
+  lockRangeRearAspectKm: number;
+  lockRangeAllAspectKm: number;
+  IRCCM: boolean;
+  maximumOverloadG: number;
+
+  penetrationMm?: never;
+  fuzeDelayM?: never;
+  fuzeSensitivityMm?: never;
 }
+
+export interface ARHSamPerformance extends BaseSamPerformance {
+  guidance: ARHSam;
+
+  penetrationMm?: never;
+  fuzeDelayM?: never;
+  fuzeSensitivityMm?: never;
+  aspect?: never;
+  lockRangeRearAspectKm?: never;
+  lockRangeAllAspectKm?: never;
+  IRCCM?: never;
+  maximumOverloadG?: never;
+}
+
+export interface SemiAutomaticSamPerformance extends BaseSamPerformance {
+  guidance: SemiAutomaticSam;
+  penetrationMm: number;
+  fuzeDelayM: number;
+  fuzeSensitivityMm: number;
+
+  IRCCM?: Boolean;
+  aspect?: never;
+  lockRangeRearAspectKm?: never;
+  lockRangeAllAspectKm?: never;
+  maximumOverloadG?: never;
+}
+
+export interface BeamRidingSamPerformance extends BaseSamPerformance {
+  guidance: BeamRidingSam;
+
+  penetrationMm?: never;
+  fuzeDelayM?: never;
+  fuzeSensitivityMm?: never;
+  aspect?: never;
+  lockRangeRearAspectKm?: never;
+  lockRangeAllAspectKm?: never;
+  IRCCM?: never;
+  maximumOverloadG?: never;
+}
+
+export type SamPerformance =
+  | IRSamPerformance
+  | ARHSamPerformance
+  | SemiAutomaticSamPerformance
+  | BeamRidingSamPerformance;
+
+export type IRSamDefinition = IRSamMissile & {
+  performances: IRSamPerformance[];
+};
+
+export type ARHSamDefinition = ARHSamMissile & {
+  performances: ARHSamPerformance[];
+};
+
+export type SemiAutomaticSamDefinition = SemiAutomaticSamMissile & {
+  performances: SemiAutomaticSamPerformance[];
+};
+
+export type BeamRidingSamDefinition = BeamRidingSamMissile & {
+  performances: BeamRidingSamPerformance[];
+};
+
+export type SamDefinition =
+  | IRSamDefinition
+  | ARHSamDefinition
+  | SemiAutomaticSamDefinition
+  | BeamRidingSamDefinition;

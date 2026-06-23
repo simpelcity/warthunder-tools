@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '@/src/App.tsx'
 import Home from '@/pages/Home.tsx'
 import Shells from '@/pages/Shells.tsx'
-import SAMs from '@/pages/SAMs'
-import AAMs from '@/pages/AAMs'
+import Sams from '@/src/pages/Sams'
+import Aams from '@/src/pages/Aams'
 import '@/styles/globals.scss'
 
 const router = createBrowserRouter([
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <Home /> },
       { path: '/ammo/shells', element: <Shells /> },
-      { path: '/ammo/sams', element: <SAMs /> },
-      { path: '/ammo/aams', element: <AAMs /> },
+      { path: '/ammo/sams', element: <Sams /> },
+      { path: '/ammo/aams', element: <Aams /> },
     ],
   },
 ]);

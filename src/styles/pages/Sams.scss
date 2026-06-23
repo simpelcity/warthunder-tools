@@ -1,0 +1,22 @@
+.spaa-sams-row .btn-transparent {
+  width: fit-content;
+}
+
+.spaa-sams-row .shell-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.spaa-sams-row .btn-transparent > span {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.popover-header .shell-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.sams-performance-list li:last-child {
+  border-bottom: 0 !important;
+}

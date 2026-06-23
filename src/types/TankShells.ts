@@ -12,7 +12,7 @@ export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | 
 export type Heat = "HEAT" | "HEATFS" | "HEAT MP" | "HEAT-Grenade";
 export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE";
 
-export type explosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1";
+export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1";
 
 export type Armor = "armor_vsmall" | "armor_small" | "armor_middle" | "armor_big";
 
@@ -60,7 +60,7 @@ export interface TankShellPerformance {
   fuzeDelayM?: number;
   fuzeSensitivityMm?: number;
 	explosiveMassKg?: number;
-  explosiveType?: explosiveType;
+  explosiveType?: ShellExplosiveType;
 	tntEquivalentKg?: number;
 }
 
