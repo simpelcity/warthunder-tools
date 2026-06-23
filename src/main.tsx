@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '@/src/App.tsx'
 import Home from '@/pages/Home.tsx'
 import Shells from '@/pages/Shells.tsx'
-import Sams from '@/src/pages/Sams'
-import Aams from '@/src/pages/Aams'
+import Sams from '@/pages/Sams'
+import Aams from '@/pages/Aams'
 import '@/styles/globals.scss'
 
 const router = createBrowserRouter([
