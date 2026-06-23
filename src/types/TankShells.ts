@@ -5,7 +5,7 @@ export type KineticShell = "Solid-AP" | "HE-filled-AP" | "Sub-caliber-AP";
 export type ChemicalShell = "High-Explosive" | "HEAT" | "Guided-Missiles";
 
 export type SolidAP = "AP" | "APC" | "APBC" | "APCBC";
-export type HEFilledAP = "APHE" | "APHEC" | "APHEBC" | "APHECBC" | "AC" | "SAP" | "SAPCBC" | "SAPHEI";
+export type HEFilledAP = "APHE" | "APHEBC" | "AC" | "SAP" | "SAPCBC" | "SAPHEI" | "SAPHECBC";
 export type SubCaliberAP = "APCR" | "APDS" | "APFSDS";
 
 export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | "VOG" | "Rocket" | "HESH" | "Smoke" | "Shrapnel";
