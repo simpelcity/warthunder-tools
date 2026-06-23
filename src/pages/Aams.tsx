@@ -41,7 +41,7 @@ export default function Aams() {
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-            <Image src={`https://static.encyclopedia.warthunder.com/gui_skin/${aam.id === "aim_9b" ? "missile_air_to_air" : "missile_air_to_air_special"}.png`} alt="Surface-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+            <Image src={`https://static.encyclopedia.warthunder.com/gui_skin/${aam.id === "aim_9b" ? "missile_air_to_air" : "missile_air_to_air_special"}.png`} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
           </div>
         </div>
 
@@ -200,14 +200,8 @@ export default function Aams() {
               onClick={() => handleAamClick(aam.id)}
             >
               <div className="shell-icon position-relative overflow-hidden">
-                <div className="shell-icon_decor position-absolute w-100 h-100 start-0 top-0">
-                  <Image src="https://static.encyclopedia.warthunder.com/gui_skin/explosion_big.png" alt="Damage" className="position-absolute w-100 start-0 top-0" />
-
-                  <Image src="https://static.encyclopedia.warthunder.com/gui_skin/armor_vsmall.png" alt="Armor" className="position-absolute w-100 start-0 top-0" />
-                </div>
-
                 <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                  <Image src="https://static.encyclopedia.warthunder.com/gui_skin/sam.png" alt="Surface-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                  <Image src={`https://static.encyclopedia.warthunder.com/gui_skin/${aam.id === "aim_9b" ? "missile_air_to_air" : "missile_air_to_air_special"}.png`} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                 </div>
               </div>
 
