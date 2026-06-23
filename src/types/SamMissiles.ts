@@ -106,11 +106,7 @@ export interface BeamRidingSamPerformance extends BaseSamPerformance {
   maximumOverloadG?: never;
 }
 
-export type SamPerformance =
-  | IRSamPerformance
-  | ARHSamPerformance
-  | SemiAutomaticSamPerformance
-  | BeamRidingSamPerformance;
+export type SamPerformance = IRSamPerformance | ARHSamPerformance | SemiAutomaticSamPerformance | BeamRidingSamPerformance;
 
 export type IRSamDefinition = IRSamMissile & {
   performances: IRSamPerformance[];
@@ -128,8 +124,4 @@ export type BeamRidingSamDefinition = BeamRidingSamMissile & {
   performances: BeamRidingSamPerformance[];
 };
 
-export type SamDefinition =
-  | IRSamDefinition
-  | ARHSamDefinition
-  | SemiAutomaticSamDefinition
-  | BeamRidingSamDefinition;
+export type SamDefinition = IRSamDefinition | ARHSamDefinition | SemiAutomaticSamDefinition | BeamRidingSamDefinition;

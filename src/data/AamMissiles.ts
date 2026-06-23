@@ -1,0 +1,56 @@
+import type { AamDefinition } from '@/types/AamMissiles'
+
+export const aamMissiles: AamDefinition[] = [
+  {
+    id: "aim_9b",
+    designation: "AIM-9B Sidewinder",
+    category: "IR",
+    family: "IR",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 72.6,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 10,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.8,
+    tntEquivalentKg: 7.6,
+    vehicles: [
+      {
+        id: "aim_9b_us_f9f-8",
+        vehicleId: "us_f9f-8",
+        vehicleName: "F9F-8",
+      },
+    ],
+  },
+  {
+    id: "aim_7e",
+    designation: "AIM-7E",
+    category: "Radar",
+    family: "SARH",
+    variant: "SARH",
+    projectileMassKg: 205,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 11.5,
+    vehicles: [
+      {
+        id: "aim_9b_us_f-4e",
+        vehicleId: "us_f-4e",
+        vehicleName: "F-4E Phantom II",
+      },
+    ],
+  },
+];

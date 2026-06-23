@@ -1,4 +1,4 @@
-import { tankShells } from "@/data/TankShells"
+import { tankShells } from "@/data/tankShells"
 import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
 import type { TankShellDefinition, TankShellPerformance } from '@/types/TankShells'
