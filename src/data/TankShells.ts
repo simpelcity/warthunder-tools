@@ -320,6 +320,21 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    performances: [],
+    performances: [
+      {
+        id: "m89_us_halftrack_m3_75mm_gmc",
+        vehicleId: "us_halftrack_m3_75mm_gmc",
+        vehicleName: "M3 GMC",
+        vehicleTechTree: "USA",
+        penetrationMm: 3,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05,
+      }
+    ],
   },
 ];
