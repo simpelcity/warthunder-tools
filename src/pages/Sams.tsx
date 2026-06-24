@@ -37,6 +37,7 @@ export default function Sams() {
     const sam = samMissiles.find((sam) => sam.id === samId);
     setVehicle(sam?.vehicles[0] ?? null);
     setActiveSamId(samId);
+    setShow(false);
   }
 
   const popover = (sam: SamDefinition) => (
