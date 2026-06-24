@@ -22,12 +22,15 @@ export type RadarAamShootDown = "Front-aspect" | "All-aspects";
 export type IRAamVariant = IRAam | IRAamAspect;
 export type RadarAamVariant = SARHAam | ARHAam;
 
-export type AamMissileVariant = IRAamVariant | RadarAamVariant | BeamRidingAam | CommandGuidedAam;
+export type AamMissileVariant = "IR" | RadarAamVariant | BeamRidingAam | CommandGuidedAam;
+
+export type AamIconNames = "ir-white" | "ir-orange" | "ir-green" | "ir-yellow" | "ir-large-white" | "ir-large-orange" | "radar-white" | "radar-orange" | "radar-yellow" | "radar-green" | "radar-blue" | "radar-red";
 
 export interface BaseAam {
   id: string;
   designation: string;
   category: Aam;
+  icon: AamIconNames;
   family: "IR" | RadarAam | BeamRidingAam | CommandGuidedAam;
   projectileMassKg: number;
   maximumSpeedMach: number;

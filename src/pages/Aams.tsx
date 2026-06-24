@@ -1,14 +1,18 @@
-import { Container, Image, Button, Popover, OverlayTrigger, Dropdown } from 'react-bootstrap'
-import { useState, useEffect } from 'react'
+import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip } from 'react-bootstrap'
+import { useState, useEffect, useRef } from 'react'
 import { FaArrowLeftLong } from 'react-icons/fa6'
 import { aamMissiles } from '@/data/AamMissiles'
 import type { AamDefinition, BaseAamVehicle } from '@/types/AamMissiles'
 import '@/styles/pages/Aams.scss'
+import { getAamIconPath } from '@/constants/AamMissileIcons'
+import { getAamVariantName } from '@/constants/AamMissileVariantNames'
 
 export default function Aams() {
   const [activeAamId, setActiveAamId] = useState<string | null>(null);
   const [vehicle, setVehicle] = useState<BaseAamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -41,7 +45,7 @@ export default function Aams() {
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-            <Image src={`https://static.encyclopedia.warthunder.com/gui_skin/${aam.id === "aim_9b" ? "missile_air_to_air" : "missile_air_to_air_special"}.png`} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+            <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
           </div>
         </div>
 
@@ -76,7 +80,20 @@ export default function Aams() {
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Guidance</span>
-            <span className="text-muted">{aam.guidance}</span>
+            {isMobile ? (
+              <>
+                <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{aam.guidance}</span>
+                <Overlay target={target} show={show} placement="top">
+                  <Tooltip id="overlay-name">{getAamVariantName(aam.variant)}</Tooltip>
+                </Overlay>
+              </>
+            ) : (
+              <>
+                <OverlayTrigger overlay={<Tooltip id={aam.id}>{getAamVariantName(aam.variant)}</Tooltip>}>
+                  <span className="text-muted">{aam.guidance}</span>
+                </OverlayTrigger>
+              </>
+            )}
           </li>
 
           {aam.category === "Radar" && (
@@ -201,7 +218,7 @@ export default function Aams() {
             >
               <div className="shell-icon position-relative overflow-hidden">
                 <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                  <Image src={`https://static.encyclopedia.warthunder.com/gui_skin/${aam.id === "aim_9b" ? "missile_air_to_air" : "missile_air_to_air_special"}.png`} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                  <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                 </div>
               </div>
 
