@@ -17,6 +17,10 @@
   height: 50px;
 }
 
+#sam-popover {
+  --bs-popover-max-width: 560px;
+}
+
 .sams-performance-list li:last-child {
   border-bottom: 0 !important;
 }

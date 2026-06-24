@@ -38,6 +38,7 @@ export default function Aams() {
     const aam = aamMissiles.find((aam) => aam.id === aamId);
     setVehicle(aam?.vehicles[0] ?? null);
     setActiveAamId(aamId);
+    setShow(false);
   }
 
   const popover = (aam: AamDefinition) => (
@@ -49,17 +50,10 @@ export default function Aams() {
           </div>
         </div>
 
-        <span className="fs-4 fw-bold">{aam.designation}</span>
+        <span className="fs-4 fw-bold">{aam.designation} air-to-air missiles</span>
       </Popover.Header>
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
-        <div>
-          <span className="text-muted">AAM</span>
-          <span className="text-muted"> - </span>
-          <span className="text-muted">Air-to-Air Missile</span>
-          {/* <span className="text-muted">{getSamMissileVariantName(sam.variant)}</span> */}
-        </div>
-
         <Dropdown className="mb-2">
           <Dropdown.Toggle variant="transparent" className="border-0 p-0 fw-medium">
             {vehicle?.vehicleName}
@@ -84,12 +78,30 @@ export default function Aams() {
               <>
                 <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{aam.guidance}</span>
                 <Overlay target={target} show={show} placement="top">
-                  <Tooltip id="overlay-name">{getAamVariantName(aam.variant)}</Tooltip>
+                  <Tooltip id="overlay-name">{getAamVariantName(aam.variant).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
+                      <>
+                        
+                        <span key={index} className="fw-normal text-muted">{part}</span>
+                      </>
+                    ) : (
+                      <span key={index} className="fw-bold">{part}</span>
+                    )
+                  )}</Tooltip>
                 </Overlay>
               </>
             ) : (
               <>
-                <OverlayTrigger overlay={<Tooltip id={aam.id}>{getAamVariantName(aam.variant)}</Tooltip>}>
+                <OverlayTrigger overlay={<Tooltip id={aam.id}>{getAamVariantName(aam.variant).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
+                      <>
+                        
+                        <span key={index} className="fw-normal text-muted">{part}</span>
+                      </>
+                    ) : (
+                      <span key={index} className="fw-bold">{part}</span>
+                    )
+                  )}</Tooltip>}>
                   <span className="text-muted">{aam.guidance}</span>
                 </OverlayTrigger>
               </>
@@ -136,13 +148,15 @@ export default function Aams() {
             </>
           )}
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Launch Range</span>
-            <span className="text-muted">{aam.launchRangeKm} km</span>
-          </li>
+          {aam.family !== "Command-Guided (MCLOS)" && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Launch range</span>
+              <span className="text-muted">{aam.launchRangeKm} km</span>
+            </li>
+          )}
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Maximum Speed</span>
+            <span className="fw-bold">Maximum speed</span>
             <span className="text-muted">{aam.maximumSpeedMach} M</span>
           </li>
 
@@ -152,7 +166,7 @@ export default function Aams() {
           </li>
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Missile Guidance Time</span>
+            <span className="fw-bold">Missile guidance time</span>
             <span className="text-muted">{aam.missileGuidanceTimeS} s</span>
           </li>
 
@@ -167,7 +181,7 @@ export default function Aams() {
           </li>
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">TNT Equivalent</span>
+            <span className="fw-bold">TNT equivalent</span>
             <span className="text-muted">{aam.tntEquivalentKg} kg</span>
           </li>
 
@@ -201,7 +215,7 @@ export default function Aams() {
 
       <h1>Air-to-Air Missiles</h1>
 
-      <p>Air-to-Air Missiles amount: 0</p>
+      <p>Air-to-Air Missiles amount: {aamMissiles.length}</p>
 
       <div className="d-flex flex-column row-gap-4 plane-aams-row">
         {aamMissiles.map((aam) => (
@@ -209,6 +223,7 @@ export default function Aams() {
             if (!nextShow && activeAamId === aam.id) {
               setActiveAamId(null);
               setVehicle(null);
+              setShow(false);
             }
           }}>
             <Button

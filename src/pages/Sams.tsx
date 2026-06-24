@@ -1,15 +1,17 @@
-import { Container, Image, Button, Popover, OverlayTrigger, Dropdown } from 'react-bootstrap'
-import { useState, useEffect } from 'react'
+import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip } from 'react-bootstrap'
+import { useState, useEffect, useRef } from 'react'
 import { samMissiles } from '@/data/SamMissiles'
-import type { SamDefinition, SamPerformance } from '@/types/SamMissiles'
-// import { getSamMissileVariantName } from '@/constants/SamMissileVariantNames'
+import type { SamDefinition, BaseSamVehicle } from '@/types/SamMissiles'
+import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
-import { FaArrowLeftLong } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaCircleCheck } from 'react-icons/fa6'
 
 export default function Sams() {
   const [activeSamId, setActiveSamId] = useState<string | null>(null);
-  const [vehicle, setVehicle] = useState<SamPerformance | null>(null);
+  const [vehicle, setVehicle] = useState<BaseSamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -33,7 +35,7 @@ export default function Sams() {
     }
 
     const sam = samMissiles.find((sam) => sam.id === samId);
-    setVehicle(sam?.performances[0] ?? null);
+    setVehicle(sam?.vehicles[0] ?? null);
     setActiveSamId(samId);
   }
 
@@ -69,67 +71,170 @@ export default function Sams() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            {sam.performances.map((vehicle) => (
+            {sam.vehicles.map((vehicle) => (
               <Dropdown.Item className="" onClick={() => setVehicle(vehicle)}>{vehicle.vehicleName}</Dropdown.Item>
             ))}
           </Dropdown.Menu>
         </Dropdown>
 
         <ul className="list-unstyled sams-performance-list mb-0">
-          {vehicle?.penetrationMm && (
-            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+          {(sam.family === "Semi-Automatic" || sam.family === "Beam riding") && (
+            <li className="d-flex flex-column align-items-between justify-content-center flex-wrap pb-1 mb-1 border-bottom column-gap-2">
               <span className="text-muted">Armor penetration (max.)</span>
-              <span className="fw-bold">{vehicle.penetrationMm} mm</span>
+              <span className="fw-bold">{sam.penetrationMm} mm</span>
             </li>
           )}
+
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Caliber</span>
-            <span className="text-muted">{vehicle?.caliberMm} mm</span>
+            <span className="text-muted">{sam.caliberMm} mm</span>
           </li>
+
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Projectile Mass</span>
-            <span className="text-muted">{vehicle?.projectileMassKg} kg</span>
+            <span className="text-muted">{sam.projectileMassKg} kg</span>
           </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Launch Range</span>
-            <span className="text-muted">{vehicle?.launchRangeKm} km</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Maximum Speed</span>
-            <span className="text-muted">{vehicle?.maximumSpeedMs} m/s</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Missile Guidance Time</span>
-            <span className="text-muted">{vehicle?.missileGuidanceTimeS} s</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Explosive Type</span>
-            <span className="text-muted">{vehicle?.explosiveType}</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Explosive Mass</span>
-            <span className="text-muted">{vehicle?.explosiveMassKg} kg</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">TNT Equivalent</span>
-            <span className="text-muted">{vehicle?.tntEquivalentKg} kg</span>
-          </li>
-          {sam.family === "Semi-Automatic" && (
+
+          {(sam.family === "Semi-Automatic" || sam.family === "Beam riding") && (
             <>
-              {vehicle?.fuzeDelayM != null && (
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Fuze Delay</span>
+                <span className="text-muted">{sam.fuzeDelayM} m</span>
+              </li>
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Fuze Sensitivity</span>
+                <span className="text-muted">{sam.fuzeSensitivityMm} mm</span>
+              </li>
+            </>
+          )}
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">Guidance</span>
+            {isMobile ? (
+              <>
+                <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{sam.guidance}</span>
+                <Overlay target={target} show={show} placement="top">
+                  <Tooltip id="overlay-name">{getSamVariantName(sam.variant).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
+                      <>
+                        
+                        <span key={index} className="fw-normal text-muted">{part}</span>
+                      </>
+                    ) : (
+                      <span key={index} className="fw-bold">{part}</span>
+                    )
+                  )}</Tooltip>
+                </Overlay>
+              </>
+            ) : (
+              <>
+                  <OverlayTrigger overlay={<Tooltip id={sam.id}>{getSamVariantName(sam.variant).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
+                      <>
+
+                        <span key={index} className="fw-normal text-muted">{part}</span>
+                      </>
+                    ) : (
+                      <span key={index} className="fw-bold">{part}</span>
+                    )
+                  )}</Tooltip>}>
+                  <span className="text-muted">{sam.guidance}</span>
+                </OverlayTrigger>
+              </>
+            )}
+          </li>
+
+          {sam.family === "IR" && (
+            <>
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Aspect</span>
+                <span className="text-muted">{sam.aspect}</span>
+              </li>
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Lock range in rear-aspect</span>
+                <span className="text-muted">{sam.lockRangeRearAspectKm} km</span>
+              </li>
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Lock range in all-aspect</span>
+                <span className="text-muted">{sam.lockRangeAllAspectKm} km</span>
+              </li>
+
+              {sam.IRCCM && (
                 <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Fuze Delay</span>
-                  <span className="text-muted">{vehicle.fuzeDelayM} m</span>
-                </li>
-              )}
-              {vehicle?.fuzeSensitivityMm != null && (
-                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Fuze Sensitivity</span>
-                  <span className="text-muted">{vehicle.fuzeSensitivityMm} mm</span>
+                  <span className="fw-bold">IRCCM</span>
+                  <span className="text-muted"><FaCircleCheck className="text-success" /></span>
                 </li>
               )}
             </>
           )}
+
+          {sam.family === "ARH" && (
+            <>
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Band</span>
+                <span className="text-muted">{sam.band}</span>
+              </li>
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Shoot down</span>
+                <span className="text-muted">{sam.shootDown}</span>
+              </li>
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Lock range</span>
+                <span className="text-muted">{sam.lockRangeKm} km</span>
+              </li>
+            </>
+          )}
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">Launch range</span>
+            <span className="text-muted">{sam.launchRangeKm} km</span>
+          </li>
+
+          {sam.maximumSpeedMs && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{sam.maximumSpeedMs} m/s</span>
+            </li>
+          )}
+
+          {sam.maximumSpeedMach && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{sam.maximumSpeedMach} M</span>
+            </li>
+          )}
+
+          {(sam.family === "IR" || sam.family === "ARH") && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum overload</span>
+              <span className="text-muted">{sam.maximumOverloadG} G</span>
+            </li>
+          )}
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">Missile guidance time</span>
+            <span className="text-muted">{sam.missileGuidanceTimeS} s</span>
+          </li>
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">Explosive Type</span>
+            <span className="text-muted">{sam.explosiveType}</span>
+          </li>
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">Explosive Mass</span>
+            <span className="text-muted">{sam.explosiveMassKg} kg</span>
+          </li>
+
+          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+            <span className="fw-bold">TNT Equivalent</span>
+            <span className="text-muted">{sam.tntEquivalentKg} kg</span>
+          </li>
         </ul>
       </Popover.Body>
     </Popover>

@@ -47,13 +47,13 @@ export interface IRAamMissile extends BaseAam {
   variant: "IR";
   guidanceCage: IRAam;
   aspect: IRAamAspect;
+  launchRangeKm: number;
 }
 
 export interface IRAamRearAspectMissile extends IRAamMissile {
   guidance: "IR"
   aspect: "Rear-aspect";
   lockRangeRearAspectKm: number;
-  launchRangeKm: number;
 }
 
 export interface IRAamAllAspectsMissile extends IRAamMissile {
@@ -62,7 +62,6 @@ export interface IRAamAllAspectsMissile extends IRAamMissile {
   lockRangeRearAspectKm: number;
   lockRangeAllAspectsKm: number;
   IRCCM: boolean;
-  launchRangeKm: number;
 }
 
 export interface SARHAamMissile extends BaseAam {
@@ -88,12 +87,15 @@ export interface ARHAamMissile extends BaseAam {
 }
 
 export interface BeamRidingAamMissile extends BaseAam {
+  category: "Beam-Riding (SACLOS)";
   family: "Beam-Riding (SACLOS)";
   variant: BeamRidingAam;
   guidance: BeamRidingAamGuidance;
+  launchRangeKm: number;
 }
 
 export interface CommandGuidedAamMissile extends BaseAam {
+  category: "Command-Guided (MCLOS)";
   family: "Command-Guided (MCLOS)";
   variant: CommandGuidedAam;
   guidance: CommandGuidedAamGuidance;
@@ -126,4 +128,12 @@ export type ARHAamDefinition = ARHAamMissile & {
   vehicles: BaseAamVehicle[];
 }
 
-export type AamDefinition = IRAamRearAspectDefinition | IRAamAllAspectsDefinition | SARHAamDefinition | ARHAamDefinition;
+export type BeamRidingAamDefinition = BeamRidingAamMissile & {
+  vehicles: BaseAamVehicle[];
+}
+
+export type CommandGuidedAamDefinition = CommandGuidedAamMissile & {
+  vehicles: BaseAamVehicle[];
+}
+
+export type AamDefinition = IRAamRearAspectDefinition | IRAamAllAspectsDefinition | SARHAamDefinition | ARHAamDefinition | BeamRidingAamDefinition | CommandGuidedAamDefinition;

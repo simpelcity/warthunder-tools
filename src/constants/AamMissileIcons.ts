@@ -1,4 +1,4 @@
-import type { Aam, IRAam, SARHAam, ARHAam, BeamRidingAam, CommandGuidedAam, AamMissileVariant, AamIconNames } from '@/types/AamMissiles'
+import type { Aam, AamIconNames } from '@/types/AamMissiles'
 
 const WT_SKIN_BASE = "https://static.encyclopedia.warthunder.com/gui_skin";
 
