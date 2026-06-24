@@ -82,40 +82,70 @@ export default function Shells() {
             <span className="text-muted">Armor penetration (max.)</span>
             <span className="fw-bold">{vehicle?.penetrationMm} mm</span>
           </li>
+
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Caliber</span>
             <span className="text-muted">{vehicle?.caliberMm} mm</span>
           </li>
+
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Projectile Mass</span>
             <span className="text-muted">{vehicle ? vehicle.projectileMassKg : undefined} kg</span>
           </li>
+
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Muzzle Velocity</span>
             <span className="text-muted">{vehicle?.muzzleVelocityMs} m/s</span>
           </li>
+
           {vehicle?.fuzeDelayM && (
             <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
               <span className="fw-bold">Fuze Delay</span>
               <span className="text-muted">{vehicle.fuzeDelayM} m</span>
             </li>
           )}
+
           {vehicle?.fuzeSensitivityMm && (
             <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
               <span className="fw-bold">Fuze Sensitivity</span>
               <span className="text-muted">{vehicle.fuzeSensitivityMm} mm</span>
             </li>
           )}
+
           {vehicle?.explosiveType && (
             <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
               <span className="fw-bold">Explosive Type</span>
               <span className="text-muted">{vehicle.explosiveType}</span>
             </li>
           )}
+
           {vehicle?.explosiveMassKg && (
             <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
               <span className="fw-bold">Explosive Mass</span>
-              <span className="text-muted">{vehicle.explosiveMassKg * 1000} g</span>
+              <span className="text-muted">{(vehicle.explosiveMassKg * 1000) >= 1000 ? (
+                <>
+                  {vehicle.explosiveMassKg} kg
+                </>
+              ) : (
+                <>
+                  {vehicle.explosiveMassKg * 1000} g
+                </>
+              )}</span>
+            </li>
+          )}
+
+          {vehicle?.tntEquivalentKg && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">TNT equivalent</span>
+              <span className="text-muted">{(vehicle.tntEquivalentKg * 1000) >= 1000 ? (
+                <>
+                  {vehicle.tntEquivalentKg} kg
+                </>
+              ) : (
+                <>
+                  {vehicle.tntEquivalentKg * 1000} g
+                </>
+              )}</span>
             </li>
           )}
         </ul>

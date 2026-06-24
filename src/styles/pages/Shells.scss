@@ -17,6 +17,13 @@
   height: 50px;
 }
 
+#shell-popover {
+  @media (max-width: 576px) {
+    --bs-popover-max-width: 560px;
+  }
+  --bs-popover-max-width: 300px;
+}
+
 .shells-performance-list li:last-child {
   border-bottom: 0 !important;
 }

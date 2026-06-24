@@ -21,6 +21,10 @@
   border-bottom: 0 !important;
 }
 
+#aam-popover {
+  --bs-popover-max-width: 560px;
+}
+
 .tooltip-inner {
   border: 1px solid gray;
 }
