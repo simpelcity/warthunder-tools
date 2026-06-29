@@ -84,7 +84,9 @@ export interface BaseSamVehicle {
   vehicleName: string;
   vehicleTechTree?: TechTree;
   vehicleRank?: Rank;
-  vehicleBR?: BR;
+  vehicleBr?: BR;
+  vehicleBrAB?: BR;
+  vehicleBrSB?: BR;
 }
 
 export type IRSamDefinition = IRSamMissile & {

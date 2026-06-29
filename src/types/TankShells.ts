@@ -42,13 +42,51 @@ export interface KineticTankShell extends BaseTankShell {
 	variant: KineticShellVariant;
 }
 
+export interface SolidAPTankShell extends KineticTankShell {
+  category: "Kinetic",
+  family: "Solid-AP",
+  variant: SolidAP;
+}
+
+export interface HEFilledAPTankShell extends KineticTankShell {
+  category: "Kinetic",
+  family: "HE-filled-AP",
+  variant: HEFilledAP;
+}
+
+export interface SubCaliberAPTankShell extends KineticTankShell {
+  category: "Kinetic",
+  family: "Sub-caliber-AP",
+  variant: SubCaliberAP;
+}
+
 export interface ChemicalTankShell extends BaseTankShell {
 	category: "Chemical";
 	family: ChemicalShell;
 	variant: ChemicalShellVariant;
 }
 
-export type TankShell = KineticTankShell | ChemicalTankShell;
+export interface HighExplosiveTankShell extends ChemicalTankShell {
+  category: "Chemical";
+  family: "High-Explosive";
+  variant: HighExplosive;
+}
+
+export interface HEATTankShell extends ChemicalTankShell {
+  category: "Chemical";
+  family: "HEAT";
+  variant: Heat;
+}
+
+export interface GuidedMissilesTankShell extends ChemicalTankShell {
+  category: "Chemical";
+  family: "Guided-Missiles";
+  variant: GuidedMissiles;
+}
+
+export type KineticTankShellVariant = SolidAPTankShell | HEFilledAPTankShell | SubCaliberAPTankShell;
+export type ChemicalTankShellVariant = HighExplosiveTankShell | HEATTankShell | GuidedMissilesTankShell;
+export type TankShell = KineticTankShellVariant | ChemicalTankShellVariant;
 
 export interface TankShellPerformance {
 	id: string;

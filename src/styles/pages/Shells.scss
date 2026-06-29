@@ -3,8 +3,8 @@
 }
 
 .tank-shells-row .shell-icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .tank-shells-row .btn-transparent > span {
@@ -21,7 +21,7 @@
   @media (max-width: 576px) {
     --bs-popover-max-width: calc(100dvw - 48px);
   }
-  @media (min-width: 992px) {
+  @media (min-width: 576px) {
     --bs-popover-max-width: 300px;
   }
 }

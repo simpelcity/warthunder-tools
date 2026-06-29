@@ -1,14 +1,28 @@
+import { useState, useEffect, useRef, useMemo } from 'react'
 import { tankShells } from "@/data/TankShells"
 import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
-import type { TankShellDefinition, TankShellPerformance } from '@/types/TankShells'
-import '@/styles/pages/Shells.scss'
-import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip } from 'react-bootstrap'
-import { useState, useEffect, useRef } from 'react'
-import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import { getTechTreeIcons } from '@/constants/TechTreeIcons'
+import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, SolidAP, HEFilledAP, SubCaliberAP, HighExplosive, Heat, GuidedMissiles, TechTree, Rank, BR } from '@/types/TankShells'
+import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, ButtonGroup } from 'react-bootstrap'
+import { FaArrowLeftLong, FaAngleDown, FaFilter, FaSliders } from 'react-icons/fa6'
+import '@/styles/pages/Shells.scss'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
+
+// type FilterType = "category" | "family" | "variant" | "rank" | "br" | "techTree" | "vehicle";
+
+// type CategoryFilter = Shell;
+// type FamilyFilter = KineticShell | ChemicalShell;
+// type VariantFilter = SolidAP | HEFilledAP | SubCaliberAP | HighExplosive | Heat | GuidedMissiles;
+// type RankFilter = Rank;
+// type BRFilter = BR;
+// type TechTreeFilter = TechTree;
+// type VehicleFilter = string;
+
+type CategoryFilter = "All" | "Kinetic" | "Chemical";
+type FamilyFilter = "All" | TankShellDefinition["family"];
+type VariantFilter = "All" | TankShellDefinition["variant"];
 
 export default function Shells() {
   const [activeShellId, setActiveShellId] = useState<string | null>(null);
@@ -16,8 +30,71 @@ export default function Shells() {
   const [vehicle, setVehicle] = useState<TankShellPerformance | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
-  const [show, setShow] = useState(false);
-  const target = useRef(null);
+  const [showBrs, setShowBrs] = useState(false);
+  const targetBrs = useRef(null);
+
+  const [showFilters, setShowFilters] = useState(false);
+
+  const [categoryFilter, setCategoryFilter] = useState<"All" | CategoryFilter>("All");
+  const [familyFilter, setFamilyFilter] = useState<"All" | FamilyFilter>("All");
+  const [variantFilter, setVariantFilter] = useState<"All" | VariantFilter>("All");
+
+  const categoryOptions = useMemo(
+    () => ["All", ...Array.from(new Set(tankShells.map((s) => s.category)))],
+    []
+  );
+
+  const familyOptions = useMemo(() => {
+    const base =
+      categoryFilter === "All"
+        ? tankShells
+        : tankShells.filter((s) => s.category === categoryFilter);
+
+    return ["All", ...Array.from(new Set(base.map((s) => s.family)))];
+  }, [categoryFilter]);
+
+  const variantOptions = useMemo(() => {
+    const base = tankShells.filter((s) => {
+      if (categoryFilter !== "All" && s.category !== categoryFilter) return false;
+      if (familyFilter !== "All" && s.family !== familyFilter) return false;
+      return true;
+    });
+
+    return ["All", ...Array.from(new Set(base.map((s) => s.variant)))];
+  }, [categoryFilter, familyFilter]);
+
+  const filteredShells = useMemo(() => {
+    return tankShells.filter((s) => {
+      if (categoryFilter !== "All" && s.category !== categoryFilter) return false;
+      if (familyFilter !== "All" && s.family !== familyFilter) return false;
+      if (variantFilter !== "All" && s.variant !== variantFilter) return false;
+      return true;
+    });
+  }, [categoryFilter, familyFilter, variantFilter]);
+
+  const handleCategorySelect = (eventKey: string | null) => {
+    if (!eventKey) return;
+    setCategoryFilter(eventKey as CategoryFilter);
+    setFamilyFilter("All");
+    setVariantFilter("All");
+    setShowFilters(false);
+  };
+
+  const handleFamilySelect = (eventKey: string | null) => {
+    if (!eventKey) return;
+    setFamilyFilter(eventKey as FamilyFilter);
+    setVariantFilter("All");
+    setShowFilters(false);
+  };
+
+  const handleVariantSelect = (eventKey: string | null) => {
+    if (!eventKey) return;
+    setVariantFilter(eventKey as VariantFilter);
+    setShowFilters(false);
+  };
+
+  const handleClose = () => setShowFilters(false);
+  const handleShow = () => setShowFilters(true);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -53,7 +130,7 @@ export default function Shells() {
     const shell = tankShells.find((shell) => shell.id === shellId);
     setVehicle(shell?.performances[0] ?? null);
     setActiveShellId(shellId);
-    setShow(false);
+    setShowBrs(false);
   }
 
   const popover = (shell: TankShellDefinition) => (
@@ -73,7 +150,7 @@ export default function Shells() {
           </div>
         </div>
 
-        <span className="fs-4 fw-bold">{shell.designation}</span>
+        <span className="fs-5 fw-bold">{shell.designation}</span>
       </Popover.Header>
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
@@ -95,7 +172,7 @@ export default function Shells() {
 
             <Dropdown.Menu className="">
               {shell.performances.map((vehicle) => (
-                <Dropdown.Item className="" onClick={() => setVehicle(vehicle)}>
+                <Dropdown.Item className="d-flex" onClick={() => setVehicle(vehicle)}>
                   {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
                   <span>{vehicle.vehicleName}</span>
                 </Dropdown.Item>
@@ -103,7 +180,7 @@ export default function Shells() {
             </Dropdown.Menu>
           </Dropdown>
 
-          <div className="d-flex column-gap-1 align-items-center">
+          <div className="d-flex column-gap-2 align-items-center">
             <div>
               <span>Rank</span>{" "}
               <span className="font-serif">{vehicle?.vehicleRank}</span>
@@ -113,25 +190,28 @@ export default function Shells() {
 
             {isMobile ? (
               <>
-                <div ref={target} onClick={() => setShow(!show)}>
+                <div ref={targetBrs} onClick={() => setShowBrs(!showBrs)}>
                   <span>BR</span>{" "}
                   <span>{vehicle?.vehicleBr}</span>
                 </div>
-                <Overlay target={target} show={show} placement="top">
+                <Overlay target={targetBrs} show={showBrs} placement="top">
                   <Tooltip id="overlay-br">
-                    <div className="d-flex column-gap-2">
-                      <div className="d-flex flex-column">
-                        <span className="small">AB</span>
-                        <span className="text-muted">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                    <div className="d-flex flex-column">
+                      <div className="d-flex column-gap-2">
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">AB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">RB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">SB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                        </div>
                       </div>
-                      <div className="d-flex flex-column">
-                        <span className="small">RB</span>
-                        <span className="text-muted">{vehicle?.vehicleBr}</span>
-                      </div>
-                      <div className="d-flex flex-column">
-                        <span className="small">SB</span>
-                        <span className="text-muted">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
-                      </div>
+                      <span className="text-muted text-start">Battle rating</span>
                     </div>
                   </Tooltip>
                 </Overlay>
@@ -142,19 +222,19 @@ export default function Shells() {
                   <div className="d-flex flex-column">
                     <div className="d-flex column-gap-2">
                       <div className="d-flex flex-column">
-                        <span className="small">AB</span>
-                        <span className="text-muted">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                        <span className="text-muted small">AB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
                       </div>
                       <div className="d-flex flex-column">
-                        <span className="small">RB</span>
-                        <span className="text-muted">{vehicle?.vehicleBr}</span>
+                        <span className="text-muted small">RB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
                       </div>
                       <div className="d-flex flex-column">
-                        <span className="small">SB</span>
-                        <span className="text-muted">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                        <span className="text-muted small">SB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
                       </div>
                     </div>
-                    <span className="text-muted small text-start">Battle rating</span>
+                    <span className="text-muted text-start">Battle rating</span>
                   </div>
                 </Tooltip>}>
                   <div>
@@ -261,10 +341,74 @@ export default function Shells() {
 
       <h1>Shells</h1>
 
-      <p>Shells amount: {tankShells.length}</p>
+      <p>Amount of shells: {filteredShells.length}</p>
 
-      <div className="d-flex flex-column row-gap-4 tank-shells-row">
-        {tankShells.map((shell) => (
+      <Button variant="primary" onClick={handleShow} className="mb-4">
+        <span className="">Filter</span>
+      </Button>
+
+      <Offcanvas show={showFilters} onHide={handleClose} placement="bottom" className="h-50">
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Filter</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <div className="d-flex flex-wrap gap-2 mb-3">
+            <Dropdown as={ButtonGroup} onSelect={handleCategorySelect}>
+              <Dropdown.Toggle variant="secondary">
+                Category: {categoryFilter}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {categoryOptions.map((option) => (
+                  <Dropdown.Item
+                    key={option}
+                    eventKey={option}
+                    active={option === categoryFilter}
+                  >
+                    {option}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+
+            <Dropdown as={ButtonGroup} onSelect={handleFamilySelect}>
+              <Dropdown.Toggle variant="secondary">
+                Family: {familyFilter}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {familyOptions.map((option) => (
+                  <Dropdown.Item
+                    key={option}
+                    eventKey={option}
+                    active={option === familyFilter}
+                  >
+                    {option}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+
+            <Dropdown as={ButtonGroup} onSelect={handleVariantSelect}>
+              <Dropdown.Toggle variant="secondary">
+                Variant: {variantFilter}
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                {variantOptions.map((option) => (
+                  <Dropdown.Item
+                    key={option}
+                    eventKey={option}
+                    active={option === variantFilter}
+                  >
+                    {option}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
+        </Offcanvas.Body>
+      </Offcanvas>
+
+      <div className="d-flex flex-column row-gap-3 tank-shells-row">
+        {filteredShells.map((shell: TankShellDefinition) => (
           <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
             if (!nextShow && activeShellId === shell.id) {
               setActiveShellId(null)
@@ -273,7 +417,7 @@ export default function Shells() {
           }}>
             <Button
               variant="transparent"
-              className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1"
+              className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-2 px-0"
               onClick={(event) => handleShellClick(shell.id, event.currentTarget)}
             >
               <div className="shell-icon position-relative overflow-hidden">
@@ -295,6 +439,7 @@ export default function Shells() {
           </OverlayTrigger>
         ))}
       </div>
+
     </Container>
   )
 }

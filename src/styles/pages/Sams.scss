@@ -3,8 +3,8 @@
 }
 
 .spaa-sams-row .shell-icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .spaa-sams-row .btn-transparent > span {
@@ -22,7 +22,7 @@
     --bs-popover-max-width: calc(100dvw - 48px);
   }
   @media (min-width: 576px) {
-    --bs-popover-max-width: 470px;
+    --bs-popover-max-width: 300px;
   }
 }
 

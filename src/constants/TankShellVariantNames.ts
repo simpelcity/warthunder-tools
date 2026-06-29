@@ -39,5 +39,6 @@ export const tankShellVariantNames = {
 export function getTankShellVariantName(variant: TankShellVariant) {
   if (variant === 'APFSDS') return `${tankShellVariantNames[variant]} shot`
   else if (variant.toLowerCase().includes('grenade')) return tankShellVariantNames[variant]
+  else if (variant === "HE") return `${tankShellVariantNames[variant]} fragmentation shell`
   else return `${tankShellVariantNames[variant]} shell`
 }

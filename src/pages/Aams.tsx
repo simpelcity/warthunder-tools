@@ -18,6 +18,8 @@ export default function Aams() {
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
   const target = useRef(null);
+  const [showBrs, setShowBrs] = useState(false);
+  const targetBrs = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -54,6 +56,7 @@ export default function Aams() {
     setVehicle(aam?.vehicles[0] ?? null);
     setActiveAamId(aamId);
     setShow(false);
+    setShowBrs(false);
   }
 
   const popover = (aam: AamDefinition) => (
@@ -65,7 +68,7 @@ export default function Aams() {
           </div>
         </div>
 
-        <span className="fs-4 fw-bold">{aam.designation} air-to-air missiles</span>
+        <span className="fs-5 fw-bold">{aam.designation} air-to-air missiles</span>
       </Popover.Header>
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
@@ -89,7 +92,7 @@ export default function Aams() {
             </Dropdown.Menu>
           </Dropdown>
 
-          <div className="d-flex column-gap-1 align-items-center">
+          <div className="d-flex column-gap-2 align-items-center">
             <div>
               <span>Rank</span>{" "}
               <span className="font-serif">{vehicle?.vehicleRank}</span>
@@ -97,10 +100,62 @@ export default function Aams() {
 
             <span className="text-muted">•</span>
 
-            <div>
-              <span>BR</span>{" "}
-              <span>{vehicle?.vehicleBR}</span>
-            </div>
+            {isMobile ? (
+              <>
+                <div ref={targetBrs} onClick={() => setShowBrs(!showBrs)}>
+                  <span>BR</span>{" "}
+                  <span>{vehicle?.vehicleBr}</span>
+                </div>
+                <Overlay target={targetBrs} show={showBrs} placement="top">
+                  <Tooltip id="overlay-br">
+                    <div className="d-flex flex-column">
+                      <div className="d-flex column-gap-2">
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">AB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">RB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">SB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                        </div>
+                      </div>
+                      <span className="text-muted text-start">Battle rating</span>
+                    </div>
+                  </Tooltip>
+                </Overlay>
+              </>
+            ) : (
+              <>
+                <OverlayTrigger overlay={<Tooltip id="overlay-br">
+                  <div className="d-flex flex-column">
+                    <div className="d-flex column-gap-2">
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">AB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">RB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">SB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                      </div>
+                    </div>
+                    <span className="text-muted text-start">Battle rating</span>
+                  </div>
+                </Tooltip>}>
+                  <div>
+                    <span>BR</span>{" "}
+                    <span>{vehicle?.vehicleBr}</span>
+                  </div>
+                </OverlayTrigger>
+              </>
+            )}
           </div>
         </div>
 
@@ -234,7 +289,7 @@ export default function Aams() {
 
       <h1>Air-to-Air Missiles</h1>
 
-      <p>Air-to-Air Missiles amount: {aamMissiles.length}</p>
+      <p>Amount of Air-to-Air Missiles: {aamMissiles.length}</p>
 
       <div className="d-flex flex-column row-gap-4 plane-aams-row">
         {aamMissiles.map((aam) => (

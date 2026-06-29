@@ -17,6 +17,8 @@ export default function Sams() {
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
   const target = useRef(null);
+  const [showBrs, setShowBrs] = useState(false);
+  const targetBrs = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -53,10 +55,11 @@ export default function Sams() {
     setVehicle(sam?.vehicles[0] ?? null);
     setActiveSamId(samId);
     setShow(false);
+    setShowBrs(false);
   }
 
   const popover = (sam: SamDefinition) => (
-    <Popover id="sam-popover">
+    <Popover id="sam-popover" className="mb-5">
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_decor position-absolute w-100 h-100 start-0 top-0">
@@ -70,7 +73,7 @@ export default function Sams() {
           </div>
         </div>
 
-        <span className="fs-4 fw-bold">{sam.designation}</span>
+        <span className="fs-5 fw-bold">{sam.designation}</span>
       </Popover.Header>
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
@@ -101,7 +104,7 @@ export default function Sams() {
             </Dropdown.Menu>
           </Dropdown>
 
-          <div className="d-flex column-gap-1 align-items-center">
+          <div className="d-flex column-gap-2 align-items-center">
             <div>
               <span>Rank</span>{" "}
               <span className="font-serif">{vehicle?.vehicleRank}</span>
@@ -109,10 +112,62 @@ export default function Sams() {
 
             <span className="text-muted">•</span>
 
-            <div>
-              <span>BR</span>{" "}
-              <span>{vehicle?.vehicleBR}</span>
-            </div>
+            {isMobile ? (
+              <>
+                <div ref={targetBrs} onClick={() => setShowBrs(!showBrs)}>
+                  <span>BR</span>{" "}
+                  <span>{vehicle?.vehicleBr}</span>
+                </div>
+                <Overlay target={targetBrs} show={showBrs} placement="top">
+                  <Tooltip id="overlay-br">
+                    <div className="d-flex flex-column">
+                      <div className="d-flex column-gap-2">
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">AB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">RB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
+                        </div>
+                        <div className="d-flex flex-column">
+                          <span className="text-muted small">SB</span>
+                          <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                        </div>
+                      </div>
+                      <span className="text-muted text-start">Battle rating</span>
+                    </div>
+                  </Tooltip>
+                </Overlay>
+              </>
+            ) : (
+              <>
+                <OverlayTrigger overlay={<Tooltip id="overlay-br">
+                  <div className="d-flex flex-column">
+                    <div className="d-flex column-gap-2">
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">AB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">RB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="text-muted small">SB</span>
+                        <span className="fw-bold fs-6">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                      </div>
+                    </div>
+                    <span className="text-muted text-start">Battle rating</span>
+                  </div>
+                </Tooltip>}>
+                  <div>
+                    <span>BR</span>{" "}
+                    <span>{vehicle?.vehicleBr}</span>
+                  </div>
+                </OverlayTrigger>
+              </>
+            )}
           </div>
         </div>
 
@@ -286,7 +341,7 @@ export default function Sams() {
 
       <h1>Surface-to-Air Missiles</h1>
 
-      <p>Surface-to-Air Missiles amount: {samMissiles.length}</p>
+      <p>Amount of Surface-to-Air Missiles: {samMissiles.length}</p>
 
       <div className="d-flex flex-column row-gap-4 spaa-sams-row">
         {samMissiles.map((sam) => (
