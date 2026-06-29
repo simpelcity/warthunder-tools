@@ -350,6 +350,18 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 6.3,
         muzzleVelocityMs: 609,
       },
+      {
+        id: "m72_us_m3_lee",
+        vehicleId: "us_m3_lee",
+        vehicleName: "M3 Lee",
+        vehicleTechTree: "USA",
+        vehicleRank: "II",
+        vehicleBR: 2.7,
+        penetrationMm: 84,
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        muzzleVelocityMs: 588,
+      },
     ],
   },
   {
