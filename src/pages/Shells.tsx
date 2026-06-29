@@ -3,9 +3,9 @@ import { tankShells } from "@/data/TankShells"
 import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
 import { getTechTreeIcons } from '@/constants/TechTreeIcons'
-import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, SolidAP, HEFilledAP, SubCaliberAP, HighExplosive, Heat, GuidedMissiles, TechTree, Rank, BR } from '@/types/TankShells'
+import type { TankShellDefinition, TankShellPerformance } from '@/types/TankShells'
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, ButtonGroup } from 'react-bootstrap'
-import { FaArrowLeftLong, FaAngleDown, FaFilter, FaSliders } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import '@/styles/pages/Shells.scss'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
