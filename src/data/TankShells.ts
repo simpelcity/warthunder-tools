@@ -356,7 +356,7 @@ export const tankShells: TankShellDefinition[] = [
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
         vehicleRank: "II",
-        vehicleBR: 2.7,
+        vehicleBR: "2.7",
         penetrationMm: 84,
         caliberMm: 75,
         projectileMassKg: 6.3,
