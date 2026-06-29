@@ -1,16 +1,21 @@
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip } from 'react-bootstrap'
 import { useState, useEffect, useRef } from 'react'
-import { FaArrowLeftLong } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import { aamMissiles } from '@/data/AamMissiles'
 import type { AamDefinition, BaseAamVehicle } from '@/types/AamMissiles'
 import '@/styles/pages/Aams.scss'
 import { getAamIconPath } from '@/constants/AamMissileIcons'
 import { getAamVariantName } from '@/constants/AamMissileVariantNames'
+import { getTechTreeIcons } from '@/constants/TechTreeIcons'
+
+const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
 export default function Aams() {
   const [activeAamId, setActiveAamId] = useState<string | null>(null);
+  const [activeAamPlacement, setActiveAamPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<BaseAamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
   const target = useRef(null);
 
@@ -28,7 +33,17 @@ export default function Aams() {
     };
   }, []);
 
-  function handleAamClick(aamId: string) {
+  function handleAamClick(aamId: string, targetElement: HTMLButtonElement) {
+    if (isMobile) {
+      const targetRect = targetElement.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - targetRect.bottom;
+      const openUpwards = spaceBelow < MOBILE_POPOVER_HEIGHT_ESTIMATE;
+
+      setActiveAamPlacement(openUpwards ? "top-start" : "bottom-start");
+    } else {
+      setActiveAamPlacement("auto");
+    }
+
     if (activeAamId === aamId) {
       setActiveAamId(null);
       setVehicle(null);
@@ -54,17 +69,40 @@ export default function Aams() {
       </Popover.Header>
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
-        <Dropdown className="mb-2">
-          <Dropdown.Toggle variant="transparent" className="border-0 p-0 fw-medium">
-            {vehicle?.vehicleName}
-          </Dropdown.Toggle>
+        <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
+          <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
+              {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+              <span>{vehicle?.vehicleName}</span>
+              <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
+                <FaAngleDown />
+              </span>
+            </Dropdown.Toggle>
 
-          <Dropdown.Menu>
-            {aam.vehicles.map((vehicle) => (
-              <Dropdown.Item disabled className="text-light" onClick={() => setVehicle(vehicle)}>{vehicle.vehicleName}</Dropdown.Item>
-            ))}
-          </Dropdown.Menu>
-        </Dropdown>
+            <Dropdown.Menu>
+              {aam.vehicles.map((vehicle) => (
+                <Dropdown.Item className="d-flex align-items-center" onClick={() => setVehicle(vehicle)}>
+                  {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
+                  <span>{vehicle.vehicleName}</span>
+                </Dropdown.Item>
+              ))}
+            </Dropdown.Menu>
+          </Dropdown>
+
+          <div className="d-flex column-gap-1 align-items-center">
+            <div>
+              <span>Rank</span>{" "}
+              <span className="font-serif">{vehicle?.vehicleRank}</span>
+            </div>
+
+            <span className="text-muted">•</span>
+
+            <div>
+              <span>BR</span>{" "}
+              <span>{vehicle?.vehicleBR}</span>
+            </div>
+          </div>
+        </div>
 
         <ul className="list-unstyled aams-performance-list mb-0">
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
@@ -81,7 +119,6 @@ export default function Aams() {
                   <Tooltip id="overlay-name">{getAamVariantName(aam.variant).split(/([-\s]+)/).map((part, index) =>
                     /[-+\s]+/.test(part) ? (
                       <>
-                        
                         <span key={index} className="fw-normal text-muted">{part}</span>
                       </>
                     ) : (
@@ -95,7 +132,6 @@ export default function Aams() {
                 <OverlayTrigger overlay={<Tooltip id={aam.id}>{getAamVariantName(aam.variant).split(/([-\s]+)/).map((part, index) =>
                     /[-+\s]+/.test(part) ? (
                       <>
-                        
                         <span key={index} className="fw-normal text-muted">{part}</span>
                       </>
                     ) : (
@@ -184,27 +220,10 @@ export default function Aams() {
             <span className="fw-bold">TNT equivalent</span>
             <span className="text-muted">{aam.tntEquivalentKg} kg</span>
           </li>
-
-          {/* {sam.family === "Semi-Automatic" && (
-            <>
-              {vehicle?.fuzeDelayM != null && (
-                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Fuze Delay</span>
-                  <span className="text-muted">{vehicle.fuzeDelayM} m</span>
-                </li>
-              )}
-              {vehicle?.fuzeSensitivityMm != null && (
-                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Fuze Sensitivity</span>
-                  <span className="text-muted">{vehicle.fuzeSensitivityMm} mm</span>
-                </li>
-              )}
-            </>
-          )} */}
         </ul>
       </Popover.Body>
     </Popover>
-  )
+  );
 
   return (
     <Container className="p-4">
@@ -219,7 +238,7 @@ export default function Aams() {
 
       <div className="d-flex flex-column row-gap-4 plane-aams-row">
         {aamMissiles.map((aam) => (
-          <OverlayTrigger key={aam.id} trigger="click" placement={isMobile ? "bottom-start" : "auto"} show={activeAamId === aam.id} overlay={popover(aam)} rootClose onToggle={(nextShow) => {
+          <OverlayTrigger key={aam.id} trigger="click" placement={activeAamPlacement} show={activeAamId === aam.id} overlay={popover(aam)} rootClose onToggle={(nextShow) => {
             if (!nextShow && activeAamId === aam.id) {
               setActiveAamId(null);
               setVehicle(null);
@@ -229,7 +248,7 @@ export default function Aams() {
             <Button
               variant="transparent"
               className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1"
-              onClick={() => handleAamClick(aam.id)}
+              onClick={(event) => handleAamClick(aam.id, event.currentTarget)}
             >
               <div className="shell-icon position-relative overflow-hidden">
                 <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">

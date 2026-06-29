@@ -19,11 +19,17 @@
 
 #shell-popover {
   @media (max-width: 576px) {
-    --bs-popover-max-width: 560px;
+    --bs-popover-max-width: calc(100dvw - 48px);
   }
-  --bs-popover-max-width: 300px;
+  @media (min-width: 992px) {
+    --bs-popover-max-width: 300px;
+  }
 }
 
 .shells-performance-list li:last-child {
   border-bottom: 0 !important;
+}
+
+.font-serif {
+  font-family: serif !important;
 }

@@ -25,8 +25,10 @@ export const samMissiles: SamDefinition[] = [
         id: "iris_t_slm_germ_iris_slm_launcher",
         vehicleId: "germ_iris_slm_launcher",
         vehicleName: "IRIS-T SLM (TEL)",
+        vehicleTechTree: "Germany",
+        vehicleRank: "VIII",
+        vehicleBR: "12.7",
       },
-      
     ],
   },
   {
@@ -51,7 +53,10 @@ export const samMissiles: SamDefinition[] = [
         id: "vt1_germ_flarakrad",
         vehicleId: "germ_flarakrad",
         vehicleName: "FlaRakRad",
-      }
+        vehicleTechTree: "Germany",
+        vehicleRank: "VIII",
+        vehicleBR: "11.7",
+      },
     ],
   },
   {
@@ -77,6 +82,9 @@ export const samMissiles: SamDefinition[] = [
         id: "9m317ma_ussr_buk_m3_launcher",
         vehicleId: "ussr_buk_m3_launcher",
         vehicleName: '9K317M "BUK-M3" (TELAR)',
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBR: "12.7",
       },
     ],
   },

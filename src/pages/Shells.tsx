@@ -5,12 +5,17 @@ import type { TankShellDefinition, TankShellPerformance } from '@/types/TankShel
 import '@/styles/pages/Shells.scss'
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
-import { FaArrowLeftLong } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
+import { getTechTreeIcons } from '@/constants/TechTreeIcons'
+
+const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
 export default function Shells() {
   const [activeShellId, setActiveShellId] = useState<string | null>(null);
+  const [activeShellPlacement, setActiveShellPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<TankShellPerformance | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -26,7 +31,17 @@ export default function Shells() {
     };
   }, []);
 
-  function handleShellClick(shellId: string) {
+  function handleShellClick(shellId: string, targetElement: HTMLButtonElement) {
+    if (isMobile) {
+      const targetRect = targetElement.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - targetRect.bottom;
+      const openUpwards = spaceBelow < MOBILE_POPOVER_HEIGHT_ESTIMATE;
+
+      setActiveShellPlacement(openUpwards ? 'top-start' : 'bottom-start');
+    } else {
+      setActiveShellPlacement('auto');
+    }
+
     if (activeShellId === shellId) {
       setActiveShellId(null);
       setVehicle(null);
@@ -64,18 +79,42 @@ export default function Shells() {
           <span className="text-muted"> - </span>
           <span className="text-muted">{getTankShellVariantName(shell.variant)}</span>
         </div>
-        
-        <Dropdown className="mb-2">
-          <Dropdown.Toggle variant="transparent" className="border-0 p-0 fw-medium">
-            {vehicle?.vehicleName}
-          </Dropdown.Toggle>
 
-          <Dropdown.Menu className="">
-            {shell.performances.map((vehicle) => (
-              <Dropdown.Item className="" onClick={() => setVehicle(vehicle)}>{vehicle.vehicleName}</Dropdown.Item>
-            ))}
-          </Dropdown.Menu>
-        </Dropdown>
+        <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
+          <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
+              {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+              <span>{vehicle?.vehicleName}</span>
+              <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
+                <FaAngleDown />
+              </span>
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu className="">
+              {shell.performances.map((vehicle) => (
+                <Dropdown.Item className="" onClick={() => setVehicle(vehicle)}>
+                  {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
+                  <span>{vehicle.vehicleName}</span>
+                </Dropdown.Item>
+              ))}
+            </Dropdown.Menu>
+          </Dropdown>
+
+          <div className="d-flex column-gap-1 align-items-center">
+            <div>
+              <span>Rank</span>{" "}
+              <span className="font-serif">{vehicle?.vehicleRank}</span>
+            </div>
+
+            <span className="text-muted">•</span>
+
+            <div>
+              <span>BR</span>{" "}
+              <span>{vehicle?.vehicleBR}</span>
+            </div>
+          </div>
+        </div>
+        
         
         <ul className="list-unstyled shells-performance-list mb-0">
           <li className="d-flex flex-column pb-1 mb-1 border-bottom column-gap-2">
@@ -90,7 +129,15 @@ export default function Shells() {
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Projectile Mass</span>
-            <span className="text-muted">{vehicle ? vehicle.projectileMassKg : undefined} kg</span>
+            <span className="text-muted">{vehicle?.projectileMassKg ? (vehicle?.projectileMassKg * 1000) >= 1000 ? (
+              <>
+                {vehicle?.projectileMassKg} kg
+              </>
+            ) : (
+              <>
+                {vehicle?.projectileMassKg * 1000} g
+              </>
+            ) : undefined}</span>
           </li>
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
@@ -166,7 +213,7 @@ export default function Shells() {
 
       <div className="d-flex flex-column row-gap-4 tank-shells-row">
         {tankShells.map((shell) => (
-          <OverlayTrigger key={shell.id} trigger="click" placement={isMobile ? 'bottom-start' : 'auto'} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
+          <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
             if (!nextShow && activeShellId === shell.id) {
               setActiveShellId(null)
               setVehicle(null)
@@ -175,7 +222,7 @@ export default function Shells() {
             <Button
               variant="transparent"
               className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1"
-              onClick={() => handleShellClick(shell.id)}
+              onClick={(event) => handleShellClick(shell.id, event.currentTarget)}
             >
               <div className="shell-icon position-relative overflow-hidden">
                 {shell.armor && shell.damage && (

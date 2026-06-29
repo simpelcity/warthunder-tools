@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "Animations";
 
 body {
   background-color: $body-bg;
@@ -28,4 +29,8 @@ h6 {
 
 html {
   scroll-behavior: smooth;
+}
+
+.vehicle-dropdown .dropdown-toggle::after {
+  content: none;
 }

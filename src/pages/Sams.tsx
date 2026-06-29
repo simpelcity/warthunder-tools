@@ -4,12 +4,17 @@ import { samMissiles } from '@/data/SamMissiles'
 import type { SamDefinition, BaseSamVehicle } from '@/types/SamMissiles'
 import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
-import { FaArrowLeftLong, FaCircleCheck } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
+import { getTechTreeIcons } from '@/constants/TechTreeIcons'
+
+const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
 export default function Sams() {
   const [activeSamId, setActiveSamId] = useState<string | null>(null);
+  const [activeSamPlacement, setActiveSamPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<BaseSamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
   const target = useRef(null);
 
@@ -27,7 +32,17 @@ export default function Sams() {
     };
   }, []);
 
-  function handleSamClick(samId: string) {
+  function handleSamClick(samId: string, targetElement: HTMLButtonElement) {
+    if (isMobile) {
+      const targetRect = targetElement.getBoundingClientRect();
+      const spaceBelow = window.innerHeight - targetRect.bottom;
+      const openUpwards = spaceBelow < MOBILE_POPOVER_HEIGHT_ESTIMATE;
+
+      setActiveSamPlacement(openUpwards ? "top-start" : "bottom-start");
+    } else {
+      setActiveSamPlacement("auto");
+    }
+
     if (activeSamId === samId) {
       setActiveSamId(null);
       setVehicle(null);
@@ -66,17 +81,40 @@ export default function Sams() {
           {/* <span className="text-muted">{getSamMissileVariantName(sam.variant)}</span> */}
         </div>
 
-        <Dropdown className="mb-2">
-          <Dropdown.Toggle variant="transparent" className="border-0 p-0 fw-medium">
-            {vehicle?.vehicleName}
-          </Dropdown.Toggle>
+        <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
+          <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
+              {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+              <span>{vehicle?.vehicleName}</span>
+              <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
+                <FaAngleDown />
+              </span>
+            </Dropdown.Toggle>
 
-          <Dropdown.Menu>
-            {sam.vehicles.map((vehicle) => (
-              <Dropdown.Item className="" onClick={() => setVehicle(vehicle)}>{vehicle.vehicleName}</Dropdown.Item>
-            ))}
-          </Dropdown.Menu>
-        </Dropdown>
+            <Dropdown.Menu>
+              {sam.vehicles.map((vehicle) => (
+                <Dropdown.Item className="d-flex align-items-center" onClick={() => setVehicle(vehicle)}>
+                  {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
+                  <span>{vehicle.vehicleName}</span>
+                </Dropdown.Item>
+              ))}
+            </Dropdown.Menu>
+          </Dropdown>
+
+          <div className="d-flex column-gap-1 align-items-center">
+            <div>
+              <span>Rank</span>{" "}
+              <span className="font-serif">{vehicle?.vehicleRank}</span>
+            </div>
+
+            <span className="text-muted">•</span>
+
+            <div>
+              <span>BR</span>{" "}
+              <span>{vehicle?.vehicleBR}</span>
+            </div>
+          </div>
+        </div>
 
         <ul className="list-unstyled sams-performance-list mb-0">
           {(sam.family === "Semi-Automatic" || sam.family === "Beam riding") && (
@@ -119,7 +157,6 @@ export default function Sams() {
                   <Tooltip id="overlay-name">{getSamVariantName(sam.variant).split(/([-\s]+)/).map((part, index) =>
                     /[-+\s]+/.test(part) ? (
                       <>
-                        
                         <span key={index} className="fw-normal text-muted">{part}</span>
                       </>
                     ) : (
@@ -133,7 +170,6 @@ export default function Sams() {
                   <OverlayTrigger overlay={<Tooltip id={sam.id}>{getSamVariantName(sam.variant).split(/([-\s]+)/).map((part, index) =>
                     /[-+\s]+/.test(part) ? (
                       <>
-
                         <span key={index} className="fw-normal text-muted">{part}</span>
                       </>
                     ) : (
@@ -254,7 +290,7 @@ export default function Sams() {
 
       <div className="d-flex flex-column row-gap-4 spaa-sams-row">
         {samMissiles.map((sam) => (
-          <OverlayTrigger key={sam.id} trigger="click" placement={isMobile ? 'bottom-start' : 'auto'} show={activeSamId === sam.id} overlay={popover(sam)} rootClose onToggle={(nextShow) => {
+          <OverlayTrigger key={sam.id} trigger="click" placement={activeSamPlacement} show={activeSamId === sam.id} overlay={popover(sam)} rootClose onToggle={(nextShow) => {
             if (!nextShow && activeSamId === sam.id) {
               setActiveSamId(null);
               setVehicle(null);
@@ -263,7 +299,7 @@ export default function Sams() {
             <Button
               variant="transparent"
               className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1"
-              onClick={() => handleSamClick(sam.id)}
+              onClick={(event) => handleSamClick(sam.id, event.currentTarget)}
             >
               <div className="shell-icon position-relative overflow-hidden">
                 <div className="shell-icon_decor position-absolute w-100 h-100 start-0 top-0">
