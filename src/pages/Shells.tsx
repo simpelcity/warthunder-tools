@@ -3,8 +3,8 @@ import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
 import type { TankShellDefinition, TankShellPerformance } from '@/types/TankShells'
 import '@/styles/pages/Shells.scss'
-import { Container, Image, Button, Popover, OverlayTrigger, Dropdown } from 'react-bootstrap'
-import { useState, useEffect } from 'react'
+import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip } from 'react-bootstrap'
+import { useState, useEffect, useRef } from 'react'
 import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import { getTechTreeIcons } from '@/constants/TechTreeIcons'
 
@@ -16,6 +16,8 @@ export default function Shells() {
   const [vehicle, setVehicle] = useState<TankShellPerformance | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 576px)');
@@ -51,6 +53,7 @@ export default function Shells() {
     const shell = tankShells.find((shell) => shell.id === shellId);
     setVehicle(shell?.performances[0] ?? null);
     setActiveShellId(shellId);
+    setShow(false);
   }
 
   const popover = (shell: TankShellDefinition) => (
@@ -108,10 +111,59 @@ export default function Shells() {
 
             <span className="text-muted">•</span>
 
-            <div>
-              <span>BR</span>{" "}
-              <span>{vehicle?.vehicleBR}</span>
-            </div>
+            {isMobile ? (
+              <>
+                <div ref={target} onClick={() => setShow(!show)}>
+                  <span>BR</span>{" "}
+                  <span>{vehicle?.vehicleBr}</span>
+                </div>
+                <Overlay target={target} show={show} placement="top">
+                  <Tooltip id="overlay-br">
+                    <div className="d-flex column-gap-2">
+                      <div className="d-flex flex-column">
+                        <span className="small">AB</span>
+                        <span className="text-muted">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="small">RB</span>
+                        <span className="text-muted">{vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="small">SB</span>
+                        <span className="text-muted">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                      </div>
+                    </div>
+                  </Tooltip>
+                </Overlay>
+              </>
+            ) : (
+              <>
+                <OverlayTrigger overlay={<Tooltip id="overlay-br">
+                  <div className="d-flex flex-column">
+                    <div className="d-flex column-gap-2">
+                      <div className="d-flex flex-column">
+                        <span className="small">AB</span>
+                        <span className="text-muted">{vehicle?.vehicleBrAB ? vehicle.vehicleBrAB : vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="small">RB</span>
+                        <span className="text-muted">{vehicle?.vehicleBr}</span>
+                      </div>
+                      <div className="d-flex flex-column">
+                        <span className="small">SB</span>
+                        <span className="text-muted">{vehicle?.vehicleBrSB ? vehicle.vehicleBrSB : vehicle?.vehicleBr}</span>
+                      </div>
+                    </div>
+                    <span className="text-muted small text-start">Battle rating</span>
+                  </div>
+                </Tooltip>}>
+                  <div>
+                    <span>BR</span>{" "}
+                    <span>{vehicle?.vehicleBr}</span>
+                  </div>
+                </OverlayTrigger>
+              </>
+            )}
           </div>
         </div>
         

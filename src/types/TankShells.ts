@@ -56,7 +56,9 @@ export interface TankShellPerformance {
 	vehicleName: string;
   vehicleTechTree?: TechTree;
   vehicleRank?: Rank;
-  vehicleBR?: BR;
+  vehicleBr?: BR;
+  vehicleBrAB?: BR;
+  vehicleBrSB?: BR;
 	penetrationMm: number;
 	caliberMm: number;
   projectileMassKg: number;
