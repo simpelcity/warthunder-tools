@@ -358,6 +358,15 @@ export default function Shells() {
     setShowBrs(false);
   }
 
+  // async function getData(id: string) {
+  //   const res = await fetch(`https://wtvehiclesapi.duckdns.org/api/vehicles/${id}`);
+  //   if (!res.status) return;
+  //   const data = await res.json();
+  //   console.log(data);
+  // }
+
+  // getData("us_m4a1_1942_sherman")
+
   const popover = (shell: TankShellDefinition) => (
     <Popover className="shell-popover" id={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
