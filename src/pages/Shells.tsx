@@ -586,7 +586,7 @@ export default function Shells() {
             show={showFilters}
             onHide={handleCloseFiltersMobile}
             placement="bottom"
-            className="shells-mobile-filters h-100"
+            className="shells-mobile-filters h-100 w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Filter Shells</Offcanvas.Title>
@@ -751,7 +751,8 @@ export default function Shells() {
           <Offcanvas
             show={showVehiclePicker}
             onHide={() => setShowVehiclePicker(false)}
-            placement="end"
+            placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
@@ -788,7 +789,8 @@ export default function Shells() {
           <Offcanvas
             show={showShellPicker}
             onHide={() => setShowShellPicker(false)}
-            placement="end"
+            placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Shell</Offcanvas.Title>
