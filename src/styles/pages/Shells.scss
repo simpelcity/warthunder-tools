@@ -19,7 +19,7 @@
   height: 50px;
 }
 
-#shell-popover {
+.shell-popover {
   @media (max-width: 576px) {
     --bs-popover-max-width: calc(100dvw - 48px);
   }

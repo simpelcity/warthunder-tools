@@ -359,7 +359,7 @@ export default function Shells() {
   }
 
   const popover = (shell: TankShellDefinition) => (
-    <Popover id="shell-popover">
+    <Popover className="shell-popover" id={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           {shell.armor && shell.damage && (
@@ -397,7 +397,7 @@ export default function Shells() {
 
             <Dropdown.Menu className="">
               {shell.performances.map((vehicle) => (
-                <Dropdown.Item className="d-flex" onClick={() => setVehicle(vehicle)}>
+                <Dropdown.Item className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
                   {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
                 </Dropdown.Item>
@@ -1054,6 +1054,7 @@ export default function Shells() {
                     <Button
                       variant="transparent"
                       className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-2 px-0"
+                      id={shell.id}
                       onClick={(event) => handleShellClick(shell.id, event.currentTarget)}
                     >
                       <div className="shell-icon position-relative overflow-hidden">
@@ -1169,6 +1170,7 @@ export default function Shells() {
                 variant="transparent"
                 className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-2 px-0"
                 onClick={(event) => handleShellClick(shell.id, event.currentTarget)}
+                id={shell.id}
               >
                 <div className="shell-icon position-relative overflow-hidden">
                   {shell.armor && shell.damage && (
