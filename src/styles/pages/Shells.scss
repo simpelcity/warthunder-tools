@@ -1,3 +1,5 @@
+@use "../variables" as *;
+
 .tank-shells-row .btn-transparent {
   width: fit-content;
 }
@@ -32,4 +34,113 @@
 
 .font-serif {
   font-family: serif !important;
+}
+
+.font-sans {
+  font-family: "IBM Plex Sans" !important;
+}
+
+.shells-filter-bar,
+.shells-mobile-filter-bar {
+  top: 12px;
+}
+
+.shells-desktop-layout {
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+.shells-desktop-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.375rem;
+  padding: 1rem;
+  height: calc(100dvh - 3rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.shells-sidebar-scroll {
+  overflow: auto;
+  padding-right: 0.375rem;
+}
+
+.shells-sidebar-section {
+  margin-bottom: 1rem;
+}
+
+.shells-sidebar-title {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.shells-sidebar-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.shells-sidebar-options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.shells-sidebar-search {
+  margin-bottom: 0.5rem;
+  &:focus {
+    border-color: $primary !important;
+  }
+}
+
+.shells-sidebar-option {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  transition: color 0.15s ease;
+  width: fit-content;
+}
+
+.shells-sidebar-option:hover {
+  color: $info !important;
+}
+
+.shells-sidebar-option.is-active {
+  color: $info !important;
+  font-weight: bold;
+}
+
+.shells-sidebar-more {
+  margin-top: 8px;
+  background: transparent;
+  color: $info !important;
+  border: 0;
+  padding: 0;
+  & > span {
+    color: $info !important;
+  }
+}
+
+.shells-sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  background: $body-bg;
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .shells-desktop-layout {
+    grid-template-columns: 1fr;
+  }
 }

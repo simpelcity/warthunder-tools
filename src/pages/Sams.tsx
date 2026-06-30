@@ -107,7 +107,7 @@ export default function Sams() {
           <div className="d-flex column-gap-2 align-items-center">
             <div>
               <span>Rank</span>{" "}
-              <span className="font-serif">{vehicle?.vehicleRank}</span>
+              <span className="font-sans fw-normal">{vehicle?.vehicleRank}</span>
             </div>
 
             <span className="text-muted">•</span>
