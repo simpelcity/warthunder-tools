@@ -95,7 +95,7 @@ export interface BaseSamVehicle {
   vehicleId: string;
   vehicleName: string;
   vehicleTechTree?: TechTree;
-  vehicleCountry?: Countries;
+  vehicleOperator?: Countries;
   vehicleRank?: Rank;
   vehicleBr?: BR;
   vehicleBrAB?: BR;
@@ -104,52 +104,52 @@ export interface BaseSamVehicle {
 
 export interface USASamVehicle extends BaseSamVehicle {
   vehicleTechTree: "USA";
-  vehicleCountry?: CountriesUSA;
+  vehicleOperator?: CountriesUSA;
 }
 
 export interface GermanySamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Germany";
-  vehicleCountry?: CountriesGermany;
+  vehicleOperator?: CountriesGermany;
 }
 
 export interface USSRSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "USSR";
-  vehicleCountry?: CountriesUSSR;
+  vehicleOperator?: CountriesUSSR;
 }
 
 export interface GreatBritainSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Great Britain";
-  vehicleCountry?: CountriesGreatBritain;
+  vehicleOperator?: CountriesGreatBritain;
 }
 
 export interface JapanSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Japan";
-  vehicleCountry?: CountriesJapan;
+  vehicleOperator?: CountriesJapan;
 }
 
 export interface ChinaSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "China";
-  vehicleCountry?: CountriesChina;
+  vehicleOperator?: CountriesChina;
 }
 
 export interface ItalySamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Italy";
-  vehicleCountry?: CountriesItaly;
+  vehicleOperator?: CountriesItaly;
 }
 
 export interface FranceSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "France";
-  vehicleCountry?: CountriesFrance;
+  vehicleOperator?: CountriesFrance;
 }
 
 export interface SwedenSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Sweden";
-  vehicleCountry?: CountriesSweden;
+  vehicleOperator?: CountriesSweden;
 }
 
 export interface IsraelSamVehicle extends BaseSamVehicle {
   vehicleTechTree: "Israel";
-  vehicleCountry?: CountriesIsrael;
+  vehicleOperator?: CountriesIsrael;
 }
 
 export type USASamDefinition = SamMissile & {

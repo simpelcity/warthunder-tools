@@ -408,7 +408,7 @@ export default function Shells() {
   // getData("us_m4a1_1942_sherman")
 
   const popover = (shell: TankShellDefinition) => (
-    <Popover className="shell-popover" id={`${vehicle?.id}_popover`}>
+    <Popover id="shell-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           {shell.armor && shell.damage && (
@@ -437,7 +437,7 @@ export default function Shells() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} height={24} className="me-1" />}
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
                 <FaAngleDown />
@@ -447,7 +447,7 @@ export default function Shells() {
             <Dropdown.Menu className="">
               {shell.performances.map((vehicle) => (
                 <Dropdown.Item className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} width={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={24} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
@@ -588,7 +588,7 @@ export default function Shells() {
                 </>
               ) : (
                 <>
-                  {vehicle.tntEquivalentKg * 1000} g
+                    {Math.round((vehicle.tntEquivalentKg * 1000) * 100) / 100} g
                 </>
               )}</span>
             </li>

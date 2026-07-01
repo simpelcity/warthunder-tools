@@ -60,7 +60,7 @@ export default function Aams() {
   }
 
   const popover = (aam: AamDefinition) => (
-    <Popover id="aam-popover">
+    <Popover id="aam-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
@@ -75,7 +75,7 @@ export default function Aams() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} height={24} className="me-1" />}
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
               <span>{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
                 <FaAngleDown />
@@ -85,7 +85,7 @@ export default function Aams() {
             <Dropdown.Menu>
               {aam.vehicles.map((vehicle) => (
                 <Dropdown.Item className="d-flex align-items-center" onClick={() => setVehicle(vehicle)}>
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} width={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={24} className="me-1" />}
                   <span>{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}

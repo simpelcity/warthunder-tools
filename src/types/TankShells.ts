@@ -12,7 +12,7 @@ export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | 
 export type Heat = "HEAT" | "HEATFS" | "HEAT MP" | "HEAT-Grenade";
 export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE";
 
-export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1";
+export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1" | "A-IX-2";
 
 export type Armor = "armor_vsmall" | "armor_small" | "armor_middle" | "armor_big";
 
@@ -22,7 +22,7 @@ export type TechTree = "USA" | "Germany" | "USSR" | "Great Britain" | "Japan" | 
 export type Rank = "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII";
 export type BR = "1.0" | "1.3" | "1.7" | "2.0" | "2.3" | "2.7" | "3.0" | "3.3" | "3.7" | "4.0" | "4.3" | "4.7" | "5.0" | "5.3" | "5.7" | "6.0" | "6.3" | "6.7" | "7.0" | "7.3" | "7.7" | "8.0" | "8.3" | "8.7" | "9.0" | "9.3" | "9.7" | "10.0" | "10.3" | "10.7" | "11.0" | "11.3" | "11.7" | "12.0" | "12.3" | "12.7";
 
-export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines";
+export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines" | "China" | "Great Britain" | "Israel";
 export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "Germany (modern)" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
 export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
 export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
@@ -105,7 +105,7 @@ export interface TankShellPerformance {
 	vehicleId: string;
 	vehicleName: string;
   vehicleTechTree?: TechTree;
-  vehicleCountry?: Countries;
+  vehicleOperator?: Countries;
   vehicleRank?: Rank;
   vehicleBr?: BR;
   vehicleBrAB?: BR;
@@ -119,56 +119,59 @@ export interface TankShellPerformance {
 	explosiveMassKg?: number;
   explosiveType?: ShellExplosiveType;
 	tntEquivalentKg?: number;
+  smokeRadiusM?: number;
+  smokeScreeningTimeS?: number;
+  smokeHoldTimeS?: number;
 }
 
 export interface USATankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "USA";
-  vehicleCountry?: CountriesUSA;
+  vehicleOperator?: CountriesUSA;
 }
 
 export interface GermanyTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Germany";
-  vehicleCountry?: CountriesGermany;
+  vehicleOperator?: CountriesGermany;
 }
 
 export interface USSRTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "USSR";
-  vehicleCountry?: CountriesUSSR;
+  vehicleOperator?: CountriesUSSR;
 }
 
 export interface GreatBritainTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Great Britain";
-  vehicleCountry?: CountriesGreatBritain;
+  vehicleOperator?: CountriesGreatBritain;
 }
 
 export interface JapanTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Japan";
-  vehicleCountry?: CountriesJapan;
+  vehicleOperator?: CountriesJapan;
 }
 
 export interface ChinaTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "China";
-  vehicleCountry?: CountriesChina;
+  vehicleOperator?: CountriesChina;
 }
 
 export interface ItalyTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Italy";
-  vehicleCountry?: CountriesItaly;
+  vehicleOperator?: CountriesItaly;
 }
 
 export interface FranceTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "France";
-  vehicleCountry?: CountriesFrance;
+  vehicleOperator?: CountriesFrance;
 }
 
 export interface SwedenTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Sweden";
-  vehicleCountry?: CountriesSweden;
+  vehicleOperator?: CountriesSweden;
 }
 
 export interface IsraelTankShellPerformance extends TankShellPerformance {
   vehicleTechTree: "Israel";
-  vehicleCountry?: CountriesIsrael;
+  vehicleOperator?: CountriesIsrael;
 }
 
 export type USATankShellDefinition = TankShell & {

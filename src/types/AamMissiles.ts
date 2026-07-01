@@ -125,7 +125,7 @@ export interface BaseAamVehicle {
   vehicleId: string;
   vehicleName: string;
   vehicleTechTree?: TechTree;
-  vehicleCountry?: Countries;
+  vehicleOperator?: Countries;
   vehicleRank?: Rank;
   vehicleBr?: BR;
   vehicleBrAB?: BR;
@@ -135,52 +135,52 @@ export interface BaseAamVehicle {
 
 export interface USAAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "USA";
-  vehicleCountry?: CountriesUSA;
+  vehicleOperator?: CountriesUSA;
 }
 
 export interface GermanyAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Germany";
-  vehicleCountry?: CountriesGermany;
+  vehicleOperator?: CountriesGermany;
 }
 
 export interface USSRAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "USSR";
-  vehicleCountry?: CountriesUSSR;
+  vehicleOperator?: CountriesUSSR;
 }
 
 export interface GreatBritainAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Great Britain";
-  vehicleCountry?: CountriesGreatBritain;
+  vehicleOperator?: CountriesGreatBritain;
 }
 
 export interface JapanAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Japan";
-  vehicleCountry?: CountriesJapan;
+  vehicleOperator?: CountriesJapan;
 }
 
 export interface ChinaAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "China";
-  vehicleCountry?: CountriesChina;
+  vehicleOperator?: CountriesChina;
 }
 
 export interface ItalyAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Italy";
-  vehicleCountry?: CountriesItaly;
+  vehicleOperator?: CountriesItaly;
 }
 
 export interface FranceAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "France";
-  vehicleCountry?: CountriesFrance;
+  vehicleOperator?: CountriesFrance;
 }
 
 export interface SwedenAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Sweden";
-  vehicleCountry?: CountriesSweden;
+  vehicleOperator?: CountriesSweden;
 }
 
 export interface IsraelAamVehicle extends BaseAamVehicle {
   vehicleTechTree: "Israel";
-  vehicleCountry?: CountriesIsrael;
+  vehicleOperator?: CountriesIsrael;
 }
 
 export type USAAamDefinition = AamMissile & {

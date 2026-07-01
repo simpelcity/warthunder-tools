@@ -82,8 +82,8 @@ const techTreeFallback: Record<TechTree, string> = {
   Israel: "israel",
 };
 
-export function getCountryIcons(vehicle: { vehicleTechTree: TechTree, vehicleCountry?: Countries }) {
-  const fileName = countryIconFile[vehicle?.vehicleCountry ? vehicle.vehicleCountry : vehicle.vehicleTechTree] ?? techTreeFallback[vehicle.vehicleTechTree] ?? "country_usa.svg";
-  if (vehicle.vehicleCountry === "Serbia") return `${WT_SKIN_BASE}/${fileName}.svg`;
+export function getCountryIcons(vehicle: { vehicleTechTree: TechTree, vehicleOperator?: Countries }) {
+  const fileName = countryIconFile[vehicle?.vehicleOperator ? vehicle.vehicleOperator : vehicle.vehicleTechTree] ?? techTreeFallback[vehicle.vehicleTechTree] ?? "country_usa.svg";
+  if (vehicle.vehicleOperator === "Serbia") return `${WT_SKIN_BASE}/${fileName}.svg`;
   else return `${WT_SKIN_BASE}/country_${fileName}.svg`;
 }
