@@ -6,7 +6,7 @@ import type { AamDefinition, BaseAamVehicle } from '@/types/AamMissiles'
 import '@/styles/pages/Aams.scss'
 import { getAamIconPath } from '@/constants/AamMissileIcons'
 import { getAamVariantName } from '@/constants/AamMissileVariantNames'
-import { getCountryIcons } from '@/src/constants/CountryIcons'
+import { getCountryIcons } from '@/constants/CountryIcons'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 

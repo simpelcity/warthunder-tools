@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { tankShells } from "@/data/TankShells"
 import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
-import { getCountryIcons } from '@/src/constants/CountryIcons'
+import { getCountryIcons } from '@/constants/CountryIcons'
 import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, TankShellVariant, Rank, BR } from '@/types/TankShells'
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'

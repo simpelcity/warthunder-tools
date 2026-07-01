@@ -5,7 +5,7 @@ import type { SamDefinition, BaseSamVehicle } from '@/types/SamMissiles'
 import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
 import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
-import { getCountryIcons } from '@/src/constants/CountryIcons'
+import { getCountryIcons } from '@/constants/CountryIcons'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
