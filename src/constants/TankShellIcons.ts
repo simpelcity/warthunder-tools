@@ -9,7 +9,7 @@ const variantIconFile: Partial<Record<TankShellVariant, string>> = {
 	APCBC: "apcbc_tank.png",
 	APCR: "apcr_tank.png",
 	APDS: "apds_tank.png",
-	APFSDS: "apfsds_tank.png",
+	APFSDS: "apdsfs_tank.png",
 	APHE: "aphe_tank.png",
 	APHEBC: "aphebc_tank.png",
 	AC: "ac_shell_tank.png",
