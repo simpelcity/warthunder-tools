@@ -7,7 +7,6 @@ import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, Ch
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import { FiSliders } from "react-icons/fi";
-// import { IoSearch } from "react-icons/io5";
 import '@/styles/pages/Shells.scss'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
