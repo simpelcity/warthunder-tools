@@ -2,7 +2,7 @@ import type { TankShellDefinition } from "@/types/TankShells";
 
 export const tankShells: TankShellDefinition[] = [
 	{
-		id: "37mm_m74",
+		id: "37mm_m74_shot",
     designation: "M74 shot",
     category: "Kinetic",
     family: "Solid-AP",
@@ -11,7 +11,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_middle",
     performances: [
       {
-        id: "37mm_m74_us_m2a4",
+        id: "37mm_m74_shot_us_m2a4",
         vehicleId: "us_m2a4",
         vehicleName: "M2A4",
         vehicleTechTree: "USA",
@@ -23,7 +23,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m74_us_m2_medium",
+        id: "37mm_m74_shot_us_m2_medium",
         vehicleId: "us_m2_medium",
         vehicleName: "M2",
         vehicleTechTree: "USA",
@@ -35,7 +35,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m74_us_m2a4_1st_armor_div",
+        id: "37mm_m74_shot_us_m2a4_1st_armor_div",
         vehicleId: "us_m2a4_1st_armor_div",
         vehicleName: "M2A4 (1st Arm.Div.)",
         vehicleTechTree: "USA",
@@ -47,7 +47,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m74_us_m3_stuart",
+        id: "37mm_m74_shot_us_m3_stuart",
         vehicleId: "us_m3_stuart",
         vehicleName: "M3 Stuart",
         vehicleTechTree: "USA",
@@ -59,7 +59,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m74_us_m3_lee",
+        id: "37mm_m74_shot_us_m3_lee",
         vehicleId: "us_m3_lee",
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
@@ -73,7 +73,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
 	},
   {
-    id: "37mm_m51b1",
+    id: "37mm_m51b1_shot",
     designation: "M51B1 shot",
     category: "Kinetic",
     family: "Solid-AP",
@@ -82,7 +82,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_big",
     performances: [
       {
-        id: "37mm_m51b1_us_m2a4",
+        id: "37mm_m51b1_shot_us_m2a4",
         vehicleId: "us_m2a4",
         vehicleName: "M2A4",
         vehicleTechTree: "USA",
@@ -94,7 +94,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m51b1_us_m2_medium",
+        id: "37mm_m51b1_shot_us_m2_medium",
         vehicleId: "us_m2_medium",
         vehicleName: "M2",
         vehicleTechTree: "USA",
@@ -106,7 +106,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_lvt_a_1",
+        id: "37mm_m51b1_shot_us_lvt_a_1",
         vehicleId: "us_lvt_a_1",
         vehicleName: "LVT(A)(1)",
         vehicleTechTree: "USA",
@@ -118,7 +118,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_m2a4_1st_armor_div",
+        id: "37mm_m51b1_shot_us_m2a4_1st_armor_div",
         vehicleId: "us_m2a4_1st_armor_div",
         vehicleName: "M2A4 (1st Arm.Div.)",
         vehicleTechTree: "USA",
@@ -130,7 +130,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m51b1_us_lvt_a_1_trb",
+        id: "37mm_m51b1_shot_us_lvt_a_1_trb",
         vehicleId: "us_us_lvt_a_1_trb",
         vehicleName: "○LVT(A)(1)",
         vehicleTechTree: "USA",
@@ -142,7 +142,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_m3_stuart",
+        id: "37mm_m51b1_shot_us_m3_stuart",
         vehicleId: "us_m3_stuart",
         vehicleName: "M3 Stuart",
         vehicleTechTree: "USA",
@@ -154,7 +154,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 870,
       },
       {
-        id: "37mm_m51b1_us_m22_locust",
+        id: "37mm_m51b1_shot_us_m22_locust",
         vehicleId: "us_m22_locust",
         vehicleName: "M22",
         vehicleTechTree: "USA",
@@ -166,7 +166,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_m3a1_stuart",
+        id: "37mm_m51b1_shot_us_m3a1_stuart",
         vehicleId: "us_m3a1_stuart",
         vehicleName: "M3A1 Stuart",
         vehicleTechTree: "USA",
@@ -178,7 +178,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_m5a1_stuart",
+        id: "37mm_m51b1_shot_us_m5a1_stuart",
         vehicleId: "us_m5a1_stuart",
         vehicleName: "M5A1",
         vehicleTechTree: "USA",
@@ -190,7 +190,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m51b1_us_m3_lee",
+        id: "37mm_m51b1_shot_us_m3_lee",
         vehicleId: "us_m3_lee",
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
@@ -204,7 +204,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "37mm_m74b1",
+    id: "37mm_m74b1_shot",
     designation: "M74B1 shot",
     category: "Kinetic",
     family: "Solid-AP",
@@ -213,7 +213,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_middle",
     performances: [
       {
-        id: "37mm_m74b1_us_lvt_a_1",
+        id: "37mm_m74b1_shot_us_lvt_a_1",
         vehicleId: "us_lvt_a_1",
         vehicleName: "LVT(A)(1)",
         vehicleTechTree: "USA",
@@ -225,7 +225,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m74b1_us_lvt_a_1_trb",
+        id: "37mm_m74b1_shot_us_lvt_a_1_trb",
         vehicleId: "us_us_lvt_a_1_trb",
         vehicleName: "○LVT(A)(1)",
         vehicleTechTree: "USA",
@@ -237,7 +237,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m74b1_us_m22_locust",
+        id: "37mm_m74b1_shot_us_m22_locust",
         vehicleId: "us_m22_locust",
         vehicleName: "M22",
         vehicleTechTree: "USA",
@@ -249,7 +249,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m74b1_us_m3a1_stuart",
+        id: "37mm_m74b1_shot_us_m3a1_stuart",
         vehicleId: "us_m3a1_stuart",
         vehicleName: "M3A1 Stuart",
         vehicleTechTree: "USA",
@@ -261,7 +261,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 883,
       },
       {
-        id: "37mm_m74b1_us_m5a1_stuart",
+        id: "37mm_m74b1_shot_us_m5a1_stuart",
         vehicleId: "us_m5a1_stuart",
         vehicleName: "M5A1",
         vehicleTechTree: "USA",
@@ -275,7 +275,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "37mm_m63",
+    id: "37mm_m63_shell",
     designation: "M63 shell",
     category: "Kinetic",
     family: "HE-filled-AP",
@@ -284,7 +284,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_small",
     performances: [
       {
-        id: "37mm_m63_us_m22_locust",
+        id: "37mm_m63_shell_us_m22_locust",
         vehicleId: "us_m33_locust",
         vehicleName: "M22",
         vehicleTechTree: "USA",
@@ -300,7 +300,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.038,
       },
       {
-        id: "37mm_m63_us_m5a1_stuart",
+        id: "37mm_m63_shell_us_m5a1_stuart",
         vehicleId: "us_m5a1_stuart",
         vehicleName: "M5A1",
         vehicleTechTree: "USA",
@@ -343,6 +343,23 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.453,
         tntEquivalentKg: 0.548,
       },
+      {
+        id: "75mm_m66_us_lvt_a_4",
+        vehicleId: "us_lvt_a_4",
+        vehicleName: "LVT(A)(4)",
+        vehicleTechTree: "USA",
+        vehicleRank: "I",
+        vehicleBr: "1.3",
+        penetrationMm: 89,
+        caliberMm: 75,
+        projectileMassKg: 6,
+        muzzleVelocityMs: 304,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Pentolite",
+        explosiveMassKg: 0.453,
+        tntEquivalentKg: 0.548,
+      },
     ],
   },
   {
@@ -368,10 +385,26 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05,
       },
+      {
+        id: "75mm_m64_us_lvt_a_4",
+        vehicleId: "us_lvt_a_4",
+        vehicleName: "LVT(A)(4)",
+        vehicleTechTree: "USA",
+        vehicleRank: "I",
+        vehicleBr: "1.3",
+        penetrationMm: 3,
+        caliberMm: 75,
+        projectileMassKg: 6.9,
+        muzzleVelocityMs: 603,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05,
+      },
     ],
   },
   {
-    id: "75mm_m48",
+    id: "75mm_m48_shell",
     designation: "M48 shell",
     category: "Chemical",
     family: "High-Explosive",
@@ -380,7 +413,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_vsmall",
     performances: [
       {
-        id: "75mm_m48_us_m8_scott",
+        id: "75mm_m48_shell_us_m8_scott",
         vehicleId: "us_m8_scott",
         vehicleName: "M8 HMC",
         vehicleTechTree: "USA",
@@ -396,7 +429,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.666,
       },
       {
-        id: "75mm_m48_us_halftrack_m3_75mm_gmc",
+        id: "75mm_m48_shell_us_halftrack_m3_75mm_gmc",
         vehicleId: "us_halftrack_m3_75mm_gmc",
         vehicleName: "M3 GMC",
         vehicleTechTree: "USA",
@@ -412,7 +445,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.666,
       },
       {
-        id: "75mm_m48_us_m3_lee",
+        id: "75mm_m48_shell_us_m3_lee",
         vehicleId: "us_m3_lee",
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
@@ -428,7 +461,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.666,
       },
       {
-        id: "75mm_m48_us_m4a1_1942_sherman",
+        id: "75mm_m48_shell_us_m4a1_1942_sherman",
         vehicleId: "us_m4a1_1942_sherman",
         vehicleName: "M4A1",
         vehicleTechTree: "USA",
@@ -444,7 +477,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.666,
       },
       {
-        id: "75mm_m48_us_m4_sherman",
+        id: "75mm_m48_shell_us_m4_sherman",
         vehicleId: "us_m4_sherman",
         vehicleName: "M4",
         vehicleTechTree: "USA",
@@ -460,7 +493,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.666,
       },
       {
-        id: "75mm_m48_us_m4a2_sherman",
+        id: "75mm_m48_shell_us_m4a2_sherman",
         vehicleId: "us_m4a2_sherman",
         vehicleName: "M4A2",
         vehicleTechTree: "USA",
@@ -475,10 +508,26 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "TNT",
         explosiveMassKg: 0.666,
       },
+      {
+        id: "75mm_m48_shell_us_lvt_a_4",
+        vehicleId: "us_lvt_a_4",
+        vehicleName: "LVT(A)(4)",
+        vehicleTechTree: "USA",
+        vehicleRank: "I",
+        vehicleBr: "1.3",
+        penetrationMm: 10.2,
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        muzzleVelocityMs: 381,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666,
+      },
     ],
   },
   {
-    id: "75mm_m72",
+    id: "75mm_m72_shot",
     designation: "M72 shot",
     category: "Kinetic",
     family: "Solid-AP",
@@ -487,7 +536,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_middle",
     performances: [
       {
-        id: "75mm_m72_us_halftrack_m3_75mm_gmc",
+        id: "75mm_m72_shot_us_halftrack_m3_75mm_gmc",
         vehicleId: "us_halftrack_m3_75mm_gmc",
         vehicleName: "M3 GMC",
         vehicleTechTree: "USA",
@@ -499,7 +548,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 609,
       },
       {
-        id: "75mm_m72_us_m3_lee",
+        id: "75mm_m72_shot_us_m3_lee",
         vehicleId: "us_m3_lee",
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
@@ -511,7 +560,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 588,
       },
       {
-        id: "75mm_m72_-us_m4a1_1942_sherman",
+        id: "75mm_m72_shot_-us_m4a1_1942_sherman",
         vehicleId: "us_m4a1_1942_sherman",
         vehicleName: "M4A1",
         vehicleTechTree: "USA",
@@ -523,7 +572,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 619,
       },
       {
-        id: "75mm_m72_us_m4_sherman",
+        id: "75mm_m72_shot_us_m4_sherman",
         vehicleId: "us_m4_sherman",
         vehicleName: "M4",
         vehicleTechTree: "USA",
@@ -535,7 +584,7 @@ export const tankShells: TankShellDefinition[] = [
         muzzleVelocityMs: 619,
       },
       {
-        id: "75mm_m72_us_m4a2_sherman",
+        id: "75mm_m72_shot_us_m4a2_sherman",
         vehicleId: "us_m4a2_sherman",
         vehicleName: "M4A2",
         vehicleTechTree: "USA",
@@ -549,7 +598,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "75mm_m61",
+    id: "75mm_m61_shot",
     designation: "M61 shot",
     category: "Kinetic",
     family: "Solid-AP",
@@ -558,7 +607,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_big",
     performances: [
       {
-        id: "75mm_m61_us_halftrack_m3_75mm_gmc",
+        id: "75mm_m61_shot_us_halftrack_m3_75mm_gmc",
         vehicleId: "us_halftrack_m3_75mm_gmc",
         vehicleName: "M3 GMC",
         vehicleTechTree: "USA",
@@ -575,7 +624,7 @@ export const tankShells: TankShellDefinition[] = [
         tntEquivalentKg: 0.064,
       },
       {
-        id: "75mm_m61_us_m3_lee",
+        id: "75mm_m61_shot_us_m3_lee",
         vehicleId: "us_m3_lee",
         vehicleName: "M3 Lee",
         vehicleTechTree: "USA",
@@ -592,7 +641,7 @@ export const tankShells: TankShellDefinition[] = [
         tntEquivalentKg: 0.064,
       },
       {
-        id: "75mm_m61_us_m4a1_1942_sherman",
+        id: "75mm_m61_shot_us_m4a1_1942_sherman",
         vehicleId: "us_m4a1_1942_sherman",
         vehicleName: "M4A1",
         vehicleTechTree: "USA",
@@ -609,7 +658,7 @@ export const tankShells: TankShellDefinition[] = [
         tntEquivalentKg: 0.064,
       },
       {
-        id: "75mm_m61_us_m4_sherman",
+        id: "75mm_m61_shot_us_m4_sherman",
         vehicleId: "us_m4_sherman",
         vehicleName: "M4",
         vehicleTechTree: "USA",
@@ -626,7 +675,7 @@ export const tankShells: TankShellDefinition[] = [
         tntEquivalentKg: 0.064,
       },
       {
-        id: "75mm_m61_us_m4a2_sherman",
+        id: "75mm_m61_shot_us_m4a2_sherman",
         vehicleId: "us_m4a2_sherman",
         vehicleName: "M4A2",
         vehicleTechTree: "USA",
@@ -716,7 +765,7 @@ export const tankShells: TankShellDefinition[] = [
         explosiveMassKg: 0.05,
       },
       {
-        id: "75mm_m72_us_m4a2_sherman",
+        id: "75mm_m72_shot_us_m4a2_sherman",
         vehicleId: "us_m4a2_sherman",
         vehicleName: "M4A2",
         vehicleTechTree: "USA",
@@ -734,7 +783,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "105mm_m1",
+    id: "105mm_m1_shell",
     designation: "M1 shell",
     category: "Chemical",
     family: "High-Explosive",
@@ -743,7 +792,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_vsmall",
     performances: [
       {
-        id: "105mm_m1_us_m4a3_105_sherman",
+        id: "105mm_m1_shell_us_m4a3_105_sherman",
         vehicleId: "us_m4a3_105_sherman",
         vehicleName: "M4A3 (105)",
         vehicleTechTree: "USA",
@@ -762,7 +811,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "105mm_m67",
+    id: "105mm_m67_shot",
     designation: "M67 shot",
     category: "Chemical",
     family: "HEAT",
@@ -771,7 +820,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_big",
     performances: [
       {
-        id: "105mm_m67_us_m4a3_105_sherman",
+        id: "105mm_m67_shot_us_m4a3_105_sherman",
         vehicleId: "us_m4a3_105_sherman",
         vehicleName: "M4A3 (105)",
         vehicleTechTree: "USA",
@@ -817,7 +866,7 @@ export const tankShells: TankShellDefinition[] = [
     ],
   },
   {
-    id: "75mm_t45",
+    id: "75mm_t45_shot",
     designation: "T45 shot",
     category: "Kinetic",
     family: "Sub-caliber-AP",
@@ -826,7 +875,7 @@ export const tankShells: TankShellDefinition[] = [
     armor: "armor_big",
     performances: [
       {
-        id: "75mm_t45_us_m4a2_sherman",
+        id: "75mm_t45_shot_us_m4a2_sherman",
         vehicleId: "us_m4a2_sherman",
         vehicleName: "M4A2",
         vehicleTechTree: "USA",

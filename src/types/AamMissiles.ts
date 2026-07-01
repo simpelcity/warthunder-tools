@@ -30,6 +30,18 @@ export type TechTree = "USA" | "Germany" | "USSR" | "Great Britain" | "Japan" | 
 export type Rank = "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII" | "IX";
 export type BR = "1.0" | "1.3" | "1.7" | "2.0" | "2.3" | "2.7" | "3.0" | "3.3" | "3.7" | "4.0" | "4.3" | "4.7" | "5.0" | "5.3" | "5.7" | "6.0" | "6.3" | "6.7" | "7.0" | "7.3" | "7.7" | "8.0" | "8.3" | "8.7" | "9.0" | "9.3" | "9.7" | "10.0" | "10.3" | "10.7" | "11.0" | "11.3" | "11.7" | "12.0" | "12.3" | "12.7" | "13.0" | "13.3" | "13.7" | "14.0" | "14.3";
 
+export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines";
+export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "Germany (modern)" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
+export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
+export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
+export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
+export type CountriesChina = "China" | "Pakistan" | "Vietnam" | "North Korea" | "Bangladesh";
+export type CountriesItaly = "Italy" | "Kingdom of Italy" | "Hungary" | "Romania" | "Turkey" | "Spain" | "Hungary (modern)" | "Oman" | "Portugal" | "Brazil";
+export type CountriesFrance = "France" | "Finland" | "Belgium" | "Austria" | "Netherlands";
+export type CountriesSweden = "Sweden" | "Denmark" | "Finland" | "Austria" | "Norway";
+export type CountriesIsrael = "Israel" | "Singapore" | "Colombia";
+export type Countries = CountriesUSA | CountriesGermany | CountriesUSSR | CountriesGreatBritain | CountriesJapan | CountriesChina | CountriesItaly | CountriesFrance | CountriesSweden | CountriesIsrael;
+
 export interface BaseAam {
   id: string;
   designation: string;
@@ -113,6 +125,7 @@ export interface BaseAamVehicle {
   vehicleId: string;
   vehicleName: string;
   vehicleTechTree?: TechTree;
+  vehicleCountry?: Countries;
   vehicleRank?: Rank;
   vehicleBr?: BR;
   vehicleBrAB?: BR;
@@ -120,30 +133,104 @@ export interface BaseAamVehicle {
   icon?: AamIconNames;
 }
 
-export type IRAamRearAspectDefinition = IRAamRearAspectMissile & {
-  aspect: "Rear-aspect";
-  vehicles: BaseAamVehicle[];
-};
-
-export type IRAamAllAspectsDefinition = IRAamAllAspectsMissile & {
-  aspect: "All-aspects";
-  vehicles: BaseAamVehicle[];
+export interface USAAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "USA";
+  vehicleCountry?: CountriesUSA;
 }
 
-export type SARHAamDefinition = SARHAamMissile & {
-  vehicles: BaseAamVehicle[];
+export interface GermanyAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Germany";
+  vehicleCountry?: CountriesGermany;
 }
 
-export type ARHAamDefinition = ARHAamMissile & {
-  vehicles: BaseAamVehicle[];
+export interface USSRAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "USSR";
+  vehicleCountry?: CountriesUSSR;
 }
 
-export type BeamRidingAamDefinition = BeamRidingAamMissile & {
-  vehicles: BaseAamVehicle[];
+export interface GreatBritainAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Great Britain";
+  vehicleCountry?: CountriesGreatBritain;
 }
 
-export type CommandGuidedAamDefinition = CommandGuidedAamMissile & {
-  vehicles: BaseAamVehicle[];
+export interface JapanAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Japan";
+  vehicleCountry?: CountriesJapan;
 }
 
-export type AamDefinition = IRAamRearAspectDefinition | IRAamAllAspectsDefinition | SARHAamDefinition | ARHAamDefinition | BeamRidingAamDefinition | CommandGuidedAamDefinition;
+export interface ChinaAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "China";
+  vehicleCountry?: CountriesChina;
+}
+
+export interface ItalyAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Italy";
+  vehicleCountry?: CountriesItaly;
+}
+
+export interface FranceAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "France";
+  vehicleCountry?: CountriesFrance;
+}
+
+export interface SwedenAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Sweden";
+  vehicleCountry?: CountriesSweden;
+}
+
+export interface IsraelAamVehicle extends BaseAamVehicle {
+  vehicleTechTree: "Israel";
+  vehicleCountry?: CountriesIsrael;
+}
+
+export type USAAamDefinition = AamMissile & {
+  vehicles: USAAamVehicle[];
+}
+
+export type GermanyAamDefinition = AamMissile & {
+  vehicles: GermanyAamVehicle[];
+}
+
+export type USSRAamDefinition = AamMissile & {
+  vehicles: USSRAamVehicle[];
+}
+
+export type GreatBritainAamDefinition = AamMissile & {
+  vehicles: GreatBritainAamVehicle[];
+}
+
+export type JapanAamDefinition = AamMissile & {
+  vehicles: JapanAamVehicle[];
+}
+
+export type ChinaAamDefinition = AamMissile & {
+  vehicles: ChinaAamVehicle[];
+}
+
+export type ItalyAamDefinition = AamMissile & {
+  vehicles: ItalyAamVehicle[];
+}
+
+export type FranceAamDefinition = AamMissile & {
+  vehicles: FranceAamVehicle[];
+}
+
+export type SwedenAamDefinition = AamMissile & {
+  vehicles: SwedenAamVehicle[];
+}
+
+export type IsraelAamDefinition = AamMissile & {
+  vehicles: IsraelAamVehicle[];
+}
+
+export type AamDefinition =
+  | USAAamDefinition
+  | GermanyAamDefinition
+  | USSRAamDefinition
+  | GreatBritainAamDefinition
+  | JapanAamDefinition
+  | ChinaAamDefinition
+  | ItalyAamDefinition
+  | FranceAamDefinition
+  | SwedenAamDefinition
+  | IsraelAamDefinition;

@@ -6,7 +6,7 @@ import type { AamDefinition, BaseAamVehicle } from '@/types/AamMissiles'
 import '@/styles/pages/Aams.scss'
 import { getAamIconPath } from '@/constants/AamMissileIcons'
 import { getAamVariantName } from '@/constants/AamMissileVariantNames'
-import { getTechTreeIcons } from '@/constants/TechTreeIcons'
+import { getCountryIcons } from '@/src/constants/CountryIcons'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
@@ -75,7 +75,7 @@ export default function Aams() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} height={24} className="me-1" />}
               <span>{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
                 <FaAngleDown />
@@ -85,7 +85,7 @@ export default function Aams() {
             <Dropdown.Menu>
               {aam.vehicles.map((vehicle) => (
                 <Dropdown.Item className="d-flex align-items-center" onClick={() => setVehicle(vehicle)}>
-                  {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} width={24} className="me-1" />}
                   <span>{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}

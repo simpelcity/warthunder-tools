@@ -71,13 +71,13 @@
 }
 
 .shells-sidebar-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
 .shells-sidebar-title {
-  padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .shells-sidebar-section:last-of-type {
@@ -117,7 +117,6 @@
 }
 
 .shells-sidebar-more {
-  margin-top: 8px;
   background: transparent;
   color: $info !important;
   border: 0;
@@ -143,4 +142,9 @@
   .shells-desktop-layout {
     grid-template-columns: 1fr;
   }
+}
+
+.shells-modal-search:focus,
+.shells-offcanvas-search:focus {
+  border-color: $primary !important;
 }

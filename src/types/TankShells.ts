@@ -23,8 +23,16 @@ export type Rank = "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII";
 export type BR = "1.0" | "1.3" | "1.7" | "2.0" | "2.3" | "2.7" | "3.0" | "3.3" | "3.7" | "4.0" | "4.3" | "4.7" | "5.0" | "5.3" | "5.7" | "6.0" | "6.3" | "6.7" | "7.0" | "7.3" | "7.7" | "8.0" | "8.3" | "8.7" | "9.0" | "9.3" | "9.7" | "10.0" | "10.3" | "10.7" | "11.0" | "11.3" | "11.7" | "12.0" | "12.3" | "12.7";
 
 export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines";
-export type CountriesGermany = "Germany (old)" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "Germany" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
-export type Countries = CountriesUSA | CountriesGermany;
+export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "Germany (modern)" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
+export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
+export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
+export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
+export type CountriesChina = "China" | "Pakistan" | "Vietnam" | "North Korea" | "Bangladesh";
+export type CountriesItaly = "Italy" | "Kingdom of Italy" | "Hungary" | "Romania" | "Turkey" | "Spain" | "Hungary (modern)" | "Oman" | "Portugal" | "Brazil";
+export type CountriesFrance = "France" | "Finland" | "Belgium" | "Austria" | "Netherlands";
+export type CountriesSweden = "Sweden" | "Denmark" | "Finland" | "Austria" | "Norway";
+export type CountriesIsrael = "Israel" | "Singapore" | "Colombia";
+export type Countries = CountriesUSA | CountriesGermany | CountriesUSSR | CountriesGreatBritain | CountriesJapan | CountriesChina | CountriesItaly | CountriesFrance | CountriesSweden | CountriesIsrael;
 
 export type KineticShellVariant = SolidAP | HEFilledAP | SubCaliberAP;
 export type ChemicalShellVariant = HighExplosive | Heat | GuidedMissiles;
@@ -93,10 +101,11 @@ export type ChemicalTankShellVariant = HighExplosiveTankShell | HEATTankShell | 
 export type TankShell = KineticTankShellVariant | ChemicalTankShellVariant;
 
 export interface TankShellPerformance {
-	id: string;
+  id: string;
 	vehicleId: string;
 	vehicleName: string;
   vehicleTechTree?: TechTree;
+  vehicleCountry?: Countries;
   vehicleRank?: Rank;
   vehicleBr?: BR;
   vehicleBrAB?: BR;
@@ -122,6 +131,46 @@ export interface GermanyTankShellPerformance extends TankShellPerformance {
   vehicleCountry?: CountriesGermany;
 }
 
+export interface USSRTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "USSR";
+  vehicleCountry?: CountriesUSSR;
+}
+
+export interface GreatBritainTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "Great Britain";
+  vehicleCountry?: CountriesGreatBritain;
+}
+
+export interface JapanTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "Japan";
+  vehicleCountry?: CountriesJapan;
+}
+
+export interface ChinaTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "China";
+  vehicleCountry?: CountriesChina;
+}
+
+export interface ItalyTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "Italy";
+  vehicleCountry?: CountriesItaly;
+}
+
+export interface FranceTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "France";
+  vehicleCountry?: CountriesFrance;
+}
+
+export interface SwedenTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "Sweden";
+  vehicleCountry?: CountriesSweden;
+}
+
+export interface IsraelTankShellPerformance extends TankShellPerformance {
+  vehicleTechTree: "Israel";
+  vehicleCountry?: CountriesIsrael;
+}
+
 export type USATankShellDefinition = TankShell & {
   performances: USATankShellPerformance[];
 }
@@ -130,4 +179,46 @@ export type GermanyTankShellDefinition = TankShell & {
   performances: GermanyTankShellPerformance[];
 }
 
-export type TankShellDefinition = USATankShellDefinition | GermanyTankShellDefinition;
+export type USSRTankShellDefinition = TankShell & {
+  performances: USSRTankShellPerformance[];
+}
+
+export type GreatBritainTankShellDefinition = TankShell & {
+  performances: GreatBritainTankShellPerformance[];
+}
+
+export type JapanTankShellDefinition = TankShell & {
+  performances: JapanTankShellPerformance[];
+}
+
+export type ChinaTankShellDefinition = TankShell & {
+  performances: ChinaTankShellPerformance[];
+}
+
+export type ItalyTankShellDefinition = TankShell & {
+  performances: ItalyTankShellPerformance[];
+}
+
+export type FranceTankShellDefinition = TankShell & {
+  performances: FranceTankShellPerformance[];
+}
+
+export type SwedenTankShellDefinition = TankShell & {
+  performances: SwedenTankShellPerformance[];
+}
+
+export type IsraelTankShellDefinition = TankShell & {
+  performances: IsraelTankShellPerformance[];
+}
+
+export type TankShellDefinition =
+  | USATankShellDefinition
+  | GermanyTankShellDefinition
+  | USSRTankShellDefinition
+  | GreatBritainTankShellDefinition
+  | JapanTankShellDefinition
+  | ChinaTankShellDefinition
+  | ItalyTankShellDefinition
+  | FranceTankShellDefinition
+  | SwedenTankShellDefinition
+  | IsraelTankShellDefinition;

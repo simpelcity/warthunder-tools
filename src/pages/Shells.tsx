@@ -2,8 +2,8 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { tankShells } from "@/data/TankShells"
 import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
-import { getTechTreeIcons } from '@/constants/TechTreeIcons'
-import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, TankShellVariant, Rank } from '@/types/TankShells'
+import { getCountryIcons } from '@/src/constants/CountryIcons'
+import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, TankShellVariant, Rank, BR } from '@/types/TankShells'
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
 import { FiSliders } from "react-icons/fi";
@@ -16,6 +16,7 @@ type CategoryFilter = "All" | Shell;
 type FamilyFilter = "All" | KineticShell | ChemicalShell;
 type VariantFilter = "All" | TankShellVariant;
 type RankFilter = "All" | Rank;
+type BRFilter = "All" | BR;
 type VehicleFilter = "All" | string;
 type ShellFilter = "All" | string;
 
@@ -24,6 +25,7 @@ type ShellFilters = {
   family: FamilyFilter;
   variant: VariantFilter;
   rank: RankFilter;
+  br: BRFilter;
   vehicle: VehicleFilter;
   shell: ShellFilter;
 };
@@ -33,6 +35,7 @@ const DEFAULT_FILTERS: ShellFilters = {
   family: "All",
   variant: "All",
   rank: "All",
+  br: "All",
   vehicle: "All",
   shell: "All",
 };
@@ -49,15 +52,13 @@ export default function Shells() {
   const [vehicleSearch, setVehicleSearch] = useState("");
   const [showShellPicker, setShowShellPicker] = useState(false);
   const [shellSearch, setShellSearch] = useState("");
+  const [showFamilyPicker, setShowFamilyPicker] = useState(false);
+  const [showVariantPicker, setShowVariantPicker] = useState(false);
   const [desktopFamilySearch, setDesktopFamilySearch] = useState("");
   const [desktopVariantSearch, setDesktopVariantSearch] = useState("");
-  const [desktopVehicleSearch, setDesktopVehicleSearch] = useState("");
-  const [desktopShellSearch, setDesktopShellSearch] = useState("");
-  const [showMoreFamilyDesktop, setShowMoreFamilyDesktop] = useState(false);
-  const [showMoreVariantDesktop, setShowMoreVariantDesktop] = useState(false);
   const [showMoreRankDesktop, setShowMoreRankDesktop] = useState(false);
-  const [showMoreVehicleDesktop, setShowMoreVehicleDesktop] = useState(false);
-  const [showMoreShellDesktop, setShowMoreShellDesktop] = useState(false);
+  const [showBrPicker, setShowBrPicker] = useState(false);
+  const [brSearch, setBrSearch] = useState("");
 
   const [showFilters, setShowFilters] = useState(false);
 
@@ -95,6 +96,13 @@ export default function Shells() {
     return ["All", ...ranks];
   }, []);
 
+  const brOptions = useMemo(() => {
+    const brs = Array.from(
+      new Set(tankShells.flatMap((shell) => shell.performances.map((perf) => perf.vehicleBr)))
+    ).filter((br): br is BR => Boolean(br));
+    return ["All", ...brs];
+  }, []);
+
   const vehicleOptions = useMemo(() => {
     const names = Array.from(
       new Set(
@@ -114,6 +122,21 @@ export default function Shells() {
     [vehicleOptions]
   );
 
+  const quickFamilyOptions = useMemo(
+    () => familyOptions.filter((option) => option !== "All").slice(0, 3),
+    [familyOptions]
+  );
+
+  const quickVariantOptions = useMemo(
+    () => variantOptions.filter((option) => option !== "All").slice(0, 3),
+    [variantOptions]
+  );
+
+  const quickBrOptions = useMemo(
+    () => brOptions.filter((option) => option !== "All").slice(0, 3),
+    [brOptions]
+  );
+
   const searchableVehicleOptions = useMemo(() => {
     const query = vehicleSearch.trim().toLowerCase();
 
@@ -123,6 +146,16 @@ export default function Shells() {
       return option.toLowerCase().includes(query);
     });
   }, [vehicleOptions, vehicleSearch]);
+
+  const searchableBrOptions = useMemo(() => {
+    const query = brSearch.trim().toLowerCase();
+
+    return brOptions.filter((option) => {
+      if (option === "All") return false;
+      if (!query) return true;
+      return option.toLowerCase().includes(query);
+    });
+  }, [brOptions, brSearch]);
 
   const shellLabels = useMemo(
     () =>
@@ -184,23 +217,6 @@ export default function Shells() {
     [variantOptions, desktopVariantSearch]
   );
 
-  const desktopVehicleOptions = useMemo(
-    () => filterOptionsWithAll(vehicleOptions as string[], desktopVehicleSearch),
-    [vehicleOptions, desktopVehicleSearch]
-  );
-
-  const desktopShellOptions = useMemo(() => {
-    if (!desktopShellSearch.trim()) return shellOptions as string[];
-
-    const search = desktopShellSearch.trim().toLowerCase();
-    const nonAll = (shellOptions as string[]).filter((option) => option !== "All");
-    const filtered = nonAll.filter((option) =>
-      getShellFilterLabel(option).toLowerCase().includes(search)
-    );
-
-    return (shellOptions as string[]).includes("All") ? ["All", ...filtered] : filtered;
-  }, [shellOptions, desktopShellSearch]);
-
   const shellMatchesFilters = (shell: TankShellDefinition, filters: ShellFilters) => {
     if (filters.category !== "All" && shell.category !== filters.category) return false;
     if (filters.family !== "All" && shell.family !== filters.family) return false;
@@ -209,6 +225,7 @@ export default function Shells() {
 
     return shell.performances.some((perf) => {
       if (filters.rank !== "All" && perf.vehicleRank !== filters.rank) return false;
+      if (filters.br !== "All" && perf.vehicleBr !== filters.br) return false;
       if (filters.vehicle !== "All" && perf.vehicleName !== filters.vehicle) return false;
       return true;
     });
@@ -229,6 +246,7 @@ export default function Shells() {
     draftFilters.family !== appliedFilters.family ||
     draftFilters.variant !== appliedFilters.variant ||
     draftFilters.rank !== appliedFilters.rank ||
+    draftFilters.br !== appliedFilters.br ||
     draftFilters.vehicle !== appliedFilters.vehicle ||
     draftFilters.shell !== appliedFilters.shell;
 
@@ -263,6 +281,16 @@ export default function Shells() {
     }));
   };
 
+  const handleOpenFamilyPicker = () => {
+    setDesktopFamilySearch("");
+    setShowFamilyPicker(true);
+  };
+
+  const handleOpenVariantPicker = () => {
+    setDesktopVariantSearch("");
+    setShowVariantPicker(true);
+  };
+
   const handleRankSelect = (eventKey: string | null) => {
     if (!eventKey) return;
     setDraftFilters((current) => ({
@@ -270,6 +298,19 @@ export default function Shells() {
       rank: eventKey as RankFilter,
       vehicle: "All",
     }));
+  };
+
+  const handleBrSelect = (eventKey: string | null) => {
+    if (!eventKey) return;
+    setDraftFilters((current) => ({
+      ...current,
+      br: eventKey as BRFilter,
+    }));
+  };
+
+  const handleOpenBrPicker = () => {
+    setBrSearch("");
+    setShowBrPicker(true);
   };
 
   const handleVehicleSelect = (eventKey: string | null) => {
@@ -397,7 +438,7 @@ export default function Shells() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} height={24} className="me-1" />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
                 <FaAngleDown />
@@ -407,7 +448,7 @@ export default function Shells() {
             <Dropdown.Menu className="">
               {shell.performances.map((vehicle) => (
                 <Dropdown.Item className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
-                  {vehicle?.vehicleTechTree && <Image src={getTechTreeIcons({ vehicleTechTree: vehicle.vehicleTechTree })} width={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleCountry: vehicle.vehicleCountry })} width={24} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
@@ -674,6 +715,34 @@ export default function Shells() {
                     </Dropdown.Menu>
                   </Dropdown>
 
+                    <div className="d-flex flex-column row-gap-2">
+                      <span className="fw-semibold font-wt">BR: {draftFilters.br}</span>
+
+                      <div className="d-flex flex-wrap gap-2">
+                        <Button
+                          variant={draftFilters.br === "All" ? "primary" : "outline-secondary"}
+                          onClick={() => handleBrSelect("All")}
+                        >
+                          All
+                        </Button>
+
+                        {quickBrOptions.map((option) => (
+                          <Button
+                            key={option}
+                            variant={draftFilters.br === option ? "primary" : "outline-secondary"}
+                            onClick={() => handleBrSelect(option)}
+                            className="font-sans fw-normal"
+                          >
+                            {option}
+                          </Button>
+                        ))}
+
+                        <Button variant="secondary" onClick={handleOpenBrPicker}>
+                          More
+                        </Button>
+                      </div>
+                    </div>
+
                   <div className="d-flex flex-column row-gap-2">
                     <span className="fw-semibold font-wt">Vehicle: {draftFilters.vehicle}</span>
 
@@ -773,7 +842,7 @@ export default function Shells() {
                 placeholder="Search vehicle..."
                 value={vehicleSearch}
                 onChange={(event) => setVehicleSearch(event.target.value)}
-                autoFocus
+                className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none"
               />
 
               <div className="d-flex flex-column row-gap-2 overflow-auto">
@@ -781,7 +850,7 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
-                    className="text-start"
+                    className="text-start font-wt"
                     onClick={() => handleVehicleSelect(option)}
                   >
                     {option}
@@ -790,6 +859,44 @@ export default function Shells() {
 
                 {searchableVehicleOptions.length === 0 && (
                   <span className="text-muted">No vehicles found.</span>
+                )}
+              </div>
+            </Offcanvas.Body>
+          </Offcanvas>
+
+          <Offcanvas
+            show={showBrPicker}
+            onHide={() => setShowBrPicker(false)}
+            placement="start"
+            className="w-100"
+          >
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title>Select BR</Offcanvas.Title>
+            </Offcanvas.Header>
+
+            <Offcanvas.Body className="d-flex flex-column row-gap-3">
+              <Form.Control
+                type="search"
+                placeholder="Search BR..."
+                value={brSearch}
+                onChange={(event) => setBrSearch(event.target.value)}
+                className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none"
+              />
+
+              <div className="d-flex flex-column row-gap-2 overflow-auto">
+                {searchableBrOptions.map((option) => (
+                  <Button
+                    key={option}
+                    variant={draftFilters.br === option ? "primary" : "outline-secondary"}
+                    className="text-start"
+                    onClick={() => handleBrSelect(option)}
+                  >
+                    {option}
+                  </Button>
+                ))}
+
+                {searchableBrOptions.length === 0 && (
+                  <span className="text-muted">No BRs found.</span>
                 )}
               </div>
             </Offcanvas.Body>
@@ -811,7 +918,7 @@ export default function Shells() {
                 placeholder="Search shell..."
                 value={shellSearch}
                 onChange={(event) => setShellSearch(event.target.value)}
-                autoFocus
+                className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none"
               />
 
               <div className="d-flex flex-column row-gap-2 overflow-auto">
@@ -856,16 +963,8 @@ export default function Shells() {
 
                 <div className="shells-sidebar-section">
                   <h5 className="shells-sidebar-title">Family</h5>
-                  <Form.Control
-                    size="sm"
-                    type="search"
-                    placeholder="Search family..."
-                    value={desktopFamilySearch}
-                    onChange={(event) => setDesktopFamilySearch(event.target.value)}
-                    className="shells-sidebar-search bg-transparent text-light border-2 shadow-none"
-                  />
                   <div className="shells-sidebar-options">
-                    {getVisibleOptions(desktopFamilyOptions, showMoreFamilyDesktop).map((option) => (
+                    {quickFamilyOptions.map((option) => (
                       <button
                         key={option}
                         type="button"
@@ -876,29 +975,21 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {desktopFamilyOptions.length > 3 && (
+                  {familyOptions.length > 3 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
-                      onClick={() => setShowMoreFamilyDesktop((current) => !current)}
+                      onClick={handleOpenFamilyPicker}
                     >
-                      {showMoreFamilyDesktop ? "Less" : "More"}
+                      More
                     </button>
                   )}
                 </div>
 
                 <div className="shells-sidebar-section">
                   <h5 className="shells-sidebar-title">Variant</h5>
-                  <Form.Control
-                    size="sm"
-                    type="search"
-                    placeholder="Search variant..."
-                    value={desktopVariantSearch}
-                    onChange={(event) => setDesktopVariantSearch(event.target.value)}
-                    className="shells-sidebar-search bg-transparent text-light border-2 shadow-none"
-                  />
                   <div className="shells-sidebar-options">
-                    {getVisibleOptions(desktopVariantOptions, showMoreVariantDesktop).map((option) => (
+                    {quickVariantOptions.map((option) => (
                       <button
                         key={option}
                         type="button"
@@ -909,13 +1000,13 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {desktopVariantOptions.length > 3 && (
+                  {variantOptions.length > 3 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
-                      onClick={() => setShowMoreVariantDesktop((current) => !current)}
+                      onClick={handleOpenVariantPicker}
                     >
-                      {showMoreVariantDesktop ? "Less" : "More"}
+                      More
                     </button>
                   )}
                 </div>
@@ -946,17 +1037,34 @@ export default function Shells() {
                 </div>
 
                 <div className="shells-sidebar-section">
-                  <h5 className="shells-sidebar-title">Vehicle</h5>
-                  <Form.Control
-                    size="sm"
-                    type="search"
-                    placeholder="Search vehicle..."
-                    value={desktopVehicleSearch}
-                    onChange={(event) => setDesktopVehicleSearch(event.target.value)}
-                    className="shells-sidebar-search bg-transparent text-light border-2 shadow-none"
-                  />
+                  <h5 className="shells-sidebar-title">BR</h5>
                   <div className="shells-sidebar-options">
-                    {getVisibleOptions(desktopVehicleOptions, showMoreVehicleDesktop).map((option) => (
+                    {quickBrOptions.map((option) => (
+                      <button
+                        key={option}
+                        type="button"
+                        className={`shells-sidebar-option font-sans ${draftFilters.br === option ? "is-active" : ""}`}
+                        onClick={() => handleBrSelect(option)}
+                      >
+                        {option}
+                      </button>
+                    ))}
+                  </div>
+                  {brOptions.length > 3 && (
+                    <button
+                      type="button"
+                      className="shells-sidebar-more"
+                      onClick={handleOpenBrPicker}
+                    >
+                      More
+                    </button>
+                  )}
+                </div>
+
+                <div className="shells-sidebar-section">
+                  <h5 className="shells-sidebar-title">Vehicle</h5>
+                  <div className="shells-sidebar-options">
+                    {quickVehicleOptions.map((option) => (
                       <button
                         key={option}
                         type="button"
@@ -967,29 +1075,21 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {desktopVehicleOptions.length > 3 && (
+                  {vehicleOptions.length > 3 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
-                      onClick={() => setShowMoreVehicleDesktop((current) => !current)}
+                      onClick={handleOpenVehiclePicker}
                     >
-                      {showMoreVehicleDesktop ? "Less" : "More"}
+                      More
                     </button>
                   )}
                 </div>
 
                 <div className="shells-sidebar-section">
                   <h5 className="shells-sidebar-title">Shell</h5>
-                  <Form.Control
-                    size="sm"
-                    type="search"
-                    placeholder="Search shell..."
-                    value={desktopShellSearch}
-                    onChange={(event) => setDesktopShellSearch(event.target.value)}
-                    className="shells-sidebar-search bg-transparent text-light border-2 shadow-none"
-                  />
                   <div className="shells-sidebar-options">
-                    {getVisibleOptions(desktopShellOptions, showMoreShellDesktop).map((option) => (
+                    {quickShellOptions.map((option) => (
                       <button
                         key={option}
                         type="button"
@@ -1000,13 +1100,13 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {desktopShellOptions.length > 3 && (
+                  {shellOptions.length > 3 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
-                      onClick={() => setShowMoreShellDesktop((current) => !current)}
+                      onClick={handleOpenShellPicker}
                     >
-                      {showMoreShellDesktop ? "Less" : "More"}
+                      More
                     </button>
                   )}
                 </div>
@@ -1089,6 +1189,82 @@ export default function Shells() {
           </div>
 
           <Modal
+            show={showFamilyPicker}
+            onHide={() => setShowFamilyPicker(false)}
+            centered
+            scrollable
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Select Family</Modal.Title>
+            </Modal.Header>
+
+            <Modal.Body className="d-flex flex-column row-gap-3">
+              <Form.Control
+                type="search"
+                placeholder="Search family..."
+                value={desktopFamilySearch}
+                onChange={(event) => setDesktopFamilySearch(event.target.value)}
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none"
+              />
+
+              <div className="d-flex flex-column row-gap-2 overflow-auto">
+                {desktopFamilyOptions.map((option) => (
+                  <Button
+                    key={option}
+                    variant={draftFilters.family === option ? "primary" : "outline-secondary"}
+                    className="text-start"
+                    onClick={() => handleFamilySelect(option)}
+                  >
+                    {option}
+                  </Button>
+                ))}
+
+                {desktopFamilyOptions.length === 0 && (
+                  <span className="text-muted">No families found.</span>
+                )}
+              </div>
+            </Modal.Body>
+          </Modal>
+
+          <Modal
+            show={showVariantPicker}
+            onHide={() => setShowVariantPicker(false)}
+            centered
+            scrollable
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Select Variant</Modal.Title>
+            </Modal.Header>
+
+            <Modal.Body className="d-flex flex-column row-gap-3">
+              <Form.Control
+                type="search"
+                placeholder="Search variant..."
+                value={desktopVariantSearch}
+                onChange={(event) => setDesktopVariantSearch(event.target.value)}
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none"
+              />
+
+              <div className="d-flex flex-column row-gap-2 overflow-auto">
+                {desktopVariantOptions.map((option) => (
+                  <Button
+                    key={option}
+                    variant={draftFilters.variant === option ? "primary" : "outline-secondary"}
+                    className="text-start"
+                    onClick={() => handleVariantSelect(option)}
+                  >
+                    {option}
+                  </Button>
+                ))}
+
+                {desktopVariantOptions.length === 0 && (
+                  <span className="text-muted">No variants found.</span>
+                )}
+              </div>
+            </Modal.Body>
+          </Modal>
+
+          <Modal
             show={showVehiclePicker}
             onHide={() => setShowVehiclePicker(false)}
             centered
@@ -1104,7 +1280,7 @@ export default function Shells() {
                 placeholder="Search vehicle..."
                 value={vehicleSearch}
                 onChange={(event) => setVehicleSearch(event.target.value)}
-                autoFocus
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none"
               />
 
               <div className="d-flex flex-column row-gap-2 overflow-auto">
@@ -1112,7 +1288,7 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
-                    className="text-start"
+                    className="text-start font-wt"
                     onClick={() => handleVehicleSelect(option)}
                   >
                     {option}
@@ -1121,6 +1297,44 @@ export default function Shells() {
 
                 {searchableVehicleOptions.length === 0 && (
                   <span className="text-muted">No vehicles found.</span>
+                )}
+              </div>
+            </Modal.Body>
+          </Modal>
+
+          <Modal
+            show={showBrPicker}
+            onHide={() => setShowBrPicker(false)}
+            centered
+            scrollable
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>Select BR</Modal.Title>
+            </Modal.Header>
+
+            <Modal.Body className="d-flex flex-column row-gap-3">
+              <Form.Control
+                type="search"
+                placeholder="Search BR..."
+                value={brSearch}
+                onChange={(event) => setBrSearch(event.target.value)}
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none"
+              />
+
+              <div className="d-flex flex-column row-gap-2 overflow-auto">
+                {searchableBrOptions.map((option) => (
+                  <Button
+                    key={option}
+                    variant={draftFilters.br === option ? "primary" : "outline-secondary"}
+                    className="text-start"
+                    onClick={() => handleBrSelect(option)}
+                  >
+                    {option}
+                  </Button>
+                ))}
+
+                {searchableBrOptions.length === 0 && (
+                  <span className="text-muted">No BRs found.</span>
                 )}
               </div>
             </Modal.Body>
@@ -1142,7 +1356,7 @@ export default function Shells() {
                 placeholder="Search shell..."
                 value={shellSearch}
                 onChange={(event) => setShellSearch(event.target.value)}
-                autoFocus
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none"
               />
 
               <div className="d-flex flex-column row-gap-2 overflow-auto">
