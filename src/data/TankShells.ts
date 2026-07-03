@@ -385,7 +385,7 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 10.5,
         penetrationMm: 16.9,
         muzzleVelocityMs: 1174,
-        vehicleOperator: "South Africa",
+        vehicleOperator: "South Africa (modern)",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -750,7 +750,7 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.2,
         penetrationMm: 338,
         muzzleVelocityMs: 1455,
-        vehicleOperator: "South Africa"
+        vehicleOperator: "South Africa (modern)"
       },
       {
         id: "105mm_dm23_germ_thyssen_henschel_tam",
@@ -969,7 +969,7 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 3.8,
         penetrationMm: 421,
         muzzleVelocityMs: 1455,
-        vehicleOperator: "South Africa"
+        vehicleOperator: "South Africa (modern)"
       },
       {
         id: "105mm_dm33_germ_thyssen_henschel_tam_2c",
@@ -1301,7 +1301,7 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 11.2,
         penetrationMm: 127,
         muzzleVelocityMs: 732,
-        vehicleOperator: "South Africa",
+        vehicleOperator: "South Africa (modern)",
         fuzeDelayM: 0.1,
         fuzeSensitivityMm: 4,
         explosiveType: "Comp. A",

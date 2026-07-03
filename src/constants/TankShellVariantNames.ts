@@ -27,7 +27,7 @@ export const tankShellVariantNames = {
 	Shrapnel: "Shrapnel",
 	HEAT: "High-Explosive Anti-Tank",
 	HEATFS: "High-Explosive Anti-Tank Fin-Stabilised",
-	"HEAT MP": "High-Explosive Anti-Tank Multi-Purpose",
+	"HEAT MP": "High-Explosive Anti-Tank, Multi-Purpose",
 	"HEAT-Grenade": "High-Explosive Anti-Tank Grenade",
 	ATGM: "Anti-Tank Guided Missile",
 	"ATGM-OTA": "Anti-Tank Guided Missile (Overfly Top Attack)",

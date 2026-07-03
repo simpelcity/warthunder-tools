@@ -225,14 +225,6 @@ export type IsraelAamDefinition = AamMissile & {
   vehicles: IsraelAamVehicle[];
 }
 
-export type AamDefinition =
-  | USAAamDefinition
-  | GermanyAamDefinition
-  | USSRAamDefinition
-  | GreatBritainAamDefinition
-  | JapanAamDefinition
-  | ChinaAamDefinition
-  | ItalyAamDefinition
-  | FranceAamDefinition
-  | SwedenAamDefinition
-  | IsraelAamDefinition;
+export type AamDefinition = AamMissile & {
+  vehicles: BaseAamVehicle[];
+}

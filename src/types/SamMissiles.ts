@@ -194,14 +194,6 @@ export type IsraelSamDefinition = SamMissile & {
   vehicles: IsraelSamVehicle[];
 }
 
-export type SamDefinition =
-  | USASamDefinition
-  | GermanySamDefinition
-  | USSRSamDefinition
-  | GreatBritainSamDefinition
-  | JapanSamDefinition
-  | ChinaSamDefinition
-  | ItalySamDefinition
-  | FranceSamDefinition
-  | SwedenSamDefinition
-  | IsraelSamDefinition;
+export type SamDefinition = SamMissile & {
+  vehicles: BaseSamVehicle[];
+}

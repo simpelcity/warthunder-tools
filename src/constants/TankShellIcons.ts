@@ -20,7 +20,7 @@ const variantIconFile: Partial<Record<TankShellVariant, string>> = {
 	HE: "he_frag_tank.png",
   "HE-TF": "he_frag_dist_fuse_ship.png",
 	"HE-VT": "he_frag_proxi_fuze_ship.png",
-  "HE-OR": "heat_tank.png",
+  "HE-OR": "heat_fs_tank.png",
 	"HE-Grenade": "he_grenade_tank.png",
 	VOG: "vog_ship.png",
 	Rocket: "rocket_tank.png",
