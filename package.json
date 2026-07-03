@@ -1,7 +1,7 @@
 {
   "name": "warthunder-tools",
   "private": true,
-  "version": "1.11.16",
+  "version": "1.13.18",
   "type": "module",
   "scripts": {
     "dev": "vite",

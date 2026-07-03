@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { tankShells } from "@/data/TankShells"
-import { getTankShellVariantName } from "@/constants/TankShellVariantNames"
+import { getTankShellVariantName, getShellGuidanceName } from "@/constants/TankShellVariantNames"
 import { getTankShellIconPath, getTankShellDecorIcons } from "@/constants/TankShellIcons"
 import { getCountryIcons } from '@/constants/CountryIcons'
 import type { TankShellDefinition, TankShellPerformance, Shell, KineticShell, ChemicalShell, TankShellVariant, Rank, BR } from '@/types/TankShells'
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
-import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown, FaCircleCheck } from 'react-icons/fa6'
 import { FiSliders } from "react-icons/fi";
 import '@/styles/pages/Shells.scss'
 
@@ -51,6 +51,8 @@ export default function Shells() {
   const [vehicle, setVehicle] = useState<TankShellPerformance | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
   const [showBrs, setShowBrs] = useState(false);
   const targetBrs = useRef(null);
   const [showVehiclePicker, setShowVehiclePicker] = useState(false);
@@ -61,10 +63,12 @@ export default function Shells() {
   const [techTreeSearch, setTechTreeSearch] = useState("");
   const [showShellPicker, setShowShellPicker] = useState(false);
   const [shellSearch, setShellSearch] = useState("");
+  const [shellListSearch, setShellListSearch] = useState("");
   const [showFamilyPicker, setShowFamilyPicker] = useState(false);
   const [showVariantPicker, setShowVariantPicker] = useState(false);
   const [desktopFamilySearch, setDesktopFamilySearch] = useState("");
   const [desktopVariantSearch, setDesktopVariantSearch] = useState("");
+  const [showMoreFamilyDesktop, setShowMoreFamilyDesktop] = useState(false);
   const [showMoreRankDesktop, setShowMoreRankDesktop] = useState(false);
   const [showBrPicker, setShowBrPicker] = useState(false);
   const [brSearch, setBrSearch] = useState("");
@@ -131,6 +135,71 @@ export default function Shells() {
     return ["All", ...names];
   }, [draftFilters.rank, draftFilters.techTree]);
 
+  const vehicleIconByName = useMemo(() => {
+    const matchingPerformances = tankShells.flatMap((shell) =>
+      shell.performances
+        .filter((perf) => draftFilters.rank === "All" || perf.vehicleRank === draftFilters.rank)
+        .filter((perf) => draftFilters.techTree === "All" || perf.vehicleTechTree === draftFilters.techTree)
+    );
+
+    const icons = new Map<string, string>();
+
+    for (const perf of matchingPerformances) {
+      if (!icons.has(perf.vehicleName)) {
+        icons.set(
+          perf.vehicleName,
+          getCountryIcons({
+            vehicleTechTree: perf.vehicleTechTree,
+            vehicleOperator: perf.vehicleOperator,
+          })
+        );
+      }
+    }
+
+    return icons;
+  }, [draftFilters.rank, draftFilters.techTree, vehicleOptions]);
+
+  const getVehicleFilterIcon = (option: VehicleFilter) => {
+    if (option === "All") return null;
+    return vehicleIconByName.get(option) ?? null;
+  };
+
+  const operatorIconByName = useMemo(() => {
+    const matchingPerformances = tankShells.flatMap((shell) =>
+      shell.performances
+        .filter((perf) => draftFilters.rank === "All" || perf.vehicleRank === draftFilters.rank)
+        .filter((perf) => draftFilters.br === "All" || perf.vehicleBr.RB === draftFilters.br)
+        .filter((perf) => draftFilters.vehicle === "All" || perf.vehicleName === draftFilters.vehicle)
+        .filter((perf) => draftFilters.techTree === "All" || perf.vehicleTechTree === draftFilters.techTree)
+        .filter((perf) => Boolean(perf.vehicleOperator))
+    );
+
+    const icons = new Map<string, string>();
+
+    for (const perf of matchingPerformances) {
+      if (!perf.vehicleOperator || icons.has(perf.vehicleOperator)) continue;
+      icons.set(
+        perf.vehicleOperator,
+        getCountryIcons({
+          vehicleTechTree: perf.vehicleTechTree,
+          vehicleOperator: perf.vehicleOperator,
+        })
+      );
+    }
+
+    return icons;
+  }, [draftFilters.rank, draftFilters.br, draftFilters.vehicle, draftFilters.techTree]);
+
+  const getOperatorFilterIcon = (option: OperatorFilter) => {
+    if (option === "All") return null;
+    return operatorIconByName.get(option) ?? null;
+  };
+
+  const getTechTreeFilterIcon = (option: TechTreeFilter) => {
+    if (option === "All") return null;
+    return getCountryIcons({ vehicleTechTree: option as TankShellPerformance["vehicleTechTree"] });
+  };
+
   const techTreeOptions = useMemo<string[]>(() => {
     const values = tankShells.flatMap((shell) =>
       shell.performances
@@ -178,11 +247,6 @@ export default function Shells() {
   const quickTechTreeOptions = useMemo(
     () => techTreeOptions.filter((option) => option !== "All").slice(0, 3),
     [techTreeOptions]
-  );
-
-  const quickFamilyOptions = useMemo(
-    () => familyOptions.filter((option) => option !== "All").slice(0, 3),
-    [familyOptions]
   );
 
   const quickVariantOptions = useMemo(
@@ -316,6 +380,18 @@ export default function Shells() {
     [appliedFilters]
   );
 
+  const displayedShells = useMemo(() => {
+    const query = shellListSearch.trim().toLowerCase();
+
+    if (!query) return filteredShells;
+
+    return filteredShells.filter((shell) => {
+      const designation = shell.designation.toLowerCase();
+      const id = shell.id.toLowerCase();
+      return designation.includes(query) || id.includes(query);
+    });
+  }, [filteredShells, shellListSearch]);
+
   const getPopoverPerformances = (shell: TankShellDefinition) => {
     let performances: TankShellPerformance[] = [...shell.performances];
     const selectedRank = appliedFilters.rank === "All" ? null : appliedFilters.rank;
@@ -394,11 +470,7 @@ export default function Shells() {
       ...current,
       variant: eventKey as VariantFilter,
     }));
-  };
-
-  const handleOpenFamilyPicker = () => {
-    setDesktopFamilySearch("");
-    setShowFamilyPicker(true);
+    setShowVariantPicker(false);
   };
 
   const handleOpenVariantPicker = () => {
@@ -423,6 +495,7 @@ export default function Shells() {
       ...current,
       br: eventKey as BRFilter,
     }));
+    setShowBrPicker(false);
   };
 
   const handleOpenBrPicker = () => {
@@ -683,10 +756,12 @@ export default function Shells() {
             <span className="text-muted">{vehicle?.projectileMassKg} kg</span>
           </li>
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Muzzle Velocity</span>
-            <span className="text-muted">{vehicle?.muzzleVelocityMs} m/s</span>
-          </li>
+          {vehicle?.muzzleVelocityMs && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Muzzle Velocity</span>
+              <span className="text-muted">{vehicle?.muzzleVelocityMs} m/s</span>
+            </li>
+          )}
 
           {vehicle?.fuzeDelayM && (
             <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
@@ -700,6 +775,70 @@ export default function Shells() {
               <span className="fw-bold">Fuze Sensitivity</span>
               <span className="text-muted">{vehicle.fuzeSensitivityMm} mm</span>
             </li>
+          )}
+
+          {shell.family === "Guided-Missiles" && (
+            <>
+              {vehicle?.guidance && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Guidance</span>
+                  {isMobile ? (
+                    <>
+                      <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{vehicle.guidance}</span>
+                      <Overlay target={target} show={show} placement="top">
+                        <Tooltip id="overlay-name">{getShellGuidanceName(vehicle.guidance).split(/([-\s]+)/).map((part, index) =>
+                          /[-+\s]+/.test(part) ? (
+                            <span key={index} className="fw-normal text-muted">{part}</span>
+                          ) : (
+                            <span key={index} className="fw-bold">{part}</span>
+                          )
+                        )}</Tooltip>
+                      </Overlay>
+                    </>
+                  ) : (
+                    <>
+                      <OverlayTrigger overlay={<Tooltip id={shell.id}>{getShellGuidanceName(vehicle.guidance).split(/([-\s]+)/).map((part, index) =>
+                        /[-+\s]+/.test(part) ? (
+                          <span key={index} className="fw-normal text-muted">{part}</span>
+                        ) : (
+                          <span key={index} className="fw-bold">{part}</span>
+                        )
+                      )}</Tooltip>}>
+                        <span className="text-muted">{vehicle.guidance}</span>
+                      </OverlayTrigger>
+                    </>
+                  )}
+                </li>
+              )}
+
+              {vehicle?.IRCCM && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">IRCCM</span>
+                  <span className="text-muted"><FaCircleCheck className="text-success" /></span>
+                </li>
+              )}
+
+              {vehicle?.launchRangeKm && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Launch range</span>
+                  <span className="text-muted">{vehicle.launchRangeKm} km</span>
+                </li>
+              )}
+
+              {vehicle?.maximumSpeedMs && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Maximum speed</span>
+                  <span className="text-muted">{vehicle.maximumSpeedMs} m/s</span>
+                </li>
+              )}
+
+              {vehicle?.missileGuidanceTimeS && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Missile guidance time</span>
+                  <span className="text-muted">{vehicle.missileGuidanceTimeS} s</span>
+                </li>
+              )}
+            </>
           )}
 
           {vehicle?.explosiveType && (
@@ -787,8 +926,8 @@ export default function Shells() {
             </Offcanvas.Header>
 
             <Offcanvas.Body>
-              <div className="d-flex flex-column h-100 justify-content-between">
-                <div className="d-flex flex-column row-gap-3">
+              <div className="d-flex flex-column">
+                <div className="d-flex flex-column row-gap-3 mb-3">
                   <Dropdown onSelect={handleCategorySelect}>
                     <Dropdown.Toggle variant={draftFilters.category === "All" ? "outline-primary" : "primary"} className="w-100 text-center">
                       Category: {draftFilters.category}
@@ -937,9 +1076,11 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      <Button variant="secondary" onClick={handleOpenOperatorPicker}>
-                        More
-                      </Button>
+                      {operatorOptions.length > 3 && (
+                        <Button variant="secondary" onClick={handleOpenOperatorPicker}>
+                          More
+                        </Button>
+                      )}
                     </div>
                   </div>
 
@@ -965,9 +1106,11 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      <Button variant="secondary" onClick={handleOpenTechTreePicker}>
-                        More
-                      </Button>
+                      {techTreeOptions.length > 3 && (
+                        <Button variant="secondary" onClick={handleOpenTechTreePicker}>
+                          More
+                        </Button>
+                      )}
                     </div>
                   </div>
 
@@ -1050,10 +1193,13 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleVehicleSelect(option)}
                   >
-                    {option}
+                    {getVehicleFilterIcon(option) && (
+                      <Image src={getVehicleFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    )}
+                    <span>{option}</span>
                   </Button>
                 ))}
 
@@ -1088,10 +1234,13 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.operator === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleOperatorSelect(option)}
                   >
-                    {option}
+                    {getOperatorFilterIcon(option) && (
+                      <Image src={getOperatorFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    )}
+                    <span>{option}</span>
                   </Button>
                 ))}
 
@@ -1126,10 +1275,13 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.techTree === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleTechTreeSelect(option)}
                   >
-                    {option}
+                    {getTechTreeFilterIcon(option) && (
+                      <Image src={getTechTreeFilterIcon(option) ?? ""} width={20} height={20} alt="Tech tree" />
+                    )}
+                    <span>{option}</span>
                   </Button>
                 ))}
 
@@ -1239,27 +1391,27 @@ export default function Shells() {
 
                 <div className="shells-sidebar-section">
                   <h5 className="shells-sidebar-title">Family</h5>
-                  <div className="shells-sidebar-options">
-                    {quickFamilyOptions.map((option) => (
+                    <div className="shells-sidebar-options">
+                      {getVisibleOptions(familyOptions as string[], showMoreFamilyDesktop).map((option) => (
+                        <button
+                          key={option}
+                          type="button"
+                          className={`shells-sidebar-option ${option === "All" ? "" : "font-sans"} ${draftFilters.family === option ? "is-active" : ""}`}
+                          onClick={() => handleFamilySelect(option)}
+                        >
+                          {option}
+                        </button>
+                      ))}
+                    </div>
+                    {(familyOptions as string[]).length > 3 && (
                       <button
-                        key={option}
                         type="button"
-                        className={`shells-sidebar-option ${draftFilters.family === option ? "is-active" : ""}`}
-                        onClick={() => handleFamilySelect(option)}
+                        className="shells-sidebar-more"
+                        onClick={() => setShowMoreFamilyDesktop((current) => !current)}
                       >
-                        {option}
+                        {showMoreFamilyDesktop ? "Less" : "More"}
                       </button>
-                    ))}
-                  </div>
-                  {familyOptions.length > 3 && (
-                    <button
-                      type="button"
-                      className="shells-sidebar-more"
-                      onClick={handleOpenFamilyPicker}
-                    >
-                      More
-                    </button>
-                  )}
+                    )}
                 </div>
 
                 <div className="shells-sidebar-section">
@@ -1504,10 +1656,18 @@ export default function Shells() {
 
               <h1>Shells</h1>
 
-              <p className="text-muted mb-3">{filteredShells.length} results</p>
+              <Form.Control
+                type="search"
+                placeholder="Search shells..."
+                value={shellListSearch}
+                onChange={(event) => setShellListSearch(event.target.value)}
+                className="shells-modal-search bg-transparent text-light border-2 shadow-none mb-3"
+              />
+
+              <p className="text-muted mb-3">{displayedShells.length} results</p>
 
               <div className="d-flex flex-column row-gap-3 tank-shells-row">
-                {filteredShells.map((shell: TankShellDefinition) => (
+                {displayedShells.map((shell: TankShellDefinition) => (
                   <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
                     if (!nextShow && activeShellId === shell.id) {
                       setActiveShellId(null)
@@ -1642,9 +1802,12 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleVehicleSelect(option)}
                   >
+                    {getVehicleFilterIcon(option) && (
+                      <Image src={getVehicleFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    )}
                     {option}
                   </Button>
                 ))}
@@ -1680,10 +1843,13 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.operator === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleOperatorSelect(option)}
                   >
-                    {option}
+                    {getOperatorFilterIcon(option) && (
+                      <Image src={getOperatorFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    )}
+                    <span>{option}</span>
                   </Button>
                 ))}
 
@@ -1718,10 +1884,13 @@ export default function Shells() {
                   <Button
                     key={option}
                     variant={draftFilters.techTree === option ? "primary" : "outline-secondary"}
-                    className="text-start font-wt"
+                    className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleTechTreeSelect(option)}
                   >
-                    {option}
+                    {getTechTreeFilterIcon(option) && (
+                      <Image src={getTechTreeFilterIcon(option) ?? ""} width={20} height={20} alt="Tech tree" />
+                    )}
+                    <span>{option}</span>
                   </Button>
                 ))}
 
@@ -1811,8 +1980,17 @@ export default function Shells() {
       )}
 
       {isMobile && (
-        <div className="d-flex flex-column row-gap-3 tank-shells-row">
-          {filteredShells.map((shell: TankShellDefinition) => (
+        <>
+          <Form.Control
+            type="search"
+            placeholder="Search shells..."
+            value={shellListSearch}
+            onChange={(event) => setShellListSearch(event.target.value)}
+            className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
+          />
+
+          <div className="d-flex flex-column row-gap-3 tank-shells-row">
+          {displayedShells.map((shell: TankShellDefinition) => (
             <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
               if (!nextShow && activeShellId === shell.id) {
                 setActiveShellId(null)
@@ -1843,7 +2021,8 @@ export default function Shells() {
               </Button>
             </OverlayTrigger>
           ))}
-        </div>
+          </div>
+        </>
       )}
 
     </Container>

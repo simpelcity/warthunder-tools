@@ -27,7 +27,9 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "F9F-8",
         vehicleTechTree: "USA",
         vehicleRank: "V",
-        vehicleBr: "8.3",
+        vehicleBr: {
+          RB: "8.3"
+        },
       },
     ],
   },
@@ -57,7 +59,9 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "F-4E Phantom II",
         vehicleTechTree: "USA",
         vehicleRank: "VII",
-        vehicleBr: "11.3",
+        vehicleBr: {
+          RB: "11.3"
+        },
       },
     ],
   },
@@ -87,7 +91,9 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "F/A-18E",
         vehicleTechTree: "USA",
         vehicleRank: "IX",
-        vehicleBr: "14.3",
+        vehicleBr: {
+          RB: "14.3"
+        },
       },
     ],
   },

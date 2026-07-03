@@ -33,3 +33,101 @@
 .tooltip-inner {
   border: 1px solid gray;
 }
+
+.aams-mobile-filter-bar {
+  top: 12px;
+}
+
+.aams-desktop-layout {
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+.aams-desktop-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.375rem;
+  padding: 1rem;
+  height: calc(100dvh - 3rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.aams-sidebar-scroll {
+  overflow: auto;
+  padding-right: 0.375rem;
+}
+
+.aams-sidebar-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.aams-sidebar-title {
+  margin-bottom: 0.5rem;
+}
+
+.aams-sidebar-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.aams-sidebar-options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.aams-sidebar-option {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  transition: color 0.15s ease;
+  width: fit-content;
+}
+
+.aams-sidebar-option:hover {
+  color: var(--bs-info) !important;
+}
+
+.aams-sidebar-option.is-active {
+  color: var(--bs-info) !important;
+  font-weight: bold;
+}
+
+.aams-sidebar-more {
+  background: transparent;
+  color: var(--bs-info) !important;
+  border: 0;
+  padding: 0;
+}
+
+.aams-sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  background: var(--bs-body-bg);
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .aams-desktop-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aams-modal-search:focus,
+.aams-offcanvas-search:focus {
+  border-color: var(--bs-primary) !important;
+}

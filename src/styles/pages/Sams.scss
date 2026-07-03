@@ -29,3 +29,101 @@
 .sams-performance-list li:last-child {
   border-bottom: 0 !important;
 }
+
+.sams-mobile-filter-bar {
+  top: 12px;
+}
+
+.sams-desktop-layout {
+  display: grid;
+  grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
+  column-gap: 1.5rem;
+  align-items: start;
+}
+
+.sams-desktop-sidebar {
+  position: sticky;
+  top: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.375rem;
+  padding: 1rem;
+  height: calc(100dvh - 3rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sams-sidebar-scroll {
+  overflow: auto;
+  padding-right: 0.375rem;
+}
+
+.sams-sidebar-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sams-sidebar-title {
+  margin-bottom: 0.5rem;
+}
+
+.sams-sidebar-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.sams-sidebar-options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.sams-sidebar-option {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  transition: color 0.15s ease;
+  width: fit-content;
+}
+
+.sams-sidebar-option:hover {
+  color: var(--bs-info) !important;
+}
+
+.sams-sidebar-option.is-active {
+  color: var(--bs-info) !important;
+  font-weight: bold;
+}
+
+.sams-sidebar-more {
+  background: transparent;
+  color: var(--bs-info) !important;
+  border: 0;
+  padding: 0;
+}
+
+.sams-sidebar-actions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  background: var(--bs-body-bg);
+  position: sticky;
+  bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .sams-desktop-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sams-modal-search:focus,
+.sams-offcanvas-search:focus {
+  border-color: var(--bs-primary) !important;
+}

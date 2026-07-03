@@ -28,7 +28,9 @@ export const samMissiles: SamDefinition[] = [
         vehicleTechTree: "Germany",
         vehicleOperator: "FRG",
         vehicleRank: "VIII",
-        vehicleBr: "12.7",
+        vehicleBr: {
+          RB: "12.7"
+        },
       },
     ],
   },
@@ -57,7 +59,9 @@ export const samMissiles: SamDefinition[] = [
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VIII",
-        vehicleBr: "11.7",
+        vehicleBr: {
+          RB: "11.7"
+        },
       },
     ],
   },
@@ -87,8 +91,42 @@ export const samMissiles: SamDefinition[] = [
         vehicleTechTree: "USSR",
         vehicleOperator: "Russia",
         vehicleRank: "VIII",
-        vehicleBr: "12.7",
+        vehicleBr: {
+          RB: "12.7"
+        },
       },
     ],
   },
+  {
+    id: "127mm_mim_72c",
+    designation: "MIM-72C",
+    family: "IR",
+    variant: "IR",
+    guidance: "IR",
+    caliberMm: 127,
+    projectileMassKg: 86.3,
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 12,
+    lockRangeAllAspectKm: 3.6,
+    IRCCM: false,
+    launchRangeKm: 6,
+    maximumSpeedMach: 2,
+    maximumOverloadG: 17,
+    missileGuidanceTimeS: 60,
+    explosiveType: "Octol/TNT",
+    explosiveMassKg: 3,
+    tntEquivalentKg: 4.3,
+    vehicles: [
+      {
+        id: "127mm_mim_72c_us_mim_72_chaparral",
+        vehicleId: "us_mim_72_chaparral",
+        vehicleName: "Imp.Chaparral",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.0"
+        }
+      }
+    ]
+  }
 ];

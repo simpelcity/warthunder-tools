@@ -127,9 +127,11 @@ export interface BaseAamVehicle {
   vehicleTechTree?: TechTree;
   vehicleOperator?: Countries;
   vehicleRank?: Rank;
-  vehicleBr?: BR;
-  vehicleBrAB?: BR;
-  vehicleBrSB?: BR;
+  vehicleBr?: {
+    AB?: BR;
+    RB: BR;
+    SB?: BR;
+  };
   icon?: AamIconNames;
 }
 

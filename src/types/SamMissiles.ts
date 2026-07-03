@@ -10,7 +10,7 @@ export type SamMissileVariant = IRSam | ARHSam | SemiAutomaticSam | BeamRidingSa
 
 export type IRSamAspect = "All-aspects";
 
-export type SamExplosiveType = "PBXN-110" | "Composition B" | "A-IX-2" | "HTA";
+export type SamExplosiveType = "PBXN-110" | "Composition B" | "A-IX-2" | "HTA" | "Octol/TNT";
 
 export type ARHBand = "J";
 export type ARHShootDown = "All-aspects";
@@ -97,9 +97,11 @@ export interface BaseSamVehicle {
   vehicleTechTree?: TechTree;
   vehicleOperator?: Countries;
   vehicleRank?: Rank;
-  vehicleBr?: BR;
-  vehicleBrAB?: BR;
-  vehicleBrSB?: BR;
+  vehicleBr?: {
+    AB?: BR;
+    RB: BR;
+    SB?: BR;
+  };
 }
 
 export interface USASamVehicle extends BaseSamVehicle {
