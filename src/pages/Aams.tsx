@@ -1098,7 +1098,7 @@ export default function Aams() {
 
       {isMobile ? (
         <>
-          <Offcanvas show={showVehiclePicker} onHide={() => setShowVehiclePicker(false)} placement="start">
+          <Offcanvas show={showVehiclePicker} onHide={() => setShowVehiclePicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
             </Offcanvas.Header>
@@ -1115,7 +1115,7 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showOperatorPicker} onHide={() => setShowOperatorPicker(false)} placement="start">
+          <Offcanvas show={showOperatorPicker} onHide={() => setShowOperatorPicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Operator</Offcanvas.Title>
             </Offcanvas.Header>
@@ -1132,7 +1132,7 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showTechTreePicker} onHide={() => setShowTechTreePicker(false)} placement="start">
+          <Offcanvas show={showTechTreePicker} onHide={() => setShowTechTreePicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Tech Tree</Offcanvas.Title>
             </Offcanvas.Header>
@@ -1149,7 +1149,7 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showVariantPicker} onHide={() => setShowVariantPicker(false)} placement="start">
+          <Offcanvas show={showVariantPicker} onHide={() => setShowVariantPicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Variant</Offcanvas.Title>
             </Offcanvas.Header>
@@ -1163,7 +1163,7 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showBrPicker} onHide={() => setShowBrPicker(false)} placement="start">
+          <Offcanvas show={showBrPicker} onHide={() => setShowBrPicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select BR</Offcanvas.Title>
             </Offcanvas.Header>
@@ -1177,7 +1177,7 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showAamPicker} onHide={() => setShowAamPicker(false)} placement="start">
+          <Offcanvas show={showAamPicker} onHide={() => setShowAamPicker(false)} placement="start" className="w-100">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select AAM</Offcanvas.Title>
             </Offcanvas.Header>

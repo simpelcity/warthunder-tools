@@ -1163,6 +1163,7 @@ export default function Sams() {
             show={showVehiclePicker}
             onHide={() => setShowVehiclePicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
@@ -1184,6 +1185,7 @@ export default function Sams() {
             show={showOperatorPicker}
             onHide={() => setShowOperatorPicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Operator</Offcanvas.Title>
@@ -1205,6 +1207,7 @@ export default function Sams() {
             show={showTechTreePicker}
             onHide={() => setShowTechTreePicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Tech Tree</Offcanvas.Title>
@@ -1226,6 +1229,7 @@ export default function Sams() {
             show={showVariantPicker}
             onHide={() => setShowVariantPicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Variant</Offcanvas.Title>
@@ -1246,6 +1250,7 @@ export default function Sams() {
             show={showBrPicker}
             onHide={() => setShowBrPicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select BR</Offcanvas.Title>
@@ -1266,6 +1271,7 @@ export default function Sams() {
             show={showSamPicker}
             onHide={() => setShowSamPicker(false)}
             placement="start"
+            className="w-100"
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select SAM</Offcanvas.Title>
