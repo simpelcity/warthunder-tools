@@ -12,7 +12,7 @@ const countryIconFile: Record<Countries, string> = {
   "Republic of Vietnam": "south_vietnam",
   Norway: "norway",
   Philippines: "philippines",
-  "Germany (modern)": "germany_modern",
+  "FRG": "germany_modern",
   Poland: "poland",
   GDR: "gdr",
   "Canada (modern)": "canada_modern",

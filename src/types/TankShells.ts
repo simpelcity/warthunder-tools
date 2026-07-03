@@ -12,7 +12,9 @@ export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | 
 export type Heat = "HEAT" | "HEATFS" | "HEAT MP" | "HEAT-Grenade";
 export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE";
 
-export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1" | "A-IX-2";
+export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1" | "A-IX-2" | "PAX-3" | "CLX663" | "LX-14" | "Octol" | "Fp.02" | "H.5" | "Fp.02 and Np.10" | "PH-Salz and H.10" | "OKFOL" | "RDX/TNT" | "Amatol" | "PETN" | "Np.10" | "Hexal" | "H.10" | "Fp.60/40" | "Fp.10 and Np.10";
+
+export type Guidance = "Semi-Automatic (SACLOS)" | "Beam riding" | "IR" | "Manual (MCLOS)";
 
 export type Armor = "armor_vsmall" | "armor_small" | "armor_middle" | "armor_big";
 
@@ -23,7 +25,7 @@ export type Rank = "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII";
 export type BR = "1.0" | "1.3" | "1.7" | "2.0" | "2.3" | "2.7" | "3.0" | "3.3" | "3.7" | "4.0" | "4.3" | "4.7" | "5.0" | "5.3" | "5.7" | "6.0" | "6.3" | "6.7" | "7.0" | "7.3" | "7.7" | "8.0" | "8.3" | "8.7" | "9.0" | "9.3" | "9.7" | "10.0" | "10.3" | "10.7" | "11.0" | "11.3" | "11.7" | "12.0" | "12.3" | "12.7";
 
 export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines" | "China" | "Great Britain" | "Israel";
-export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "Germany (modern)" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
+export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "FRG" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
 export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
 export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
 export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
@@ -44,8 +46,8 @@ export interface BaseTankShell {
 	category: Shell;
 	family: KineticShell | ChemicalShell;
 	variant: TankShellVariant;
-	damage?: Damage;
-	armor?: Armor;
+	damage?: Damage | null;
+	armor?: Armor | null;
 }
 
 export interface KineticTankShell extends BaseTankShell {
@@ -104,18 +106,27 @@ export interface TankShellPerformance {
   id: string;
 	vehicleId: string;
 	vehicleName: string;
-  vehicleTechTree?: TechTree;
+  vehicleTechTree: TechTree;
   vehicleOperator?: Countries;
-  vehicleRank?: Rank;
-  vehicleBr?: BR;
-  vehicleBrAB?: BR;
-  vehicleBrSB?: BR;
+  vehicleRank: Rank;
+  vehicleBr: {
+    AB?: BR;
+    RB: BR;
+    SB?: BR;
+  }
+  damage?: Damage | null;
+  armor?: Armor | null;
 	penetrationMm: number;
 	caliberMm: number;
   projectileMassKg: number;
-	muzzleVelocityMs: number;
+	muzzleVelocityMs?: number;
   fuzeDelayM?: number;
   fuzeSensitivityMm?: number;
+  guidance?: Guidance;
+  IRCCM?: boolean;
+  launchRangeKm?: number;
+  maximumSpeedMs?: number;
+  missileGuidanceTimeS?: number;
 	explosiveMassKg?: number;
   explosiveType?: ShellExplosiveType;
 	tntEquivalentKg?: number;
@@ -214,14 +225,6 @@ export type IsraelTankShellDefinition = TankShell & {
   performances: IsraelTankShellPerformance[];
 }
 
-export type TankShellDefinition =
-  | USATankShellDefinition
-  | GermanyTankShellDefinition
-  | USSRTankShellDefinition
-  | GreatBritainTankShellDefinition
-  | JapanTankShellDefinition
-  | ChinaTankShellDefinition
-  | ItalyTankShellDefinition
-  | FranceTankShellDefinition
-  | SwedenTankShellDefinition
-  | IsraelTankShellDefinition;
+export type TankShellDefinition = TankShell & {
+  performances: TankShellPerformance[];
+};

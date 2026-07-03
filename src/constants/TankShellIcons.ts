@@ -52,7 +52,7 @@ export function getTankShellIconPath(shell: { category: Shell; family: KineticSh
 	return `${WT_SKIN_BASE}/${fileName}`;
 }
 
-export function getTankShellDecorIcons(shell: { armor?: Armor; damage?: Damage }) {
+export function getTankShellDecorIcons(shell: { armor?: Armor | null; damage?: Damage | null }) {
 	return {
     armor: `${shell.armor && `${WT_SKIN_BASE}/${shell.armor}.png`}`,
 		damage: `${shell.damage && `${WT_SKIN_BASE}/${shell.damage}.png`}`,
