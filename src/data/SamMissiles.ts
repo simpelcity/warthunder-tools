@@ -57,7 +57,7 @@ export const samMissiles: SamDefinition[] = [
         vehicleId: "germ_flarakrad",
         vehicleName: "FlaRakRad",
         vehicleTechTree: "Germany",
-        vehicleOperator: "GDR",
+        vehicleOperator: "FRG",
         vehicleRank: "VIII",
         vehicleBr: {
           RB: "11.7"
