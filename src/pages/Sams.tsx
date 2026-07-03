@@ -8,7 +8,7 @@ import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { getCountryIcons } from '@/constants/CountryIcons'
 
-const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
+const MOBILE_POPOVER_HEIGHT_ESTIMATE = 330;
 
 type FamilyFilter = 'All' | Sam;
 type VariantFilter = 'All' | SamMissileVariant;

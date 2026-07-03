@@ -10,9 +10,9 @@ export type SamMissileVariant = IRSam | ARHSam | SemiAutomaticSam | BeamRidingSa
 
 export type IRSamAspect = "All-aspects";
 
-export type SamExplosiveType = "PBXN-110" | "Composition B" | "A-IX-2" | "HTA" | "Octol/TNT";
+export type SamExplosiveType = "PBXN-110" | "Composition B" | "A-IX-2" | "HTA" | "Octol/TNT" | "PBXN-3";
 
-export type ARHBand = "J";
+export type ARHBand = "J" | "I";
 export type ARHShootDown = "All-aspects";
 
 export type TechTree = "USA" | "Germany" | "USSR" | "Great Britain" | "Japan" | "China" | "Italy" | "France" | "Sweden" | "Israel";
