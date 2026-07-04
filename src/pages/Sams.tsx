@@ -1174,7 +1174,7 @@ export default function Sams() {
                 {searchableVehicleOptions.map((option) => (
                   <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
                     {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option}</span>
+                    <span className="font-wt">{option}</span>
                   </Button>
                 ))}
               </div>
