@@ -524,5 +524,39 @@ export const samMissiles: SamDefinition[] = [
         }
       }
     ]
+  },
+  {
+    id: "120mm_9m37m",
+    designation: "9M37M",
+    family: "IR",
+    variant: "IR",
+    guidance: "IR",
+    caliberMm: 120,
+    projectileMassKg: 39.2,
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectKm: 3.2,
+    IRCCM: true,
+    launchRangeKm: 5,
+    maximumSpeedMs: 700,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 16,
+    explosiveType: "A-IX-2",
+    explosiveMassKg: 1.1,
+    tntEquivalentKg: 1.7,
+    vehicles: [
+      {
+        id: "120mm_9m37m_germ_9a35_m",
+        vehicleId: "germ_9a35_m",
+        vehicleName: "◊Strela-10M",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.3"
+        }
+      }
+    ]
   }
 ];
