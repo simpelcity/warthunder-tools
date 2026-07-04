@@ -894,11 +894,11 @@ export default function Sams() {
                     {samOptions.length > 3 && <Button variant="secondary" onClick={handleOpenSamPicker}>More</Button>}
                   </div>
                 </div>
-
-                <Button variant="outline-primary" onClick={handleResetDraftFilters}>Reset Filters</Button>
+                
                 {hasDraftChanges && (
                   <Button variant="primary" onClick={handleApplyFilters}>Apply {previewFilteredSamsCount} Result{previewFilteredSamsCount !== 1 ? 's' : ''}</Button>
                 )}
+                <Button variant="outline-primary" onClick={handleResetDraftFilters}>Reset Filters</Button>
               </div>
             </Offcanvas.Body>
           </Offcanvas>

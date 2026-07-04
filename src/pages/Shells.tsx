@@ -1143,14 +1143,6 @@ export default function Shells() {
                 </div>
 
                 <div className="d-flex flex-column row-gap-3">
-                  <Button
-                    variant="outline-primary"
-                    onClick={handleResetDraftFilters}
-                    className="border-2"
-                  >
-                    Reset Filters
-                  </Button>
-
                   {hasDraftChanges && (
                     <Button
                       variant="primary"
@@ -1164,6 +1156,14 @@ export default function Shells() {
                       )}
                     </Button>
                   )}
+                  
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleResetDraftFilters}
+                    className="border-2"
+                  >
+                    Reset Filters
+                  </Button>
                 </div>
               </div>
             </Offcanvas.Body>
