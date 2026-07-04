@@ -1199,7 +1199,7 @@ export default function Shells() {
                     {getVehicleFilterIcon(option) && (
                       <Image src={getVehicleFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
                     )}
-                    <span>{option}</span>
+                    <span className="font-wt">{option}</span>
                   </Button>
                 ))}
 

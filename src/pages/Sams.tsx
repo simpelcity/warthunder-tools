@@ -538,7 +538,7 @@ export default function Sams() {
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
-              <span>{vehicle?.vehicleName}</span>
+              <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? 'is-open' : ''}`}>
                 <FaAngleDown />
               </span>
@@ -548,7 +548,7 @@ export default function Sams() {
               {getPopoverVehicles(sam).map((samVehicle) => (
                 <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center" onClick={() => setVehicle(samVehicle)}>
                   {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
-                  <span>{samVehicle.vehicleName}</span>
+                  <span className="font-wt">{samVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
             </Dropdown.Menu>
@@ -852,11 +852,11 @@ export default function Sams() {
                 </div>
 
                 <div className="d-flex flex-column row-gap-2">
-                  <span className="fw-semibold">Vehicle: {draftFilters.vehicle}</span>
+                  <span className="fw-semibold font-wt">Vehicle: {draftFilters.vehicle}</span>
                   <div className="d-flex flex-wrap gap-2">
                     <Button variant={draftFilters.vehicle === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect('All')}>All</Button>
                     {quickVehicleOptions.map((option) => (
-                      <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
+                      <Button className="font-wt" key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
                     ))}
                     {vehicleOptions.length > 3 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
@@ -1300,7 +1300,7 @@ export default function Sams() {
                 {searchableVehicleOptions.map((option) => (
                   <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
                     {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option}</span>
+                    <span className="font-wt">{option}</span>
                   </Button>
                 ))}
               </div>

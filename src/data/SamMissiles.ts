@@ -191,6 +191,28 @@ export const samMissiles: SamDefinition[] = [
           AB: "9.7",
           RB: "10.0"
         }
+      },
+      {
+        id: "70mm_fim_92e_germ_wiesel_2_adwc",
+        vehicleId: "germ_wiesel_2_adwc",
+        vehicleName: "Ozelot",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.7"
+        }
+      },
+      {
+        id: "70mm_fim_92e_germ_flakpz_1a2_Gepard",
+        vehicleId: "germ_flakpz_1a2_Gepard",
+        vehicleName: "Gepard 1A2",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.7"
+        }
       }
     ]
   },
@@ -223,6 +245,28 @@ export const samMissiles: SamDefinition[] = [
         vehicleBr: {
           AB: "9.7",
           RB: "10.0"
+        }
+      },
+      {
+        id: "70mm_fim_92k_germ_wiesel_2_adwc",
+        vehicleId: "germ_wiesel_2_adwc",
+        vehicleName: "Ozelot",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.7"
+        }
+      },
+      {
+        id: "70mm_fim_92k_germ_flakpz_1a2_Gepard",
+        vehicleId: "germ_flakpz_1a2_Gepard",
+        vehicleName: "Gepard 1A2",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.7"
         }
       }
     ]
@@ -259,6 +303,38 @@ export const samMissiles: SamDefinition[] = [
     ]
   },
   {
+    id: "163mm_roland_2",
+    designation: "Roland 2",
+    family: "Semi-Automatic",
+    variant: "Semi-Automatic (SACLOS)",
+    guidance: "Semi-Automatic (SACLOS)",
+    penetrationMm: 39,
+    caliberMm: 163,
+    projectileMassKg: 65,
+    fuzeDelayM: 1,
+    fuzeSensitivityMm: 0.1,
+    IRCCM: true,
+    launchRangeKm: 6.3,
+    maximumSpeedMs: 500,
+    missileGuidanceTimeS: 13.8,
+    explosiveType: "Composition B",
+    explosiveMassKg: 3.5,
+    tntEquivalentKg: 4.6,
+    vehicles: [
+      {
+        id: "163mm_roland_2_germ_flarakpz_1",
+        vehicleId: "germ_flarakpz_1",
+        vehicleName: "FlaRakPz 1",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.0"
+        }
+      }
+    ]
+  },
+  {
     id: "163mm_roland_3",
     designation: "Roland 3",
     family: "Semi-Automatic",
@@ -282,6 +358,17 @@ export const samMissiles: SamDefinition[] = [
         vehicleId: "us_xm_975_roland",
         vehicleName: "XM975",
         vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.0"
+        }
+      },
+      {
+        id: "163mm_roland_3_germ_flarakpz_1",
+        vehicleId: "germ_flarakpz_1",
+        vehicleName: "FlaRakPz 1",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
         vehicleRank: "VII",
         vehicleBr: {
           RB: "10.0"
@@ -406,4 +493,36 @@ export const samMissiles: SamDefinition[] = [
       },
     ],
   },
+  {
+    id: "210mm_9m33m3",
+    designation: "9M33M3",
+    family: "Semi-Automatic",
+    variant: "Semi-Automatic (SACLOS)",
+    guidance: "Semi-Automatic (SACLOS)",
+    caliberMm: 210,
+    penetrationMm: 60.3,
+    projectileMassKg: 126.3,
+    fuzeDelayM: 1,
+    fuzeSensitivityMm: 0.1,
+    IRCCM: true,
+    launchRangeKm: 10.3,
+    maximumSpeedMs: 580,
+    missileGuidanceTimeS: 24,
+    explosiveType: "A-IX-2",
+    explosiveMassKg: 5.4,
+    tntEquivalentKg: 8.3,
+    vehicles: [
+      {
+        id: "210mm_9m33m3_germ_9a33bm3",
+        vehicleId: "germ_9a33bm3",
+        vehicleName: "◊Osa-AK",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.3"
+        }
+      }
+    ]
+  }
 ];
