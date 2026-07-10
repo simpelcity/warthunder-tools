@@ -25,6 +25,7 @@ export const tankShellVariantNames = {
 	HESH: "High-Explosive Squash Head",
 	Smoke: "Smoke",
 	Shrapnel: "Shrapnel",
+	AHEAD: "Shrapnel shell with time fuze",
 	HEAT: "High-Explosive Anti-Tank",
 	HEATFS: "High-Explosive Anti-Tank Fin-Stabilised",
 	"HEAT MP": "High-Explosive Anti-Tank, Multi-Purpose",

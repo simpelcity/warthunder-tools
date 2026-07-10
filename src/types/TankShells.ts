@@ -8,7 +8,7 @@ export type SolidAP = "AP" | "APC" | "APBC" | "APCBC";
 export type HEFilledAP = "APHE" | "APHEBC" | "AC" | "SAP" | "SAPCBC" | "SAPHEI" | "SAPHECBC";
 export type SubCaliberAP = "APCR" | "APDS" | "APFSDS";
 
-export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | "VOG" | "Rocket" | "HESH" | "Smoke" | "Shrapnel";
+export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | "VOG" | "Rocket" | "HESH" | "Smoke" | "Shrapnel" | "AHEAD";
 export type Heat = "HEAT" | "HEATFS" | "HEAT MP" | "HEAT-Grenade";
 export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE";
 
