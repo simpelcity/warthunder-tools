@@ -558,5 +558,38 @@ export const samMissiles: SamDefinition[] = [
         }
       }
     ]
+  },
+  {
+    id: "72mm_9m39",
+    designation: "9M39",
+    family: "IR",
+    variant: "IR",
+    guidance: "IR",
+    caliberMm: 72,
+    projectileMassKg: 10.6,
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectKm: 6,
+    IRCCM: true,
+    launchRangeKm: 5.2,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 14,
+    explosiveType: "OKFOL-20",
+    explosiveMassKg: 0.4,
+    tntEquivalentKg: 0.53,
+    vehicles: [
+      {
+        id: "72mm_9m39_ussr_zsu_23_4m4",
+        vehicleId: "ussr_zsu_23_4m4",
+        vehicleName: "ZSU-23-4M4",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.3"
+        }
+      }
+    ]
   }
 ];
