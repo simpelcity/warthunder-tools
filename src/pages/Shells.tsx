@@ -629,11 +629,11 @@ export default function Shells() {
     <Popover id="shell-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
-          {shell.armor && shell.damage && (
+          {(shell.armor && shell.damage) && (
             <div className="shell-icon_decor position-absolute w-100 h-100 start-0 top-0">
-              <Image src={getTankShellDecorIcons(vehicle ? vehicle : shell).damage} alt="Damage" className="position-absolute w-100 start-0 top-0" />
+              <Image src={getTankShellDecorIcons(vehicle?.damage ? vehicle : shell).damage} alt="Damage" className="position-absolute w-100 start-0 top-0" />
 
-              <Image src={getTankShellDecorIcons(vehicle ? vehicle : shell).armor} alt="Armor" className="position-absolute w-100 start-0 top-0" />
+              <Image src={getTankShellDecorIcons(vehicle?.armor ? vehicle : shell).armor} alt="Armor" className="position-absolute w-100 start-0 top-0" />
             </div>
           )}
 
@@ -1681,7 +1681,7 @@ export default function Shells() {
                       onClick={(event) => handleShellClick(shell.id, event.currentTarget)}
                     >
                       <div className="shell-icon position-relative overflow-hidden">
-                        {shell.armor && shell.damage && (
+                        {(shell.armor && shell.damage) && (
                           <div className="shell-icon_decor position-absolute w-100 h-100 start-0 top-0">
                             <Image src={getTankShellDecorIcons(shell).damage} alt="Damage" className="position-absolute w-100 start-0 top-0" />
 
