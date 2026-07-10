@@ -94,7 +94,7 @@ export const tankShells: TankShellDefinition[] = [
         "id": "103mm_milan_uk_ratel_20",
         "vehicleId": "uk_ratel_20",
         "vehicleName": "Ratel 20",
-        "vehicleTechTree": "Britain",
+        "vehicleTechTree": "Great Britain",
         "vehicleRank": "IV",
         "vehicleBr": {
           "AB": "6.7",
