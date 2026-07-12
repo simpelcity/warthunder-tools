@@ -847,7 +847,7 @@ export default function Sams() {
                     {quickBrOptions.map((option) => (
                       <Button key={option} variant={draftFilters.br === option ? 'primary' : 'outline-secondary'} onClick={() => handleBrSelect(option)}>{option}</Button>
                     ))}
-                    {brOptions.length > 3 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
+                    {brOptions.length > 4 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -858,7 +858,7 @@ export default function Sams() {
                     {quickVehicleOptions.map((option) => (
                       <Button className="font-wt" key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
                     ))}
-                    {vehicleOptions.length > 3 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
+                    {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -869,7 +869,7 @@ export default function Sams() {
                     {quickOperatorOptions.map((option) => (
                       <Button key={option} variant={draftFilters.operator === option ? 'primary' : 'outline-secondary'} onClick={() => handleOperatorSelect(option)}>{option}</Button>
                     ))}
-                    {operatorOptions.length > 3 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
+                    {operatorOptions.length > 4 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -880,7 +880,7 @@ export default function Sams() {
                     {quickTechTreeOptions.map((option) => (
                       <Button key={option} variant={draftFilters.techTree === option ? 'primary' : 'outline-secondary'} onClick={() => handleTechTreeSelect(option)}>{option}</Button>
                     ))}
-                    {techTreeOptions.length > 3 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
+                    {techTreeOptions.length > 4 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -891,7 +891,7 @@ export default function Sams() {
                     {quickSamOptions.map((option) => (
                       <Button key={option} variant={draftFilters.sam === option ? 'primary' : 'outline-secondary'} onClick={() => handleSamSelect(option)}>{getSamFilterLabel(option)}</Button>
                     ))}
-                    {samOptions.length > 3 && <Button variant="secondary" onClick={handleOpenSamPicker}>More</Button>}
+                    {samOptions.length > 4 && <Button variant="secondary" onClick={handleOpenSamPicker}>More</Button>}
                   </div>
                 </div>
                 
@@ -957,7 +957,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {(familyOptions as string[]).length > 3 && (
+                {(familyOptions as string[]).length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={() => setShowMoreFamilyDesktop((current) => !current)}>
                     {showMoreFamilyDesktop ? 'Less' : 'More'}
                   </button>
@@ -973,7 +973,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {variantOptions.length > 3 && (
+                {variantOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenVariantPicker}>
                     More
                   </button>
@@ -989,7 +989,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {(rankOptions as string[]).length > 3 && (
+                {(rankOptions as string[]).length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={() => setShowMoreRankDesktop((current) => !current)}>
                     {showMoreRankDesktop ? 'Less' : 'More'}
                   </button>
@@ -1008,7 +1008,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {brOptions.length > 3 && (
+                {brOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenBrPicker}>
                     More
                   </button>
@@ -1027,7 +1027,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {vehicleOptions.length > 3 && (
+                {vehicleOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenVehiclePicker}>
                     More
                   </button>
@@ -1046,7 +1046,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {operatorOptions.length > 3 && (
+                {operatorOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenOperatorPicker}>
                     More
                   </button>
@@ -1065,7 +1065,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {techTreeOptions.length > 3 && (
+                {techTreeOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenTechTreePicker}>
                     More
                   </button>
@@ -1084,7 +1084,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {samOptions.length > 3 && (
+                {samOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenSamPicker}>
                     More
                   </button>

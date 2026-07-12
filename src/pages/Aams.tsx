@@ -832,7 +832,7 @@ export default function Aams() {
                     {quickBrOptions.map((option) => (
                       <Button key={option} variant={draftFilters.br === option ? 'primary' : 'outline-secondary'} onClick={() => handleBrSelect(option)}>{option}</Button>
                     ))}
-                    {brOptions.length > 3 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
+                    {brOptions.length > 4 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -843,7 +843,7 @@ export default function Aams() {
                     {quickVehicleOptions.map((option) => (
                       <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
                     ))}
-                    {vehicleOptions.length > 3 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
+                    {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -854,7 +854,7 @@ export default function Aams() {
                     {quickOperatorOptions.map((option) => (
                       <Button key={option} variant={draftFilters.operator === option ? 'primary' : 'outline-secondary'} onClick={() => handleOperatorSelect(option)}>{option}</Button>
                     ))}
-                    {operatorOptions.length > 3 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
+                    {operatorOptions.length > 4 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -865,7 +865,7 @@ export default function Aams() {
                     {quickTechTreeOptions.map((option) => (
                       <Button key={option} variant={draftFilters.techTree === option ? 'primary' : 'outline-secondary'} onClick={() => handleTechTreeSelect(option)}>{option}</Button>
                     ))}
-                    {techTreeOptions.length > 3 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
+                    {techTreeOptions.length > 4 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -876,7 +876,7 @@ export default function Aams() {
                     {quickAamOptions.map((option) => (
                       <Button key={option} variant={draftFilters.aam === option ? 'primary' : 'outline-secondary'} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</Button>
                     ))}
-                    {aamOptions.length > 3 && <Button variant="secondary" onClick={handleOpenAamPicker}>More</Button>}
+                    {aamOptions.length > 4 && <Button variant="secondary" onClick={handleOpenAamPicker}>More</Button>}
                   </div>
                 </div>
                 
@@ -933,7 +933,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(categoryOptions as string[]).length > 3 && (
+                {(categoryOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreCategoryDesktop((current) => !current)}>
                     {showMoreCategoryDesktop ? 'Less' : 'More'}
                   </button>
@@ -949,7 +949,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(familyOptions as string[]).length > 3 && (
+                {(familyOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreFamilyDesktop((current) => !current)}>
                     {showMoreFamilyDesktop ? 'Less' : 'More'}
                   </button>
@@ -965,7 +965,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {variantOptions.length > 3 && (
+                {variantOptions.length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={handleOpenVariantPicker}>More</button>
                 )}
               </div>
@@ -979,7 +979,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(rankOptions as string[]).length > 3 && (
+                {(rankOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreRankDesktop((current) => !current)}>
                     {showMoreRankDesktop ? 'Less' : 'More'}
                   </button>
@@ -994,7 +994,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.br === option ? 'is-active' : ''}`} onClick={() => handleBrSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {brOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenBrPicker}>More</button>}
+                {brOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenBrPicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1005,7 +1005,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {vehicleOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenVehiclePicker}>More</button>}
+                {vehicleOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenVehiclePicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1016,7 +1016,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.operator === option ? 'is-active' : ''}`} onClick={() => handleOperatorSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {operatorOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenOperatorPicker}>More</button>}
+                {operatorOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenOperatorPicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1027,7 +1027,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.techTree === option ? 'is-active' : ''}`} onClick={() => handleTechTreeSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {techTreeOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenTechTreePicker}>More</button>}
+                {techTreeOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenTechTreePicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1038,7 +1038,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.aam === option ? 'is-active' : ''}`} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</button>
                   ))}
                 </div>
-                {aamOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenAamPicker}>More</button>}
+                {aamOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenAamPicker}>More</button>}
               </div>
             </div>
 

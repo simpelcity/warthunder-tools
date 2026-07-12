@@ -51,6 +51,7 @@ const countryIconFile: Record<Countries, string> = {
   Vietnam: "vietnam",
   "North Korea": "north_korea",
   Bangladesh: "bangladesh",
+  "Republic of China": "republic_china",
   Italy: "italy",
   "Kingdom of Italy": "",
   Hungary: "hungary",
@@ -85,5 +86,6 @@ const techTreeFallback: Record<TechTree, string> = {
 export function getCountryIcons(vehicle: { vehicleTechTree: TechTree, vehicleOperator?: Countries }) {
   const fileName = countryIconFile[vehicle?.vehicleOperator ? vehicle.vehicleOperator : vehicle.vehicleTechTree] ?? techTreeFallback[vehicle.vehicleTechTree] ?? "country_usa.svg";
   if (vehicle.vehicleOperator === "Serbia") return `${WT_SKIN_BASE}/${fileName}.svg`;
+  if (vehicle.vehicleOperator === "Republic of China") return `${WT_SKIN_BASE}/flag_${fileName}.svg`
   else return `${WT_SKIN_BASE}/country_${fileName}.svg`;
 }

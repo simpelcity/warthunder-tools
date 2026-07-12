@@ -29,7 +29,7 @@ export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithua
 export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
 export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
 export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
-export type CountriesChina = "China" | "Pakistan" | "Vietnam" | "North Korea" | "Bangladesh";
+export type CountriesChina = "China" | "Pakistan" | "Vietnam" | "North Korea" | "Bangladesh" | "Republic of China";
 export type CountriesItaly = "Italy" | "Kingdom of Italy" | "Hungary" | "Romania" | "Turkey" | "Spain" | "Hungary (modern)" | "Oman" | "Portugal" | "Brazil";
 export type CountriesFrance = "France" | "Finland" | "Belgium" | "Austria" | "Netherlands";
 export type CountriesSweden = "Sweden" | "Denmark" | "Finland" | "Austria" | "Norway";
@@ -133,96 +133,6 @@ export interface TankShellPerformance {
   smokeRadiusM?: number;
   smokeScreeningTimeS?: number;
   smokeHoldTimeS?: number;
-}
-
-export interface USATankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "USA";
-  vehicleOperator?: CountriesUSA;
-}
-
-export interface GermanyTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Germany";
-  vehicleOperator?: CountriesGermany;
-}
-
-export interface USSRTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "USSR";
-  vehicleOperator?: CountriesUSSR;
-}
-
-export interface GreatBritainTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Great Britain";
-  vehicleOperator?: CountriesGreatBritain;
-}
-
-export interface JapanTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Japan";
-  vehicleOperator?: CountriesJapan;
-}
-
-export interface ChinaTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "China";
-  vehicleOperator?: CountriesChina;
-}
-
-export interface ItalyTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Italy";
-  vehicleOperator?: CountriesItaly;
-}
-
-export interface FranceTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "France";
-  vehicleOperator?: CountriesFrance;
-}
-
-export interface SwedenTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Sweden";
-  vehicleOperator?: CountriesSweden;
-}
-
-export interface IsraelTankShellPerformance extends TankShellPerformance {
-  vehicleTechTree: "Israel";
-  vehicleOperator?: CountriesIsrael;
-}
-
-export type USATankShellDefinition = TankShell & {
-  performances: USATankShellPerformance[];
-}
-
-export type GermanyTankShellDefinition = TankShell & {
-  performances: GermanyTankShellPerformance[];
-}
-
-export type USSRTankShellDefinition = TankShell & {
-  performances: USSRTankShellPerformance[];
-}
-
-export type GreatBritainTankShellDefinition = TankShell & {
-  performances: GreatBritainTankShellPerformance[];
-}
-
-export type JapanTankShellDefinition = TankShell & {
-  performances: JapanTankShellPerformance[];
-}
-
-export type ChinaTankShellDefinition = TankShell & {
-  performances: ChinaTankShellPerformance[];
-}
-
-export type ItalyTankShellDefinition = TankShell & {
-  performances: ItalyTankShellPerformance[];
-}
-
-export type FranceTankShellDefinition = TankShell & {
-  performances: FranceTankShellPerformance[];
-}
-
-export type SwedenTankShellDefinition = TankShell & {
-  performances: SwedenTankShellPerformance[];
-}
-
-export type IsraelTankShellDefinition = TankShell & {
-  performances: IsraelTankShellPerformance[];
 }
 
 export type TankShellDefinition = TankShell & {

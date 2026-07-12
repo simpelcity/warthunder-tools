@@ -1076,7 +1076,7 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      {operatorOptions.length > 3 && (
+                      {operatorOptions.length > 4 && (
                         <Button variant="secondary" onClick={handleOpenOperatorPicker}>
                           More
                         </Button>
@@ -1106,7 +1106,7 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      {techTreeOptions.length > 3 && (
+                      {techTreeOptions.length > 4 && (
                         <Button variant="secondary" onClick={handleOpenTechTreePicker}>
                           More
                         </Button>
@@ -1403,7 +1403,7 @@ export default function Shells() {
                         </button>
                       ))}
                     </div>
-                    {(familyOptions as string[]).length > 3 && (
+                    {(familyOptions as string[]).length > 4 && (
                       <button
                         type="button"
                         className="shells-sidebar-more"
@@ -1428,7 +1428,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {variantOptions.length > 3 && (
+                  {variantOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1453,7 +1453,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {(rankOptions as string[]).length > 3 && (
+                  {(rankOptions as string[]).length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1485,7 +1485,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {brOptions.length > 3 && (
+                  {brOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1517,7 +1517,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {vehicleOptions.length > 3 && (
+                  {vehicleOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1549,7 +1549,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {operatorOptions.length > 3 && (
+                  {operatorOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1581,7 +1581,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {techTreeOptions.length > 3 && (
+                  {techTreeOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1606,7 +1606,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {shellOptions.length > 3 && (
+                  {shellOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
