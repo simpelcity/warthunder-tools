@@ -136,35 +136,26 @@ export default function Sams() {
   }, [draftFilters.rank]);
 
   const vehicleOptions = useMemo(() => {
-  const vehicles = Array.from(
-    new Map(
-      samMissiles
-        .flatMap((sam) =>
-          sam.vehicles
-            .filter(
-              (vehicle) =>
-                draftFilters.rank === 'All' ||
-                vehicle.vehicleRank === draftFilters.rank
-            )
-            .filter(
-              (vehicle) =>
-                draftFilters.techTree === 'All' ||
-                vehicle.vehicleTechTree === draftFilters.techTree
-            )
-            .map((vehicle) => ({
-              name: vehicle.vehicleName,
-              techTree: vehicle.vehicleTechTree,
-              operator: vehicle.vehicleOperator,
-            }))
-        )
-        .filter((vehicle) => vehicle.name)
-        .map((vehicle) => [vehicle.name, vehicle])
-    ).values()
-  ).sort((a, b) => a.name.localeCompare(b.name));
+    const vehicles = Array.from(
+      new Map(
+        samMissiles
+          .flatMap((sam) =>
+            sam.vehicles
+              .filter((vehicle) => draftFilters.rank === 'All' || vehicle.vehicleRank === draftFilters.rank)
+              .filter((vehicle) => draftFilters.techTree === 'All' || vehicle.vehicleTechTree === draftFilters.techTree)
+              .map((vehicle) => ({
+                name: vehicle.vehicleName,
+                techTree: vehicle.vehicleTechTree,
+                operator: vehicle.vehicleOperator,
+              }))
+          )
+          .filter((vehicle) => vehicle.name)
+          .map((vehicle) => [vehicle.name, vehicle])
+      ).values()
+    ).sort((a, b) => a.name.localeCompare(b.name));
 
-  return [{ name: 'All', techTree: 'All', operator: 'All' }, ...vehicles];
-}, [draftFilters.rank, draftFilters.techTree]);
-  console.log(vehicleOptions)
+    return [{ name: 'All', techTree: 'All', operator: 'All' }, ...vehicles];
+  }, [draftFilters.rank, draftFilters.techTree]);
 
   const techTreeOptions = useMemo(() => {
     const trees = Array.from(
@@ -1330,18 +1321,9 @@ export default function Sams() {
             <Modal.Body className="d-flex flex-column row-gap-3">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-modal-search bg-transparent text-light border-2 shadow-none" />
               <div className="d-flex flex-column row-gap-2 overflow-auto">
-                {searchableVehicleOptions.map((option) => (
+                {searchableVehicleOptions.map((option: any) => (
                   <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
-                    {option.name === "NASAMS 3(TEL)" ? (
-                      <>
-                     {getVehicleFilterIcon(option.techTree) && <Image src={getCountryIcons({ vehicleTechTree: option.techTree }) ?? ''} width={20} alt="Vehicle operator" />}
-                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
-                      </>
-                    ) : (
-                      <>
-                        {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
-                      </>
-                    )}
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
                     <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
