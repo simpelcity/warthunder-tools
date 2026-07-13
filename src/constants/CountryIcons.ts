@@ -1,4 +1,4 @@
-import type { TechTree, Countries } from '@/types/TankShells'
+import type { TechTree, Countries } from '@/types/Countries'
 
 const WT_SKIN_BASE = "https://static.encyclopedia.warthunder.com/gui_skin";
 
