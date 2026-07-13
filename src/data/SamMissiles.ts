@@ -62,6 +62,16 @@ export const samMissiles: SamDefinition[] = [
         vehicleBr: {
           RB: "9.0"
         }
+      },
+      {
+        id: "127mm_mim_72e_il_mim_72_chaparral",
+        vehicleId: "il_mim_72_chaparral",
+        vehicleName: "\uf059Imp.Chaparral",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "9.3"
+        }
       }
     ]
   },
@@ -127,6 +137,16 @@ export const samMissiles: SamDefinition[] = [
         vehicleBr: {
           AB: "9.7",
           RB: "10.0"
+        }
+      },
+      {
+        id: "70mm_fim_92e_il_machbet",
+        vehicleId: "il_machbet",
+        vehicleName: "Machbet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.3",
         }
       }
     ]
@@ -194,6 +214,16 @@ export const samMissiles: SamDefinition[] = [
           AB: "9.7",
           RB: "10.0"
         }
+      },
+      {
+        id: "70mm_fim_92k_il_machbet",
+        vehicleId: "il_machbet",
+        vehicleName: "Machbet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.3",
+        }
       }
     ]
   },
@@ -227,13 +257,13 @@ export const samMissiles: SamDefinition[] = [
         }
       },
       {
-        "id": "163mm_roland_1_fr_amx_30_roland",
-        "vehicleId": "fr_amx_30_roland",
-        "vehicleName": "Roland 1",
-        "vehicleTechTree": "France",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "RB": "9.7"
+        id: "163mm_roland_1_fr_amx_30_roland",
+        vehicleId: "fr_amx_30_roland",
+        vehicleName: "Roland 1",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "9.7"
         }
       }
     ]
@@ -311,13 +341,13 @@ export const samMissiles: SamDefinition[] = [
         }
       },
       {
-        "id": "163mm_roland_3_fr_amx_30_roland",
-        "vehicleId": "fr_amx_30_roland",
-        "vehicleName": "Roland 1",
-        "vehicleTechTree": "France",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "RB": "9.7"
+        id: "163mm_roland_3_fr_amx_30_roland",
+        vehicleId: "fr_amx_30_roland",
+        vehicleName: "Roland 1",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "9.7"
         }
       }
     ]
@@ -356,6 +386,17 @@ export const samMissiles: SamDefinition[] = [
         vehicleId: "us_nasams_launcher",
         vehicleName: "NASAMS 3 (TEL)",
         vehicleTechTree: "USA",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
+      },
+      {
+        id: "178mm_aim_120c_7_sw_nasams_launcher",
+        vehicleId: "sw_nasams_launcher",
+        vehicleName: "NASAMS 3 (TEL)",
+        vehicleTechTree: "Sweden",
         vehicleOperator: "Norway",
         vehicleRank: "VIII",
         vehicleBr: {
@@ -415,6 +456,17 @@ export const samMissiles: SamDefinition[] = [
         vehicleBr: {
           RB: "12.0"
         }
+      },
+      {
+        id: "127mm_aim_9x_block_2_sw_nasams_launcher",
+        vehicleId: "sw_nasams_launcher",
+        vehicleName: "NASAMS 3 (TEL)",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
       }
     ],
   },
@@ -448,7 +500,18 @@ export const samMissiles: SamDefinition[] = [
           RB: "12.7"
         },
       },
-    ],
+      {
+        id: "254mm_amraam_er_sw_nasams_launcher",
+        vehicleId: "sw_nasams_launcher",
+        vehicleName: "NASAMS 3 (TEL)",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
+      }
+    ]
   },
   {
     id: "210mm_9m33m3",
@@ -502,14 +565,14 @@ export const samMissiles: SamDefinition[] = [
         }
       },
       {
-        "id": "210mm_9m33m3_it_9a33bm3",
-        "vehicleId": "it_9a33bm3",
-        "vehicleName": "\u2584Osa-AKM",
-        "vehicleTechTree": "Italy",
-        "vehicleOperator": "Romania",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "RB": "10.3"
+        id: "210mm_9m33m3_it_9a33bm3",
+        vehicleId: "it_9a33bm3",
+        vehicleName: "\u2584Osa-AKM",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Romania",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.3"
         }
       }
     ]
@@ -570,15 +633,15 @@ export const samMissiles: SamDefinition[] = [
         }
       },
       {
-        "id": "120mm_9m37m_it_9a35_m",
-        "vehicleId": "it_9a35_m",
-        "vehicleName": "\u25d4Strela-10M",
-        "vehicleTechTree": "Italy",
-        "vehicleOperator": "Hungary",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "AB": "11.0",
-          "RB": "10.3"
+        id: "120mm_9m37m_it_9a35_m",
+        vehicleId: "it_9a35_m",
+        vehicleName: "\u25d4Strela-10M",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.3"
         }
       }
     ]
@@ -613,24 +676,24 @@ export const samMissiles: SamDefinition[] = [
         },
       },
       {
-        "id": "165mm_vt1_fr_crotale_ng",
-        "vehicleId": "fr_crotale_ng",
-        "vehicleName": "\u2584ItO 90M",
-        "vehicleTechTree": "France",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.0"
+        id: "165mm_vt1_fr_crotale_ng",
+        vehicleId: "fr_crotale_ng",
+        vehicleName: "\u2584ItO 90M",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
         }
       },
       {
-        "id": "165mm_vt1_sw_crotale_ng",
-        "vehicleId": "sw_crotale_ng",
-        "vehicleName": "ItO 90M",
-        "vehicleTechTree": "Sweden",
-        "vehicleOperator": "Finland",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.0"
+        id: "165mm_vt1_sw_crotale_ng",
+        vehicleId: "sw_crotale_ng",
+        vehicleName: "ItO 90M",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
         }
       }
     ]
@@ -795,13 +858,13 @@ export const samMissiles: SamDefinition[] = [
         }
       },
       {
-        "id": "239mm_9m331_cn_tor_m1",
-        "vehicleId": "cn_tor_m1",
-        "vehicleName": "Tor-M1",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "11.3"
+        id: "239mm_9m331_cn_tor_m1",
+        vehicleId: "cn_tor_m1",
+        vehicleName: "Tor-M1",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "11.3"
         }
       }
     ]
@@ -1236,419 +1299,543 @@ export const samMissiles: SamDefinition[] = [
     ]
   },
   {
-    "id": "71mm_hn_6",
-    "designation": "HN-6",
-    "family": "IR",
-    "variant": "IR",
-    "caliberMm": 71,
-    "projectileMassKg": 10.8,
-    "guidance": "IR",
+    id: "71mm_hn_6",
+    designation: "HN-6",
+    family: "IR",
+    variant: "IR",
+    caliberMm: 71,
+    projectileMassKg: 10.8,
+    guidance: "IR",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 11,
     lockRangeAllAspectKm: 6,
-    "IRCCM": true,
-    "launchRangeKm": 5,
-    "maximumSpeedMach": 1.8,
+    IRCCM: true,
+    launchRangeKm: 5,
+    maximumSpeedMach: 1.8,
     maximumOverloadG: 12,
-    "missileGuidanceTimeS": 16,
-    "explosiveType": "A-IX-2",
-    "explosiveMassKg": 0.6,
-    "tntEquivalentKg": 0.924,
-    "vehicles": [
+    missileGuidanceTimeS: 16,
+    explosiveType: "A-IX-2",
+    explosiveMassKg: 0.6,
+    tntEquivalentKg: 0.924,
+    vehicles: [
       {
-        "id": "71mm_hn_6_cn_pgz_04a",
-        "vehicleId": "cn_pgz_04a",
-        "vehicleName": "PGZ04A",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VI",
-        "vehicleBr": {
-          "RB": "9.3"
+        id: "71mm_hn_6_cn_pgz_04a",
+        vehicleId: "cn_pgz_04a",
+        vehicleName: "PGZ04A",
+        vehicleTechTree: "China",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.3"
         }
       }
     ]
   },
   {
-    "id": "127mm_tc_1l",
-    "designation": "TC-1L",
-    "family": "IR",
-    "variant": "IR",
-    "caliberMm": 127,
-    "projectileMassKg": 90,
-    "guidance": "IR",
+    id: "127mm_tc_1l",
+    designation: "TC-1L",
+    family: "IR",
+    variant: "IR",
+    caliberMm: 127,
+    projectileMassKg: 90,
+    guidance: "IR",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 11,
     lockRangeAllAspectKm: 6,
-    "IRCCM": true,
-    "launchRangeKm": 6,
-    "maximumSpeedMach": 2,
+    IRCCM: true,
+    launchRangeKm: 6,
+    maximumSpeedMach: 2,
     maximumOverloadG: 35,
-    "missileGuidanceTimeS": 60,
-    "explosiveType": "HBX",
-    "explosiveMassKg": 3.6,
-    "tntEquivalentKg": 5.8,
-    "vehicles": [
+    missileGuidanceTimeS: 60,
+    explosiveType: "HBX",
+    explosiveMassKg: 3.6,
+    tntEquivalentKg: 5.8,
+    vehicles: [
       {
-        "id": "127mm_tc_1l_cn_antelope_tc_1l_ads",
-        "vehicleId": "cn_antelope_tc_1l_ads",
-        "vehicleName": "Antelope",
-        "vehicleTechTree": "China",
-        "vehicleOperator": "Republic of China",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "AB": "10.3",
-          "RB": "10.0"
+        id: "127mm_tc_1l_cn_antelope_tc_1l_ads",
+        vehicleId: "cn_antelope_tc_1l_ads",
+        vehicleName: "Antelope",
+        vehicleTechTree: "China",
+        vehicleOperator: "Republic of China",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0"
         }
       }
     ]
   },
   {
-    "id": "239mm_hq17",
-    "designation": "HQ17",
-    "family": "Semi-Automatic",
-    "variant": "Semi-Automatic (SACLOS)",
-    "caliberMm": 239,
-    "projectileMassKg": 165,
-    "penetrationMm": 60.2,
-    "fuzeDelayM": 1,
-    "fuzeSensitivityMm": 0.3,
-    "guidance": "Semi-Automatic (SACLOS)",
-    "IRCCM": true,
-    "launchRangeKm": 15,
-    "maximumSpeedMs": 885,
-    "missileGuidanceTimeS": 27,
-    "explosiveType": "A-IX-2",
-    "explosiveMassKg": 5.3,
-    "tntEquivalentKg": 8.2,
-    "vehicles": [
+    id: "239mm_hq17",
+    designation: "HQ17",
+    family: "Semi-Automatic",
+    variant: "Semi-Automatic (SACLOS)",
+    caliberMm: 239,
+    projectileMassKg: 165,
+    penetrationMm: 60.2,
+    fuzeDelayM: 1,
+    fuzeSensitivityMm: 0.3,
+    guidance: "Semi-Automatic (SACLOS)",
+    IRCCM: true,
+    launchRangeKm: 15,
+    maximumSpeedMs: 885,
+    missileGuidanceTimeS: 27,
+    explosiveType: "A-IX-2",
+    explosiveMassKg: 5.3,
+    tntEquivalentKg: 8.2,
+    vehicles: [
       {
-        "id": "239mm_hq17_cn_hq_17",
-        "vehicleId": "cn_hq_17",
-        "vehicleName": "HQ17",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "AB": "11.7",
-          "RB": "11.7",
-          "SB": "11.7"
+        id: "239mm_hq17_cn_hq_17",
+        vehicleId: "cn_hq_17",
+        vehicleName: "HQ17",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
         }
       }
     ],
   },
   {
-    "id": "130mm_fb_10",
-    "designation": "FB-10",
-    "family": "IR",
-    "variant": "IR+IOG+DL",
-    "caliberMm": 130,
-    "projectileMassKg": 46,
-    "guidance": "IR+IOG+DL",
+    id: "130mm_fb_10",
+    designation: "FB-10",
+    family: "IR",
+    variant: "IR+IOG+DL",
+    caliberMm: 130,
+    projectileMassKg: 46,
+    guidance: "IR+IOG+DL",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 12,
     lockRangeAllAspectKm: 9,
-    "IRCCM": true,
-    "launchRangeKm": 10,
-    "maximumSpeedMach": 2,
+    IRCCM: true,
+    launchRangeKm: 10,
+    maximumSpeedMach: 2,
     maximumOverloadG: 20,
-    "missileGuidanceTimeS": 30,
-    "explosiveType": "HTA",
-    "explosiveMassKg": 1,
-    "tntEquivalentKg": 1.3,
-    "vehicles": [
+    missileGuidanceTimeS: 30,
+    explosiveType: "HTA",
+    explosiveMassKg: 1,
+    tntEquivalentKg: 1.3,
+    vehicles: [
       {
-        "id": "130mm_fb_10_cn_pgz_625_fb10",
-        "vehicleId": "cn_pgz_625_fb10",
-        "vehicleName": "CS/SA5",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.0"
+        id: "130mm_fb_10_cn_pgz_625_fb10",
+        vehicleId: "cn_pgz_625_fb10",
+        vehicleName: "CS/SA5",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
         }
       }
     ]
   },
   {
-    "id": "160mm_fb_10a",
-    "designation": "FB-10A",
-    "family": "IR",
-    "variant": "IR+IOG+DL",
-    "caliberMm": 160,
-    "projectileMassKg": 65,
-    "guidance": "IR+IOG+DL",
+    id: "160mm_fb_10a",
+    designation: "FB-10A",
+    family: "IR",
+    variant: "IR+IOG+DL",
+    caliberMm: 160,
+    projectileMassKg: 65,
+    guidance: "IR+IOG+DL",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 12,
     lockRangeAllAspectKm: 9,
-    "IRCCM": true,
-    "launchRangeKm": 18,
-    "maximumSpeedMach": 2,
+    IRCCM: true,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2,
     maximumOverloadG: 20,
-    "missileGuidanceTimeS": 60,
-    "explosiveType": "HTA",
-    "explosiveMassKg": 1,
-    "tntEquivalentKg": 1.3,
-    "vehicles": [
+    missileGuidanceTimeS: 60,
+    explosiveType: "HTA",
+    explosiveMassKg: 1,
+    tntEquivalentKg: 1.3,
+    vehicles: [
       {
-        "id": "160mm_fb_10a_cn_pgz_625_fb10",
-        "vehicleId": "cn_pgz_625_fb10",
-        "vehicleName": "CS/SA5",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.0"
+        id: "160mm_fb_10a_cn_pgz_625_fb10",
+        vehicleId: "cn_pgz_625_fb10",
+        vehicleName: "CS/SA5",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
         }
       }
     ]
   },
   {
-    "id": "250mm_fm_3000",
-    "designation": "FM-3000",
-    "family": "ARH",
-    "variant": "ARH+IOG+DL",
-    "caliberMm": 250,
-    "projectileMassKg": 305,
-    "guidance": "ARH+IOG+DL",
+    id: "250mm_fm_3000",
+    designation: "FM-3000",
+    family: "ARH",
+    variant: "ARH+IOG+DL",
+    caliberMm: 250,
+    projectileMassKg: 305,
+    guidance: "ARH+IOG+DL",
     band: "I",
     shootDown: "All-aspects",
     lockRangeKm: 16,
-    "launchRangeKm": 30,
-    "maximumSpeedMach": 3.5,
+    launchRangeKm: 30,
+    maximumSpeedMach: 3.5,
     maximumOverloadG: 40,
-    "missileGuidanceTimeS": 60,
-    "explosiveType": "A-IX-2",
-    "explosiveMassKg": 7.3,
-    "tntEquivalentKg": 11.2,
-    "vehicles": [
+    missileGuidanceTimeS: 60,
+    explosiveType: "A-IX-2",
+    explosiveMassKg: 7.3,
+    tntEquivalentKg: 11.2,
+    vehicles: [
       {
-        "id": "250mm_fm_3000_cn_hq_11",
-        "vehicleId": "cn_hq_11",
-        "vehicleName": "HQ11",
-        "vehicleTechTree": "China",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.7"
+        id: "250mm_fm_3000_cn_hq_11",
+        vehicleId: "cn_hq_11",
+        vehicleName: "HQ11",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
         }
       }
     ]
   },
   {
-    "id": "90mm_mistral",
-    "designation": "Mistral",
-    "family": "IR",
-    "variant": "IR",
-    "caliberMm": 90,
-    "projectileMassKg": 18.7,
-    "guidance": "IR",
+    id: "90mm_mistral",
+    designation: "Mistral",
+    family: "IR",
+    variant: "IR",
+    caliberMm: 90,
+    projectileMassKg: 18.7,
+    guidance: "IR",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 11,
     lockRangeAllAspectKm: 6,
-    "IRCCM": true,
-    "launchRangeKm": 6,
-    "maximumSpeedMach": 2.5,
+    IRCCM: true,
+    launchRangeKm: 6,
+    maximumSpeedMach: 2.5,
     maximumOverloadG: 16,
-    "missileGuidanceTimeS": 14,
-    "explosiveType": "HBX",
-    "explosiveMassKg": 1.1,
-    "tntEquivalentKg": 1.8,
-    "vehicles": [
+    missileGuidanceTimeS: 14,
+    explosiveType: "HBX",
+    explosiveMassKg: 1.1,
+    tntEquivalentKg: 1.8,
+    vehicles: [
       {
-        "id": "90mm_mistral_it_otobreda_sidam_25_mistral",
-        "vehicleId": "it_otobreda_sidam_25_mistral",
-        "vehicleName": "SIDAM 25 (Mistral)",
-        "vehicleTechTree": "Italy",
-        "vehicleRank": "VI",
-        "vehicleBr": {
-          "AB": "10.0",
-          "RB": "9.7"
+        id: "90mm_mistral_it_otobreda_sidam_25_mistral",
+        vehicleId: "it_otobreda_sidam_25_mistral",
+        vehicleName: "SIDAM 25 (Mistral)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7"
         }
       },
       {
-        "id": "90mm_mistral_fr_vab_santal",
-        "vehicleId": "fr_vab_santal",
-        "vehicleName": "SANTAL",
-        "vehicleTechTree": "France",
-        "vehicleRank": "VI",
-        "vehicleBr": {
-          "RB": "9.3"
+        id: "90mm_mistral_fr_vab_santal",
+        vehicleId: "fr_vab_santal",
+        vehicleName: "SANTAL",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          RB: "9.3"
         }
       }
     ]
   },
   {
-    "id": "180mm_aster_30",
-    "designation": "Aster-30",
-    "family": "ARH",
-    "variant": "ARH+IOG+DL",
-    "caliberMm": 180,
-    "projectileMassKg": 450,
-    "guidance": "ARH+IOG+DL",
+    id: "180mm_aster_30",
+    designation: "Aster-30",
+    family: "ARH",
+    variant: "ARH+IOG+DL",
+    caliberMm: 180,
+    projectileMassKg: 450,
+    guidance: "ARH+IOG+DL",
     band: "I",
     shootDown: "All-aspects",
     lockRangeKm: 16,
-    "launchRangeKm": 100,
-    "maximumSpeedMach": 4.5,
+    launchRangeKm: 100,
+    maximumSpeedMach: 4.5,
     maximumOverloadG: 50,
-    "missileGuidanceTimeS": 210,
-    "explosiveType": "PBXN-110",
-    "explosiveMassKg": 5.3,
-    "tntEquivalentKg": 6.7,
-    "vehicles": [
+    missileGuidanceTimeS: 210,
+    explosiveType: "PBXN-110",
+    explosiveMassKg: 5.3,
+    tntEquivalentKg: 6.7,
+    vehicles: [
       {
-        "id": "180mm_aster_30_it_samp_t_launcher",
-        "vehicleId": "it_samp_t_launcher",
-        "vehicleName": "FSAF SAMP/T (TEL)",
-        "vehicleTechTree": "Italy",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.7"
+        id: "180mm_aster_30_it_samp_t_launcher",
+        vehicleId: "it_samp_t_launcher",
+        vehicleName: "FSAF SAMP/T (TEL)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
         }
       },
       {
-        "id": "180mm_aster_30_fr_samp_t_launcher",
-        "vehicleId": "fr_samp_t_launcher",
-        "vehicleName": "FSAF SAMP/T (Mamba) (TEL)",
-        "vehicleTechTree": "France",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "RB": "12.7"
+        id: "180mm_aster_30_fr_samp_t_launcher",
+        vehicleId: "fr_samp_t_launcher",
+        vehicleName: "FSAF SAMP/T (Mamba) (TEL)",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
         }
       }
     ]
   },
   {
-    "id": "105mm_rb_70",
-    "designation": "RB 70",
-    "family": "Beam riding",
-    "variant": "Beam riding",
-    "caliberMm": 105,
-    "projectileMassKg": 16.5,
-    "penetrationMm": 10.4,
-    "fuzeDelayM": 0.05,
-    "fuzeSensitivityMm": 0.1,
-    "guidance": "Beam riding",
-    "launchRangeKm": 5,
-    "maximumSpeedMs": 525,
-    "missileGuidanceTimeS": 15,
-    "explosiveType": "Composition B",
-    "explosiveMassKg": 0.522,
-    "tntEquivalentKg": 0.684,
-    "vehicles": [
+    id: "105mm_rb_70",
+    designation: "RB 70",
+    family: "Beam riding",
+    variant: "Beam riding",
+    caliberMm: 105,
+    projectileMassKg: 16.5,
+    penetrationMm: 10.4,
+    fuzeDelayM: 0.05,
+    fuzeSensitivityMm: 0.1,
+    guidance: "Beam riding",
+    launchRangeKm: 5,
+    maximumSpeedMs: 525,
+    missileGuidanceTimeS: 15,
+    explosiveType: "Composition B",
+    explosiveMassKg: 0.522,
+    tntEquivalentKg: 0.684,
+    vehicles: [
       {
-        "id": "105mm_rb_70_sw_lvrbv_701",
-        "vehicleId": "sw_lvrbv_701",
-        "vehicleName": "Lvrbv 701",
-        "vehicleTechTree": "Sweden",
-        "vehicleRank": "VI",
-        "vehicleBr": {
-          "AB": "9.3",
-          "RB": "9.7",
-          "SB": "9.7"
+        id: "105mm_rb_70_sw_lvrbv_701",
+        vehicleId: "sw_lvrbv_701",
+        vehicleName: "Lvrbv 701",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
         }
       }
     ]
   },
   {
-    "id": "105mm_rb_70_mk.2",
-    "designation": "RB 70 Mk.2",
-    "family": "Beam riding",
-    "variant": "Beam riding",
-    "caliberMm": 105,
-    "projectileMassKg": 16.5,
-    "penetrationMm": 10.4,
-    "fuzeDelayM": 0.05,
-    "fuzeSensitivityMm": 0.1,
-    "guidance": "Beam riding",
-    "launchRangeKm": 7,
-    "maximumSpeedMs": 580.0,
-    "missileGuidanceTimeS": 24,
-    "explosiveType": "Composition B",
-    "explosiveMassKg": 0.522,
-    "tntEquivalentKg": 0.684,
-    "vehicles": [
+    id: "105mm_rb_70_mk.2",
+    designation: "RB 70 Mk.2",
+    family: "Beam riding",
+    variant: "Beam riding",
+    caliberMm: 105,
+    projectileMassKg: 16.5,
+    penetrationMm: 10.4,
+    fuzeDelayM: 0.05,
+    fuzeSensitivityMm: 0.1,
+    guidance: "Beam riding",
+    launchRangeKm: 7,
+    maximumSpeedMs: 580.0,
+    missileGuidanceTimeS: 24,
+    explosiveType: "Composition B",
+    explosiveMassKg: 0.522,
+    tntEquivalentKg: 0.684,
+    vehicles: [
       {
-        "id": "105mm_rb_70_mk.2_sw_lvrbv_701",
-        "vehicleId": "sw_lvrbv_701",
-        "vehicleName": "Lvrbv 701",
-        "vehicleTechTree": "Sweden",
-        "vehicleRank": "VI",
-        "vehicleBr": {
-          "AB": "9.3",
-          "RB": "9.7",
-          "SB": "9.7"
+        id: "105mm_rb_70_mk.2_sw_lvrbv_701",
+        vehicleId: "sw_lvrbv_701",
+        vehicleName: "Lvrbv 701",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
         }
       },
       {
-        "id": "105mm_rb_70_mk.2_sw_asrad_r",
-        "vehicleId": "sw_asrad_r",
-        "vehicleName": "ASRAD-R",
-        "vehicleTechTree": "Sweden",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "RB": "10.3"
+        id: "105mm_rb_70_mk.2_sw_asrad_r",
+        vehicleId: "sw_asrad_r",
+        vehicleName: "ASRAD-R",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.3"
         }
       }
     ]
   },
   {
-    "id": "105mm_bolide",
-    "designation": "BOLIDE",
-    "family": "Beam riding",
-    "variant": "Beam riding",
-    "caliberMm": 105,
-    "projectileMassKg": 17.0,
-    "penetrationMm": 10.4,
-    "fuzeDelayM": 0.05,
-    "fuzeSensitivityMm": 0.1,
-    "guidance": "Beam riding",
-    "launchRangeKm": 9.0,
-    "maximumSpeedMs": 700.0,
-    "missileGuidanceTimeS": 32.0,
-    "explosiveType": "Composition B",
-    "explosiveMassKg": 0.522,
-    "tntEquivalentKg": 0.684,
-    "vehicles": [
+    id: "105mm_bolide",
+    designation: "BOLIDE",
+    family: "Beam riding",
+    variant: "Beam riding",
+    caliberMm: 105,
+    projectileMassKg: 17.0,
+    penetrationMm: 10.4,
+    fuzeDelayM: 0.05,
+    fuzeSensitivityMm: 0.1,
+    guidance: "Beam riding",
+    launchRangeKm: 9.0,
+    maximumSpeedMs: 700.0,
+    missileGuidanceTimeS: 32.0,
+    explosiveType: "Composition B",
+    explosiveMassKg: 0.522,
+    tntEquivalentKg: 0.684,
+    vehicles: [
       {
-        "id": "105mm_bolide_sw_asrad_r",
-        "vehicleId": "sw_asrad_r",
-        "vehicleName": "ASRAD-R",
-        "vehicleTechTree": "Sweden",
-        "vehicleRank": "VII",
-        "vehicleBr": {
-          "RB": "10.3"
+        id: "105mm_bolide_sw_asrad_r",
+        vehicleId: "sw_asrad_r",
+        vehicleName: "ASRAD-R",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "10.3"
         }
       }
     ]
   },
   {
-    "id": "127mm_rbs_98",
-    "designation": "RBS 98",
-    "family": "IR",
-    "variant": "IR+IOG",
-    "caliberMm": 127,
-    "projectileMassKg": 87.4,
-    "guidance": "IR+IOG",
+    id: "127mm_rbs_98",
+    designation: "RBS 98",
+    family: "IR",
+    variant: "IR+IOG",
+    caliberMm: 127,
+    projectileMassKg: 87.4,
+    guidance: "IR+IOG",
     aspect: "All-aspects",
     lockRangeRearAspectKm: 12,
     lockRangeAllAspectKm: 9,
-    "IRCCM": true,
-    "launchRangeKm": 12.0,
-    "maximumSpeedMach": 3.0,
+    IRCCM: true,
+    launchRangeKm: 12.0,
+    maximumSpeedMach: 3.0,
     maximumOverloadG: 50,
-    "missileGuidanceTimeS": 40.0,
-    "explosiveType": "PBXN-110",
-    "explosiveMassKg": 4.5,
-    "tntEquivalentKg": 5.8,
-    "vehicles": [
+    missileGuidanceTimeS: 40.0,
+    explosiveType: "PBXN-110",
+    explosiveMassKg: 4.5,
+    tntEquivalentKg: 5.8,
+    vehicles: [
       {
-        "id": "127mm_rbs_98_sw_eldenhet_98",
-        "vehicleId": "sw_eldenhet_98",
-        "vehicleName": "EldE 98",
-        "vehicleTechTree": "Sweden",
-        "vehicleRank": "VIII",
-        "vehicleBr": {
-          "AB": "12.0",
-          "RB": "12.0",
-          "SB": "12.0"
+        id: "127mm_rbs_98_sw_eldenhet_98",
+        vehicleId: "sw_eldenhet_98",
+        vehicleName: "EldE 98",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
         }
       }
     ]
   },
+  {
+    id: "127mm_mim_72g",
+    designation: "MIM-72G",
+    family: "IR",
+    variant: "IR",
+    caliberMm: 127,
+    projectileMassKg: 86.3,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectKm: 6,
+    IRCCM: true,
+    launchRangeKm: 6,
+    maximumSpeedMach: 2,
+    maximumOverloadG: 17,
+    missileGuidanceTimeS: 60,
+    explosiveType: "Octol/TNT",
+    explosiveMassKg: 3,
+    tntEquivalentKg: 4.3,
+    vehicles: [
+      {
+        id: "127mm_mim_72g_il_mim_72_chaparral",
+        vehicleId: "il_mim_72_chaparral",
+        vehicleName: "\uf059Imp.Chaparral",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "9.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "160mm_python_5",
+    designation: "Python 5",
+    family: "IR",
+    variant: "IR+IOG",
+    caliberMm: 160,
+    projectileMassKg: 105,
+    guidance: "IR+IOG",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 12,
+    lockRangeAllAspectKm: 9,
+    IRCCM: true,
+    launchRangeKm: 15,
+    maximumSpeedMach: 2,
+    maximumOverloadG: 50,
+    missileGuidanceTimeS: 60,
+    explosiveType: "HBX",
+    explosiveMassKg: 5,
+    tntEquivalentKg: 8,
+    vehicles: [
+      {
+        id: "160mm_python_5_il_spyder_aio",
+        vehicleId: "il_spyder_aio",
+        vehicleName: "SPYDER",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "160mm_i_derby_sr",
+    designation: "I-Derby SR",
+    family: "ARH",
+    variant: "ARH+IOG+DL",
+    caliberMm: 160,
+    projectileMassKg: 118,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 20,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 40,
+    missileGuidanceTimeS: 70,
+    explosiveType: "HBX",
+    explosiveMassKg: 5,
+    tntEquivalentKg: 8,
+    vehicles: [
+      {
+        id: "160mm_i_derby_sr_il_spyder_aio",
+        vehicleId: "il_spyder_aio",
+        vehicleName: "SPYDER",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "160mm_i_derby_er",
+    designation: "I-Derby ER",
+    family: "ARH",
+    variant: "ARH+IOG+DL",
+    caliberMm: 160,
+    projectileMassKg: 122,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 40,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 40,
+    missileGuidanceTimeS: 120,
+    explosiveType: "HBX",
+    explosiveMassKg: 1.9,
+    tntEquivalentKg: 3,
+    vehicles: [
+      {
+        id: "160mm_i_derby_er_il_spyder_aio",
+        vehicleId: "il_spyder_aio",
+        vehicleName: "SPYDER",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.7"
+        }
+      }
+    ]
+  }
 ];

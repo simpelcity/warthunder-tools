@@ -537,7 +537,16 @@ export default function Sams() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+              {vehicle?.vehicleName === "NASAMS 3 (TEL)" ? (
+                <>
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+                </>
+              ) : (
+                <>
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+                </>
+              )}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? 'is-open' : ''}`}>
                 <FaAngleDown />
@@ -547,7 +556,16 @@ export default function Sams() {
             <Dropdown.Menu>
               {getPopoverVehicles(sam).map((samVehicle) => (
                 <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center" onClick={() => setVehicle(samVehicle)}>
-                  {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                  {samVehicle.vehicleName === "NASAMS 3 (TEL)" ? (
+                    <>
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree })} width={24} className="me-1" />}
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                    </>
+                  ) : (
+                    <>
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                    </>
+                  )}
                   <span className="font-wt">{samVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
@@ -1022,7 +1040,7 @@ export default function Sams() {
                     All
                   </button>
                   {quickVehicleOptions.map((option) => (
-                    <button key={option} type="button" className={`sams-sidebar-option ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>
+                    <button key={option} type="button" className={`sams-sidebar-option font-wt ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>
                       {option}
                     </button>
                   ))}
@@ -1299,7 +1317,7 @@ export default function Sams() {
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
                   <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
+                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} alt="Vehicle operator" />}
                     <span className="font-wt">{option}</span>
                   </Button>
                 ))}
