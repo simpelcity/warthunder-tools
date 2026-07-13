@@ -136,20 +136,35 @@ export default function Sams() {
   }, [draftFilters.rank]);
 
   const vehicleOptions = useMemo(() => {
-    const names = Array.from(
-      new Set(
-        samMissiles.flatMap((sam) =>
+  const vehicles = Array.from(
+    new Map(
+      samMissiles
+        .flatMap((sam) =>
           sam.vehicles
-            .filter((samVehicle) => draftFilters.rank === 'All' || samVehicle.vehicleRank === draftFilters.rank)
-            .filter((samVehicle) => draftFilters.techTree === 'All' || samVehicle.vehicleTechTree === draftFilters.techTree)
-            .map((samVehicle) => samVehicle.vehicleName)
-            .filter(Boolean)
+            .filter(
+              (vehicle) =>
+                draftFilters.rank === 'All' ||
+                vehicle.vehicleRank === draftFilters.rank
+            )
+            .filter(
+              (vehicle) =>
+                draftFilters.techTree === 'All' ||
+                vehicle.vehicleTechTree === draftFilters.techTree
+            )
+            .map((vehicle) => ({
+              name: vehicle.vehicleName,
+              techTree: vehicle.vehicleTechTree,
+              operator: vehicle.vehicleOperator,
+            }))
         )
-      )
-    ).sort((a, b) => a.localeCompare(b));
+        .filter((vehicle) => vehicle.name)
+        .map((vehicle) => [vehicle.name, vehicle])
+    ).values()
+  ).sort((a, b) => a.name.localeCompare(b.name));
 
-    return ['All', ...names];
-  }, [draftFilters.rank, draftFilters.techTree]);
+  return [{ name: 'All', techTree: 'All', operator: 'All' }, ...vehicles];
+}, [draftFilters.rank, draftFilters.techTree]);
+  console.log(vehicleOptions)
 
   const techTreeOptions = useMemo(() => {
     const trees = Array.from(
@@ -199,7 +214,7 @@ export default function Sams() {
     return ['All', ...ids];
   }, [draftFilters, samLabels]);
 
-  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option !== 'All').slice(0, 3), [vehicleOptions]);
+  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option.name !== 'All').slice(0, 3), [vehicleOptions]);
   const quickOperatorOptions = useMemo(() => operatorOptions.filter((option) => option !== 'All').slice(0, 3), [operatorOptions]);
   const quickTechTreeOptions = useMemo(() => techTreeOptions.filter((option) => option !== 'All').slice(0, 3), [techTreeOptions]);
   const quickVariantOptions = useMemo(() => variantOptions.filter((option) => option !== 'All').slice(0, 3), [variantOptions]);
@@ -208,7 +223,7 @@ export default function Sams() {
 
   const searchableVehicleOptions = useMemo(() => {
     const query = vehicleSearch.trim().toLowerCase();
-    return vehicleOptions.filter((option) => option !== 'All' && (!query || option.toLowerCase().includes(query)));
+    return vehicleOptions.filter((option) => option.name !== 'All' && (!query || option.name.toLowerCase().includes(query)));
   }, [vehicleOptions, vehicleSearch]);
 
   const searchableOperatorOptions = useMemo(() => {
@@ -874,7 +889,7 @@ export default function Sams() {
                   <div className="d-flex flex-wrap gap-2">
                     <Button variant={draftFilters.vehicle === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect('All')}>All</Button>
                     {quickVehicleOptions.map((option) => (
-                      <Button className="font-wt" key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
+                      <Button className="font-wt" key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option.name)}>{option.name}</Button>
                     ))}
                     {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
@@ -1040,8 +1055,8 @@ export default function Sams() {
                     All
                   </button>
                   {quickVehicleOptions.map((option) => (
-                    <button key={option} type="button" className={`sams-sidebar-option font-wt ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>
-                      {option}
+                    <button key={option.name} type="button" className={`sams-sidebar-option font-wt ${draftFilters.vehicle === option.name ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option.name)}>
+                      {option.name}
                     </button>
                   ))}
                 </div>
@@ -1190,9 +1205,9 @@ export default function Sams() {
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-offcanvas-search bg-transparent text-light border-2 shadow-none" />
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span className="font-wt">{option}</span>
+                  <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>
@@ -1316,9 +1331,18 @@ export default function Sams() {
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-modal-search bg-transparent text-light border-2 shadow-none" />
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} alt="Vehicle operator" />}
-                    <span className="font-wt">{option}</span>
+                  <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    {option.name === "NASAMS 3(TEL)" ? (
+                      <>
+                     {getVehicleFilterIcon(option.techTree) && <Image src={getCountryIcons({ vehicleTechTree: option.techTree }) ?? ''} width={20} alt="Vehicle operator" />}
+                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
+                      </>
+                    ) : (
+                      <>
+                        {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
+                      </>
+                    )}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>
