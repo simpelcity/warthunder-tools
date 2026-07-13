@@ -1,5 +1,5 @@
 export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines" | "China" | "Great Britain" | "Israel";
-export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "FRG" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
+export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada (modern)" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "FRG" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
 export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
 export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
 export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
