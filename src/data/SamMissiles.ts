@@ -405,6 +405,17 @@ export const samMissiles: SamDefinition[] = [
           RB: "12.7"
         },
       },
+      {
+        id: "127mm_aim_9x_block_2_sw_nomads",
+        vehicleId: "sw_nomads",
+        vehicleName: "NOMADS",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          RB: "12.0"
+        }
+      }
     ],
   },
   {
@@ -606,6 +617,17 @@ export const samMissiles: SamDefinition[] = [
         "vehicleId": "fr_crotale_ng",
         "vehicleName": "\u2584ItO 90M",
         "vehicleTechTree": "France",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "RB": "12.0"
+        }
+      },
+      {
+        "id": "165mm_vt1_sw_crotale_ng",
+        "vehicleId": "sw_crotale_ng",
+        "vehicleName": "ItO 90M",
+        "vehicleTechTree": "Sweden",
+        "vehicleOperator": "Finland",
         "vehicleRank": "VIII",
         "vehicleBr": {
           "RB": "12.0"
@@ -1591,6 +1613,40 @@ export const samMissiles: SamDefinition[] = [
         "vehicleRank": "VII",
         "vehicleBr": {
           "RB": "10.3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "127mm_rbs_98",
+    "designation": "RBS 98",
+    "family": "IR",
+    "variant": "IR+IOG",
+    "caliberMm": 127,
+    "projectileMassKg": 87.4,
+    "guidance": "IR+IOG",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 12,
+    lockRangeAllAspectKm: 9,
+    "IRCCM": true,
+    "launchRangeKm": 12.0,
+    "maximumSpeedMach": 3.0,
+    maximumOverloadG: 50,
+    "missileGuidanceTimeS": 40.0,
+    "explosiveType": "PBXN-110",
+    "explosiveMassKg": 4.5,
+    "tntEquivalentKg": 5.8,
+    "vehicles": [
+      {
+        "id": "127mm_rbs_98_sw_eldenhet_98",
+        "vehicleId": "sw_eldenhet_98",
+        "vehicleName": "EldE 98",
+        "vehicleTechTree": "Sweden",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
         }
       }
     ]
