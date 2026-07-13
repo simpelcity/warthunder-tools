@@ -1,4 +1,6 @@
 /* Aircraft AAMS */
+import type { TechTree, CountriesUSA, CountriesUSSR, CountriesItaly, CountriesChina, CountriesJapan, CountriesFrance, CountriesIsrael, CountriesSweden, CountriesGermany, CountriesGreatBritain } from "@/types/Countries"
+
 export type Aam = "IR" | "Radar" | "Beam-Riding (SACLOS)" | "Command-Guided (MCLOS)";
 
 export type IRAam = "Caged" | "Uncaged";
@@ -26,21 +28,8 @@ export type AamMissileVariant = "IR" | RadarAamVariant | BeamRidingAam | Command
 
 export type AamIconNames = "ir-white" | "ir-orange" | "ir-green" | "ir-yellow" | "ir-large-white" | "ir-large-orange" | "radar-white" | "radar-orange" | "radar-yellow" | "radar-green" | "radar-blue" | "radar-red";
 
-export type TechTree = "USA" | "Germany" | "USSR" | "Great Britain" | "Japan" | "China" | "Italy" | "France" | "Sweden" | "Israel";
 export type Rank = "I" | "II" | "III" | "IV" | "V" | "VI" | "VII" | "VIII" | "IX";
 export type BR = "1.0" | "1.3" | "1.7" | "2.0" | "2.3" | "2.7" | "3.0" | "3.3" | "3.7" | "4.0" | "4.3" | "4.7" | "5.0" | "5.3" | "5.7" | "6.0" | "6.3" | "6.7" | "7.0" | "7.3" | "7.7" | "8.0" | "8.3" | "8.7" | "9.0" | "9.3" | "9.7" | "10.0" | "10.3" | "10.7" | "11.0" | "11.3" | "11.7" | "12.0" | "12.3" | "12.7" | "13.0" | "13.3" | "13.7" | "14.0" | "14.3";
-
-export type CountriesUSA = "USA" | "Iran" | "Turkey" | "Australia" | "Greece" | "Canada" | "Republic of Vietnam" | "Norway" | "Philippines" | "China" | "Great Britain" | "Israel";
-export type CountriesGermany = "Germany" | "Poland" | "GDR" | "Canada" | "Lithuania" | "German Empire" | "Spain" | "Finland" | "FRG" | "Romania" | "South Africa" | "Switzerland" | "Argentina";
-export type CountriesUSSR = "USSR" | "Cuba" | "Venezuela" | "Russia" | "Syria" | "Slovakia" | "Russian Empire" | "Czech Republic" | "Serbia" | "Kazakhstan";
-export type CountriesGreatBritain = "Great Britain" | "South Africa (modern)" | "India" | "Canada (modern)" | "Jordan" | "South Africa" | "Canada" | "New Zealand" | "Ireland" | "Poland" | "Australia" | "Kuwait";
-export type CountriesJapan = "Japan" | "Indonesia" | "Malaysia" | "Thailand";
-export type CountriesChina = "China" | "Pakistan" | "Vietnam" | "North Korea" | "Bangladesh" | "Republic of China";
-export type CountriesItaly = "Italy" | "Kingdom of Italy" | "Hungary" | "Romania" | "Turkey" | "Spain" | "Hungary (modern)" | "Oman" | "Portugal" | "Brazil";
-export type CountriesFrance = "France" | "Finland" | "Belgium" | "Austria" | "Netherlands";
-export type CountriesSweden = "Sweden" | "Denmark" | "Finland" | "Austria" | "Norway";
-export type CountriesIsrael = "Israel" | "Singapore" | "Colombia";
-export type Countries = CountriesUSA | CountriesGermany | CountriesUSSR | CountriesGreatBritain | CountriesJapan | CountriesChina | CountriesItaly | CountriesFrance | CountriesSweden | CountriesIsrael;
 
 export interface BaseAam {
   id: string;
@@ -120,20 +109,35 @@ export interface CommandGuidedAamMissile extends BaseAam {
 export type IRAamMissiles = IRAamRearAspectMissile | IRAamAllAspectsMissile;
 export type AamMissile = IRAamMissiles | SARHAamMissile | ARHAamMissile | BeamRidingAamMissile | CommandGuidedAamMissile;
 
-export interface BaseAamVehicle {
-  id: string;
-  vehicleId: string;
-  vehicleName: string;
-  vehicleTechTree?: TechTree;
-  vehicleOperator?: Countries;
-  vehicleRank?: Rank;
-  vehicleBr?: {
-    AB?: BR;
-    RB: BR;
-    SB?: BR;
-  };
-  icon?: AamIconNames;
+export type CountriesByTechTree = {
+  USA: CountriesUSA;
+  Germany: CountriesGermany;
+  USSR: CountriesUSSR;
+  "Great Britain": CountriesGreatBritain;
+  Japan: CountriesJapan;
+  China: CountriesChina;
+  Italy: CountriesItaly;
+  France: CountriesFrance;
+  Sweden: CountriesSweden;
+  Israel: CountriesIsrael;
 }
+
+export type BaseAamVehicle = {
+  [T in TechTree]: {
+    id: string;
+    vehicleId: string;
+    vehicleName: string;
+    vehicleTechTree?: T;
+    vehicleOperator?: CountriesByTechTree[T];
+    vehicleRank?: Rank;
+    vehicleBr?: {
+      AB?: BR;
+      RB: BR;
+      SB?: BR;
+    };
+    icon?: AamIconNames;
+  }
+}[TechTree]
 
 export type AamDefinition = AamMissile & {
   vehicles: BaseAamVehicle[];
