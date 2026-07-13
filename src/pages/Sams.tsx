@@ -1,7 +1,7 @@
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { samMissiles } from '@/data/SamMissiles'
-import type { SamDefinition, BaseSamVehicle, Sam, SamMissileVariant, Rank, BR } from '@/types/SamMissiles'
+import type { SamDefinition, SamVehicle, Sam, SamMissileVariant, Rank, BR } from '@/types/SamMissiles'
 import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
 import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
@@ -44,7 +44,7 @@ const DEFAULT_FILTERS: SamFilters = {
 export default function Sams() {
   const [activeSamId, setActiveSamId] = useState<string | null>(null);
   const [activeSamPlacement, setActiveSamPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
-  const [vehicle, setVehicle] = useState<BaseSamVehicle | null>(null);
+  const [vehicle, setVehicle] = useState<SamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
@@ -73,13 +73,13 @@ export default function Sams() {
   const [appliedFilters, setAppliedFilters] = useState<SamFilters>(DEFAULT_FILTERS);
   const [draftFilters, setDraftFilters] = useState<SamFilters>(DEFAULT_FILTERS);
 
-  const getVehicleBrByMode = (samVehicle: BaseSamVehicle, mode: 'AB' | 'RB' | 'SB') => {
+  const getVehicleBrByMode = (samVehicle: SamVehicle, mode: 'AB' | 'RB' | 'SB') => {
     if (mode === 'AB') return samVehicle.vehicleBr?.AB ?? samVehicle.vehicleBr?.RB;
     if (mode === 'SB') return samVehicle.vehicleBr?.SB ?? samVehicle.vehicleBr?.RB;
     return samVehicle.vehicleBr?.RB;
   };
 
-  const matchesBrFilter = (samVehicle: BaseSamVehicle, brFilter: BRFilter) => {
+  const matchesBrFilter = (samVehicle: SamVehicle, brFilter: BRFilter) => {
     if (brFilter === 'All') return true;
     return samVehicle.vehicleBr?.RB === brFilter;
   };
@@ -327,7 +327,7 @@ export default function Sams() {
 
   const getTechTreeFilterIcon = (option: TechTreeFilter) => {
     if (option === 'All') return null;
-    return getCountryIcons({ vehicleTechTree: option as NonNullable<BaseSamVehicle['vehicleTechTree']> });
+    return getCountryIcons({ vehicleTechTree: option as NonNullable<SamVehicle['vehicleTechTree']> });
   };
 
   const getSamFilterLabel = (option: SamFilter) => {
@@ -339,7 +339,7 @@ export default function Sams() {
     return showAll ? options : options.slice(0, 3);
   };
 
-  const getVehicleBrLabel = (samVehicle: BaseSamVehicle, mode: 'AB' | 'RB' | 'SB') => {
+  const getVehicleBrLabel = (samVehicle: SamVehicle, mode: 'AB' | 'RB' | 'SB') => {
     return getVehicleBrByMode(samVehicle, mode) ?? 'N/A';
   };
 
