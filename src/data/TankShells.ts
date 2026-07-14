@@ -23121,6 +23121,206 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        "id": "90mm_m313_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_st_a3",
+        "vehicleId": "jp_st_a3",
+        "vehicleName": "ST-A3",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_type_61",
+        "vehicleId": "jp_type_61",
+        "vehicleName": "Type 61",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_jp_type_61_mod",
+        "vehicleId": "jp_type_61_mod",
+        "vehicleName": "Type 61 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_cn_m36",
+        "vehicleId": "cn_m36",
+        "vehicleName": "␗M36 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_m313_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 10.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 821,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
       }
     ]
   },
@@ -23355,6 +23555,97 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 321,
         muzzleVelocityMs: 1249,
         vehicleOperator: "FRG"
+      },
+      {
+        "id": "90mm_m332_shot_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 291.0,
+        "muzzleVelocityMs": 1165
+      },
+      {
+        "id": "90mm_m332_shot_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 321.0,
+        "muzzleVelocityMs": 1249
+      },
+      {
+        "id": "90mm_m332_shot_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 291.0,
+        "muzzleVelocityMs": 1165
+      },
+      {
+        "id": "90mm_m332_shot_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 291.0,
+        "muzzleVelocityMs": 1165
+      },
+      {
+        "id": "90mm_m332_shot_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 321.0,
+        "muzzleVelocityMs": 1249,
+        "vehicleOperator": "China"
       }
     ]
   },
@@ -37418,4 +37709,24756 @@ export const tankShells: TankShellDefinition[] = [
       }
     ]
   },
+  {
+    "id": "105mm_c76a1",
+    "designation": "C76A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_c76a1_uk_vfm_5",
+        "vehicleId": "uk_vfm_5",
+        "vehicleName": "VFM5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.6,
+        "penetrationMm": 353.0,
+        "muzzleVelocityMs": 1509
+      },
+      {
+        "id": "105mm_c76a1_uk_vickers_mk_11",
+        "vehicleId": "uk_vickers_mk_11",
+        "vehicleName": "Vickers Mk.11",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.6,
+        "penetrationMm": 353.0,
+        "muzzleVelocityMs": 1509
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm12",
+    "designation": "DM12",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_dm12_uk_rooikat_105_td",
+        "vehicleId": "uk_rooikat_105_td",
+        "vehicleName": "Rooikat 105",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_dm12_uk_rooikat_mttd",
+        "vehicleId": "uk_rooikat_mttd",
+        "vehicleName": "Rooikat MTTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm23",
+    "designation": "DM23",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_dm23_uk_rooikat_105_td",
+        "vehicleId": "uk_rooikat_105_td",
+        "vehicleName": "Rooikat 105",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_dm23_uk_rooikat_mttd",
+        "vehicleId": "uk_rooikat_mttd",
+        "vehicleName": "Rooikat MTTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm33",
+    "designation": "DM33",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_dm33_uk_rooikat_105_td",
+        "vehicleId": "uk_rooikat_105_td",
+        "vehicleName": "Rooikat 105",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_dm33_uk_rooikat_mttd",
+        "vehicleId": "uk_rooikat_mttd",
+        "vehicleName": "Rooikat MTTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_dm33_uk_vfm_5",
+        "vehicleId": "uk_vfm_5",
+        "vehicleName": "VFM5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm512",
+    "designation": "DM512",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_dm512_uk_rooikat_105_td",
+        "vehicleId": "uk_rooikat_105_td",
+        "vehicleName": "Rooikat 105",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_dm512_uk_rooikat_mttd",
+        "vehicleId": "uk_rooikat_mttd",
+        "vehicleName": "Rooikat MTTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm63",
+    "designation": "DM63",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_dm63_uk_olifant_mk_2",
+        "vehicleId": "uk_olifant_mk_2",
+        "vehicleName": "Olifant Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.4,
+        "penetrationMm": 430.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_dm63_uk_ttd",
+        "vehicleId": "uk_ttd",
+        "vehicleName": "TTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.4,
+        "penetrationMm": 430.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "105mm_m111",
+    "designation": "M111",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m111_uk_centurion_shot_kal_d",
+        "vehicleId": "uk_centurion_shot_kal_d",
+        "vehicleName": "▄Sho't Kal Dalet",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "Israel"
+      },
+      {
+        "id": "105mm_m111_uk_olifant_mk_1a",
+        "vehicleId": "uk_olifant_mk_1a",
+        "vehicleName": "Olifant Mk.1A",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_m111_uk_olifant_mk_2",
+        "vehicleId": "uk_olifant_mk_2",
+        "vehicleName": "Olifant Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "105mm_m111_uk_ttd",
+        "vehicleId": "uk_ttd",
+        "vehicleName": "TTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "105mm_m152",
+    "designation": "M152",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m152_uk_centurion_shot_kal_d",
+        "vehicleId": "uk_centurion_shot_kal_d",
+        "vehicleName": "▄Sho't Kal Dalet",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "Israel",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m152_uk_olifant_mk_1a",
+        "vehicleId": "uk_olifant_mk_1a",
+        "vehicleName": "Olifant Mk.1A",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m152_uk_ttd",
+        "vehicleId": "uk_ttd",
+        "vehicleName": "TTD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m156",
+    "designation": "M156",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m156_uk_centurion_shot_kal_d",
+        "vehicleId": "uk_centurion_shot_kal_d",
+        "vehicleName": "▄Sho't Kal Dalet",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 731,
+        "vehicleOperator": "Israel",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.2,
+        "tntEquivalentKg": 3.2
+      },
+      {
+        "id": "105mm_m156_uk_olifant_mk_1a",
+        "vehicleId": "uk_olifant_mk_1a",
+        "vehicleName": "Olifant Mk.1A",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 731,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.2,
+        "tntEquivalentKg": 3.2
+      }
+    ]
+  },
+  {
+    "id": "105mm_m393a2",
+    "designation": "M393A2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m393a2_uk_vfm_5",
+        "vehicleId": "uk_vfm_5",
+        "vehicleName": "VFM5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_m393a2_uk_vickers_mk_11",
+        "vehicleId": "uk_vickers_mk_11",
+        "vehicleName": "Vickers Mk.11",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m416",
+    "designation": "M416",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "105mm_m416_uk_centurion_shot_kal_d",
+        "vehicleId": "uk_centurion_shot_kal_d",
+        "vehicleName": "▄Sho't Kal Dalet",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "Israel",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_uk_olifant_mk_1a",
+        "vehicleId": "uk_olifant_mk_1a",
+        "vehicleName": "Olifant Mk.1A",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456",
+    "designation": "M456",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_m456_uk_olifant_mk_2",
+        "vehicleId": "uk_olifant_mk_2",
+        "vehicleName": "Olifant Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m456_uk_vickers_mbt_mk_3",
+        "vehicleId": "uk_vickers_mbt_mk_3",
+        "vehicleName": "Vickers Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m456_uk_vijayanta",
+        "vehicleId": "uk_vijayanta",
+        "vehicleName": "Vijayanta",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "India",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456a2",
+    "designation": "M456A2",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_m456a2_uk_vfm_5",
+        "vehicleId": "uk_vfm_5",
+        "vehicleName": "VFM5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m456a2_uk_vickers_mk_11",
+        "vehicleId": "uk_vickers_mk_11",
+        "vehicleName": "Vickers Mk.11",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_shell_l35",
+    "designation": "Shell L35",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_shell_l35_uk_centurion_mk_10",
+        "vehicleId": "uk_centurion_mk_10",
+        "vehicleName": "Centurion Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 720,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 3.2
+      },
+      {
+        "id": "105mm_shell_l35_uk_vickers_mbt_mk_1",
+        "vehicleId": "uk_vickers_mbt_mk_1",
+        "vehicleName": "Vickers Mk.1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 720,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 3.2
+      },
+      {
+        "id": "105mm_shell_l35_uk_vickers_mbt_mk_3",
+        "vehicleId": "uk_vickers_mbt_mk_3",
+        "vehicleName": "Vickers Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 720,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 3.2
+      },
+      {
+        "id": "105mm_shell_l35_uk_vijayanta",
+        "vehicleId": "uk_vijayanta",
+        "vehicleName": "Vijayanta",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 720,
+        "vehicleOperator": "India",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 3.2
+      }
+    ]
+  },
+  {
+    "id": "105mm_shot_l28a1",
+    "designation": "Shot L28A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_shot_l28a1_uk_centurion_mk_10",
+        "vehicleId": "uk_centurion_mk_10",
+        "vehicleName": "Centurion Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1478
+      },
+      {
+        "id": "105mm_shot_l28a1_uk_vickers_mbt_mk_1",
+        "vehicleId": "uk_vickers_mbt_mk_1",
+        "vehicleName": "Vickers Mk.1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1478
+      }
+    ]
+  },
+  {
+    "id": "105mm_shot_l52a1",
+    "designation": "Shot L52A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_shot_l52a1_uk_vickers_mbt_mk_3",
+        "vehicleId": "uk_vickers_mbt_mk_3",
+        "vehicleName": "Vickers Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.5,
+        "penetrationMm": 265.0,
+        "muzzleVelocityMs": 1426
+      },
+      {
+        "id": "105mm_shot_l52a1_uk_vijayanta",
+        "vehicleId": "uk_vijayanta",
+        "vehicleName": "Vijayanta",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.5,
+        "penetrationMm": 265.0,
+        "muzzleVelocityMs": 1426,
+        "vehicleOperator": "India"
+      }
+    ]
+  },
+  {
+    "id": "110mm_spike_lr_ii",
+    "designation": "Spike-LR II",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "110mm_spike_lr_ii_uk_boxer_crv_block2",
+        "vehicleId": "uk_boxer_crv_block2",
+        "vehicleName": "CRV Block 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 110,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 16.9,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "IR",
+        "IRCCM": true,
+        "maximumSpeedMs": 180,
+        "missileGuidanceTimeS": 45.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 0.9,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "115mm_milan",
+    "designation": "MILAN",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "115mm_milan_uk_fv510_isv",
+        "vehicleId": "uk_fv510_isv",
+        "vehicleName": "Warrior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 115,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 28.6,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 2.0,
+        "maximumSpeedMs": 185,
+        "missileGuidanceTimeS": 13.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.4
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm11",
+    "designation": "DM11",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-TF",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_dm11_uk_challenger_2_lep",
+        "vehicleId": "uk_challenger_2_lep",
+        "vehicleName": "Challenger 3 TD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 37.3,
+        "muzzleVelocityMs": 1015,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 3.9
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm12a1",
+    "designation": "DM12A1",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_dm12a1_uk_challenger_2_lep",
+        "vehicleId": "uk_challenger_2_lep",
+        "vehicleName": "Challenger 3 TD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1190,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm33",
+    "designation": "DM33",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_dm33_uk_challenger_2_lep",
+        "vehicleId": "uk_challenger_2_lep",
+        "vehicleName": "Challenger 3 TD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 496.0,
+        "muzzleVelocityMs": 1690
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm53",
+    "designation": "DM53",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_dm53_uk_challenger_2_lep",
+        "vehicleId": "uk_challenger_2_lep",
+        "vehicleName": "Challenger 3 TD",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 5.0,
+        "penetrationMm": 653.0,
+        "muzzleVelocityMs": 1750
+      }
+    ]
+  },
+  {
+    "id": "120mm_ke_w",
+    "designation": "KE-W",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_ke_w_uk_m1a1_aim_abrams",
+        "vehicleId": "uk_m1a1_aim_abrams",
+        "vehicleName": "M1A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 583.0,
+        "muzzleVelocityMs": 1585,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "120mm_ke_w_uk_m1a2_sep3_abrams",
+        "vehicleId": "uk_m1a2_sep3_abrams",
+        "vehicleName": "M1A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 583.0,
+        "muzzleVelocityMs": 1585,
+        "vehicleOperator": "Australia"
+      }
+    ]
+  },
+  {
+    "id": "120mm_ke_w_a2",
+    "designation": "KE-W A2",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_ke_w_a2_uk_m1a2_sep3_abrams",
+        "vehicleId": "uk_m1a2_sep3_abrams",
+        "vehicleName": "M1A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 628.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "Australia"
+      }
+    ]
+  },
+  {
+    "id": "120mm_l26",
+    "designation": "L26",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_l26_uk_challenger_1_mk_3_gulf",
+        "vehicleId": "uk_challenger_1_mk_3_gulf",
+        "vehicleName": "Challenger DS",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 471.0,
+        "muzzleVelocityMs": 1550
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2_bn",
+        "vehicleId": "uk_challenger_2_bn",
+        "vehicleName": "Black Night",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2_dorchester",
+        "vehicleId": "uk_challenger_2_dorchester",
+        "vehicleName": "Challenger 2 (2F)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2_megatron",
+        "vehicleId": "uk_challenger_2_megatron",
+        "vehicleName": "Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2_megatron_sm",
+        "vehicleId": "uk_challenger_2_megatron_sm",
+        "vehicleName": "◍Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2_tes",
+        "vehicleId": "uk_challenger_2_tes",
+        "vehicleName": "Challenger 2 TES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_2e",
+        "vehicleId": "uk_challenger_2e",
+        "vehicleName": "Challenger 2E",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_ii",
+        "vehicleId": "uk_challenger_ii",
+        "vehicleName": "Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_ii_yt_cup_2019",
+        "vehicleId": "uk_challenger_ii_yt_cup_2019",
+        "vehicleName": "␙Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 494.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l26_uk_challenger_mk_3",
+        "vehicleId": "uk_challenger_mk_3",
+        "vehicleName": "Challenger Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 471.0,
+        "muzzleVelocityMs": 1550
+      },
+      {
+        "id": "120mm_l26_uk_vickers_mk7",
+        "vehicleId": "uk_vickers_mk7",
+        "vehicleName": "Vickers Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 471.0,
+        "muzzleVelocityMs": 1550
+      }
+    ]
+  },
+  {
+    "id": "120mm_l27a1",
+    "designation": "L27A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_l27a1_uk_challenger_2_bn",
+        "vehicleId": "uk_challenger_2_bn",
+        "vehicleName": "Black Night",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_2_dorchester",
+        "vehicleId": "uk_challenger_2_dorchester",
+        "vehicleName": "Challenger 2 (2F)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_2_megatron",
+        "vehicleId": "uk_challenger_2_megatron",
+        "vehicleName": "Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_2_megatron_sm",
+        "vehicleId": "uk_challenger_2_megatron_sm",
+        "vehicleName": "◍Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_2_tes",
+        "vehicleId": "uk_challenger_2_tes",
+        "vehicleName": "Challenger 2 TES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_2e",
+        "vehicleId": "uk_challenger_2e",
+        "vehicleName": "Challenger 2E",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_ii",
+        "vehicleId": "uk_challenger_ii",
+        "vehicleName": "Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      },
+      {
+        "id": "120mm_l27a1_uk_challenger_ii_yt_cup_2019",
+        "vehicleId": "uk_challenger_ii_yt_cup_2019",
+        "vehicleName": "␙Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 564.0,
+        "muzzleVelocityMs": 1650
+      }
+    ]
+  },
+  {
+    "id": "120mm_l34",
+    "designation": "L34",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "120mm_l34_uk_challenger_1",
+        "vehicleId": "uk_challenger_1",
+        "vehicleName": "Challenger Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_1_mk_3_gulf",
+        "vehicleId": "uk_challenger_1_mk_3_gulf",
+        "vehicleName": "Challenger DS",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2_bn",
+        "vehicleId": "uk_challenger_2_bn",
+        "vehicleName": "Black Night",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2_dorchester",
+        "vehicleId": "uk_challenger_2_dorchester",
+        "vehicleName": "Challenger 2 (2F)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2_megatron",
+        "vehicleId": "uk_challenger_2_megatron",
+        "vehicleName": "Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2_megatron_sm",
+        "vehicleId": "uk_challenger_2_megatron_sm",
+        "vehicleName": "◍Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2_tes",
+        "vehicleId": "uk_challenger_2_tes",
+        "vehicleName": "Challenger 2 TES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_2e",
+        "vehicleId": "uk_challenger_2e",
+        "vehicleName": "Challenger 2E",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_ii",
+        "vehicleId": "uk_challenger_ii",
+        "vehicleName": "Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_ii_yt_cup_2019",
+        "vehicleId": "uk_challenger_ii_yt_cup_2019",
+        "vehicleName": "␙Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_challenger_mk_3",
+        "vehicleId": "uk_challenger_mk_3",
+        "vehicleName": "Challenger Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_chieftain_900",
+        "vehicleId": "uk_chieftain_900",
+        "vehicleName": "Chieftain 900",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_chieftain_mk_10",
+        "vehicleId": "uk_chieftain_mk_10",
+        "vehicleName": "Chieftain Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_chieftain_mk_3",
+        "vehicleId": "uk_chieftain_mk_3",
+        "vehicleName": "Chieftain Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_chieftain_mk_5",
+        "vehicleId": "uk_chieftain_mk_5",
+        "vehicleName": "Chieftain Mk 5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_khalid",
+        "vehicleId": "uk_khalid",
+        "vehicleName": "Khalid",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "vehicleOperator": "Jordan",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_shir_2",
+        "vehicleId": "uk_shir_2",
+        "vehicleName": "FV4030/3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "120mm_l34_uk_vickers_mk7",
+        "vehicleId": "uk_vickers_mk7",
+        "vehicleName": "Vickers Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 17.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "120mm_m830",
+    "designation": "M830",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_m830_uk_m1a1_aim_abrams",
+        "vehicleId": "uk_m1a1_aim_abrams",
+        "vehicleName": "M1A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.1,
+        "penetrationMm": 28.6,
+        "muzzleVelocityMs": 1140,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.4
+      },
+      {
+        "id": "120mm_m830_uk_m1a2_sep3_abrams",
+        "vehicleId": "uk_m1a2_sep3_abrams",
+        "vehicleName": "M1A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.1,
+        "penetrationMm": 28.6,
+        "muzzleVelocityMs": 1140,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.4
+      }
+    ]
+  },
+  {
+    "id": "120mm_m830a1",
+    "designation": "M830A1",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT MP",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_m830a1_uk_m1a1_aim_abrams",
+        "vehicleId": "uk_m1a1_aim_abrams",
+        "vehicleName": "M1A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 18.2,
+        "muzzleVelocityMs": 1410,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 0.966,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "120mm_m830a1_uk_m1a2_sep3_abrams",
+        "vehicleId": "uk_m1a2_sep3_abrams",
+        "vehicleName": "M1A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 18.2,
+        "muzzleVelocityMs": 1410,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 0.966,
+        "tntEquivalentKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "120mm_shell_l1tk",
+    "designation": "Shell L1TK",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_shell_l1tk_uk_conqueror_mk_2",
+        "vehicleId": "uk_conqueror_mk_2",
+        "vehicleName": "Conqueror",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 3.1,
+        "tntEquivalentKg": 4.0
+      },
+      {
+        "id": "120mm_shell_l1tk_uk_fv4004_conway",
+        "vehicleId": "uk_fv4004_conway",
+        "vehicleName": "Conway",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 3.1,
+        "tntEquivalentKg": 4.0
+      }
+    ]
+  },
+  {
+    "id": "120mm_shell_l31a7",
+    "designation": "Shell L31A7",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_1",
+        "vehicleId": "uk_challenger_1",
+        "vehicleName": "Challenger Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_1_mk_3_gulf",
+        "vehicleId": "uk_challenger_1_mk_3_gulf",
+        "vehicleName": "Challenger DS",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2_bn",
+        "vehicleId": "uk_challenger_2_bn",
+        "vehicleName": "Black Night",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2_dorchester",
+        "vehicleId": "uk_challenger_2_dorchester",
+        "vehicleName": "Challenger 2 (2F)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2_megatron",
+        "vehicleId": "uk_challenger_2_megatron",
+        "vehicleName": "Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2_megatron_sm",
+        "vehicleId": "uk_challenger_2_megatron_sm",
+        "vehicleName": "◍Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2_tes",
+        "vehicleId": "uk_challenger_2_tes",
+        "vehicleName": "Challenger 2 TES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_2e",
+        "vehicleId": "uk_challenger_2e",
+        "vehicleName": "Challenger 2E",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_ii",
+        "vehicleId": "uk_challenger_ii",
+        "vehicleName": "Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_ii_yt_cup_2019",
+        "vehicleId": "uk_challenger_ii_yt_cup_2019",
+        "vehicleName": "␙Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_challenger_mk_3",
+        "vehicleId": "uk_challenger_mk_3",
+        "vehicleName": "Challenger Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_chieftain_900",
+        "vehicleId": "uk_chieftain_900",
+        "vehicleName": "Chieftain 900",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_chieftain_mk_10",
+        "vehicleId": "uk_chieftain_mk_10",
+        "vehicleName": "Chieftain Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_chieftain_mk_3",
+        "vehicleId": "uk_chieftain_mk_3",
+        "vehicleName": "Chieftain Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_chieftain_mk_5",
+        "vehicleId": "uk_chieftain_mk_5",
+        "vehicleName": "Chieftain Mk 5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_khalid",
+        "vehicleId": "uk_khalid",
+        "vehicleName": "Khalid",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "vehicleOperator": "Jordan",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_shir_2",
+        "vehicleId": "uk_shir_2",
+        "vehicleName": "FV4030/3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      },
+      {
+        "id": "120mm_shell_l31a7_uk_vickers_mk7",
+        "vehicleId": "uk_vickers_mk7",
+        "vehicleName": "Vickers Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 17.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 670,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 4.1,
+        "tntEquivalentKg": 6.5
+      }
+    ]
+  },
+  {
+    "id": "120mm_shot_l15a3",
+    "designation": "Shot L15A3",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_shot_l15a3_uk_chieftain_900",
+        "vehicleId": "uk_chieftain_900",
+        "vehicleName": "Chieftain 900",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372
+      },
+      {
+        "id": "120mm_shot_l15a3_uk_chieftain_mk_10",
+        "vehicleId": "uk_chieftain_mk_10",
+        "vehicleName": "Chieftain Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372
+      },
+      {
+        "id": "120mm_shot_l15a3_uk_chieftain_mk_3",
+        "vehicleId": "uk_chieftain_mk_3",
+        "vehicleName": "Chieftain Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372
+      },
+      {
+        "id": "120mm_shot_l15a3_uk_chieftain_mk_5",
+        "vehicleId": "uk_chieftain_mk_5",
+        "vehicleName": "Chieftain Mk 5",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372
+      },
+      {
+        "id": "120mm_shot_l15a3_uk_khalid",
+        "vehicleId": "uk_khalid",
+        "vehicleName": "Khalid",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372,
+        "vehicleOperator": "Jordan"
+      }
+    ]
+  },
+  {
+    "id": "120mm_shot_l15a5",
+    "designation": "Shot L15A5",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_shot_l15a5_uk_shir_2",
+        "vehicleId": "uk_shir_2",
+        "vehicleName": "FV4030/3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 7.5,
+        "penetrationMm": 298.0,
+        "muzzleVelocityMs": 1372
+      }
+    ]
+  },
+  {
+    "id": "120mm_shot_l1g",
+    "designation": "Shot L1G",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_shot_l1g_uk_conqueror_mk_2",
+        "vehicleId": "uk_conqueror_mk_2",
+        "vehicleName": "Conqueror",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 502.0,
+        "muzzleVelocityMs": 1493
+      },
+      {
+        "id": "120mm_shot_l1g_uk_fv4004_conway",
+        "vehicleId": "uk_fv4004_conway",
+        "vehicleName": "Conway",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 502.0,
+        "muzzleVelocityMs": 1493
+      }
+    ]
+  },
+  {
+    "id": "120mm_shot_l23",
+    "designation": "Shot L23",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_shot_l23_uk_challenger_1",
+        "vehicleId": "uk_challenger_1",
+        "vehicleName": "Challenger Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 410.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23_uk_chieftain_900",
+        "vehicleId": "uk_chieftain_900",
+        "vehicleName": "Chieftain 900",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 410.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23_uk_chieftain_mk_10",
+        "vehicleId": "uk_chieftain_mk_10",
+        "vehicleName": "Chieftain Mk 10",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 410.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23_uk_khalid",
+        "vehicleId": "uk_khalid",
+        "vehicleName": "Khalid",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 410.0,
+        "muzzleVelocityMs": 1535,
+        "vehicleOperator": "Jordan"
+      },
+      {
+        "id": "120mm_shot_l23_uk_shir_2",
+        "vehicleId": "uk_shir_2",
+        "vehicleName": "FV4030/3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 410.0,
+        "muzzleVelocityMs": 1535
+      }
+    ]
+  },
+  {
+    "id": "120mm_shot_l23a1",
+    "designation": "Shot L23A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_1",
+        "vehicleId": "uk_challenger_1",
+        "vehicleName": "Challenger Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_1_mk_3_gulf",
+        "vehicleId": "uk_challenger_1_mk_3_gulf",
+        "vehicleName": "Challenger DS",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_2_dorchester",
+        "vehicleId": "uk_challenger_2_dorchester",
+        "vehicleName": "Challenger 2 (2F)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_2_megatron",
+        "vehicleId": "uk_challenger_2_megatron",
+        "vehicleName": "Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_2_megatron_sm",
+        "vehicleId": "uk_challenger_2_megatron_sm",
+        "vehicleName": "◍Challenger 2 OES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_2_tes",
+        "vehicleId": "uk_challenger_2_tes",
+        "vehicleName": "Challenger 2 TES",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_ii",
+        "vehicleId": "uk_challenger_ii",
+        "vehicleName": "Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_ii_yt_cup_2019",
+        "vehicleId": "uk_challenger_ii_yt_cup_2019",
+        "vehicleName": "␙Challenger 2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_challenger_mk_3",
+        "vehicleId": "uk_challenger_mk_3",
+        "vehicleName": "Challenger Mk.3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      },
+      {
+        "id": "120mm_shot_l23a1_uk_vickers_mk7",
+        "vehicleId": "uk_vickers_mk7",
+        "vehicleName": "Vickers Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 397.0,
+        "muzzleVelocityMs": 1535
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bk18m",
+    "designation": "3BK18M",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_3bk18m_uk_t_90s_bheeshma",
+        "vehicleId": "uk_t_90s_bheeshma",
+        "vehicleName": "Bhishma TWMP",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.4,
+        "muzzleVelocityMs": 905,
+        "vehicleOperator": "India",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bm42",
+    "designation": "3BM42",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "125mm_3bm42_uk_t_90s_bheeshma",
+        "vehicleId": "uk_t_90s_bheeshma",
+        "vehicleName": "Bhishma TWMP",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 457.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "India"
+      }
+    ]
+  },
+  {
+    "id": "125mm_3of26_edkv",
+    "designation": "3OF26 EDKV",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-TF",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "125mm_3of26_edkv_uk_t_90s_bheeshma",
+        "vehicleId": "uk_t_90s_bheeshma",
+        "vehicleName": "Bhishma TWMP",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 42.4,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "India",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.2
+      }
+    ]
+  },
+  {
+    "id": "125mm_9m119m1",
+    "designation": "9M119M1",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "125mm_9m119m1_uk_t_90s_bheeshma",
+        "vehicleId": "uk_t_90s_bheeshma",
+        "vehicleName": "Bhishma TWMP",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.7",
+          "RB": "10.7",
+          "SB": "10.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 17.2,
+        "penetrationMm": 48.3,
+        "vehicleOperator": "India",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      }
+    ]
+  },
+  {
+    "id": "127mm_zt3a1",
+    "designation": "ZT3A1",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "127mm_zt3a1_uk_ratel_zt3",
+        "vehicleId": "uk_ratel_zt3",
+        "vehicleName": "ZT3A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 127,
+        "projectileMassKg": 28.0,
+        "penetrationMm": 36.5,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 345,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 2.8,
+        "tntEquivalentKg": 3.6
+      }
+    ]
+  },
+  {
+    "id": "127mm_zt3a2",
+    "designation": "ZT3A2",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "127mm_zt3a2_uk_ratel_zt3",
+        "vehicleId": "uk_ratel_zt3",
+        "vehicleName": "ZT3A2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 127,
+        "projectileMassKg": 28.5,
+        "penetrationMm": 36.5,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 342,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 2.8,
+        "tntEquivalentKg": 3.6
+      }
+    ]
+  },
+  {
+    "id": "152mm_rp_3",
+    "designation": "RP-3",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Rocket",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "152mm_rp_3_uk_a27m_cromwell_5_rp3",
+        "vehicleId": "uk_a27m_cromwell_5_rp3",
+        "vehicleName": "Cromwell V (RP-3)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 152,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 51.8,
+        "fuzeDelayM": 1.0,
+        "fuzeSensitivityMm": 0.5,
+        "maximumSpeedMs": 260,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 6.3
+      }
+    ]
+  },
+  {
+    "id": "152mm_tow_2",
+    "designation": "TOW-2",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_tow_2_uk_desert_warrior",
+        "vehicleId": "uk_desert_warrior",
+        "vehicleName": "Desert Warrior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 21.5,
+        "penetrationMm": 38.5,
+        "vehicleOperator": "Kuwait",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "IRCCM": true,
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 329,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 3.1,
+        "tntEquivalentKg": 4.4
+      }
+    ]
+  },
+  {
+    "id": "152mm_tow_2a",
+    "designation": "TOW-2A",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_tow_2a_uk_desert_warrior",
+        "vehicleId": "uk_desert_warrior",
+        "vehicleName": "Desert Warrior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 22.6,
+        "penetrationMm": 38.8,
+        "vehicleOperator": "Kuwait",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "IRCCM": true,
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 329,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 3.2,
+        "tntEquivalentKg": 4.5
+      }
+    ]
+  },
+  {
+    "id": "152mm_tow_2b",
+    "designation": "TOW-2B",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "152mm_tow_2b_uk_desert_warrior",
+        "vehicleId": "uk_desert_warrior",
+        "vehicleName": "Desert Warrior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 152,
+        "projectileMassKg": 22.6,
+        "penetrationMm": 36.0,
+        "vehicleOperator": "Kuwait",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "IRCCM": true,
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 309,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 2.4,
+        "tntEquivalentKg": 3.4
+      }
+    ]
+  },
+  {
+    "id": "155mm_g6_smoke",
+    "designation": "G6 Smoke",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "155mm_g6_smoke_uk_g6_spg",
+        "vehicleId": "uk_g6_spg",
+        "vehicleName": "G6",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 45.7,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 897,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "155mm_l15a2",
+    "designation": "L15A2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "155mm_l15a2_uk_as_90_mk_2",
+        "vehicleId": "uk_as_90_mk_2",
+        "vehicleName": "AS90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.5,
+        "penetrationMm": 63.5,
+        "muzzleVelocityMs": 810,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 11.3,
+        "tntEquivalentKg": 14.8
+      },
+      {
+        "id": "155mm_l15a2_uk_vickers_gbt_155",
+        "vehicleId": "uk_vickers_gbt_155",
+        "vehicleName": "GBT 155",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.5,
+        "penetrationMm": 63.5,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 11.3,
+        "tntEquivalentKg": 14.8
+      }
+    ]
+  },
+  {
+    "id": "155mm_m1",
+    "designation": "M1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "155mm_m1_uk_g6_spg",
+        "vehicleId": "uk_g6_spg",
+        "vehicleName": "G6",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 45.5,
+        "penetrationMm": 63.0,
+        "muzzleVelocityMs": 897,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 8.7,
+        "tntEquivalentKg": 11.1
+      }
+    ]
+  },
+  {
+    "id": "155mm_m107",
+    "designation": "M107",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "155mm_m107_uk_as_90_mk_2",
+        "vehicleId": "uk_as_90_mk_2",
+        "vehicleName": "AS90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 810,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_uk_m109a1",
+        "vehicleId": "uk_m109a1",
+        "vehicleName": "▄M109A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_uk_m44",
+        "vehicleId": "uk_m44",
+        "vehicleName": "▄M44",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_uk_vickers_gbt_155",
+        "vehicleId": "uk_vickers_gbt_155",
+        "vehicleName": "GBT 155",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      }
+    ]
+  },
+  {
+    "id": "155mm_m107_(pf)",
+    "designation": "M107 (PF)",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "155mm_m107_(pf)_uk_as_90_mk_2",
+        "vehicleId": "uk_as_90_mk_2",
+        "vehicleName": "AS90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 810,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_(pf)_uk_m109a1",
+        "vehicleId": "uk_m109a1",
+        "vehicleName": "▄M109A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_(pf)_uk_vickers_gbt_155",
+        "vehicleId": "uk_vickers_gbt_155",
+        "vehicleName": "GBT 155",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      }
+    ]
+  },
+  {
+    "id": "155mm_m110",
+    "designation": "M110",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "155mm_m110_uk_as_90_mk_2",
+        "vehicleId": "uk_as_90_mk_2",
+        "vehicleName": "AS90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 810,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "155mm_m110_uk_m109a1",
+        "vehicleId": "uk_m109a1",
+        "vehicleName": "▄M109A1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 44.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "155mm_m110_uk_m44",
+        "vehicleId": "uk_m44",
+        "vehicleName": "▄M44",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "155mm_m110_uk_vickers_gbt_155",
+        "vehicleId": "uk_vickers_gbt_155",
+        "vehicleName": "GBT 155",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 684,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "155mm_m1_(pf)",
+    "designation": "M1 (PF)",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "155mm_m1_(pf)_uk_g6_spg",
+        "vehicleId": "uk_g6_spg",
+        "vehicleName": "G6",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 45.5,
+        "penetrationMm": 63.0,
+        "muzzleVelocityMs": 897,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 8.7,
+        "tntEquivalentKg": 11.1
+      }
+    ]
+  },
+  {
+    "id": "164mm_lfk_ss.11",
+    "designation": "LFK SS.11",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "164mm_lfk_ss.11_uk_centurion_mk_3_ss11",
+        "vehicleId": "uk_centurion_mk_3_ss11",
+        "vehicleName": "▄Strv 81 (RB 52)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 164,
+        "projectileMassKg": 30.0,
+        "penetrationMm": 25.0,
+        "vehicleOperator": "Sweden",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Manual (MCLOS)",
+        "maximumSpeedMs": 220,
+        "missileGuidanceTimeS": 18.5,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.0
+      }
+    ]
+  },
+  {
+    "id": "165mm_l33a1",
+    "designation": "L33A1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "165mm_l33a1_uk_centurion_mk_5_avre_era",
+        "vehicleId": "uk_centurion_mk_5_avre_era",
+        "vehicleName": "Centurion Mk.5 AVRE",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 165,
+        "projectileMassKg": 30.6,
+        "penetrationMm": 203.0,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 15.9,
+        "tntEquivalentKg": 20.3
+      }
+    ]
+  },
+  {
+    "id": "170mm_bae_swingfire",
+    "designation": "BAe Swingfire",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "170mm_bae_swingfire_uk_fv102_striker",
+        "vehicleId": "uk_fv102_striker",
+        "vehicleName": "Striker",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 170,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 38.9,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "maximumSpeedMs": 185,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 4.5
+      },
+      {
+        "id": "170mm_bae_swingfire_uk_fv438_swingfire",
+        "vehicleId": "uk_fv438_swingfire",
+        "vehicleName": "Swingfire",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 170,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 38.9,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "maximumSpeedMs": 185,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 4.5
+      }
+    ]
+  },
+  {
+    "id": "170mm_bae_swingfire_mk.2",
+    "designation": "BAe Swingfire Mk.2",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "170mm_bae_swingfire_mk.2_uk_fv102_striker",
+        "vehicleId": "uk_fv102_striker",
+        "vehicleName": "Striker",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 170,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 38.9,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "maximumSpeedMs": 185,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 4.5
+      }
+    ]
+  },
+  {
+    "id": "178mm_hedgehog_projectile",
+    "designation": "Hedgehog projectile",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Rocket",
+    "damage": "explosion_big",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "178mm_hedgehog_projectile_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 178,
+        "projectileMassKg": 29.5,
+        "penetrationMm": 65.1,
+        "vehicleOperator": "Australia",
+        "fuzeSensitivityMm": 0.1,
+        "maximumSpeedMs": 340,
+        "explosiveType": "Torpex",
+        "explosiveMassKg": 15.8,
+        "tntEquivalentKg": 25.3
+      }
+    ]
+  },
+  {
+    "id": "183mm_shell_l1",
+    "designation": "Shell L1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "183mm_shell_l1_uk_fv4005",
+        "vehicleId": "uk_fv4005",
+        "vehicleName": "FV4005",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 183,
+        "projectileMassKg": 72.6,
+        "penetrationMm": 228.0,
+        "muzzleVelocityMs": 716,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "RDX/PWX",
+        "explosiveMassKg": 17.0,
+        "tntEquivalentKg": 21.8
+      }
+    ]
+  },
+  {
+    "id": "230mm_no.1_demolition_bomb",
+    "designation": "No.1 Demolition Bomb",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Rocket",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "230mm_no.1_demolition_bomb_uk_churchill_avre",
+        "vehicleId": "uk_churchill_avre",
+        "vehicleName": "Churchill AVRE Petard",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 230,
+        "projectileMassKg": 18.1,
+        "penetrationMm": 64.0,
+        "fuzeSensitivityMm": 0.1,
+        "maximumSpeedMs": 50,
+        "explosiveType": "PETN",
+        "explosiveMassKg": 10.4,
+        "tntEquivalentKg": 17.7
+      }
+    ]
+  },
+  {
+    "id": "37mm_m51b1_shot",
+    "designation": "M51B1 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "37mm_m51b1_shot_uk_m3_stuart",
+        "vehicleId": "uk_m3_stuart",
+        "vehicleName": "Stuart I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 86.0,
+        "muzzleVelocityMs": 870
+      },
+      {
+        "id": "37mm_m51b1_shot_uk_m3a1_stuart",
+        "vehicleId": "uk_m3a1_stuart",
+        "vehicleName": "Stuart III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 87.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "37mm_m51b1_shot_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 86.0,
+        "muzzleVelocityMs": 870
+      }
+    ]
+  },
+  {
+    "id": "37mm_m74_shot",
+    "designation": "M74 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "37mm_m74_shot_uk_m3_stuart",
+        "vehicleId": "uk_m3_stuart",
+        "vehicleName": "Stuart I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 77.0,
+        "muzzleVelocityMs": 870
+      },
+      {
+        "id": "37mm_m74_shot_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 77.0,
+        "muzzleVelocityMs": 870
+      }
+    ]
+  },
+  {
+    "id": "37mm_m74b1_shot",
+    "designation": "M74B1 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "37mm_m74b1_shot_uk_m3a1_stuart",
+        "vehicleId": "uk_m3a1_stuart",
+        "vehicleName": "Stuart III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 79.0,
+        "muzzleVelocityMs": 883
+      }
+    ]
+  },
+  {
+    "id": "40mm_oet",
+    "designation": "OET",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "40mm_oet_uk_ajax",
+        "vehicleId": "uk_ajax",
+        "vehicleName": "Ajax",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 0.98,
+        "penetrationMm": 4.9,
+        "muzzleVelocityMs": 1000,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "HMX",
+        "explosiveMassKg": 0.115,
+        "tntEquivalentKg": 0.19
+      }
+    ]
+  },
+  {
+    "id": "40mm_oet_chr",
+    "designation": "OET CHR",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-TF",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "40mm_oet_chr_uk_ajax",
+        "vehicleId": "uk_ajax",
+        "vehicleName": "Ajax",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 0.98,
+        "penetrationMm": 4.9,
+        "muzzleVelocityMs": 1000,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "HMX",
+        "explosiveMassKg": 0.115,
+        "tntEquivalentKg": 0.19
+      }
+    ]
+  },
+  {
+    "id": "40mm_oflt",
+    "designation": "OFLT",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "40mm_oflt_uk_ajax",
+        "vehicleId": "uk_ajax",
+        "vehicleName": "Ajax",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 0.34,
+        "penetrationMm": 157.0,
+        "muzzleVelocityMs": 1510
+      }
+    ]
+  },
+  {
+    "id": "40mm_ppm_chr",
+    "designation": "PPM CHR",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "AHEAD",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "40mm_ppm_chr_uk_ajax",
+        "vehicleId": "uk_ajax",
+        "vehicleName": "Ajax",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 2.0,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 1.5,
+        "explosiveType": "CLX663",
+        "explosiveMassKg": 0.001,
+        "tntEquivalentKg": 0.001
+      }
+    ]
+  },
+  {
+    "id": "40mm_shell_mk.1_ap_t",
+    "designation": "Shell Mk.1 AP/T",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a17_mk_1_tetrarch",
+        "vehicleId": "uk_a17_mk_1_tetrarch",
+        "vehicleName": "Tetrarch I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a25_mk_8",
+        "vehicleId": "uk_a25_mk_8",
+        "vehicleName": "Harry Hopkins I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_12_mk_2_matilda_2",
+        "vehicleId": "uk_a_12_mk_2_matilda_2",
+        "vehicleName": "Matilda III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_13_mk1",
+        "vehicleId": "uk_a_13_mk1",
+        "vehicleName": "A13 Mk I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_13_mk1_3rd_rtr",
+        "vehicleId": "uk_a_13_mk1_3rd_rtr",
+        "vehicleName": "A13 Mk I (3rd R.T.R.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_13_mk2",
+        "vehicleId": "uk_a_13_mk2",
+        "vehicleName": "A13 Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_13_mk2_1939",
+        "vehicleId": "uk_a_13_mk2_1939",
+        "vehicleName": "A13 Mk II 1939",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_ac1_sentinel",
+        "vehicleId": "uk_ac1_sentinel",
+        "vehicleName": "A.C.I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_cruiser_ram_1",
+        "vehicleId": "uk_cruiser_ram_1",
+        "vehicleName": "Ram I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Canada",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_crusader_mk_2",
+        "vehicleId": "uk_crusader_mk_2",
+        "vehicleName": "Crusader II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_crusader_mk_2_the_saint",
+        "vehicleId": "uk_crusader_mk_2_the_saint",
+        "vehicleName": "Crusader \"The Saint\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_daimler_mk_2",
+        "vehicleId": "uk_daimler_mk_2",
+        "vehicleName": "Daimler Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_marmon_herrington_mk_6_2pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_2pdr",
+        "vehicleName": "SARC MkVI (2pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_sarc_mk4_a",
+        "vehicleId": "uk_sarc_mk4_a",
+        "vehicleName": "SARC MkIVa",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      },
+      {
+        "id": "40mm_shell_mk.1_ap_t_uk_valentine_mk_1",
+        "vehicleId": "uk_valentine_mk_1",
+        "vehicleName": "Valentine I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.021
+      }
+    ]
+  },
+  {
+    "id": "40mm_shell_mk.2",
+    "designation": "Shell Mk.2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "40mm_shell_mk.2_uk_a_12_mk_2_matilda_2",
+        "vehicleId": "uk_a_12_mk_2_matilda_2",
+        "vehicleName": "Matilda III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 1.3,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 687,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      },
+      {
+        "id": "40mm_shell_mk.2_uk_ac1_sentinel",
+        "vehicleId": "uk_ac1_sentinel",
+        "vehicleName": "A.C.I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 1.3,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 687,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      },
+      {
+        "id": "40mm_shell_mk.2_uk_cruiser_ram_1",
+        "vehicleId": "uk_cruiser_ram_1",
+        "vehicleName": "Ram I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 1.3,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 687,
+        "vehicleOperator": "Canada",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      },
+      {
+        "id": "40mm_shell_mk.2_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 40,
+        "projectileMassKg": 1.3,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 687,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      }
+    ]
+  },
+  {
+    "id": "40mm_shot_mk.1_ap_t",
+    "designation": "Shot Mk.1 AP/T",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a17_mk_1_tetrarch",
+        "vehicleId": "uk_a17_mk_1_tetrarch",
+        "vehicleName": "Tetrarch I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a25_mk_8",
+        "vehicleId": "uk_a25_mk_8",
+        "vehicleName": "Harry Hopkins I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_12_mk_2_matilda_2",
+        "vehicleId": "uk_a_12_mk_2_matilda_2",
+        "vehicleName": "Matilda III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_13_mk1",
+        "vehicleId": "uk_a_13_mk1",
+        "vehicleName": "A13 Mk I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_13_mk1_3rd_rtr",
+        "vehicleId": "uk_a_13_mk1_3rd_rtr",
+        "vehicleName": "A13 Mk I (3rd R.T.R.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_13_mk2",
+        "vehicleId": "uk_a_13_mk2",
+        "vehicleName": "A13 Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_13_mk2_1939",
+        "vehicleId": "uk_a_13_mk2_1939",
+        "vehicleName": "A13 Mk II 1939",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_ac1_sentinel",
+        "vehicleId": "uk_ac1_sentinel",
+        "vehicleName": "A.C.I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_cruiser_ram_1",
+        "vehicleId": "uk_cruiser_ram_1",
+        "vehicleName": "Ram I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_crusader_mk_2",
+        "vehicleId": "uk_crusader_mk_2",
+        "vehicleName": "Crusader II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_crusader_mk_2_the_saint",
+        "vehicleId": "uk_crusader_mk_2_the_saint",
+        "vehicleName": "Crusader \"The Saint\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_daimler_mk_2",
+        "vehicleId": "uk_daimler_mk_2",
+        "vehicleName": "Daimler Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_marmon_herrington_mk_6_2pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_2pdr",
+        "vehicleName": "SARC MkVI (2pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_sarc_mk4_a",
+        "vehicleId": "uk_sarc_mk4_a",
+        "vehicleName": "SARC MkIVa",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.1_ap_t_uk_valentine_mk_1",
+        "vehicleId": "uk_valentine_mk_1",
+        "vehicleName": "Valentine I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 72.0,
+        "muzzleVelocityMs": 792
+      }
+    ]
+  },
+  {
+    "id": "40mm_shot_mk.1_aphv_t",
+    "designation": "Shot Mk.1 APHV/T",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a17_mk_1_tetrarch",
+        "vehicleId": "uk_a17_mk_1_tetrarch",
+        "vehicleName": "Tetrarch I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a25_mk_8",
+        "vehicleId": "uk_a25_mk_8",
+        "vehicleName": "Harry Hopkins I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_12_mk_2_matilda_2",
+        "vehicleId": "uk_a_12_mk_2_matilda_2",
+        "vehicleName": "Matilda III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_13_mk1",
+        "vehicleId": "uk_a_13_mk1",
+        "vehicleName": "A13 Mk I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_13_mk1_3rd_rtr",
+        "vehicleId": "uk_a_13_mk1_3rd_rtr",
+        "vehicleName": "A13 Mk I (3rd R.T.R.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_13_mk2",
+        "vehicleId": "uk_a_13_mk2",
+        "vehicleName": "A13 Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_13_mk2_1939",
+        "vehicleId": "uk_a_13_mk2_1939",
+        "vehicleName": "A13 Mk II 1939",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_crusader_mk_2",
+        "vehicleId": "uk_crusader_mk_2",
+        "vehicleName": "Crusader II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_crusader_mk_2_the_saint",
+        "vehicleId": "uk_crusader_mk_2_the_saint",
+        "vehicleName": "Crusader \"The Saint\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_daimler_mk_2",
+        "vehicleId": "uk_daimler_mk_2",
+        "vehicleName": "Daimler Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_marmon_herrington_mk_6_2pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_2pdr",
+        "vehicleName": "SARC MkVI (2pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_sarc_mk4_a",
+        "vehicleId": "uk_sarc_mk4_a",
+        "vehicleName": "SARC MkIVa",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.1_aphv_t_uk_valentine_mk_1",
+        "vehicleId": "uk_valentine_mk_1",
+        "vehicleName": "Valentine I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 40,
+        "projectileMassKg": 1.1,
+        "penetrationMm": 80.0,
+        "muzzleVelocityMs": 853
+      }
+    ]
+  },
+  {
+    "id": "40mm_shot_mk.ixb_apcbc_t",
+    "designation": "Shot Mk.IXB APCBC/T",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a17_mk_1_tetrarch",
+        "vehicleId": "uk_a17_mk_1_tetrarch",
+        "vehicleName": "Tetrarch I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a25_mk_8",
+        "vehicleId": "uk_a25_mk_8",
+        "vehicleName": "Harry Hopkins I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_12_mk_2_matilda_2",
+        "vehicleId": "uk_a_12_mk_2_matilda_2",
+        "vehicleName": "Matilda III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_13_mk1",
+        "vehicleId": "uk_a_13_mk1",
+        "vehicleName": "A13 Mk I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_13_mk1_3rd_rtr",
+        "vehicleId": "uk_a_13_mk1_3rd_rtr",
+        "vehicleName": "A13 Mk I (3rd R.T.R.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_13_mk2",
+        "vehicleId": "uk_a_13_mk2",
+        "vehicleName": "A13 Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_13_mk2_1939",
+        "vehicleId": "uk_a_13_mk2_1939",
+        "vehicleName": "A13 Mk II 1939",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_ac1_sentinel",
+        "vehicleId": "uk_ac1_sentinel",
+        "vehicleName": "A.C.I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_cruiser_ram_1",
+        "vehicleId": "uk_cruiser_ram_1",
+        "vehicleName": "Ram I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_crusader_mk_2",
+        "vehicleId": "uk_crusader_mk_2",
+        "vehicleName": "Crusader II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_crusader_mk_2_the_saint",
+        "vehicleId": "uk_crusader_mk_2_the_saint",
+        "vehicleName": "Crusader \"The Saint\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_daimler_mk_2",
+        "vehicleId": "uk_daimler_mk_2",
+        "vehicleName": "Daimler Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_marmon_herrington_mk_6_2pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_2pdr",
+        "vehicleName": "SARC MkVI (2pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_matilda_hedgehog",
+        "vehicleId": "uk_matilda_hedgehog",
+        "vehicleName": "Matilda Hedgehog",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_sarc_mk4_a",
+        "vehicleId": "uk_sarc_mk4_a",
+        "vehicleName": "SARC MkIVa",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "40mm_shot_mk.ixb_apcbc_t_uk_valentine_mk_1",
+        "vehicleId": "uk_valentine_mk_1",
+        "vehicleName": "Valentine I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 40,
+        "projectileMassKg": 1.2,
+        "penetrationMm": 89.0,
+        "muzzleVelocityMs": 792
+      }
+    ]
+  },
+  {
+    "id": "47mm_shell_mk.i",
+    "designation": "Shell Mk.I",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "47mm_shell_mk.i_uk_a1e1_independent",
+        "vehicleId": "uk_a1e1_independent",
+        "vehicleName": "Independent",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.6,
+        "penetrationMm": 2.2,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.015,
+        "tntEquivalentKg": 0.016
+      }
+    ]
+  },
+  {
+    "id": "57mm_qf_ap",
+    "designation": "QF AP",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_qf_ap_uk_mark_v",
+        "vehicleId": "uk_mark_v",
+        "vehicleName": "Mark V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 2.2,
+        "muzzleVelocityMs": 411,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 7.0,
+        "explosiveType": "Lyddite",
+        "explosiveMassKg": 0.015,
+        "tntEquivalentKg": 0.016
+      }
+    ]
+  },
+  {
+    "id": "57mm_qf_he",
+    "designation": "QF HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "57mm_qf_he_uk_mark_v",
+        "vehicleId": "uk_mark_v",
+        "vehicleName": "Mark V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 411,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.16
+      }
+    ]
+  },
+  {
+    "id": "57mm_shell_mk.10",
+    "designation": "Shell Mk.10",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "57mm_shell_mk.10_uk_a27m_cromwell_1",
+        "vehicleId": "uk_a27m_cromwell_1",
+        "vehicleName": "Cromwell I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_a_22b_mk_3_churchill_1942",
+        "vehicleId": "uk_a_22b_mk_3_churchill_1942",
+        "vehicleName": "Churchill III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_armored_car_aec_mk_2",
+        "vehicleId": "uk_armored_car_aec_mk_2",
+        "vehicleName": "AEC Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_crusader_mk_3",
+        "vehicleId": "uk_crusader_mk_3",
+        "vehicleName": "Crusader III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_m4a5_ram_2",
+        "vehicleId": "uk_m4a5_ram_2",
+        "vehicleName": "Ram II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "vehicleOperator": "Canada",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_marmon_herrington_mk_6_6pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_6pdr",
+        "vehicleName": "SARC MkVI (6pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      },
+      {
+        "id": "57mm_shell_mk.10_uk_valentine_mk_9",
+        "vehicleId": "uk_valentine_mk_9",
+        "vehicleName": "Valentine IX",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 2.7,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      }
+    ]
+  },
+  {
+    "id": "57mm_shot_mk.5",
+    "designation": "Shot Mk.5",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "57mm_shot_mk.5_uk_a27m_cromwell_1",
+        "vehicleId": "uk_a27m_cromwell_1",
+        "vehicleName": "Cromwell I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 101.0,
+        "muzzleVelocityMs": 815
+      },
+      {
+        "id": "57mm_shot_mk.5_uk_crusader_mk_3",
+        "vehicleId": "uk_crusader_mk_3",
+        "vehicleName": "Crusader III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 101.0,
+        "muzzleVelocityMs": 815
+      },
+      {
+        "id": "57mm_shot_mk.5_uk_m4a5_ram_2",
+        "vehicleId": "uk_m4a5_ram_2",
+        "vehicleName": "Ram II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 101.0,
+        "muzzleVelocityMs": 815,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "57mm_shot_mk.5_uk_marmon_herrington_mk_6_6pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_6pdr",
+        "vehicleName": "SARC MkVI (6pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 101.0,
+        "muzzleVelocityMs": 815,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "57mm_shot_mk.5_uk_valentine_mk_9",
+        "vehicleId": "uk_valentine_mk_9",
+        "vehicleName": "Valentine IX",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 101.0,
+        "muzzleVelocityMs": 815
+      }
+    ]
+  },
+  {
+    "id": "57mm_shot_mk.5_hv",
+    "designation": "Shot Mk.5 HV",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "57mm_shot_mk.5_hv_uk_a27m_cromwell_1",
+        "vehicleId": "uk_a27m_cromwell_1",
+        "vehicleName": "Cromwell I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 108.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_a_22b_mk_3_churchill_1942",
+        "vehicleId": "uk_a_22b_mk_3_churchill_1942",
+        "vehicleName": "Churchill III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 115.0,
+        "muzzleVelocityMs": 891
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_armored_car_aec_mk_2",
+        "vehicleId": "uk_armored_car_aec_mk_2",
+        "vehicleName": "AEC Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 115.0,
+        "muzzleVelocityMs": 891
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_crusader_mk_3",
+        "vehicleId": "uk_crusader_mk_3",
+        "vehicleName": "Crusader III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 108.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_m4a5_ram_2",
+        "vehicleId": "uk_m4a5_ram_2",
+        "vehicleName": "Ram II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 108.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_marmon_herrington_mk_6_6pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_6pdr",
+        "vehicleName": "SARC MkVI (6pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 108.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "57mm_shot_mk.5_hv_uk_valentine_mk_9",
+        "vehicleId": "uk_valentine_mk_9",
+        "vehicleName": "Valentine IX",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 108.0,
+        "muzzleVelocityMs": 853
+      }
+    ]
+  },
+  {
+    "id": "57mm_shot_mk.8",
+    "designation": "Shot Mk.8",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "57mm_shot_mk.8_uk_a27m_cromwell_1",
+        "vehicleId": "uk_a27m_cromwell_1",
+        "vehicleName": "Cromwell I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 110.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_a_22b_mk_3_churchill_1942",
+        "vehicleId": "uk_a_22b_mk_3_churchill_1942",
+        "vehicleName": "Churchill III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 116.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_armored_car_aec_mk_2",
+        "vehicleId": "uk_armored_car_aec_mk_2",
+        "vehicleName": "AEC Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 116.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_crusader_mk_3",
+        "vehicleId": "uk_crusader_mk_3",
+        "vehicleName": "Crusader III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 110.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_m4a5_ram_2",
+        "vehicleId": "uk_m4a5_ram_2",
+        "vehicleName": "Ram II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 110.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_marmon_herrington_mk_6_6pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_6pdr",
+        "vehicleName": "SARC MkVI (6pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 110.0,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "57mm_shot_mk.8_uk_valentine_mk_9",
+        "vehicleId": "uk_valentine_mk_9",
+        "vehicleName": "Valentine IX",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.9,
+        "penetrationMm": 110.0,
+        "muzzleVelocityMs": 853
+      }
+    ]
+  },
+  {
+    "id": "57mm_shot_mk.9",
+    "designation": "Shot Mk.9",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_shot_mk.9_uk_a27m_cromwell_1",
+        "vehicleId": "uk_a27m_cromwell_1",
+        "vehicleName": "Cromwell I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 122.0,
+        "muzzleVelocityMs": 801
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_a_22b_mk_3_churchill_1942",
+        "vehicleId": "uk_a_22b_mk_3_churchill_1942",
+        "vehicleName": "Churchill III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 132.0,
+        "muzzleVelocityMs": 847
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_armored_car_aec_mk_2",
+        "vehicleId": "uk_armored_car_aec_mk_2",
+        "vehicleName": "AEC Mk II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 132.0,
+        "muzzleVelocityMs": 847
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_crusader_mk_3",
+        "vehicleId": "uk_crusader_mk_3",
+        "vehicleName": "Crusader III",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 122.0,
+        "muzzleVelocityMs": 801
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_m4a5_ram_2",
+        "vehicleId": "uk_m4a5_ram_2",
+        "vehicleName": "Ram II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 122.0,
+        "muzzleVelocityMs": 801,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_marmon_herrington_mk_6_6pdr",
+        "vehicleId": "uk_marmon_herrington_mk_6_6pdr",
+        "vehicleName": "SARC MkVI (6pdr)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 122.0,
+        "muzzleVelocityMs": 801,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "57mm_shot_mk.9_uk_valentine_mk_9",
+        "vehicleId": "uk_valentine_mk_9",
+        "vehicleName": "Valentine IX",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 122.0,
+        "muzzleVelocityMs": 801
+      }
+    ]
+  },
+  {
+    "id": "75mm_m48_shell",
+    "designation": "M48 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "75mm_m48_shell_uk_a27m_cromwell_5",
+        "vehicleId": "uk_a27m_cromwell_5",
+        "vehicleName": "Cromwell V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_a27m_cromwell_5_rp3",
+        "vehicleId": "uk_a27m_cromwell_5_rp3",
+        "vehicleName": "Cromwell V (RP-3)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_a_22f_mk_7_churchill_1944",
+        "vehicleId": "uk_a_22f_mk_7_churchill_1944",
+        "vehicleName": "Churchill VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleId": "uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleName": "Churchill Crocodile",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_a_33_excelsior",
+        "vehicleId": "uk_a_33_excelsior",
+        "vehicleName": "Excelsior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_churchill_na75",
+        "vehicleId": "uk_churchill_na75",
+        "vehicleName": "Churchill NA75",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 448,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_sherman_ii",
+        "vehicleId": "uk_sherman_ii",
+        "vehicleName": "Sherman II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_uk_valentine_mk_11",
+        "vehicleId": "uk_valentine_mk_11",
+        "vehicleName": "Valentine XI",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      }
+    ]
+  },
+  {
+    "id": "75mm_m61_shot",
+    "designation": "M61 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_m61_shot_uk_a27m_cromwell_5",
+        "vehicleId": "uk_a27m_cromwell_5",
+        "vehicleName": "Cromwell V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_a27m_cromwell_5_rp3",
+        "vehicleId": "uk_a27m_cromwell_5_rp3",
+        "vehicleName": "Cromwell V (RP-3)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_a_22f_mk_7_churchill_1944",
+        "vehicleId": "uk_a_22f_mk_7_churchill_1944",
+        "vehicleName": "Churchill VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleId": "uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleName": "Churchill Crocodile",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_a_33_excelsior",
+        "vehicleId": "uk_a_33_excelsior",
+        "vehicleName": "Excelsior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_churchill_na75",
+        "vehicleId": "uk_churchill_na75",
+        "vehicleName": "Churchill NA75",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 588,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_sherman_ii",
+        "vehicleId": "uk_sherman_ii",
+        "vehicleName": "Sherman II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_uk_valentine_mk_11",
+        "vehicleId": "uk_valentine_mk_11",
+        "vehicleName": "Valentine XI",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      }
+    ]
+  },
+  {
+    "id": "75mm_m72_shot",
+    "designation": "M72 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "75mm_m72_shot_uk_a27m_cromwell_5",
+        "vehicleId": "uk_a27m_cromwell_5",
+        "vehicleName": "Cromwell V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_a27m_cromwell_5_rp3",
+        "vehicleId": "uk_a27m_cromwell_5_rp3",
+        "vehicleName": "Cromwell V (RP-3)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_a_22f_mk_7_churchill_1944",
+        "vehicleId": "uk_a_22f_mk_7_churchill_1944",
+        "vehicleName": "Churchill VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleId": "uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleName": "Churchill Crocodile",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_a_33_excelsior",
+        "vehicleId": "uk_a_33_excelsior",
+        "vehicleName": "Excelsior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_churchill_na75",
+        "vehicleId": "uk_churchill_na75",
+        "vehicleName": "Churchill NA75",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 84.0,
+        "muzzleVelocityMs": 588
+      },
+      {
+        "id": "75mm_m72_shot_uk_sherman_ii",
+        "vehicleId": "uk_sherman_ii",
+        "vehicleName": "Sherman II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      },
+      {
+        "id": "75mm_m72_shot_uk_valentine_mk_11",
+        "vehicleId": "uk_valentine_mk_11",
+        "vehicleName": "Valentine XI",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      }
+    ]
+  },
+  {
+    "id": "75mm_m89",
+    "designation": "M89",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "75mm_m89_uk_a27m_cromwell_5",
+        "vehicleId": "uk_a27m_cromwell_5",
+        "vehicleName": "Cromwell V",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_a27m_cromwell_5_rp3",
+        "vehicleId": "uk_a27m_cromwell_5_rp3",
+        "vehicleName": "Cromwell V (RP-3)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_a_22f_mk_7_churchill_1944",
+        "vehicleId": "uk_a_22f_mk_7_churchill_1944",
+        "vehicleName": "Churchill VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleId": "uk_a_22f_mk_7_churchill_crocodile",
+        "vehicleName": "Churchill Crocodile",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_a_33_excelsior",
+        "vehicleId": "uk_a_33_excelsior",
+        "vehicleName": "Excelsior",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_churchill_na75",
+        "vehicleId": "uk_churchill_na75",
+        "vehicleName": "Churchill NA75",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_mk1_grant",
+        "vehicleId": "uk_mk1_grant",
+        "vehicleName": "Grant I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_sherman_ii",
+        "vehicleId": "uk_sherman_ii",
+        "vehicleName": "Sherman II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_uk_valentine_mk_11",
+        "vehicleId": "uk_valentine_mk_11",
+        "vehicleName": "Valentine XI",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "75mm_t45_shot",
+    "designation": "T45 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_t45_shot_uk_sherman_ii",
+        "vehicleId": "uk_sherman_ii",
+        "vehicleName": "Sherman II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 139.0,
+        "muzzleVelocityMs": 868
+      }
+    ]
+  },
+  {
+    "id": "76mm_17pdr_shell_ss_mk.1",
+    "designation": "17pdr Shell SS Mk.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_17_pdr_m10_achilles",
+        "vehicleId": "uk_17_pdr_m10_achilles",
+        "vehicleName": "Achilles",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleId": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleName": "Achilles (65 Rg.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_a30_sp_avenger",
+        "vehicleId": "uk_a30_sp_avenger",
+        "vehicleName": "Avenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_a30_sp_avenger_kit_3rank",
+        "vehicleId": "uk_a30_sp_avenger_kit_3rank",
+        "vehicleName": "Avenger (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_ac4_thunderbolt",
+        "vehicleId": "uk_ac4_thunderbolt",
+        "vehicleName": "A.C.IV",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_sherman_ic_firefly",
+        "vehicleId": "uk_sherman_ic_firefly",
+        "vehicleName": "Sherman IC \"Trzyniec\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "vehicleOperator": "Poland",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_sherman_vc_firefly",
+        "vehicleId": "uk_sherman_vc_firefly",
+        "vehicleName": "Sherman Firefly",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_sherman_vc_firefly_kit_3rank",
+        "vehicleId": "uk_sherman_vc_firefly_kit_3rank",
+        "vehicleName": "Firefly (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_17pdr_shell_ss_mk.1_uk_sp_17_pdr_valentine",
+        "vehicleId": "uk_sp_17_pdr_valentine",
+        "vehicleName": "Archer",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 8.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 229,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_3_inch_mark_ii",
+    "designation": "3-inch Mark II",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_3_inch_mark_ii_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 9.5,
+        "muzzleVelocityMs": 210,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.606
+      }
+    ]
+  },
+  {
+    "id": "76mm_3_inch_smoke",
+    "designation": "3-inch Smoke",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_3_inch_smoke_uk_a_22_mk_1_churchill_1941",
+        "vehicleId": "uk_a_22_mk_1_churchill_1941",
+        "vehicleName": "Churchill I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 210,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.008
+      },
+      {
+        "id": "76mm_3_inch_smoke_uk_tog_2",
+        "vehicleId": "uk_tog_2",
+        "vehicleName": "TOG II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 210,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.008
+      }
+    ]
+  },
+  {
+    "id": "76mm_76_62_apfsds",
+    "designation": "76/62 APFSDS",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_76_62_apfsds_uk_rooikat_76",
+        "vehicleId": "uk_rooikat_76",
+        "vehicleName": "Rooikat Mk.1D",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.2,
+        "penetrationMm": 321.0,
+        "muzzleVelocityMs": 1615,
+        "vehicleOperator": "South Africa"
+      }
+    ]
+  },
+  {
+    "id": "76mm_76_62_he",
+    "designation": "76/62 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_76_62_he_uk_rooikat_76",
+        "vehicleId": "uk_rooikat_76",
+        "vehicleName": "Rooikat Mk.1D",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 13.5,
+        "muzzleVelocityMs": 915,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 0.673,
+        "tntEquivalentKg": 0.969
+      }
+    ]
+  },
+  {
+    "id": "76mm_shell_he",
+    "designation": "Shell HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_shell_he_uk_3_inch_gun_carrier",
+        "vehicleId": "uk_3_inch_gun_carrier",
+        "vehicleName": "Gun Carrier (3-in)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.3,
+        "penetrationMm": 8.7,
+        "muzzleVelocityMs": 609,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.53
+      }
+    ]
+  },
+  {
+    "id": "76mm_shell_mk.1",
+    "designation": "Shell Mk.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_shell_mk.1_uk_17_pdr_m10_achilles",
+        "vehicleId": "uk_17_pdr_m10_achilles",
+        "vehicleName": "Achilles",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleId": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleName": "Achilles (65 Rg.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a30_sp_avenger",
+        "vehicleId": "uk_a30_sp_avenger",
+        "vehicleName": "Avenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a30_sp_avenger_kit_3rank",
+        "vehicleId": "uk_a30_sp_avenger_kit_3rank",
+        "vehicleName": "Avenger (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a_34_comet",
+        "vehicleId": "uk_a_34_comet",
+        "vehicleName": "Comet I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 495,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a_34_comet_iron_duke",
+        "vehicleId": "uk_a_34_comet_iron_duke",
+        "vehicleName": "Comet I \"Iron Duke IV\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 495,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_ac4_thunderbolt",
+        "vehicleId": "uk_ac4_thunderbolt",
+        "vehicleName": "A.C.IV",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_concept3_ngac",
+        "vehicleId": "uk_concept3_ngac",
+        "vehicleName": "Concept 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 495,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_sherman_ic_firefly",
+        "vehicleId": "uk_sherman_ic_firefly",
+        "vehicleName": "Sherman IC \"Trzyniec\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Poland",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_sherman_vc_firefly",
+        "vehicleId": "uk_sherman_vc_firefly",
+        "vehicleName": "Sherman Firefly",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_sherman_vc_firefly_kit_3rank",
+        "vehicleId": "uk_sherman_vc_firefly_kit_3rank",
+        "vehicleName": "Firefly (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      },
+      {
+        "id": "76mm_shell_mk.1_uk_sp_17_pdr_valentine",
+        "vehicleId": "uk_sp_17_pdr_valentine",
+        "vehicleName": "Archer",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 9.2,
+        "muzzleVelocityMs": 883,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.58
+      }
+    ]
+  },
+  {
+    "id": "76mm_shot_mk.2",
+    "designation": "Shot Mk.2",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_shot_mk.2_uk_3_inch_gun_carrier",
+        "vehicleId": "uk_3_inch_gun_carrier",
+        "vehicleName": "Gun Carrier (3-in)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 131.0,
+        "muzzleVelocityMs": 853
+      }
+    ]
+  },
+  {
+    "id": "76mm_shot_mk.4",
+    "designation": "Shot Mk.4",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_shot_mk.4_uk_17_pdr_m10_achilles",
+        "vehicleId": "uk_17_pdr_m10_achilles",
+        "vehicleName": "Achilles",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleId": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleName": "Achilles (65 Rg.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a30_sp_avenger",
+        "vehicleId": "uk_a30_sp_avenger",
+        "vehicleName": "Avenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a30_sp_avenger_kit_3rank",
+        "vehicleId": "uk_a30_sp_avenger_kit_3rank",
+        "vehicleName": "Avenger (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a_34_comet",
+        "vehicleId": "uk_a_34_comet",
+        "vehicleName": "Comet I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a_34_comet_iron_duke",
+        "vehicleId": "uk_a_34_comet_iron_duke",
+        "vehicleName": "Comet I \"Iron Duke IV\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_ac4_thunderbolt",
+        "vehicleId": "uk_ac4_thunderbolt",
+        "vehicleName": "A.C.IV",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_concept3_ngac",
+        "vehicleId": "uk_concept3_ngac",
+        "vehicleName": "Concept 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_sherman_ic_firefly",
+        "vehicleId": "uk_sherman_ic_firefly",
+        "vehicleName": "Sherman IC \"Trzyniec\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Poland"
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_sherman_vc_firefly",
+        "vehicleId": "uk_sherman_vc_firefly",
+        "vehicleName": "Sherman Firefly",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_sherman_vc_firefly_kit_3rank",
+        "vehicleId": "uk_sherman_vc_firefly_kit_3rank",
+        "vehicleName": "Firefly (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.4_uk_sp_17_pdr_valentine",
+        "vehicleId": "uk_sp_17_pdr_valentine",
+        "vehicleName": "Archer",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      }
+    ]
+  },
+  {
+    "id": "76mm_shot_mk.6",
+    "designation": "Shot Mk.6",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_shot_mk.6_uk_17_pdr_m10_achilles",
+        "vehicleId": "uk_17_pdr_m10_achilles",
+        "vehicleName": "Achilles",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleId": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleName": "Achilles (65 Rg.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a30_sp_avenger",
+        "vehicleId": "uk_a30_sp_avenger",
+        "vehicleName": "Avenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a30_sp_avenger_kit_3rank",
+        "vehicleId": "uk_a30_sp_avenger_kit_3rank",
+        "vehicleName": "Avenger (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a_34_comet",
+        "vehicleId": "uk_a_34_comet",
+        "vehicleName": "Comet I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a_34_comet_iron_duke",
+        "vehicleId": "uk_a_34_comet_iron_duke",
+        "vehicleName": "Comet I \"Iron Duke IV\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_ac4_thunderbolt",
+        "vehicleId": "uk_ac4_thunderbolt",
+        "vehicleName": "A.C.IV",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_concept3_ngac",
+        "vehicleId": "uk_concept3_ngac",
+        "vehicleName": "Concept 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 145.0,
+        "muzzleVelocityMs": 785,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_sherman_ic_firefly",
+        "vehicleId": "uk_sherman_ic_firefly",
+        "vehicleName": "Sherman IC \"Trzyniec\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Poland"
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_sherman_vc_firefly",
+        "vehicleId": "uk_sherman_vc_firefly",
+        "vehicleName": "Sherman Firefly",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_sherman_vc_firefly_kit_3rank",
+        "vehicleId": "uk_sherman_vc_firefly_kit_3rank",
+        "vehicleName": "Firefly (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.6_uk_sp_17_pdr_valentine",
+        "vehicleId": "uk_sp_17_pdr_valentine",
+        "vehicleName": "Archer",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 171.0,
+        "muzzleVelocityMs": 883
+      }
+    ]
+  },
+  {
+    "id": "76mm_shot_mk.8",
+    "designation": "Shot Mk.8",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_shot_mk.8_uk_17_pdr_m10_achilles",
+        "vehicleId": "uk_17_pdr_m10_achilles",
+        "vehicleName": "Achilles",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleId": "uk_17_pdr_m10_achilles_norfolk_yeomanry",
+        "vehicleName": "Achilles (65 Rg.)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a30_sp_avenger",
+        "vehicleId": "uk_a30_sp_avenger",
+        "vehicleName": "Avenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a30_sp_avenger_kit_3rank",
+        "vehicleId": "uk_a30_sp_avenger_kit_3rank",
+        "vehicleName": "Avenger (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a_34_comet",
+        "vehicleId": "uk_a_34_comet",
+        "vehicleName": "Comet I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 161.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a_34_comet_iron_duke",
+        "vehicleId": "uk_a_34_comet_iron_duke",
+        "vehicleName": "Comet I \"Iron Duke IV\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 161.0,
+        "muzzleVelocityMs": 785
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_ac4_thunderbolt",
+        "vehicleId": "uk_ac4_thunderbolt",
+        "vehicleName": "A.C.IV",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_concept3_ngac",
+        "vehicleId": "uk_concept3_ngac",
+        "vehicleName": "Concept 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 161.0,
+        "muzzleVelocityMs": 785,
+        "vehicleOperator": "South Africa"
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_sherman_ic_firefly",
+        "vehicleId": "uk_sherman_ic_firefly",
+        "vehicleName": "Sherman IC \"Trzyniec\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "Poland"
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_sherman_vc_firefly",
+        "vehicleId": "uk_sherman_vc_firefly",
+        "vehicleName": "Sherman Firefly",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_sherman_vc_firefly_kit_3rank",
+        "vehicleId": "uk_sherman_vc_firefly_kit_3rank",
+        "vehicleName": "Firefly (Overlord)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      },
+      {
+        "id": "76mm_shot_mk.8_uk_sp_17_pdr_valentine",
+        "vehicleId": "uk_sp_17_pdr_valentine",
+        "vehicleName": "Archer",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.7,
+        "penetrationMm": 190.0,
+        "muzzleVelocityMs": 883
+      }
+    ]
+  },
+  {
+    "id": "76mm_shot_sv_mk.1",
+    "designation": "Shot SV Mk.1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_shot_sv_mk.1_uk_a30_challenger",
+        "vehicleId": "uk_a30_challenger",
+        "vehicleName": "Challenger",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 269.0,
+        "muzzleVelocityMs": 1204
+      },
+      {
+        "id": "76mm_shot_sv_mk.1_uk_a_34_comet",
+        "vehicleId": "uk_a_34_comet",
+        "vehicleName": "Comet I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 217.0,
+        "muzzleVelocityMs": 1036
+      },
+      {
+        "id": "76mm_shot_sv_mk.1_uk_a_34_comet_iron_duke",
+        "vehicleId": "uk_a_34_comet_iron_duke",
+        "vehicleName": "Comet I \"Iron Duke IV\"",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 217.0,
+        "muzzleVelocityMs": 1036
+      },
+      {
+        "id": "76mm_shot_sv_mk.1_uk_a_43_black_prince",
+        "vehicleId": "uk_a_43_black_prince",
+        "vehicleName": "Black Prince",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 269.0,
+        "muzzleVelocityMs": 1204
+      },
+      {
+        "id": "76mm_shot_sv_mk.1_uk_centurion_mk_1",
+        "vehicleId": "uk_centurion_mk_1",
+        "vehicleName": "Centurion Mk 1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 269.0,
+        "muzzleVelocityMs": 1204
+      },
+      {
+        "id": "76mm_shot_sv_mk.1_uk_centurion_mk_2",
+        "vehicleId": "uk_centurion_mk_2",
+        "vehicleName": "Centurion Mk.2",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.5,
+        "penetrationMm": 269.0,
+        "muzzleVelocityMs": 1204
+      }
+    ]
+  },
+  {
+    "id": "83mm_20pdr_shell_ss_mk.1",
+    "designation": "20pdr Shell SS Mk.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_centurion_action_x",
+        "vehicleId": "uk_centurion_action_x",
+        "vehicleName": "Centurion Action X",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_centurion_mk_3",
+        "vehicleId": "uk_centurion_mk_3",
+        "vehicleName": "Centurion Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_centurion_mk_5_raac",
+        "vehicleId": "uk_centurion_mk_5_raac",
+        "vehicleName": "Centurion Mk.5/1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_charioteer_mk_7",
+        "vehicleId": "uk_charioteer_mk_7",
+        "vehicleName": "Charioteer Mk VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_fv221_caernarvon",
+        "vehicleId": "uk_fv221_caernarvon",
+        "vehicleName": "Caernarvon",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "83mm_20pdr_shell_ss_mk.1_uk_fv4202",
+        "vehicleId": "uk_fv4202",
+        "vehicleName": "FV4202",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "83mm_rökgr_m_53",
+    "designation": "rökgr m/53",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "83mm_rökgr_m_53_uk_centurion_mk_3_ss11",
+        "vehicleId": "uk_centurion_mk_3_ss11",
+        "vehicleName": "▄Strv 81 (RB 52)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 83,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 251,
+        "vehicleOperator": "Sweden",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "83mm_shell_mk.1",
+    "designation": "Shell Mk.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "83mm_shell_mk.1_uk_centurion_action_x",
+        "vehicleId": "uk_centurion_action_x",
+        "vehicleName": "Centurion Action X",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "83mm_shell_mk.1_uk_centurion_mk_3",
+        "vehicleId": "uk_centurion_mk_3",
+        "vehicleName": "Centurion Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "83mm_shell_mk.1_uk_centurion_mk_5_raac",
+        "vehicleId": "uk_centurion_mk_5_raac",
+        "vehicleName": "Centurion Mk.5/1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "vehicleOperator": "Australia",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "83mm_shell_mk.1_uk_charioteer_mk_7",
+        "vehicleId": "uk_charioteer_mk_7",
+        "vehicleName": "Charioteer Mk VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "83mm_shell_mk.1_uk_fv221_caernarvon",
+        "vehicleId": "uk_fv221_caernarvon",
+        "vehicleName": "Caernarvon",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      },
+      {
+        "id": "83mm_shell_mk.1_uk_fv4202",
+        "vehicleId": "uk_fv4202",
+        "vehicleName": "FV4202",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.8,
+        "penetrationMm": 18.8,
+        "muzzleVelocityMs": 610,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.1,
+        "tntEquivalentKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "83mm_shot_mk.1",
+    "designation": "Shot Mk.1",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "83mm_shot_mk.1_uk_centurion_action_x",
+        "vehicleId": "uk_centurion_action_x",
+        "vehicleName": "Centurion Action X",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "83mm_shot_mk.1_uk_centurion_mk_3",
+        "vehicleId": "uk_centurion_mk_3",
+        "vehicleName": "Centurion Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "83mm_shot_mk.1_uk_centurion_mk_5_raac",
+        "vehicleId": "uk_centurion_mk_5_raac",
+        "vehicleName": "Centurion Mk.5/1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "83mm_shot_mk.1_uk_charioteer_mk_7",
+        "vehicleId": "uk_charioteer_mk_7",
+        "vehicleName": "Charioteer Mk VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "83mm_shot_mk.1_uk_fv221_caernarvon",
+        "vehicleId": "uk_fv221_caernarvon",
+        "vehicleName": "Caernarvon",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "83mm_shot_mk.1_uk_fv4202",
+        "vehicleId": "uk_fv4202",
+        "vehicleName": "FV4202",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021
+      }
+    ]
+  },
+  {
+    "id": "83mm_shot_mk.3",
+    "designation": "Shot Mk.3",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "83mm_shot_mk.3_uk_centurion_action_x",
+        "vehicleId": "uk_centurion_action_x",
+        "vehicleName": "Centurion Action X",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433
+      },
+      {
+        "id": "83mm_shot_mk.3_uk_centurion_mk_3",
+        "vehicleId": "uk_centurion_mk_3",
+        "vehicleName": "Centurion Mk 3",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433
+      },
+      {
+        "id": "83mm_shot_mk.3_uk_centurion_mk_5_raac",
+        "vehicleId": "uk_centurion_mk_5_raac",
+        "vehicleName": "Centurion Mk.5/1",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433,
+        "vehicleOperator": "Australia"
+      },
+      {
+        "id": "83mm_shot_mk.3_uk_charioteer_mk_7",
+        "vehicleId": "uk_charioteer_mk_7",
+        "vehicleName": "Charioteer Mk VII",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433
+      },
+      {
+        "id": "83mm_shot_mk.3_uk_fv221_caernarvon",
+        "vehicleId": "uk_fv221_caernarvon",
+        "vehicleName": "Caernarvon",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433
+      },
+      {
+        "id": "83mm_shot_mk.3_uk_fv4202",
+        "vehicleId": "uk_fv4202",
+        "vehicleName": "FV4202",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433
+      }
+    ]
+  },
+  {
+    "id": "83mm_slpprj",
+    "designation": "slpprj",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "83mm_slpprj_uk_centurion_mk_3_ss11",
+        "vehicleId": "uk_centurion_mk_3_ss11",
+        "vehicleName": "▄Strv 81 (RB 52)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 83,
+        "projectileMassKg": 9.1,
+        "penetrationMm": 239.0,
+        "muzzleVelocityMs": 1021,
+        "vehicleOperator": "Sweden"
+      }
+    ]
+  },
+  {
+    "id": "83mm_slpprj_m_54",
+    "designation": "slpprj m/54",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "83mm_slpprj_m_54_uk_centurion_mk_3_ss11",
+        "vehicleId": "uk_centurion_mk_3_ss11",
+        "vehicleName": "▄Strv 81 (RB 52)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 83,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 385.0,
+        "muzzleVelocityMs": 1433,
+        "vehicleOperator": "Sweden"
+      }
+    ]
+  },
+  {
+    "id": "83mm_slsgr_m_53",
+    "designation": "slsgr m/53",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "83mm_slsgr_m_53_uk_centurion_mk_3_ss11",
+        "vehicleId": "uk_centurion_mk_3_ss11",
+        "vehicleName": "▄Strv 81 (RB 52)",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 83,
+        "projectileMassKg": 7.9,
+        "penetrationMm": 20.4,
+        "muzzleVelocityMs": 610,
+        "vehicleOperator": "Sweden",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      }
+    ]
+  },
+  {
+    "id": "90mm_occ_90_62",
+    "designation": "OCC 90-62",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "90mm_occ_90_62_uk_eland_90_mk_7",
+        "vehicleId": "uk_eland_90_mk_7",
+        "vehicleName": "Eland 90 Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 12.5,
+        "muzzleVelocityMs": 800,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.67,
+        "tntEquivalentKg": 0.878
+      },
+      {
+        "id": "90mm_occ_90_62_uk_ratel_90",
+        "vehicleId": "uk_ratel_90",
+        "vehicleName": "Ratel 90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 12.5,
+        "muzzleVelocityMs": 800,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.67,
+        "tntEquivalentKg": 0.878
+      }
+    ]
+  },
+  {
+    "id": "90mm_oe_90_f1",
+    "designation": "OE 90 F1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "90mm_oe_90_f1_uk_eland_90_mk_7",
+        "vehicleId": "uk_eland_90_mk_7",
+        "vehicleName": "Eland 90 Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 5.3,
+        "penetrationMm": 13.3,
+        "muzzleVelocityMs": 640,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.945
+      },
+      {
+        "id": "90mm_oe_90_f1_uk_ratel_90",
+        "vehicleId": "uk_ratel_90",
+        "vehicleName": "Ratel 90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 5.3,
+        "penetrationMm": 13.3,
+        "muzzleVelocityMs": 640,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.945
+      }
+    ]
+  },
+  {
+    "id": "90mm_ofum_ph90_f2",
+    "designation": "OFUM PH90-F2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "90mm_ofum_ph90_f2_uk_eland_90_mk_7",
+        "vehicleId": "uk_eland_90_mk_7",
+        "vehicleName": "Eland 90 Mk.7",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 5.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 640,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "90mm_ofum_ph90_f2_uk_ratel_90",
+        "vehicleId": "uk_ratel_90",
+        "vehicleName": "Ratel 90",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 90,
+        "projectileMassKg": 5.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 640,
+        "vehicleOperator": "South Africa",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "94mm_shell_mk.1",
+    "designation": "Shell Mk.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "94mm_shell_mk.1_uk_a39_tortoise",
+        "vehicleId": "uk_a39_tortoise",
+        "vehicleName": "Tortoise",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 94,
+        "projectileMassKg": 12.7,
+        "penetrationMm": 13.0,
+        "muzzleVelocityMs": 1043,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.92
+      },
+      {
+        "id": "94mm_shell_mk.1_uk_ram_90mm_aa",
+        "vehicleId": "uk_ram_90mm_aa",
+        "vehicleName": "QF 3.7 Ram",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 94,
+        "projectileMassKg": 12.7,
+        "penetrationMm": 13.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Canada",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.92
+      },
+      {
+        "id": "94mm_shell_mk.1_uk_tog_2",
+        "vehicleId": "uk_tog_2",
+        "vehicleName": "TOG II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 94,
+        "projectileMassKg": 12.7,
+        "penetrationMm": 13.0,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.92
+      }
+    ]
+  },
+  {
+    "id": "94mm_shot_mk.1",
+    "designation": "Shot Mk.1",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "94mm_shot_mk.1_uk_a39_tortoise",
+        "vehicleId": "uk_a39_tortoise",
+        "vehicleName": "Tortoise",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 94,
+        "projectileMassKg": 14.5,
+        "penetrationMm": 256.0,
+        "muzzleVelocityMs": 929
+      },
+      {
+        "id": "94mm_shot_mk.1_uk_ram_90mm_aa",
+        "vehicleId": "uk_ram_90mm_aa",
+        "vehicleName": "QF 3.7 Ram",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 94,
+        "projectileMassKg": 14.5,
+        "penetrationMm": 204.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "Canada"
+      },
+      {
+        "id": "94mm_shot_mk.1_uk_tog_2",
+        "vehicleId": "uk_tog_2",
+        "vehicleName": "TOG II",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 94,
+        "projectileMassKg": 14.5,
+        "penetrationMm": 204.0,
+        "muzzleVelocityMs": 792
+      }
+    ]
+  },
+  {
+    "id": "95mm_shell_h.e._a.t.",
+    "designation": "Shell H.E./A.T.",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "95mm_shell_h.e._a.t._uk_alecto_mk_1",
+        "vehicleId": "uk_alecto_mk_1",
+        "vehicleName": "Alecto I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 95,
+        "projectileMassKg": 6.7,
+        "penetrationMm": 11.5,
+        "muzzleVelocityMs": 502,
+        "fuzeSensitivityMm": 0.3,
+        "explosiveType": "Pentolite",
+        "explosiveMassKg": 0.646,
+        "tntEquivalentKg": 0.782
+      }
+    ]
+  },
+  {
+    "id": "95mm_shell_mk.ia",
+    "designation": "Shell Mk.Ia",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "95mm_shell_mk.ia_uk_alecto_mk_1",
+        "vehicleId": "uk_alecto_mk_1",
+        "vehicleName": "Alecto I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 95,
+        "projectileMassKg": 11.3,
+        "penetrationMm": 17.9,
+        "muzzleVelocityMs": 320,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Amatol",
+        "explosiveMassKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "95mm_shell_se_mk,i",
+    "designation": "Shell SE Mk,I",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "95mm_shell_se_mk,i_uk_alecto_mk_1",
+        "vehicleId": "uk_alecto_mk_1",
+        "vehicleName": "Alecto I",
+        "vehicleTechTree": "Great Britain",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 95,
+        "projectileMassKg": 11.3,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 320,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  }
+,
+
+  {
+    "id": "105mm_c76a1",
+    "designation": "C76A1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_c76a1_jp_stingray",
+        "vehicleId": "jp_stingray",
+        "vehicleName": "▄Stingray",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.6,
+        "penetrationMm": 353.0,
+        "muzzleVelocityMs": 1509,
+        "vehicleOperator": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm23",
+    "designation": "DM23",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_dm23_jp_type_16_mcv_prot",
+        "vehicleId": "jp_type_16_mcv_prot",
+        "vehicleName": "Type 16 (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      },
+      {
+        "id": "105mm_dm23_jp_type_16_mod",
+        "vehicleId": "jp_type_16_mod",
+        "vehicleName": "Type 16 (FPS)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm33",
+    "designation": "DM33",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_dm33_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "Thailand"
+      },
+      {
+        "id": "105mm_dm33_jp_stingray",
+        "vehicleId": "jp_stingray",
+        "vehicleName": "▄Stingray",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "105mm_experimental_he",
+    "designation": "Experimental HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "105mm_experimental_he_jp_type_5_ho_ri_production",
+        "vehicleId": "jp_type_5_ho_ri_production",
+        "vehicleName": "Ho-Ri Production",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.0,
+        "penetrationMm": 30.2,
+        "muzzleVelocityMs": 920,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.5
+      },
+      {
+        "id": "105mm_experimental_he_jp_type_5_ho_ri_prototype",
+        "vehicleId": "jp_type_5_ho_ri_prototype",
+        "vehicleName": "Ho-Ri Prototype",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.0,
+        "penetrationMm": 30.2,
+        "muzzleVelocityMs": 920,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.5
+      }
+    ]
+  },
+  {
+    "id": "105mm_m392a2",
+    "designation": "M392A2",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m392a2_jp_st_b1",
+        "vehicleId": "jp_st_b1",
+        "vehicleName": "STB-2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1478
+      },
+      {
+        "id": "105mm_m392a2_jp_type_74_c",
+        "vehicleId": "jp_type_74_c",
+        "vehicleName": "Type 74 (C)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1478
+      },
+      {
+        "id": "105mm_m392a2_jp_type_74_red_star",
+        "vehicleId": "jp_type_74_red_star",
+        "vehicleName": "Type 74 Red Star",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1478
+      }
+    ]
+  },
+  {
+    "id": "105mm_m393a2",
+    "designation": "M393A2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m393a2_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_m393a2_jp_stingray",
+        "vehicleId": "jp_stingray",
+        "vehicleName": "▄Stingray",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m416",
+    "designation": "M416",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "105mm_m416_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_st_b1",
+        "vehicleId": "jp_st_b1",
+        "vehicleName": "STB-2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_16",
+        "vehicleId": "jp_type_16",
+        "vehicleName": "Type 16",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_16_mcv_prot",
+        "vehicleId": "jp_type_16_mcv_prot",
+        "vehicleName": "Type 16 (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_16_mod",
+        "vehicleId": "jp_type_16_mod",
+        "vehicleName": "Type 16 (FPS)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_74",
+        "vehicleId": "jp_type_74",
+        "vehicleName": "Type 74 (E)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_74_f",
+        "vehicleId": "jp_type_74_f",
+        "vehicleName": "Type 74 (F)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_jp_type_74_mod_g_kai",
+        "vehicleId": "jp_type_74_mod_g_kai",
+        "vehicleName": "Type 74 (G)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456",
+    "designation": "M456",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_m456_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m456_jp_type_74_c",
+        "vehicleId": "jp_type_74_c",
+        "vehicleName": "Type 74 (C)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_m456_jp_type_74_red_star",
+        "vehicleId": "jp_type_74_red_star",
+        "vehicleName": "Type 74 Red Star",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456a2",
+    "designation": "M456A2",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m456a2_jp_stingray",
+        "vehicleId": "jp_stingray",
+        "vehicleName": "▄Stingray",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m728",
+    "designation": "M728",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m728_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.5,
+        "penetrationMm": 265.0,
+        "muzzleVelocityMs": 1426,
+        "vehicleOperator": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "105mm_m735",
+    "designation": "M735",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m735_jp_m60a3_tts",
+        "vehicleId": "jp_m60a3_tts",
+        "vehicleName": "▄M60A3 TTS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501,
+        "vehicleOperator": "Thailand"
+      },
+      {
+        "id": "105mm_m735_jp_type_16",
+        "vehicleId": "jp_type_16",
+        "vehicleName": "Type 16",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_m735_jp_type_16_mcv_prot",
+        "vehicleId": "jp_type_16_mcv_prot",
+        "vehicleName": "Type 16 (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_m735_jp_type_16_mod",
+        "vehicleId": "jp_type_16_mod",
+        "vehicleName": "Type 16 (FPS)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_m735_jp_type_74",
+        "vehicleId": "jp_type_74",
+        "vehicleName": "Type 74 (E)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_m735_jp_type_74_f",
+        "vehicleId": "jp_type_74_f",
+        "vehicleName": "Type 74 (F)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_m735_jp_type_74_mod_g_kai",
+        "vehicleId": "jp_type_74_mod_g_kai",
+        "vehicleName": "Type 74 (G)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_2_aphe",
+    "designation": "Type 2 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_type_2_aphe_jp_type_5_ho_ri_production",
+        "vehicleId": "jp_type_5_ho_ri_production",
+        "vehicleName": "Ho-Ri Production",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 16.0,
+        "penetrationMm": 5.0,
+        "muzzleVelocityMs": 1000,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.2
+      },
+      {
+        "id": "105mm_type_2_aphe_jp_type_5_ho_ri_prototype",
+        "vehicleId": "jp_type_5_ho_ri_prototype",
+        "vehicleName": "Ho-Ri Prototype",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 16.0,
+        "penetrationMm": 5.0,
+        "muzzleVelocityMs": 916,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.2
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_3_heat",
+    "designation": "Type 3 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_type_3_heat_jp_type_2_ho_ni_2",
+        "vehicleId": "jp_type_2_ho_ni_2",
+        "vehicleName": "Ho-Ni II",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 25.4,
+        "muzzleVelocityMs": 337,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.0
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_75",
+    "designation": "Type 75",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_type_75_jp_st_b1",
+        "vehicleId": "jp_st_b1",
+        "vehicleName": "STB-2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      },
+      {
+        "id": "105mm_type_75_jp_type_16",
+        "vehicleId": "jp_type_16",
+        "vehicleName": "Type 16",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      },
+      {
+        "id": "105mm_type_75_jp_type_16_mcv_prot",
+        "vehicleId": "jp_type_16_mcv_prot",
+        "vehicleName": "Type 16 (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      },
+      {
+        "id": "105mm_type_75_jp_type_16_mod",
+        "vehicleId": "jp_type_16_mod",
+        "vehicleName": "Type 16 (FPS)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      },
+      {
+        "id": "105mm_type_75_jp_type_74_c",
+        "vehicleId": "jp_type_74_c",
+        "vehicleName": "Type 74 (C)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      },
+      {
+        "id": "105mm_type_75_jp_type_74_red_star",
+        "vehicleId": "jp_type_74_red_star",
+        "vehicleName": "Type 74 Red Star",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 10.8,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 760,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.7,
+        "tntEquivalentKg": 3.9
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_91",
+    "designation": "Type 91",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_type_91_jp_type_16",
+        "vehicleId": "jp_type_16",
+        "vehicleName": "Type 16",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      },
+      {
+        "id": "105mm_type_91_jp_type_16_mcv_prot",
+        "vehicleId": "jp_type_16_mcv_prot",
+        "vehicleName": "Type 16 (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      },
+      {
+        "id": "105mm_type_91_jp_type_16_mod",
+        "vehicleId": "jp_type_16_mod",
+        "vehicleName": "Type 16 (FPS)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      },
+      {
+        "id": "105mm_type_91_jp_type_74",
+        "vehicleId": "jp_type_74",
+        "vehicleName": "Type 74 (E)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      },
+      {
+        "id": "105mm_type_91_jp_type_74_f",
+        "vehicleId": "jp_type_74_f",
+        "vehicleName": "Type 74 (F)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      },
+      {
+        "id": "105mm_type_91_jp_type_74_mod_g_kai",
+        "vehicleId": "jp_type_74_mod_g_kai",
+        "vehicleName": "Type 74 (G)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 9.4,
+        "penetrationMm": 20.2,
+        "muzzleVelocityMs": 1150,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.2,
+        "tntEquivalentKg": 1.6
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_91_he",
+    "designation": "Type 91 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "105mm_type_91_he_jp_type_2_ho_ni_2",
+        "vehicleId": "jp_type_2_ho_ni_2",
+        "vehicleName": "Ho-Ni II",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 15.8,
+        "penetrationMm": 30.2,
+        "muzzleVelocityMs": 546,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.5
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_93",
+    "designation": "Type 93",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_type_93_jp_type_16",
+        "vehicleId": "jp_type_16",
+        "vehicleName": "Type 16",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 405.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_type_93_jp_type_74",
+        "vehicleId": "jp_type_74",
+        "vehicleName": "Type 74 (E)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 405.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_type_93_jp_type_74_f",
+        "vehicleId": "jp_type_74_f",
+        "vehicleName": "Type 74 (F)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 405.0,
+        "muzzleVelocityMs": 1501
+      },
+      {
+        "id": "105mm_type_93_jp_type_74_mod_g_kai",
+        "vehicleId": "jp_type_74_mod_g_kai",
+        "vehicleName": "Type 74 (G)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 405.0,
+        "muzzleVelocityMs": 1501
+      }
+    ]
+  },
+  {
+    "id": "106mm_type_64_heat",
+    "designation": "Type 64 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "106mm_type_64_heat_jp_type_60_sprg",
+        "vehicleId": "jp_type_60_sprg",
+        "vehicleName": "Type 60 SPRG (C)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 106,
+        "projectileMassKg": 8.0,
+        "penetrationMm": 21.1,
+        "muzzleVelocityMs": 503,
+        "fuzeSensitivityMm": 0.01,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.3,
+        "tntEquivalentKg": 1.7
+      }
+    ]
+  },
+  {
+    "id": "106mm_type_68_hesh",
+    "designation": "Type 68 HESH",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "106mm_type_68_hesh_jp_type_60_sprg",
+        "vehicleId": "jp_type_60_sprg",
+        "vehicleName": "Type 60 SPRG (C)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 106,
+        "projectileMassKg": 7.9,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 498,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.0
+      }
+    ]
+  },
+  {
+    "id": "120mm_c.p.(bf)",
+    "designation": "C.P.(BF)",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "SAPCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_c.p.(bf)_jp_navy_120mm_spg",
+        "vehicleId": "jp_navy_120mm_spg",
+        "vehicleName": "Chi-Ha LG",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 20.4,
+        "penetrationMm": 23.6,
+        "muzzleVelocityMs": 825,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "Shimose",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 1.9
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm11",
+    "designation": "DM11",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-TF",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_dm11_jp_leopard_2ri",
+        "vehicleId": "jp_leopard_2ri",
+        "vehicleName": "Leopard 2RI",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 37.3,
+        "muzzleVelocityMs": 980,
+        "vehicleOperator": "Indonesia",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 3.9
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm12a1",
+    "designation": "DM12A1",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_dm12a1_jp_leopard_2ri",
+        "vehicleId": "jp_leopard_2ri",
+        "vehicleName": "Leopard 2RI",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "vehicleOperator": "Indonesia",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm43",
+    "designation": "DM43",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_dm43_jp_leopard_2ri",
+        "vehicleId": "jp_leopard_2ri",
+        "vehicleName": "Leopard 2RI",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 535.0,
+        "muzzleVelocityMs": 1660,
+        "vehicleOperator": "Indonesia"
+      }
+    ]
+  },
+  {
+    "id": "120mm_dm53",
+    "designation": "DM53",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_dm53_jp_leopard_2ri",
+        "vehicleId": "jp_leopard_2ri",
+        "vehicleName": "Leopard 2RI",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 5.0,
+        "penetrationMm": 623.0,
+        "muzzleVelocityMs": 1670,
+        "vehicleOperator": "Indonesia"
+      }
+    ]
+  },
+  {
+    "id": "120mm_jm12a1",
+    "designation": "JM12A1",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_jm12a1_jp_tkx_prot",
+        "vehicleId": "jp_tkx_prot",
+        "vehicleName": "TKX",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_10",
+        "vehicleId": "jp_type_10",
+        "vehicleName": "Type 10",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_10_prototype",
+        "vehicleId": "jp_type_10_prototype",
+        "vehicleName": "TKX (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_90",
+        "vehicleId": "jp_type_90",
+        "vehicleName": "Type 90",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_90b",
+        "vehicleId": "jp_type_90b",
+        "vehicleName": "Type 90 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_90b_camo",
+        "vehicleId": "jp_type_90b_camo",
+        "vehicleName": "Type 90 (B) \"Fuji\"",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      },
+      {
+        "id": "120mm_jm12a1_jp_type_90b_sm",
+        "vehicleId": "jp_type_90b_sm",
+        "vehicleName": "◍Type 90 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.5,
+        "penetrationMm": 26.5,
+        "muzzleVelocityMs": 1140,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.1
+      }
+    ]
+  },
+  {
+    "id": "120mm_jm33",
+    "designation": "JM33",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_jm33_jp_tkx_prot",
+        "vehicleId": "jp_tkx_prot",
+        "vehicleName": "TKX",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_10",
+        "vehicleId": "jp_type_10",
+        "vehicleName": "Type 10",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_10_prototype",
+        "vehicleId": "jp_type_10_prototype",
+        "vehicleName": "TKX (P)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "12.0",
+          "RB": "12.0",
+          "SB": "12.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_90",
+        "vehicleId": "jp_type_90",
+        "vehicleName": "Type 90",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_90b",
+        "vehicleId": "jp_type_90b",
+        "vehicleName": "Type 90 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_90b_camo",
+        "vehicleId": "jp_type_90b_camo",
+        "vehicleName": "Type 90 (B) \"Fuji\"",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      },
+      {
+        "id": "120mm_jm33_jp_type_90b_sm",
+        "vehicleId": "jp_type_90b_sm",
+        "vehicleName": "◍Type 90 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 481.0,
+        "muzzleVelocityMs": 1640
+      }
+    ]
+  },
+  {
+    "id": "120mm_ordinary,_mod.1",
+    "designation": "Ordinary, Mod.1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_ordinary,_mod.1_jp_navy_120mm_spg",
+        "vehicleId": "jp_navy_120mm_spg",
+        "vehicleName": "Chi-Ha LG",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.0",
+          "RB": "3.0",
+          "SB": "3.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 20.4,
+        "penetrationMm": 24.7,
+        "muzzleVelocityMs": 825,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.0
+      }
+    ]
+  },
+  {
+    "id": "120mm_schneider_canet_he",
+    "designation": "Schneider-Canet HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_schneider_canet_he_jp_hiro_sha",
+        "vehicleId": "jp_hiro_sha",
+        "vehicleName": "Ro-Go Exp.",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 20.4,
+        "penetrationMm": 24.7,
+        "muzzleVelocityMs": 580,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.0
+      }
+    ]
+  },
+  {
+    "id": "120mm_schneider_canet_sap",
+    "designation": "Schneider-Canet SAP",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "SAPCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_schneider_canet_sap_jp_hiro_sha",
+        "vehicleId": "jp_hiro_sha",
+        "vehicleName": "Ro-Go Exp.",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.7",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 20.5,
+        "penetrationMm": 18.7,
+        "muzzleVelocityMs": 580,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "Shimose",
+        "explosiveMassKg": 1.3,
+        "tntEquivalentKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "120mm_short_ordinary_he",
+    "designation": "Short Ordinary HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_short_ordinary_he_jp_type_97_chi_ha_12cm",
+        "vehicleId": "jp_type_97_chi_ha_12cm",
+        "vehicleName": "Chi-Ha Short Gun",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "1.7",
+          "SB": "1.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 13.0,
+        "penetrationMm": 31.4,
+        "muzzleVelocityMs": 290,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Type 91",
+        "explosiveMassKg": 2.5,
+        "tntEquivalentKg": 2.6
+      }
+    ]
+  },
+  {
+    "id": "120mm_type_10",
+    "designation": "Type 10",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_type_10_jp_tkx_prot",
+        "vehicleId": "jp_tkx_prot",
+        "vehicleName": "TKX",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 615.0,
+        "muzzleVelocityMs": 1780
+      },
+      {
+        "id": "120mm_type_10_jp_type_10",
+        "vehicleId": "jp_type_10",
+        "vehicleName": "Type 10",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 615.0,
+        "muzzleVelocityMs": 1780
+      }
+    ]
+  },
+  {
+    "id": "120mm_type_64",
+    "designation": "Type 64",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_type_64_jp_type_60_atm",
+        "vehicleId": "jp_type_60_atm",
+        "vehicleName": "Type 60 ATM",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 15.7,
+        "penetrationMm": 38.9,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Manual (MCLOS)",
+        "maximumSpeedMs": 85.0,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 4.5
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bk18m",
+    "designation": "3BK18M",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_3bk18m_jp_oplot_t",
+        "vehicleId": "jp_oplot_t",
+        "vehicleName": "BM Oplot-T",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.4,
+        "muzzleVelocityMs": 905,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bm42",
+    "designation": "3BM42",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "125mm_3bm42_jp_oplot_t",
+        "vehicleId": "jp_oplot_t",
+        "vehicleName": "BM Oplot-T",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 457.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "125mm_3of26",
+    "designation": "3OF26",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "125mm_3of26_jp_oplot_t",
+        "vehicleId": "jp_oplot_t",
+        "vehicleName": "BM Oplot-T",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 42.4,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.2
+      }
+    ]
+  },
+  {
+    "id": "125mm_bta4",
+    "designation": "BTA4",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_bta4_jp_oplot_t",
+        "vehicleId": "jp_oplot_t",
+        "vehicleName": "BM Oplot-T",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 552.0,
+        "muzzleVelocityMs": 1740,
+        "vehicleOperator": "Thailand"
+      }
+    ]
+  },
+  {
+    "id": "125mm_gp125",
+    "designation": "GP125",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "125mm_gp125_jp_oplot_t",
+        "vehicleId": "jp_oplot_t",
+        "vehicleName": "BM Oplot-T",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      }
+    ]
+  },
+  {
+    "id": "130mm_130_mm_type_75",
+    "designation": "130 mm Type 75",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Rocket",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "130mm_130_mm_type_75_jp_type_75_mlrs",
+        "vehicleId": "jp_type_75_mlrs",
+        "vehicleName": "Type 75 MLRS",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.0",
+          "RB": "7.0",
+          "SB": "7.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 130,
+        "projectileMassKg": 43.0,
+        "penetrationMm": 50.7,
+        "fuzeSensitivityMm": 0.1,
+        "maximumSpeedMs": 700.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 4.8,
+        "tntEquivalentKg": 6.1
+      }
+    ]
+  },
+  {
+    "id": "130mm_r2",
+    "designation": "R2",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "130mm_r2_jp_btr_3e1",
+        "vehicleId": "jp_btr_3e1",
+        "vehicleName": "BTR-3E1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 130,
+        "projectileMassKg": 15.7,
+        "penetrationMm": 35.6,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 280.0,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 3.2
+      }
+    ]
+  },
+  {
+    "id": "150mm_type_92_he",
+    "designation": "Type 92 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "150mm_type_92_he_jp_type_4_ho_ro",
+        "vehicleId": "jp_type_4_ho_ro",
+        "vehicleName": "Ho-Ro",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 150,
+        "projectileMassKg": 36.0,
+        "penetrationMm": 58.4,
+        "muzzleVelocityMs": 290,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 7.7
+      }
+    ]
+  },
+  {
+    "id": "150mm_type_95_aphe",
+    "designation": "Type 95 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "150mm_type_95_aphe_jp_type_4_ho_ro",
+        "vehicleId": "jp_type_4_ho_ro",
+        "vehicleName": "Ho-Ro",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 150,
+        "projectileMassKg": 35.9,
+        "penetrationMm": 30.1,
+        "muzzleVelocityMs": 290,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.5
+      }
+    ]
+  },
+  {
+    "id": "152mm_type_79",
+    "designation": "Type 79",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_type_79_jp_type_89",
+        "vehicleId": "jp_type_89",
+        "vehicleName": "Type 89",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 19.9,
+        "penetrationMm": 45.0,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 4.0,
+        "maximumSpeedMs": 200.0,
+        "missileGuidanceTimeS": 22.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 4.2,
+        "tntEquivalentKg": 5.5
+      }
+    ]
+  },
+  {
+    "id": "152mm_type_79_asm",
+    "designation": "Type 79 ASM",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-HE",
+    "damage": "explosion_big",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "152mm_type_79_asm_jp_type_89",
+        "vehicleId": "jp_type_89",
+        "vehicleName": "Type 89",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 152,
+        "projectileMassKg": 19.9,
+        "penetrationMm": 35.0,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 4.0,
+        "maximumSpeedMs": 200.0,
+        "missileGuidanceTimeS": 22.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 2.3,
+        "tntEquivalentKg": 3.0
+      }
+    ]
+  },
+  {
+    "id": "155mm_l15a2",
+    "designation": "L15A2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "155mm_l15a2_jp_type_99",
+        "vehicleId": "jp_type_99",
+        "vehicleName": "Type 99",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.5,
+        "penetrationMm": 63.5,
+        "muzzleVelocityMs": 940,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 11.3,
+        "tntEquivalentKg": 14.8
+      }
+    ]
+  },
+  {
+    "id": "155mm_m107",
+    "designation": "M107",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "155mm_m107_jp_m44",
+        "vehicleId": "jp_m44",
+        "vehicleName": "▅M44",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_jp_type_75",
+        "vehicleId": "jp_type_75",
+        "vehicleName": "Type 75 SPH",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 580,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_jp_type_99",
+        "vehicleId": "jp_type_99",
+        "vehicleName": "Type 99",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 940,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      }
+    ]
+  },
+  {
+    "id": "155mm_m107_(pf)",
+    "designation": "M107 (PF)",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "155mm_m107_(pf)_jp_type_75",
+        "vehicleId": "jp_type_75",
+        "vehicleName": "Type 75 SPH",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 580,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      },
+      {
+        "id": "155mm_m107_(pf)_jp_type_99",
+        "vehicleId": "jp_type_99",
+        "vehicleName": "Type 99",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_middle",
+        "caliberMm": 155,
+        "projectileMassKg": 43.1,
+        "penetrationMm": 61.1,
+        "muzzleVelocityMs": 940,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 7.0,
+        "tntEquivalentKg": 9.1
+      }
+    ]
+  },
+  {
+    "id": "155mm_m110",
+    "designation": "M110",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "155mm_m110_jp_m44",
+        "vehicleId": "jp_m44",
+        "vehicleName": "▅M44",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "155mm_m110_jp_type_75",
+        "vehicleId": "jp_type_75",
+        "vehicleName": "Type 75 SPH",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 563,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "155mm_m110_jp_type_99",
+        "vehicleId": "jp_type_99",
+        "vehicleName": "Type 99",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 155,
+        "projectileMassKg": 40.8,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 940,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "155mm_type_75",
+    "designation": "Type 75",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "155mm_type_75_jp_type_75",
+        "vehicleId": "jp_type_75",
+        "vehicleName": "Type 75 SPH",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 155,
+        "projectileMassKg": 43.6,
+        "penetrationMm": 54.0,
+        "muzzleVelocityMs": 720,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 6.8
+      }
+    ]
+  },
+  {
+    "id": "30mm_vog_30",
+    "designation": "VOG-30",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "VOG",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "30mm_vog_30_jp_btr_3e1",
+        "vehicleId": "jp_btr_3e1",
+        "vehicleName": "BTR-3E1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 30,
+        "projectileMassKg": 0.275,
+        "penetrationMm": 3.3,
+        "muzzleVelocityMs": 185,
+        "vehicleOperator": "Thailand",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.042,
+        "tntEquivalentKg": 0.065
+      }
+    ]
+  },
+  {
+    "id": "35mm_dm11a1",
+    "designation": "DM11A1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "35mm_dm11a1_jp_type_89",
+        "vehicleId": "jp_type_89",
+        "vehicleName": "Type 89",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 35,
+        "projectileMassKg": 0.55,
+        "penetrationMm": 5.0,
+        "muzzleVelocityMs": 1175,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Hexal",
+        "explosiveMassKg": 0.12,
+        "tntEquivalentKg": 0.204
+      }
+    ]
+  },
+  {
+    "id": "35mm_dm23",
+    "designation": "DM23",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "35mm_dm23_jp_type_89",
+        "vehicleId": "jp_type_89",
+        "vehicleName": "Type 89",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 35,
+        "projectileMassKg": 0.38,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 1400
+      }
+    ]
+  },
+  {
+    "id": "37mm_type_1_aphe",
+    "designation": "Type 1 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "37mm_type_1_aphe_jp_type_2_ka_mi",
+        "vehicleId": "jp_type_2_ka_mi",
+        "vehicleName": "Ka-Mi",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.72,
+        "penetrationMm": 2.2,
+        "muzzleVelocityMs": 800,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.008,
+        "tntEquivalentKg": 0.013
+      },
+      {
+        "id": "37mm_type_1_aphe_jp_type_5_chi_ri",
+        "vehicleId": "jp_type_5_chi_ri",
+        "vehicleName": "Chi-Ri",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_small",
+        "caliberMm": 37,
+        "projectileMassKg": 0.72,
+        "penetrationMm": 2.2,
+        "muzzleVelocityMs": 800,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.008,
+        "tntEquivalentKg": 0.013
+      },
+      {
+        "id": "37mm_type_1_aphe_jp_type_98_ke_ni",
+        "vehicleId": "jp_type_98_ke_ni",
+        "vehicleName": "Ke-Ni",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.72,
+        "penetrationMm": 2.2,
+        "muzzleVelocityMs": 700,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.008,
+        "tntEquivalentKg": 0.013
+      }
+    ]
+  },
+  {
+    "id": "37mm_type_94_aphe",
+    "designation": "Type 94 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "37mm_type_94_aphe_jp_type_2_ka_mi",
+        "vehicleId": "jp_type_2_ka_mi",
+        "vehicleName": "Ka-Mi",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.7,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 700,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 0.01,
+        "tntEquivalentKg": 0.011
+      },
+      {
+        "id": "37mm_type_94_aphe_jp_type_95_ha_go",
+        "vehicleId": "jp_type_95_ha_go",
+        "vehicleName": "Ha-Go",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.7,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 575,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 0.01,
+        "tntEquivalentKg": 0.011
+      },
+      {
+        "id": "37mm_type_94_aphe_jp_type_95_ha_go_commander",
+        "vehicleId": "jp_type_95_ha_go_commander",
+        "vehicleName": "Ha-Go Commander",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.7,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 575,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 0.01,
+        "tntEquivalentKg": 0.011
+      },
+      {
+        "id": "37mm_type_94_aphe_jp_type_95_heavy",
+        "vehicleId": "jp_type_95_heavy",
+        "vehicleName": "Ro-Go",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.7,
+        "penetrationMm": 2.1,
+        "muzzleVelocityMs": 575,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "Picric acid",
+        "explosiveMassKg": 0.01,
+        "tntEquivalentKg": 0.011
+      }
+    ]
+  },
+  {
+    "id": "37mm_type_94_he",
+    "designation": "Type 94 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "37mm_type_94_he_jp_type_5_chi_ri",
+        "vehicleId": "jp_type_5_chi_ri",
+        "vehicleName": "Chi-Ri",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 37,
+        "projectileMassKg": 0.646,
+        "penetrationMm": 3.1,
+        "muzzleVelocityMs": 726,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.058
+      }
+    ]
+  },
+  {
+    "id": "47mm_type_1_aphe",
+    "designation": "Type 1 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "47mm_type_1_aphe_jp_type_1_chi_he",
+        "vehicleId": "jp_type_1_chi_he",
+        "vehicleName": "Chi-He",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      },
+      {
+        "id": "47mm_type_1_aphe_jp_type_1_chi_he_5th_regiment",
+        "vehicleId": "jp_type_1_chi_he_5th_regiment",
+        "vehicleName": "Chi-He (5th Regiment)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      },
+      {
+        "id": "47mm_type_1_aphe_jp_type_3_ka_chi",
+        "vehicleId": "jp_type_3_ka_chi",
+        "vehicleName": "Ka-Chi",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      },
+      {
+        "id": "47mm_type_1_aphe_jp_type_97_kai",
+        "vehicleId": "jp_type_97_kai",
+        "vehicleName": "Chi-Ha Kai",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      },
+      {
+        "id": "47mm_type_1_aphe_jp_type_97_kai_td",
+        "vehicleId": "jp_type_97_kai_td",
+        "vehicleName": "Chi-Ha Kai TD",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      }
+    ]
+  },
+  {
+    "id": "47mm_type_1_he",
+    "designation": "Type 1 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "47mm_type_1_he_jp_type_1_chi_he",
+        "vehicleId": "jp_type_1_chi_he",
+        "vehicleName": "Chi-He",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      },
+      {
+        "id": "47mm_type_1_he_jp_type_1_chi_he_5th_regiment",
+        "vehicleId": "jp_type_1_chi_he_5th_regiment",
+        "vehicleName": "Chi-He (5th Regiment)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      },
+      {
+        "id": "47mm_type_1_he_jp_type_3_ka_chi",
+        "vehicleId": "jp_type_3_ka_chi",
+        "vehicleName": "Ka-Chi",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      },
+      {
+        "id": "47mm_type_1_he_jp_type_97_kai",
+        "vehicleId": "jp_type_97_kai",
+        "vehicleName": "Chi-Ha Kai",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      },
+      {
+        "id": "47mm_type_1_he_jp_type_97_kai_td",
+        "vehicleId": "jp_type_97_kai_td",
+        "vehicleName": "Chi-Ha Kai TD",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      }
+    ]
+  },
+  {
+    "id": "57mm_type_3_heat",
+    "designation": "Type 3 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_type_3_heat_jp_type_89b_i_go_otsu",
+        "vehicleId": "jp_type_89b_i_go_otsu",
+        "vehicleName": "I-Go Ko",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 1.8,
+        "penetrationMm": 6.1,
+        "muzzleVelocityMs": 380,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.237,
+        "tntEquivalentKg": 0.303
+      },
+      {
+        "id": "57mm_type_3_heat_jp_type_97_chi_ha",
+        "vehicleId": "jp_type_97_chi_ha",
+        "vehicleName": "Chi-Ha",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 1.8,
+        "penetrationMm": 6.1,
+        "muzzleVelocityMs": 380,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.237,
+        "tntEquivalentKg": 0.303
+      }
+    ]
+  },
+  {
+    "id": "57mm_type_92_aphe",
+    "designation": "Type 92 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "57mm_type_92_aphe_jp_type_89b_i_go_otsu",
+        "vehicleId": "jp_type_89b_i_go_otsu",
+        "vehicleName": "I-Go Ko",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 349,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.103
+      },
+      {
+        "id": "57mm_type_92_aphe_jp_type_97_chi_ha",
+        "vehicleId": "jp_type_97_chi_ha",
+        "vehicleName": "Chi-Ha",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 349,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.103
+      }
+    ]
+  },
+  {
+    "id": "70mm_type_3_heat",
+    "designation": "Type 3 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "70mm_type_3_heat_jp_type_95_heavy",
+        "vehicleId": "jp_type_95_heavy",
+        "vehicleName": "Ro-Go",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 70,
+        "projectileMassKg": 3.3,
+        "penetrationMm": 9.5,
+        "muzzleVelocityMs": 200,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.47,
+        "tntEquivalentKg": 0.602
+      }
+    ]
+  },
+  {
+    "id": "70mm_type_92_he",
+    "designation": "Type 92 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "70mm_type_92_he_jp_type_95_heavy",
+        "vehicleId": "jp_type_95_heavy",
+        "vehicleName": "Ro-Go",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 70,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 9.3,
+        "muzzleVelocityMs": 348,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.59
+      }
+    ]
+  },
+  {
+    "id": "70mm_type_95_aphe",
+    "designation": "Type 95 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "70mm_type_95_aphe_jp_type_95_heavy",
+        "vehicleId": "jp_type_95_heavy",
+        "vehicleName": "Ro-Go",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 70,
+        "projectileMassKg": 4.4,
+        "penetrationMm": 4.7,
+        "muzzleVelocityMs": 300,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Oshiyaku",
+        "explosiveMassKg": 0.17
+      }
+    ]
+  },
+  {
+    "id": "75mm_m48_shell",
+    "designation": "M48 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "75mm_m48_shell_jp_m24_chaffee",
+        "vehicleId": "jp_m24_chaffee",
+        "vehicleName": "▅M24",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      }
+    ]
+  },
+  {
+    "id": "75mm_m61_shot",
+    "designation": "M61 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_m61_shot_jp_m24_chaffee",
+        "vehicleId": "jp_m24_chaffee",
+        "vehicleName": "▅M24",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      }
+    ]
+  },
+  {
+    "id": "75mm_m64",
+    "designation": "M64",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "75mm_m64_jp_m24_chaffee",
+        "vehicleId": "jp_m24_chaffee",
+        "vehicleName": "▅M24",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 6.9,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 603,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "75mm_m72_shot",
+    "designation": "M72 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "75mm_m72_shot_jp_m24_chaffee",
+        "vehicleId": "jp_m24_chaffee",
+        "vehicleName": "▅M24",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_1_aphe",
+    "designation": "Type 1 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "75mm_type_1_aphe_jp_type_3_chi_nu",
+        "vehicleId": "jp_type_3_chi_nu",
+        "vehicleName": "Chi-Nu",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 668,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_3_chi_nu_75cm_type_5",
+        "vehicleId": "jp_type_3_chi_nu_75cm_type_5",
+        "vehicleName": "Chi-Nu II",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_3_ho_ni_i",
+        "vehicleId": "jp_type_3_ho_ni_i",
+        "vehicleName": "Ho-Ni I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 668,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_3_ho_ni_iii",
+        "vehicleId": "jp_type_3_ho_ni_iii",
+        "vehicleName": "Ho-Ni III",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 668,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_4_chi_to",
+        "vehicleId": "jp_type_4_chi_to",
+        "vehicleName": "Chi-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_4_chi_to_late",
+        "vehicleId": "jp_type_4_chi_to_late",
+        "vehicleName": "Chi-To Late",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_5_chi_ri",
+        "vehicleId": "jp_type_5_chi_ri",
+        "vehicleName": "Chi-Ri",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      },
+      {
+        "id": "75mm_type_1_aphe_jp_type_5_na_to",
+        "vehicleId": "jp_type_5_na_to",
+        "vehicleName": "Na-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 1.3,
+        "fuzeSensitivityMm": 15.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.104
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_2_heat",
+    "designation": "Type 2 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_type_2_heat_jp_type_2_ho_i",
+        "vehicleId": "jp_type_2_ho_i",
+        "vehicleName": "Ho-I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 3.6,
+        "penetrationMm": 9.9,
+        "muzzleVelocityMs": 350,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.5,
+        "tntEquivalentKg": 0.64
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_4_apcr",
+    "designation": "Type 4 APCR",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_type_4_apcr_jp_type_5_na_to",
+        "vehicleId": "jp_type_5_na_to",
+        "vehicleName": "Na-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 177.0,
+        "muzzleVelocityMs": 930
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_4_kou",
+    "designation": "Type 4 Kou",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_type_4_kou_jp_type_3_chi_nu_75cm_type_5",
+        "vehicleId": "jp_type_3_chi_nu_75cm_type_5",
+        "vehicleName": "Chi-Nu II",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.6,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.063,
+        "tntEquivalentKg": 0.081
+      },
+      {
+        "id": "75mm_type_4_kou_jp_type_4_chi_to",
+        "vehicleId": "jp_type_4_chi_to",
+        "vehicleName": "Chi-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.6,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.063,
+        "tntEquivalentKg": 0.081
+      },
+      {
+        "id": "75mm_type_4_kou_jp_type_4_chi_to_late",
+        "vehicleId": "jp_type_4_chi_to_late",
+        "vehicleName": "Chi-To Late",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.6,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.063,
+        "tntEquivalentKg": 0.081
+      },
+      {
+        "id": "75mm_type_4_kou_jp_type_5_chi_ri",
+        "vehicleId": "jp_type_5_chi_ri",
+        "vehicleName": "Chi-Ri",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.6,
+        "muzzleVelocityMs": 865,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.063,
+        "tntEquivalentKg": 0.081
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_90_he",
+    "designation": "Type 90 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "75mm_type_90_he_jp_type_3_chi_nu_75cm_type_5",
+        "vehicleId": "jp_type_3_chi_nu_75cm_type_5",
+        "vehicleName": "Chi-Nu II",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.3",
+          "RB": "4.3",
+          "SB": "4.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 8.2,
+        "muzzleVelocityMs": 830,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.49
+      },
+      {
+        "id": "75mm_type_90_he_jp_type_4_chi_to",
+        "vehicleId": "jp_type_4_chi_to",
+        "vehicleName": "Chi-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 8.2,
+        "muzzleVelocityMs": 830,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.49
+      },
+      {
+        "id": "75mm_type_90_he_jp_type_4_chi_to_late",
+        "vehicleId": "jp_type_4_chi_to_late",
+        "vehicleName": "Chi-To Late",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 8.2,
+        "muzzleVelocityMs": 830,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.49
+      },
+      {
+        "id": "75mm_type_90_he_jp_type_5_chi_ri",
+        "vehicleId": "jp_type_5_chi_ri",
+        "vehicleName": "Chi-Ri",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 8.2,
+        "muzzleVelocityMs": 830,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.49
+      },
+      {
+        "id": "75mm_type_90_he_jp_type_5_na_to",
+        "vehicleId": "jp_type_5_na_to",
+        "vehicleName": "Na-To",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 8.2,
+        "muzzleVelocityMs": 830,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.49
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_90_smoke",
+    "designation": "Type 90 Smoke",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "75mm_type_90_smoke_jp_type_2_ho_i",
+        "vehicleId": "jp_type_2_ho_i",
+        "vehicleName": "Ho-I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 570,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.1
+      },
+      {
+        "id": "75mm_type_90_smoke_jp_type_3_chi_nu",
+        "vehicleId": "jp_type_3_chi_nu",
+        "vehicleName": "Chi-Nu",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 570,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.1
+      },
+      {
+        "id": "75mm_type_90_smoke_jp_type_3_ho_ni_i",
+        "vehicleId": "jp_type_3_ho_ni_i",
+        "vehicleName": "Ho-Ni I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 570,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.1
+      },
+      {
+        "id": "75mm_type_90_smoke_jp_type_3_ho_ni_iii",
+        "vehicleId": "jp_type_3_ho_ni_iii",
+        "vehicleName": "Ho-Ni III",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 5.7,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 570,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_94_he",
+    "designation": "Type 94 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "75mm_type_94_he_jp_type_2_ho_i",
+        "vehicleId": "jp_type_2_ho_i",
+        "vehicleName": "Ho-I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 11.8,
+        "muzzleVelocityMs": 522,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.81
+      },
+      {
+        "id": "75mm_type_94_he_jp_type_3_chi_nu",
+        "vehicleId": "jp_type_3_chi_nu",
+        "vehicleName": "Chi-Nu",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.3",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 11.8,
+        "muzzleVelocityMs": 522,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.81
+      },
+      {
+        "id": "75mm_type_94_he_jp_type_3_ho_ni_i",
+        "vehicleId": "jp_type_3_ho_ni_i",
+        "vehicleName": "Ho-Ni I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 11.8,
+        "muzzleVelocityMs": 522,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.81
+      },
+      {
+        "id": "75mm_type_94_he_jp_type_3_ho_ni_iii",
+        "vehicleId": "jp_type_3_ho_ni_iii",
+        "vehicleName": "Ho-Ni III",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 11.8,
+        "muzzleVelocityMs": 522,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.81
+      }
+    ]
+  },
+  {
+    "id": "75mm_type_95_aphe",
+    "designation": "Type 95 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "75mm_type_95_aphe_jp_type_2_ho_i",
+        "vehicleId": "jp_type_2_ho_i",
+        "vehicleName": "Ho-I",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 7.9,
+        "muzzleVelocityMs": 450,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.46
+      }
+    ]
+  },
+  {
+    "id": "76mm_m319_shot",
+    "designation": "M319 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_m319_shot_jp_m41_walker_bulldog",
+        "vehicleId": "jp_m41_walker_bulldog",
+        "vehicleName": "▅M41A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 206.0,
+        "muzzleVelocityMs": 1234
+      }
+    ]
+  },
+  {
+    "id": "76mm_m331a2_shot",
+    "designation": "M331A2 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_m331a2_shot_jp_m41_walker_bulldog",
+        "vehicleId": "jp_m41_walker_bulldog",
+        "vehicleName": "▅M41A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 2.8,
+        "penetrationMm": 300.0,
+        "muzzleVelocityMs": 1257
+      }
+    ]
+  },
+  {
+    "id": "76mm_m339_shot",
+    "designation": "M339 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_m339_shot_jp_m41_walker_bulldog",
+        "vehicleId": "jp_m41_walker_bulldog",
+        "vehicleName": "▅M41A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 177.0,
+        "muzzleVelocityMs": 975
+      }
+    ]
+  },
+  {
+    "id": "76mm_m352_shell",
+    "designation": "M352 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_m352_shell_jp_m41_walker_bulldog",
+        "vehicleId": "jp_m41_walker_bulldog",
+        "vehicleName": "▅M41A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 12.4,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.662,
+        "tntEquivalentKg": 0.867
+      }
+    ]
+  },
+  {
+    "id": "76mm_m361",
+    "designation": "M361",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_m361_jp_m41_walker_bulldog",
+        "vehicleId": "jp_m41_walker_bulldog",
+        "vehicleName": "▅M41A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 7.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 713,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_m42a1_shell",
+    "designation": "M42A1 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_m42a1_shell_jp_m4a3e8_76w_sherman",
+        "vehicleId": "jp_m4a3e8_76w_sherman",
+        "vehicleName": "▅M4A3 (76) W",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 7.1,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.39
+      }
+    ]
+  },
+  {
+    "id": "76mm_m62_shell",
+    "designation": "M62 shell",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_m62_shell_jp_m4a3e8_76w_sherman",
+        "vehicleId": "jp_m4a3e8_76w_sherman",
+        "vehicleName": "▅M4A3 (76) W",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      }
+    ]
+  },
+  {
+    "id": "76mm_m79_shot",
+    "designation": "M79 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_m79_shot_jp_m4a3e8_76w_sherman",
+        "vehicleId": "jp_m4a3e8_76w_sherman",
+        "vehicleName": "▅M4A3 (76) W",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 134.0,
+        "muzzleVelocityMs": 792
+      }
+    ]
+  },
+  {
+    "id": "76mm_m88",
+    "designation": "M88",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_m88_jp_m4a3e8_76w_sherman",
+        "vehicleId": "jp_m4a3e8_76w_sherman",
+        "vehicleName": "▅M4A3 (76) W",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 274,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_m93_shot",
+    "designation": "M93 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_m93_shot_jp_m4a3e8_76w_sherman",
+        "vehicleId": "jp_m4a3e8_76w_sherman",
+        "vehicleName": "▅M4A3 (76) W",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 191.0,
+        "muzzleVelocityMs": 1036
+      }
+    ]
+  },
+  {
+    "id": "88mm_hl.gr_39",
+    "designation": "Hl.Gr 39",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "88mm_hl.gr_39_jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleId": "jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleName": "▅Heavy Tank No.6",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 88,
+        "projectileMassKg": 7.6,
+        "penetrationMm": 15.0,
+        "muzzleVelocityMs": 600,
+        "fuzeSensitivityMm": 0.3,
+        "explosiveType": "H.5",
+        "explosiveMassKg": 0.646,
+        "tntEquivalentKg": 1.1
+      }
+    ]
+  },
+  {
+    "id": "88mm_pzgr.",
+    "designation": "Pzgr.",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "88mm_pzgr._jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleId": "jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleName": "▅Heavy Tank No.6",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 88,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 5.2,
+        "muzzleVelocityMs": 810,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Fp.10 and Np.10",
+        "explosiveMassKg": 0.168,
+        "tntEquivalentKg": 0.215
+      }
+    ]
+  },
+  {
+    "id": "88mm_pzgr_39",
+    "designation": "PzGr 39",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "88mm_pzgr_39_jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleId": "jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleName": "▅Heavy Tank No.6",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_big",
+        "caliberMm": 88,
+        "projectileMassKg": 10.2,
+        "penetrationMm": 4.1,
+        "muzzleVelocityMs": 773,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "H.10",
+        "explosiveMassKg": 0.064,
+        "tntEquivalentKg": 0.109
+      }
+    ]
+  },
+  {
+    "id": "88mm_sprgr._l_4.5",
+    "designation": "Sprgr. L/4.5",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "88mm_sprgr._l_4.5_jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleId": "jp_pzkpfw_vi_ausf_e_tiger",
+        "vehicleName": "▅Heavy Tank No.6",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 88,
+        "projectileMassKg": 9.0,
+        "penetrationMm": 12.8,
+        "muzzleVelocityMs": 820,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Fp.02",
+        "explosiveMassKg": 0.9
+      }
+    ]
+  },
+  {
+    "id": "90mm_m304_shot",
+    "designation": "M304 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "90mm_m304_shot_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 7.6,
+        "penetrationMm": 287.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "90mm_m304_shot_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 7.6,
+        "penetrationMm": 287.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "90mm_m304_shot_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 7.6,
+        "penetrationMm": 287.0,
+        "muzzleVelocityMs": 1021
+      },
+      {
+        "id": "90mm_m304_shot_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 7.6,
+        "penetrationMm": 287.0,
+        "muzzleVelocityMs": 1021
+      }
+    ]
+  },
+  {
+    "id": "90mm_m318_shot",
+    "designation": "M318 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "90mm_m318_shot_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 175.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "90mm_m318_shot_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 175.0,
+        "muzzleVelocityMs": 853
+      },
+      {
+        "id": "90mm_m318_shot_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 175.0,
+        "muzzleVelocityMs": 853
+      }
+    ]
+  },
+  {
+    "id": "90mm_m318a1_shot",
+    "designation": "M318A1 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "90mm_m318a1_shot_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 193.0,
+        "muzzleVelocityMs": 912
+      },
+      {
+        "id": "90mm_m318a1_shot_jp_st_a3",
+        "vehicleId": "jp_st_a3",
+        "vehicleName": "ST-A3",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 194.0,
+        "muzzleVelocityMs": 914
+      },
+      {
+        "id": "90mm_m318a1_shot_jp_type_61",
+        "vehicleId": "jp_type_61",
+        "vehicleName": "Type 61",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 194.0,
+        "muzzleVelocityMs": 914
+      },
+      {
+        "id": "90mm_m318a1_shot_jp_type_61_mod",
+        "vehicleId": "jp_type_61_mod",
+        "vehicleName": "Type 61 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 194.0,
+        "muzzleVelocityMs": 914
+      }
+    ]
+  },
+  {
+    "id": "90mm_m348_shell",
+    "designation": "M348 shell",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "90mm_m348_shell_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.707,
+        "tntEquivalentKg": 0.926
+      },
+      {
+        "id": "90mm_m348_shell_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.707,
+        "tntEquivalentKg": 0.926
+      },
+      {
+        "id": "90mm_m348_shell_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.707,
+        "tntEquivalentKg": 0.926
+      }
+    ]
+  },
+  {
+    "id": "90mm_m431_shell",
+    "designation": "M431 shell",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "90mm_m431_shell_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 10.7,
+        "muzzleVelocityMs": 1216,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.544,
+        "tntEquivalentKg": 0.713
+      },
+      {
+        "id": "90mm_m431_shell_jp_st_a3",
+        "vehicleId": "jp_st_a3",
+        "vehicleName": "ST-A3",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 10.7,
+        "muzzleVelocityMs": 1216,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.544,
+        "tntEquivalentKg": 0.713
+      },
+      {
+        "id": "90mm_m431_shell_jp_type_61",
+        "vehicleId": "jp_type_61",
+        "vehicleName": "Type 61",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 10.7,
+        "muzzleVelocityMs": 1216,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.544,
+        "tntEquivalentKg": 0.713
+      },
+      {
+        "id": "90mm_m431_shell_jp_type_61_mod",
+        "vehicleId": "jp_type_61_mod",
+        "vehicleName": "Type 61 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 10.7,
+        "muzzleVelocityMs": 1216,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.544,
+        "tntEquivalentKg": 0.713
+      }
+    ]
+  },
+  {
+    "id": "90mm_m71_shell",
+    "designation": "M71 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "90mm_m71_shell_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "90mm_m71_shell_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "90mm_m71_shell_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "90mm_m71_shell_jp_st_a3",
+        "vehicleId": "jp_st_a3",
+        "vehicleName": "ST-A3",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.925
+      },
+      {
+        "id": "90mm_m71_shell_jp_type_61",
+        "vehicleId": "jp_type_61",
+        "vehicleName": "Type 61",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.925
+      },
+      {
+        "id": "90mm_m71_shell_jp_type_61_mod",
+        "vehicleId": "jp_type_61_mod",
+        "vehicleName": "Type 61 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 13.1,
+        "muzzleVelocityMs": 823,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.925
+      }
+    ]
+  },
+  {
+    "id": "90mm_m71a1_shell",
+    "designation": "M71A1 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "90mm_m71a1_shell_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      }
+    ]
+  },
+  {
+    "id": "90mm_m82_shot",
+    "designation": "M82 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "90mm_m82_shot_jp_m36b2_jgsdf",
+        "vehicleId": "jp_m36b2_jgsdf",
+        "vehicleName": "▅M36",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_m47_patton_ii",
+        "vehicleId": "jp_m47_patton_ii",
+        "vehicleName": "▅M47",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_st_a1",
+        "vehicleId": "jp_st_a1",
+        "vehicleName": "ST-A1",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_st_a2",
+        "vehicleId": "jp_st_a2",
+        "vehicleName": "ST-A2",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_st_a3",
+        "vehicleId": "jp_st_a3",
+        "vehicleName": "ST-A3",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_type_61",
+        "vehicleId": "jp_type_61",
+        "vehicleName": "Type 61",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_jp_type_61_mod",
+        "vehicleId": "jp_type_61_mod",
+        "vehicleName": "Type 61 (B)",
+        "vehicleTechTree": "Japan",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      }
+    ]
+  }
+,
+
+  {
+    "id": "100mm_3d3",
+    "designation": "3D3",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "100mm_3d3_cn_su_100_1945",
+        "vehicleId": "cn_su_100_1945",
+        "vehicleName": "␗SU-100",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 880,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "100mm_3of32",
+    "designation": "3OF32",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "100mm_3of32_cn_zbd_04a",
+        "vehicleId": "cn_zbd_04a",
+        "vehicleName": "ZBD04A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 31.0,
+        "muzzleVelocityMs": 250,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      }
+    ]
+  },
+  {
+    "id": "100mm_3of70",
+    "designation": "3OF70",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "100mm_3of70_cn_zbd_04a",
+        "vehicleId": "cn_zbd_04a",
+        "vehicleName": "ZBD04A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 13.4,
+        "penetrationMm": 36.4,
+        "muzzleVelocityMs": 355,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 2.3,
+        "tntEquivalentKg": 3.5
+      }
+    ]
+  },
+  {
+    "id": "100mm_aps03",
+    "designation": "APS03",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "100mm_aps03_cn_zbd_04a",
+        "vehicleId": "cn_zbd_04a",
+        "vehicleName": "ZBD04A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 18.8,
+        "penetrationMm": 39.7,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 4.0,
+        "maximumSpeedMs": 370.0,
+        "missileGuidanceTimeS": 17.6,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.9
+      }
+    ]
+  },
+  {
+    "id": "100mm_br_412",
+    "designation": "BR-412",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "100mm_br_412_cn_su_100_1945",
+        "vehicleId": "cn_su_100_1945",
+        "vehicleName": "␗SU-100",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 895,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "100mm_br_412_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 895,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "100mm_br_412_cn_ztz_59a",
+        "vehicleId": "cn_ztz_59a",
+        "vehicleName": "ZTZ59A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 895,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "100mm_br_412b",
+    "designation": "BR-412B",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "100mm_br_412b_cn_su_100_1945",
+        "vehicleId": "cn_su_100_1945",
+        "vehicleName": "␗SU-100",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 895,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "100mm_br_412b_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 895,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "100mm_br_412d",
+    "designation": "BR-412D",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "100mm_br_412d_cn_su_100_1945",
+        "vehicleId": "cn_su_100_1945",
+        "vehicleName": "␗SU-100",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 887,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "100mm_br_412d_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 887,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "100mm_br_412d_cn_ztz_59a",
+        "vehicleId": "cn_ztz_59a",
+        "vehicleName": "ZTZ59A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 887,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "100mm_br_412p",
+    "designation": "BR-412P",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "100mm_br_412p_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 8.5,
+        "penetrationMm": 224.0,
+        "muzzleVelocityMs": 1050
+      }
+    ]
+  },
+  {
+    "id": "100mm_dyw_pt86_100",
+    "designation": "DYW PT86-100",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "100mm_dyw_pt86_100_cn_ptl_02",
+        "vehicleId": "cn_ptl_02",
+        "vehicleName": "PTL02",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 3.3,
+        "penetrationMm": 381.0,
+        "muzzleVelocityMs": 1610
+      }
+    ]
+  },
+  {
+    "id": "100mm_of_412",
+    "designation": "OF-412",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "100mm_of_412_cn_su_100_1945",
+        "vehicleId": "cn_su_100_1945",
+        "vehicleName": "␗SU-100",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.0",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 19.0,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.5
+      },
+      {
+        "id": "100mm_of_412_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 19.0,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.5
+      },
+      {
+        "id": "100mm_of_412_cn_ztz_59a",
+        "vehicleId": "cn_ztz_59a",
+        "vehicleName": "ZTZ59A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 19.0,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.5
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_44_ap",
+    "designation": "Type 44 AP",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "100mm_type_44_ap_cn_type_69_2a",
+        "vehicleId": "cn_type_69_2a",
+        "vehicleName": "Type 69-IIa",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 100,
+        "projectileMassKg": 15.9,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 887,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_44_he",
+    "designation": "Type 44 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "100mm_type_44_he_cn_type_69_2a",
+        "vehicleId": "cn_type_69_2a",
+        "vehicleName": "Type 69-IIa",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.6,
+        "penetrationMm": 19.0,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.5
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_59_apds",
+    "designation": "Type 59 APDS",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "100mm_type_59_apds_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 361.0,
+        "muzzleVelocityMs": 1432
+      },
+      {
+        "id": "100mm_type_59_apds_cn_type_69_2a",
+        "vehicleId": "cn_type_69_2a",
+        "vehicleName": "Type 69-IIa",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 361.0,
+        "muzzleVelocityMs": 1432
+      },
+      {
+        "id": "100mm_type_59_apds_cn_ztz_59a",
+        "vehicleId": "cn_ztz_59a",
+        "vehicleName": "ZTZ59A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 361.0,
+        "muzzleVelocityMs": 1432
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_71_apds_fs",
+    "designation": "Type 71 APDS-FS",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "100mm_type_71_apds_fs_cn_ptl_02",
+        "vehicleId": "cn_ptl_02",
+        "vehicleName": "PTL02",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 100,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 218.0,
+        "muzzleVelocityMs": 1505
+      },
+      {
+        "id": "100mm_type_71_apds_fs_cn_type_69",
+        "vehicleId": "cn_type_69",
+        "vehicleName": "Type 69",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 100,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 218.0,
+        "muzzleVelocityMs": 1505
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_71_he",
+    "designation": "Type 71 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "100mm_type_71_he_cn_ptl_02",
+        "vehicleId": "cn_ptl_02",
+        "vehicleName": "PTL02",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.0,
+        "penetrationMm": 17.2,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.3
+      },
+      {
+        "id": "100mm_type_71_he_cn_type_69",
+        "vehicleId": "cn_type_69",
+        "vehicleName": "Type 69",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 100,
+        "projectileMassKg": 15.0,
+        "penetrationMm": 17.2,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "100mm_type_73_heat_fs",
+    "designation": "Type 73 HEAT-FS",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "100mm_type_73_heat_fs_cn_ptl_02",
+        "vehicleId": "cn_ptl_02",
+        "vehicleName": "PTL02",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 15.9,
+        "muzzleVelocityMs": 955,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.922,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "100mm_type_73_heat_fs_cn_type_59",
+        "vehicleId": "cn_type_59",
+        "vehicleName": "Type 59",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 15.9,
+        "muzzleVelocityMs": 955,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.922,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "100mm_type_73_heat_fs_cn_type_69",
+        "vehicleId": "cn_type_69",
+        "vehicleName": "Type 69",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 15.9,
+        "muzzleVelocityMs": 955,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.922,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "100mm_type_73_heat_fs_cn_type_69_2a",
+        "vehicleId": "cn_type_69_2a",
+        "vehicleName": "Type 69-IIa",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 15.9,
+        "muzzleVelocityMs": 955,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.922,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "100mm_type_73_heat_fs_cn_ztz_59a",
+        "vehicleId": "cn_ztz_59a",
+        "vehicleName": "ZTZ59A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 100,
+        "projectileMassKg": 10.1,
+        "penetrationMm": 15.9,
+        "muzzleVelocityMs": 955,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.922,
+        "tntEquivalentKg": 1.2
+      }
+    ]
+  },
+  {
+    "id": "105mm_btm1",
+    "designation": "BTM1",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "SAPCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_btm1_cn_type_59d",
+        "vehicleId": "cn_type_59d",
+        "vehicleName": "ZTZ59D1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      },
+      {
+        "id": "105mm_btm1_cn_type_69_2g",
+        "vehicleId": "cn_type_69_2g",
+        "vehicleName": "T-69 II G",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      },
+      {
+        "id": "105mm_btm1_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      },
+      {
+        "id": "105mm_btm1_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      },
+      {
+        "id": "105mm_btm1_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      },
+      {
+        "id": "105mm_btm1_cn_ztz_88a",
+        "vehicleId": "cn_ztz_88a",
+        "vehicleName": "ZTZ88A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 28.1,
+        "muzzleVelocityMs": 803,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm33",
+    "designation": "DM33",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_dm33_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 421.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "105mm_dm63",
+    "designation": "DM63",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_dm63_cn_cm11",
+        "vehicleId": "cn_cm11",
+        "vehicleName": "CM11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 4.4,
+        "penetrationMm": 430.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "105mm_dtb_1",
+    "designation": "DTB-1",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "105mm_dtb_1_cn_type_69_2g",
+        "vehicleId": "cn_type_69_2g",
+        "vehicleName": "T-69 II G",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 21.2,
+        "muzzleVelocityMs": 825,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.7
+      },
+      {
+        "id": "105mm_dtb_1_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 21.2,
+        "muzzleVelocityMs": 825,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.7
+      },
+      {
+        "id": "105mm_dtb_1_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 21.2,
+        "muzzleVelocityMs": 825,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.7
+      },
+      {
+        "id": "105mm_dtb_1_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 21.2,
+        "muzzleVelocityMs": 825,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.7
+      },
+      {
+        "id": "105mm_dtb_1_cn_ztz_88a",
+        "vehicleId": "cn_ztz_88a",
+        "vehicleName": "ZTZ88A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 105,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 21.2,
+        "muzzleVelocityMs": 825,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 1.7
+      }
+    ]
+  },
+  {
+    "id": "105mm_dtw2_105",
+    "designation": "DTW2-105",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_dtw2_105_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 491.0,
+        "muzzleVelocityMs": 1530,
+        "vehicleOperator": "Bangladesh"
+      },
+      {
+        "id": "105mm_dtw2_105_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.8,
+        "penetrationMm": 491.0,
+        "muzzleVelocityMs": 1530
+      }
+    ]
+  },
+  {
+    "id": "105mm_gp105",
+    "designation": "GP105",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_gp105_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 19.8,
+        "penetrationMm": 39.7,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 370.0,
+        "missileGuidanceTimeS": 26.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.9
+      },
+      {
+        "id": "105mm_gp105_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 19.8,
+        "penetrationMm": 39.7,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 370.0,
+        "missileGuidanceTimeS": 26.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.9
+      },
+      {
+        "id": "105mm_gp105_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 19.8,
+        "penetrationMm": 39.7,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 370.0,
+        "missileGuidanceTimeS": 26.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.9
+      }
+    ]
+  },
+  {
+    "id": "105mm_m393a2",
+    "designation": "M393A2",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m393a2_cn_cm11",
+        "vehicleId": "cn_cm11",
+        "vehicleName": "CM11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_m393a2_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m416",
+    "designation": "M416",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "105mm_m416_cn_cm11",
+        "vehicleId": "cn_cm11",
+        "vehicleName": "CM11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "105mm_m416_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 105,
+        "projectileMassKg": 11.6,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456",
+    "designation": "M456",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m456_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m456a2",
+    "designation": "M456A2",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m456a2_cn_cm11",
+        "vehicleId": "cn_cm11",
+        "vehicleName": "CM11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 10.5,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_m728",
+    "designation": "M728",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APDS",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_m728_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.5,
+        "penetrationMm": 265.0,
+        "muzzleVelocityMs": 1426,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "105mm_m735",
+    "designation": "M735",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_m735_cn_cm11",
+        "vehicleId": "cn_cm11",
+        "vehicleName": "CM11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "105mm_m735_cn_m60a3_tts",
+        "vehicleId": "cn_m60a3_tts",
+        "vehicleName": "␗M60A3 TTS",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 292.0,
+        "muzzleVelocityMs": 1501,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_75_heat",
+    "designation": "Type 75 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_type_75_heat_cn_wz_141",
+        "vehicleId": "cn_wz_141",
+        "vehicleName": "WZ141-1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 8.0,
+        "penetrationMm": 27.1,
+        "muzzleVelocityMs": 503,
+        "fuzeSensitivityMm": 0.01,
+        "explosiveType": "JHL-2",
+        "explosiveMassKg": 1.3,
+        "tntEquivalentKg": 2.2
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_75_hesh",
+    "designation": "Type 75 HESH",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_type_75_hesh_cn_wz_141",
+        "vehicleId": "cn_wz_141",
+        "vehicleName": "WZ141-1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 7.9,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 323,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "JHL-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 6.1
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_83_apds",
+    "designation": "Type-83 APDS",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "105mm_type_83_apds_cn_type_59d",
+        "vehicleId": "cn_type_59d",
+        "vehicleName": "ZTZ59D1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      },
+      {
+        "id": "105mm_type_83_apds_cn_type_69_2g",
+        "vehicleId": "cn_type_69_2g",
+        "vehicleName": "T-69 II G",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 352.0,
+        "muzzleVelocityMs": 1500,
+        "vehicleOperator": "Bangladesh"
+      },
+      {
+        "id": "105mm_type_83_apds_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455,
+        "vehicleOperator": "Bangladesh"
+      },
+      {
+        "id": "105mm_type_83_apds_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      },
+      {
+        "id": "105mm_type_83_apds_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      },
+      {
+        "id": "105mm_type_83_apds_cn_ztz_88a",
+        "vehicleId": "cn_ztz_88a",
+        "vehicleName": "ZTZ88A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 352.0,
+        "muzzleVelocityMs": 1500
+      },
+      {
+        "id": "105mm_type_83_apds_cn_ztz_88b",
+        "vehicleId": "cn_ztz_88b",
+        "vehicleName": "ZTZ88B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 338.0,
+        "muzzleVelocityMs": 1455
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_83_heat",
+    "designation": "Type-83 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "105mm_type_83_heat_cn_type_59d",
+        "vehicleId": "cn_type_59d",
+        "vehicleName": "ZTZ59D1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_type_69_2g",
+        "vehicleId": "cn_type_69_2g",
+        "vehicleName": "T-69 II G",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1200,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_vt_5",
+        "vehicleId": "cn_vt_5",
+        "vehicleName": "VT5",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.3",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_ztl_11",
+        "vehicleId": "cn_ztl_11",
+        "vehicleName": "ZTL11",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "9.7",
+          "RB": "9.7",
+          "SB": "9.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_ztz_88a",
+        "vehicleId": "cn_ztz_88a",
+        "vehicleName": "ZTZ88A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1200,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      },
+      {
+        "id": "105mm_type_83_heat_cn_ztz_88b",
+        "vehicleId": "cn_ztz_88b",
+        "vehicleName": "ZTZ88B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 105,
+        "projectileMassKg": 11.0,
+        "penetrationMm": 16.9,
+        "muzzleVelocityMs": 1174,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.97,
+        "tntEquivalentKg": 1.3
+      }
+    ]
+  },
+  {
+    "id": "105mm_type_83_hesh",
+    "designation": "Type-83 HESH",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "105mm_type_83_hesh_cn_type_59d",
+        "vehicleId": "cn_type_59d",
+        "vehicleName": "ZTZ59D1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_type_83_hesh_cn_type_69_2g",
+        "vehicleId": "cn_type_69_2g",
+        "vehicleName": "T-69 II G",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 750,
+        "vehicleOperator": "Bangladesh",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_type_83_hesh_cn_wma_301",
+        "vehicleId": "cn_wma_301",
+        "vehicleName": "WMA301",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_type_83_hesh_cn_ztz_88a",
+        "vehicleId": "cn_ztz_88a",
+        "vehicleName": "ZTZ88A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 750,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      },
+      {
+        "id": "105mm_type_83_hesh_cn_ztz_88b",
+        "vehicleId": "cn_ztz_88b",
+        "vehicleName": "ZTZ88B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 105,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 127.0,
+        "muzzleVelocityMs": 732,
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 3.0,
+        "tntEquivalentKg": 4.3
+      }
+    ]
+  },
+  {
+    "id": "115mm_3bk4",
+    "designation": "3BK4",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "115mm_3bk4_cn_t_62",
+        "vehicleId": "cn_t_62",
+        "vehicleName": "T-62 N545",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 115,
+        "projectileMassKg": 13.0,
+        "penetrationMm": 23.3,
+        "muzzleVelocityMs": 950,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 1.8
+      }
+    ]
+  },
+  {
+    "id": "115mm_3bm3",
+    "designation": "3BM3",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "115mm_3bm3_cn_t_62",
+        "vehicleId": "cn_t_62",
+        "vehicleName": "T-62 N545",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 115,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1615
+      }
+    ]
+  },
+  {
+    "id": "115mm_3bm4",
+    "designation": "3BM4",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "115mm_3bm4_cn_t_62",
+        "vehicleId": "cn_t_62",
+        "vehicleName": "T-62 N545",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 115,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 284.0,
+        "muzzleVelocityMs": 1615
+      }
+    ]
+  },
+  {
+    "id": "115mm_3of11",
+    "designation": "3OF11",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "115mm_3of11_cn_t_62",
+        "vehicleId": "cn_t_62",
+        "vehicleName": "T-62 N545",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 115,
+        "projectileMassKg": 14.9,
+        "penetrationMm": 31.4,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.6
+      }
+    ]
+  },
+  {
+    "id": "120mm_120_he",
+    "designation": "120-HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_120_he_cn_object_122tm",
+        "vehicleId": "cn_object_122tm",
+        "vehicleName": "Object 122MT \"MC\"",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 16.5,
+        "penetrationMm": 32.6,
+        "muzzleVelocityMs": 940,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.8
+      }
+    ]
+  },
+  {
+    "id": "120mm_120_heat",
+    "designation": "120-HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_120_heat_cn_object_122tm",
+        "vehicleId": "cn_object_122tm",
+        "vehicleName": "Object 122MT \"MC\"",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 15.0,
+        "penetrationMm": 22.0,
+        "muzzleVelocityMs": 1000,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 1.4,
+        "tntEquivalentKg": 1.7
+      }
+    ]
+  },
+  {
+    "id": "120mm_120_i",
+    "designation": "120-I",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_120_i_cn_object_122tm",
+        "vehicleId": "cn_object_122tm",
+        "vehicleName": "Object 122MT \"MC\"",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 280.0,
+        "muzzleVelocityMs": 1580
+      }
+    ]
+  },
+  {
+    "id": "120mm_120_ii",
+    "designation": "120-II",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_120_ii_cn_object_122tm",
+        "vehicleId": "cn_object_122tm",
+        "vehicleName": "Object 122MT \"MC\"",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.3,
+        "penetrationMm": 350.0,
+        "muzzleVelocityMs": 1580
+      }
+    ]
+  },
+  {
+    "id": "120mm_302_atgm",
+    "designation": "302 ATGM",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "120mm_302_atgm_cn_object_122tm",
+        "vehicleId": "cn_object_122tm",
+        "vehicleName": "Object 122MT \"MC\"",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 120,
+        "projectileMassKg": 11.2,
+        "penetrationMm": 24.5,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 3.0,
+        "maximumSpeedMs": 220.0,
+        "missileGuidanceTimeS": 15.0,
+        "explosiveType": "DHL-1",
+        "explosiveMassKg": 1.5,
+        "tntEquivalentKg": 2.0
+      }
+    ]
+  },
+  {
+    "id": "120mm_dys120",
+    "designation": "DYS120",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "120mm_dys120_cn_ptz_89",
+        "vehicleId": "cn_ptz_89",
+        "vehicleName": "PTZ89",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 120,
+        "projectileMassKg": 19.5,
+        "penetrationMm": 29.8,
+        "muzzleVelocityMs": 900,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 2.5
+      }
+    ]
+  },
+  {
+    "id": "120mm_dyw1",
+    "designation": "DYW1",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_dyw1_cn_ptz_89",
+        "vehicleId": "cn_ptz_89",
+        "vehicleName": "PTZ89",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.4,
+        "penetrationMm": 443.0,
+        "muzzleVelocityMs": 1740
+      }
+    ]
+  },
+  {
+    "id": "120mm_ke_w",
+    "designation": "KE-W",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_ke_w_cn_m1a2t",
+        "vehicleId": "cn_m1a2t",
+        "vehicleName": "M1A2T",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 583.0,
+        "muzzleVelocityMs": 1585,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "120mm_ke_w_a2",
+    "designation": "KE-W A2",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "120mm_ke_w_a2_cn_m1a2t",
+        "vehicleId": "cn_m1a2t",
+        "vehicleName": "M1A2T",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 120,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 628.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "120mm_m830",
+    "designation": "M830",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "120mm_m830_cn_m1a2t",
+        "vehicleId": "cn_m1a2t",
+        "vehicleName": "M1A2T",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 120,
+        "projectileMassKg": 13.1,
+        "penetrationMm": 28.6,
+        "muzzleVelocityMs": 1140,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 1.6,
+        "tntEquivalentKg": 2.4
+      }
+    ]
+  },
+  {
+    "id": "120mm_m830a1",
+    "designation": "M830A1",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT MP",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "120mm_m830a1_cn_m1a2t",
+        "vehicleId": "cn_m1a2t",
+        "vehicleName": "M1A2T",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 120,
+        "projectileMassKg": 11.4,
+        "penetrationMm": 18.2,
+        "muzzleVelocityMs": 1410,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 0.966,
+        "tntEquivalentKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "122mm_br_471",
+    "designation": "BR-471",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "122mm_br_471_cn_is_2_1943",
+        "vehicleId": "cn_is_2_1943",
+        "vehicleName": "␗IS-2",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471_cn_is_2_1943_no402",
+        "vehicleId": "cn_is_2_1943_no402",
+        "vehicleName": "IS-2 No.402",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471_cn_is_2_1944",
+        "vehicleId": "cn_is_2_1944",
+        "vehicleName": "␗IS-2 (1944)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471_cn_isu_122",
+        "vehicleId": "cn_isu_122",
+        "vehicleName": "␗ISU-122",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      }
+    ]
+  },
+  {
+    "id": "122mm_br_471b",
+    "designation": "BR-471B",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "122mm_br_471b_cn_is_2_1943",
+        "vehicleId": "cn_is_2_1943",
+        "vehicleName": "␗IS-2",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471b_cn_is_2_1943_no402",
+        "vehicleId": "cn_is_2_1943_no402",
+        "vehicleName": "IS-2 No.402",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471b_cn_is_2_1944",
+        "vehicleId": "cn_is_2_1944",
+        "vehicleName": "␗IS-2 (1944)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      },
+      {
+        "id": "122mm_br_471b_cn_isu_122",
+        "vehicleId": "cn_isu_122",
+        "vehicleName": "␗ISU-122",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 5.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.16,
+        "tntEquivalentKg": 0.246
+      }
+    ]
+  },
+  {
+    "id": "122mm_br_471d",
+    "designation": "BR-471D",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "122mm_br_471d_cn_is_2_1944",
+        "vehicleId": "cn_is_2_1944",
+        "vehicleName": "␗IS-2 (1944)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_big",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 4.9,
+        "muzzleVelocityMs": 800,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.125,
+        "tntEquivalentKg": 0.192
+      }
+    ]
+  },
+  {
+    "id": "122mm_of_471",
+    "designation": "OF-471",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "122mm_of_471_cn_is_2_1943",
+        "vehicleId": "cn_is_2_1943",
+        "vehicleName": "␗IS-2",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 36.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.6
+      },
+      {
+        "id": "122mm_of_471_cn_is_2_1943_no402",
+        "vehicleId": "cn_is_2_1943_no402",
+        "vehicleName": "IS-2 No.402",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 36.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.6
+      },
+      {
+        "id": "122mm_of_471_cn_is_2_1944",
+        "vehicleId": "cn_is_2_1944",
+        "vehicleName": "␗IS-2 (1944)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 36.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.6
+      },
+      {
+        "id": "122mm_of_471_cn_isu_122",
+        "vehicleId": "cn_isu_122",
+        "vehicleName": "␗ISU-122",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 122,
+        "projectileMassKg": 25.0,
+        "penetrationMm": 36.5,
+        "muzzleVelocityMs": 795,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.6
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bk18m",
+    "designation": "3BK18M",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_3bk18m_cn_oplot_t",
+        "vehicleId": "cn_oplot_t",
+        "vehicleName": "Oplot-M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.4,
+        "muzzleVelocityMs": 905,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.8
+      },
+      {
+        "id": "125mm_3bk18m_cn_t_80ud_478be",
+        "vehicleId": "cn_t_80ud_478be",
+        "vehicleName": "T-80UD/BE",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.4,
+        "muzzleVelocityMs": 905,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 1.8,
+        "tntEquivalentKg": 2.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_3bm42",
+    "designation": "3BM42",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "125mm_3bm42_cn_oplot_t",
+        "vehicleId": "cn_oplot_t",
+        "vehicleName": "Oplot-M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 457.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "Pakistan"
+      },
+      {
+        "id": "125mm_3bm42_cn_t_80ud_478be",
+        "vehicleId": "cn_t_80ud_478be",
+        "vehicleName": "T-80UD/BE",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 457.0,
+        "muzzleVelocityMs": 1700,
+        "vehicleOperator": "Pakistan"
+      }
+    ]
+  },
+  {
+    "id": "125mm_3of26",
+    "designation": "3OF26",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "125mm_3of26_cn_oplot_t",
+        "vehicleId": "cn_oplot_t",
+        "vehicleName": "Oplot-M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 42.4,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.2
+      },
+      {
+        "id": "125mm_3of26_cn_t_80ud_478be",
+        "vehicleId": "cn_t_80ud_478be",
+        "vehicleName": "T-80UD/BE",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 42.4,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.2
+      }
+    ]
+  },
+  {
+    "id": "125mm_9m119",
+    "designation": "9M119",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "125mm_9m119_cn_t_80ud_478be",
+        "vehicleId": "cn_t_80ud_478be",
+        "vehicleName": "T-80UD/BE",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 16.5,
+        "penetrationMm": 48.3,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 19.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_bta4",
+    "designation": "BTA4",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_bta4_cn_oplot_t",
+        "vehicleId": "cn_oplot_t",
+        "vehicleName": "Oplot-M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 552.0,
+        "muzzleVelocityMs": 1740,
+        "vehicleOperator": "Pakistan"
+      }
+    ]
+  },
+  {
+    "id": "125mm_dtb12_125",
+    "designation": "DTB12-125",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "125mm_dtb12_125_cn_al_khalid_1",
+        "vehicleId": "cn_al_khalid_1",
+        "vehicleName": "Al-Khalid-I",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_mbt2000",
+        "vehicleId": "cn_mbt2000",
+        "vehicleName": "MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_mbt2000_sm",
+        "vehicleId": "cn_mbt2000_sm",
+        "vehicleName": "◍MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 870,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      },
+      {
+        "id": "125mm_dtb12_125_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.2,
+        "penetrationMm": 43.0,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.4,
+        "tntEquivalentKg": 5.3
+      }
+    ]
+  },
+  {
+    "id": "125mm_dtb_125",
+    "designation": "DTB-125",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "125mm_dtb_125_cn_al_khalid_1",
+        "vehicleId": "cn_al_khalid_1",
+        "vehicleName": "Al-Khalid-I",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_mbt2000",
+        "vehicleId": "cn_mbt2000",
+        "vehicleName": "MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_mbt2000_sm",
+        "vehicleId": "cn_mbt2000_sm",
+        "vehicleName": "◍MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 870,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_96",
+        "vehicleId": "cn_ztz_96",
+        "vehicleName": "ZTZ96",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_96a",
+        "vehicleId": "cn_ztz_96a",
+        "vehicleName": "ZTZ96A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_96a_prot",
+        "vehicleId": "cn_ztz_96a_prot",
+        "vehicleName": "ZTZ96A (P)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      },
+      {
+        "id": "125mm_dtb_125_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 125,
+        "projectileMassKg": 23.0,
+        "penetrationMm": 44.6,
+        "muzzleVelocityMs": 850,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 3.5,
+        "tntEquivalentKg": 5.5
+      }
+    ]
+  },
+  {
+    "id": "125mm_dtc10_125",
+    "designation": "DTC10-125",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_dtc10_125_cn_al_khalid_1",
+        "vehicleId": "cn_al_khalid_1",
+        "vehicleName": "Al-Khalid-I",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770,
+        "vehicleOperator": "Pakistan"
+      },
+      {
+        "id": "125mm_dtc10_125_cn_mbt2000",
+        "vehicleId": "cn_mbt2000",
+        "vehicleName": "MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_mbt2000_sm",
+        "vehicleId": "cn_mbt2000_sm",
+        "vehicleName": "◍MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 588.0,
+        "muzzleVelocityMs": 1810
+      },
+      {
+        "id": "125mm_dtc10_125_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_dtc10_125_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 577.0,
+        "muzzleVelocityMs": 1770
+      }
+    ]
+  },
+  {
+    "id": "125mm_dtp_125",
+    "designation": "DTP-125",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_dtp_125_cn_al_khalid_1",
+        "vehicleId": "cn_al_khalid_1",
+        "vehicleName": "Al-Khalid-I",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_mbt2000",
+        "vehicleId": "cn_mbt2000",
+        "vehicleName": "MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_mbt2000_sm",
+        "vehicleId": "cn_mbt2000_sm",
+        "vehicleName": "◍MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 930,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_96",
+        "vehicleId": "cn_ztz_96",
+        "vehicleName": "ZTZ96",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_96a",
+        "vehicleId": "cn_ztz_96a",
+        "vehicleName": "ZTZ96A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_96a_prot",
+        "vehicleId": "cn_ztz_96a_prot",
+        "vehicleName": "ZTZ96A (P)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      },
+      {
+        "id": "125mm_dtp_125_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 18.0,
+        "penetrationMm": 31.2,
+        "muzzleVelocityMs": 905,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 1.7,
+        "tntEquivalentKg": 2.6
+      }
+    ]
+  },
+  {
+    "id": "125mm_dtw_125",
+    "designation": "DTW-125",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "125mm_dtw_125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.8,
+        "penetrationMm": 552.0,
+        "muzzleVelocityMs": 1740
+      }
+    ]
+  },
+  {
+    "id": "125mm_gp125",
+    "designation": "GP125",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "125mm_gp125_cn_oplot_t",
+        "vehicleId": "cn_oplot_t",
+        "vehicleName": "Oplot-M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "vehicleOperator": "Pakistan",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_vt_4b",
+        "vehicleId": "cn_vt_4b",
+        "vehicleName": "VT4A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.7",
+          "RB": "12.7",
+          "SB": "12.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      },
+      {
+        "id": "125mm_gp125_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 125,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 48.3,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Beam riding",
+        "launchRangeKm": 5.0,
+        "maximumSpeedMs": 470.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "OKFOL",
+        "explosiveMassKg": 3.6,
+        "tntEquivalentKg": 5.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_hj_73_atgm",
+    "designation": "HJ-73 ATGM",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "125mm_hj_73_atgm_cn_type_86",
+        "vehicleId": "cn_type_86",
+        "vehicleName": "ZBD86",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 125,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 35.6,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Manual (MCLOS)",
+        "maximumSpeedMs": 140.0,
+        "missileGuidanceTimeS": 30.0,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 2.6,
+        "tntEquivalentKg": 3.3
+      }
+    ]
+  },
+  {
+    "id": "125mm_hj_73e_atgm",
+    "designation": "HJ-73E ATGM",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "125mm_hj_73e_atgm_cn_type_86",
+        "vehicleId": "cn_type_86",
+        "vehicleName": "ZBD86",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 125,
+        "projectileMassKg": 12.5,
+        "penetrationMm": 23.2,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 3.2,
+        "maximumSpeedMs": 130.0,
+        "missileGuidanceTimeS": 28.0,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 1.4,
+        "tntEquivalentKg": 1.8
+      }
+    ]
+  },
+  {
+    "id": "125mm_type_1985_i_apfsds",
+    "designation": "Type 1985-I APFSDS",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_al_khalid_1",
+        "vehicleId": "cn_al_khalid_1",
+        "vehicleName": "Al-Khalid-I",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730,
+        "vehicleOperator": "Pakistan"
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_mbt2000",
+        "vehicleId": "cn_mbt2000",
+        "vehicleName": "MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_mbt2000_sm",
+        "vehicleId": "cn_mbt2000_sm",
+        "vehicleName": "◍MBT-2000",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_vt_4",
+        "vehicleId": "cn_vt_4",
+        "vehicleName": "VT4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_wz_1001",
+        "vehicleId": "cn_wz_1001",
+        "vehicleName": "WZ1001(E) LCT",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 476.0,
+        "muzzleVelocityMs": 1770
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_96",
+        "vehicleId": "cn_ztz_96",
+        "vehicleName": "ZTZ96",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.3",
+          "RB": "9.3",
+          "SB": "9.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_96a",
+        "vehicleId": "cn_ztz_96a",
+        "vehicleName": "ZTZ96A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_96a_prot",
+        "vehicleId": "cn_ztz_96a_prot",
+        "vehicleName": "ZTZ96A (P)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.3",
+          "RB": "10.3",
+          "SB": "10.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_96b",
+        "vehicleId": "cn_ztz_96b",
+        "vehicleName": "ZTZ96B",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.7",
+          "RB": "11.7",
+          "SB": "11.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_99",
+        "vehicleId": "cn_ztz_99",
+        "vehicleName": "ZTZ99-II",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_99_w",
+        "vehicleId": "cn_ztz_99_w",
+        "vehicleName": "ZTZ99-III",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "11.0",
+          "RB": "11.0",
+          "SB": "11.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      },
+      {
+        "id": "125mm_type_1985_i_apfsds_cn_ztz_99a",
+        "vehicleId": "cn_ztz_99a",
+        "vehicleName": "ZTZ99A",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VIII",
+        "vehicleBr": {
+          "AB": "12.3",
+          "RB": "12.3",
+          "SB": "12.3"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 125,
+        "projectileMassKg": 4.0,
+        "penetrationMm": 466.0,
+        "muzzleVelocityMs": 1730
+      }
+    ]
+  },
+  {
+    "id": "127mm_bgm_71_tow",
+    "designation": "BGM-71 TOW",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "127mm_bgm_71_tow_cn_m113a1_tow",
+        "vehicleId": "cn_m113a1_tow",
+        "vehicleName": "␗M113A1 (TOW)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 127,
+        "projectileMassKg": 18.8,
+        "penetrationMm": 36.9,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 3.0,
+        "maximumSpeedMs": 299.0,
+        "missileGuidanceTimeS": 17.0,
+        "explosiveType": "Octol",
+        "explosiveMassKg": 2.4,
+        "tntEquivalentKg": 3.8
+      }
+    ]
+  },
+  {
+    "id": "127mm_bgm_71c_i_tow",
+    "designation": "BGM-71C I-TOW",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "127mm_bgm_71c_i_tow_cn_m113a1_tow",
+        "vehicleId": "cn_m113a1_tow",
+        "vehicleName": "␗M113A1 (TOW)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.3",
+          "RB": "8.3",
+          "SB": "8.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 127,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.8,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 296.0,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 2.9
+      }
+    ]
+  },
+  {
+    "id": "127mm_i_tow",
+    "designation": "I-TOW",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "127mm_i_tow_cn_cm_25",
+        "vehicleId": "cn_cm_25",
+        "vehicleName": "CM25",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 127,
+        "projectileMassKg": 19.0,
+        "penetrationMm": 33.8,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 296.0,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 2.0,
+        "tntEquivalentKg": 2.9
+      }
+    ]
+  },
+  {
+    "id": "130mm_br_482b",
+    "designation": "BR-482B",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "130mm_br_482b_cn_plz_83_130",
+        "vehicleId": "cn_plz_83_130",
+        "vehicleName": "PLZ83-130",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 130,
+        "projectileMassKg": 33.4,
+        "penetrationMm": 4.8,
+        "muzzleVelocityMs": 930,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.115,
+        "tntEquivalentKg": 0.177
+      }
+    ]
+  },
+  {
+    "id": "130mm_djb2_pl59a_130",
+    "designation": "DJB2/PL59A-130",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "130mm_djb2_pl59a_130_cn_plz_83_130",
+        "vehicleId": "cn_plz_83_130",
+        "vehicleName": "PLZ83-130",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 130,
+        "projectileMassKg": 33.4,
+        "penetrationMm": 36.8,
+        "muzzleVelocityMs": 930,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.7
+      }
+    ]
+  },
+  {
+    "id": "130mm_djb3_pl59a_130",
+    "designation": "DJB3/PL59A-130",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "130mm_djb3_pl59a_130_cn_plz_83_130",
+        "vehicleId": "cn_plz_83_130",
+        "vehicleName": "PLZ83-130",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 130,
+        "projectileMassKg": 33.4,
+        "penetrationMm": 36.7,
+        "muzzleVelocityMs": 930,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 3.7
+      }
+    ]
+  },
+  {
+    "id": "130mm_type_59_1_smoke",
+    "designation": "Type 59-1 Smoke",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "130mm_type_59_1_smoke_cn_plz_83_130",
+        "vehicleId": "cn_plz_83_130",
+        "vehicleName": "PLZ83-130",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.3",
+          "RB": "7.3",
+          "SB": "7.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 130,
+        "projectileMassKg": 32.5,
+        "penetrationMm": 5.8,
+        "muzzleVelocityMs": 935,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.272
+      }
+    ]
+  },
+  {
+    "id": "151mm_qn502cdd",
+    "designation": "QN502CDD",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "151mm_qn502cdd_cn_qn506",
+        "vehicleId": "cn_qn506",
+        "vehicleName": "QN506",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 151,
+        "projectileMassKg": 16.2,
+        "penetrationMm": 18.2,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "IR",
+        "IRCCM": true,
+        "launchRangeKm": 8.0,
+        "maximumSpeedMs": 205.0,
+        "missileGuidanceTimeS": 65.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.9,
+        "tntEquivalentKg": 1.4
+      }
+    ]
+  },
+  {
+    "id": "152mm_bee7_152",
+    "designation": "BEE7-152",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_bee7_152_cn_plz_83",
+        "vehicleId": "cn_plz_83",
+        "vehicleName": "PLZ83",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 43.6,
+        "penetrationMm": 61.0,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp.B, mod.",
+        "explosiveMassKg": 6.7,
+        "tntEquivalentKg": 9.0
+      }
+    ]
+  },
+  {
+    "id": "152mm_bee7_152_(vt)",
+    "designation": "BEE7-152 (VT)",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_bee7_152_(vt)_cn_plz_83",
+        "vehicleId": "cn_plz_83",
+        "vehicleName": "PLZ83",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 43.6,
+        "penetrationMm": 61.0,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Comp.B, mod.",
+        "explosiveMassKg": 6.7,
+        "tntEquivalentKg": 9.0
+      }
+    ]
+  },
+  {
+    "id": "152mm_bp_540",
+    "designation": "BP-540",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_bp_540_cn_isu_152",
+        "vehicleId": "cn_isu_152",
+        "vehicleName": "␗ISU-152",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 27.4,
+        "penetrationMm": 39.5,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 3.8,
+        "tntEquivalentKg": 4.8
+      }
+    ]
+  },
+  {
+    "id": "152mm_br_540",
+    "designation": "BR-540",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "152mm_br_540_cn_isu_152",
+        "vehicleId": "cn_isu_152",
+        "vehicleName": "␗ISU-152",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 152,
+        "projectileMassKg": 48.8,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 600,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.48,
+        "tntEquivalentKg": 0.739
+      }
+    ]
+  },
+  {
+    "id": "152mm_br_540b",
+    "designation": "BR-540B",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "152mm_br_540b_cn_isu_152",
+        "vehicleId": "cn_isu_152",
+        "vehicleName": "␗ISU-152",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 152,
+        "projectileMassKg": 49.0,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 600,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.48,
+        "tntEquivalentKg": 0.739
+      }
+    ]
+  },
+  {
+    "id": "152mm_ddb1_pl66_152",
+    "designation": "DDB1/PL66-152",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "152mm_ddb1_pl66_152_cn_plz_83",
+        "vehicleId": "cn_plz_83",
+        "vehicleName": "PLZ83",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 152,
+        "projectileMassKg": 43.6,
+        "penetrationMm": 48.6,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 5.9
+      }
+    ]
+  },
+  {
+    "id": "152mm_hj_9",
+    "designation": "HJ-9",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM-Tandem",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "152mm_hj_9_cn_hj_9",
+        "vehicleId": "cn_hj_9",
+        "vehicleName": "AFT09",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "9.0",
+          "RB": "9.0",
+          "SB": "9.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 152,
+        "projectileMassKg": 29.0,
+        "penetrationMm": 37.6,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.01,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "IRCCM": true,
+        "launchRangeKm": 5.5,
+        "maximumSpeedMs": 305.0,
+        "missileGuidanceTimeS": 24.0,
+        "explosiveType": "DHL-1",
+        "explosiveMassKg": 3.1,
+        "tntEquivalentKg": 4.0
+      }
+    ]
+  },
+  {
+    "id": "152mm_of_540",
+    "designation": "OF-540",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "152mm_of_540_cn_isu_152",
+        "vehicleId": "cn_isu_152",
+        "vehicleName": "␗ISU-152",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.7",
+          "RB": "4.7",
+          "SB": "4.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 152,
+        "projectileMassKg": 43.6,
+        "penetrationMm": 48.6,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 5.9
+      }
+    ]
+  },
+  {
+    "id": "152mm_tow_2b",
+    "designation": "TOW-2B",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "152mm_tow_2b_cn_cm_25",
+        "vehicleId": "cn_cm_25",
+        "vehicleName": "CM25",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.7",
+          "RB": "8.7",
+          "SB": "8.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 152,
+        "projectileMassKg": 22.6,
+        "penetrationMm": 36.0,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "IRCCM": true,
+        "launchRangeKm": 3.75,
+        "maximumSpeedMs": 309.0,
+        "missileGuidanceTimeS": 25.0,
+        "explosiveType": "LX-14",
+        "explosiveMassKg": 2.4,
+        "tntEquivalentKg": 3.4
+      }
+    ]
+  },
+  {
+    "id": "155mm_bea1_155",
+    "designation": "BEA1-155",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "SAPCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "155mm_bea1_155_cn_plz_05",
+        "vehicleId": "cn_plz_05",
+        "vehicleName": "PLZ05",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 155,
+        "projectileMassKg": 45.5,
+        "penetrationMm": 59.3,
+        "muzzleVelocityMs": 933,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 19.0,
+        "explosiveType": "JHL-3",
+        "explosiveMassKg": 5.1,
+        "tntEquivalentKg": 7.9
+      }
+    ]
+  },
+  {
+    "id": "155mm_type_05_he",
+    "designation": "Type 05 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "155mm_type_05_he_cn_plz_05",
+        "vehicleId": "cn_plz_05",
+        "vehicleName": "PLZ05",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 155,
+        "projectileMassKg": 47.0,
+        "penetrationMm": 62.9,
+        "muzzleVelocityMs": 933,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "DHL-1",
+        "explosiveMassKg": 8.4,
+        "tntEquivalentKg": 10.9
+      }
+    ]
+  },
+  {
+    "id": "155mm_type_05_he(vt)",
+    "designation": "Type 05 HE(VT)",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE-VT",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "155mm_type_05_he(vt)_cn_plz_05",
+        "vehicleId": "cn_plz_05",
+        "vehicleName": "PLZ05",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 155,
+        "projectileMassKg": 47.0,
+        "penetrationMm": 62.9,
+        "muzzleVelocityMs": 933,
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "DHL-1",
+        "explosiveMassKg": 8.4,
+        "tntEquivalentKg": 10.9
+      }
+    ]
+  },
+  {
+    "id": "203mm_m106",
+    "designation": "M106",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "203mm_m106_cn_m55",
+        "vehicleId": "cn_m55",
+        "vehicleName": "␗M55",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_big",
+        "caliberMm": 203,
+        "projectileMassKg": 104.0,
+        "penetrationMm": 64.7,
+        "muzzleVelocityMs": 594,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.3,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 17.6,
+        "tntEquivalentKg": 23.1
+      }
+    ]
+  },
+  {
+    "id": "37mm_m51b1_shot",
+    "designation": "M51B1 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "37mm_m51b1_shot_cn_m3a3_stuart",
+        "vehicleId": "cn_m3a3_stuart",
+        "vehicleName": "␗M3A3 Stuart",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 87.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m51b1_shot_cn_m3a3_stuart_1st_ptg",
+        "vehicleId": "cn_m3a3_stuart_1st_ptg",
+        "vehicleName": "␗M3A3 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 87.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m51b1_shot_cn_m5a1_stuart",
+        "vehicleId": "cn_m5a1_stuart",
+        "vehicleName": "␗M5A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 87.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m51b1_shot_cn_m8_greyhound",
+        "vehicleId": "cn_m8_greyhound",
+        "vehicleName": "␗M8 LAC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 87.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "37mm_m63_shell",
+    "designation": "M63 shell",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "SAPHEI",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "37mm_m63_shell_cn_m5a1_stuart",
+        "vehicleId": "cn_m5a1_stuart",
+        "vehicleName": "␗M5A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 37,
+        "projectileMassKg": 0.73,
+        "penetrationMm": 2.7,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.038
+      }
+    ]
+  },
+  {
+    "id": "37mm_m74b1_shot",
+    "designation": "M74B1 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "37mm_m74b1_shot_cn_m3a3_stuart",
+        "vehicleId": "cn_m3a3_stuart",
+        "vehicleName": "␗M3A3 Stuart",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 79.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m74b1_shot_cn_m3a3_stuart_1st_ptg",
+        "vehicleId": "cn_m3a3_stuart_1st_ptg",
+        "vehicleName": "␗M3A3 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 79.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m74b1_shot_cn_m5a1_stuart",
+        "vehicleId": "cn_m5a1_stuart",
+        "vehicleName": "␗M5A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.7",
+          "RB": "2.7",
+          "SB": "2.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 79.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "37mm_m74b1_shot_cn_m8_greyhound",
+        "vehicleId": "cn_m8_greyhound",
+        "vehicleName": "␗M8 LAC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 37,
+        "projectileMassKg": 0.87,
+        "penetrationMm": 79.0,
+        "muzzleVelocityMs": 883,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "45mm_br_240",
+    "designation": "BR-240",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "45mm_br_240_cn_t_26_1940",
+        "vehicleId": "cn_t_26_1940",
+        "vehicleName": "␗T-26",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 45,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 2.5,
+        "muzzleVelocityMs": 760,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.029
+      },
+      {
+        "id": "45mm_br_240_cn_t_26_no531",
+        "vehicleId": "cn_t_26_no531",
+        "vehicleName": "T-26 No.531",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 45,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 2.5,
+        "muzzleVelocityMs": 760,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.019,
+        "tntEquivalentKg": 0.029
+      }
+    ]
+  },
+  {
+    "id": "45mm_br_240sp",
+    "designation": "BR-240SP",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "45mm_br_240sp_cn_t_26_1940",
+        "vehicleId": "cn_t_26_1940",
+        "vehicleName": "␗T-26",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 45,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 73.0,
+        "muzzleVelocityMs": 757,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "45mm_br_240sp_cn_t_26_no531",
+        "vehicleId": "cn_t_26_no531",
+        "vehicleName": "T-26 No.531",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.0",
+          "RB": "1.0",
+          "SB": "1.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 45,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 73.0,
+        "muzzleVelocityMs": 757,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "47mm_type_1_aphe",
+    "designation": "Type 1 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "47mm_type_1_aphe_cn_type_97_kai",
+        "vehicleId": "cn_type_97_kai",
+        "vehicleName": "␗Chi-Ha Kai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 47,
+        "projectileMassKg": 1.5,
+        "penetrationMm": 2.4,
+        "muzzleVelocityMs": 808,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "RDX",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      }
+    ]
+  },
+  {
+    "id": "47mm_type_1_he",
+    "designation": "Type 1 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "47mm_type_1_he_cn_type_97_kai",
+        "vehicleId": "cn_type_97_kai",
+        "vehicleName": "␗Chi-Ha Kai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 47,
+        "projectileMassKg": 1.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 822,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Picric acid/TNT 34/66",
+        "explosiveMassKg": 0.087,
+        "tntEquivalentKg": 0.085
+      }
+    ]
+  },
+  {
+    "id": "57mm_br_271",
+    "designation": "BR-271",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_br_271_cn_lvt_4_zis_2",
+        "vehicleId": "cn_lvt_4_zis_2",
+        "vehicleName": "LVT(A)(4) (ZiS-2)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.1,
+        "penetrationMm": 2.3,
+        "muzzleVelocityMs": 990,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.014,
+        "tntEquivalentKg": 0.022
+      }
+    ]
+  },
+  {
+    "id": "57mm_br_271к",
+    "designation": "BR-271К",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_br_271к_cn_lvt_4_zis_2",
+        "vehicleId": "cn_lvt_4_zis_2",
+        "vehicleName": "LVT(A)(4) (ZiS-2)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 3.1,
+        "penetrationMm": 2.5,
+        "muzzleVelocityMs": 990,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.018,
+        "tntEquivalentKg": 0.028
+      }
+    ]
+  },
+  {
+    "id": "57mm_o_271",
+    "designation": "O-271",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "57mm_o_271_cn_lvt_4_zis_2",
+        "vehicleId": "cn_lvt_4_zis_2",
+        "vehicleName": "LVT(A)(4) (ZiS-2)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "2.3",
+          "RB": "2.3",
+          "SB": "2.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 57,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 5.2,
+        "muzzleVelocityMs": 700,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.22
+      }
+    ]
+  },
+  {
+    "id": "57mm_type_3_heat",
+    "designation": "Type 3 HEAT",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "57mm_type_3_heat_cn_type_97_chi_ha",
+        "vehicleId": "cn_type_97_chi_ha",
+        "vehicleName": "␗Chi-Ha",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 57,
+        "projectileMassKg": 1.8,
+        "penetrationMm": 6.1,
+        "muzzleVelocityMs": 380,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "RDX/TNT",
+        "explosiveMassKg": 0.237,
+        "tntEquivalentKg": 0.303
+      }
+    ]
+  },
+  {
+    "id": "57mm_type_92_aphe",
+    "designation": "Type 92 APHE",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "57mm_type_92_aphe_cn_type_97_chi_ha",
+        "vehicleId": "cn_type_97_chi_ha",
+        "vehicleName": "␗Chi-Ha",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 57,
+        "projectileMassKg": 2.6,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 349,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 9.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.103
+      }
+    ]
+  },
+  {
+    "id": "70mm_qn201dd",
+    "designation": "QN201DD",
+    "category": "Chemical",
+    "family": "Guided-Missiles",
+    "variant": "ATGM",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "70mm_qn201dd_cn_qn506",
+        "vehicleId": "cn_qn506",
+        "vehicleName": "QN506",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VII",
+        "vehicleBr": {
+          "AB": "10.0",
+          "RB": "10.0",
+          "SB": "10.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 70,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 11.1,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "guidance": "Semi-Automatic (SACLOS)",
+        "maximumSpeedMs": 450.0,
+        "missileGuidanceTimeS": 15.0,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 0.6,
+        "tntEquivalentKg": 0.75
+      }
+    ]
+  },
+  {
+    "id": "73mm_dyp_73",
+    "designation": "DYP-73",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "73mm_dyp_73_cn_type_86",
+        "vehicleId": "cn_type_86",
+        "vehicleName": "ZBD86",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 73,
+        "projectileMassKg": 2.6,
+        "penetrationMm": 8.1,
+        "muzzleVelocityMs": 665,
+        "fuzeSensitivityMm": 0.01,
+        "explosiveType": "JH-2",
+        "explosiveMassKg": 0.315,
+        "tntEquivalentKg": 0.482
+      }
+    ]
+  },
+  {
+    "id": "73mm_dys_73",
+    "designation": "DYS-73",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "73mm_dys_73_cn_type_86",
+        "vehicleId": "cn_type_86",
+        "vehicleName": "ZBD86",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_small",
+        "caliberMm": 73,
+        "projectileMassKg": 3.7,
+        "penetrationMm": 10.9,
+        "muzzleVelocityMs": 290,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.735
+      }
+    ]
+  },
+  {
+    "id": "75mm_m48_shell",
+    "designation": "M48 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "75mm_m48_shell_cn_m24_chaffee",
+        "vehicleId": "cn_m24_chaffee",
+        "vehicleName": "␗M24",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_cn_m4a1_76w_sherman",
+        "vehicleId": "cn_m4a1_76w_sherman",
+        "vehicleName": "␗M4A1 (75) W",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_cn_m4a4_sherman",
+        "vehicleId": "cn_m4a4_sherman",
+        "vehicleName": "␗M4A4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_cn_m4a4_sherman_1st_ptg",
+        "vehicleId": "cn_m4a4_sherman_1st_ptg",
+        "vehicleName": "␗M4A4 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 463,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      },
+      {
+        "id": "75mm_m48_shell_cn_m8_scott",
+        "vehicleId": "cn_m8_scott",
+        "vehicleName": "␗M8 HMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 10.2,
+        "muzzleVelocityMs": 381,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.666
+      }
+    ]
+  },
+  {
+    "id": "75mm_m61_shot",
+    "designation": "M61 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_m61_shot_cn_m24_chaffee",
+        "vehicleId": "cn_m24_chaffee",
+        "vehicleName": "␗M24",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_cn_m4a1_76w_sherman",
+        "vehicleId": "cn_m4a1_76w_sherman",
+        "vehicleName": "␗M4A1 (75) W",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_cn_m4a4_sherman",
+        "vehicleId": "cn_m4a4_sherman",
+        "vehicleName": "␗M4A4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "75mm_m61_shot_cn_m4a4_sherman_1st_ptg",
+        "vehicleId": "cn_m4a4_sherman_1st_ptg",
+        "vehicleName": "␗M4A4 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 618,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      }
+    ]
+  },
+  {
+    "id": "75mm_m64",
+    "designation": "M64",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "75mm_m64_cn_m24_chaffee",
+        "vehicleId": "cn_m24_chaffee",
+        "vehicleName": "␗M24",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 6.9,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 603,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m64_cn_m8_scott",
+        "vehicleId": "cn_m8_scott",
+        "vehicleName": "␗M8 HMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 6.9,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 603,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "75mm_m66",
+    "designation": "M66",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "75mm_m66_cn_m8_scott",
+        "vehicleId": "cn_m8_scott",
+        "vehicleName": "␗M8 HMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "1.3",
+          "RB": "1.3",
+          "SB": "1.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 75,
+        "projectileMassKg": 6.0,
+        "penetrationMm": 8.9,
+        "muzzleVelocityMs": 304,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Pentolite",
+        "explosiveMassKg": 0.453,
+        "tntEquivalentKg": 0.548
+      }
+    ]
+  },
+  {
+    "id": "75mm_m72_shot",
+    "designation": "M72 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "75mm_m72_shot_cn_m24_chaffee",
+        "vehicleId": "cn_m24_chaffee",
+        "vehicleName": "␗M24",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "75mm_m72_shot_cn_m4a1_76w_sherman",
+        "vehicleId": "cn_m4a1_76w_sherman",
+        "vehicleName": "␗M4A1 (75) W",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "75mm_m72_shot_cn_m4a4_sherman",
+        "vehicleId": "cn_m4a4_sherman",
+        "vehicleName": "␗M4A4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "75mm_m72_shot_cn_m4a4_sherman_1st_ptg",
+        "vehicleId": "cn_m4a4_sherman_1st_ptg",
+        "vehicleName": "␗M4A4 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 75,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 91.0,
+        "muzzleVelocityMs": 619,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "75mm_m89",
+    "designation": "M89",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "75mm_m89_cn_m4a1_76w_sherman",
+        "vehicleId": "cn_m4a1_76w_sherman",
+        "vehicleName": "␗M4A1 (75) W",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_cn_m4a4_sherman",
+        "vehicleId": "cn_m4a4_sherman",
+        "vehicleName": "␗M4A4",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "75mm_m89_cn_m4a4_sherman_1st_ptg",
+        "vehicleId": "cn_m4a4_sherman_1st_ptg",
+        "vehicleName": "␗M4A4 (1st PTG)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.7",
+          "SB": "3.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 75,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 259,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_bk_354m",
+    "designation": "BK-354M",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_bk_354m_cn_pt_76",
+        "vehicleId": "cn_pt_76",
+        "vehicleName": "␗PT-76",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 8.9,
+        "muzzleVelocityMs": 700,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 0.44,
+        "tntEquivalentKg": 0.55
+      }
+    ]
+  },
+  {
+    "id": "76mm_bp_353a",
+    "designation": "BP-353A",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEAT",
+    "damage": "damage_small",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_bp_353a_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 9.4,
+        "muzzleVelocityMs": 355,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 0.48,
+        "tntEquivalentKg": 0.6
+      },
+      {
+        "id": "76mm_bp_353a_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 3.9,
+        "penetrationMm": 9.4,
+        "muzzleVelocityMs": 355,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "A-IX-1",
+        "explosiveMassKg": 0.48,
+        "tntEquivalentKg": 0.6
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_350a_(md_5_fuze)",
+    "designation": "BR-350A (MD-5 fuze)",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_br_350a_(md_5_fuze)_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 4.5,
+        "muzzleVelocityMs": 662,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.15
+      },
+      {
+        "id": "76mm_br_350a_(md_5_fuze)_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.3,
+        "penetrationMm": 4.5,
+        "muzzleVelocityMs": 662,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.15
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_350b_(md_8_fuze)",
+    "designation": "BR-350B (MD-8 fuze)",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_br_350b_(md_8_fuze)_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.9,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      },
+      {
+        "id": "76mm_br_350b_(md_8_fuze)_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 4.0,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 0.9,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.1
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_350sp",
+    "designation": "BR-350SP",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_br_350sp_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 99.0,
+        "muzzleVelocityMs": 655
+      },
+      {
+        "id": "76mm_br_350sp_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 99.0,
+        "muzzleVelocityMs": 655
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_354",
+    "designation": "BR-354",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_br_354_cn_pt_76",
+        "vehicleId": "cn_pt_76",
+        "vehicleName": "␗PT-76",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.5,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 655,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.032,
+        "tntEquivalentKg": 0.049
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_354n",
+    "designation": "BR-354N",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_br_354n_cn_pt_76",
+        "vehicleId": "cn_pt_76",
+        "vehicleName": "␗PT-76",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 3.3,
+        "penetrationMm": 152.0,
+        "muzzleVelocityMs": 950
+      }
+    ]
+  },
+  {
+    "id": "76mm_br_354p",
+    "designation": "BR-354P",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_br_354p_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 125.0,
+        "muzzleVelocityMs": 950
+      },
+      {
+        "id": "76mm_br_354p_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 3.0,
+        "penetrationMm": 125.0,
+        "muzzleVelocityMs": 950
+      }
+    ]
+  },
+  {
+    "id": "76mm_d_350a",
+    "designation": "D-350A",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_d_350a_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_d_350a_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_m339_shot",
+    "designation": "M339 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APBC",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_m339_shot_cn_m41_a3_walker_bulldog",
+        "vehicleId": "cn_m41_a3_walker_bulldog",
+        "vehicleName": "␗M41A3",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 6.6,
+        "penetrationMm": 177.0,
+        "muzzleVelocityMs": 975,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "76mm_m352_shell",
+    "designation": "M352 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_m352_shell_cn_m41_a3_walker_bulldog",
+        "vehicleId": "cn_m41_a3_walker_bulldog",
+        "vehicleName": "␗M41A3",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 12.4,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.662,
+        "tntEquivalentKg": 0.867
+      },
+      {
+        "id": "76mm_m352_shell_cn_m_41d",
+        "vehicleId": "cn_m_41d",
+        "vehicleName": "M41D",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 12.4,
+        "muzzleVelocityMs": 732,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.662,
+        "tntEquivalentKg": 0.867
+      }
+    ]
+  },
+  {
+    "id": "76mm_m361",
+    "designation": "M361",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_m361_cn_m41_a3_walker_bulldog",
+        "vehicleId": "cn_m41_a3_walker_bulldog",
+        "vehicleName": "␗M41A3",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 7.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 713,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_m361_cn_m_41d",
+        "vehicleId": "cn_m_41d",
+        "vehicleName": "M41D",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 7.1,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 713,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_m42a1_shell",
+    "designation": "M42A1 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_m42a1_shell_cn_m10",
+        "vehicleId": "cn_m10",
+        "vehicleName": "␗M10 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 7.1,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.39
+      },
+      {
+        "id": "76mm_m42a1_shell_cn_m18_hellcat",
+        "vehicleId": "cn_m18_hellcat",
+        "vehicleName": "␗M18 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 7.1,
+        "muzzleVelocityMs": 823,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.39
+      },
+      {
+        "id": "76mm_m42a1_shell_cn_type_64",
+        "vehicleId": "cn_type_64",
+        "vehicleName": "M64",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 7.1,
+        "muzzleVelocityMs": 823,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.39
+      }
+    ]
+  },
+  {
+    "id": "76mm_m464",
+    "designation": "M464",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_m464_cn_m_41d",
+        "vehicleId": "cn_m_41d",
+        "vehicleName": "M41D",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 1.6,
+        "penetrationMm": 268.0,
+        "muzzleVelocityMs": 1433,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "76mm_m496_shell",
+    "designation": "M496 shell",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_m496_shell_cn_m_41d",
+        "vehicleId": "cn_m_41d",
+        "vehicleName": "M41D",
+        "vehicleTechTree": "China",
+        "vehicleRank": "VI",
+        "vehicleBr": {
+          "AB": "8.0",
+          "RB": "8.0",
+          "SB": "8.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 3.2,
+        "penetrationMm": 10.0,
+        "muzzleVelocityMs": 1082,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.499,
+        "tntEquivalentKg": 0.654
+      }
+    ]
+  },
+  {
+    "id": "76mm_m62_shell",
+    "designation": "M62 shell",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "76mm_m62_shell_cn_m10",
+        "vehicleId": "cn_m10",
+        "vehicleName": "␗M10 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "76mm_m62_shell_cn_m18_hellcat",
+        "vehicleId": "cn_m18_hellcat",
+        "vehicleName": "␗M18 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      },
+      {
+        "id": "76mm_m62_shell_cn_type_64",
+        "vehicleId": "cn_type_64",
+        "vehicleName": "M64",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 3.2,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.065,
+        "tntEquivalentKg": 0.064
+      }
+    ]
+  },
+  {
+    "id": "76mm_m79_shot",
+    "designation": "M79 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "76mm_m79_shot_cn_m10",
+        "vehicleId": "cn_m10",
+        "vehicleName": "␗M10 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "II",
+        "vehicleBr": {
+          "AB": "3.7",
+          "RB": "3.3",
+          "SB": "3.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 134.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "76mm_m79_shot_cn_m18_hellcat",
+        "vehicleId": "cn_m18_hellcat",
+        "vehicleName": "␗M18 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 134.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China"
+      },
+      {
+        "id": "76mm_m79_shot_cn_type_64",
+        "vehicleId": "cn_type_64",
+        "vehicleName": "M64",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 76,
+        "projectileMassKg": 6.8,
+        "penetrationMm": 134.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "76mm_m88",
+    "designation": "M88",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Smoke",
+    "damage": null,
+    "armor": null,
+    "performances": [
+      {
+        "id": "76mm_m88_cn_m18_hellcat",
+        "vehicleId": "cn_m18_hellcat",
+        "vehicleName": "␗M18 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 274,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      },
+      {
+        "id": "76mm_m88_cn_type_64",
+        "vehicleId": "cn_type_64",
+        "vehicleName": "M64",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": null,
+        "armor": null,
+        "caliberMm": 76,
+        "projectileMassKg": 3.4,
+        "penetrationMm": 2.9,
+        "muzzleVelocityMs": 274,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.4,
+        "fuzeSensitivityMm": 0.5,
+        "explosiveType": "Smoke composition",
+        "explosiveMassKg": 0.05
+      }
+    ]
+  },
+  {
+    "id": "76mm_m93_shot",
+    "designation": "M93 shot",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "76mm_m93_shot_cn_type_64",
+        "vehicleId": "cn_type_64",
+        "vehicleName": "M64",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "6.0",
+          "SB": "6.0"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 76,
+        "projectileMassKg": 4.2,
+        "penetrationMm": 191.0,
+        "muzzleVelocityMs": 1036,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "76mm_of_350m",
+    "designation": "OF-350M",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_of_350m_cn_pt_76",
+        "vehicleId": "cn_pt_76",
+        "vehicleName": "␗PT-76",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 9.7,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.621
+      },
+      {
+        "id": "76mm_of_350m_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 9.7,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.621
+      },
+      {
+        "id": "76mm_of_350m_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.2,
+        "penetrationMm": 9.7,
+        "muzzleVelocityMs": 680,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.621
+      }
+    ]
+  },
+  {
+    "id": "76mm_sh_354t",
+    "designation": "Sh-354T",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "Shrapnel",
+    "damage": "explosion_small",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "76mm_sh_354t_cn_su_76m_1943",
+        "vehicleId": "cn_su_76m_1943",
+        "vehicleName": "␗SU-76M",
+        "vehicleTechTree": "China",
+        "vehicleRank": "I",
+        "vehicleBr": {
+          "AB": "2.0",
+          "RB": "2.0",
+          "SB": "2.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      },
+      {
+        "id": "76mm_sh_354t_cn_t_34_1942",
+        "vehicleId": "cn_t_34_1942",
+        "vehicleName": "␗T-34 (1943)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "4.0",
+          "RB": "4.0",
+          "SB": "4.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_vsmall",
+        "caliberMm": 76,
+        "projectileMassKg": 6.4,
+        "penetrationMm": 3.7,
+        "muzzleVelocityMs": 618,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.085
+      }
+    ]
+  },
+  {
+    "id": "85mm_br_365",
+    "designation": "BR-365",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "85mm_br_365_cn_t_34_85_d_5t",
+        "vehicleId": "cn_t_34_85_d_5t",
+        "vehicleName": "␗T-34-85 (S-53)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      },
+      {
+        "id": "85mm_br_365_cn_t_34_85_zis_53_no215",
+        "vehicleId": "cn_t_34_85_zis_53_no215",
+        "vehicleName": "T-34-85 No.215",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      }
+    ]
+  },
+  {
+    "id": "85mm_br_365k",
+    "designation": "BR-365K",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "85mm_br_365k_cn_t_34_85_d_5t",
+        "vehicleId": "cn_t_34_85_d_5t",
+        "vehicleName": "␗T-34-85 (S-53)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      },
+      {
+        "id": "85mm_br_365k_cn_t_34_85_zis_53_no215",
+        "vehicleId": "cn_t_34_85_zis_53_no215",
+        "vehicleName": "T-34-85 No.215",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      }
+    ]
+  },
+  {
+    "id": "85mm_br_365p",
+    "designation": "BR-365P",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "85mm_br_365p_cn_t_34_85_d_5t",
+        "vehicleId": "cn_t_34_85_d_5t",
+        "vehicleName": "␗T-34-85 (S-53)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 5.0,
+        "penetrationMm": 195.0,
+        "muzzleVelocityMs": 1050
+      },
+      {
+        "id": "85mm_br_365p_cn_t_34_85_zis_53_no215",
+        "vehicleId": "cn_t_34_85_zis_53_no215",
+        "vehicleName": "T-34-85 No.215",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 5.0,
+        "penetrationMm": 195.0,
+        "muzzleVelocityMs": 1050
+      }
+    ]
+  },
+  {
+    "id": "85mm_djw85",
+    "designation": "DJW85",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APFSDS",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "85mm_djw85_cn_zts_63_1980",
+        "vehicleId": "cn_zts_63_1980",
+        "vehicleName": "ZTS63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 2.1,
+        "penetrationMm": 227.0,
+        "muzzleVelocityMs": 1290
+      }
+    ]
+  },
+  {
+    "id": "85mm_o_365k",
+    "designation": "O-365K",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "85mm_o_365k_cn_t_34_85_d_5t",
+        "vehicleId": "cn_t_34_85_d_5t",
+        "vehicleName": "␗T-34-85 (S-53)",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      },
+      {
+        "id": "85mm_o_365k_cn_t_34_85_zis_53_no215",
+        "vehicleId": "cn_t_34_85_zis_53_no215",
+        "vehicleName": "T-34-85 No.215",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_ap",
+    "designation": "Type 56 AP",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHE",
+    "damage": "explosion_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "85mm_type_56_ap_cn_type_58",
+        "vehicleId": "cn_type_58",
+        "vehicleName": "T-34-85 Gai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_apbc",
+    "designation": "Type 56 APBC",
+    "category": "Kinetic",
+    "family": "HE-filled-AP",
+    "variant": "APHEBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "85mm_type_56_apbc_cn_object_211",
+        "vehicleId": "cn_object_211",
+        "vehicleName": "Object 211",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      },
+      {
+        "id": "85mm_type_56_apbc_cn_type_58",
+        "vehicleId": "cn_type_58",
+        "vehicleName": "T-34-85 Gai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      },
+      {
+        "id": "85mm_type_56_apbc_cn_type_62",
+        "vehicleId": "cn_type_62",
+        "vehicleName": "Type 62",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      },
+      {
+        "id": "85mm_type_56_apbc_cn_type_63_i",
+        "vehicleId": "cn_type_63_i",
+        "vehicleName": "Type 63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 4.6,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.164
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_apcbc",
+    "designation": "Type 56 APCBC",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "85mm_type_56_apcbc_cn_object_211",
+        "vehicleId": "cn_object_211",
+        "vehicleName": "Object 211",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      },
+      {
+        "id": "85mm_type_56_apcbc_cn_type_62",
+        "vehicleId": "cn_type_62",
+        "vehicleName": "Type 62",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      },
+      {
+        "id": "85mm_type_56_apcbc_cn_type_63_i",
+        "vehicleId": "cn_type_63_i",
+        "vehicleName": "Type 63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      },
+      {
+        "id": "85mm_type_56_apcbc_cn_zts_63_1980",
+        "vehicleId": "cn_zts_63_1980",
+        "vehicleName": "ZTS63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_small",
+        "caliberMm": 85,
+        "projectileMassKg": 9.2,
+        "penetrationMm": 3.5,
+        "muzzleVelocityMs": 792,
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "A-IX-2",
+        "explosiveMassKg": 0.05,
+        "tntEquivalentKg": 0.077
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_apcr",
+    "designation": "Type 56 APCR",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "85mm_type_56_apcr_cn_type_58",
+        "vehicleId": "cn_type_58",
+        "vehicleName": "T-34-85 Gai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 5.0,
+        "penetrationMm": 195.0,
+        "muzzleVelocityMs": 1050
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_he",
+    "designation": "Type 56 HE",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "85mm_type_56_he_cn_object_211",
+        "vehicleId": "cn_object_211",
+        "vehicleName": "Object 211",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.0",
+          "RB": "5.0",
+          "SB": "5.0"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      },
+      {
+        "id": "85mm_type_56_he_cn_type_58",
+        "vehicleId": "cn_type_58",
+        "vehicleName": "T-34-85 Gai",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.7",
+          "RB": "5.7",
+          "SB": "5.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      },
+      {
+        "id": "85mm_type_56_he_cn_type_62",
+        "vehicleId": "cn_type_62",
+        "vehicleName": "Type 62",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      },
+      {
+        "id": "85mm_type_56_he_cn_type_63_i",
+        "vehicleId": "cn_type_63_i",
+        "vehicleName": "Type 63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      },
+      {
+        "id": "85mm_type_56_he_cn_zts_63_1980",
+        "vehicleId": "cn_zts_63_1980",
+        "vehicleName": "ZTS63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 85,
+        "projectileMassKg": 9.5,
+        "penetrationMm": 11.0,
+        "muzzleVelocityMs": 785,
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "TNT",
+        "explosiveMassKg": 0.741
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_heat_fs",
+    "designation": "Type 56 HEAT-FS",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_big",
+    "performances": [
+      {
+        "id": "85mm_type_56_heat_fs_cn_type_62",
+        "vehicleId": "cn_type_62",
+        "vehicleName": "Type 62",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 11.9,
+        "muzzleVelocityMs": 845,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Pentolite",
+        "explosiveMassKg": 0.68,
+        "tntEquivalentKg": 0.823
+      },
+      {
+        "id": "85mm_type_56_heat_fs_cn_type_63_i",
+        "vehicleId": "cn_type_63_i",
+        "vehicleName": "Type 63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 11.9,
+        "muzzleVelocityMs": 845,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Pentolite",
+        "explosiveMassKg": 0.68,
+        "tntEquivalentKg": 0.823
+      },
+      {
+        "id": "85mm_type_56_heat_fs_cn_zts_63_1980",
+        "vehicleId": "cn_zts_63_1980",
+        "vehicleName": "ZTS63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_big",
+        "caliberMm": 85,
+        "projectileMassKg": 7.0,
+        "penetrationMm": 11.9,
+        "muzzleVelocityMs": 845,
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Pentolite",
+        "explosiveMassKg": 0.68,
+        "tntEquivalentKg": 0.823
+      }
+    ]
+  },
+  {
+    "id": "85mm_type_56_hvap",
+    "designation": "Type 56 HVAP",
+    "category": "Kinetic",
+    "family": "Sub-caliber-AP",
+    "variant": "APCR",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "85mm_type_56_hvap_cn_type_62",
+        "vehicleId": "cn_type_62",
+        "vehicleName": "Type 62",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.7",
+          "RB": "6.7",
+          "SB": "6.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 5.3,
+        "penetrationMm": 208.0,
+        "muzzleVelocityMs": 1020
+      },
+      {
+        "id": "85mm_type_56_hvap_cn_type_63_i",
+        "vehicleId": "cn_type_63_i",
+        "vehicleName": "Type 63",
+        "vehicleTechTree": "China",
+        "vehicleRank": "IV",
+        "vehicleBr": {
+          "AB": "6.3",
+          "RB": "6.3",
+          "SB": "6.3"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 85,
+        "projectileMassKg": 5.3,
+        "penetrationMm": 208.0,
+        "muzzleVelocityMs": 1020
+      }
+    ]
+  },
+  {
+    "id": "90mm_m431_shell",
+    "designation": "M431 shell",
+    "category": "Chemical",
+    "family": "HEAT",
+    "variant": "HEATFS",
+    "damage": "damage_small",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "90mm_m431_shell_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage_small",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 5.8,
+        "penetrationMm": 10.7,
+        "muzzleVelocityMs": 1216,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.05,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.544,
+        "tntEquivalentKg": 0.713
+      }
+    ]
+  },
+  {
+    "id": "90mm_m71_shell",
+    "designation": "M71 shell",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HE",
+    "damage": "explosion_big",
+    "armor": "armor_vsmall",
+    "performances": [
+      {
+        "id": "90mm_m71_shell_cn_m36",
+        "vehicleId": "cn_m36",
+        "vehicleName": "␗M36 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 823,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      },
+      {
+        "id": "90mm_m71_shell_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_big",
+        "armor": "armor_vsmall",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 16.2,
+        "muzzleVelocityMs": 823,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.2,
+        "fuzeSensitivityMm": 0.1,
+        "explosiveType": "Composition B",
+        "explosiveMassKg": 0.925,
+        "tntEquivalentKg": 1.2
+      }
+    ]
+  },
+  {
+    "id": "90mm_m77_shot",
+    "designation": "M77 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "AP",
+    "damage": "damage",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "90mm_m77_shot_cn_m36",
+        "vehicleId": "cn_m36",
+        "vehicleName": "␗M36 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "damage",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 162.0,
+        "muzzleVelocityMs": 822,
+        "vehicleOperator": "China"
+      }
+    ]
+  },
+  {
+    "id": "90mm_m82_shot",
+    "designation": "M82 shot",
+    "category": "Kinetic",
+    "family": "Solid-AP",
+    "variant": "APCBC",
+    "damage": "explosion_middle",
+    "armor": "armor_middle",
+    "performances": [
+      {
+        "id": "90mm_m82_shot_cn_m36",
+        "vehicleId": "cn_m36",
+        "vehicleName": "␗M36 GMC",
+        "vehicleTechTree": "China",
+        "vehicleRank": "III",
+        "vehicleBr": {
+          "AB": "5.3",
+          "RB": "5.3",
+          "SB": "5.3"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_big",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      },
+      {
+        "id": "90mm_m82_shot_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "explosion_middle",
+        "armor": "armor_middle",
+        "caliberMm": 90,
+        "projectileMassKg": 10.9,
+        "penetrationMm": 4.4,
+        "muzzleVelocityMs": 853,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 1.2,
+        "fuzeSensitivityMm": 14.0,
+        "explosiveType": "Exp. D",
+        "explosiveMassKg": 0.14,
+        "tntEquivalentKg": 0.137
+      }
+    ]
+  },
+  {
+    "id": "90mm_t142e3",
+    "designation": "T142E3",
+    "category": "Chemical",
+    "family": "High-Explosive",
+    "variant": "HESH",
+    "damage": "damage",
+    "armor": "armor_small",
+    "performances": [
+      {
+        "id": "90mm_t142e3_cn_m48a1_patton_iii",
+        "vehicleId": "cn_m48a1_patton_iii",
+        "vehicleName": "␗M48A1",
+        "vehicleTechTree": "China",
+        "vehicleRank": "V",
+        "vehicleBr": {
+          "AB": "7.7",
+          "RB": "7.7",
+          "SB": "7.7"
+        },
+        "damage": "damage",
+        "armor": "armor_small",
+        "caliberMm": 90,
+        "projectileMassKg": 10.6,
+        "penetrationMm": 102.0,
+        "muzzleVelocityMs": 792,
+        "vehicleOperator": "China",
+        "fuzeDelayM": 0.1,
+        "fuzeSensitivityMm": 4.0,
+        "explosiveType": "Comp. A",
+        "explosiveMassKg": 2.1,
+        "tntEquivalentKg": 3.1
+      }
+    ]
+  }
 ];

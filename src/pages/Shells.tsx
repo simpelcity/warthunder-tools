@@ -45,6 +45,10 @@ const DEFAULT_FILTERS: ShellFilters = {
   shell: "All",
 };
 
+console.log(tankShells[361]);
+console.log(tankShells[362]);
+console.log(tankShells[363]);
+
 export default function Shells() {
   const [activeShellId, setActiveShellId] = useState<string | null>(null);
   const [activeShellPlacement, setActiveShellPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
