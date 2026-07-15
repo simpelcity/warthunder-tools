@@ -7,7 +7,7 @@ export const tankShellVariantNames = {
 	APCBC: "Armor-Piercing Capped Ballistic Capped",
 	APHE: "Armor-Piercing High-Explosive",
 	APHEBC: "Armor-Piercing High-Explosive Ballistic Capped",
-	AC: "Armor-Capped",
+	AC: "Anti-Concrete",
 	SAP: "Semi Armor-Piercing",
 	SAPCBC: "Semi Armor-Piercing Capped Ballistic Capped",
   SAPHEI: "Semi Armor-Piercing High-Explosive Incendiary",

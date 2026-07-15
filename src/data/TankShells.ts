@@ -25,7 +25,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 103,
         projectileMassKg: 6.7,
-        penetrationMm: 23.2,
+        penetrationMm: 530,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -52,7 +52,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 103,
         projectileMassKg: 6.7,
-        penetrationMm: 23.2,
+        penetrationMm: 530,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -79,7 +79,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: null,
         caliberMm: 103,
         projectileMassKg: 6.7,
-        penetrationMm: 23.2,
+        penetrationMm: 530,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -105,7 +105,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: null,
         caliberMm: 103,
         projectileMassKg: 6.7,
-        penetrationMm: 23.2,
+        penetrationMm: 530,
         vehicleOperator: "South Africa",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -227,7 +227,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -251,7 +251,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -275,7 +275,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -299,7 +299,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -323,7 +323,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Canada (modern)",
         fuzeDelayM: 0.05,
@@ -347,7 +347,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -371,7 +371,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -395,7 +395,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -419,7 +419,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -443,7 +443,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -467,7 +467,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -491,7 +491,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa (modern)",
         fuzeDelayM: 0.05,
@@ -515,7 +515,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Argentina",
         fuzeDelayM: 0.05,
@@ -539,7 +539,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Argentina",
         fuzeDelayM: 0.05,
@@ -563,7 +563,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Argentina",
         fuzeDelayM: 0.05,
@@ -587,7 +587,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa",
         fuzeDelayM: 0.05,
@@ -611,9 +611,103 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_dm12_fr_leopard_1a5be",
+        vehicleId: "fr_leopard_1a5be",
+        vehicleName: "Leopard 1A5BE",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        vehicleOperator: "Belgium",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_dm12_it_leopard_1a2",
+        vehicleId: "it_leopard_1a2",
+        vehicleName: "▄Leopard 1A2",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_dm12_it_leopard_1a5",
+        vehicleId: "it_leopard_1a5",
+        vehicleName: "▄Leopard 1A5",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_dm12_sw_leopard_1a5no",
+        vehicleId: "sw_leopard_1a5no",
+        vehicleName: "Leopard 1A5NO2",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        vehicleOperator: "Norway",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -725,6 +819,24 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 350,
         muzzleVelocityMs: 1478,
         vehicleOperator: "Argentina"
+      },
+      {
+        id: "105mm_dm13_it_leopard_1a2",
+        vehicleId: "it_leopard_1a2",
+        vehicleName: "▄Leopard 1A2",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
       }
     ]
   },
@@ -1019,6 +1131,171 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.2,
         penetrationMm: 338,
         muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_fr_leopard_1a5be",
+        vehicleId: "fr_leopard_1a5be",
+        vehicleName: "Leopard 1A5BE",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Belgium"
+      },
+      {
+        id: "105mm_dm23_it_b1_centauro",
+        vehicleId: "it_b1_centauro",
+        vehicleName: "Centauro I 105",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_it_leopard_1a5",
+        vehicleId: "it_leopard_1a5",
+        vehicleName: "▄Leopard 1A5",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_it_of_40_mk_2a",
+        vehicleId: "it_of_40_mk_2a",
+        vehicleName: "OF-40 Mk.2A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_sw_cv_90105",
+        vehicleId: "sw_cv_90105",
+        vehicleName: "CV 90105 TML",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm23_sw_leopard_1a5no",
+        vehicleId: "sw_leopard_1a5no",
+        vehicleName: "Leopard 1A5NO2",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Norway"
+      },
+      {
+        id: "105mm_dm23_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -1351,6 +1628,154 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 421,
         muzzleVelocityMs: 1455,
         vehicleOperator: "China"
+      },
+      {
+        id: "105mm_dm33_fr_leopard_1a5be",
+        vehicleId: "fr_leopard_1a5be",
+        vehicleName: "Leopard 1A5BE",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Belgium"
+      },
+      {
+        id: "105mm_dm33_it_b1_centauro_romor",
+        vehicleId: "it_b1_centauro_romor",
+        vehicleName: "Centauro I 105 R",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm33_it_leopard_1a5",
+        vehicleId: "it_leopard_1a5",
+        vehicleName: "▄Leopard 1A5",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm33_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm33_it_vrcc_centauro",
+        vehicleId: "it_vrcc_centauro",
+        vehicleName: "VRCC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Spain"
+      },
+      {
+        id: "105mm_dm33_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_dm33_sw_leopard_1a5no",
+        vehicleId: "sw_leopard_1a5no",
+        vehicleName: "Leopard 1A5NO2",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Norway"
+      },
+      {
+        id: "105mm_dm33_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -1770,6 +2195,100 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Comp. A",
         explosiveMassKg: 3,
         tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_dm512_fr_leopard_1a5be",
+        vehicleId: "fr_leopard_1a5be",
+        vehicleName: "Leopard 1A5BE",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Belgium",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_dm512_it_leopard_1a2",
+        vehicleId: "it_leopard_1a2",
+        vehicleName: "▄Leopard 1A2",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_dm512_it_leopard_1a5",
+        vehicleId: "it_leopard_1a5",
+        vehicleName: "▄Leopard 1A5",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_dm512_sw_leopard_1a5no",
+        vehicleId: "sw_leopard_1a5no",
+        vehicleName: "Leopard 1A5NO2",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Norway",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
       }
     ]
   },
@@ -2002,7 +2521,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 12.4,
-        penetrationMm: 30.3,
+        penetrationMm: 105,
         muzzleVelocityMs: 495,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -2036,7 +2555,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 12.4,
-        penetrationMm: 30.5,
+        penetrationMm: 115,
         muzzleVelocityMs: 495,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -2060,6 +2579,28 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "us_m4a3_105_sherman",
         vehicleName: "M4A3 (105)",
         vehicleTechTree: "USA",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 14.9,
+        penetrationMm: 26.8,
+        muzzleVelocityMs: 472,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.2
+      },
+      {
+        id: "105mm_m1_shell_fr_m4a3_105_sherman",
+        vehicleId: "fr_m4a3_105_sherman",
+        vehicleName: "▄M4A3 (105)",
+        vehicleTechTree: "France",
         vehicleRank: "II",
         vehicleBr: {
           AB: "3.3",
@@ -2201,6 +2742,276 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 338,
         muzzleVelocityMs: 1455,
         vehicleOperator: "South Africa"
+      },
+      {
+        id: "105mm_m111_il_centurion_shot_kal_d",
+        vehicleId: "il_centurion_shot_kal_d",
+        vehicleName: "Sho't Kal Dalet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_centurion_shot_kal_gimel",
+        vehicleId: "il_centurion_shot_kal_gimel",
+        vehicleName: "Sho't Kal Gimel",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_5",
+        vehicleId: "il_magach_5",
+        vehicleName: "Magach 5",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6_rocket",
+        vehicleId: "il_magach_6_rocket",
+        vehicleName: "Magach Hydra",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6b",
+        vehicleId: "il_magach_6b",
+        vehicleName: "Magach 6B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6b_gal",
+        vehicleId: "il_magach_6b_gal",
+        vehicleName: "Magach 6B Gal",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6b_gal_batash",
+        vehicleId: "il_magach_6b_gal_batash",
+        vehicleName: "Gal Batash",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6c",
+        vehicleId: "il_magach_6c",
+        vehicleName: "Magach 6C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6m",
+        vehicleId: "il_magach_6m",
+        vehicleName: "Magach 6M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_6r",
+        vehicleId: "il_magach_6r",
+        vehicleName: "Magach 6R",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_magach_7c",
+        vehicleId: "il_magach_7c",
+        vehicleName: "Magach 7C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_merkava_mk_1",
+        vehicleId: "il_merkava_mk_1",
+        vehicleName: "Merkava Mk.1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_merkava_mk_1b",
+        vehicleId: "il_merkava_mk_1b",
+        vehicleName: "Merkava Mk.1B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_merkava_mk_2b_early",
+        vehicleId: "il_merkava_mk_2b_early",
+        vehicleName: "Merkava Mk.2B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m111_il_merkava_mk_2d",
+        vehicleId: "il_merkava_mk_2d",
+        vehicleName: "Merkava Mk.2D",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
       }
     ]
   },
@@ -2228,7 +3039,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Israel",
         fuzeDelayM: 0.05,
@@ -2252,7 +3063,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Israel",
         fuzeDelayM: 0.05,
@@ -2276,7 +3087,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Israel",
         fuzeDelayM: 0.05,
@@ -2300,7 +3111,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Israel",
         fuzeDelayM: 0.05,
@@ -2324,7 +3135,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa",
         fuzeDelayM: 0.05,
@@ -2348,9 +3159,446 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_centurion_shot_kal_d",
+        vehicleId: "il_centurion_shot_kal_d",
+        vehicleName: "Sho't Kal Dalet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_centurion_shot_kal_gimel",
+        vehicleId: "il_centurion_shot_kal_gimel",
+        vehicleName: "Sho't Kal Gimel",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_3",
+        vehicleId: "il_magach_3",
+        vehicleName: "Magach 3 (ERA)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_3_idf",
+        vehicleId: "il_magach_3_idf",
+        vehicleName: "Magach 3",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_5",
+        vehicleId: "il_magach_5",
+        vehicleName: "Magach 5",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6",
+        vehicleId: "il_magach_6",
+        vehicleName: "Magach 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6_rocket",
+        vehicleId: "il_magach_6_rocket",
+        vehicleName: "Magach Hydra",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6b",
+        vehicleId: "il_magach_6b",
+        vehicleName: "Magach 6B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6b_gal",
+        vehicleId: "il_magach_6b_gal",
+        vehicleName: "Magach 6B Gal",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6b_gal_batash",
+        vehicleId: "il_magach_6b_gal_batash",
+        vehicleName: "Gal Batash",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6c",
+        vehicleId: "il_magach_6c",
+        vehicleName: "Magach 6C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6m",
+        vehicleId: "il_magach_6m",
+        vehicleName: "Magach 6M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_6r",
+        vehicleId: "il_magach_6r",
+        vehicleName: "Magach 6R",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_magach_7c",
+        vehicleId: "il_magach_7c",
+        vehicleName: "Magach 7C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_merkava_mk_1",
+        vehicleId: "il_merkava_mk_1",
+        vehicleName: "Merkava Mk.1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_merkava_mk_1b",
+        vehicleId: "il_merkava_mk_1b",
+        vehicleName: "Merkava Mk.1B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_merkava_mk_2b_early",
+        vehicleId: "il_merkava_mk_2b_early",
+        vehicleName: "Merkava Mk.2B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_merkava_mk_2d",
+        vehicleId: "il_merkava_mk_2d",
+        vehicleName: "Merkava Mk.2D",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m152_il_tiran_4_sh",
+        vehicleId: "il_tiran_4_sh",
+        vehicleName: "Tiran 4S",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -2487,6 +3735,443 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Comp. A",
         explosiveMassKg: 2.2,
         tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_centurion_shot_kal_d",
+        vehicleId: "il_centurion_shot_kal_d",
+        vehicleName: "Sho't Kal Dalet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_centurion_shot_kal_gimel",
+        vehicleId: "il_centurion_shot_kal_gimel",
+        vehicleName: "Sho't Kal Gimel",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_3",
+        vehicleId: "il_magach_3",
+        vehicleName: "Magach 3 (ERA)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_3_idf",
+        vehicleId: "il_magach_3_idf",
+        vehicleName: "Magach 3",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_5",
+        vehicleId: "il_magach_5",
+        vehicleName: "Magach 5",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6",
+        vehicleId: "il_magach_6",
+        vehicleName: "Magach 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6_rocket",
+        vehicleId: "il_magach_6_rocket",
+        vehicleName: "Magach Hydra",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6b",
+        vehicleId: "il_magach_6b",
+        vehicleName: "Magach 6B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6b_gal",
+        vehicleId: "il_magach_6b_gal",
+        vehicleName: "Magach 6B Gal",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6b_gal_batash",
+        vehicleId: "il_magach_6b_gal_batash",
+        vehicleName: "Gal Batash",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6c",
+        vehicleId: "il_magach_6c",
+        vehicleName: "Magach 6C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6m",
+        vehicleId: "il_magach_6m",
+        vehicleName: "Magach 6M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_6r",
+        vehicleId: "il_magach_6r",
+        vehicleName: "Magach 6R",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_magach_7c",
+        vehicleId: "il_magach_7c",
+        vehicleName: "Magach 7C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_merkava_mk_1",
+        vehicleId: "il_merkava_mk_1",
+        vehicleName: "Merkava Mk.1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_merkava_mk_1b",
+        vehicleId: "il_merkava_mk_1b",
+        vehicleName: "Merkava Mk.1B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_merkava_mk_2b_early",
+        vehicleId: "il_merkava_mk_2b_early",
+        vehicleName: "Merkava Mk.2B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_merkava_mk_2d",
+        vehicleId: "il_merkava_mk_2d",
+        vehicleName: "Merkava Mk.2D",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_m156_il_tiran_4_sh",
+        vehicleId: "il_tiran_4_sh",
+        vehicleName: "Tiran 4S",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 731,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.2,
+        tntEquivalentKg: 3.2
       }
     ]
   },
@@ -2582,6 +4267,150 @@ export const tankShells: TankShellDefinition[] = [
           AB: "8.3",
           RB: "8.3",
           SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_il_magach_3",
+        vehicleId: "il_magach_3",
+        vehicleName: "Magach 3 (ERA)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_il_magach_3_idf",
+        vehicleId: "il_magach_3_idf",
+        vehicleName: "Magach 3",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_il_magach_6",
+        vehicleId: "il_magach_6",
+        vehicleName: "Magach 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_il_tiran_4_sh",
+        vehicleId: "il_tiran_4_sh",
+        vehicleName: "Tiran 4S",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_it_m47_105",
+        vehicleId: "it_m47_105",
+        vehicleName: "M47 (105/55)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_it_of_40_mk_1",
+        vehicleId: "it_of_40_mk_1",
+        vehicleName: "OF-40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_it_of_40_mk_2a",
+        vehicleId: "it_of_40_mk_2a",
+        vehicleName: "OF-40 Mk.2A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_m392a2_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
         },
         damage: "damage_small",
         armor: "armor_middle",
@@ -3064,6 +4893,307 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Comp. A",
         explosiveMassKg: 3,
         tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_il_centurion_shot_kal_alef",
+        vehicleId: "il_centurion_shot_kal_alef",
+        vehicleName: "Sho't Kal Alef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_il_magach_6a",
+        vehicleId: "il_magach_6a",
+        vehicleName: "Magach 6A",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_b1_centauro",
+        vehicleId: "it_b1_centauro",
+        vehicleName: "Centauro I 105",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_b1_centauro_romor",
+        vehicleId: "it_b1_centauro_romor",
+        vehicleName: "Centauro I 105 R",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_m47_105",
+        vehicleId: "it_m47_105",
+        vehicleName: "M47 (105/55)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_m60a1_ariete",
+        vehicleId: "it_m60a1_ariete",
+        vehicleName: "M60A1 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_of_40_mk_1",
+        vehicleId: "it_of_40_mk_1",
+        vehicleName: "OF-40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_of_40_mk_2a",
+        vehicleId: "it_of_40_mk_2a",
+        vehicleName: "OF-40 Mk.2A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_it_vrcc_centauro",
+        vehicleId: "it_vrcc_centauro",
+        vehicleName: "VRCC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Spain",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_sw_cv_90105",
+        vehicleId: "sw_cv_90105",
+        vehicleName: "CV 90105 TML",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
+      },
+      {
+        id: "105mm_m393a2_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.2,
+        penetrationMm: 127,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 4.3
       }
     ]
   },
@@ -3128,6 +5258,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 421,
         muzzleVelocityMs: 1455,
         vehicleOperator: "Israel"
+      },
+      {
+        id: "105mm_m413_il_merkava_mk_1b",
+        vehicleId: "il_merkava_mk_1b",
+        vehicleName: "Merkava Mk.1B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m413_il_merkava_mk_2b_early",
+        vehicleId: "il_merkava_mk_2b_early",
+        vehicleName: "Merkava Mk.2B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 421,
+        muzzleVelocityMs: 1455
       }
     ]
   },
@@ -3786,6 +5952,690 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_centurion_shot_kal_alef",
+        vehicleId: "il_centurion_shot_kal_alef",
+        vehicleName: "Sho't Kal Alef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_centurion_shot_kal_d",
+        vehicleId: "il_centurion_shot_kal_d",
+        vehicleName: "Sho't Kal Dalet",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_centurion_shot_kal_gimel",
+        vehicleId: "il_centurion_shot_kal_gimel",
+        vehicleName: "Sho't Kal Gimel",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_3",
+        vehicleId: "il_magach_3",
+        vehicleName: "Magach 3 (ERA)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_3_idf",
+        vehicleId: "il_magach_3_idf",
+        vehicleName: "Magach 3",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_5",
+        vehicleId: "il_magach_5",
+        vehicleName: "Magach 5",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6",
+        vehicleId: "il_magach_6",
+        vehicleName: "Magach 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6_rocket",
+        vehicleId: "il_magach_6_rocket",
+        vehicleName: "Magach Hydra",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6a",
+        vehicleId: "il_magach_6a",
+        vehicleName: "Magach 6A",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6b",
+        vehicleId: "il_magach_6b",
+        vehicleName: "Magach 6B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6b_gal",
+        vehicleId: "il_magach_6b_gal",
+        vehicleName: "Magach 6B Gal",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6b_gal_batash",
+        vehicleId: "il_magach_6b_gal_batash",
+        vehicleName: "Gal Batash",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6c",
+        vehicleId: "il_magach_6c",
+        vehicleName: "Magach 6C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6m",
+        vehicleId: "il_magach_6m",
+        vehicleName: "Magach 6M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_6r",
+        vehicleId: "il_magach_6r",
+        vehicleName: "Magach 6R",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_magach_7c",
+        vehicleId: "il_magach_7c",
+        vehicleName: "Magach 7C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_merkava_mk_1",
+        vehicleId: "il_merkava_mk_1",
+        vehicleName: "Merkava Mk.1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_merkava_mk_1b",
+        vehicleId: "il_merkava_mk_1b",
+        vehicleName: "Merkava Mk.1B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_merkava_mk_2b_early",
+        vehicleId: "il_merkava_mk_2b_early",
+        vehicleName: "Merkava Mk.2B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_merkava_mk_2d",
+        vehicleId: "il_merkava_mk_2d",
+        vehicleName: "Merkava Mk.2D",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_il_tiran_4_sh",
+        vehicleId: "il_tiran_4_sh",
+        vehicleName: "Tiran 4S",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_b1_centauro",
+        vehicleId: "it_b1_centauro",
+        vehicleName: "Centauro I 105",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_b1_centauro_romor",
+        vehicleId: "it_b1_centauro_romor",
+        vehicleName: "Centauro I 105 R",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_m60a1_ariete",
+        vehicleId: "it_m60a1_ariete",
+        vehicleName: "M60A1 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_of_40_mk_1",
+        vehicleId: "it_of_40_mk_1",
+        vehicleName: "OF-40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_of_40_mk_2a",
+        vehicleId: "it_of_40_mk_2a",
+        vehicleName: "OF-40 Mk.2A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_it_vrcc_centauro",
+        vehicleId: "it_vrcc_centauro",
+        vehicleName: "VRCC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Spain",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_sw_cv_90105",
+        vehicleId: "sw_cv_90105",
+        vehicleName: "CV 90105 TML",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m416_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 732,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -3813,7 +6663,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3836,7 +6686,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3859,7 +6709,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3882,7 +6732,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3905,7 +6755,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3928,7 +6778,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3951,7 +6801,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -3974,7 +6824,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "South Africa",
         fuzeDelayM: 0.05,
@@ -3998,7 +6848,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4021,7 +6871,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "India",
         fuzeDelayM: 0.05,
@@ -4045,7 +6895,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Thailand",
         fuzeDelayM: 0.05,
@@ -4069,7 +6919,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4092,7 +6942,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4115,9 +6965,240 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "China",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_il_centurion_shot_kal_alef",
+        vehicleId: "il_centurion_shot_kal_alef",
+        vehicleName: "Sho't Kal Alef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_il_magach_6a",
+        vehicleId: "il_magach_6a",
+        vehicleName: "Magach 6A",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_b1_centauro",
+        vehicleId: "it_b1_centauro",
+        vehicleName: "Centauro I 105",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_b1_centauro_romor",
+        vehicleId: "it_b1_centauro_romor",
+        vehicleName: "Centauro I 105 R",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_m47_105",
+        vehicleId: "it_m47_105",
+        vehicleName: "M47 (105/55)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_m60a1_ariete",
+        vehicleId: "it_m60a1_ariete",
+        vehicleName: "M60A1 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_of_40_mk_1",
+        vehicleId: "it_of_40_mk_1",
+        vehicleName: "OF-40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_of_40_mk_2a",
+        vehicleId: "it_of_40_mk_2a",
+        vehicleName: "OF-40 Mk.2A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_of_40_mtca",
+        vehicleId: "it_of_40_mtca",
+        vehicleName: "OF-40 (MTCA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m456_it_vrcc_centauro",
+        vehicleId: "it_vrcc_centauro",
+        vehicleName: "VRCC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        vehicleOperator: "Spain",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -4150,7 +7231,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4173,7 +7254,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4196,7 +7277,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4219,7 +7300,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4242,7 +7323,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4265,7 +7346,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4288,7 +7369,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4311,7 +7392,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4334,7 +7415,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4357,7 +7438,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4380,7 +7461,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4403,7 +7484,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4426,7 +7507,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Thailand",
         fuzeDelayM: 0.05,
@@ -4450,7 +7531,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "China",
         fuzeDelayM: 0.05,
@@ -4485,7 +7566,30 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 13.1,
-        penetrationMm: 20.7,
+        penetrationMm: 130,
+        muzzleVelocityMs: 381,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Pentolite",
+        explosiveMassKg: 1.3,
+        tntEquivalentKg: 1.6
+      },
+      {
+        id: "105mm_m67_shot_fr_m4a3_105_sherman",
+        vehicleId: "fr_m4a3_105_sherman",
+        vehicleName: "▄M4A3 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 13.1,
+        penetrationMm: 130,
         muzzleVelocityMs: 381,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -4649,6 +7753,60 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 265,
         muzzleVelocityMs: 1426,
         vehicleOperator: "China"
+      },
+      {
+        id: "105mm_m728_il_centurion_shot_kal_alef",
+        vehicleId: "il_centurion_shot_kal_alef",
+        vehicleName: "Sho't Kal Alef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 265,
+        muzzleVelocityMs: 1426
+      },
+      {
+        id: "105mm_m728_il_magach_6a",
+        vehicleId: "il_magach_6a",
+        vehicleName: "Magach 6A",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 265,
+        muzzleVelocityMs: 1426
+      },
+      {
+        id: "105mm_m728_it_m60a1_ariete",
+        vehicleId: "it_m60a1_ariete",
+        vehicleName: "M60A1 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 265,
+        muzzleVelocityMs: 1426
       }
     ]
   },
@@ -4987,6 +8145,61 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 292,
         muzzleVelocityMs: 1501,
         vehicleOperator: "China"
+      },
+      {
+        id: "105mm_m735_it_b1_centauro",
+        vehicleId: "it_b1_centauro",
+        vehicleName: "Centauro I 105",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.7,
+        penetrationMm: 292,
+        muzzleVelocityMs: 1501
+      },
+      {
+        id: "105mm_m735_it_b1_centauro_romor",
+        vehicleId: "it_b1_centauro_romor",
+        vehicleName: "Centauro I 105 R",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.7,
+        penetrationMm: 292,
+        muzzleVelocityMs: 1501
+      },
+      {
+        id: "105mm_m735_it_vrcc_centauro",
+        vehicleId: "it_vrcc_centauro",
+        vehicleName: "VRCC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.7,
+        penetrationMm: 292,
+        muzzleVelocityMs: 1501,
+        vehicleOperator: "Spain"
       }
     ]
   },
@@ -5240,6 +8453,28 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_m84_fr_m4a3_105_sherman",
+        vehicleId: "fr_m4a3_105_sherman",
+        vehicleName: "▄M4A3 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 14.9,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 457,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -5350,7 +8585,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.9,
-        penetrationMm: 14.1,
+        penetrationMm: 400,
         muzzleVelocityMs: 800,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -5374,7 +8609,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.9,
-        penetrationMm: 14.1,
+        penetrationMm: 400,
         muzzleVelocityMs: 800,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -5398,9 +8633,263 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 10.9,
-        penetrationMm: 14.1,
+        penetrationMm: 400,
         muzzleVelocityMs: 1000,
         vehicleOperator: "Argentina",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_30",
+        vehicleId: "fr_amx_30",
+        vehicleName: "AMX-30",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_30_1972",
+        vehicleId: "fr_amx_30_1972",
+        vehicleName: "AMX-30 (1972)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_30_b2",
+        vehicleId: "fr_amx_30_b2",
+        vehicleName: "AMX-30B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_30_b2_brenus",
+        vehicleId: "fr_amx_30_b2_brenus",
+        vehicleName: "AMX-30B2 BRENUS",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_30_super",
+        vehicleId: "fr_amx_30_super",
+        vehicleName: "AMX-30 Super",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_amx_32_105",
+        vehicleId: "fr_amx_32_105",
+        vehicleName: "AMX-32 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_marder_clovis",
+        vehicleId: "fr_marder_clovis",
+        vehicleName: "CLOVIS",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_marder_df_105",
+        vehicleId: "fr_marder_df_105",
+        vehicleName: "DF105",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_fr_sk105_a2",
+        vehicleId: "fr_sk105_a2",
+        vehicleName: "SK-105A2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1000,
+        vehicleOperator: "Austria",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_il_m_51",
+        vehicleId: "il_m_51",
+        vehicleName: "M-51",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f1_il_m_51_w",
+        vehicleId: "il_m_51_w",
+        vehicleName: "M-51 (W)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.9,
+        penetrationMm: 400,
+        muzzleVelocityMs: 800,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -5486,6 +8975,249 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_30",
+        vehicleId: "fr_amx_30",
+        vehicleName: "AMX-30",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_30_1972",
+        vehicleId: "fr_amx_30_1972",
+        vehicleName: "AMX-30 (1972)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_30_b2",
+        vehicleId: "fr_amx_30_b2",
+        vehicleName: "AMX-30B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_30_b2_brenus",
+        vehicleId: "fr_amx_30_b2_brenus",
+        vehicleName: "AMX-30B2 BRENUS",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_30_super",
+        vehicleId: "fr_amx_30_super",
+        vehicleName: "AMX-30 Super",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_amx_32_105",
+        vehicleId: "fr_amx_32_105",
+        vehicleName: "AMX-32 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_marder_clovis",
+        vehicleId: "fr_marder_clovis",
+        vehicleName: "CLOVIS",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_marder_df_105",
+        vehicleId: "fr_marder_df_105",
+        vehicleName: "DF105",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_fr_sk105_a2",
+        vehicleId: "fr_sk105_a2",
+        vehicleName: "SK-105A2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 700,
+        vehicleOperator: "Austria",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_il_m_51",
+        vehicleId: "il_m_51",
+        vehicleName: "M-51",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      },
+      {
+        id: "105mm_oe_105_f1_mle.60_il_m_51_w",
+        vehicleId: "il_m_51_w",
+        vehicleName: "M-51 (W)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 12.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
       }
     ]
   },
@@ -5516,6 +9248,25 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 346,
         muzzleVelocityMs: 1475,
         vehicleOperator: "Argentina"
+      },
+      {
+        id: "105mm_ofl_105_g1_fr_sk105_a2",
+        vehicleId: "fr_sk105_a2",
+        vehicleName: "SK-105A2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.4,
+        penetrationMm: 346,
+        muzzleVelocityMs: 1475,
+        vehicleOperator: "Austria"
       }
     ]
   },
@@ -5596,6 +9347,249 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_30",
+        vehicleId: "fr_amx_30",
+        vehicleName: "AMX-30",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_30_1972",
+        vehicleId: "fr_amx_30_1972",
+        vehicleName: "AMX-30 (1972)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_30_b2",
+        vehicleId: "fr_amx_30_b2",
+        vehicleName: "AMX-30B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_30_b2_brenus",
+        vehicleId: "fr_amx_30_b2_brenus",
+        vehicleName: "AMX-30B2 BRENUS",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_30_super",
+        vehicleId: "fr_amx_30_super",
+        vehicleName: "AMX-30 Super",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_amx_32_105",
+        vehicleId: "fr_amx_32_105",
+        vehicleName: "AMX-32 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_marder_clovis",
+        vehicleId: "fr_marder_clovis",
+        vehicleName: "CLOVIS",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_marder_df_105",
+        vehicleId: "fr_marder_df_105",
+        vehicleName: "DF105",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_fr_sk105_a2",
+        vehicleId: "fr_sk105_a2",
+        vehicleName: "SK-105A2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 700,
+        vehicleOperator: "Austria",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_il_m_51",
+        vehicleId: "il_m_51",
+        vehicleName: "M-51",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_ofph_105_f1_il_m_51_w",
+        vehicleId: "il_m_51_w",
+        vehicleName: "M-51 (W)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -5623,7 +9617,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 14,
-        penetrationMm: 6.2,
+        penetrationMm: 155,
         muzzleVelocityMs: 822,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5646,7 +9640,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 105,
         projectileMassKg: 14,
-        penetrationMm: 6.2,
+        penetrationMm: 721,
         muzzleVelocityMs: 480,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5709,7 +9703,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 16.9,
-        penetrationMm: 4.4,
+        penetrationMm: 284,
         muzzleVelocityMs: 1005,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5732,7 +9726,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 15.6,
-        penetrationMm: 6.8,
+        penetrationMm: 187,
         muzzleVelocityMs: 822,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5799,7 +9793,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 105,
         projectileMassKg: 18.6,
-        penetrationMm: 4.8,
+        penetrationMm: 253,
         muzzleVelocityMs: 899,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5822,7 +9816,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 105,
         projectileMassKg: 18.6,
-        penetrationMm: 4.8,
+        penetrationMm: 253,
         muzzleVelocityMs: 899,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5845,7 +9839,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 105,
         projectileMassKg: 18.6,
-        penetrationMm: 4.8,
+        penetrationMm: 253,
         muzzleVelocityMs: 899,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5868,7 +9862,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 105,
         projectileMassKg: 18.6,
-        penetrationMm: 4.8,
+        penetrationMm: 253,
         muzzleVelocityMs: 899,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -5996,7 +9990,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.2,
-        penetrationMm: 20.2,
+        penetrationMm: 380,
         muzzleVelocityMs: 1128,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -6019,7 +10013,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 10.2,
-        penetrationMm: 20.2,
+        penetrationMm: 380,
         muzzleVelocityMs: 1128,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -6299,7 +10293,7 @@ export const tankShells: TankShellDefinition[] = [
     designation: "M344A1",
     category: "Chemical",
     family: "HEAT",
-    variant: "HEAT",
+    variant: "HEAT-Grenade",
     damage: "damage_small",
     armor: "armor_big",
     performances: [
@@ -6318,7 +10312,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 106,
         projectileMassKg: 8,
-        penetrationMm: 21.1,
+        penetrationMm: 433,
         muzzleVelocityMs: 503,
         fuzeSensitivityMm: 0.01,
         explosiveType: "Composition B",
@@ -6340,7 +10334,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 106,
         projectileMassKg: 10,
-        penetrationMm: 21.1,
+        penetrationMm: 433,
         muzzleVelocityMs: 502,
         fuzeSensitivityMm: 0.01,
         explosiveType: "Composition B",
@@ -6362,9 +10356,53 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 106,
         projectileMassKg: 8,
-        penetrationMm: 21.1,
+        penetrationMm: 433,
         muzzleVelocityMs: 503,
         vehicleOperator: "FRG",
+        fuzeSensitivityMm: 0.01,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.3,
+        tntEquivalentKg: 1.7
+      },
+      {
+        id: "106mm_m344a1_it_fiat_6614_106sr",
+        vehicleId: "it_fiat_6614_106sr",
+        vehicleName: "FIAT 6614",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 106,
+        projectileMassKg: 8,
+        penetrationMm: 433,
+        muzzleVelocityMs: 503,
+        fuzeSensitivityMm: 0.01,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.3,
+        tntEquivalentKg: 1.7
+      },
+      {
+        id: "106mm_m344a1_it_oto_r3_106sr",
+        vehicleId: "it_oto_r3_106sr",
+        vehicleName: "R3 T106 FA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 106,
+        projectileMassKg: 8,
+        penetrationMm: 433,
+        muzzleVelocityMs: 503,
         fuzeSensitivityMm: 0.01,
         explosiveType: "Composition B",
         explosiveMassKg: 1.3,
@@ -6427,6 +10465,52 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Comp. A",
         explosiveMassKg: 3.5,
         tntEquivalentKg: 5
+      },
+      {
+        id: "106mm_m361a1_it_fiat_6614_106sr",
+        vehicleId: "it_fiat_6614_106sr",
+        vehicleName: "FIAT 6614",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 106,
+        projectileMassKg: 7.9,
+        penetrationMm: 152,
+        muzzleVelocityMs: 498,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3.5,
+        tntEquivalentKg: 5
+      },
+      {
+        id: "106mm_m361a1_it_oto_r3_106sr",
+        vehicleId: "it_oto_r3_106sr",
+        vehicleName: "R3 T106 FA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 106,
+        projectileMassKg: 7.9,
+        penetrationMm: 152,
+        muzzleVelocityMs: 498,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 3.5,
+        tntEquivalentKg: 5
       }
     ]
   },
@@ -6454,7 +10538,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 110,
         projectileMassKg: 13.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
@@ -6481,7 +10565,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 110,
         projectileMassKg: 13.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
@@ -6508,7 +10592,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 110,
         projectileMassKg: 13.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
@@ -6535,7 +10619,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 110,
         projectileMassKg: 13.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         vehicleOperator: "Lithuania",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
@@ -6562,8 +10646,218 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 110,
         projectileMassKg: 13.5,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         vehicleOperator: "Australia",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_il_eitan",
+        vehicleId: "il_eitan",
+        vehicleName: "Eitan (P)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_il_hunter_afv",
+        vehicleId: "il_hunter_afv",
+        vehicleName: "Hunter AFV",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        vehicleOperator: "Singapore",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_il_namer_rcws_30",
+        vehicleId: "il_namer_rcws_30",
+        vehicleName: "Namer 30",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_il_namer_tsrikhon",
+        vehicleId: "il_namer_tsrikhon",
+        vehicleName: "Namer Tsrikhon",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_it_freccia",
+        vehicleId: "it_freccia",
+        vehicleName: "Freccia",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_it_freccia_hitfist_ows",
+        vehicleId: "it_freccia_hitfist_ows",
+        vehicleName: "Freccia OWS 30",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_it_kf_41",
+        vehicleId: "it_kf_41",
+        vehicleName: "KF41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        IRCCM: true,
+        maximumSpeedMs: 180,
+        missileGuidanceTimeS: 45,
+        explosiveType: "LX-14",
+        explosiveMassKg: 0.9,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "110mm_spike_lr_ii_sw_cv_90_mk4",
+        vehicleId: "sw_cv_90_mk4",
+        vehicleName: "CV 90 Mk.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 110,
+        projectileMassKg: 13.5,
+        penetrationMm: 400,
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
         guidance: "IR",
@@ -6756,6 +11050,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 3,
         tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_dm11_it_leopard_2a7_hungary",
+        vehicleId: "it_leopard_2a7_hungary",
+        vehicleName: "Leopard 2A7HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 19,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1015,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
       }
     ]
   },
@@ -6783,7 +11101,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6807,7 +11125,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6831,7 +11149,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6855,7 +11173,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6879,7 +11197,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6903,9 +11221,105 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12_fr_leopard_2a4nl",
+        vehicleId: "fr_leopard_2a4nl",
+        vehicleName: "Leopard 2A4NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Netherlands",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12_fr_leopard_2a4nl_les",
+        vehicleId: "fr_leopard_2a4nl_les",
+        vehicleName: "Leopard 2 (OTCo)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Netherlands",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12_it_leopard_2a4",
+        vehicleId: "it_leopard_2a4",
+        vehicleName: "◔Leopard 2A4",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12_sw_leopard_2a4_fin",
+        vehicleId: "sw_leopard_2a4_fin",
+        vehicleName: "▄Leopard 2A4",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -6938,7 +11352,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Canada (modern)",
         fuzeDelayM: 0.05,
@@ -6962,7 +11376,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -6986,7 +11400,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -7010,7 +11424,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -7034,7 +11448,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -7058,7 +11472,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1190,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -7082,7 +11496,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1190,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
@@ -7106,7 +11520,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Poland",
         fuzeDelayM: 0.05,
@@ -7130,7 +11544,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1190,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -7153,9 +11567,313 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 13.5,
-        penetrationMm: 26.5,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Indonesia",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_fr_leopard_2a5nl",
+        vehicleId: "fr_leopard_2a5nl",
+        vehicleName: "Leopard 2A5NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Netherlands",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_fr_leopard_2a6nl",
+        vehicleId: "fr_leopard_2a6nl",
+        vehicleName: "Leopard 2A6NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1190,
+        vehicleOperator: "Netherlands",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_ariete_amv_pt1",
+        vehicleId: "it_ariete_amv_pt1",
+        vehicleName: "Ariete AMV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_c1_ariete",
+        vehicleId: "it_c1_ariete",
+        vehicleName: "Ariete",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_c1_ariete_certezza",
+        vehicleId: "it_c1_ariete_certezza",
+        vehicleName: "Ariete Certezza",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_c1_ariete_preserie",
+        vehicleId: "it_c1_ariete_preserie",
+        vehicleName: "Ariete (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_c1_ariete_pso",
+        vehicleId: "it_c1_ariete_pso",
+        vehicleName: "Ariete PSO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_centauro_2",
+        vehicleId: "it_centauro_2",
+        vehicleName: "Centauro II (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_centauro_mgs_120",
+        vehicleId: "it_centauro_mgs_120",
+        vehicleName: "Centauro I 120",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_centauro_rgo_120",
+        vehicleId: "it_centauro_rgo_120",
+        vehicleName: "Centauro RGO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1140,
+        vehicleOperator: "Oman",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_it_leopard_2a7_hungary",
+        vehicleId: "it_leopard_2a7_hungary",
+        vehicleName: "Leopard 2A7HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1190,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_sw_cv_90120",
+        vehicleId: "sw_cv_90120",
+        vehicleName: "CV90120-T",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1170,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_dm12a1_sw_leopard_2a6nl",
+        vehicleId: "sw_leopard_2a6nl",
+        vehicleName: "▄Leopard 2A6",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 13.5,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1190,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -7286,6 +12004,118 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 393,
         muzzleVelocityMs: 1650,
         vehicleOperator: "FRG"
+      },
+      {
+        id: "120mm_dm13_fr_leopard_2a4nl",
+        vehicleId: "fr_leopard_2a4nl",
+        vehicleName: "Leopard 2A4NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm13_fr_leopard_2a4nl_les",
+        vehicleId: "fr_leopard_2a4nl_les",
+        vehicleName: "Leopard 2 (OTCo)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm13_it_leopard_2a4",
+        vehicleId: "it_leopard_2a4",
+        vehicleName: "◔Leopard 2A4",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "120mm_dm13_sw_leopard_2a4_fin",
+        vehicleId: "sw_leopard_2a4_fin",
+        vehicleName: "▄Leopard 2A4",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "120mm_dm13_sw_strv121b_christian2",
+        vehicleId: "sw_strv121b_christian2",
+        vehicleName: "Christian II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650
+      },
+      {
+        id: "120mm_dm13_sw_strv_121",
+        vehicleId: "sw_strv_121",
+        vehicleName: "Strv 121",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 393,
+        muzzleVelocityMs: 1650
       }
     ]
   },
@@ -7392,6 +12222,154 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 408,
         muzzleVelocityMs: 1640,
         vehicleOperator: "FRG"
+      },
+      {
+        id: "120mm_dm23_fr_leopard_2a4nl",
+        vehicleId: "fr_leopard_2a4nl",
+        vehicleName: "Leopard 2A4NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm23_fr_leopard_2a4nl_les",
+        vehicleId: "fr_leopard_2a4nl_les",
+        vehicleName: "Leopard 2 (OTCo)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm23_it_c1_ariete_preserie",
+        vehicleId: "it_c1_ariete_preserie",
+        vehicleName: "Ariete (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm23_it_leopard_2a4",
+        vehicleId: "it_leopard_2a4",
+        vehicleName: "◔Leopard 2A4",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "120mm_dm23_sw_cv_90120",
+        vehicleId: "sw_cv_90120",
+        vehicleName: "CV90120-T",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 418,
+        muzzleVelocityMs: 1680
+      },
+      {
+        id: "120mm_dm23_sw_leopard_2a4_fin",
+        vehicleId: "sw_leopard_2a4_fin",
+        vehicleName: "▄Leopard 2A4",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "120mm_dm23_sw_strv121b_christian2",
+        vehicleId: "sw_strv121b_christian2",
+        vehicleName: "Christian II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm23_sw_strv_121",
+        vehicleId: "sw_strv_121",
+        vehicleName: "Strv 121",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 408,
+        muzzleVelocityMs: 1640
       }
     ]
   },
@@ -7516,6 +12494,134 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.3,
         penetrationMm: 496,
         muzzleVelocityMs: 1690
+      },
+      {
+        id: "120mm_dm33_fr_leopard_2a5nl",
+        vehicleId: "fr_leopard_2a5nl",
+        vehicleName: "Leopard 2A5NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm33_it_c1_ariete",
+        vehicleId: "it_c1_ariete",
+        vehicleName: "Ariete",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm33_it_c1_ariete_certezza",
+        vehicleId: "it_c1_ariete_certezza",
+        vehicleName: "Ariete Certezza",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm33_it_c1_ariete_preserie",
+        vehicleId: "it_c1_ariete_preserie",
+        vehicleName: "Ariete (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm33_it_c1_ariete_pso",
+        vehicleId: "it_c1_ariete_pso",
+        vehicleName: "Ariete PSO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm33_it_centauro_mgs_120",
+        vehicleId: "it_centauro_mgs_120",
+        vehicleName: "Centauro I 120",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640
+      },
+      {
+        id: "120mm_dm33_it_centauro_rgo_120",
+        vehicleId: "it_centauro_rgo_120",
+        vehicleName: "Centauro RGO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.3,
+        penetrationMm: 481,
+        muzzleVelocityMs: 1640,
+        vehicleOperator: "Oman"
       }
     ]
   },
@@ -7603,6 +12709,63 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 535,
         muzzleVelocityMs: 1660,
         vehicleOperator: "Indonesia"
+      },
+      {
+        id: "120mm_dm43_fr_leopard_2a6nl",
+        vehicleId: "fr_leopard_2a6nl",
+        vehicleName: "Leopard 2A6NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 564,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm43_it_leopard_2a7_hungary",
+        vehicleId: "it_leopard_2a7_hungary",
+        vehicleName: "Leopard 2A7HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 564,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "120mm_dm43_sw_leopard_2a6nl",
+        vehicleId: "sw_leopard_2a6nl",
+        vehicleName: "▄Leopard 2A6",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 564,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -7765,6 +12928,226 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 623,
         muzzleVelocityMs: 1670,
         vehicleOperator: "Indonesia"
+      },
+      {
+        id: "120mm_dm53_fr_leopard_2a5nl",
+        vehicleId: "fr_leopard_2a5nl",
+        vehicleName: "Leopard 2A5NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm53_fr_leopard_2a6nl",
+        vehicleId: "fr_leopard_2a6nl",
+        vehicleName: "Leopard 2A6NL",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 653,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Netherlands"
+      },
+      {
+        id: "120mm_dm53_it_ariete_amv_pt1",
+        vehicleId: "it_ariete_amv_pt1",
+        vehicleName: "Ariete AMV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_it_c1_ariete",
+        vehicleId: "it_c1_ariete",
+        vehicleName: "Ariete",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_it_c1_ariete_certezza",
+        vehicleId: "it_c1_ariete_certezza",
+        vehicleName: "Ariete Certezza",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_it_c1_ariete_pso",
+        vehicleId: "it_c1_ariete_pso",
+        vehicleName: "Ariete PSO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_it_centauro_2",
+        vehicleId: "it_centauro_2",
+        vehicleName: "Centauro II (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_it_leopard_2a7_hungary",
+        vehicleId: "it_leopard_2a7_hungary",
+        vehicleName: "Leopard 2A7HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 653,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "120mm_dm53_sw_leopard_2a6nl",
+        vehicleId: "sw_leopard_2a6nl",
+        vehicleName: "▄Leopard 2A6",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 653,
+        muzzleVelocityMs: 1750,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "120mm_dm53_sw_strv_122",
+        vehicleId: "sw_strv_122",
+        vehicleName: "Strv 122A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_sw_strv_122b_plss",
+        vehicleId: "sw_strv_122b_plss",
+        vehicleName: "Strv 122B PLSS",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
+      },
+      {
+        id: "120mm_dm53_sw_strv_122b_plus",
+        vehicleId: "sw_strv_122b_plus",
+        vehicleName: "Strv 122B+",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5,
+        penetrationMm: 623,
+        muzzleVelocityMs: 1670
       }
     ]
   },
@@ -8032,6 +13415,132 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 588,
         muzzleVelocityMs: 1705,
         vehicleOperator: "Israel"
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_3_raam_segol",
+        vehicleId: "il_merkava_mk_3_raam_segol",
+        vehicleName: "Ra'am Sagol",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_3b",
+        vehicleId: "il_merkava_mk_3b",
+        vehicleName: "Merkava Mk.3B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_3c",
+        vehicleId: "il_merkava_mk_3c",
+        vehicleName: "Merkava Mk.3C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_4_lic",
+        vehicleId: "il_merkava_mk_4_lic",
+        vehicleName: "Merkava Mk.4 LIC",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_4b",
+        vehicleId: "il_merkava_mk_4b",
+        vehicleName: "Merkava Mk.4B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_merkava_mk_4m",
+        vehicleId: "il_merkava_mk_4m",
+        vehicleName: "Merkava Mk.4M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_m322_il_sabra_mk1",
+        vehicleId: "il_sabra_mk1",
+        vehicleName: "Sabra Mk.I",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
       }
     ]
   },
@@ -8059,9 +13568,170 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 15.8,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1078,
         vehicleOperator: "Israel",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_3_raam_segol",
+        vehicleId: "il_merkava_mk_3_raam_segol",
+        vehicleName: "Ra'am Sagol",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_3b",
+        vehicleId: "il_merkava_mk_3b",
+        vehicleName: "Merkava Mk.3B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_3c",
+        vehicleId: "il_merkava_mk_3c",
+        vehicleName: "Merkava Mk.3C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_4_lic",
+        vehicleId: "il_merkava_mk_4_lic",
+        vehicleName: "Merkava Mk.4 LIC",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_4b",
+        vehicleId: "il_merkava_mk_4b",
+        vehicleName: "Merkava Mk.4B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_merkava_mk_4m",
+        vehicleId: "il_merkava_mk_4m",
+        vehicleName: "Merkava Mk.4M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.4
+      },
+      {
+        id: "120mm_m325_il_sabra_mk1",
+        vehicleId: "il_sabra_mk1",
+        vehicleName: "Sabra Mk.I",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 15.8,
+        penetrationMm: 480,
+        muzzleVelocityMs: 1078,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -8097,6 +13767,167 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 36.6,
         muzzleVelocityMs: 900,
         vehicleOperator: "Israel",
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_3_raam_segol",
+        vehicleId: "il_merkava_mk_3_raam_segol",
+        vehicleName: "Ra'am Sagol",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_3b",
+        vehicleId: "il_merkava_mk_3b",
+        vehicleName: "Merkava Mk.3B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_3c",
+        vehicleId: "il_merkava_mk_3c",
+        vehicleName: "Merkava Mk.3C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_4_lic",
+        vehicleId: "il_merkava_mk_4_lic",
+        vehicleName: "Merkava Mk.4 LIC",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_4b",
+        vehicleId: "il_merkava_mk_4b",
+        vehicleName: "Merkava Mk.4B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_merkava_mk_4m",
+        vehicleId: "il_merkava_mk_4m",
+        vehicleName: "Merkava Mk.4M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 1.5,
+        fuzeSensitivityMm: 3,
+        explosiveType: "CLX663",
+        explosiveMassKg: 2.3,
+        tntEquivalentKg: 3.7
+      },
+      {
+        id: "120mm_m339_il_sabra_mk1",
+        vehicleId: "il_sabra_mk1",
+        vehicleName: "Sabra Mk.I",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17,
+        penetrationMm: 36.6,
+        muzzleVelocityMs: 900,
         fuzeDelayM: 1.5,
         fuzeSensitivityMm: 3,
         explosiveType: "CLX663",
@@ -8225,7 +14056,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 120,
         projectileMassKg: 23.8,
-        penetrationMm: 31.7,
+        penetrationMm: 380,
         muzzleVelocityMs: 1143,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8732,7 +14563,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8755,7 +14586,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8778,7 +14609,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -8802,7 +14633,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8825,7 +14656,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8848,7 +14679,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8871,7 +14702,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8894,7 +14725,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8917,7 +14748,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8940,7 +14771,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8963,7 +14794,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -8986,7 +14817,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9009,7 +14840,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Turkey",
         fuzeDelayM: 0.05,
@@ -9033,7 +14864,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -9057,7 +14888,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -9081,7 +14912,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 120,
         projectileMassKg: 13.1,
-        penetrationMm: 28.6,
+        penetrationMm: 480,
         muzzleVelocityMs: 1140,
         vehicleOperator: "China",
         fuzeDelayM: 0.05,
@@ -9116,7 +14947,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9139,7 +14970,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9162,7 +14993,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -9186,7 +15017,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9209,7 +15040,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9232,7 +15063,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9255,7 +15086,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9278,7 +15109,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9301,7 +15132,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9324,7 +15155,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9347,7 +15178,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9370,7 +15201,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -9393,7 +15224,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -9417,7 +15248,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         vehicleOperator: "Australia",
         fuzeDelayM: 0.05,
@@ -9441,7 +15272,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 350,
         muzzleVelocityMs: 1410,
         vehicleOperator: "China",
         fuzeDelayM: 0.05,
@@ -9476,7 +15307,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9499,7 +15330,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9522,7 +15353,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9545,7 +15376,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9568,7 +15399,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9591,7 +15422,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9614,7 +15445,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9637,7 +15468,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9660,7 +15491,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 120,
         projectileMassKg: 11.4,
-        penetrationMm: 18.2,
+        penetrationMm: 300,
         muzzleVelocityMs: 1410,
         fuzeDelayM: 0.6,
         fuzeSensitivityMm: 5,
@@ -9752,9 +15583,57 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 125,
         projectileMassKg: 19,
-        penetrationMm: 25.6,
+        penetrationMm: 440,
         muzzleVelocityMs: 905,
         vehicleOperator: "GDR",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "125mm_3bk12m_it_t_72m1",
+        vehicleId: "it_t_72m1",
+        vehicleName: "◔T-72M1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 125,
+        projectileMassKg: 19,
+        penetrationMm: 440,
+        muzzleVelocityMs: 905,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "125mm_3bk12m_sw_t_72m1",
+        vehicleId: "sw_t_72m1",
+        vehicleName: "▄T-72M1",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 125,
+        projectileMassKg: 19,
+        penetrationMm: 440,
+        muzzleVelocityMs: 905,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "A-IX-1",
@@ -9790,6 +15669,44 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 440,
         muzzleVelocityMs: 1780,
         vehicleOperator: "GDR"
+      },
+      {
+        id: "125mm_3bm15_it_t_72m1",
+        vehicleId: "it_t_72m1",
+        vehicleName: "◔T-72M1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 125,
+        projectileMassKg: 3.9,
+        penetrationMm: 440,
+        muzzleVelocityMs: 1780,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "125mm_3bm15_sw_t_72m1",
+        vehicleId: "sw_t_72m1",
+        vehicleName: "▄T-72M1",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 125,
+        projectileMassKg: 3.9,
+        penetrationMm: 440,
+        muzzleVelocityMs: 1780,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -9820,6 +15737,44 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 425,
         muzzleVelocityMs: 1760,
         vehicleOperator: "GDR"
+      },
+      {
+        id: "125mm_3bm22_it_t_72m1",
+        vehicleId: "it_t_72m1",
+        vehicleName: "◔T-72M1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 125,
+        projectileMassKg: 4.8,
+        penetrationMm: 425,
+        muzzleVelocityMs: 1760,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "125mm_3bm22_sw_t_72m1",
+        vehicleId: "sw_t_72m1",
+        vehicleName: "▄T-72M1",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 125,
+        projectileMassKg: 4.8,
+        penetrationMm: 425,
+        muzzleVelocityMs: 1760,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -9850,6 +15805,44 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 320,
         muzzleVelocityMs: 1800,
         vehicleOperator: "GDR"
+      },
+      {
+        id: "125mm_3bm9_it_t_72m1",
+        vehicleId: "it_t_72m1",
+        vehicleName: "◔T-72M1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 125,
+        projectileMassKg: 3.6,
+        penetrationMm: 320,
+        muzzleVelocityMs: 1800,
+        vehicleOperator: "Hungary"
+      },
+      {
+        id: "125mm_3bm9_sw_t_72m1",
+        vehicleId: "sw_t_72m1",
+        vehicleName: "▄T-72M1",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 125,
+        projectileMassKg: 3.6,
+        penetrationMm: 320,
+        muzzleVelocityMs: 1800,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -9957,6 +15950,77 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 3.4,
         tntEquivalentKg: 5.2
+      },
+      {
+        id: "125mm_3of26_it_t_72m1",
+        vehicleId: "it_t_72m1",
+        vehicleName: "◔T-72M1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 125,
+        projectileMassKg: 23,
+        penetrationMm: 42.4,
+        muzzleVelocityMs: 850,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 3.4,
+        tntEquivalentKg: 5.2
+      },
+      {
+        id: "125mm_3of26_sw_t_72m1",
+        vehicleId: "sw_t_72m1",
+        vehicleName: "▄T-72M1",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 125,
+        projectileMassKg: 23,
+        penetrationMm: 42.4,
+        muzzleVelocityMs: 850,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 3.4,
+        tntEquivalentKg: 5.2
+      },
+      {
+        id: "125mm_3of26_sw_t_80u",
+        vehicleId: "sw_t_80u",
+        vehicleName: "T 80 U",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 125,
+        projectileMassKg: 23,
+        penetrationMm: 42.4,
+        muzzleVelocityMs: 850,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 3.4,
+        tntEquivalentKg: 5.2
       }
     ]
   },
@@ -9984,7 +16048,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 125,
         projectileMassKg: 10.9,
-        penetrationMm: 35.6,
+        penetrationMm: 400,
         vehicleOperator: "GDR",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10021,7 +16085,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 127,
         projectileMassKg: 19,
-        penetrationMm: 33.8,
+        penetrationMm: 630,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -10047,7 +16111,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 127,
         projectileMassKg: 19,
-        penetrationMm: 33.8,
+        penetrationMm: 630,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10074,8 +16138,34 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 127,
         projectileMassKg: 19,
-        penetrationMm: 33.8,
+        penetrationMm: 630,
         vehicleOperator: "China",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 296,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 2.9
+      },
+      {
+        id: "127mm_i_tow_it_c13_tua",
+        vehicleId: "it_c13_tua",
+        vehicleName: "C13/TUA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 127,
+        projectileMassKg: 19,
+        penetrationMm: 630,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -10112,7 +16202,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 127,
         projectileMassKg: 18.8,
-        penetrationMm: 36.9,
+        penetrationMm: 430,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -10138,7 +16228,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 127,
         projectileMassKg: 18.8,
-        penetrationMm: 36.9,
+        penetrationMm: 430,
         vehicleOperator: "FRG",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10176,7 +16266,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 26.4,
-        penetrationMm: 11.5,
+        penetrationMm: 252,
         muzzleVelocityMs: 930,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10199,7 +16289,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 26.4,
-        penetrationMm: 11.5,
+        penetrationMm: 252,
         muzzleVelocityMs: 930,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10222,7 +16312,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 26.4,
-        penetrationMm: 11.5,
+        penetrationMm: 252,
         muzzleVelocityMs: 930,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10245,7 +16335,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 26.4,
-        penetrationMm: 11.5,
+        penetrationMm: 233,
         muzzleVelocityMs: 880,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10279,7 +16369,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 128,
         projectileMassKg: 28.3,
-        penetrationMm: 11.5,
+        penetrationMm: 272,
         muzzleVelocityMs: 940,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10302,7 +16392,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 28.3,
-        penetrationMm: 11.5,
+        penetrationMm: 272,
         muzzleVelocityMs: 940,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10325,7 +16415,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 128,
         projectileMassKg: 28.3,
-        penetrationMm: 11.5,
+        penetrationMm: 272,
         muzzleVelocityMs: 940,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10348,7 +16438,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 128,
         projectileMassKg: 28.3,
-        penetrationMm: 11.5,
+        penetrationMm: 248,
         muzzleVelocityMs: 880,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10481,7 +16571,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 135,
         projectileMassKg: 14.5,
-        penetrationMm: 38.6,
+        penetrationMm: 500,
         vehicleOperator: "GDR",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10519,8 +16609,60 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 136,
         projectileMassKg: 23,
-        penetrationMm: 37,
+        penetrationMm: 700,
         vehicleOperator: "FRG",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 4,
+        maximumSpeedMs: 250,
+        missileGuidanceTimeS: 19,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.9,
+        tntEquivalentKg: 3.8
+      },
+      {
+        id: "136mm_hot_fr_amx_13_hot",
+        vehicleId: "fr_amx_13_hot",
+        vehicleName: "AMX-13 (HOT)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 136,
+        projectileMassKg: 23,
+        penetrationMm: 700,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 4,
+        maximumSpeedMs: 250,
+        missileGuidanceTimeS: 19,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.9,
+        tntEquivalentKg: 3.8
+      },
+      {
+        id: "136mm_hot_fr_vcac_mephisto",
+        vehicleId: "fr_vcac_mephisto",
+        vehicleName: "MEPHISTO",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 136,
+        projectileMassKg: 23,
+        penetrationMm: 700,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -10590,7 +16732,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_small",
         caliberMm: 150,
         projectileMassKg: 43.5,
-        penetrationMm: 38.9,
+        penetrationMm: 72,
         muzzleVelocityMs: 520,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -10690,7 +16832,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 150,
         projectileMassKg: 25,
-        penetrationMm: 43.2,
+        penetrationMm: 185,
         muzzleVelocityMs: 465,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10779,7 +16921,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 150,
         projectileMassKg: 24.6,
-        penetrationMm: 43.2,
+        penetrationMm: 185,
         muzzleVelocityMs: 280,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10802,7 +16944,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 150,
         projectileMassKg: 24.6,
-        penetrationMm: 43.2,
+        penetrationMm: 185,
         muzzleVelocityMs: 280,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -10841,6 +16983,28 @@ export const tankShells: TankShellDefinition[] = [
         maximumSpeedMs: 340,
         explosiveType: "Fp.02",
         explosiveMassKg: 2.2
+      },
+      {
+        id: "150mm_wgr.41_spr_it_44m_zrinyi_1",
+        vehicleId: "it_44m_zrinyi_1",
+        vehicleName: "Zrinyi I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 150,
+        projectileMassKg: 34.2,
+        penetrationMm: 26.5,
+        vehicleOperator: "Hungary (old)",
+        fuzeSensitivityMm: 0.1,
+        maximumSpeedMs: 340,
+        explosiveType: "Fp.02",
+        explosiveMassKg: 2.2
       }
     ]
   },
@@ -10868,7 +17032,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 152,
         projectileMassKg: 40,
-        penetrationMm: 41,
+        penetrationMm: 69,
         muzzleVelocityMs: 530,
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
@@ -11398,6 +17562,60 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "LX-14",
         explosiveMassKg: 3.1,
         tntEquivalentKg: 4.4
+      },
+      {
+        id: "152mm_tow_2_it_dardo_vcc",
+        vehicleId: "it_dardo_vcc",
+        vehicleName: "Dardo",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 21.5,
+        penetrationMm: 38.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.1,
+        tntEquivalentKg: 4.4
+      },
+      {
+        id: "152mm_tow_2_it_vcc_80_hitfist_30",
+        vehicleId: "it_vcc_80_hitfist_30",
+        vehicleName: "VCC-80/30",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 21.5,
+        penetrationMm: 38.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.1,
+        tntEquivalentKg: 4.4
       }
     ]
   },
@@ -11510,6 +17728,60 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 22.6,
         penetrationMm: 38.8,
         vehicleOperator: "Kuwait",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.2,
+        tntEquivalentKg: 4.5
+      },
+      {
+        id: "152mm_tow_2a_it_dardo_vcc",
+        vehicleId: "it_dardo_vcc",
+        vehicleName: "Dardo",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 22.6,
+        penetrationMm: 38.8,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.2,
+        tntEquivalentKg: 4.5
+      },
+      {
+        id: "152mm_tow_2a_it_vcc_80_hitfist_30",
+        vehicleId: "it_vcc_80_hitfist_30",
+        vehicleName: "VCC-80/30",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 22.6,
+        penetrationMm: 38.8,
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.01,
         guidance: "Semi-Automatic (SACLOS)",
@@ -11660,6 +17932,60 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 22.6,
         penetrationMm: 36,
         vehicleOperator: "China",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 309,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2.4,
+        tntEquivalentKg: 3.4
+      },
+      {
+        id: "152mm_tow_2b_it_dardo_vcc",
+        vehicleId: "it_dardo_vcc",
+        vehicleName: "Dardo",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 152,
+        projectileMassKg: 22.6,
+        penetrationMm: 36,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 309,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2.4,
+        tntEquivalentKg: 3.4
+      },
+      {
+        id: "152mm_tow_2b_it_vcc_80_hitfist_30",
+        vehicleId: "it_vcc_80_hitfist_30",
+        vehicleName: "VCC-80/30",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 152,
+        projectileMassKg: 22.6,
+        penetrationMm: 36,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -11844,6 +18170,52 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 61,
         muzzleVelocityMs: 935,
         vehicleOperator: "FRG",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 9
+      },
+      {
+        id: "155mm_155_mm_oe_f3_it_pzh_2000_hu",
+        vehicleId: "it_pzh_2000_hu",
+        vehicleName: "PzH 2000HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_small",
+        caliberMm: 155,
+        projectileMassKg: 44.4,
+        penetrationMm: 61,
+        muzzleVelocityMs: 935,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 9
+      },
+      {
+        id: "155mm_155_mm_oe_f3_sw_k9_vidar",
+        vehicleId: "sw_k9_vidar",
+        vehicleName: "VIDAR",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_small",
+        caliberMm: 155,
+        projectileMassKg: 44.4,
+        penetrationMm: 61,
+        muzzleVelocityMs: 935,
+        vehicleOperator: "Norway",
         fuzeDelayM: 0.3,
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
@@ -12161,6 +18533,239 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 7,
         tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_fr_lorraine_155",
+        vehicleId: "fr_lorraine_155",
+        vehicleName: "Lorraine 155 Mle.50",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 563,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_fr_m44",
+        vehicleId: "fr_m44",
+        vehicleName: "▄M44",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 563,
+        vehicleOperator: "Belgium",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_il_m109",
+        vehicleId: "il_m109",
+        vehicleName: "M109",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 562,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_il_m109a1",
+        vehicleId: "il_m109a1",
+        vehicleName: "Rochev",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_il_sholef",
+        vehicleId: "il_sholef",
+        vehicleName: "Sholef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_small",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 897,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_it_m109g",
+        vehicleId: "it_m109g",
+        vehicleName: "▄M109G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_it_m44",
+        vehicleId: "it_m44",
+        vehicleName: "▄M44",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 563,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_it_palmaria",
+        vehicleId: "it_palmaria",
+        vehicleName: "Palmaria",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_middle",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 827,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_it_pzh_2000_hu",
+        vehicleId: "it_pzh_2000_hu",
+        vehicleName: "PzH 2000HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 945,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_sw_k9_vidar",
+        vehicleId: "sw_k9_vidar",
+        vehicleName: "VIDAR",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 563,
+        vehicleOperator: "Norway",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
       }
     ]
   },
@@ -12353,6 +18958,169 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 43.1,
         penetrationMm: 61.1,
         muzzleVelocityMs: 940,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_fr_amx_30_auf_1",
+        vehicleId: "fr_amx_30_auf_1",
+        vehicleName: "AuF1",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 580,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_il_m109",
+        vehicleId: "il_m109",
+        vehicleName: "M109",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 562,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_il_m109a1",
+        vehicleId: "il_m109a1",
+        vehicleName: "Rochev",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_it_m109g",
+        vehicleId: "it_m109g",
+        vehicleName: "▄M109G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_it_palmaria",
+        vehicleId: "it_palmaria",
+        vehicleName: "Palmaria",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_middle",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 827,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_it_pzh_2000_hu",
+        vehicleId: "it_pzh_2000_hu",
+        vehicleName: "PzH 2000HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 945,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 7,
+        tntEquivalentKg: 9.1
+      },
+      {
+        id: "155mm_m107_(pf)_sw_k9_vidar",
+        vehicleId: "sw_k9_vidar",
+        vehicleName: "VIDAR",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 61.1,
+        muzzleVelocityMs: 580,
+        vehicleOperator: "Norway",
         fuzeDelayM: 0.3,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -12658,6 +19426,207 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_fr_amx_30_auf_1",
+        vehicleId: "fr_amx_30_auf_1",
+        vehicleName: "AuF1",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 563,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_fr_lorraine_155",
+        vehicleId: "fr_lorraine_155",
+        vehicleName: "Lorraine 155 Mle.50",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 563,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_fr_m44",
+        vehicleId: "fr_m44",
+        vehicleName: "▄M44",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 563,
+        vehicleOperator: "Belgium",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_il_m109",
+        vehicleId: "il_m109",
+        vehicleName: "M109",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 44.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 562,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_il_m109a1",
+        vehicleId: "il_m109a1",
+        vehicleName: "Rochev",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.3",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 44.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_it_m109g",
+        vehicleId: "it_m109g",
+        vehicleName: "▄M109G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 44.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 684,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_it_m44",
+        vehicleId: "it_m44",
+        vehicleName: "▄M44",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 563,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_it_pzh_2000_hu",
+        vehicleId: "it_pzh_2000_hu",
+        vehicleName: "PzH 2000HU",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 945,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "155mm_m110_sw_k9_vidar",
+        vehicleId: "sw_k9_vidar",
+        vehicleName: "VIDAR",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 40.8,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 563,
+        vehicleOperator: "Norway",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -12912,6 +19881,81 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 1.5,
         tntEquivalentKg: 2
+      },
+      {
+        id: "164mm_lfk_ss.11_fr_amx_13_75_ss11",
+        vehicleId: "fr_amx_13_75_ss11",
+        vehicleName: "AMX-13 (SS.11)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 164,
+        projectileMassKg: 30,
+        penetrationMm: 25,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Manual (MCLOS)",
+        maximumSpeedMs: 220,
+        missileGuidanceTimeS: 18.5,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 2
+      },
+      {
+        id: "164mm_lfk_ss.11_il_ss_11_halftrack",
+        vehicleId: "il_ss_11_halftrack",
+        vehicleName: "Zachlam Tager",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 164,
+        projectileMassKg: 30,
+        penetrationMm: 25,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Manual (MCLOS)",
+        maximumSpeedMs: 220,
+        missileGuidanceTimeS: 18.5,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 2
+      },
+      {
+        id: "164mm_lfk_ss.11_sw_strv_81_rb52",
+        vehicleId: "sw_strv_81_rb52",
+        vehicleName: "Strv 81 (RB 52)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 164,
+        projectileMassKg: 30,
+        penetrationMm: 25,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Manual (MCLOS)",
+        maximumSpeedMs: 220,
+        missileGuidanceTimeS: 18.5,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 2
       }
     ]
   },
@@ -13060,6 +20104,53 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 64.7,
         muzzleVelocityMs: 594,
         vehicleOperator: "China",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 17.6,
+        tntEquivalentKg: 23.1
+      },
+      {
+        id: "203mm_m106_fr_m55",
+        vehicleId: "fr_m55",
+        vehicleName: "▄M55",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 203,
+        projectileMassKg: 104,
+        penetrationMm: 64.7,
+        muzzleVelocityMs: 594,
+        vehicleOperator: "Belgium",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 17.6,
+        tntEquivalentKg: 23.1
+      },
+      {
+        id: "203mm_m106_it_m55",
+        vehicleId: "it_m55",
+        vehicleName: "▄M55",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 203,
+        projectileMassKg: 104,
+        penetrationMm: 64.7,
+        muzzleVelocityMs: 594,
         fuzeDelayM: 0.3,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -13561,6 +20652,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 87,
         muzzleVelocityMs: 883,
         vehicleOperator: "China"
+      },
+      {
+        id: "37mm_m51b1_shot_fr_m3a3_stuart",
+        vehicleId: "fr_m3a3_stuart",
+        vehicleName: "▄M3A3 Stuart",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.87,
+        penetrationMm: 87,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "37mm_m51b1_shot_it_m3a3_stuart",
+        vehicleId: "it_m3a3_stuart",
+        vehicleName: "▄M3A3",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.87,
+        penetrationMm: 87,
+        muzzleVelocityMs: 883
       }
     ]
   },
@@ -14228,6 +21355,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 79,
         muzzleVelocityMs: 883,
         vehicleOperator: "China"
+      },
+      {
+        id: "37mm_m74b1_shot_fr_m3a3_stuart",
+        vehicleId: "fr_m3a3_stuart",
+        vehicleName: "▄M3A3 Stuart",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.87,
+        penetrationMm: 79,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "37mm_m74b1_shot_it_m3a3_stuart",
+        vehicleId: "it_m3a3_stuart",
+        vehicleName: "▄M3A3",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.87,
+        penetrationMm: 79,
+        muzzleVelocityMs: 883
       }
     ]
   },
@@ -15084,6 +22247,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Np.10",
         explosiveMassKg: 0.017,
         tntEquivalentKg: 0.029
+      },
+      {
+        id: "50mm_pzgr_39_fr_amd_35_kwk39",
+        vehicleId: "fr_amd_35_kwk39",
+        vehicleName: "AMD.35 (PaK)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 50,
+        projectileMassKg: 2,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 835,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "Np.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
       }
     ]
   },
@@ -15311,6 +22497,24 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 0.9,
         penetrationMm: 137,
         muzzleVelocityMs: 1180
+      },
+      {
+        id: "50mm_pzgr_40_fr_amd_35_kwk39",
+        vehicleId: "fr_amd_35_kwk39",
+        vehicleName: "AMD.35 (PaK)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 50,
+        projectileMassKg: 0.9,
+        penetrationMm: 137,
+        muzzleVelocityMs: 1180
       }
     ]
   },
@@ -15477,6 +22681,24 @@ export const tankShells: TankShellDefinition[] = [
           AB: "3.3",
           RB: "3.7",
           SB: "3.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 50,
+        projectileMassKg: 1.1,
+        penetrationMm: 130,
+        muzzleVelocityMs: 1130
+      },
+      {
+        id: "50mm_pzgr_40_1_fr_amd_35_kwk39",
+        vehicleId: "fr_amd_35_kwk39",
+        vehicleName: "AMD.35 (PaK)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
         },
         damage: "damage_small",
         armor: "armor_middle",
@@ -15690,6 +22912,29 @@ export const tankShells: TankShellDefinition[] = [
           AB: "3.3",
           RB: "3.7",
           SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 50,
+        projectileMassKg: 1.8,
+        penetrationMm: 5.2,
+        muzzleVelocityMs: 870,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Fp.02 and Np.10",
+        explosiveMassKg: 0.17,
+        tntEquivalentKg: 0.218
+      },
+      {
+        id: "50mm_sprgr._38_fr_amd_35_kwk39",
+        vehicleId: "fr_amd_35_kwk39",
+        vehicleName: "AMD.35 (PaK)",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
         },
         damage: "explosion_big",
         armor: "armor_vsmall",
@@ -17081,6 +24326,28 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 0.91,
         tntEquivalentKg: 1.2
+      },
+      {
+        id: "70mm_m247_il_magach_6_rocket",
+        vehicleId: "il_magach_6_rocket",
+        vehicleName: "Magach Hydra",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 70,
+        projectileMassKg: 10.2,
+        penetrationMm: 16,
+        fuzeSensitivityMm: 0.01,
+        maximumSpeedMs: 739,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.91,
+        tntEquivalentKg: 1.2
       }
     ]
   },
@@ -17115,6 +24382,28 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.735
+      },
+      {
+        id: "73mm_og_9_sw_pbv_501",
+        vehicleId: "sw_pbv_501",
+        vehicleName: "Pbv 501",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_middle",
+        caliberMm: 73,
+        projectileMassKg: 3.7,
+        penetrationMm: 10.9,
+        muzzleVelocityMs: 290,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.735
       }
     ]
   },
@@ -17145,6 +24434,28 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 7.3,
         muzzleVelocityMs: 665,
         vehicleOperator: "GDR",
+        fuzeSensitivityMm: 0.01,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 0.322,
+        tntEquivalentKg: 0.403
+      },
+      {
+        id: "73mm_pg_9_sw_pbv_501",
+        vehicleId: "sw_pbv_501",
+        vehicleName: "Pbv 501",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 73,
+        projectileMassKg: 2.6,
+        penetrationMm: 7.3,
+        muzzleVelocityMs: 665,
         fuzeSensitivityMm: 0.01,
         explosiveType: "A-IX-1",
         explosiveMassKg: 0.322,
@@ -17689,6 +25000,102 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "H.5",
         explosiveMassKg: 0.513,
         tntEquivalentKg: 0.872
+      },
+      {
+        id: "75mm_hl.gr_38b_it_pzkpfw_iii_ausf_n",
+        vehicleId: "it_pzkpfw_iii_ausf_n",
+        vehicleName: "▄Pz.III N",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 4.6,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
+      },
+      {
+        id: "75mm_hl.gr_38b_it_pzkpfw_iv_ausf_g",
+        vehicleId: "it_pzkpfw_iv_ausf_g",
+        vehicleName: "▄Pz.IV G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 4.4,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
+      },
+      {
+        id: "75mm_hl.gr_38b_it_stug_iii_ausf_g",
+        vehicleId: "it_stug_iii_ausf_g",
+        vehicleName: "▄StuG III G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 4.4,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
+      },
+      {
+        id: "75mm_hl.gr_38b_sw_pzkpfw_iv_ausf_j",
+        vehicleId: "sw_pzkpfw_iv_ausf_j",
+        vehicleName: "▄Pz.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 4.4,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
       }
     ]
   },
@@ -17879,6 +25286,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.8,
         penetrationMm: 12.5,
         muzzleVelocityMs: 450,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.515,
+        tntEquivalentKg: 0.876
+      },
+      {
+        id: "75mm_hl.gr_38c_it_pzkpfw_iii_ausf_n",
+        vehicleId: "it_pzkpfw_iii_ausf_n",
+        vehicleName: "▄Pz.III N",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 4.8,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "H.5",
@@ -18379,6 +25810,98 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_k.gr.rot_nb._it_pzkpfw_iii_ausf_n",
+        vehicleId: "it_pzkpfw_iii_ausf_n",
+        vehicleName: "▄Pz.III N",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 423,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_k.gr.rot_nb._it_pzkpfw_iv_ausf_g",
+        vehicleId: "it_pzkpfw_iv_ausf_g",
+        vehicleName: "▄Pz.IV G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 540,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_k.gr.rot_nb._it_stug_iii_ausf_g",
+        vehicleId: "it_stug_iii_ausf_g",
+        vehicleName: "▄StuG III G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 540,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_k.gr.rot_nb._sw_pzkpfw_iv_ausf_j",
+        vehicleId: "sw_pzkpfw_iv_ausf_j",
+        vehicleName: "▄Pz.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 540,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -18569,6 +26092,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 6.8,
         penetrationMm: 4,
         muzzleVelocityMs: 385,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Fp.02 and Np.10",
+        explosiveMassKg: 0.08,
+        tntEquivalentKg: 0.102
+      },
+      {
+        id: "75mm_k.gr.rot_pz._it_pzkpfw_iii_ausf_n",
+        vehicleId: "it_pzkpfw_iii_ausf_n",
+        vehicleName: "▄Pz.III N",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 4,
+        muzzleVelocityMs: 385,
+        vehicleOperator: "Kingdom of Italy",
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 14,
         explosiveType: "Fp.02 and Np.10",
@@ -19317,6 +26864,249 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_amx_13_chaffee",
+        vehicleId: "fr_amx_13_chaffee",
+        vehicleName: "AMX-13-M24",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_amx_13_fl_11",
+        vehicleId: "fr_amx_13_fl_11",
+        vehicleName: "AMX-13 (FL11)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_m4a1_sherman",
+        vehicleId: "fr_m4a1_sherman",
+        vehicleName: "▄M4A1",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_m4a3e2_sherman_jumbo",
+        vehicleId: "fr_m4a3e2_sherman_jumbo",
+        vehicleName: "▄M4A3E2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_m4a4_sherman",
+        vehicleId: "fr_m4a4_sherman",
+        vehicleName: "▄M4A4",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_fr_panhard_ebr_1951",
+        vehicleId: "fr_panhard_ebr_1951",
+        vehicleName: "E.B.R. (1951)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.3",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_it_m24_chaffee",
+        vehicleId: "it_m24_chaffee",
+        vehicleName: "▄M24",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_it_m4a4_sherman",
+        vehicleId: "it_m4a4_sherman",
+        vehicleName: "▄Sherman V",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_it_sherman_75_37",
+        vehicleId: "it_sherman_75_37",
+        vehicleName: "▄Sherman I Composito",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_sw_m24_chaffee_dk",
+        vehicleId: "sw_m24_chaffee_dk",
+        vehicleName: "M24DK",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        vehicleOperator: "Denmark",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
+      },
+      {
+        id: "75mm_m48_shell_sw_sherman_3_4",
+        vehicleId: "sw_sherman_3_4",
+        vehicleName: "Sherman III/IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.2,
+        muzzleVelocityMs: 463,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.666
       }
     ]
   },
@@ -20023,6 +27813,260 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Exp. D",
         explosiveMassKg: 0.065,
         tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_amx_13_chaffee",
+        vehicleId: "fr_amx_13_chaffee",
+        vehicleName: "AMX-13-M24",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_amx_13_fl_11",
+        vehicleId: "fr_amx_13_fl_11",
+        vehicleName: "AMX-13 (FL11)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_m4a1_sherman",
+        vehicleId: "fr_m4a1_sherman",
+        vehicleName: "▄M4A1",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_m4a3e2_sherman_jumbo",
+        vehicleId: "fr_m4a3e2_sherman_jumbo",
+        vehicleName: "▄M4A3E2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_m4a4_sherman",
+        vehicleId: "fr_m4a4_sherman",
+        vehicleName: "▄M4A4",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_fr_panhard_ebr_1951",
+        vehicleId: "fr_panhard_ebr_1951",
+        vehicleName: "E.B.R. (1951)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.3",
+          SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_it_m24_chaffee",
+        vehicleId: "it_m24_chaffee",
+        vehicleName: "▄M24",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_it_m4a4_sherman",
+        vehicleId: "it_m4a4_sherman",
+        vehicleName: "▄Sherman V",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_it_sherman_75_37",
+        vehicleId: "it_sherman_75_37",
+        vehicleName: "▄Sherman I Composito",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_sw_m24_chaffee_dk",
+        vehicleId: "sw_m24_chaffee_dk",
+        vehicleName: "M24DK",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        vehicleOperator: "Denmark",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "75mm_m61_shot_sw_sherman_3_4",
+        vehicleId: "sw_sherman_3_4",
+        vehicleName: "Sherman III/IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 618,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
       }
     ]
   },
@@ -20208,6 +28252,73 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 2.9,
         muzzleVelocityMs: 603,
         vehicleOperator: "China",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m64_fr_amx_13_chaffee",
+        vehicleId: "fr_amx_13_chaffee",
+        vehicleName: "AMX-13-M24",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.9,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 603,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m64_it_m24_chaffee",
+        vehicleId: "it_m24_chaffee",
+        vehicleName: "▄M24",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.9,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 603,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m64_sw_m24_chaffee_dk",
+        vehicleId: "sw_m24_chaffee_dk",
+        vehicleName: "M24DK",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.9,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 603,
+        vehicleOperator: "Denmark",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -20849,6 +28960,205 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 91,
         muzzleVelocityMs: 619,
         vehicleOperator: "China"
+      },
+      {
+        id: "75mm_m72_shot_fr_amx_13_chaffee",
+        vehicleId: "fr_amx_13_chaffee",
+        vehicleName: "AMX-13-M24",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_fr_amx_13_fl_11",
+        vehicleId: "fr_amx_13_fl_11",
+        vehicleName: "AMX-13 (FL11)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_fr_m4a1_sherman",
+        vehicleId: "fr_m4a1_sherman",
+        vehicleName: "▄M4A1",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_fr_m4a3e2_sherman_jumbo",
+        vehicleId: "fr_m4a3e2_sherman_jumbo",
+        vehicleName: "▄M4A3E2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_fr_m4a4_sherman",
+        vehicleId: "fr_m4a4_sherman",
+        vehicleName: "▄M4A4",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_fr_panhard_ebr_1951",
+        vehicleId: "fr_panhard_ebr_1951",
+        vehicleName: "E.B.R. (1951)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.3",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_it_m24_chaffee",
+        vehicleId: "it_m24_chaffee",
+        vehicleName: "▄M24",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_it_m4a4_sherman",
+        vehicleId: "it_m4a4_sherman",
+        vehicleName: "▄Sherman V",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_it_sherman_75_37",
+        vehicleId: "it_sherman_75_37",
+        vehicleName: "▄Sherman I Composito",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
+      },
+      {
+        id: "75mm_m72_shot_sw_m24_chaffee_dk",
+        vehicleId: "sw_m24_chaffee_dk",
+        vehicleName: "M24DK",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619,
+        vehicleOperator: "Denmark"
+      },
+      {
+        id: "75mm_m72_shot_sw_sherman_3_4",
+        vehicleId: "sw_sherman_3_4",
+        vehicleName: "Sherman III/IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 91,
+        muzzleVelocityMs: 619
       }
     ]
   },
@@ -21414,6 +29724,160 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_fr_amx_13_fl_11",
+        vehicleId: "fr_amx_13_fl_11",
+        vehicleName: "AMX-13 (FL11)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_fr_m4a1_sherman",
+        vehicleId: "fr_m4a1_sherman",
+        vehicleName: "▄M4A1",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_fr_m4a3e2_sherman_jumbo",
+        vehicleId: "fr_m4a3e2_sherman_jumbo",
+        vehicleName: "▄M4A3E2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_fr_m4a4_sherman",
+        vehicleId: "fr_m4a4_sherman",
+        vehicleName: "▄M4A4",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_fr_panhard_ebr_1951",
+        vehicleId: "fr_panhard_ebr_1951",
+        vehicleName: "E.B.R. (1951)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.3",
+          SB: "5.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_it_m4a4_sherman",
+        vehicleId: "it_m4a4_sherman",
+        vehicleName: "▄Sherman V",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_m89_sw_sherman_3_4",
+        vehicleId: "sw_sherman_3_4",
+        vehicleName: "Sherman III/IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 259,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -21724,6 +30188,78 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "H.10",
         explosiveMassKg: 0.017,
         tntEquivalentKg: 0.029
+      },
+      {
+        id: "75mm_pzgr_39_it_pzkpfw_iv_ausf_g",
+        vehicleId: "it_pzkpfw_iv_ausf_g",
+        vehicleName: "▄Pz.IV G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 770,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      },
+      {
+        id: "75mm_pzgr_39_it_stug_iii_ausf_g",
+        vehicleId: "it_stug_iii_ausf_g",
+        vehicleName: "▄StuG III G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 770,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      },
+      {
+        id: "75mm_pzgr_39_sw_pzkpfw_iv_ausf_j",
+        vehicleId: "sw_pzkpfw_iv_ausf_j",
+        vehicleName: "▄Pz.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 770,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
       }
     ]
   },
@@ -21907,6 +30443,29 @@ export const tankShells: TankShellDefinition[] = [
           AB: "5.0",
           RB: "5.0",
           SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 935,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      },
+      {
+        id: "75mm_pzgr_39_42_fr_pzkpfw_v_panther_dauphine",
+        vehicleId: "fr_pzkpfw_v_panther_dauphine",
+        vehicleName: "Panther \"Dauphiné\"",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
         },
         damage: "explosion_middle",
         armor: "armor_big",
@@ -22164,6 +30723,63 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.1,
         penetrationMm: 182,
         muzzleVelocityMs: 990
+      },
+      {
+        id: "75mm_pzgr_40_it_pzkpfw_iv_ausf_g",
+        vehicleId: "it_pzkpfw_iv_ausf_g",
+        vehicleName: "▄Pz.IV G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 4.1,
+        penetrationMm: 182,
+        muzzleVelocityMs: 990,
+        vehicleOperator: "Kingdom of Italy"
+      },
+      {
+        id: "75mm_pzgr_40_it_stug_iii_ausf_g",
+        vehicleId: "it_stug_iii_ausf_g",
+        vehicleName: "▄StuG III G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 4.1,
+        penetrationMm: 182,
+        muzzleVelocityMs: 990,
+        vehicleOperator: "Kingdom of Italy"
+      },
+      {
+        id: "75mm_pzgr_40_sw_pzkpfw_iv_ausf_j",
+        vehicleId: "sw_pzkpfw_iv_ausf_j",
+        vehicleName: "▄Pz.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 4.1,
+        penetrationMm: 182,
+        muzzleVelocityMs: 990,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -22782,6 +31398,98 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.686
+      },
+      {
+        id: "75mm_sprgr._34_it_pzkpfw_iii_ausf_n",
+        vehicleId: "it_pzkpfw_iii_ausf_n",
+        vehicleName: "▄Pz.III N",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 420,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      },
+      {
+        id: "75mm_sprgr._34_it_pzkpfw_iv_ausf_g",
+        vehicleId: "it_pzkpfw_iv_ausf_g",
+        vehicleName: "▄Pz.IV G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      },
+      {
+        id: "75mm_sprgr._34_it_stug_iii_ausf_g",
+        vehicleId: "it_stug_iii_ausf_g",
+        vehicleName: "▄StuG III G",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      },
+      {
+        id: "75mm_sprgr._34_sw_pzkpfw_iv_ausf_j",
+        vehicleId: "sw_pzkpfw_iv_ausf_j",
+        vehicleName: "▄Pz.IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
       }
     ]
   },
@@ -22969,6 +31677,28 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "Fp.60/40",
         explosiveMassKg: 0.725
+      },
+      {
+        id: "75mm_sprgr._42_fr_pzkpfw_v_panther_dauphine",
+        vehicleId: "fr_pzkpfw_v_panther_dauphine",
+        vehicleName: "Panther \"Dauphiné\"",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.8,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Fp.60/40",
+        explosiveMassKg: 0.725
       }
     ]
   },
@@ -23099,6 +31829,24 @@ export const tankShells: TankShellDefinition[] = [
           AB: "3.7",
           RB: "3.7",
           SB: "3.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 3.8,
+        penetrationMm: 139,
+        muzzleVelocityMs: 868
+      },
+      {
+        id: "75mm_t45_shot_fr_m4a3e2_sherman_jumbo",
+        vehicleId: "fr_m4a3e2_sherman_jumbo",
+        vehicleName: "▄M4A3E2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
         },
         damage: "damage_small",
         armor: "armor_big",
@@ -23458,6 +32206,75 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 14,
         explosiveType: "TNT",
         explosiveMassKg: 0.15
+      },
+      {
+        id: "76mm_br_350a_(md_5_fuze)_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 76,
+        projectileMassKg: 6.3,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 662,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "76mm_br_350a_(md_5_fuze)_sw_t_28",
+        vehicleId: "sw_t_28",
+        vehicleName: "▄T-28",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 6.3,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 555,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "76mm_br_350a_(md_5_fuze)_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 76,
+        projectileMassKg: 6.3,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 662,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
       }
     ]
   },
@@ -23562,6 +32379,54 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.065,
         tntEquivalentKg: 0.1
+      },
+      {
+        id: "76mm_br_350b_(md_8_fuze)_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_small",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.5,
+        penetrationMm: 4,
+        muzzleVelocityMs: 655,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.9,
+        fuzeSensitivityMm: 14,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "76mm_br_350b_(md_8_fuze)_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_small",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.5,
+        penetrationMm: 4,
+        muzzleVelocityMs: 655,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.9,
+        fuzeSensitivityMm: 14,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
       }
     ]
   },
@@ -23627,6 +32492,44 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 6.5,
         penetrationMm: 99,
         muzzleVelocityMs: 655
+      },
+      {
+        id: "76mm_br_350sp_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.5,
+        penetrationMm: 99,
+        muzzleVelocityMs: 655,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "76mm_br_350sp_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 6.5,
+        penetrationMm: 99,
+        muzzleVelocityMs: 655,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -23692,6 +32595,25 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 3,
         penetrationMm: 125,
         muzzleVelocityMs: 950
+      },
+      {
+        id: "76mm_br_354p_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 3,
+        penetrationMm: 125,
+        muzzleVelocityMs: 950,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -24703,6 +33625,50 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.39
+      },
+      {
+        id: "76mm_m42a1_shell_fr_m10",
+        vehicleId: "fr_m10",
+        vehicleName: "▄M10 GMC",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 5.8,
+        penetrationMm: 7.1,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.39
+      },
+      {
+        id: "76mm_m42a1_shell_it_m18_hellcat",
+        vehicleId: "it_m18_hellcat",
+        vehicleName: "▄M18",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 5.8,
+        penetrationMm: 7.1,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.39
       }
     ]
   },
@@ -25213,6 +34179,52 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Exp. D",
         explosiveMassKg: 0.065,
         tntEquivalentKg: 0.064
+      },
+      {
+        id: "76mm_m62_shell_fr_m10",
+        vehicleId: "fr_m10",
+        vehicleName: "▄M10 GMC",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 792,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
+      },
+      {
+        id: "76mm_m62_shell_it_m18_hellcat",
+        vehicleId: "it_m18_hellcat",
+        vehicleName: "▄M18",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 792,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.064
       }
     ]
   },
@@ -25551,6 +34563,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 134,
         muzzleVelocityMs: 792,
         vehicleOperator: "China"
+      },
+      {
+        id: "76mm_m79_shot_fr_m10",
+        vehicleId: "fr_m10",
+        vehicleName: "▄M10 GMC",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.8,
+        penetrationMm: 134,
+        muzzleVelocityMs: 792
+      },
+      {
+        id: "76mm_m79_shot_it_m18_hellcat",
+        vehicleId: "it_m18_hellcat",
+        vehicleName: "▄M18",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.8,
+        penetrationMm: 134,
+        muzzleVelocityMs: 792
       }
     ]
   },
@@ -25824,6 +34872,28 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 2.9,
         muzzleVelocityMs: 274,
         vehicleOperator: "China",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "76mm_m88_it_m18_hellcat",
+        vehicleId: "it_m18_hellcat",
+        vehicleName: "▄M18",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 76,
+        projectileMassKg: 3.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 274,
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -26142,6 +35212,98 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.621
+      },
+      {
+        id: "76mm_of_350m_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.2,
+        penetrationMm: 9.7,
+        muzzleVelocityMs: 680,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.621
+      },
+      {
+        id: "76mm_of_350m_sw_pt_76b",
+        vehicleId: "sw_pt_76b",
+        vehicleName: "▄PT-76",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.2,
+        penetrationMm: 9.7,
+        muzzleVelocityMs: 680,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.621
+      },
+      {
+        id: "76mm_of_350m_sw_t_28",
+        vehicleId: "sw_t_28",
+        vehicleName: "▄T-28",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.2,
+        penetrationMm: 9.7,
+        muzzleVelocityMs: 560,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.621
+      },
+      {
+        id: "76mm_of_350m_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.2,
+        penetrationMm: 9.7,
+        muzzleVelocityMs: 680,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.621
       }
     ]
   },
@@ -26305,6 +35467,75 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 14,
         explosiveType: "TNT",
         explosiveMassKg: 0.085
+      },
+      {
+        id: "76mm_sh_354t_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_small",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.7,
+        muzzleVelocityMs: 618,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.085
+      },
+      {
+        id: "76mm_sh_354t_sw_t_28",
+        vehicleId: "sw_t_28",
+        vehicleName: "▄T-28",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_small",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.7,
+        muzzleVelocityMs: 560,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.085
+      },
+      {
+        id: "76mm_sh_354t_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_small",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.7,
+        muzzleVelocityMs: 618,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.085
       }
     ]
   },
@@ -26371,6 +35602,27 @@ export const tankShells: TankShellDefinition[] = [
         maximumSpeedMs: 820,
         explosiveType: "TNT",
         explosiveMassKg: 1
+      },
+      {
+        id: "81mm_pl_3_sw_landsverk_ush_405",
+        vehicleId: "sw_landsverk_ush_405",
+        vehicleName: "U-SH 405",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 81,
+        projectileMassKg: 13.2,
+        penetrationMm: 13.9,
+        fuzeSensitivityMm: 0.01,
+        maximumSpeedMs: 820,
+        explosiveType: "TNT",
+        explosiveMassKg: 1
       }
     ]
   },
@@ -26400,6 +35652,27 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 19.7,
         penetrationMm: 32.8,
         vehicleOperator: "FRG",
+        fuzeSensitivityMm: 0.01,
+        maximumSpeedMs: 820,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.8
+      },
+      {
+        id: "81mm_ssk_032_sw_landsverk_ush_405",
+        vehicleId: "sw_landsverk_ush_405",
+        vehicleName: "U-SH 405",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_middle",
+        caliberMm: 81,
+        projectileMassKg: 19.7,
+        penetrationMm: 32.8,
         fuzeSensitivityMm: 0.01,
         maximumSpeedMs: 820,
         explosiveType: "TNT",
@@ -26868,6 +36141,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "H.5",
         explosiveMassKg: 0.646,
         tntEquivalentKg: 1.1
+      },
+      {
+        id: "88mm_hl.gr_39_it_pzkpfw_vi_ausf_e_tiger",
+        vehicleId: "it_pzkpfw_vi_ausf_e_tiger",
+        vehicleName: "Tigris",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 88,
+        projectileMassKg: 7.6,
+        penetrationMm: 15,
+        muzzleVelocityMs: 600,
+        vehicleOperator: "Hungary",
+        fuzeSensitivityMm: 0.3,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.646,
+        tntEquivalentKg: 1.1
       }
     ]
   },
@@ -27058,6 +36354,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 10.2,
         penetrationMm: 4.1,
         muzzleVelocityMs: 773,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.064,
+        tntEquivalentKg: 0.109
+      },
+      {
+        id: "88mm_pzgr_39_it_pzkpfw_vi_ausf_e_tiger",
+        vehicleId: "it_pzkpfw_vi_ausf_e_tiger",
+        vehicleName: "Tigris",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_small",
+        armor: "armor_big",
+        caliberMm: 88,
+        projectileMassKg: 10.2,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 773,
+        vehicleOperator: "Hungary",
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 14,
         explosiveType: "H.10",
@@ -27327,6 +36647,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "H.10",
         explosiveMassKg: 0.064,
         tntEquivalentKg: 0.109
+      },
+      {
+        id: "88mm_pzgr_39_43_sw_kungstiger",
+        vehicleId: "sw_kungstiger",
+        vehicleName: "Kungstiger",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 88,
+        projectileMassKg: 10.2,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.064,
+        tntEquivalentKg: 0.109
       }
     ]
   },
@@ -27583,6 +36926,24 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 7.3,
         penetrationMm: 279,
         muzzleVelocityMs: 1130
+      },
+      {
+        id: "88mm_pzgr_40_43_sw_kungstiger",
+        vehicleId: "sw_kungstiger",
+        vehicleName: "Kungstiger",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 88,
+        projectileMassKg: 7.3,
+        penetrationMm: 279,
+        muzzleVelocityMs: 1130
       }
     ]
   },
@@ -27796,6 +37157,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 9.5,
         penetrationMm: 5.2,
         muzzleVelocityMs: 810,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Fp.10 and Np.10",
+        explosiveMassKg: 0.168,
+        tntEquivalentKg: 0.215
+      },
+      {
+        id: "88mm_pzgr._it_pzkpfw_vi_ausf_e_tiger",
+        vehicleId: "it_pzkpfw_vi_ausf_e_tiger",
+        vehicleName: "Tigris",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 88,
+        projectileMassKg: 9.5,
+        penetrationMm: 5.2,
+        muzzleVelocityMs: 810,
+        vehicleOperator: "Hungary",
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 14,
         explosiveType: "Fp.10 and Np.10",
@@ -28077,6 +37462,29 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "Fp.02",
         explosiveMassKg: 0.9
+      },
+      {
+        id: "88mm_sprgr._l_4.5_it_pzkpfw_vi_ausf_e_tiger",
+        vehicleId: "it_pzkpfw_vi_ausf_e_tiger",
+        vehicleName: "Tigris",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 88,
+        projectileMassKg: 9,
+        penetrationMm: 12.8,
+        muzzleVelocityMs: 820,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Fp.02",
+        explosiveMassKg: 0.9
       }
     ]
   },
@@ -28297,6 +37705,28 @@ export const tankShells: TankShellDefinition[] = [
           AB: "5.7",
           RB: "5.7",
           SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 88,
+        projectileMassKg: 9.4,
+        penetrationMm: 13.9,
+        muzzleVelocityMs: 820,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Fp.02",
+        explosiveMassKg: 1
+      },
+      {
+        id: "88mm_sprgr.43_sw_kungstiger",
+        vehicleId: "sw_kungstiger",
+        vehicleName: "Kungstiger",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
         },
         damage: "explosion_big",
         armor: "armor_vsmall",
@@ -28760,6 +38190,60 @@ export const tankShells: TankShellDefinition[] = [
         },
         damage: "damage_small",
         armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 7.6,
+        penetrationMm: 287,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "90mm_m304_shot_fr_m26_pershing",
+        vehicleId: "fr_m26_pershing",
+        vehicleName: "▄M26",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 7.6,
+        penetrationMm: 287,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "90mm_m304_shot_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 7.6,
+        penetrationMm: 287,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "90mm_m304_shot_it_m26_ariete",
+        vehicleId: "it_m26_ariete",
+        vehicleName: "M26 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
         caliberMm: 90,
         projectileMassKg: 7.6,
         penetrationMm: 287,
@@ -29285,6 +38769,138 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_fr_m26_pershing",
+        vehicleId: "fr_m26_pershing",
+        vehicleName: "▄M26",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_it_m26_ariete",
+        vehicleId: "it_m26_ariete",
+        vehicleName: "M26 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -29379,6 +38995,24 @@ export const tankShells: TankShellDefinition[] = [
           AB: "6.3",
           RB: "6.3",
           SB: "6.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 11,
+        penetrationMm: 175,
+        muzzleVelocityMs: 853
+      },
+      {
+        id: "90mm_m318_shot_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
         },
         damage: "damage",
         armor: "armor_small",
@@ -29736,6 +39370,60 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 321,
         muzzleVelocityMs: 1249,
         vehicleOperator: "China"
+      },
+      {
+        id: "90mm_m332_shot_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 5.7,
+        penetrationMm: 291,
+        muzzleVelocityMs: 1165
+      },
+      {
+        id: "90mm_m332_shot_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 5.7,
+        penetrationMm: 321,
+        muzzleVelocityMs: 1249
+      },
+      {
+        id: "90mm_m332_shot_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 5.7,
+        penetrationMm: 321,
+        muzzleVelocityMs: 1249
       }
     ]
   },
@@ -29873,6 +39561,52 @@ export const tankShells: TankShellDefinition[] = [
           AB: "6.3",
           RB: "6.3",
           SB: "6.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 6.5,
+        penetrationMm: 13.1,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.707,
+        tntEquivalentKg: 0.926
+      },
+      {
+        id: "90mm_m348_shell_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 6.5,
+        penetrationMm: 13.1,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.707,
+        tntEquivalentKg: 0.926
+      },
+      {
+        id: "90mm_m348_shell_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
         },
         damage: "damage_small",
         armor: "armor_big",
@@ -30172,6 +39906,52 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 10.7,
         muzzleVelocityMs: 1216,
         vehicleOperator: "China",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.544,
+        tntEquivalentKg: 0.713
+      },
+      {
+        id: "90mm_m431_shell_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 5.8,
+        penetrationMm: 10.7,
+        muzzleVelocityMs: 1216,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.544,
+        tntEquivalentKg: 0.713
+      },
+      {
+        id: "90mm_m431_shell_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 5.8,
+        penetrationMm: 10.7,
+        muzzleVelocityMs: 1216,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -30742,6 +40522,144 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 0.925,
         tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_fr_m26_pershing",
+        vehicleId: "fr_m26_pershing",
+        vehicleName: "▄M26",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_shell_it_m26_ariete",
+        vehicleId: "it_m26_ariete",
+        vehicleName: "M26 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
       }
     ]
   },
@@ -30818,6 +40736,52 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 10.6,
         penetrationMm: 16.2,
         muzzleVelocityMs: 732,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71a1_shell_fr_amx_50_1950",
+        vehicleId: "fr_amx_50_1950",
+        vehicleName: "AMX-50 (TO90/930)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71a1_shell_fr_bat_chat_25t",
+        vehicleId: "fr_bat_chat_25t",
+        vehicleName: "Char 25t",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 800,
         fuzeDelayM: 0.2,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -31545,6 +41509,190 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Exp. D",
         explosiveMassKg: 0.14,
         tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_fr_amx_50_1950",
+        vehicleId: "fr_amx_50_1950",
+        vehicleName: "AMX-50 (TO90/930)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 930,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_fr_bat_chat_25t",
+        vehicleId: "fr_bat_chat_25t",
+        vehicleName: "Char 25t",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 930,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_fr_m26_pershing",
+        vehicleId: "fr_m26_pershing",
+        vehicleName: "▄M26",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_fr_m46_patton",
+        vehicleId: "fr_m46_patton",
+        vehicleName: "▄M46",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_shot_it_m26_ariete",
+        vehicleId: "it_m26_ariete",
+        vehicleName: "M26 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
       }
     ]
   },
@@ -31621,6 +41769,52 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 102,
         muzzleVelocityMs: 792,
         vehicleOperator: "China",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.1,
+        tntEquivalentKg: 3.1
+      },
+      {
+        id: "90mm_t142e3_il_m48a1_patton_iii",
+        vehicleId: "il_m48a1_patton_iii",
+        vehicleName: "Magach 1",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 102,
+        muzzleVelocityMs: 792,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 2.1,
+        tntEquivalentKg: 3.1
+      },
+      {
+        id: "90mm_t142e3_il_magach_2",
+        vehicleId: "il_magach_2",
+        vehicleName: "Magach 2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 102,
+        muzzleVelocityMs: 792,
         fuzeDelayM: 0.1,
         fuzeSensitivityMm: 4,
         explosiveType: "Comp. A",
@@ -31765,6 +41959,96 @@ export const tankShells: TankShellDefinition[] = [
         vehicleRank: "IV",
         vehicleBr: {
           AB: "7.0",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 175,
+        muzzleVelocityMs: 853
+      },
+      {
+        id: "90mm_t33_shot_fr_amx_50_1950",
+        vehicleId: "fr_amx_50_1950",
+        vehicleName: "AMX-50 (TO90/930)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 198,
+        muzzleVelocityMs: 930
+      },
+      {
+        id: "90mm_t33_shot_fr_bat_chat_25t",
+        vehicleId: "fr_bat_chat_25t",
+        vehicleName: "Char 25t",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 198,
+        muzzleVelocityMs: 930
+      },
+      {
+        id: "90mm_t33_shot_fr_m26_pershing",
+        vehicleId: "fr_m26_pershing",
+        vehicleName: "▄M26",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 175,
+        muzzleVelocityMs: 853
+      },
+      {
+        id: "90mm_t33_shot_fr_m36b2_cefeo",
+        vehicleId: "fr_m36b2_cefeo",
+        vehicleName: "▄M36B2",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 175,
+        muzzleVelocityMs: 853
+      },
+      {
+        id: "90mm_t33_shot_it_m26_ariete",
+        vehicleId: "it_m26_ariete",
+        vehicleName: "M26 \"D.C.Ariete\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
           RB: "6.7",
           SB: "6.7"
         },
@@ -32253,6 +42537,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-1",
         explosiveMassKg: 0.935,
         tntEquivalentKg: 1.2
+      },
+      {
+        id: "100mm_3bk17m_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 10,
+        penetrationMm: 15.8,
+        muzzleVelocityMs: 1085,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 0.935,
+        tntEquivalentKg: 1.2
       }
     ]
   },
@@ -32328,6 +42636,53 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 12.4,
         penetrationMm: 16.6,
         muzzleVelocityMs: 900,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 0.995,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "100mm_3bk_5_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 12.4,
+        penetrationMm: 16.6,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 0.995,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "100mm_3bk_5_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 12.4,
+        penetrationMm: 16.6,
+        muzzleVelocityMs: 900,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "A-IX-1",
@@ -32535,6 +42890,62 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4.1,
         penetrationMm: 336,
         muzzleVelocityMs: 1415
+      },
+      {
+        id: "100mm_3bm_8_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 4.1,
+        penetrationMm: 336,
+        muzzleVelocityMs: 1415
+      },
+      {
+        id: "100mm_3bm_8_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 4.1,
+        penetrationMm: 336,
+        muzzleVelocityMs: 1415,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "100mm_3bm_8_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 4.1,
+        penetrationMm: 336,
+        muzzleVelocityMs: 1415,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -32850,6 +43261,74 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
         muzzleVelocityMs: 880,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "100mm_3d3_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 880,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "100mm_3d3_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 880,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "100mm_3d3_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 880,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -33560,6 +44039,53 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.065,
         tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 895,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 895,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
       }
     ]
   },
@@ -33796,6 +44322,53 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 15.9,
         penetrationMm: 4,
         muzzleVelocityMs: 895,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412b_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 895,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412b_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 895,
+        vehicleOperator: "Finland",
         fuzeDelayM: 1.2,
         fuzeSensitivityMm: 19,
         explosiveType: "A-IX-2",
@@ -34157,6 +44730,77 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.065,
         tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412d_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 887,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412d_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 887,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
+      },
+      {
+        id: "100mm_br_412d_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 15.9,
+        penetrationMm: 4,
+        muzzleVelocityMs: 887,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.065,
+        tntEquivalentKg: 0.1
       }
     ]
   },
@@ -34258,6 +44902,25 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 8.5,
         penetrationMm: 224,
         muzzleVelocityMs: 1050
+      },
+      {
+        id: "100mm_br_412p_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 8.5,
+        penetrationMm: 224,
+        muzzleVelocityMs: 1050,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -34751,6 +45414,74 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 1.5
+      },
+      {
+        id: "100mm_of_412_il_tiran_4",
+        vehicleId: "il_tiran_4",
+        vehicleName: "Tiran 4",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 19,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.5
+      },
+      {
+        id: "100mm_of_412_sw_t_54_1951",
+        vehicleId: "sw_t_54_1951",
+        vehicleName: "▄T-54",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 19,
+        muzzleVelocityMs: 900,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.5
+      },
+      {
+        id: "100mm_of_412_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 15.6,
+        penetrationMm: 19,
+        muzzleVelocityMs: 900,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.5
       }
     ]
   },
@@ -34931,6 +45662,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-1",
         explosiveMassKg: 1.5,
         tntEquivalentKg: 1.8
+      },
+      {
+        id: "115mm_3bk4_il_tiran_6",
+        vehicleId: "il_tiran_6",
+        vehicleName: "Tiran 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 115,
+        projectileMassKg: 13,
+        penetrationMm: 23.3,
+        muzzleVelocityMs: 950,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 1.8
       }
     ]
   },
@@ -35054,6 +45808,24 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 4,
         penetrationMm: 350,
         muzzleVelocityMs: 1615
+      },
+      {
+        id: "115mm_3bm3_il_tiran_6",
+        vehicleId: "il_tiran_6",
+        vehicleName: "Tiran 6",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 115,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1615
       }
     ]
   },
@@ -35107,6 +45879,24 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "cn_t_62",
         vehicleName: "T-62 N545",
         vehicleTechTree: "China",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 115,
+        projectileMassKg: 4,
+        penetrationMm: 284,
+        muzzleVelocityMs: 1615
+      },
+      {
+        id: "115mm_3bm4_il_tiran_6",
+        vehicleId: "il_tiran_6",
+        vehicleName: "Tiran 6",
+        vehicleTechTree: "Israel",
         vehicleRank: "VI",
         vehicleBr: {
           AB: "8.7",
@@ -35180,6 +45970,28 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "cn_t_62",
         vehicleName: "T-62 N545",
         vehicleTechTree: "China",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 115,
+        projectileMassKg: 14.9,
+        penetrationMm: 31.4,
+        muzzleVelocityMs: 905,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.6
+      },
+      {
+        id: "115mm_3of11_il_tiran_6",
+        vehicleId: "il_tiran_6",
+        vehicleName: "Tiran 6",
+        vehicleTechTree: "Israel",
         vehicleRank: "VI",
         vehicleBr: {
           AB: "8.7",
@@ -35301,6 +46113,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 4,
         tntEquivalentKg: 6.1
+      },
+      {
+        id: "122mm_122_mm_3of24_it_2s1",
+        vehicleId: "it_2s1",
+        vehicleName: "◔2S1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 122,
+        projectileMassKg: 27.2,
+        penetrationMm: 50.6,
+        muzzleVelocityMs: 686,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 4,
+        tntEquivalentKg: 6.1
       }
     ]
   },
@@ -35335,6 +46171,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 4,
         tntEquivalentKg: 6.1
+      },
+      {
+        id: "122mm_122_mm_3of56_it_2s1",
+        vehicleId: "it_2s1",
+        vehicleName: "◔2S1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 122,
+        projectileMassKg: 21.8,
+        penetrationMm: 50.6,
+        muzzleVelocityMs: 690,
+        vehicleOperator: "Hungary",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 4,
+        tntEquivalentKg: 6.1
       }
     ]
   },
@@ -35364,6 +46224,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 27.2,
         penetrationMm: 50.6,
         muzzleVelocityMs: 686,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 4,
+        tntEquivalentKg: 6.1
+      },
+      {
+        id: "122mm_122_mm_3of7_it_2s1",
+        vehicleId: "it_2s1",
+        vehicleName: "◔2S1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 122,
+        projectileMassKg: 27.2,
+        penetrationMm: 50.6,
+        muzzleVelocityMs: 686,
+        vehicleOperator: "Hungary",
         fuzeDelayM: 0.3,
         fuzeSensitivityMm: 0.1,
         explosiveType: "A-IX-2",
@@ -35421,6 +46305,30 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 18.4,
         penetrationMm: 21.3,
         muzzleVelocityMs: 820,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 1.3,
+        tntEquivalentKg: 1.7
+      },
+      {
+        id: "122mm_3bk_10_it_2s1",
+        vehicleId: "it_2s1",
+        vehicleName: "◔2S1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 122,
+        projectileMassKg: 18.4,
+        penetrationMm: 21.3,
+        muzzleVelocityMs: 726,
+        vehicleOperator: "Hungary",
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         explosiveType: "A-IX-1",
@@ -37763,6 +48671,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "OKFOL",
         explosiveMassKg: 1.8,
         tntEquivalentKg: 2.8
+      },
+      {
+        id: "125mm_3bk18m_sw_t_80u",
+        vehicleId: "sw_t_80u",
+        vehicleName: "T 80 U",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 125,
+        projectileMassKg: 19,
+        penetrationMm: 33.4,
+        muzzleVelocityMs: 905,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "OKFOL",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.8
       }
     ]
   },
@@ -38185,6 +49116,24 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 457,
         muzzleVelocityMs: 1700,
         vehicleOperator: "Pakistan"
+      },
+      {
+        id: "125mm_3bm42_sw_t_80u",
+        vehicleId: "sw_t_80u",
+        vehicleName: "T 80 U",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 125,
+        projectileMassKg: 4.8,
+        penetrationMm: 457,
+        muzzleVelocityMs: 1700
       }
     ]
   },
@@ -39065,6 +50014,32 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 16.5,
         penetrationMm: 48.3,
         vehicleOperator: "Pakistan",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Beam riding",
+        launchRangeKm: 5,
+        maximumSpeedMs: 470,
+        missileGuidanceTimeS: 19,
+        explosiveType: "OKFOL",
+        explosiveMassKg: 3.6,
+        tntEquivalentKg: 5.8
+      },
+      {
+        id: "125mm_9m119_sw_t_80u",
+        vehicleId: "sw_t_80u",
+        vehicleName: "T 80 U",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 125,
+        projectileMassKg: 16.5,
+        penetrationMm: 48.3,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Beam riding",
@@ -41715,6 +52690,54 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.019,
         tntEquivalentKg: 0.029
+      },
+      {
+        id: "45mm_br_240_sw_t_50_fin",
+        vehicleId: "sw_t_50_fin",
+        vehicleName: "▄T-50",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 45,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 760,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.019,
+        tntEquivalentKg: 0.029
+      },
+      {
+        id: "45mm_br_240_sw_vickers_mk_e_45",
+        vehicleId: "sw_vickers_mk_e_45",
+        vehicleName: "▄T-26E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 45,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 760,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.019,
+        tntEquivalentKg: 0.029
       }
     ]
   },
@@ -41852,6 +52875,25 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 0.85,
         penetrationMm: 94,
         muzzleVelocityMs: 985
+      },
+      {
+        id: "45mm_br_240p_sw_t_50_fin",
+        vehicleId: "sw_t_50_fin",
+        vehicleName: "▄T-50",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 45,
+        projectileMassKg: 0.85,
+        penetrationMm: 94,
+        muzzleVelocityMs: 985,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -42207,6 +53249,44 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 73,
         muzzleVelocityMs: 757,
         vehicleOperator: "China"
+      },
+      {
+        id: "45mm_br_240sp_sw_t_50_fin",
+        vehicleId: "sw_t_50_fin",
+        vehicleName: "▄T-50",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 45,
+        projectileMassKg: 1.4,
+        penetrationMm: 73,
+        muzzleVelocityMs: 757,
+        vehicleOperator: "Finland"
+      },
+      {
+        id: "45mm_br_240sp_sw_vickers_mk_e_45",
+        vehicleId: "sw_vickers_mk_e_45",
+        vehicleName: "▄T-26E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 45,
+        projectileMassKg: 1.4,
+        penetrationMm: 73,
+        muzzleVelocityMs: 757,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -42645,6 +53725,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-1",
         explosiveMassKg: 0.44,
         tntEquivalentKg: 0.55
+      },
+      {
+        id: "76mm_bk_354m_sw_pt_76b",
+        vehicleId: "sw_pt_76b",
+        vehicleName: "▄PT-76",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 8.9,
+        muzzleVelocityMs: 700,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "A-IX-1",
+        explosiveMassKg: 0.44,
+        tntEquivalentKg: 0.55
       }
     ]
   },
@@ -42702,6 +53806,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.032,
         tntEquivalentKg: 0.049
+      },
+      {
+        id: "76mm_br_354_sw_pt_76b",
+        vehicleId: "sw_pt_76b",
+        vehicleName: "▄PT-76",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 76,
+        projectileMassKg: 6.5,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 655,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.032,
+        tntEquivalentKg: 0.049
       }
     ]
   },
@@ -42749,6 +53877,25 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 3.3,
         penetrationMm: 152,
         muzzleVelocityMs: 950
+      },
+      {
+        id: "76mm_br_354n_sw_pt_76b",
+        vehicleId: "sw_pt_76b",
+        vehicleName: "▄PT-76",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 3.3,
+        penetrationMm: 152,
+        muzzleVelocityMs: 950,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -43086,6 +54233,52 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
         muzzleVelocityMs: 680,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "76mm_d_350a_sw_kv_1_1942_fin",
+        vehicleId: "sw_kv_1_1942_fin",
+        vehicleName: "▄KV-1 m1942",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 76,
+        projectileMassKg: 6.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 680,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "76mm_d_350a_sw_t_34_1941",
+        vehicleId: "sw_t_34_1941",
+        vehicleName: "▄T-34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 76,
+        projectileMassKg: 6.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 680,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -43597,6 +54790,29 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 14,
         explosiveType: "TNT",
         explosiveMassKg: 0.164
+      },
+      {
+        id: "85mm_br_365_sw_t_34_85_zis_53",
+        vehicleId: "sw_t_34_85_zis_53",
+        vehicleName: "▄T-34-85",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 85,
+        projectileMassKg: 9.2,
+        penetrationMm: 4.6,
+        muzzleVelocityMs: 792,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.164
       }
     ]
   },
@@ -43976,6 +55192,30 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "A-IX-2",
         explosiveMassKg: 0.05,
         tntEquivalentKg: 0.077
+      },
+      {
+        id: "85mm_br_365k_sw_t_34_85_zis_53",
+        vehicleId: "sw_t_34_85_zis_53",
+        vehicleName: "▄T-34-85",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_small",
+        armor: "armor_middle",
+        caliberMm: 85,
+        projectileMassKg: 9.2,
+        penetrationMm: 3.5,
+        muzzleVelocityMs: 792,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "A-IX-2",
+        explosiveMassKg: 0.05,
+        tntEquivalentKg: 0.077
       }
     ]
   },
@@ -44221,6 +55461,25 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 5,
         penetrationMm: 195,
         muzzleVelocityMs: 1050
+      },
+      {
+        id: "85mm_br_365p_sw_t_34_85_zis_53",
+        vehicleId: "sw_t_34_85_zis_53",
+        vehicleName: "▄T-34-85",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 85,
+        projectileMassKg: 5,
+        penetrationMm: 195,
+        muzzleVelocityMs: 1050,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -44768,6 +56027,29 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 9.5,
         penetrationMm: 11,
         muzzleVelocityMs: 785,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.741
+      },
+      {
+        id: "85mm_o_365k_sw_t_34_85_zis_53",
+        vehicleId: "sw_t_34_85_zis_53",
+        vehicleName: "▄T-34-85",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 85,
+        projectileMassKg: 9.5,
+        penetrationMm: 11,
+        muzzleVelocityMs: 785,
+        vehicleOperator: "Finland",
         fuzeDelayM: 0.2,
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
@@ -47960,6 +59242,29 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "HMX",
         explosiveMassKg: 0.115,
         tntEquivalentKg: 0.19
+      },
+      {
+        id: "40mm_oet_fr_jaguar_ebrc",
+        vehicleId: "fr_jaguar_ebrc",
+        vehicleName: "EBRC Jaguar",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.98,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "HMX",
+        explosiveMassKg: 0.115,
+        tntEquivalentKg: 0.19
       }
     ]
   },
@@ -47982,6 +59287,29 @@ export const tankShells: TankShellDefinition[] = [
           AB: "10.3",
           RB: "10.3",
           SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.98,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "HMX",
+        explosiveMassKg: 0.115,
+        tntEquivalentKg: 0.19
+      },
+      {
+        id: "40mm_oet_chr_fr_jaguar_ebrc",
+        vehicleId: "fr_jaguar_ebrc",
+        vehicleName: "EBRC Jaguar",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
         },
         damage: "explosion_big",
         armor: "armor_vsmall",
@@ -48023,6 +59351,24 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 0.34,
         penetrationMm: 157,
         muzzleVelocityMs: 1510
+      },
+      {
+        id: "40mm_oflt_fr_jaguar_ebrc",
+        vehicleId: "fr_jaguar_ebrc",
+        vehicleName: "EBRC Jaguar",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 0.34,
+        penetrationMm: 157,
+        muzzleVelocityMs: 1510
       }
     ]
   },
@@ -48048,6 +59394,29 @@ export const tankShells: TankShellDefinition[] = [
         },
         damage: "explosion_middle",
         armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 1.4,
+        penetrationMm: 2,
+        muzzleVelocityMs: 900,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 1.5,
+        explosiveType: "CLX663",
+        explosiveMassKg: 0.001,
+        tntEquivalentKg: 0.001
+      },
+      {
+        id: "40mm_ppm_chr_fr_jaguar_ebrc",
+        vehicleId: "fr_jaguar_ebrc",
+        vehicleName: "EBRC Jaguar",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
         caliberMm: 40,
         projectileMassKg: 1.4,
         penetrationMm: 2,
@@ -48447,6 +59816,29 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "uk_valentine_mk_1",
         vehicleName: "Valentine I",
         vehicleTechTree: "Great Britain",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 40,
+        projectileMassKg: 1.1,
+        penetrationMm: 2.3,
+        muzzleVelocityMs: 792,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "Lyddite",
+        explosiveMassKg: 0.019,
+        tntEquivalentKg: 0.021
+      },
+      {
+        id: "40mm_shell_mk.1_ap_t_fr_crusader_mk_2",
+        vehicleId: "fr_crusader_mk_2",
+        vehicleName: "▄Crusader Mk.II",
+        vehicleTechTree: "France",
         vehicleRank: "II",
         vehicleBr: {
           AB: "2.7",
@@ -48888,6 +60280,24 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 1.1,
         penetrationMm: 72,
         muzzleVelocityMs: 792
+      },
+      {
+        id: "40mm_shot_mk.1_ap_t_fr_crusader_mk_2",
+        vehicleId: "fr_crusader_mk_2",
+        vehicleName: "▄Crusader Mk.II",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 1.1,
+        penetrationMm: 72,
+        muzzleVelocityMs: 792
       }
     ]
   },
@@ -49160,6 +60570,24 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "uk_valentine_mk_1",
         vehicleName: "Valentine I",
         vehicleTechTree: "Great Britain",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 1.1,
+        penetrationMm: 80,
+        muzzleVelocityMs: 853
+      },
+      {
+        id: "40mm_shot_mk.1_aphv_t_fr_crusader_mk_2",
+        vehicleId: "fr_crusader_mk_2",
+        vehicleName: "▄Crusader Mk.II",
+        vehicleTechTree: "France",
         vehicleRank: "II",
         vehicleBr: {
           AB: "2.7",
@@ -49482,6 +60910,24 @@ export const tankShells: TankShellDefinition[] = [
         vehicleId: "uk_valentine_mk_1",
         vehicleName: "Valentine I",
         vehicleTechTree: "Great Britain",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 1.2,
+        penetrationMm: 89,
+        muzzleVelocityMs: 792
+      },
+      {
+        id: "40mm_shot_mk.ixb_apcbc_t_fr_crusader_mk_2",
+        vehicleId: "fr_crusader_mk_2",
+        vehicleName: "▄Crusader Mk.II",
+        vehicleTechTree: "France",
         vehicleRank: "II",
         vehicleBr: {
           AB: "2.7",
@@ -49894,6 +61340,50 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "76mm_17pdr_shell_ss_mk.1_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 76,
+        projectileMassKg: 8.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 229,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "76mm_17pdr_shell_ss_mk.1_it_sherman_vii",
+        vehicleId: "it_sherman_vii",
+        vehicleName: "Sherman Ic",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 76,
+        projectileMassKg: 8.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 229,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -50012,6 +61502,24 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 321,
         muzzleVelocityMs: 1615,
         vehicleOperator: "South Africa"
+      },
+      {
+        id: "76mm_76_62_apfsds_it_otomatic",
+        vehicleId: "it_otomatic",
+        vehicleName: "OTOMATIC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 2.2,
+        penetrationMm: 313,
+        muzzleVelocityMs: 1580
       }
     ]
   },
@@ -50446,6 +61954,73 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.58
+      },
+      {
+        id: "76mm_shell_mk.1_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 883,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
+      },
+      {
+        id: "76mm_shell_mk.1_it_sherman_vii",
+        vehicleId: "it_sherman_vii",
+        vehicleName: "Sherman Ic",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 883,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
+      },
+      {
+        id: "76mm_shell_mk.1_sw_a_34_comet",
+        vehicleId: "sw_a_34_comet",
+        vehicleName: "▄Comet I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 7,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 495,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
       }
     ]
   },
@@ -50777,6 +62352,61 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 7.7,
         penetrationMm: 171,
         muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.4_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 171,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.4_it_sherman_vii",
+        vehicleId: "it_sherman_vii",
+        vehicleName: "Sherman Ic",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 171,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.4_sw_a_34_comet",
+        vehicleId: "sw_a_34_comet",
+        vehicleName: "▄Comet I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 145,
+        muzzleVelocityMs: 785,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -51079,6 +62709,61 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 7.7,
         penetrationMm: 171,
         muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.6_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 171,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.6_it_sherman_vii",
+        vehicleId: "it_sherman_vii",
+        vehicleName: "Sherman Ic",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 171,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.6_sw_a_34_comet",
+        vehicleId: "sw_a_34_comet",
+        vehicleName: "▄Comet I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 145,
+        muzzleVelocityMs: 785,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -51381,6 +63066,61 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 7.7,
         penetrationMm: 190,
         muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.8_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 190,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.8_it_sherman_vii",
+        vehicleId: "it_sherman_vii",
+        vehicleName: "Sherman Ic",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 190,
+        muzzleVelocityMs: 883
+      },
+      {
+        id: "76mm_shot_mk.8_sw_a_34_comet",
+        vehicleId: "sw_a_34_comet",
+        vehicleName: "▄Comet I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 7.7,
+        penetrationMm: 161,
+        muzzleVelocityMs: 785,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -51500,6 +63240,43 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 2.5,
         penetrationMm: 269,
         muzzleVelocityMs: 1204
+      },
+      {
+        id: "76mm_shot_sv_mk.1_it_sherman_vc_firefly",
+        vehicleId: "it_sherman_vc_firefly",
+        vehicleName: "▄Sherman Vc",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 2.5,
+        penetrationMm: 269,
+        muzzleVelocityMs: 1204
+      },
+      {
+        id: "76mm_shot_sv_mk.1_sw_a_34_comet",
+        vehicleId: "sw_a_34_comet",
+        vehicleName: "▄Comet I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 76,
+        projectileMassKg: 2.5,
+        penetrationMm: 217,
+        muzzleVelocityMs: 1036,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -51644,6 +63421,51 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
         explosiveMassKg: 0.05
+      },
+      {
+        id: "83mm_20pdr_shell_ss_mk.1_il_centurion_mk_5_shot",
+        vehicleId: "il_centurion_mk_5_shot",
+        vehicleName: "Sho't",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 83,
+        projectileMassKg: 10.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 251,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "83mm_20pdr_shell_ss_mk.1_sw_charioteer_mk_7",
+        vehicleId: "sw_charioteer_mk_7",
+        vehicleName: "▄Charioteer Mk VII",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 83,
+        projectileMassKg: 10.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 251,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
       }
     ]
   },
@@ -51674,6 +63496,50 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 2.9,
         muzzleVelocityMs: 251,
         vehicleOperator: "Sweden",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "83mm_rökgr_m_53_sw_strv_81",
+        vehicleId: "sw_strv_81",
+        vehicleName: "Strv 81",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 83,
+        projectileMassKg: 10.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 251,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "83mm_rökgr_m_53_sw_strv_81_rb52",
+        vehicleId: "sw_strv_81_rb52",
+        vehicleName: "Strv 81 (RB 52)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 83,
+        projectileMassKg: 10.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 251,
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -51828,6 +63694,53 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "RDX/TNT",
         explosiveMassKg: 1.1,
         tntEquivalentKg: 1.4
+      },
+      {
+        id: "83mm_shell_mk.1_il_centurion_mk_5_shot",
+        vehicleId: "il_centurion_mk_5_shot",
+        vehicleName: "Sho't",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 83,
+        projectileMassKg: 7.8,
+        penetrationMm: 18.8,
+        muzzleVelocityMs: 610,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.1,
+        tntEquivalentKg: 1.4
+      },
+      {
+        id: "83mm_shell_mk.1_sw_charioteer_mk_7",
+        vehicleId: "sw_charioteer_mk_7",
+        vehicleName: "▄Charioteer Mk VII",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 83,
+        projectileMassKg: 7.8,
+        penetrationMm: 18.8,
+        muzzleVelocityMs: 610,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.1,
+        tntEquivalentKg: 1.4
       }
     ]
   },
@@ -51948,6 +63861,43 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 9.1,
         penetrationMm: 239,
         muzzleVelocityMs: 1021
+      },
+      {
+        id: "83mm_shot_mk.1_il_centurion_mk_5_shot",
+        vehicleId: "il_centurion_mk_5_shot",
+        vehicleName: "Sho't",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 83,
+        projectileMassKg: 9.1,
+        penetrationMm: 239,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "83mm_shot_mk.1_sw_charioteer_mk_7",
+        vehicleId: "sw_charioteer_mk_7",
+        vehicleName: "▄Charioteer Mk VII",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 83,
+        projectileMassKg: 9.1,
+        penetrationMm: 239,
+        muzzleVelocityMs: 1021,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -52068,6 +64018,43 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 3.2,
         penetrationMm: 385,
         muzzleVelocityMs: 1433
+      },
+      {
+        id: "83mm_shot_mk.3_il_centurion_mk_5_shot",
+        vehicleId: "il_centurion_mk_5_shot",
+        vehicleName: "Sho't",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 83,
+        projectileMassKg: 3.2,
+        penetrationMm: 385,
+        muzzleVelocityMs: 1433
+      },
+      {
+        id: "83mm_shot_mk.3_sw_charioteer_mk_7",
+        vehicleId: "sw_charioteer_mk_7",
+        vehicleName: "▄Charioteer Mk VII",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 83,
+        projectileMassKg: 3.2,
+        penetrationMm: 385,
+        muzzleVelocityMs: 1433,
+        vehicleOperator: "Finland"
       }
     ]
   },
@@ -52098,6 +64085,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 239,
         muzzleVelocityMs: 1021,
         vehicleOperator: "Sweden"
+      },
+      {
+        id: "83mm_slpprj_sw_strv_81",
+        vehicleId: "sw_strv_81",
+        vehicleName: "Strv 81",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 83,
+        projectileMassKg: 9.1,
+        penetrationMm: 239,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "83mm_slpprj_sw_strv_81_rb52",
+        vehicleId: "sw_strv_81_rb52",
+        vehicleName: "Strv 81 (RB 52)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 83,
+        projectileMassKg: 9.1,
+        penetrationMm: 239,
+        muzzleVelocityMs: 1021
       }
     ]
   },
@@ -52128,6 +64151,42 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 385,
         muzzleVelocityMs: 1433,
         vehicleOperator: "Sweden"
+      },
+      {
+        id: "83mm_slpprj_m_54_sw_strv_81",
+        vehicleId: "sw_strv_81",
+        vehicleName: "Strv 81",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 83,
+        projectileMassKg: 3.2,
+        penetrationMm: 385,
+        muzzleVelocityMs: 1433
+      },
+      {
+        id: "83mm_slpprj_m_54_sw_strv_81_rb52",
+        vehicleId: "sw_strv_81_rb52",
+        vehicleName: "Strv 81 (RB 52)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 83,
+        projectileMassKg: 3.2,
+        penetrationMm: 385,
+        muzzleVelocityMs: 1433
       }
     ]
   },
@@ -52158,6 +64217,52 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 20.4,
         muzzleVelocityMs: 610,
         vehicleOperator: "Sweden",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.2,
+        tntEquivalentKg: 1.6
+      },
+      {
+        id: "83mm_slsgr_m_53_sw_strv_81",
+        vehicleId: "sw_strv_81",
+        vehicleName: "Strv 81",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 83,
+        projectileMassKg: 7.9,
+        penetrationMm: 20.4,
+        muzzleVelocityMs: 610,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.2,
+        tntEquivalentKg: 1.6
+      },
+      {
+        id: "83mm_slsgr_m_53_sw_strv_81_rb52",
+        vehicleId: "sw_strv_81_rb52",
+        vehicleName: "Strv 81 (RB 52)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 83,
+        projectileMassKg: 7.9,
+        penetrationMm: 20.4,
+        muzzleVelocityMs: 610,
         fuzeDelayM: 0.2,
         fuzeSensitivityMm: 0.1,
         explosiveType: "Composition B",
@@ -52222,6 +64327,144 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Composition B",
         explosiveMassKg: 0.67,
         tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_fr_aml_90",
+        vehicleId: "fr_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_fr_amx_13_90",
+        vehicleId: "fr_amx_13_90",
+        vehicleName: "AMX-13-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 950,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_fr_amx_elc_901",
+        vehicleId: "fr_amx_elc_901",
+        vehicleName: "ELC 901",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_fr_amx_elc_bis",
+        vehicleId: "fr_amx_elc_bis",
+        vehicleName: "ELC bis",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_fr_panhard_ebr_1963",
+        vehicleId: "fr_panhard_ebr_1963",
+        vehicleName: "E.B.R. (1963)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 750,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      },
+      {
+        id: "90mm_occ_90_62_il_aml_90",
+        vehicleId: "il_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 3.7,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
       }
     ]
   },
@@ -52279,6 +64522,160 @@ export const tankShells: TankShellDefinition[] = [
         fuzeSensitivityMm: 0.1,
         explosiveType: "TNT",
         explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_aml_90",
+        vehicleId: "fr_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_amx_13_90",
+        vehicleId: "fr_amx_13_90",
+        vehicleName: "AMX-13-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.4,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 750,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_amx_elc_901",
+        vehicleId: "fr_amx_elc_901",
+        vehicleName: "ELC 901",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_amx_elc_bis",
+        vehicleId: "fr_amx_elc_bis",
+        vehicleName: "ELC bis",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_mars_15",
+        vehicleId: "fr_mars_15",
+        vehicleName: "MARS 15",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.4,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 750,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_fr_panhard_ebr_1963",
+        vehicleId: "fr_panhard_ebr_1963",
+        vehicleName: "E.B.R. (1963)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 635,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_oe_90_f1_il_aml_90",
+        vehicleId: "il_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
       }
     ]
   },
@@ -52332,6 +64729,138 @@ export const tankShells: TankShellDefinition[] = [
         penetrationMm: 2.9,
         muzzleVelocityMs: 640,
         vehicleOperator: "South Africa",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_fr_aml_90",
+        vehicleId: "fr_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 640,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_fr_amx_13_90",
+        vehicleId: "fr_amx_13_90",
+        vehicleName: "AMX-13-90",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 750,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_fr_amx_elc_901",
+        vehicleId: "fr_amx_elc_901",
+        vehicleName: "ELC 901",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 645,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_fr_amx_elc_bis",
+        vehicleId: "fr_amx_elc_bis",
+        vehicleName: "ELC bis",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.0",
+          RB: "6.3",
+          SB: "6.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 645,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_fr_panhard_ebr_1963",
+        vehicleId: "fr_panhard_ebr_1963",
+        vehicleName: "E.B.R. (1963)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 640,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_ofum_ph90_f2_il_aml_90",
+        vehicleId: "il_aml_90",
+        vehicleName: "AML-90",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 640,
         fuzeDelayM: 0.4,
         fuzeSensitivityMm: 0.5,
         explosiveType: "Smoke composition",
@@ -56927,7 +69456,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -56950,7 +69479,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1200,
         vehicleOperator: "Bangladesh",
         fuzeDelayM: 0.05,
@@ -56974,7 +69503,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         vehicleOperator: "Bangladesh",
         fuzeDelayM: 0.05,
@@ -56998,7 +69527,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -57021,7 +69550,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_middle",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -57044,7 +69573,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1200,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -57067,7 +69596,7 @@ export const tankShells: TankShellDefinition[] = [
         armor: "armor_big",
         caliberMm: 105,
         projectileMassKg: 11,
-        penetrationMm: 16.9,
+        penetrationMm: 400,
         muzzleVelocityMs: 1174,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
@@ -58849,6 +71378,58 @@ export const tankShells: TankShellDefinition[] = [
         explosiveType: "Octol",
         explosiveMassKg: 2.4,
         tntEquivalentKg: 3.8
+      },
+      {
+        id: "127mm_bgm_71_tow_il_m113a1_tow",
+        vehicleId: "il_m113a1_tow",
+        vehicleName: "Giraf",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 127,
+        projectileMassKg: 18.8,
+        penetrationMm: 36.9,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3,
+        maximumSpeedMs: 299,
+        missileGuidanceTimeS: 17,
+        explosiveType: "Octol",
+        explosiveMassKg: 2.4,
+        tntEquivalentKg: 3.8
+      },
+      {
+        id: "127mm_bgm_71_tow_it_m113a1_tow",
+        vehicleId: "it_m113a1_tow",
+        vehicleName: "M113A1 (TOW)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 127,
+        projectileMassKg: 18.8,
+        penetrationMm: 36.9,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3,
+        maximumSpeedMs: 299,
+        missileGuidanceTimeS: 17,
+        explosiveType: "Octol",
+        explosiveMassKg: 2.4,
+        tntEquivalentKg: 3.8
       }
     ]
   },
@@ -58878,6 +71459,58 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 19,
         penetrationMm: 33.8,
         vehicleOperator: "China",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 296,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 2.9
+      },
+      {
+        id: "127mm_bgm_71c_i_tow_il_m113a1_tow",
+        vehicleId: "il_m113a1_tow",
+        vehicleName: "Giraf",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 127,
+        projectileMassKg: 19,
+        penetrationMm: 33.8,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 296,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 2.9
+      },
+      {
+        id: "127mm_bgm_71c_i_tow_it_m113a1_tow",
+        vehicleId: "it_m113a1_tow",
+        vehicleName: "M113A1 (TOW)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 127,
+        projectileMassKg: 19,
+        penetrationMm: 33.8,
         fuzeDelayM: 0.05,
         fuzeSensitivityMm: 0.1,
         guidance: "Semi-Automatic (SACLOS)",
@@ -59489,6 +72122,10303 @@ export const tankShells: TankShellDefinition[] = [
         projectileMassKg: 5,
         penetrationMm: 195,
         muzzleVelocityMs: 1050
+      }
+    ]
+  },
+  {
+    id: "100mm_100_mm_obus_de_rupture",
+    designation: "100 mm Obus de rupture",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "100mm_100_mm_obus_de_rupture_fr_amx_50",
+        vehicleId: "fr_amx_50",
+        vehicleName: "AMX-50 (TOA100)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 15,
+        penetrationMm: 273,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "100mm_100_mm_obus_de_rupture_fr_lorraine_100",
+        vehicleId: "fr_lorraine_100",
+        vehicleName: "CA Lorraine",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 15,
+        penetrationMm: 273,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "100mm_100_mm_obus_de_rupture_fr_lorraine_40t",
+        vehicleId: "fr_lorraine_40t",
+        vehicleName: "Lorraine 40t",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 15,
+        penetrationMm: 273,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "100mm_100_mm_obus_de_rupture_fr_somua_sm",
+        vehicleId: "fr_somua_sm",
+        vehicleName: "Somua SM",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 15,
+        penetrationMm: 273,
+        muzzleVelocityMs: 1000
+      }
+    ]
+  },
+  {
+    id: "100mm_100_mm_obus_explosif",
+    designation: "100 mm Obus explosif",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "100mm_100_mm_obus_explosif_fr_amx_50",
+        vehicleId: "fr_amx_50",
+        vehicleName: "AMX-50 (TOA100)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 14.8,
+        penetrationMm: 18.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.4
+      },
+      {
+        id: "100mm_100_mm_obus_explosif_fr_lorraine_100",
+        vehicleId: "fr_lorraine_100",
+        vehicleName: "CA Lorraine",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "6.0",
+          SB: "6.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 14.8,
+        penetrationMm: 18.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.4
+      },
+      {
+        id: "100mm_100_mm_obus_explosif_fr_lorraine_40t",
+        vehicleId: "fr_lorraine_40t",
+        vehicleName: "Lorraine 40t",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 14.8,
+        penetrationMm: 18.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.4
+      },
+      {
+        id: "100mm_100_mm_obus_explosif_fr_somua_sm",
+        vehicleId: "fr_somua_sm",
+        vehicleName: "Somua SM",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 14.8,
+        penetrationMm: 18.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.4
+      }
+    ]
+  },
+  {
+    id: "105mm_o_fum_ph_105_f3",
+    designation: "O-FUM-PH-105 F3",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "105mm_o_fum_ph_105_f3_fr_amx_10rc",
+        vehicleId: "fr_amx_10rc",
+        vehicleName: "AMX-10RC",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 7.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_o_fum_ph_105_f3_fr_vextra_105",
+        vehicleId: "fr_vextra_105",
+        vehicleName: "Vextra 105",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 7.1,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "105mm_occ_105_f3",
+    designation: "OCC 105 F3",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "105mm_occ_105_f3_fr_amx_10rc",
+        vehicleId: "fr_amx_10rc",
+        vehicleName: "AMX-10RC",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 5.7,
+        penetrationMm: 14.1,
+        muzzleVelocityMs: 1120,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      },
+      {
+        id: "105mm_occ_105_f3_fr_vextra_105",
+        vehicleId: "fr_vextra_105",
+        vehicleName: "Vextra 105",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 5.7,
+        penetrationMm: 14.1,
+        muzzleVelocityMs: 1120,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.78,
+        tntEquivalentKg: 1
+      }
+    ]
+  },
+  {
+    id: "105mm_oe_105_60",
+    designation: "OE 105-60",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "105mm_oe_105_60_fr_vextra_105",
+        vehicleId: "fr_vextra_105",
+        vehicleName: "Vextra 105",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 7.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 690,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      }
+    ]
+  },
+  {
+    id: "105mm_oe_105_f3",
+    designation: "OE 105 F3",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "105mm_oe_105_f3_fr_amx_10rc",
+        vehicleId: "fr_amx_10rc",
+        vehicleName: "AMX-10RC",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 7.1,
+        penetrationMm: 25,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2
+      }
+    ]
+  },
+  {
+    id: "105mm_ofl_105_f1",
+    designation: "OFL 105 F1",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_ofl_105_f1_fr_amx_30_b2",
+        vehicleId: "fr_amx_30_b2",
+        vehicleName: "AMX-30B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 361,
+        muzzleVelocityMs: 1525
+      },
+      {
+        id: "105mm_ofl_105_f1_fr_amx_30_b2_brenus",
+        vehicleId: "fr_amx_30_b2_brenus",
+        vehicleName: "AMX-30B2 BRENUS",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 361,
+        muzzleVelocityMs: 1525
+      },
+      {
+        id: "105mm_ofl_105_f1_fr_amx_30_super",
+        vehicleId: "fr_amx_30_super",
+        vehicleName: "AMX-30 Super",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 361,
+        muzzleVelocityMs: 1525
+      },
+      {
+        id: "105mm_ofl_105_f1_fr_amx_32_105",
+        vehicleId: "fr_amx_32_105",
+        vehicleName: "AMX-32 (105)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 361,
+        muzzleVelocityMs: 1525
+      },
+      {
+        id: "105mm_ofl_105_f1_fr_vextra_105",
+        vehicleId: "fr_vextra_105",
+        vehicleName: "Vextra 105",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 353,
+        muzzleVelocityMs: 1500
+      }
+    ]
+  },
+  {
+    id: "105mm_ofl_105_f3",
+    designation: "OFL 105 F3",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_ofl_105_f3_fr_amx_10rc",
+        vehicleId: "fr_amx_10rc",
+        vehicleName: "AMX-10RC",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 3.8,
+        penetrationMm: 322,
+        muzzleVelocityMs: 1400
+      }
+    ]
+  },
+  {
+    id: "105mm_ofl_105_g2",
+    designation: "OFL 105 G2",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_ofl_105_g2_fr_vextra_105",
+        vehicleId: "fr_vextra_105",
+        vehicleName: "Vextra 105",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 445,
+        muzzleVelocityMs: 1500
+      }
+    ]
+  },
+  {
+    id: "120mm_120_mm_obus_de_rupture",
+    designation: "120 mm Obus de rupture",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_120_mm_obus_de_rupture_fr_amx_50_foch",
+        vehicleId: "fr_amx_50_foch",
+        vehicleName: "AMX-50 Foch",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 23.1,
+        penetrationMm: 301,
+        muzzleVelocityMs: 1067
+      },
+      {
+        id: "120mm_120_mm_obus_de_rupture_fr_amx_50_surbaisse",
+        vehicleId: "fr_amx_50_surbaisse",
+        vehicleName: "AMX-50 Surbaissé",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 23.1,
+        penetrationMm: 301,
+        muzzleVelocityMs: 1067
+      },
+      {
+        id: "120mm_120_mm_obus_de_rupture_fr_amx_50_surblinde",
+        vehicleId: "fr_amx_50_surblinde",
+        vehicleName: "AMX-50 Surblindé",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 23.1,
+        penetrationMm: 301,
+        muzzleVelocityMs: 1067
+      }
+    ]
+  },
+  {
+    id: "120mm_120_mm_obus_explosif",
+    designation: "120 mm Obus explosif",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "120mm_120_mm_obus_explosif_fr_amx_50_foch",
+        vehicleId: "fr_amx_50_foch",
+        vehicleName: "AMX-50 Foch",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 22.8,
+        penetrationMm: 39.1,
+        muzzleVelocityMs: 762,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3.5,
+        tntEquivalentKg: 4.7
+      },
+      {
+        id: "120mm_120_mm_obus_explosif_fr_amx_50_surbaisse",
+        vehicleId: "fr_amx_50_surbaisse",
+        vehicleName: "AMX-50 Surbaissé",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 22.8,
+        penetrationMm: 39.1,
+        muzzleVelocityMs: 762,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3.5,
+        tntEquivalentKg: 4.7
+      },
+      {
+        id: "120mm_120_mm_obus_explosif_fr_amx_50_surblinde",
+        vehicleId: "fr_amx_50_surblinde",
+        vehicleName: "AMX-50 Surblindé",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 22.8,
+        penetrationMm: 39.1,
+        muzzleVelocityMs: 762,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3.5,
+        tntEquivalentKg: 4.7
+      }
+    ]
+  },
+  {
+    id: "120mm_f1_he",
+    designation: "F1 HE",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "120mm_f1_he_fr_leclerc_azur",
+        vehicleId: "fr_leclerc_azur",
+        vehicleName: "Leclerc AZUR",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_fr_leclerc_s1",
+        vehicleId: "fr_leclerc_s1",
+        vehicleName: "Leclerc",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_fr_leclerc_s2",
+        vehicleId: "fr_leclerc_s2",
+        vehicleName: "Leclerc S2",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_fr_leclerc_sxxi",
+        vehicleId: "fr_leclerc_sxxi",
+        vehicleName: "Leclerc SXXI",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_fr_msc",
+        vehicleId: "fr_msc",
+        vehicleName: "MSC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_ariete_amv_pt1",
+        vehicleId: "it_ariete_amv_pt1",
+        vehicleName: "Ariete AMV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_c1_ariete",
+        vehicleId: "it_c1_ariete",
+        vehicleName: "Ariete",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_c1_ariete_certezza",
+        vehicleId: "it_c1_ariete_certezza",
+        vehicleName: "Ariete Certezza",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_c1_ariete_preserie",
+        vehicleId: "it_c1_ariete_preserie",
+        vehicleName: "Ariete (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_c1_ariete_pso",
+        vehicleId: "it_c1_ariete_pso",
+        vehicleName: "Ariete PSO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_centauro_2",
+        vehicleId: "it_centauro_2",
+        vehicleName: "Centauro II (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_centauro_mgs_120",
+        vehicleId: "it_centauro_mgs_120",
+        vehicleName: "Centauro I 120",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      },
+      {
+        id: "120mm_f1_he_it_centauro_rgo_120",
+        vehicleId: "it_centauro_rgo_120",
+        vehicleName: "Centauro RGO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 16.8,
+        penetrationMm: 37.3,
+        muzzleVelocityMs: 1050,
+        vehicleOperator: "Oman",
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 3,
+        tntEquivalentKg: 3.9
+      }
+    ]
+  },
+  {
+    id: "120mm_occ_120_g1",
+    designation: "OCC 120 G1",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_occ_120_g1_fr_amx_32",
+        vehicleId: "fr_amx_32",
+        vehicleName: "AMX-32",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 14.3,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_amx_40",
+        vehicleId: "fr_amx_40",
+        vehicleName: "AMX-40",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 14.3,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1050,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_leclerc_azur",
+        vehicleId: "fr_leclerc_azur",
+        vehicleName: "Leclerc AZUR",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 14.4,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1100,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_leclerc_s1",
+        vehicleId: "fr_leclerc_s1",
+        vehicleName: "Leclerc",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 14.4,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1100,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_leclerc_s2",
+        vehicleId: "fr_leclerc_s2",
+        vehicleName: "Leclerc S2",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 14.4,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1100,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_leclerc_sxxi",
+        vehicleId: "fr_leclerc_sxxi",
+        vehicleName: "Leclerc SXXI",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage_small",
+        armor: "armor_small",
+        caliberMm: 120,
+        projectileMassKg: 14.4,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1100,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      },
+      {
+        id: "120mm_occ_120_g1_fr_msc",
+        vehicleId: "fr_msc",
+        vehicleName: "MSC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 14.4,
+        penetrationMm: 26.5,
+        muzzleVelocityMs: 1100,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      }
+    ]
+  },
+  {
+    id: "120mm_ofl_120_f1",
+    designation: "OFL 120 F1",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_ofl_120_f1_fr_leclerc_azur",
+        vehicleId: "fr_leclerc_azur",
+        vehicleName: "Leclerc AZUR",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 576,
+        muzzleVelocityMs: 1790
+      },
+      {
+        id: "120mm_ofl_120_f1_fr_leclerc_s1",
+        vehicleId: "fr_leclerc_s1",
+        vehicleName: "Leclerc",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 576,
+        muzzleVelocityMs: 1790
+      },
+      {
+        id: "120mm_ofl_120_f1_fr_leclerc_s2",
+        vehicleId: "fr_leclerc_s2",
+        vehicleName: "Leclerc S2",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 576,
+        muzzleVelocityMs: 1790
+      },
+      {
+        id: "120mm_ofl_120_f1_fr_leclerc_sxxi",
+        vehicleId: "fr_leclerc_sxxi",
+        vehicleName: "Leclerc SXXI",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 4,
+        penetrationMm: 576,
+        muzzleVelocityMs: 1790
+      }
+    ]
+  },
+  {
+    id: "120mm_ofl_120_f2",
+    designation: "OFL 120 F2",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "120mm_ofl_120_f2_fr_leclerc_azur",
+        vehicleId: "fr_leclerc_azur",
+        vehicleName: "Leclerc AZUR",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 562,
+        muzzleVelocityMs: 1740
+      },
+      {
+        id: "120mm_ofl_120_f2_fr_leclerc_s1",
+        vehicleId: "fr_leclerc_s1",
+        vehicleName: "Leclerc",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 562,
+        muzzleVelocityMs: 1740
+      },
+      {
+        id: "120mm_ofl_120_f2_fr_leclerc_s2",
+        vehicleId: "fr_leclerc_s2",
+        vehicleName: "Leclerc S2",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 562,
+        muzzleVelocityMs: 1740
+      },
+      {
+        id: "120mm_ofl_120_f2_fr_leclerc_sxxi",
+        vehicleId: "fr_leclerc_sxxi",
+        vehicleName: "Leclerc SXXI",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 4.4,
+        penetrationMm: 562,
+        muzzleVelocityMs: 1740
+      }
+    ]
+  },
+  {
+    id: "120mm_ofl_120_g1",
+    designation: "OFL 120 G1",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "120mm_ofl_120_g1_fr_amx_32",
+        vehicleId: "fr_amx_32",
+        vehicleName: "AMX-32",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 3.8,
+        penetrationMm: 395,
+        muzzleVelocityMs: 1650
+      },
+      {
+        id: "120mm_ofl_120_g1_fr_amx_40",
+        vehicleId: "fr_amx_40",
+        vehicleName: "AMX-40",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 3.8,
+        penetrationMm: 395,
+        muzzleVelocityMs: 1650
+      },
+      {
+        id: "120mm_ofl_120_g1_fr_msc",
+        vehicleId: "fr_msc",
+        vehicleName: "MSC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 3.8,
+        penetrationMm: 425,
+        muzzleVelocityMs: 1780
+      }
+    ]
+  },
+  {
+    id: "140mm_mmp",
+    designation: "MMP",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM-Tandem",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "140mm_mmp_fr_jaguar_ebrc",
+        vehicleId: "fr_jaguar_ebrc",
+        vehicleName: "EBRC Jaguar",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 140,
+        projectileMassKg: 14,
+        penetrationMm: 17.3,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "IR",
+        maximumSpeedMs: 260,
+        missileGuidanceTimeS: 50,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1,
+        tntEquivalentKg: 1.3
+      }
+    ]
+  },
+  {
+    id: "142mm_mp_acra",
+    designation: "MP ACRA",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "142mm_mp_acra_fr_amx_10m_acra",
+        vehicleId: "fr_amx_10m_acra",
+        vehicleName: "AMX-10M",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 142,
+        projectileMassKg: 25,
+        penetrationMm: 35.7,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Beam riding",
+        launchRangeKm: 3.8,
+        maximumSpeedMs: 500,
+        missileGuidanceTimeS: 9.5,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.5,
+        tntEquivalentKg: 3.3
+      },
+      {
+        id: "142mm_mp_acra_fr_amx_30_acra",
+        vehicleId: "fr_amx_30_acra",
+        vehicleName: "AMX-30 ACRA",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 142,
+        projectileMassKg: 25,
+        penetrationMm: 35.7,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Beam riding",
+        launchRangeKm: 3.8,
+        maximumSpeedMs: 500,
+        missileGuidanceTimeS: 9.5,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.5,
+        tntEquivalentKg: 3.3
+      }
+    ]
+  },
+  {
+    id: "142mm_muc",
+    designation: "MUC",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "142mm_muc_fr_amx_10m_acra",
+        vehicleId: "fr_amx_10m_acra",
+        vehicleName: "AMX-10M",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 142,
+        projectileMassKg: 23,
+        penetrationMm: 36.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        maximumSpeedMs: 700,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 2.8,
+        tntEquivalentKg: 3.6
+      },
+      {
+        id: "142mm_muc_fr_amx_30_acra",
+        vehicleId: "fr_amx_30_acra",
+        vehicleName: "AMX-30 ACRA",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 142,
+        projectileMassKg: 23,
+        penetrationMm: 36.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        maximumSpeedMs: 700,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 2.8,
+        tntEquivalentKg: 3.6
+      }
+    ]
+  },
+  {
+    id: "150mm_hot_2",
+    designation: "HOT-2",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "150mm_hot_2_fr_vcac_mephisto",
+        vehicleId: "fr_vcac_mephisto",
+        vehicleName: "MEPHISTO",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 150,
+        projectileMassKg: 23,
+        penetrationMm: 900,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 4,
+        maximumSpeedMs: 250,
+        missileGuidanceTimeS: 19,
+        explosiveType: "Octol",
+        explosiveMassKg: 4.1,
+        tntEquivalentKg: 6.5
+      }
+    ]
+  },
+  {
+    id: "155mm_oa_mle1914",
+    designation: "OA Mle1914",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_oa_mle1914_fr_char_2c_bis",
+        vehicleId: "fr_char_2c_bis",
+        vehicleName: "2C bis",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.2,
+        penetrationMm: 63,
+        muzzleVelocityMs: 210,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Melinite",
+        explosiveMassKg: 10.2,
+        tntEquivalentKg: 11.2
+      }
+    ]
+  },
+  {
+    id: "155mm_oe_155_56",
+    designation: "OE 155 56",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "155mm_oe_155_56_fr_amx_30_auf_1",
+        vehicleId: "fr_amx_30_auf_1",
+        vehicleName: "AuF1",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_middle",
+        caliberMm: 155,
+        projectileMassKg: 43.8,
+        penetrationMm: 54,
+        muzzleVelocityMs: 810,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 6.8
+      }
+    ]
+  },
+  {
+    id: "25mm_mle1934_tp_(ch.f)",
+    designation: "Mle1934 TP (Ch.F)",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "25mm_mle1934_tp_(ch.f)_fr_amd_35",
+        vehicleId: "fr_amd_35",
+        vehicleName: "AMD.35",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 25,
+        projectileMassKg: 0.31,
+        penetrationMm: 71,
+        muzzleVelocityMs: 950
+      },
+      {
+        id: "25mm_mle1934_tp_(ch.f)_fr_amr_35_zt3",
+        vehicleId: "fr_amr_35_zt3",
+        vehicleName: "AMR.35 ZT3",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 25,
+        projectileMassKg: 0.31,
+        penetrationMm: 71,
+        muzzleVelocityMs: 950
+      }
+    ]
+  },
+  {
+    id: "37mm_mle1937",
+    designation: "Mle1937",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APCR",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "37mm_mle1937_fr_fcm_36",
+        vehicleId: "fr_fcm_36",
+        vehicleName: "FCM.36",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.5,
+        penetrationMm: 36,
+        muzzleVelocityMs: 600
+      },
+      {
+        id: "37mm_mle1937_fr_hotchkiss_h35",
+        vehicleId: "fr_hotchkiss_h35",
+        vehicleName: "H.35",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.5,
+        penetrationMm: 36,
+        muzzleVelocityMs: 600
+      }
+    ]
+  },
+  {
+    id: "37mm_mle1938",
+    designation: "Mle1938",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "37mm_mle1938_fr_hotchkiss_h39",
+        vehicleId: "fr_hotchkiss_h39",
+        vehicleName: "H.39",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.7,
+        penetrationMm: 54,
+        muzzleVelocityMs: 705
+      },
+      {
+        id: "37mm_mle1938_fr_hotchkiss_h39_cambronne",
+        vehicleId: "fr_hotchkiss_h39_cambronne",
+        vehicleName: "H.39 \"Cambronne\"",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.7,
+        penetrationMm: 54,
+        muzzleVelocityMs: 705
+      },
+      {
+        id: "37mm_mle1938_fr_renault_r39",
+        vehicleId: "fr_renault_r39",
+        vehicleName: "R.35 (SA38)",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.7,
+        penetrationMm: 54,
+        muzzleVelocityMs: 705
+      }
+    ]
+  },
+  {
+    id: "47mm_mle1892g",
+    designation: "Mle1892G",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "47mm_mle1892g_fr_amc_34",
+        vehicleId: "fr_amc_34",
+        vehicleName: "AMC.34 YR",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 450,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 6,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "47mm_mle1935",
+    designation: "Mle1935",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "47mm_mle1935_fr_amc_35",
+        vehicleId: "fr_amc_35",
+        vehicleName: "AMC.35 (ACG.1)",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      },
+      {
+        id: "47mm_mle1935_fr_amd_35_sa35",
+        vehicleId: "fr_amd_35_sa35",
+        vehicleName: "AMD.35 (SA35)",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      },
+      {
+        id: "47mm_mle1935_fr_b1_bis",
+        vehicleId: "fr_b1_bis",
+        vehicleName: "B1 bis",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      },
+      {
+        id: "47mm_mle1935_fr_b1_ter",
+        vehicleId: "fr_b1_ter",
+        vehicleName: "B1 ter",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      },
+      {
+        id: "47mm_mle1935_fr_renault_d2",
+        vehicleId: "fr_renault_d2",
+        vehicleName: "D2",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      },
+      {
+        id: "47mm_mle1935_fr_somua_s35",
+        vehicleId: "fr_somua_s35",
+        vehicleName: "S.35",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.6,
+        penetrationMm: 62,
+        muzzleVelocityMs: 660
+      }
+    ]
+  },
+  {
+    id: "47mm_mle1935_he",
+    designation: "Mle1935 HE",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "47mm_mle1935_he_fr_amd_35_sa35",
+        vehicleId: "fr_amd_35_sa35",
+        vehicleName: "AMD.35 (SA35)",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 590,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.143
+      },
+      {
+        id: "47mm_mle1935_he_fr_b1_bis",
+        vehicleId: "fr_b1_bis",
+        vehicleName: "B1 bis",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 590,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.143
+      },
+      {
+        id: "47mm_mle1935_he_fr_b1_ter",
+        vehicleId: "fr_b1_ter",
+        vehicleName: "B1 ter",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 590,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.143
+      },
+      {
+        id: "47mm_mle1935_he_fr_renault_d2",
+        vehicleId: "fr_renault_d2",
+        vehicleName: "D2",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 590,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.143
+      },
+      {
+        id: "47mm_mle1935_he_fr_somua_s35",
+        vehicleId: "fr_somua_s35",
+        vehicleName: "S.35",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 590,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.143
+      }
+    ]
+  },
+  {
+    id: "47mm_mle1936",
+    designation: "Mle1936",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "47mm_mle1936_fr_lorraine_37l",
+        vehicleId: "fr_lorraine_37l",
+        vehicleName: "Lorraine 37L",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.7,
+        penetrationMm: 105,
+        muzzleVelocityMs: 855
+      }
+    ]
+  },
+  {
+    id: "75mm_75_mm_oe_mle.28",
+    designation: "75 mm OE Mle.28",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_75_mm_oe_mle.28_fr_arl_44_acl1",
+        vehicleId: "fr_arl_44_acl1",
+        vehicleName: "ARL-44 (ACL-1)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      }
+    ]
+  },
+  {
+    id: "75mm_75_mm_or_mle.44",
+    designation: "75 mm OR Mle.44",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_75_mm_or_mle.44_fr_arl_44_acl1",
+        vehicleId: "fr_arl_44_acl1",
+        vehicleName: "ARL-44 (ACL-1)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 125,
+        muzzleVelocityMs: 715
+      }
+    ]
+  },
+  {
+    id: "75mm_mle1900",
+    designation: "Mle1900",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_mle1900_fr_char_2c",
+        vehicleId: "fr_char_2c",
+        vehicleName: "2C",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.5,
+        muzzleVelocityMs: 500,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.695
+      },
+      {
+        id: "75mm_mle1900_fr_saint_chamond",
+        vehicleId: "fr_saint_chamond",
+        vehicleName: "St-Chamond",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.5,
+        muzzleVelocityMs: 400,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.695
+      }
+    ]
+  },
+  {
+    id: "75mm_mle1910m",
+    designation: "Mle1910M",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_mle1910m_fr_b1_bis",
+        vehicleId: "fr_b1_bis",
+        vehicleName: "B1 bis",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.8,
+        muzzleVelocityMs: 470,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 7,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.09
+      },
+      {
+        id: "75mm_mle1910m_fr_b1_ter",
+        vehicleId: "fr_b1_ter",
+        vehicleName: "B1 ter",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.8,
+        muzzleVelocityMs: 470,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 7,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.09
+      },
+      {
+        id: "75mm_mle1910m_fr_saint_chamond",
+        vehicleId: "fr_saint_chamond",
+        vehicleName: "St-Chamond",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.8,
+        muzzleVelocityMs: 570,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 7,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.09
+      },
+      {
+        id: "75mm_mle1910m_fr_somua_sau40",
+        vehicleId: "fr_somua_sau40",
+        vehicleName: "SAu 40",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 3.8,
+        muzzleVelocityMs: 555,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 7,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.09
+      }
+    ]
+  },
+  {
+    id: "75mm_mle1915",
+    designation: "Mle1915",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_mle1915_fr_b1_bis",
+        vehicleId: "fr_b1_bis",
+        vehicleName: "B1 bis",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.6,
+        penetrationMm: 11,
+        muzzleVelocityMs: 500,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.74
+      },
+      {
+        id: "75mm_mle1915_fr_b1_ter",
+        vehicleId: "fr_b1_ter",
+        vehicleName: "B1 ter",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.6,
+        penetrationMm: 11,
+        muzzleVelocityMs: 500,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.74
+      },
+      {
+        id: "75mm_mle1915_fr_somua_sau40",
+        vehicleId: "fr_somua_sau40",
+        vehicleName: "SAu 40",
+        vehicleTechTree: "France",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.4,
+        penetrationMm: 11,
+        muzzleVelocityMs: 389,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.74
+      }
+    ]
+  },
+  {
+    id: "75mm_mle1916",
+    designation: "Mle1916",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_mle1916_fr_char_2c",
+        vehicleId: "fr_char_2c",
+        vehicleName: "2C",
+        vehicleTechTree: "France",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 7.4,
+        penetrationMm: 6.7,
+        muzzleVelocityMs: 558,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.35
+      }
+    ]
+  },
+  {
+    id: "75mm_oe_mle_1951",
+    designation: "OE Mle 1951",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_oe_mle_1951_fr_amx_13_75",
+        vehicleId: "fr_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_fr_amx_13_75_ss11",
+        vehicleId: "fr_amx_13_75_ss11",
+        vehicleName: "AMX-13 (SS.11)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_fr_amx_13_hot",
+        vehicleId: "fr_amx_13_hot",
+        vehicleName: "AMX-13 (HOT)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_fr_m4a1_sherman_fl_10",
+        vehicleId: "fr_m4a1_sherman_fl_10",
+        vehicleName: "M4A1 (FL10)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_fr_m4a4_cn_75_50",
+        vehicleId: "fr_m4a4_cn_75_50",
+        vehicleName: "M4A4 (SA50)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_fr_panhard_ebr_1954",
+        vehicleId: "fr_panhard_ebr_1954",
+        vehicleName: "E.B.R. (1954)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      },
+      {
+        id: "75mm_oe_mle_1951_il_amx_13_75",
+        vehicleId: "il_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.2,
+        penetrationMm: 10.3,
+        muzzleVelocityMs: 753,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.675
+      }
+    ]
+  },
+  {
+    id: "75mm_pcot_51p",
+    designation: "PCOT-51P",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_pcot_51p_fr_amx_13_75",
+        vehicleId: "fr_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pcot_51p_fr_amx_13_75_ss11",
+        vehicleId: "fr_amx_13_75_ss11",
+        vehicleName: "AMX-13 (SS.11)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pcot_51p_fr_amx_13_hot",
+        vehicleId: "fr_amx_13_hot",
+        vehicleName: "AMX-13 (HOT)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pcot_51p_fr_m4a4_cn_75_50",
+        vehicleId: "fr_m4a4_cn_75_50",
+        vehicleName: "M4A4 (SA50)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pcot_51p_fr_panhard_ebr_1954",
+        vehicleId: "fr_panhard_ebr_1954",
+        vehicleName: "E.B.R. (1954)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pcot_51p_il_amx_13_75",
+        vehicleId: "il_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 202,
+        muzzleVelocityMs: 1000
+      }
+    ]
+  },
+  {
+    id: "75mm_pot_51a",
+    designation: "POT-51A",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_pot_51a_fr_amx_13_75",
+        vehicleId: "fr_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_fr_amx_13_75_ss11",
+        vehicleId: "fr_amx_13_75_ss11",
+        vehicleName: "AMX-13 (SS.11)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_fr_amx_13_hot",
+        vehicleId: "fr_amx_13_hot",
+        vehicleName: "AMX-13 (HOT)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_fr_m4a1_sherman_fl_10",
+        vehicleId: "fr_m4a1_sherman_fl_10",
+        vehicleName: "M4A1 (FL10)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_fr_m4a4_cn_75_50",
+        vehicleId: "fr_m4a4_cn_75_50",
+        vehicleName: "M4A4 (SA50)",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_fr_panhard_ebr_1954",
+        vehicleId: "fr_panhard_ebr_1954",
+        vehicleName: "E.B.R. (1954)",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      },
+      {
+        id: "75mm_pot_51a_il_amx_13_75",
+        vehicleId: "il_amx_13_75",
+        vehicleName: "AMX-13",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 182,
+        muzzleVelocityMs: 1000
+      }
+    ]
+  },
+  {
+    id: "90mm_90_mm_obus_explosif",
+    designation: "90 mm Obus explosif",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "90mm_90_mm_obus_explosif_fr_amx_m4",
+        vehicleId: "fr_amx_m4",
+        vehicleName: "AMX M4",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 11.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      },
+      {
+        id: "90mm_90_mm_obus_explosif_fr_arl_44",
+        vehicleId: "fr_arl_44",
+        vehicleName: "ARL-44",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 11.3,
+        penetrationMm: 13.3,
+        muzzleVelocityMs: 700,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.945
+      }
+    ]
+  },
+  {
+    id: "90mm_occ_90_f2",
+    designation: "OCC 90 F2",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_occ_90_f2_fr_mars_15",
+        vehicleId: "fr_mars_15",
+        vehicleName: "MARS 15",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 8.9,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 950,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.67,
+        tntEquivalentKg: 0.878
+      }
+    ]
+  },
+  {
+    id: "90mm_ofl_90_f1",
+    designation: "OFL 90 F1",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "90mm_ofl_90_f1_fr_mars_15",
+        vehicleId: "fr_mars_15",
+        vehicleName: "MARS 15",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 3.8,
+        penetrationMm: 277,
+        muzzleVelocityMs: 1275
+      }
+    ]
+  },
+  {
+    id: "90mm_ofum_90_f1",
+    designation: "OFUM 90 F1",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "90mm_ofum_90_f1_fr_mars_15",
+        vehicleId: "fr_mars_15",
+        vehicleName: "MARS 15",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.2,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 750,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "90mm_pco_50",
+    designation: "PCO-50",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_pco_50_fr_amx_m4",
+        vehicleId: "fr_amx_m4",
+        vehicleName: "AMX M4",
+        vehicleTechTree: "France",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.0",
+          SB: "7.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 11.2,
+        penetrationMm: 259,
+        muzzleVelocityMs: 1030
+      },
+      {
+        id: "90mm_pco_50_fr_arl_44",
+        vehicleId: "fr_arl_44",
+        vehicleName: "ARL-44",
+        vehicleTechTree: "France",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.3",
+          RB: "5.3",
+          SB: "5.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 11.2,
+        penetrationMm: 248,
+        muzzleVelocityMs: 1000
+      }
+    ]
+  },
+  {
+    id: "105mm_m426",
+    designation: "M426",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_m426_il_magach_6b_gal",
+        vehicleId: "il_magach_6b_gal",
+        vehicleName: "Magach 6B Gal",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m426_il_magach_6b_gal_batash",
+        vehicleId: "il_magach_6b_gal_batash",
+        vehicleName: "Gal Batash",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m426_il_magach_6c",
+        vehicleId: "il_magach_6c",
+        vehicleName: "Magach 6C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m426_il_magach_7c",
+        vehicleId: "il_magach_7c",
+        vehicleName: "Magach 7C",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_m426_il_merkava_mk_2d",
+        vehicleId: "il_merkava_mk_2d",
+        vehicleName: "Merkava Mk.2D",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      }
+    ]
+  },
+  {
+    id: "120mm_m338",
+    designation: "M338",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_m338_il_merkava_mk_4_lic",
+        vehicleId: "il_merkava_mk_4_lic",
+        vehicleName: "Merkava Mk.4 LIC",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.1,
+        penetrationMm: 611,
+        muzzleVelocityMs: 1680
+      },
+      {
+        id: "120mm_m338_il_merkava_mk_4b",
+        vehicleId: "il_merkava_mk_4b",
+        vehicleName: "Merkava Mk.4B",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.1,
+        penetrationMm: 611,
+        muzzleVelocityMs: 1680
+      },
+      {
+        id: "120mm_m338_il_merkava_mk_4m",
+        vehicleId: "il_merkava_mk_4m",
+        vehicleName: "Merkava Mk.4M",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.1,
+        penetrationMm: 611,
+        muzzleVelocityMs: 1680
+      }
+    ]
+  },
+  {
+    id: "155mm_m401",
+    designation: "M401",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_m401_il_sholef",
+        vehicleId: "il_sholef",
+        vehicleName: "Sholef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 63.1,
+        muzzleVelocityMs: 897,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 12
+      }
+    ]
+  },
+  {
+    id: "155mm_m401_(pf)",
+    designation: "M401 (PF)",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-VT",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_m401_(pf)_il_sholef",
+        vehicleId: "il_sholef",
+        vehicleName: "Sholef",
+        vehicleTechTree: "Israel",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.1,
+        penetrationMm: 63.1,
+        muzzleVelocityMs: 897,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 12
+      }
+    ]
+  },
+  {
+    id: "60mm_m300",
+    designation: "M300",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "60mm_m300_il_m113_hvms",
+        vehicleId: "il_m113_hvms",
+        vehicleName: "Bardelas/60mm HVMS",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 60,
+        projectileMassKg: 0.87,
+        penetrationMm: 249,
+        muzzleVelocityMs: 1620
+      },
+      {
+        id: "60mm_m300_it_aubl_74_60_70m",
+        vehicleId: "it_aubl_74_60_70m",
+        vehicleName: "AUBL/74 HVG",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 60,
+        projectileMassKg: 0.87,
+        penetrationMm: 249,
+        muzzleVelocityMs: 1620
+      },
+      {
+        id: "60mm_m300_it_vcc_80_hitfist_60",
+        vehicleId: "it_vcc_80_hitfist_60",
+        vehicleName: "VCC-80/60",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 60,
+        projectileMassKg: 0.87,
+        penetrationMm: 249,
+        muzzleVelocityMs: 1620
+      }
+    ]
+  },
+  {
+    id: "60mm_oto_he",
+    designation: "OTO HE",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "60mm_oto_he_il_m113_hvms",
+        vehicleId: "il_m113_hvms",
+        vehicleName: "Bardelas/60mm HVMS",
+        vehicleTechTree: "Israel",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 60,
+        projectileMassKg: 3.1,
+        penetrationMm: 11.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Hexal",
+        explosiveMassKg: 0.45,
+        tntEquivalentKg: 0.765
+      },
+      {
+        id: "60mm_oto_he_it_aubl_74_60_70m",
+        vehicleId: "it_aubl_74_60_70m",
+        vehicleName: "AUBL/74 HVG",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 60,
+        projectileMassKg: 3.1,
+        penetrationMm: 11.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Hexal",
+        explosiveMassKg: 0.45,
+        tntEquivalentKg: 0.765
+      },
+      {
+        id: "60mm_oto_he_it_vcc_80_hitfist_60",
+        vehicleId: "it_vcc_80_hitfist_60",
+        vehicleName: "VCC-80/60",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 60,
+        projectileMassKg: 3.1,
+        penetrationMm: 11.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Hexal",
+        explosiveMassKg: 0.45,
+        tntEquivalentKg: 0.765
+      }
+    ]
+  },
+  {
+    id: "100mm_105_mm_38_33m",
+    designation: "105 mm 38/33M",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "100mm_105_mm_38_33m_it_40_43m_zrinyi_2",
+        vehicleId: "it_40_43m_zrinyi_2",
+        vehicleName: "Zrinyi II",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 15,
+        penetrationMm: 27.2,
+        muzzleVelocityMs: 471,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.2
+      }
+    ]
+  },
+  {
+    id: "100mm_effetto_pronto_da_100",
+    designation: "Effetto Pronto da 100",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HESH",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "100mm_effetto_pronto_da_100_it_lancia3ro_100",
+        vehicleId: "it_lancia3ro_100",
+        vehicleName: "Lancia 3Ro (100/17)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 10.4,
+        penetrationMm: 75,
+        muzzleVelocityMs: 399,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.6,
+        tntEquivalentKg: 2.1
+      }
+    ]
+  },
+  {
+    id: "100mm_effetto_pronto_mod.43",
+    designation: "Effetto Pronto mod.43",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "100mm_effetto_pronto_mod.43_it_lancia3ro_100",
+        vehicleId: "it_lancia3ro_100",
+        vehicleName: "Lancia 3Ro (100/17)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 100,
+        projectileMassKg: 12.5,
+        penetrationMm: 19.8,
+        muzzleVelocityMs: 431,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.2,
+        tntEquivalentKg: 1.5
+      }
+    ]
+  },
+  {
+    id: "100mm_granata_da_100_mod.32",
+    designation: "Granata da 100 Mod.32",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "100mm_granata_da_100_mod.32_it_lancia3ro_100",
+        vehicleId: "it_lancia3ro_100",
+        vehicleName: "Lancia 3Ro (100/17)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 100,
+        projectileMassKg: 13.5,
+        penetrationMm: 27.2,
+        muzzleVelocityMs: 399,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.2
+      }
+    ]
+  },
+  {
+    id: "100mm_granata_da_100_mod.914",
+    designation: "Granata da 100 Mod.914",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "AC",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "100mm_granata_da_100_mod.914_it_lancia3ro_100",
+        vehicleId: "it_lancia3ro_100",
+        vehicleName: "Lancia 3Ro (100/17)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 100,
+        projectileMassKg: 16.2,
+        penetrationMm: 20,
+        muzzleVelocityMs: 244,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.5
+      }
+    ]
+  },
+  {
+    id: "105mm_105_mm_42m",
+    designation: "105 mm 42M",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_105_mm_42m_it_40_43m_zrinyi_2",
+        vehicleId: "it_40_43m_zrinyi_2",
+        vehicleName: "Zrinyi II",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 17,
+        penetrationMm: 28,
+        muzzleVelocityMs: 444,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.3
+      }
+    ]
+  },
+  {
+    id: "105mm_effetto_pronto_mod.43",
+    designation: "Effetto Pronto mod.43",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_effetto_pronto_mod.43_it_semovente_m43_105",
+        vehicleId: "it_semovente_m43_105",
+        vehicleName: "105/25 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 14,
+        penetrationMm: 28,
+        muzzleVelocityMs: 510,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.3
+      },
+      {
+        id: "105mm_effetto_pronto_mod.43_it_semovente_m43_105_leoncello",
+        vehicleId: "it_semovente_m43_105_leoncello",
+        vehicleName: "M43 \"G.C.Leoncello\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 14,
+        penetrationMm: 28,
+        muzzleVelocityMs: 510,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 1.8,
+        tntEquivalentKg: 2.3
+      }
+    ]
+  },
+  {
+    id: "105mm_granata_perforante_da_105",
+    designation: "Granata Perforante da 105",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_granata_perforante_da_105_it_semovente_m43_105",
+        vehicleId: "it_semovente_m43_105",
+        vehicleName: "105/25 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 15.6,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 500,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.275
+      },
+      {
+        id: "105mm_granata_perforante_da_105_it_semovente_m43_105_leoncello",
+        vehicleId: "it_semovente_m43_105_leoncello",
+        vehicleName: "M43 \"G.C.Leoncello\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 15.6,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 500,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.275
+      }
+    ]
+  },
+  {
+    id: "120mm_cl3143",
+    designation: "CL3143",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_cl3143_it_ariete_amv_pt1",
+        vehicleId: "it_ariete_amv_pt1",
+        vehicleName: "Ariete AMV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_cl3143_it_centauro_2",
+        vehicleId: "it_centauro_2",
+        vehicleName: "Centauro II (P)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_cl3143_it_centauro_mgs_120",
+        vehicleId: "it_centauro_mgs_120",
+        vehicleName: "Centauro I 120",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_cl3143_it_centauro_rgo_120",
+        vehicleId: "it_centauro_rgo_120",
+        vehicleName: "Centauro RGO",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705,
+        vehicleOperator: "Oman"
+      }
+    ]
+  },
+  {
+    id: "155mm_p3",
+    designation: "P3",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_p3_it_palmaria",
+        vehicleId: "it_palmaria",
+        vehicleName: "Palmaria",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 43.5,
+        penetrationMm: 63.6,
+        muzzleVelocityMs: 827,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 11.7,
+        tntEquivalentKg: 15.3
+      }
+    ]
+  },
+  {
+    id: "155mm_p5",
+    designation: "P5",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "155mm_p5_it_palmaria",
+        vehicleId: "it_palmaria",
+        vehicleName: "Palmaria",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 155,
+        projectileMassKg: 43.5,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 827,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "20mm_20_mm_36m_páncélgránát",
+    designation: "20 mm 36M páncélgránát",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "20mm_20_mm_36m_páncélgránát_it_39m_csaba",
+        vehicleId: "it_39m_csaba",
+        vehicleName: "Csaba",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 20,
+        projectileMassKg: 0.148,
+        penetrationMm: 2,
+        muzzleVelocityMs: 762,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "PETN",
+        explosiveMassKg: 0.001,
+        tntEquivalentKg: 0.002
+      }
+    ]
+  },
+  {
+    id: "20mm_perforante_mod.35",
+    designation: "Perforante mod.35",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "20mm_perforante_mod.35_it_l3_cc",
+        vehicleId: "it_l3_cc",
+        vehicleName: "L3/33 CC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 20,
+        projectileMassKg: 0.14,
+        penetrationMm: 2,
+        muzzleVelocityMs: 832,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "PETN",
+        explosiveMassKg: 0.001,
+        tntEquivalentKg: 0.002
+      }
+    ]
+  },
+  {
+    id: "37mm_granata_perforante_da_37_mm",
+    designation: "Granata Perforante da 37 mm",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "37mm_granata_perforante_da_37_mm_it_m11_39",
+        vehicleId: "it_m11_39",
+        vehicleName: "M11/39",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.698,
+        penetrationMm: 2.4,
+        muzzleVelocityMs: 640,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.023
+      }
+    ]
+  },
+  {
+    id: "40mm_36m",
+    designation: "36M",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHEBC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "40mm_36m_it_40m_turan_1",
+        vehicleId: "it_40m_turan_1",
+        vehicleName: "Turan I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 0.965,
+        penetrationMm: 2.3,
+        muzzleVelocityMs: 812,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.017
+      },
+      {
+        id: "40mm_36m_it_toldi_ii_a",
+        vehicleId: "it_toldi_ii_a",
+        vehicleName: "Toldi IIA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 0.965,
+        penetrationMm: 2.3,
+        muzzleVelocityMs: 800,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.017
+      }
+    ]
+  },
+  {
+    id: "40mm_39m",
+    designation: "39M",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "40mm_39m_it_40m_turan_1",
+        vehicleId: "it_40m_turan_1",
+        vehicleName: "Turan I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.965,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 812,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.063
+      },
+      {
+        id: "40mm_39m_it_toldi_ii_a",
+        vehicleId: "it_toldi_ii_a",
+        vehicleName: "Toldi IIA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.965,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 800,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.063
+      }
+    ]
+  },
+  {
+    id: "40mm_43m",
+    designation: "43M",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "40mm_43m_it_40m_turan_1",
+        vehicleId: "it_40m_turan_1",
+        vehicleName: "Turan I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 1,
+        penetrationMm: 73,
+        muzzleVelocityMs: 812,
+        vehicleOperator: "Hungary (old)"
+      },
+      {
+        id: "40mm_43m_it_toldi_ii_a",
+        vehicleId: "it_toldi_ii_a",
+        vehicleName: "Toldi IIA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 1,
+        penetrationMm: 72,
+        muzzleVelocityMs: 800,
+        vehicleOperator: "Hungary (old)"
+      }
+    ]
+  },
+  {
+    id: "47mm_granata_mod.35",
+    designation: "Granata mod.35",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "47mm_granata_mod.35_it_ab_43",
+        vehicleId: "it_ab_43",
+        vehicleName: "AB 43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 2.4,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 364,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "47mm_granata_mod.35_it_m14_41_47_40",
+        vehicleId: "it_m14_41_47_40",
+        vehicleName: "M14/41 (47/40)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 2.4,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 364,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "47mm_granata_mod.35_it_m15_42",
+        vehicleId: "it_m15_42",
+        vehicleName: "M15/42",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 2.4,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 364,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "47mm_granata_mod.35_it_sahariano",
+        vehicleId: "it_sahariano",
+        vehicleName: "Celere Sahariano",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 2.4,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 364,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      },
+      {
+        id: "47mm_granata_mod.35_it_semovente_l40",
+        vehicleId: "it_semovente_l40",
+        vehicleName: "47/32 L40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 47,
+        projectileMassKg: 2.4,
+        penetrationMm: 4.5,
+        muzzleVelocityMs: 250,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.15
+      }
+    ]
+  },
+  {
+    id: "47mm_granata_perforante_mod.35",
+    designation: "Granata Perforante mod.35",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "47mm_granata_perforante_mod.35_it_as_42_47",
+        vehicleId: "it_as_42_47",
+        vehicleName: "AS 42/47",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.35_it_m13_40_serie_1",
+        vehicleId: "it_m13_40_serie_1",
+        vehicleName: "M13/40 (I)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.35_it_m13_40_serie_2",
+        vehicleId: "it_m13_40_serie_2",
+        vehicleName: "M13/40 (II)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.35_it_m13_40_serie_3",
+        vehicleId: "it_m13_40_serie_3",
+        vehicleName: "M13/40 (III)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.35_it_m14_41",
+        vehicleId: "it_m14_41",
+        vehicleName: "M14/41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.35_it_semovente_l40",
+        vehicleId: "it_semovente_l40",
+        vehicleName: "47/32 L40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.5,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      }
+    ]
+  },
+  {
+    id: "47mm_granata_perforante_mod.39",
+    designation: "Granata Perforante mod.39",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "47mm_granata_perforante_mod.39_it_ab_43",
+        vehicleId: "it_ab_43",
+        vehicleName: "AB 43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 755,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_as_42_47",
+        vehicleId: "it_as_42_47",
+        vehicleName: "AS 42/47",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m13_40_serie_1",
+        vehicleId: "it_m13_40_serie_1",
+        vehicleName: "M13/40 (I)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m13_40_serie_2",
+        vehicleId: "it_m13_40_serie_2",
+        vehicleName: "M13/40 (II)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m13_40_serie_3",
+        vehicleId: "it_m13_40_serie_3",
+        vehicleName: "M13/40 (III)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m14_41",
+        vehicleId: "it_m14_41",
+        vehicleName: "M14/41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m14_41_47_40",
+        vehicleId: "it_m14_41_47_40",
+        vehicleName: "M14/41 (47/40)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 755,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_m15_42",
+        vehicleId: "it_m15_42",
+        vehicleName: "M15/42",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 755,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_sahariano",
+        vehicleId: "it_sahariano",
+        vehicleName: "Celere Sahariano",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 755,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      },
+      {
+        id: "47mm_granata_perforante_mod.39_it_semovente_l40",
+        vehicleId: "it_semovente_l40",
+        vehicleName: "47/32 L40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.3",
+          RB: "1.3",
+          SB: "1.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 47,
+        projectileMassKg: 1.4,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.03
+      }
+    ]
+  },
+  {
+    id: "50mm_arf_8m3",
+    designation: "ARF/8M3",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "50mm_arf_8m3_it_fiat_6614_firos",
+        vehicleId: "it_fiat_6614_firos",
+        vehicleName: "FIROS 6",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.7",
+          RB: "7.7",
+          SB: "7.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 50,
+        projectileMassKg: 3.8,
+        penetrationMm: 8,
+        fuzeSensitivityMm: 0.01,
+        maximumSpeedMs: 515,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.37,
+        tntEquivalentKg: 0.474
+      }
+    ]
+  },
+  {
+    id: "60mm_oto_he_vt",
+    designation: "OTO HE-VT",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-VT",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "60mm_oto_he_vt_it_vcc_80_hitfist_60",
+        vehicleId: "it_vcc_80_hitfist_60",
+        vehicleName: "VCC-80/60",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 60,
+        projectileMassKg: 3.1,
+        penetrationMm: 11.3,
+        muzzleVelocityMs: 1000,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Hexal",
+        explosiveMassKg: 0.45,
+        tntEquivalentKg: 0.765
+      }
+    ]
+  },
+  {
+    id: "75mm_42.m",
+    designation: "42.M",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_42.m_it_41m_turan_2",
+        vehicleId: "it_41m_turan_2",
+        vehicleName: "Turan II",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 4.8,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.515,
+        tntEquivalentKg: 0.876
+      }
+    ]
+  },
+  {
+    id: "75mm_42_36.m",
+    designation: "42/36.M",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHEBC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_42_36.m_it_41m_turan_2",
+        vehicleId: "it_41m_turan_2",
+        vehicleName: "Turan II",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 4,
+        muzzleVelocityMs: 535,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Fp.02 and Np.10",
+        explosiveMassKg: 0.08,
+        tntEquivalentKg: 0.102
+      }
+    ]
+  },
+  {
+    id: "75mm_42_38.m",
+    designation: "42/38.M",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_42_38.m_it_41m_turan_2",
+        vehicleId: "it_41m_turan_2",
+        vehicleName: "Turan II",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.2,
+        penetrationMm: 7.2,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.4
+      }
+    ]
+  },
+  {
+    id: "75mm_43.m_páncélgránát",
+    designation: "43.M páncélgránát",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_big",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "75mm_43.m_páncélgránát_it_43m_turan_3",
+        vehicleId: "it_43m_turan_3",
+        vehicleName: "Turan III",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 770,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      },
+      {
+        id: "75mm_43.m_páncélgránát_it_44m_zrinyi_1",
+        vehicleId: "it_44m_zrinyi_1",
+        vehicleName: "Zrinyi I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 770,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      }
+    ]
+  },
+  {
+    id: "75mm_43.m_páncélrobbantó_gránát",
+    designation: "43.M páncélrobbantó gránát",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_43.m_páncélrobbantó_gránát_it_43m_turan_3",
+        vehicleId: "it_43m_turan_3",
+        vehicleName: "Turan III",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 4.4,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
+      },
+      {
+        id: "75mm_43.m_páncélrobbantó_gránát_it_44m_zrinyi_1",
+        vehicleId: "it_44m_zrinyi_1",
+        vehicleName: "Zrinyi I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 4.4,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.872
+      }
+    ]
+  },
+  {
+    id: "75mm_43.m_repeszgránát",
+    designation: "43.M repeszgránát",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_43.m_repeszgránát_it_43m_turan_3",
+        vehicleId: "it_43m_turan_3",
+        vehicleName: "Turan III",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.3",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      },
+      {
+        id: "75mm_43.m_repeszgránát_it_44m_zrinyi_1",
+        vehicleId: "it_44m_zrinyi_1",
+        vehicleName: "Zrinyi I",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Hungary (old)",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      }
+    ]
+  },
+  {
+    id: "75mm_eps_m42",
+    designation: "EPS M42",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_eps_m42_it_p_26_40",
+        vehicleId: "it_p_26_40",
+        vehicleName: "P40 \"G.C. Leoncello\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.1,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.657
+      },
+      {
+        id: "75mm_eps_m42_it_p_40",
+        vehicleId: "it_p_40",
+        vehicleName: "P40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.1,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.657
+      },
+      {
+        id: "75mm_eps_m42_it_semovente_m41_75_18",
+        vehicleId: "it_semovente_m41_75_18",
+        vehicleName: "75/18 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 9.9,
+        muzzleVelocityMs: 399,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.5,
+        tntEquivalentKg: 0.64
+      },
+      {
+        id: "75mm_eps_m42_it_semovente_m41_75_32",
+        vehicleId: "it_semovente_m41_75_32",
+        vehicleName: "75/32 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 9.9,
+        muzzleVelocityMs: 580,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.5,
+        tntEquivalentKg: 0.64
+      },
+      {
+        id: "75mm_eps_m42_it_semovente_m42_75_34",
+        vehicleId: "it_semovente_m42_75_34",
+        vehicleName: "75/34 M42",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.1,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.657
+      },
+      {
+        id: "75mm_eps_m42_it_semovente_m43_75_34",
+        vehicleId: "it_semovente_m43_75_34",
+        vehicleName: "75/34 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 5.3,
+        penetrationMm: 10.1,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "RDX/TNT",
+        explosiveMassKg: 0.513,
+        tntEquivalentKg: 0.657
+      }
+    ]
+  },
+  {
+    id: "75mm_gr._fumogena",
+    designation: "Gr. Fumogena",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "75mm_gr._fumogena_it_semovente_m41_75_18",
+        vehicleId: "it_semovente_m41_75_18",
+        vehicleName: "75/18 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "75mm_gr._fumogena_it_semovente_m41_75_32",
+        vehicleId: "it_semovente_m41_75_32",
+        vehicleName: "75/32 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 490,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_75_32",
+    designation: "Granata 75/32",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_granata_75_32_it_p_26_40",
+        vehicleId: "it_p_26_40",
+        vehicleName: "P40 \"G.C. Leoncello\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.4,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.6
+      },
+      {
+        id: "75mm_granata_75_32_it_p_40",
+        vehicleId: "it_p_40",
+        vehicleName: "P40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.4,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.6
+      },
+      {
+        id: "75mm_granata_75_32_it_semovente_m42_75_34",
+        vehicleId: "it_semovente_m42_75_34",
+        vehicleName: "75/34 M42",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.4,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.6
+      },
+      {
+        id: "75mm_granata_75_32_it_semovente_m43_75_34",
+        vehicleId: "it_semovente_m43_75_34",
+        vehicleName: "75/34 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.4,
+        muzzleVelocityMs: 552,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.6
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_mod.32",
+    designation: "Granata mod.32",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_granata_mod.32_it_semovente_m41_75_18",
+        vehicleId: "it_semovente_m41_75_18",
+        vehicleName: "75/18 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.6,
+        muzzleVelocityMs: 450,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.61
+      },
+      {
+        id: "75mm_granata_mod.32_it_semovente_m41_75_32",
+        vehicleId: "it_semovente_m41_75_32",
+        vehicleName: "75/32 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 9.6,
+        muzzleVelocityMs: 490,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.61
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_mod.34",
+    designation: "Granata mod.34",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_granata_mod.34_it_semovente_m43_75_46",
+        vehicleId: "it_semovente_m43_75_46",
+        vehicleName: "75/46 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 5.7,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 550,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.686
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_perforante_75_32",
+    designation: "Granata Perforante 75/32",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_granata_perforante_75_32_it_p_26_40",
+        vehicleId: "it_p_26_40",
+        vehicleName: "P40 \"G.C. Leoncello\"",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 637,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      },
+      {
+        id: "75mm_granata_perforante_75_32_it_p_40",
+        vehicleId: "it_p_40",
+        vehicleName: "P40",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 637,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      },
+      {
+        id: "75mm_granata_perforante_75_32_it_semovente_m42_75_34",
+        vehicleId: "it_semovente_m42_75_34",
+        vehicleName: "75/34 M42",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 637,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      },
+      {
+        id: "75mm_granata_perforante_75_32_it_semovente_m43_75_34",
+        vehicleId: "it_semovente_m43_75_34",
+        vehicleName: "75/34 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 637,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_perforante_da_75",
+    designation: "Granata Perforante da 75",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "75mm_granata_perforante_da_75_it_semovente_m41_75_18",
+        vehicleId: "it_semovente_m41_75_18",
+        vehicleName: "75/18 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 425,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_perforante_mod.32",
+    designation: "Granata Perforante mod.32",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_granata_perforante_mod.32_it_semovente_m41_75_18",
+        vehicleId: "it_semovente_m41_75_18",
+        vehicleName: "75/18 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 476,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      },
+      {
+        id: "75mm_granata_perforante_mod.32_it_semovente_m41_75_32",
+        vehicleId: "it_semovente_m41_75_32",
+        vehicleName: "75/32 M41",
+        vehicleTechTree: "Italy",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 5.8,
+        muzzleVelocityMs: 630,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.27
+      }
+    ]
+  },
+  {
+    id: "75mm_granata_perforante_mod.39",
+    designation: "Granata Perforante mod.39",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_granata_perforante_mod.39_it_semovente_m43_75_46",
+        vehicleId: "it_semovente_m43_75_46",
+        vehicleName: "75/46 M43",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "4.7",
+          SB: "4.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.8,
+        penetrationMm: 2.5,
+        muzzleVelocityMs: 792,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "H.10",
+        explosiveMassKg: 0.017,
+        tntEquivalentKg: 0.029
+      }
+    ]
+  },
+  {
+    id: "76mm_76_62_he_vt_mom",
+    designation: "76/62 HE-VT MOM",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-VT",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "76mm_76_62_he_vt_mom_it_otomatic",
+        vehicleId: "it_otomatic",
+        vehicleName: "OTOMATIC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 76,
+        projectileMassKg: 6.3,
+        penetrationMm: 14.7,
+        muzzleVelocityMs: 910,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.2,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 0.745,
+        tntEquivalentKg: 1.1
+      }
+    ]
+  },
+  {
+    id: "76mm_76_62_sapom",
+    designation: "76/62 SAPOM",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "SAPHEI",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "76mm_76_62_sapom_it_otomatic",
+        vehicleId: "it_otomatic",
+        vehicleName: "OTOMATIC",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 76,
+        projectileMassKg: 6.3,
+        penetrationMm: 10.1,
+        muzzleVelocityMs: 910,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 0.46,
+        tntEquivalentKg: 0.662
+      }
+    ]
+  },
+  {
+    id: "90mm_granata_da_90",
+    designation: "Granata da 90",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "90mm_granata_da_90_it_breda_52_autocannone",
+        vehicleId: "it_breda_52_autocannone",
+        vehicleName: "Breda 90/53",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.3,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 830,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.871
+      },
+      {
+        id: "90mm_granata_da_90_it_semovente_breda_501",
+        vehicleId: "it_semovente_breda_501",
+        vehicleName: "Breda 501",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.3,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 830,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.871
+      },
+      {
+        id: "90mm_granata_da_90_it_semovente_m41m_90",
+        vehicleId: "it_semovente_m41m_90",
+        vehicleName: "90/53 M41M",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.3,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 830,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.871
+      }
+    ]
+  },
+  {
+    id: "90mm_granata_esplosiva_mod.36r",
+    designation: "Granata Esplosiva mod.36R",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-TF",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "90mm_granata_esplosiva_mod.36r_it_breda_52_autocannone",
+        vehicleId: "it_breda_52_autocannone",
+        vehicleName: "Breda 90/53",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.1,
+        penetrationMm: 12.5,
+        muzzleVelocityMs: 850,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.871
+      }
+    ]
+  },
+  {
+    id: "90mm_granata_perforante_da_90",
+    designation: "Granata Perforante da 90",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_granata_perforante_da_90_it_breda_52_autocannone",
+        vehicleId: "it_breda_52_autocannone",
+        vehicleName: "Breda 90/53",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 12.2,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 758,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      },
+      {
+        id: "90mm_granata_perforante_da_90_it_semovente_breda_501",
+        vehicleId: "it_semovente_breda_501",
+        vehicleName: "Breda 501",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 12.2,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 758,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      },
+      {
+        id: "90mm_granata_perforante_da_90_it_semovente_m41m_90",
+        vehicleId: "it_semovente_m41m_90",
+        vehicleName: "90/53 M41M",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 12.2,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 758,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      }
+    ]
+  },
+  {
+    id: "90mm_granata_perforante_mod.43",
+    designation: "Granata Perforante mod.43",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "90mm_granata_perforante_mod.43_it_breda_52_autocannone",
+        vehicleId: "it_breda_52_autocannone",
+        vehicleName: "Breda 90/53",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 11.3,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 773,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      },
+      {
+        id: "90mm_granata_perforante_mod.43_it_semovente_breda_501",
+        vehicleId: "it_semovente_breda_501",
+        vehicleName: "Breda 501",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 11.3,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 773,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      },
+      {
+        id: "90mm_granata_perforante_mod.43_it_semovente_m41m_90",
+        vehicleId: "it_semovente_m41m_90",
+        vehicleName: "90/53 M41M",
+        vehicleTechTree: "Italy",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.7",
+          RB: "3.7",
+          SB: "3.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 11.3,
+        penetrationMm: 6.6,
+        muzzleVelocityMs: 773,
+        vehicleOperator: "Kingdom of Italy",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.347
+      }
+    ]
+  },
+  {
+    id: "90mm_m304_da_90_50",
+    designation: "M304 da 90/50",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APCR",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "90mm_m304_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 7.6,
+        penetrationMm: 287,
+        muzzleVelocityMs: 1021
+      },
+      {
+        id: "90mm_m304_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 7.6,
+        penetrationMm: 287,
+        muzzleVelocityMs: 1021
+      }
+    ]
+  },
+  {
+    id: "90mm_m313_da_90_50",
+    designation: "M313 da 90/50",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "90mm_m313_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m313_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 10.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 821,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "90mm_m332_da_90_50",
+    designation: "M332 da 90/50",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APCR",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "90mm_m332_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 5.7,
+        penetrationMm: 291,
+        muzzleVelocityMs: 1165
+      },
+      {
+        id: "90mm_m332_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 5.7,
+        penetrationMm: 291,
+        muzzleVelocityMs: 1165
+      }
+    ]
+  },
+  {
+    id: "90mm_m618a1",
+    designation: "M618A1",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "90mm_m618a1_it_c13_t90",
+        vehicleId: "it_c13_t90",
+        vehicleName: "C13 T90",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 714,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "90mm_m618a1_it_fiat_6616_cockerill",
+        vehicleId: "it_fiat_6616_cockerill",
+        vehicleName: "AUBL/74",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 90,
+        projectileMassKg: 5.3,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 714,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "90mm_m620a1",
+    designation: "M620A1",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_m620a1_it_c13_t90",
+        vehicleId: "it_c13_t90",
+        vehicleName: "C13 T90",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 4.1,
+        penetrationMm: 12.7,
+        muzzleVelocityMs: 890,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.56,
+        tntEquivalentKg: 0.89
+      },
+      {
+        id: "90mm_m620a1_it_fiat_6616_cockerill",
+        vehicleId: "it_fiat_6616_cockerill",
+        vehicleName: "AUBL/74",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 4.1,
+        penetrationMm: 12.7,
+        muzzleVelocityMs: 890,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.56,
+        tntEquivalentKg: 0.89
+      }
+    ]
+  },
+  {
+    id: "90mm_m625a1",
+    designation: "M625A1",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HESH",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "90mm_m625a1_it_c13_t90",
+        vehicleId: "it_c13_t90",
+        vehicleName: "C13 T90",
+        vehicleTechTree: "Italy",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "7.3",
+          SB: "7.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 4.5,
+        penetrationMm: 102,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 1.2,
+        tntEquivalentKg: 1.7
+      },
+      {
+        id: "90mm_m625a1_it_fiat_6616_cockerill",
+        vehicleId: "it_fiat_6616_cockerill",
+        vehicleName: "AUBL/74",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 4.5,
+        penetrationMm: 102,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "Comp. A",
+        explosiveMassKg: 1.2,
+        tntEquivalentKg: 1.7
+      }
+    ]
+  },
+  {
+    id: "90mm_m71_da_90_50",
+    designation: "M71 da 90/50",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "90mm_m71_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "90mm_m71_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 16.2,
+        muzzleVelocityMs: 823,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.925,
+        tntEquivalentKg: 1.2
+      }
+    ]
+  },
+  {
+    id: "90mm_m77_da_90_50",
+    designation: "M77 da 90/50",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    damage: "damage",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "90mm_m77_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 162,
+        muzzleVelocityMs: 822
+      },
+      {
+        id: "90mm_m77_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.6,
+        penetrationMm: 162,
+        muzzleVelocityMs: 822
+      }
+    ]
+  },
+  {
+    id: "90mm_m82_da_90_50",
+    designation: "M82 da 90/50",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "90mm_m82_da_90_50_it_m26a1_pershing",
+        vehicleId: "it_m26a1_pershing",
+        vehicleName: "M26A1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "6.7",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      },
+      {
+        id: "90mm_m82_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 90,
+        projectileMassKg: 10.9,
+        penetrationMm: 4.4,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "Exp. D",
+        explosiveMassKg: 0.14,
+        tntEquivalentKg: 0.137
+      }
+    ]
+  },
+  {
+    id: "90mm_t108_da_90_50",
+    designation: "T108 da 90/50",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_t108_da_90_50_it_m36b1",
+        vehicleId: "it_m36b1",
+        vehicleName: "M36B1",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 6.5,
+        penetrationMm: 13.1,
+        muzzleVelocityMs: 853,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.707,
+        tntEquivalentKg: 0.926
+      }
+    ]
+  },
+  {
+    id: "100mm_m1000a1",
+    designation: "M1000A1",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "100mm_m1000a1_sw_t_55m",
+        vehicleId: "sw_t_55m",
+        vehicleName: "▄T-55M",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 100,
+        projectileMassKg: 3.8,
+        penetrationMm: 344,
+        muzzleVelocityMs: 1475,
+        vehicleOperator: "Finland"
+      }
+    ]
+  },
+  {
+    id: "105mm_falarick_105",
+    designation: "Falarick 105",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM-Tandem",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_falarick_105_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 24,
+        penetrationMm: 41.8,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "Beam riding",
+        launchRangeKm: 5,
+        maximumSpeedMs: 370,
+        missileGuidanceTimeS: 17,
+        explosiveType: "OKFOL",
+        explosiveMassKg: 3.2,
+        tntEquivalentKg: 5.2
+      },
+      {
+        id: "105mm_falarick_105_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 24,
+        penetrationMm: 41.8,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.01,
+        guidance: "Beam riding",
+        launchRangeKm: 5,
+        maximumSpeedMs: 370,
+        missileGuidanceTimeS: 17,
+        explosiveType: "OKFOL",
+        explosiveMassKg: 3.2,
+        tntEquivalentKg: 5.2
+      }
+    ]
+  },
+  {
+    id: "105mm_m1061",
+    designation: "M1061",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_m1061_sw_cv_90105",
+        vehicleId: "sw_cv_90105",
+        vehicleName: "CV 90105 TML",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m1061_sw_cv_90105_tml",
+        vehicleId: "sw_cv_90105_tml",
+        vehicleName: "CV 90105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      },
+      {
+        id: "105mm_m1061_sw_patria_amv_ctcv_105",
+        vehicleId: "sw_patria_amv_ctcv_105",
+        vehicleName: "CT-CV 105HP",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.5,
+        penetrationMm: 400,
+        muzzleVelocityMs: 1174,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.97,
+        tntEquivalentKg: 1.3
+      }
+    ]
+  },
+  {
+    id: "105mm_psgr_m_49",
+    designation: "psgr m/49",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_psgr_m_49_sw_ikv_103",
+        vehicleId: "sw_ikv_103",
+        vehicleName: "Ikv 103",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 10.3,
+        penetrationMm: 16.6,
+        muzzleVelocityMs: 418,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.95,
+        tntEquivalentKg: 1.2
+      },
+      {
+        id: "105mm_psgr_m_49_sw_sav_m43_1946",
+        vehicleId: "sw_sav_m43_1946",
+        vehicleName: "Sav m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.3,
+        penetrationMm: 16.6,
+        muzzleVelocityMs: 425,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 0.95,
+        tntEquivalentKg: 1.2
+      }
+    ]
+  },
+  {
+    id: "105mm_rökgr_m_49",
+    designation: "rökgr m/49",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "105mm_rökgr_m_49_sw_ikv_103",
+        vehicleId: "sw_ikv_103",
+        vehicleName: "Ikv 103",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 14.7,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 359,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "105mm_rökgr_m_61",
+    designation: "rökgr m/61",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "105mm_rökgr_m_61_sw_ikv_91_105",
+        vehicleId: "sw_ikv_91_105",
+        vehicleName: "Ikv 91-105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_101",
+        vehicleId: "sw_strv_101",
+        vehicleName: "Strv 101",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 320,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_103_0",
+        vehicleId: "sw_strv_103_0",
+        vehicleName: "Strv 103-0",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_103a",
+        vehicleId: "sw_strv_103a",
+        vehicleName: "Strv 103A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_103c",
+        vehicleId: "sw_strv_103c",
+        vehicleName: "Strv 103C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_104",
+        vehicleId: "sw_strv_104",
+        vehicleName: "Strv 104",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      },
+      {
+        id: "105mm_rökgr_m_61_sw_strv_105",
+        vehicleId: "sw_strv_105",
+        vehicleName: "Strv 105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 105,
+        projectileMassKg: 19.6,
+        penetrationMm: 2.9,
+        muzzleVelocityMs: 330,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.05
+      }
+    ]
+  },
+  {
+    id: "105mm_sgr_m_34_lt",
+    designation: "sgr m/34 LT",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "105mm_sgr_m_34_lt_sw_ikv_103",
+        vehicleId: "sw_ikv_103",
+        vehicleName: "Ikv 103",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 11.7,
+        penetrationMm: 23,
+        muzzleVelocityMs: 400,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_sgr_m_34_lt_sw_sav_m43_1946",
+        vehicleId: "sw_sav_m43_1946",
+        vehicleName: "Sav m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 11.7,
+        penetrationMm: 23,
+        muzzleVelocityMs: 475,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      }
+    ]
+  },
+  {
+    id: "105mm_slpprj_m_44",
+    designation: "slpprj m/44",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_slpprj_m_44_sw_sav_m43_1946",
+        vehicleId: "sw_sav_m43_1946",
+        vehicleName: "Sav m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 11.7,
+        penetrationMm: 67,
+        muzzleVelocityMs: 475
+      }
+    ]
+  },
+  {
+    id: "105mm_slpprj_m_61",
+    designation: "slpprj m/61",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APDS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_slpprj_m_61_sw_strv_101",
+        vehicleId: "sw_strv_101",
+        vehicleName: "Strv 101",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 350,
+        muzzleVelocityMs: 1478
+      },
+      {
+        id: "105mm_slpprj_m_61_sw_strv_103_0",
+        vehicleId: "sw_strv_103_0",
+        vehicleName: "Strv 103-0",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 358,
+        muzzleVelocityMs: 1500
+      },
+      {
+        id: "105mm_slpprj_m_61_sw_strv_103a",
+        vehicleId: "sw_strv_103a",
+        vehicleName: "Strv 103A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4,
+        penetrationMm: 358,
+        muzzleVelocityMs: 1500
+      }
+    ]
+  },
+  {
+    id: "105mm_slpprj_m_66",
+    designation: "slpprj m/66",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APDS",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_slpprj_m_66_sw_ikv_91_105",
+        vehicleId: "sw_ikv_91_105",
+        vehicleName: "Ikv 91-105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 258,
+        muzzleVelocityMs: 1400
+      },
+      {
+        id: "105mm_slpprj_m_66_sw_strv_103_0",
+        vehicleId: "sw_strv_103_0",
+        vehicleName: "Strv 103-0",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 272,
+        muzzleVelocityMs: 1450
+      },
+      {
+        id: "105mm_slpprj_m_66_sw_strv_103a",
+        vehicleId: "sw_strv_103a",
+        vehicleName: "Strv 103A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 272,
+        muzzleVelocityMs: 1450
+      },
+      {
+        id: "105mm_slpprj_m_66_sw_strv_103c",
+        vehicleId: "sw_strv_103c",
+        vehicleName: "Strv 103C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 272,
+        muzzleVelocityMs: 1450
+      },
+      {
+        id: "105mm_slpprj_m_66_sw_strv_104",
+        vehicleId: "sw_strv_104",
+        vehicleName: "Strv 104",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.5,
+        penetrationMm: 258,
+        muzzleVelocityMs: 1400
+      }
+    ]
+  },
+  {
+    id: "105mm_slpprj_m_80",
+    designation: "slpprj m/80",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "105mm_slpprj_m_80_sw_ikv_91_105",
+        vehicleId: "sw_ikv_91_105",
+        vehicleName: "Ikv 91-105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_slpprj_m_80_sw_strv_103c",
+        vehicleId: "sw_strv_103c",
+        vehicleName: "Strv 103C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_slpprj_m_80_sw_strv_104",
+        vehicleId: "sw_strv_104",
+        vehicleName: "Strv 104",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      },
+      {
+        id: "105mm_slpprj_m_80_sw_strv_105",
+        vehicleId: "sw_strv_105",
+        vehicleName: "Strv 105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 4.2,
+        penetrationMm: 338,
+        muzzleVelocityMs: 1455
+      }
+    ]
+  },
+  {
+    id: "105mm_slpprj_m_90c",
+    designation: "slpprj m/90c",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_slpprj_m_90c_sw_strv_105",
+        vehicleId: "sw_strv_105",
+        vehicleName: "Strv 105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 4.4,
+        penetrationMm: 430,
+        muzzleVelocityMs: 1455
+      }
+    ]
+  },
+  {
+    id: "105mm_slpsgr_m_65",
+    designation: "slpsgr m/65",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "105mm_slpsgr_m_65_sw_ikv_103",
+        vehicleId: "sw_ikv_103",
+        vehicleName: "Ikv 103",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 105,
+        projectileMassKg: 10.2,
+        penetrationMm: 18.5,
+        muzzleVelocityMs: 530,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.1,
+        tntEquivalentKg: 1.4
+      }
+    ]
+  },
+  {
+    id: "105mm_slsgr_m_61a",
+    designation: "slsgr m/61A",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "105mm_slsgr_m_61a_sw_ikv_91_105",
+        vehicleId: "sw_ikv_91_105",
+        vehicleName: "Ikv 91-105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_101",
+        vehicleId: "sw_strv_101",
+        vehicleName: "Strv 101",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_103_0",
+        vehicleId: "sw_strv_103_0",
+        vehicleName: "Strv 103-0",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 680,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_103a",
+        vehicleId: "sw_strv_103a",
+        vehicleName: "Strv 103A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 680,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_103c",
+        vehicleId: "sw_strv_103c",
+        vehicleName: "Strv 103C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 680,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_104",
+        vehicleId: "sw_strv_104",
+        vehicleName: "Strv 104",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      },
+      {
+        id: "105mm_slsgr_m_61a_sw_strv_105",
+        vehicleId: "sw_strv_105",
+        vehicleName: "Strv 105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 105,
+        projectileMassKg: 15.5,
+        penetrationMm: 23.1,
+        muzzleVelocityMs: 650,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 1.8
+      }
+    ]
+  },
+  {
+    id: "105mm_slspgr_m_61",
+    designation: "slspgr m/61",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HESH",
+    damage: "damage",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "105mm_slspgr_m_61_sw_ikv_91_105",
+        vehicleId: "sw_ikv_91_105",
+        vehicleName: "Ikv 91-105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 720,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_101",
+        vehicleId: "sw_strv_101",
+        vehicleName: "Strv 101",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 720,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_103_0",
+        vehicleId: "sw_strv_103_0",
+        vehicleName: "Strv 103-0",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 760,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_103a",
+        vehicleId: "sw_strv_103a",
+        vehicleName: "Strv 103A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 760,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_103c",
+        vehicleId: "sw_strv_103c",
+        vehicleName: "Strv 103C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 720,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_104",
+        vehicleId: "sw_strv_104",
+        vehicleName: "Strv 104",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 720,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      },
+      {
+        id: "105mm_slspgr_m_61_sw_strv_105",
+        vehicleId: "sw_strv_105",
+        vehicleName: "Strv 105",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        },
+        damage: "damage",
+        armor: "armor_small",
+        caliberMm: 105,
+        projectileMassKg: 11.4,
+        penetrationMm: 127,
+        muzzleVelocityMs: 720,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 4,
+        explosiveType: "RDX",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 3.2
+      }
+    ]
+  },
+  {
+    id: "114mm_akr_32_41",
+    designation: "akr 32/41",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "114mm_akr_32_41_sw_bt_42",
+        vehicleId: "sw_bt_42",
+        vehicleName: "BT-42",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 114,
+        projectileMassKg: 14.4,
+        penetrationMm: 25,
+        muzzleVelocityMs: 350,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Amatol",
+        explosiveMassKg: 2
+      }
+    ]
+  },
+  {
+    id: "114mm_hkr_42_c",
+    designation: "hkr 42/C",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEAT",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "114mm_hkr_42_c_sw_bt_42",
+        vehicleId: "sw_bt_42",
+        vehicleName: "BT-42",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 114,
+        projectileMassKg: 13.5,
+        penetrationMm: 30.5,
+        muzzleVelocityMs: 357,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "H.5",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 2.6
+      }
+    ]
+  },
+  {
+    id: "120mm_hpgr_m_50",
+    designation: "hpgr M/50",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "120mm_hpgr_m_50_sw_sav_fm48",
+        vehicleId: "sw_sav_fm48",
+        vehicleName: "SAV 20.12.48",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 23.5,
+        penetrationMm: 12.7,
+        muzzleVelocityMs: 525,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 19,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.89
+      }
+    ]
+  },
+  {
+    id: "120mm_sgr_m_50z",
+    designation: "sgr M/50Z",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "120mm_sgr_m_50z_sw_sav_fm48",
+        vehicleId: "sw_sav_fm48",
+        vehicleName: "SAV 20.12.48",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 23.5,
+        penetrationMm: 27.5,
+        muzzleVelocityMs: 525,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 2.3
+      }
+    ]
+  },
+  {
+    id: "120mm_slpprj_m_95",
+    designation: "slpprj m/95",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "120mm_slpprj_m_95_sw_cv_90120",
+        vehicleId: "sw_cv_90120",
+        vehicleName: "CV90120-T",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 600,
+        muzzleVelocityMs: 1740
+      },
+      {
+        id: "120mm_slpprj_m_95_sw_strv_122",
+        vehicleId: "sw_strv_122",
+        vehicleName: "Strv 122A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_slpprj_m_95_sw_strv_122b_plss",
+        vehicleId: "sw_strv_122b_plss",
+        vehicleName: "Strv 122B PLSS",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      },
+      {
+        id: "120mm_slpprj_m_95_sw_strv_122b_plus",
+        vehicleId: "sw_strv_122b_plus",
+        vehicleName: "Strv 122B+",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 120,
+        projectileMassKg: 5.6,
+        penetrationMm: 588,
+        muzzleVelocityMs: 1705
+      }
+    ]
+  },
+  {
+    id: "120mm_slsgr_m_95",
+    designation: "slsgr m/95",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "120mm_slsgr_m_95_sw_cv_90120",
+        vehicleId: "sw_cv_90120",
+        vehicleName: "CV90120-T",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 754,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      },
+      {
+        id: "120mm_slsgr_m_95_sw_strv121b_christian2",
+        vehicleId: "sw_strv121b_christian2",
+        vehicleName: "Christian II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 736,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      },
+      {
+        id: "120mm_slsgr_m_95_sw_strv_121",
+        vehicleId: "sw_strv_121",
+        vehicleName: "Strv 121",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 736,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      },
+      {
+        id: "120mm_slsgr_m_95_sw_strv_122",
+        vehicleId: "sw_strv_122",
+        vehicleName: "Strv 122A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 736,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      },
+      {
+        id: "120mm_slsgr_m_95_sw_strv_122b_plss",
+        vehicleId: "sw_strv_122b_plss",
+        vehicleName: "Strv 122B PLSS",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 736,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      },
+      {
+        id: "120mm_slsgr_m_95_sw_strv_122b_plus",
+        vehicleId: "sw_strv_122b_plus",
+        vehicleName: "Strv 122B+",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 120,
+        projectileMassKg: 17.5,
+        penetrationMm: 36.3,
+        muzzleVelocityMs: 736,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.7,
+        tntEquivalentKg: 3.5
+      }
+    ]
+  },
+  {
+    id: "127mm_rb_55b",
+    designation: "RB 55B",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM",
+    damage: "damage_small",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "127mm_rb_55b_sw_pvrbv_551",
+        vehicleId: "sw_pvrbv_551",
+        vehicleName: "Pvrbv 551",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 127,
+        projectileMassKg: 19,
+        penetrationMm: 33.8,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 296,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 2.9
+      },
+      {
+        id: "127mm_rb_55b_sw_udes_33",
+        vehicleId: "sw_udes_33",
+        vehicleName: "UDES 33",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_middle",
+        caliberMm: 127,
+        projectileMassKg: 19,
+        penetrationMm: 33.8,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 296,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 2,
+        tntEquivalentKg: 2.9
+      }
+    ]
+  },
+  {
+    id: "150mm_rb_56_bill_ii",
+    designation: "RB 56 BILL II",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "150mm_rb_56_bill_ii_sw_pbv_302_bill",
+        vehicleId: "sw_pbv_302_bill",
+        vehicleName: "Pbv 302 (BILL)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 150,
+        projectileMassKg: 10.9,
+        penetrationMm: 32.2,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 2.2,
+        maximumSpeedMs: 250,
+        missileGuidanceTimeS: 15,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.1,
+        tntEquivalentKg: 2.7
+      },
+      {
+        id: "150mm_rb_56_bill_ii_sw_strf_9056",
+        vehicleId: "sw_strf_9056",
+        vehicleName: "Strf 9040 BILL",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 150,
+        projectileMassKg: 10.9,
+        penetrationMm: 32.2,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 2.2,
+        maximumSpeedMs: 250,
+        missileGuidanceTimeS: 15,
+        explosiveType: "Composition B",
+        explosiveMassKg: 2.1,
+        tntEquivalentKg: 2.7
+      }
+    ]
+  },
+  {
+    id: "150mm_sgr_m_38",
+    designation: "sgr m/38",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "150mm_sgr_m_38_sw_stormpjas_fm43_44",
+        vehicleId: "sw_stormpjas_fm43_44",
+        vehicleName: "Spj fm/43-44",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 150,
+        projectileMassKg: 37,
+        penetrationMm: 48,
+        muzzleVelocityMs: 285,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 5.8
+      }
+    ]
+  },
+  {
+    id: "152mm_rb_55c",
+    designation: "RB 55C",
+    category: "Chemical",
+    family: "Guided-Missiles",
+    variant: "ATGM",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "152mm_rb_55c_sw_pvrbv_551",
+        vehicleId: "sw_pvrbv_551",
+        vehicleName: "Pvrbv 551",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 21.5,
+        penetrationMm: 38.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.1,
+        tntEquivalentKg: 4.4
+      },
+      {
+        id: "152mm_rb_55c_sw_udes_33",
+        vehicleId: "sw_udes_33",
+        vehicleName: "UDES 33",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 152,
+        projectileMassKg: 21.5,
+        penetrationMm: 38.5,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        guidance: "Semi-Automatic (SACLOS)",
+        IRCCM: true,
+        launchRangeKm: 3.75,
+        maximumSpeedMs: 329,
+        missileGuidanceTimeS: 25,
+        explosiveType: "LX-14",
+        explosiveMassKg: 3.1,
+        tntEquivalentKg: 4.4
+      }
+    ]
+  },
+  {
+    id: "155mm_sgr_m_60",
+    designation: "sgr m/60",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_sgr_m_60_sw_bkan_1c",
+        vehicleId: "sw_bkan_1c",
+        vehicleName: "Bkan 1C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 48,
+        penetrationMm: 57.5,
+        muzzleVelocityMs: 850,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 7.5
+      }
+    ]
+  },
+  {
+    id: "155mm_sgr_m_60_(pf)",
+    designation: "sgr m/60 (PF)",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-VT",
+    damage: "explosion_big",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "155mm_sgr_m_60_(pf)_sw_bkan_1c",
+        vehicleId: "sw_bkan_1c",
+        vehicleName: "Bkan 1C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "7.0",
+          RB: "6.7",
+          SB: "6.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_big",
+        caliberMm: 155,
+        projectileMassKg: 48,
+        penetrationMm: 57.5,
+        muzzleVelocityMs: 850,
+        fuzeDelayM: 0.3,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 7.5
+      }
+    ]
+  },
+  {
+    id: "37mm_3,7_cm_slpprj_m_49",
+    designation: "3,7 cm slpprj m/49",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APDS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_lago_1",
+        vehicleId: "sw_lago_1",
+        vehicleName: "Lago I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m31",
+        vehicleId: "sw_strv_m31",
+        vehicleName: "Strv m/31",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m38",
+        vehicleId: "sw_strv_m38",
+        vehicleName: "Strv m/38",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m39",
+        vehicleId: "sw_strv_m39",
+        vehicleName: "Strv m/39",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m39_td",
+        vehicleId: "sw_strv_m39_td",
+        vehicleName: "Strv m/39 TD",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m40l",
+        vehicleId: "sw_strv_m40l",
+        vehicleName: "Strv m/40L",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m41_s1",
+        vehicleId: "sw_strv_m41_s1",
+        vehicleName: "Strv m/41 S-I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      },
+      {
+        id: "37mm_3,7_cm_slpprj_m_49_sw_strv_m41_s2",
+        vehicleId: "sw_strv_m41_s2",
+        vehicleName: "Strv m/41 S-II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.3,
+        penetrationMm: 115,
+        muzzleVelocityMs: 1150
+      }
+    ]
+  },
+  {
+    id: "37mm_psav_vj4",
+    designation: "psav Vj4",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "37mm_psav_vj4_sw_vickers_mk_e_37",
+        vehicleId: "sw_vickers_mk_e_37",
+        vehicleName: "Vickers Mk.E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 62,
+        muzzleVelocityMs: 810,
+        vehicleOperator: "Finland"
+      }
+    ]
+  },
+  {
+    id: "37mm_pstkr_27_34",
+    designation: "pstkr 27-34",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "37mm_pstkr_27_34_sw_vickers_mk_e_37",
+        vehicleId: "sw_vickers_mk_e_37",
+        vehicleName: "Vickers Mk.E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        vehicleOperator: "Finland",
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      }
+    ]
+  },
+  {
+    id: "37mm_slpgr_m_39",
+    designation: "slpgr m/39",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "37mm_slpgr_m_39_sw_lago_1",
+        vehicleId: "sw_lago_1",
+        vehicleName: "Lago I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m31",
+        vehicleId: "sw_strv_m31",
+        vehicleName: "Strv m/31",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m38",
+        vehicleId: "sw_strv_m38",
+        vehicleName: "Strv m/38",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m39",
+        vehicleId: "sw_strv_m39",
+        vehicleName: "Strv m/39",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m39_td",
+        vehicleId: "sw_strv_m39_td",
+        vehicleName: "Strv m/39 TD",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m40l",
+        vehicleId: "sw_strv_m40l",
+        vehicleName: "Strv m/40L",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m41_s1",
+        vehicleId: "sw_strv_m41_s1",
+        vehicleName: "Strv m/41 S-I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      },
+      {
+        id: "37mm_slpgr_m_39_sw_strv_m41_s2",
+        vehicleId: "sw_strv_m41_s2",
+        vehicleName: "Strv m/41 S-II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 2.2,
+        muzzleVelocityMs: 800,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.015
+      }
+    ]
+  },
+  {
+    id: "37mm_slpprj_m_38",
+    designation: "slpprj m/38",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "37mm_slpprj_m_38_sw_lago_1",
+        vehicleId: "sw_lago_1",
+        vehicleName: "Lago I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.3",
+          SB: "2.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m31",
+        vehicleId: "sw_strv_m31",
+        vehicleName: "Strv m/31",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m38",
+        vehicleId: "sw_strv_m38",
+        vehicleName: "Strv m/38",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m39",
+        vehicleId: "sw_strv_m39",
+        vehicleName: "Strv m/39",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m39_td",
+        vehicleId: "sw_strv_m39_td",
+        vehicleName: "Strv m/39 TD",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.0",
+          RB: "1.0",
+          SB: "1.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m40l",
+        vehicleId: "sw_strv_m40l",
+        vehicleName: "Strv m/40L",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "2.0",
+          RB: "2.0",
+          SB: "2.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m41_s1",
+        vehicleId: "sw_strv_m41_s1",
+        vehicleName: "Strv m/41 S-I",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      },
+      {
+        id: "37mm_slpprj_m_38_sw_strv_m41_s2",
+        vehicleId: "sw_strv_m41_s2",
+        vehicleName: "Strv m/41 S-II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.3",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 37,
+        projectileMassKg: 0.74,
+        penetrationMm: 59,
+        muzzleVelocityMs: 785
+      }
+    ]
+  },
+  {
+    id: "40mm_kulsgr_m_90",
+    designation: "kulsgr m/90",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE-VT",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "40mm_kulsgr_m_90_sw_lvkv_90c",
+        vehicleId: "sw_lvkv_90c",
+        vehicleName: "Lvkv 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.88,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1015,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.12,
+        tntEquivalentKg: 0.191
+      },
+      {
+        id: "40mm_kulsgr_m_90_sw_strf_9056",
+        vehicleId: "sw_strf_9056",
+        vehicleName: "Strf 9040 BILL",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.88,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1015,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.12,
+        tntEquivalentKg: 0.191
+      },
+      {
+        id: "40mm_kulsgr_m_90_sw_strf_90b",
+        vehicleId: "sw_strf_90b",
+        vehicleName: "Strf 9040B",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.88,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1015,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.12,
+        tntEquivalentKg: 0.191
+      },
+      {
+        id: "40mm_kulsgr_m_90_sw_strf_90c",
+        vehicleId: "sw_strf_90c",
+        vehicleName: "Strf 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.88,
+        penetrationMm: 4.9,
+        muzzleVelocityMs: 1015,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.12,
+        tntEquivalentKg: 0.191
+      }
+    ]
+  },
+  {
+    id: "40mm_slpprj_m_01",
+    designation: "slpprj m/01",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "40mm_slpprj_m_01_sw_strf_90c",
+        vehicleId: "sw_strf_90c",
+        vehicleName: "Strf 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 0.53,
+        penetrationMm: 170,
+        muzzleVelocityMs: 1495
+      }
+    ]
+  },
+  {
+    id: "40mm_slpprj_m_90",
+    designation: "slpprj m/90",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APFSDS",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "40mm_slpprj_m_90_sw_lvkv_90c",
+        vehicleId: "sw_lvkv_90c",
+        vehicleName: "Lvkv 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 0.5,
+        penetrationMm: 143,
+        muzzleVelocityMs: 1465
+      },
+      {
+        id: "40mm_slpprj_m_90_sw_strf_9056",
+        vehicleId: "sw_strf_9056",
+        vehicleName: "Strf 9040 BILL",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 0.5,
+        penetrationMm: 143,
+        muzzleVelocityMs: 1465
+      },
+      {
+        id: "40mm_slpprj_m_90_sw_strf_90b",
+        vehicleId: "sw_strf_90b",
+        vehicleName: "Strf 9040B",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 40,
+        projectileMassKg: 0.5,
+        penetrationMm: 143,
+        muzzleVelocityMs: 1465
+      },
+      {
+        id: "40mm_slpprj_m_90_sw_strf_90c",
+        vehicleId: "sw_strf_90c",
+        vehicleName: "Strf 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 40,
+        projectileMassKg: 0.5,
+        penetrationMm: 143,
+        muzzleVelocityMs: 1465
+      }
+    ]
+  },
+  {
+    id: "40mm_slsgr_m_90",
+    designation: "slsgr m/90",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "40mm_slsgr_m_90_sw_lvkv_90c",
+        vehicleId: "sw_lvkv_90c",
+        vehicleName: "Lvkv 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.96,
+        penetrationMm: 4.7,
+        muzzleVelocityMs: 988,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Torpex",
+        explosiveMassKg: 0.109,
+        tntEquivalentKg: 0.174
+      },
+      {
+        id: "40mm_slsgr_m_90_sw_strf_9056",
+        vehicleId: "sw_strf_9056",
+        vehicleName: "Strf 9040 BILL",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.96,
+        penetrationMm: 4.7,
+        muzzleVelocityMs: 988,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Torpex",
+        explosiveMassKg: 0.109,
+        tntEquivalentKg: 0.174
+      },
+      {
+        id: "40mm_slsgr_m_90_sw_strf_90b",
+        vehicleId: "sw_strf_90b",
+        vehicleName: "Strf 9040B",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.96,
+        penetrationMm: 4.7,
+        muzzleVelocityMs: 988,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Torpex",
+        explosiveMassKg: 0.109,
+        tntEquivalentKg: 0.174
+      },
+      {
+        id: "40mm_slsgr_m_90_sw_strf_90c",
+        vehicleId: "sw_strf_90c",
+        vehicleName: "Strf 9040C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 40,
+        projectileMassKg: 0.96,
+        penetrationMm: 4.7,
+        muzzleVelocityMs: 988,
+        fuzeDelayM: 0.1,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Torpex",
+        explosiveMassKg: 0.109,
+        tntEquivalentKg: 0.174
+      }
+    ]
+  },
+  {
+    id: "57mm_sgr_m_43",
+    designation: "sgr m/43",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "57mm_sgr_m_43_sw_pvkv_iii",
+        vehicleId: "sw_pvkv_iii",
+        vehicleName: "Pvkv III",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 57,
+        projectileMassKg: 2.8,
+        penetrationMm: 8.3,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.5
+      },
+      {
+        id: "57mm_sgr_m_43_sw_pvkv_iv",
+        vehicleId: "sw_pvkv_iv",
+        vehicleName: "Pvkv IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 57,
+        projectileMassKg: 2.8,
+        penetrationMm: 8.3,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.5
+      }
+    ]
+  },
+  {
+    id: "57mm_slpgr_m_43",
+    designation: "slpgr m/43",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHEBC",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "57mm_slpgr_m_43_sw_pvkv_iii",
+        vehicleId: "sw_pvkv_iii",
+        vehicleName: "Pvkv III",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 57,
+        projectileMassKg: 2.5,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 850,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.06
+      },
+      {
+        id: "57mm_slpgr_m_43_sw_pvkv_iv",
+        vehicleId: "sw_pvkv_iv",
+        vehicleName: "Pvkv IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 57,
+        projectileMassKg: 2.5,
+        penetrationMm: 3.2,
+        muzzleVelocityMs: 850,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.06
+      }
+    ]
+  },
+  {
+    id: "57mm_slpprj_m_43",
+    designation: "slpprj m/43",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "57mm_slpprj_m_43_sw_pvkv_iii",
+        vehicleId: "sw_pvkv_iii",
+        vehicleName: "Pvkv III",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "3.3",
+          RB: "3.3",
+          SB: "3.3"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 57,
+        projectileMassKg: 2.7,
+        penetrationMm: 101,
+        muzzleVelocityMs: 830
+      },
+      {
+        id: "57mm_slpprj_m_43_sw_pvkv_iv",
+        vehicleId: "sw_pvkv_iv",
+        vehicleName: "Pvkv IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 57,
+        projectileMassKg: 2.7,
+        penetrationMm: 101,
+        muzzleVelocityMs: 830
+      }
+    ]
+  },
+  {
+    id: "57mm_slpprj_m_49",
+    designation: "slpprj m/49",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APDS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "57mm_slpprj_m_49_sw_pvkv_iv",
+        vehicleId: "sw_pvkv_iv",
+        vehicleName: "Pvkv IV",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "3.0",
+          RB: "3.0",
+          SB: "3.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 57,
+        projectileMassKg: 1,
+        penetrationMm: 179,
+        muzzleVelocityMs: 1150
+      }
+    ]
+  },
+  {
+    id: "75mm_7,5_cm_slpprj_m_49",
+    designation: "7,5 cm slpprj m/49",
+    category: "Kinetic",
+    family: "Sub-caliber-AP",
+    variant: "APDS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_7,5_cm_slpprj_m_49_sw_pvkv_m43_1963",
+        vehicleId: "sw_pvkv_m43_1963",
+        vehicleName: "Pvkv m/43 (1963)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 2.6,
+        penetrationMm: 232,
+        muzzleVelocityMs: 1110
+      },
+      {
+        id: "75mm_7,5_cm_slpprj_m_49_sw_strv_74",
+        vehicleId: "sw_strv_74",
+        vehicleName: "Strv 74",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 2.6,
+        penetrationMm: 247,
+        muzzleVelocityMs: 1160
+      }
+    ]
+  },
+  {
+    id: "75mm_rökgr_m_22",
+    designation: "rökgr m/22",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "Smoke",
+    damage: null,
+    armor: null,
+    performances: [
+      {
+        id: "75mm_rökgr_m_22_sw_ikv_72",
+        vehicleId: "sw_ikv_72",
+        vehicleName: "Ikv 72",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 2.1,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.008
+      },
+      {
+        id: "75mm_rökgr_m_22_sw_ikv_73",
+        vehicleId: "sw_ikv_73",
+        vehicleName: "Ikv 73",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 2.1,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.008
+      },
+      {
+        id: "75mm_rökgr_m_22_sw_sav_m43_1944",
+        vehicleId: "sw_sav_m43_1944",
+        vehicleName: "Sav m/43 (1944)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 2.1,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.008
+      },
+      {
+        id: "75mm_rökgr_m_22_sw_strv_m42_eh",
+        vehicleId: "sw_strv_m42_eh",
+        vehicleName: "Strv m/42 EH",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: null,
+        armor: null,
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 2.1,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 0.4,
+        fuzeSensitivityMm: 0.5,
+        explosiveType: "Smoke composition",
+        explosiveMassKg: 0.008
+      }
+    ]
+  },
+  {
+    id: "75mm_sgr_m_22_38",
+    designation: "sgr m/22-38",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_sgr_m_22_38_sw_sav_m43_1944",
+        vehicleId: "sw_sav_m43_1944",
+        vehicleName: "Sav m/43 (1944)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 8.9,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.55
+      }
+    ]
+  },
+  {
+    id: "75mm_sgr_m_38",
+    designation: "sgr m/38",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_sgr_m_38_sw_pvkv_ii",
+        vehicleId: "sw_pvkv_ii",
+        vehicleName: "Pvkv II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 840,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.69
+      },
+      {
+        id: "75mm_sgr_m_38_sw_pvkv_m43_1946",
+        vehicleId: "sw_pvkv_m43_1946",
+        vehicleName: "Pvkv m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 840,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.69
+      },
+      {
+        id: "75mm_sgr_m_38_sw_pvkv_m43_1963",
+        vehicleId: "sw_pvkv_m43_1963",
+        vehicleName: "Pvkv m/43 (1963)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 840,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.69
+      },
+      {
+        id: "75mm_sgr_m_38_sw_strv_74",
+        vehicleId: "sw_strv_74",
+        vehicleName: "Strv 74",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 840,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.69
+      },
+      {
+        id: "75mm_sgr_m_38_sw_strv_m42_delat_torn",
+        vehicleId: "sw_strv_m42_delat_torn",
+        vehicleName: "Strv m/42 DT",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 10.4,
+        muzzleVelocityMs: 840,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.69
+      }
+    ]
+  },
+  {
+    id: "75mm_sgr_m_40",
+    designation: "sgr m/40",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "75mm_sgr_m_40_sw_ikv_72",
+        vehicleId: "sw_ikv_72",
+        vehicleName: "Ikv 72",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 570,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
+      },
+      {
+        id: "75mm_sgr_m_40_sw_ikv_73",
+        vehicleId: "sw_ikv_73",
+        vehicleName: "Ikv 73",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 570,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
+      },
+      {
+        id: "75mm_sgr_m_40_sw_strv_m42_eh",
+        vehicleId: "sw_strv_m42_eh",
+        vehicleName: "Strv m/42 EH",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 75,
+        projectileMassKg: 6.4,
+        penetrationMm: 9.2,
+        muzzleVelocityMs: 570,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.58
+      }
+    ]
+  },
+  {
+    id: "75mm_slpgr_m_39",
+    designation: "slpgr m/39",
+    category: "Kinetic",
+    family: "HE-filled-AP",
+    variant: "APHE",
+    damage: "explosion_middle",
+    armor: "armor_small",
+    performances: [
+      {
+        id: "75mm_slpgr_m_39_sw_ikv_72",
+        vehicleId: "sw_ikv_72",
+        vehicleName: "Ikv 72",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.5,
+        penetrationMm: 5.7,
+        muzzleVelocityMs: 580,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.26
+      },
+      {
+        id: "75mm_slpgr_m_39_sw_ikv_73",
+        vehicleId: "sw_ikv_73",
+        vehicleName: "Ikv 73",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.5,
+        penetrationMm: 5.7,
+        muzzleVelocityMs: 580,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.26
+      },
+      {
+        id: "75mm_slpgr_m_39_sw_sav_m43_1944",
+        vehicleId: "sw_sav_m43_1944",
+        vehicleName: "Sav m/43 (1944)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.5,
+        penetrationMm: 5.7,
+        muzzleVelocityMs: 496,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.26
+      },
+      {
+        id: "75mm_slpgr_m_39_sw_strv_m42_eh",
+        vehicleId: "sw_strv_m42_eh",
+        vehicleName: "Strv m/42 EH",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_small",
+        caliberMm: 75,
+        projectileMassKg: 6.5,
+        penetrationMm: 5.7,
+        muzzleVelocityMs: 580,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 9,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.26
+      }
+    ]
+  },
+  {
+    id: "75mm_slpgr_m_43",
+    designation: "slpgr m/43",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APCBC",
+    damage: "explosion_middle",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_slpgr_m_43_sw_pvkv_ii",
+        vehicleId: "sw_pvkv_ii",
+        vehicleName: "Pvkv II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 925,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.11
+      },
+      {
+        id: "75mm_slpgr_m_43_sw_pvkv_m43_1946",
+        vehicleId: "sw_pvkv_m43_1946",
+        vehicleName: "Pvkv m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 890,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.11
+      },
+      {
+        id: "75mm_slpgr_m_43_sw_pvkv_m43_1963",
+        vehicleId: "sw_pvkv_m43_1963",
+        vehicleName: "Pvkv m/43 (1963)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.7",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 890,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.11
+      },
+      {
+        id: "75mm_slpgr_m_43_sw_strv_74",
+        vehicleId: "sw_strv_74",
+        vehicleName: "Strv 74",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IV",
+        vehicleBr: {
+          AB: "5.7",
+          RB: "5.7",
+          SB: "5.7"
+        },
+        damage: "explosion_middle",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 925,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.11
+      },
+      {
+        id: "75mm_slpgr_m_43_sw_strv_m42_delat_torn",
+        vehicleId: "sw_strv_m42_delat_torn",
+        vehicleName: "Strv m/42 DT",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "explosion_middle",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6,
+        penetrationMm: 4.1,
+        muzzleVelocityMs: 890,
+        fuzeDelayM: 1.2,
+        fuzeSensitivityMm: 14,
+        explosiveType: "TNT",
+        explosiveMassKg: 0.11
+      }
+    ]
+  },
+  {
+    id: "75mm_slpprj_m_40",
+    designation: "slpprj m/40",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    damage: "damage",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "75mm_slpprj_m_40_sw_ikv_72",
+        vehicleId: "sw_ikv_72",
+        vehicleName: "Ikv 72",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 85,
+        muzzleVelocityMs: 580
+      },
+      {
+        id: "75mm_slpprj_m_40_sw_ikv_73",
+        vehicleId: "sw_ikv_73",
+        vehicleName: "Ikv 73",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 85,
+        muzzleVelocityMs: 580
+      },
+      {
+        id: "75mm_slpprj_m_40_sw_sav_m43_1944",
+        vehicleId: "sw_sav_m43_1944",
+        vehicleName: "Sav m/43 (1944)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 69,
+        muzzleVelocityMs: 501
+      },
+      {
+        id: "75mm_slpprj_m_40_sw_strv_m42_eh",
+        vehicleId: "sw_strv_m42_eh",
+        vehicleName: "Strv m/42 EH",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_big",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 85,
+        muzzleVelocityMs: 580
+      }
+    ]
+  },
+  {
+    id: "75mm_slpprj_m_40b",
+    designation: "slpprj m/40B",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "APBC",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_slpprj_m_40b_sw_ikv_72",
+        vehicleId: "sw_ikv_72",
+        vehicleName: "Ikv 72",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 85,
+        muzzleVelocityMs: 590
+      },
+      {
+        id: "75mm_slpprj_m_40b_sw_ikv_73",
+        vehicleId: "sw_ikv_73",
+        vehicleName: "Ikv 73",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 85,
+        muzzleVelocityMs: 590
+      },
+      {
+        id: "75mm_slpprj_m_40b_sw_sav_m43_1944",
+        vehicleId: "sw_sav_m43_1944",
+        vehicleName: "Sav m/43 (1944)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "I",
+        vehicleBr: {
+          AB: "1.7",
+          RB: "1.7",
+          SB: "1.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 68,
+        muzzleVelocityMs: 505
+      },
+      {
+        id: "75mm_slpprj_m_40b_sw_strv_m42_eh",
+        vehicleId: "sw_strv_m42_eh",
+        vehicleName: "Strv m/42 EH",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "II",
+        vehicleBr: {
+          AB: "2.7",
+          RB: "2.7",
+          SB: "2.7"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.3,
+        penetrationMm: 85,
+        muzzleVelocityMs: 590
+      }
+    ]
+  },
+  {
+    id: "75mm_slpprj_m_41",
+    designation: "slpprj m/41",
+    category: "Kinetic",
+    family: "Solid-AP",
+    variant: "AP",
+    damage: "damage",
+    armor: "armor_middle",
+    performances: [
+      {
+        id: "75mm_slpprj_m_41_sw_pvkv_ii",
+        vehicleId: "sw_pvkv_ii",
+        vehicleName: "Pvkv II",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.3",
+          SB: "4.3"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 146,
+        muzzleVelocityMs: 840
+      },
+      {
+        id: "75mm_slpprj_m_41_sw_pvkv_m43_1946",
+        vehicleId: "sw_pvkv_m43_1946",
+        vehicleName: "Pvkv m/43 (1946)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "4.0",
+          RB: "4.0",
+          SB: "4.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 139,
+        muzzleVelocityMs: 815
+      },
+      {
+        id: "75mm_slpprj_m_41_sw_strv_m42_delat_torn",
+        vehicleId: "sw_strv_m42_delat_torn",
+        vehicleName: "Strv m/42 DT",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "III",
+        vehicleBr: {
+          AB: "5.0",
+          RB: "5.0",
+          SB: "5.0"
+        },
+        damage: "damage",
+        armor: "armor_middle",
+        caliberMm: 75,
+        projectileMassKg: 6.6,
+        penetrationMm: 139,
+        muzzleVelocityMs: 815
+      }
+    ]
+  },
+  {
+    id: "90mm_slpsgr_m_72",
+    designation: "slpsgr m/72",
+    category: "Chemical",
+    family: "HEAT",
+    variant: "HEATFS",
+    damage: "damage_small",
+    armor: "armor_big",
+    performances: [
+      {
+        id: "90mm_slpsgr_m_72_sw_ikv_91",
+        vehicleId: "sw_ikv_91",
+        vehicleName: "Ikv 91",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "damage_small",
+        armor: "armor_big",
+        caliberMm: 90,
+        projectileMassKg: 4.5,
+        penetrationMm: 13.4,
+        muzzleVelocityMs: 825,
+        fuzeDelayM: 0.05,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Octol",
+        explosiveMassKg: 0.6,
+        tntEquivalentKg: 0.954
+      }
+    ]
+  },
+  {
+    id: "90mm_slsgr_m_72",
+    designation: "slsgr m/72",
+    category: "Chemical",
+    family: "High-Explosive",
+    variant: "HE",
+    damage: "explosion_big",
+    armor: "armor_vsmall",
+    performances: [
+      {
+        id: "90mm_slsgr_m_72_sw_ikv_91",
+        vehicleId: "sw_ikv_91",
+        vehicleName: "Ikv 91",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "7.3",
+          RB: "8.0",
+          SB: "8.0"
+        },
+        damage: "explosion_big",
+        armor: "armor_vsmall",
+        caliberMm: 90,
+        projectileMassKg: 6.7,
+        penetrationMm: 24,
+        muzzleVelocityMs: 600,
+        fuzeDelayM: 0.2,
+        fuzeSensitivityMm: 0.1,
+        explosiveType: "Composition B",
+        explosiveMassKg: 1.5,
+        tntEquivalentKg: 1.9
       }
     ]
   }
