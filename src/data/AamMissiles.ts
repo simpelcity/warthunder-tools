@@ -31,7 +31,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "8.3"
         },
       },
-    ],
+      {
+        id: "aim_9b_f3h-2",
+        vehicleId: "f3h-2",
+        vehicleName: "F3H-2",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      }
+    ]
   },
   {
     id: "aim_7e",
@@ -97,4 +109,38 @@ export const aamMissiles: AamDefinition[] = [
       },
     ],
   },
+  {
+    id: "aim_7c",
+    designation: "AIM-7C Sparrow",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 172,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 12,
+    launchRangeKm: 25,
+    maximumSpeedMach: 3,
+    maximumOverloadG: 15,
+    missileGuidanceTimeS: 20,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.5,
+    vehicles: [
+      {
+        id: "aim_7c_f3h-2",
+        vehicleId: "f3h-2",
+        vehicleName: "F3H-2",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      }
+    ]
+  }
 ];
