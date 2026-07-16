@@ -50957,8 +50957,8 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Rocket",
-    damage: null,
-    armor: null,
+    damage: "explosion_big",
+    armor: "armor_big",
     performances: [
       {
         id: "132mm_m_13_ussr_bm_13n",
