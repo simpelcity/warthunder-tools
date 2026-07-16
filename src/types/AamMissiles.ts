@@ -15,7 +15,7 @@ export type ARHAam = "ARH+IOG+DL" | "ARH+IOG+GNSS+DL";
 export type BeamRidingAamGuidance = "Semi-Automatic (SACLOS)";
 export type CommandGuidedAamGuidance = "Manual (MCLOS)";
 
-export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT";
+export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT" | "HMX";
 
 export type RadarAamBand = "I" | "J";
 

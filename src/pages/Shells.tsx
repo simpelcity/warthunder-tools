@@ -659,6 +659,8 @@ export default function Shells() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
+            
+          <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={35} />
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
@@ -1193,6 +1195,7 @@ export default function Shells() {
               />
 
               <div className="d-flex flex-column row-gap-2 overflow-auto">
+                <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
                 {searchableVehicleOptions.map((option) => (
                   <Button
                     key={option}

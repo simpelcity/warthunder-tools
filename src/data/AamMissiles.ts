@@ -42,6 +42,66 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.0",
           SB: "9.3"
         }
+      },
+      {
+        id: "aim_9b_a_4b",
+        vehicleId: "a_4b",
+        vehicleName: "A-4B",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_fj_4b",
+        vehicleId: "fj_4b",
+        vehicleName: "FJ-4B",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_f-104a",
+        vehicleId: "f-104a",
+        vehicleName: "F-104A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9b_f-104c",
+        vehicleId: "f-104c",
+        vehicleName: "F-104C",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9b_f-100d",
+        vehicleId: "f-100d",
+        vehicleName: "F-100D",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        }
       }
     ]
   },
@@ -66,45 +126,13 @@ export const aamMissiles: AamDefinition[] = [
     tntEquivalentKg: 11.5,
     vehicles: [
       {
-        id: "aim_9b_f-4e",
+        id: "aim_7e_f-4e",
         vehicleId: "f-4e",
         vehicleName: "F-4E Phantom II",
         vehicleTechTree: "USA",
         vehicleRank: "VII",
         vehicleBr: {
           RB: "11.3"
-        },
-      },
-    ],
-  },
-  {
-    id: "aim_120c_5",
-    designation: "AIM-120C-5",
-    category: "Radar",
-    family: "ARH",
-    icon: "radar-blue",
-    variant: "ARH+IOG+DL",
-    projectileMassKg: 161.5,
-    guidance: "ARH+IOG+DL",
-    band: "I",
-    shootDown: "All-aspects",
-    lockRangeKm: 16,
-    launchRangeKm: 120,
-    maximumSpeedMach: 4.4,
-    maximumOverloadG: 35,
-    missileGuidanceTimeS: 120,
-    explosiveType: "PBXN-110",
-    explosiveMassKg: 8.6,
-    tntEquivalentKg: 11,
-    vehicles: [
-      {
-        id: "aim_120c_5_fa_18e_block_2",
-        vehicleId: "fa_18e_block_2",
-        vehicleName: "F/A-18E",
-        vehicleTechTree: "USA",
-        vehicleRank: "IX",
-        vehicleBr: {
-          RB: "14.3"
         },
       },
     ],
@@ -139,6 +167,108 @@ export const aamMissiles: AamDefinition[] = [
           AB: "9.3",
           RB: "9.0",
           SB: "9.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_9e",
+    designation: "AIM-9E Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 76.4,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.8,
+    tntEquivalentKg: 7.6,
+    vehicles: [
+      {
+        id: "aim_9e_f-100d",
+        vehicleId: "f-100d",
+        vehicleName: "F-100D",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_9d",
+    designation: "AIM-9D Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 88.4,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 18,
+    missileGuidanceTimeS: 60,
+    explosiveType: "HMX",
+    explosiveMassKg: 3,
+    tntEquivalentKg: 4.9,
+    vehicles: [
+      {
+        id: "aim_9d_f8u-2",
+        vehicleId: "f8u-2",
+        vehicleName: "F8U-2",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.3",
+          SB: "10.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_9g",
+    designation: "AIM-9G Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 88.4,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 18,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 2.8,
+    tntEquivalentKg: 3.6,
+    vehicles: [
+      {
+        id: "aim_9g_av_8c",
+        vehicleId: "av_8c",
+        vehicleName: "AV-8C",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
         }
       }
     ]
