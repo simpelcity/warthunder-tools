@@ -29,7 +29,7 @@ export const aamMissiles: AamDefinition[] = [
         vehicleRank: "V",
         vehicleBr: {
           RB: "8.3"
-        },
+        }
       },
       {
         id: "aim_9b_f3h-2",
@@ -161,7 +161,7 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.7",
           RB: "10.0",
           SB: "10.3"
-        },
+        }
       },
       {
         id: "aim_9b_f-8e",
@@ -173,7 +173,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.3",
           RB: "10.7",
           SB: "10.3"
-        },
+        }
+      },
+      {
+        id: "aim_9b_f-105d",
+        vehicleId: "f-105d",
+        vehicleName: "F-105D",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.0",
+          SB: "10.0"
+        }
       }
     ]
   },
@@ -265,7 +277,56 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.7",
           RB: "10.0",
           SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9e_f-105d",
+        vehicleId: "f-105d",
+        vehicleName: "F-105D",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9e_f-5c",
+        vehicleId: "f-5c",
+        vehicleName: "F-5C",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9e_f-5a",
+        vehicleId: "f-5a",
+        vehicleName: "F-5A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9e_f-4e",
+        vehicleId: "f-4e",
+        vehicleName: "F-4E Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
         },
+        icon: "ir-white"
       }
     ]
   },
@@ -372,7 +433,7 @@ export const aamMissiles: AamDefinition[] = [
     tntEquivalentKg: 4.6,
     vehicles: [
       {
-        id: "aim_9e_a_10a_early",
+        id: "aim_9l_a_10a_early",
         vehicleId: "a_10a_early",
         vehicleName: "A-10A",
         vehicleTechTree: "USA",
@@ -380,6 +441,18 @@ export const aamMissiles: AamDefinition[] = [
         vehicleBr: {
           AB: "10.0",
           RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9l_a_10a_late",
+        vehicleId: "a_10a_late",
+        vehicleName: "A-10A Lat",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
           SB: "10.7"
         }
       }
@@ -482,6 +555,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.3"
         }
+      },
+      {
+        id: "aim_9j_f-4e",
+        vehicleId: "f-4e",
+        vehicleName: "F-4E Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        },
+        icon: "ir-orange"
       }
     ]
   },
@@ -515,7 +601,7 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.7",
           RB: "10.0",
           SB: "10.3"
-        },
+        }
       }
     ],
   },
@@ -547,7 +633,7 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.3",
           RB: "10.7",
           SB: "10.3"
-        },
+        }
       }
     ]
   },
@@ -578,9 +664,92 @@ export const aamMissiles: AamDefinition[] = [
         vehicleTechTree: "USA",
         vehicleRank: "VII",
         vehicleBr: {
-          RB: "11.3"
-        },
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_7e_2",
+    designation: "AIM-7E-2 Sparrow (Dogfight)",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    projectileMassKg: 193.7,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.5,
+    vehicles: [
+      {
+        id: "aim_7e_2_f-4e",
+        vehicleId: "f-4e",
+        vehicleName: "F-4E Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
       },
-    ],
+      {
+        id: "aim_7e_2_f-4j",
+        vehicleId: "f-4j",
+        vehicleName: "F-4J Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        icon: "radar-white"
+      }
+    ]
+  },
+  {
+    id: "aim_7f",
+    designation: "AIM-7F Sparrow",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    projectileMassKg: 231.3,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 40,
+    launchRangeKm: 100,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 75,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 11.8,
+    tntEquivalentKg: 9.8,
+    vehicles: [
+      {
+        id: "aim_7f_f-4j",
+        vehicleId: "f-4j",
+        vehicleName: "F-4J Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "12.0"
+        }
+      }
+    ]
   },
 ];

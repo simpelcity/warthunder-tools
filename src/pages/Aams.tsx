@@ -548,7 +548,7 @@ export default function Aams() {
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-            <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+            <Image src={vehicle?.icon ? getAamIconPath({ ...vehicle, icon: vehicle.icon }) : getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
           </div>
         </div>
 
@@ -922,7 +922,7 @@ export default function Aams() {
                 <Button variant="transparent" className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1" onClick={(event) => handleAamClick(aam.id, event.currentTarget)}>
                   <div className="shell-icon position-relative overflow-hidden">
                     <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                      <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                      <Image src={vehicle?.icon ? getAamIconPath({ ...vehicle, icon: vehicle.icon }) : getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                     </div>
                   </div>
 
