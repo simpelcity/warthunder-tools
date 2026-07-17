@@ -75,8 +75,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 103,
         projectileMassKg: 6.7,
         penetrationMm: 530,
@@ -101,8 +99,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 103,
         projectileMassKg: 6.7,
         penetrationMm: 530,
@@ -2437,8 +2433,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_f.h.gr.nb._germ_stuh_iii_ausf_g",
@@ -2451,8 +2445,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 14,
         penetrationMm: 2.9,
@@ -5303,8 +5295,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_m416_us_ags_teledyne",
@@ -5317,8 +5307,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "12.0",
           SB: "12.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5339,8 +5327,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.0",
           SB: "10.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5361,8 +5347,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5383,8 +5367,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5405,8 +5387,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.3",
           SB: "11.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5427,8 +5407,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5449,8 +5427,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5471,8 +5447,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5493,8 +5467,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5515,8 +5487,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5537,8 +5507,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5560,8 +5528,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5583,8 +5549,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5606,8 +5570,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5628,8 +5590,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5650,8 +5610,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5672,8 +5630,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5695,8 +5651,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5718,8 +5672,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5741,8 +5693,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5764,8 +5714,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5786,8 +5734,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5808,8 +5754,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5830,8 +5774,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5852,8 +5794,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5874,8 +5814,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5896,8 +5834,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5918,8 +5854,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5941,8 +5875,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5964,8 +5896,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -5986,8 +5916,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6008,8 +5936,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6030,8 +5956,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6052,8 +5976,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6074,8 +5996,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6096,8 +6016,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6118,8 +6036,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6140,8 +6056,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6162,8 +6076,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6184,8 +6096,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6206,8 +6116,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6228,8 +6136,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6250,8 +6156,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6272,8 +6176,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6294,8 +6196,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6316,8 +6216,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6338,8 +6236,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6360,8 +6256,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6382,8 +6276,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.0",
           SB: "10.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6404,8 +6296,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6426,8 +6316,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6448,8 +6336,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6470,8 +6356,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6492,8 +6376,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6514,8 +6396,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6536,8 +6416,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6558,8 +6436,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6581,8 +6457,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6603,8 +6477,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.3",
           SB: "10.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -6625,8 +6497,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.0",
           SB: "10.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.6,
         penetrationMm: 2.9,
@@ -8429,8 +8299,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_m84_us_m4a3_105_sherman",
@@ -8443,8 +8311,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 14.9,
         penetrationMm: 2.9,
@@ -8465,8 +8331,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 14.9,
         penetrationMm: 2.9,
@@ -9276,8 +9140,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_ofph_105_f1_germ_marder_clovis",
@@ -9290,8 +9152,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9313,8 +9173,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9336,8 +9194,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9359,8 +9215,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9381,8 +9235,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9403,8 +9255,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9425,8 +9275,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9447,8 +9295,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9469,8 +9315,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9491,8 +9335,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9513,8 +9355,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9535,8 +9375,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9558,8 +9396,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -9580,8 +9416,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 11.4,
         penetrationMm: 2.9,
@@ -10911,8 +10745,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 114,
         projectileMassKg: 17.3,
         penetrationMm: 24.4,
@@ -13976,8 +13808,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "120mm_m357_us_m103",
@@ -13990,8 +13820,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 22.9,
         penetrationMm: 2.9,
@@ -16632,8 +16460,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 136,
         projectileMassKg: 23,
         penetrationMm: 700,
@@ -16748,8 +16574,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "150mm_gr.19_nb_germ_hummel",
@@ -16762,8 +16586,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 150,
         projectileMassKg: 39,
         penetrationMm: 2.9,
@@ -16995,8 +16817,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 150,
         projectileMassKg: 34.2,
         penetrationMm: 26.5,
@@ -18005,8 +17825,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "152mm_xm410e1_us_mbt_70",
@@ -18019,8 +17837,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 152,
         projectileMassKg: 18.9,
         penetrationMm: 2.9,
@@ -18041,8 +17857,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 152,
         projectileMassKg: 18.9,
         penetrationMm: 2.9,
@@ -18063,8 +17877,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 152,
         projectileMassKg: 18.9,
         penetrationMm: 2.9,
@@ -19135,8 +18947,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "155mm_m110_us_m109a1",
@@ -19149,8 +18959,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19171,8 +18979,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19193,8 +18999,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19215,8 +19019,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19238,8 +19040,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19261,8 +19061,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19284,8 +19082,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19306,8 +19102,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19328,8 +19122,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19350,8 +19142,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19372,8 +19162,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19394,8 +19182,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19416,8 +19202,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19438,8 +19222,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19460,8 +19242,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19482,8 +19262,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19505,8 +19283,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19527,8 +19303,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19549,8 +19323,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 44.6,
         penetrationMm: 2.9,
@@ -19571,8 +19343,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19593,8 +19363,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19616,8 +19384,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 40.8,
         penetrationMm: 2.9,
@@ -19867,8 +19633,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 164,
         projectileMassKg: 30,
         penetrationMm: 600,
@@ -19943,8 +19707,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 164,
         projectileMassKg: 30,
         penetrationMm: 600,
@@ -25324,8 +25086,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_k.gr.rot_nb._germ_jgdpz_38t",
@@ -25338,8 +25098,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25360,8 +25118,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25382,8 +25138,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25404,8 +25158,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25426,8 +25178,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25448,8 +25198,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25470,8 +25218,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25492,8 +25238,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25514,8 +25258,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25536,8 +25278,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.3",
           SB: "2.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25558,8 +25298,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25580,8 +25318,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25602,8 +25338,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25624,8 +25358,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25646,8 +25378,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25668,8 +25398,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25690,8 +25418,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25712,8 +25438,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25734,8 +25458,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25756,8 +25478,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.3",
           SB: "2.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25778,8 +25498,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25800,8 +25518,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25822,8 +25538,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25845,8 +25559,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25868,8 +25580,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -25891,8 +25601,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.2,
         penetrationMm: 2.9,
@@ -28076,8 +27784,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_m64_us_lvt_a1_m24",
@@ -28090,8 +27796,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28112,8 +27816,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28134,8 +27836,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28156,8 +27856,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28178,8 +27876,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28200,8 +27896,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28222,8 +27916,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28245,8 +27937,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.3",
           SB: "1.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28268,8 +27958,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28290,8 +27978,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -28312,8 +27998,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.9,
         penetrationMm: 2.9,
@@ -29168,8 +28852,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_m89_us_halftrack_m3_75mm_gmc",
@@ -29182,8 +28864,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.7",
           SB: "1.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29204,8 +28884,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29226,8 +28904,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29248,8 +28924,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29270,8 +28944,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29292,8 +28964,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29314,8 +28984,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29336,8 +29004,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29358,8 +29024,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29380,8 +29044,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29402,8 +29064,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29424,8 +29084,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29447,8 +29105,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29469,8 +29125,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29491,8 +29145,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29513,8 +29165,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29535,8 +29185,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29557,8 +29205,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29579,8 +29225,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29601,8 +29245,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29623,8 +29265,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29645,8 +29285,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29667,8 +29305,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29690,8 +29326,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29713,8 +29347,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29736,8 +29368,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29758,8 +29388,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29780,8 +29408,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29802,8 +29428,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29824,8 +29448,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29846,8 +29468,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -29868,8 +29488,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 3,
         penetrationMm: 2.9,
@@ -33101,8 +32719,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "76mm_m361_us_m41_walker_bulldog",
@@ -33115,8 +32731,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -33137,8 +32751,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -33159,8 +32771,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -33181,8 +32791,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -33204,8 +32812,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -34608,8 +34214,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "76mm_m88_us_m18_hellcat",
@@ -34622,8 +34226,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34644,8 +34246,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34666,8 +34266,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34688,8 +34286,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.0",
           SB: "5.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34710,8 +34306,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34732,8 +34326,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34754,8 +34346,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34776,8 +34366,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34798,8 +34386,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34820,8 +34406,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34842,8 +34426,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34865,8 +34447,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -34888,8 +34468,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.4,
         penetrationMm: 2.9,
@@ -38268,8 +37846,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_m313_us_m26_pershing",
@@ -38282,8 +37858,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38304,8 +37878,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38326,8 +37898,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38348,8 +37918,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38370,8 +37938,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38392,8 +37958,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38414,8 +37978,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38436,8 +37998,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38458,8 +38018,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38480,8 +38038,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38502,8 +38058,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38524,8 +38078,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38546,8 +38098,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38569,8 +38119,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38592,8 +38140,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38614,8 +38160,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38636,8 +38180,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38658,8 +38200,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38680,8 +38220,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38702,8 +38240,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38724,8 +38260,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38746,8 +38280,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38769,8 +38301,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38792,8 +38322,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38814,8 +38342,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38836,8 +38362,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38858,8 +38382,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38880,8 +38402,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -38902,8 +38422,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -42078,8 +41596,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_t339e14_us_t95e1",
@@ -42092,8 +41608,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 8.2,
         penetrationMm: 2.9,
@@ -42966,8 +42480,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "100mm_3d3_ussr_object_248",
@@ -42980,8 +42492,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43002,8 +42512,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43024,8 +42532,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43046,8 +42552,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43068,8 +42572,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43090,8 +42592,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43112,8 +42612,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43134,8 +42632,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43156,8 +42652,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43178,8 +42672,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43200,8 +42692,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43222,8 +42712,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43244,8 +42732,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43266,8 +42752,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43288,8 +42772,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43310,8 +42792,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -43333,8 +42813,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 100,
         projectileMassKg: 15.6,
         penetrationMm: 2.9,
@@ -47605,8 +47083,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "122mm_d_462a_ussr_su_122",
@@ -47619,8 +47095,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.0",
           SB: "3.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 122,
         projectileMassKg: 22.3,
         penetrationMm: 2.9,
@@ -50971,8 +50445,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 132,
         projectileMassKg: 42.4,
         penetrationMm: 39.8,
@@ -53916,8 +53388,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "76mm_d_350a_ussr_a_12_mk_2_matilda_2a_f96",
@@ -53930,8 +53400,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -53952,8 +53420,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -53974,8 +53440,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -53996,8 +53460,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54018,8 +53480,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54040,8 +53500,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.3",
           SB: "2.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54062,8 +53520,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54084,8 +53540,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54106,8 +53560,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54128,8 +53580,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54150,8 +53600,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54172,8 +53620,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54194,8 +53640,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.3",
           SB: "4.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54216,8 +53660,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54238,8 +53680,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54260,8 +53700,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -54283,8 +53721,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -56905,8 +56341,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 115,
         projectileMassKg: 7,
         penetrationMm: 28.6,
@@ -57341,8 +56775,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "120mm_l34_uk_challenger_1",
@@ -57355,8 +56787,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.3",
           SB: "10.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57377,8 +56807,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57399,8 +56827,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "12.7",
           SB: "12.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57421,8 +56847,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57443,8 +56867,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57465,8 +56887,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57487,8 +56907,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57509,8 +56927,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "12.7",
           SB: "12.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57531,8 +56947,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57553,8 +56967,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "11.7",
           SB: "11.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57575,8 +56987,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57597,8 +57007,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57619,8 +57027,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57641,8 +57047,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57663,8 +57067,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57685,8 +57087,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57708,8 +57108,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.0",
           SB: "10.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -57730,8 +57128,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 17.1,
         penetrationMm: 2.9,
@@ -58793,8 +58189,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.7",
           SB: "3.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 152,
         projectileMassKg: 43.1,
         penetrationMm: 51.8,
@@ -58812,8 +58206,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "155mm_g6_smoke_uk_g6_spg",
@@ -58826,8 +58218,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 45.7,
         penetrationMm: 2.9,
@@ -61061,8 +60451,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "76mm_17pdr_shell_ss_mk.1_uk_17_pdr_m10_achilles",
@@ -61075,8 +60463,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61097,8 +60483,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61119,8 +60503,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61141,8 +60523,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61163,8 +60543,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61185,8 +60563,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61207,8 +60583,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61230,8 +60604,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.0",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61252,8 +60624,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61274,8 +60644,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61297,8 +60665,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61319,8 +60685,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61341,8 +60705,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61363,8 +60725,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.0",
           SB: "5.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61385,8 +60745,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.7",
           SB: "4.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 8.4,
         penetrationMm: 2.9,
@@ -61437,8 +60795,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "76mm_3_inch_smoke_uk_a_22_mk_1_churchill_1941",
@@ -61451,8 +60807,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.2,
         penetrationMm: 2.1,
@@ -61473,8 +60827,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.3",
           SB: "5.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 76,
         projectileMassKg: 3.2,
         penetrationMm: 2.1,
@@ -63297,8 +62649,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "83mm_20pdr_shell_ss_mk.1_uk_centurion_action_x",
@@ -63311,8 +62661,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63333,8 +62681,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63355,8 +62701,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63378,8 +62722,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63400,8 +62742,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63422,8 +62762,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63444,8 +62782,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63466,8 +62802,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63486,8 +62820,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "83mm_rökgr_m_53_uk_centurion_mk_3_ss11",
@@ -63500,8 +62832,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63523,8 +62853,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -63545,8 +62873,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 83,
         projectileMassKg: 10.1,
         penetrationMm: 2.9,
@@ -64696,8 +64022,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_ofum_ph90_f2_uk_eland_90_mk_7",
@@ -64710,8 +64034,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64733,8 +64055,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64756,8 +64076,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64778,8 +64096,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.2,
         penetrationMm: 2.9,
@@ -64800,8 +64116,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64822,8 +64136,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.3",
           SB: "6.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64844,8 +64156,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -64866,8 +64176,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.7",
           SB: "7.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.4,
         penetrationMm: 2.9,
@@ -65095,8 +64403,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "95mm_shell_se_mk,i_uk_alecto_mk_1",
@@ -65109,8 +64415,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.7",
           SB: "1.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 95,
         projectileMassKg: 11.3,
         penetrationMm: 2.9,
@@ -66624,8 +65928,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.0",
           SB: "7.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 130,
         projectileMassKg: 43,
         penetrationMm: 50.7,
@@ -68174,8 +67476,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_type_90_smoke_jp_type_2_ho_i",
@@ -68188,8 +67488,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 5.7,
         penetrationMm: 4,
@@ -68210,8 +67508,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "3.3",
           SB: "3.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 5.7,
         penetrationMm: 4,
@@ -68232,8 +67528,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 5.7,
         penetrationMm: 4,
@@ -68254,8 +67548,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.3",
           SB: "2.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 5.7,
         penetrationMm: 4,
@@ -69889,8 +69181,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 120,
         projectileMassKg: 11.2,
         penetrationMm: 480,
@@ -71073,8 +70363,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 125,
         projectileMassKg: 10.9,
         penetrationMm: 400,
@@ -71109,8 +70397,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 125,
         projectileMassKg: 12.5,
         penetrationMm: 800,
@@ -71374,8 +70660,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 18.8,
         penetrationMm: 430,
@@ -71401,8 +70685,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 18.8,
         penetrationMm: 430,
@@ -71427,8 +70709,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 18.8,
         penetrationMm: 430,
@@ -71464,8 +70744,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 19,
         penetrationMm: 630,
@@ -71491,8 +70769,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 19,
         penetrationMm: 630,
@@ -71517,8 +70793,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 127,
         projectileMassKg: 19,
         penetrationMm: 630,
@@ -71606,8 +70880,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "130mm_type_59_1_smoke_cn_plz_83_130",
@@ -71620,8 +70892,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 130,
         projectileMassKg: 32.5,
         penetrationMm: 5.8,
@@ -72324,8 +71594,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_o_fum_ph_105_f3_fr_amx_10rc",
@@ -72338,8 +71606,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -72360,8 +71626,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "10.0",
           SB: "10.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 7.1,
         penetrationMm: 2.9,
@@ -75106,8 +74370,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_ofum_90_f1_fr_mars_15",
@@ -75120,8 +74382,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.3",
           SB: "8.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.2,
         penetrationMm: 2.9,
@@ -76004,8 +75264,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "155mm_p5_it_palmaria",
@@ -76018,8 +75276,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 155,
         projectileMassKg: 43.5,
         penetrationMm: 2.9,
@@ -77321,8 +76577,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_gr._fumogena_it_semovente_m41_75_18",
@@ -77335,8 +76589,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.0",
           SB: "2.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -77358,8 +76610,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.3",
           SB: "2.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.4,
         penetrationMm: 2.9,
@@ -78190,8 +77440,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_m313_da_90_50_it_m26a1_pershing",
@@ -78204,8 +77452,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -78226,8 +77472,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "5.7",
           SB: "5.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 10.7,
         penetrationMm: 2.9,
@@ -78292,8 +77536,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "90mm_m618a1_it_c13_t90",
@@ -78306,8 +77548,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "7.3",
           SB: "7.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.3,
         penetrationMm: 2.9,
@@ -78328,8 +77568,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "6.7",
           SB: "6.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 90,
         projectileMassKg: 5.3,
         penetrationMm: 2.9,
@@ -78888,8 +78126,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_rökgr_m_49_sw_ikv_103",
@@ -78902,8 +78138,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "4.0",
           SB: "4.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 14.7,
         penetrationMm: 2.9,
@@ -78921,8 +78155,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "105mm_rökgr_m_61_sw_ikv_91_105",
@@ -78935,8 +78167,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -78957,8 +78187,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -78979,8 +78207,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -79001,8 +78227,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.0",
           SB: "8.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -79023,8 +78247,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.0",
           SB: "9.0"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -79045,8 +78267,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "8.7",
           SB: "8.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -79067,8 +78287,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         },
-        damage: null,
-        armor: null,
         caliberMm: 105,
         projectileMassKg: 19.6,
         penetrationMm: 2.9,
@@ -81590,8 +80808,6 @@ export const tankShells: TankShellDefinition[] = [
     category: "Chemical",
     family: "High-Explosive",
     variant: "Smoke",
-    damage: null,
-    armor: null,
     performances: [
       {
         id: "75mm_rökgr_m_22_sw_ikv_72",
@@ -81604,8 +80820,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.7",
           SB: "1.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.6,
         penetrationMm: 2.1,
@@ -81626,8 +80840,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.6,
         penetrationMm: 2.1,
@@ -81648,8 +80860,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "1.7",
           SB: "1.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.6,
         penetrationMm: 2.1,
@@ -81670,8 +80880,6 @@ export const tankShells: TankShellDefinition[] = [
           RB: "2.7",
           SB: "2.7"
         },
-        damage: null,
-        armor: null,
         caliberMm: 75,
         projectileMassKg: 6.6,
         penetrationMm: 2.1,

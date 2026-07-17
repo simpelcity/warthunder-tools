@@ -130,7 +130,7 @@ export default function Sams() {
             .filter((br): br is BR => Boolean(br))
         )
       )
-    ).sort((a, b) => String(a).localeCompare(String(b), undefined, { numeric: true }));
+    ).sort((a, b) => parseFloat(a) - parseFloat(b));
 
     return ['All', ...brs] as BRFilter[];
   }, [draftFilters.rank]);
@@ -147,6 +147,7 @@ export default function Sams() {
                 name: vehicle.vehicleName,
                 techTree: vehicle.vehicleTechTree,
                 operator: vehicle.vehicleOperator,
+                vehicleId: vehicle.vehicleId,
               }))
           )
           .filter((vehicle) => vehicle.name)
@@ -154,7 +155,7 @@ export default function Sams() {
       ).values()
     ).sort((a, b) => a.name.localeCompare(b.name));
 
-    return [{ name: 'All', techTree: 'All', operator: 'All' }, ...vehicles];
+    return [{ name: 'All', techTree: 'All', operator: 'All', vehicleId: "All" }, ...vehicles];
   }, [draftFilters.rank, draftFilters.techTree]);
 
   const techTreeOptions = useMemo(() => {
@@ -542,15 +543,17 @@ export default function Sams() {
 
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
-            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={35} />
+
               {vehicle?.vehicleName === "NASAMS 3 (TEL)" ? (
                 <>
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} className="me-1" />}
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
                 </>
               ) : (
                 <>
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
                 </>
               )}
               <span className="font-wt">{vehicle?.vehicleName}</span>
@@ -561,15 +564,17 @@ export default function Sams() {
 
             <Dropdown.Menu>
               {getPopoverVehicles(sam).map((samVehicle) => (
-                <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center" onClick={() => setVehicle(samVehicle)}>
+                <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(samVehicle)}>
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${samVehicle?.vehicleId}_ico.svg`} height={24} />
+
                   {samVehicle.vehicleName === "NASAMS 3 (TEL)" ? (
                     <>
-                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree })} width={24} className="me-1" />}
-                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree })} width={24} />}
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} />}
                     </>
                   ) : (
                     <>
-                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} />}
                     </>
                   )}
                   <span className="font-wt">{samVehicle.vehicleName}</span>
@@ -1192,11 +1197,16 @@ export default function Sams() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className="d-flex flex-column row-gap-3">
+
+            <Offcanvas.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-offcanvas-search bg-transparent text-light border-2 shadow-none" />
+              
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
                   <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
                     <span className="font-wt">{option.name}</span>
                   </Button>
@@ -1318,11 +1328,16 @@ export default function Sams() {
             <Modal.Header closeButton>
               <Modal.Title>Select Vehicle</Modal.Title>
             </Modal.Header>
-            <Modal.Body className="d-flex flex-column row-gap-3">
+            <Modal.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-modal-search bg-transparent text-light border-2 shadow-none" />
+
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+              
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option: any) => (
                   <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+                    
                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
                     <span className="font-wt">{option.name}</span>
                   </Button>

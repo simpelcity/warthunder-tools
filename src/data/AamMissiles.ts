@@ -102,40 +102,80 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         }
-      }
-    ]
-  },
-  {
-    id: "aim_7e",
-    designation: "AIM-7E Sparrow",
-    category: "Radar",
-    family: "SARH",
-    icon: "radar-white",
-    variant: "SARH",
-    projectileMassKg: 205,
-    guidance: "SARH",
-    band: "I",
-    shootDown: "Front-aspect",
-    lockRangeKm: 25,
-    launchRangeKm: 50,
-    maximumSpeedMach: 4,
-    maximumOverloadG: 25,
-    missileGuidanceTimeS: 40,
-    explosiveType: "PBXN-4",
-    explosiveMassKg: 9,
-    tntEquivalentKg: 11.5,
-    vehicles: [
+      },
       {
-        id: "aim_7e_f-4e",
-        vehicleId: "f-4e",
-        vehicleName: "F-4E Phantom II",
+        id: "aim_9b_a_4e_early",
+        vehicleId: "a_4e_early",
+        vehicleName: "A-4E Early",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_fj_4b_agm_12b",
+        vehicleId: "fj_4b_agm_12b",
+        vehicleName: "FJ-4B VMF-232",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_f11f_1_late",
+        vehicleId: "f11f_1_late",
+        vehicleName: "F11F-1",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_f4d_1",
+        vehicleId: "f4d_1",
+        vehicleName: "F4D-1",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_f-4c",
+        vehicleId: "f-4c",
+        vehicleName: "F-4C Phantom II",
         vehicleTechTree: "USA",
         vehicleRank: "VII",
         vehicleBr: {
-          RB: "11.3"
+          AB: "10.7",
+          RB: "10.0",
+          SB: "10.3"
         },
       },
-    ],
+      {
+        id: "aim_9b_f-8e",
+        vehicleId: "f-8e",
+        vehicleName: "F-8E",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.3"
+        },
+      }
+    ]
   },
   {
     id: "aim_7c",
@@ -179,7 +219,7 @@ export const aamMissiles: AamDefinition[] = [
     icon: "ir-orange",
     variant: "IR",
     guidance: "IR",
-    guidanceCage: "Caged",
+    guidanceCage: "Uncaged",
     aspect: "Rear-aspect",
     projectileMassKg: 76.4,
     lockRangeRearAspectKm: 5.5,
@@ -202,6 +242,30 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         }
+      },
+      {
+        id: "aim_9e_f-5e",
+        vehicleId: "f-5e",
+        vehicleName: "F-5E",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9e_f-4c",
+        vehicleId: "f-4c",
+        vehicleName: "F-4C Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.0",
+          SB: "10.3"
+        },
       }
     ]
   },
@@ -270,7 +334,253 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.7",
           SB: "9.7"
         }
+      },
+      {
+        id: "aim_9g_av_8a",
+        vehicleId: "av_8a",
+        vehicleName: "AV-8A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        }
       }
     ]
-  }
+  },
+  {
+    id: "aim_9l",
+    designation: "AIM-9L Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 84.5,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3,
+    IRCCM: false,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-102",
+    explosiveMassKg: 3.6,
+    tntEquivalentKg: 4.6,
+    vehicles: [
+      {
+        id: "aim_9e_a_10a_early",
+        vehicleId: "a_10a_early",
+        vehicleName: "A-10A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_4g",
+    designation: "AIM-4G Super Falcon",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 84.5,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 10,
+    maximumSpeedMach: 3,
+    maximumOverloadG: 27,
+    missileGuidanceTimeS: 22,
+    explosiveType: "HBX-3",
+    explosiveMassKg: 2.3,
+    tntEquivalentKg: 3.6,
+    vehicles: [
+      {
+        id: "aim_4g_f_106a_1972",
+        vehicleId: "f_106a_1972",
+        vehicleName: "F-106A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.3",
+          SB: "9.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_4f",
+    designation: "AIM-4F Super Falcon",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 84.5,
+    guidance: "SARH",
+    band: "I",
+    launchRangeKm: 10,
+    maximumSpeedMach: 3,
+    maximumOverloadG: 27,
+    missileGuidanceTimeS: 22,
+    explosiveType: "HBX-3",
+    explosiveMassKg: 2.3,
+    tntEquivalentKg: 3.6,
+    vehicles: [
+      {
+        id: "aim_4g_f_106a_1972",
+        vehicleId: "f_106a_1972",
+        vehicleName: "F-106A",
+        vehicleTechTree: "USA",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.3",
+          SB: "9.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_9j",
+    designation: "AIM-9J Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-yellow",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 76.9,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 40,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.8,
+    tntEquivalentKg: 7.6,
+    vehicles: [
+      {
+        id: "aim_9j_f-5e",
+        vehicleId: "f-5e",
+        vehicleName: "F-5E",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_7d",
+    designation: "AIM-7D Sparrow",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 182.3,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 15,
+    launchRangeKm: 45,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 15,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.5,
+    vehicles: [
+      {
+        id: "aim_7d_f-4c",
+        vehicleId: "f-4c",
+        vehicleName: "F-4C Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.0",
+          SB: "10.3"
+        },
+      }
+    ],
+  },
+  {
+    id: "aim_9c",
+    designation: "AIM-9C Sidewinder",
+    category: "Radar",
+    family: "SARH",
+    icon: "ir-yellow",
+    variant: "SARH",
+    projectileMassKg: 95.3,
+    guidance: "SARH",
+    band: "I",
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 18,
+    missileGuidanceTimeS: 60,
+    explosiveType: "HMX",
+    explosiveMassKg: 2.9,
+    tntEquivalentKg: 4.9,
+    vehicles: [
+      {
+        id: "aim_9c_f-8e",
+        vehicleId: "f-8e",
+        vehicleName: "F-8E",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.3"
+        },
+      }
+    ]
+  },
+  {
+    id: "aim_7e",
+    designation: "AIM-7E Sparrow",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 205,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 11.5,
+    vehicles: [
+      {
+        id: "aim_7e_f-4e",
+        vehicleId: "f-4e",
+        vehicleName: "F-4E Phantom II",
+        vehicleTechTree: "USA",
+        vehicleRank: "VII",
+        vehicleBr: {
+          RB: "11.3"
+        },
+      },
+    ],
+  },
 ];

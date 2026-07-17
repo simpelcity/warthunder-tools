@@ -15,7 +15,7 @@ export type ARHAam = "ARH+IOG+DL" | "ARH+IOG+GNSS+DL";
 export type BeamRidingAamGuidance = "Semi-Automatic (SACLOS)";
 export type CommandGuidedAamGuidance = "Manual (MCLOS)";
 
-export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT" | "HMX";
+export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT" | "HMX" | "HBX-3";
 
 export type RadarAamBand = "I" | "J";
 
@@ -75,8 +75,8 @@ export interface SARHAamMissile extends BaseAam {
   variant: SARHAam;
   guidance: SARHAam;
   band: RadarAamBand;
-  shootDown: RadarAamShootDown;
-  lockRangeKm: number;
+  shootDown?: RadarAamShootDown;
+  lockRangeKm?: number;
   launchRangeKm: number;
 }
 
