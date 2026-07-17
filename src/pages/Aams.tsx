@@ -1,6 +1,6 @@
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown, FaCircleCheck, FaCircleXmark } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { aamMissiles } from '@/data/AamMissiles'
 import type { AamDefinition, BaseAamVehicle, Aam, AamMissileVariant, Rank, BR } from '@/types/AamMissiles'
@@ -373,6 +373,21 @@ export default function Aams() {
     return vehicles;
   };
 
+  const getRowVehicleIconSrc = (aam: AamDefinition) => {
+    const activeVehicle = activeAamId === aam.id ? vehicle : appliedFilters.vehicle !== 'All' ? getVehicleForRow(aam) : null;
+    if (!activeVehicle) return getAamIconPath(aam);
+    return activeVehicle.icon ? getAamIconPath({ ...activeVehicle, icon: activeVehicle.icon }) : getAamIconPath(aam);
+  };
+
+  const getVehicleForRow = (aam: AamDefinition): BaseAamVehicle | null => {
+    // If no vehicle filter is selected, keep existing behavior (show missile icon)
+    if (appliedFilters.vehicle === 'All') return null;
+
+    // Choose the first vehicle matching the current full filter set, so row icon matches what user filtered.
+    const vehicles = getPopoverVehicles(aam);
+    return vehicles[0] ?? null;
+  };
+
   const handleCategorySelect = (eventKey: string | null) => {
     if (!eventKey) return;
     setDraftFilters((current) => ({
@@ -562,7 +577,7 @@ export default function Aams() {
               <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={24} />
 
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
-              <span>{vehicle?.vehicleName}</span>
+              <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? 'is-open' : ''}`}>
                 <FaAngleDown />
               </span>
@@ -574,7 +589,7 @@ export default function Aams() {
                   <Image src={`https://static.encyclopedia.warthunder.com/icons/${aamVehicle.vehicleId}_ico.svg`} height={20} />
 
                   {aamVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: aamVehicle.vehicleTechTree, vehicleOperator: aamVehicle.vehicleOperator })} width={24} />}
-                  <span>{aamVehicle.vehicleName}</span>
+                  <span className="font-wt">{aamVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
             </Dropdown.Menu>
@@ -719,11 +734,30 @@ export default function Aams() {
               </li>
 
               {aam.aspect === 'All-aspects' && (
-                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Lock range in all-aspect</span>
-                  <span className="text-muted">{aam.lockRangeAllAspectsKm} km</span>
-                </li>
+                <>
+                  <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                    <span className="fw-bold">Lock range in all-aspect</span>
+                    <span className="text-muted">{aam.lockRangeAllAspectsKm} km</span>
+                  </li>
+
+                  {aam.IRCCM ? (
+                    <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                      <span className="fw-bold">IRCCM</span>
+                      <span className="text-muted"><FaCircleCheck className="text-success" /></span>
+                    </li>
+                  ) : (
+                    <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                      <span className="fw-bold">IRCCM</span>
+                      <span className="text-muted"><FaCircleXmark className="text-danger" /></span>
+                    </li>
+                  )}
+                </>
               )}
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Cage</span>
+                <span className="text-muted">{aam.guidanceCage}</span>
+              </li>
             </>
           )}
 
@@ -849,11 +883,11 @@ export default function Aams() {
                 </div>
 
                 <div className="d-flex flex-column row-gap-2">
-                  <span className="fw-semibold">Vehicle: {draftFilters.vehicle}</span>
+                  <span className="fw-semibold font-wt">Vehicle: {draftFilters.vehicle}</span>
                   <div className="d-flex flex-wrap gap-2">
                     <Button variant={draftFilters.vehicle === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect('All')}>All</Button>
                     {quickVehicleOptions.map((option) => (
-                      <Button key={option.vehicleId} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option.name)}>{option.name}</Button>
+                      <Button key={option.vehicleId} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option.name)} className="font-wt">{option.name}</Button>
                     ))}
                     {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
@@ -922,7 +956,7 @@ export default function Aams() {
                 <Button variant="transparent" className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1" onClick={(event) => handleAamClick(aam.id, event.currentTarget)}>
                   <div className="shell-icon position-relative overflow-hidden">
                     <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                      <Image src={vehicle?.icon ? getAamIconPath({ ...vehicle, icon: vehicle.icon }) : getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                      <Image src={getRowVehicleIconSrc(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                     </div>
                   </div>
 
@@ -1014,7 +1048,7 @@ export default function Aams() {
                 <div className="aams-sidebar-options">
                   <button type="button" className={`aams-sidebar-option ${draftFilters.vehicle === 'All' ? 'is-active' : ''}`} onClick={() => handleVehicleSelect('All')}>All</button>
                   {quickVehicleOptions.map((option) => (
-                    <button key={option.vehicleId} type="button" className={`aams-sidebar-option ${draftFilters.vehicle === option.name ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option.name)}>{option.name}</button>
+                    <button key={option.vehicleId} type="button" className={`aams-sidebar-option font-wt ${draftFilters.vehicle === option.name ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option.name)}>{option.name}</button>
                   ))}
                 </div>
                 {vehicleOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenVehiclePicker}>More</button>}
@@ -1095,10 +1129,9 @@ export default function Aams() {
                   <Button variant="transparent" className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1" onClick={(event) => handleAamClick(aam.id, event.currentTarget)}>
                     <div className="shell-icon position-relative overflow-hidden">
                       <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                        <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                        <Image src={getRowVehicleIconSrc(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                       </div>
                     </div>
-
                     <span>{aam.designation}</span>
                   </Button>
                 </OverlayTrigger>
@@ -1126,7 +1159,7 @@ export default function Aams() {
                     <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={20} />
 
                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option.name}</span>
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>
@@ -1227,7 +1260,7 @@ export default function Aams() {
                     <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={20} />
 
                     {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option.name}</span>
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>

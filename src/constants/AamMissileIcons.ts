@@ -15,9 +15,10 @@ const variantIconFile: Record<AamIconNames, string> = {
   "radar-green": "missile_type_f_air_to_air_midrange.png",
   "radar-blue": "missile_type_s_air_to_air_midrange.png",
   "radar-red": "missile_type_b_air_to_air_midrange.png",
+  rocket: "rockets_he_large.png"
 } as const satisfies Record<AamIconNames, string>;
 
-export function getAamIconPath(aam: { icon: AamIconNames }) {
-  const fileName = variantIconFile[aam.icon] ?? "missile_air_to_air.png";
+export function getAamIconPath(aam: { icon: AamIconNames | undefined }) {
+  const fileName = aam.icon ? variantIconFile[aam.icon] : "missile_air_to_air.png";
   return `${WT_SKIN_BASE}/${fileName}`;
 }

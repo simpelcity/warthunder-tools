@@ -4,7 +4,7 @@ import { samMissiles } from '@/data/SamMissiles'
 import type { SamDefinition, SamVehicle, Sam, SamMissileVariant, Rank, BR } from '@/types/SamMissiles'
 import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
-import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaCircleCheck, FaCircleXmark, FaAngleDown } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { getCountryIcons } from '@/constants/CountryIcons'
 
@@ -729,10 +729,15 @@ export default function Sams() {
                 <span className="text-muted">{sam.lockRangeAllAspectKm} km</span>
               </li>
 
-              {sam.IRCCM && (
+              {sam.IRCCM ? (
                 <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
                   <span className="fw-bold">IRCCM</span>
                   <span className="text-muted"><FaCircleCheck className="text-success" /></span>
+                </li>
+              ) : (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">IRCCM</span>
+                  <span className="text-muted"><FaCircleXmark className="text-danger" /></span>
                 </li>
               )}
             </>
