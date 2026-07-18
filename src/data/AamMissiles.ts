@@ -223,6 +223,32 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.0",
           SB: "9.3"
         }
+      },
+      {
+        id: "aim_9e_f-104g",
+        vehicleId: "f-104g",
+        vehicleName: "◄F-104G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9e_f-4f",
+        vehicleId: "f-4f",
+        vehicleName: "◄F-4F Early",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -375,6 +401,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.0",
           RB: "10.3",
           SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9e_f-104g",
+        vehicleId: "f-104g",
+        vehicleName: "◄F-104G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
         }
       }
     ]
@@ -797,6 +836,45 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.7"
         }
+      },
+      {
+        id: "aim_9l_tornado_ids_de_assta1",
+        vehicleId: "tornado_ids_de_assta1",
+        vehicleName: "◄Tornado IDS ASSTA1",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9l_tornado_ids_de_wtd61",
+        vehicleId: "tornado_ids_de_wtd61",
+        vehicleName: "◄Tornado IDS WTD61",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9l_fa_18c_late_switzerland",
+        vehicleId: "fa_18c_late_switzerland",
+        vehicleName: "◌F/A-18C Late",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -946,6 +1024,32 @@ export const aamMissiles: AamDefinition[] = [
           AB: "12.3",
           RB: "12.3",
           SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9j_f-104g",
+        vehicleId: "f-104g",
+        vehicleName: "◄F-104G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9j_f-4f",
+        vehicleId: "f-4f",
+        vehicleName: "◄F-4F Early",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
         }
       }
     ]
@@ -1372,6 +1476,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.3",
           SB: "14.3"
         }
+      },
+      {
+        id: "aim_9m_fa_18c_late_switzerland",
+        vehicleId: "fa_18c_late_switzerland",
+        vehicleName: "◌F/A-18C Late",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -1487,6 +1604,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.7",
           RB: "13.7",
           SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f-4f_kws_lv",
+        vehicleId: "f-4f_kws_lv",
+        vehicleName: "◄F-4F KWS LV",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
         }
       }
     ]
@@ -1651,6 +1781,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "12.7",
           RB: "12.7",
           SB: "12.7"
+        }
+      },
+      {
+        id: "aim_7p_fa_18c_late_switzerland",
+        vehicleId: "fa_18c_late_switzerland",
+        vehicleName: "◌F/A-18C Late",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
         }
       }
     ]
@@ -2216,6 +2359,20 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.3",
           SB: "9.7"
         }
+      },
+      {
+        id: "flz_lwf_63_ffa_p16",
+        vehicleId: "ffa_p16",
+        vehicleName: "◌FFA P-16",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        },
+        icon: "ir-yellow"
       }
     ]
   },
@@ -2251,6 +2408,20 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.3",
           SB: "9.7"
         }
+      },
+      {
+        id: "flz_lwf_ll_63_75_siwa_mirage_3s_c70_switzerland",
+        vehicleId: "mirage_3s_c70_switzerland",
+        vehicleName: "◌Mirage IIIS C.70",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -2285,6 +2456,800 @@ export const aamMissiles: AamDefinition[] = [
           AB: "9.3",
           RB: "10.0",
           SB: "9.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_3r",
+    designation: "R-3R",
+    category: "Radar",
+    family: "SARH",
+    icon: "ir-yellow",
+    variant: "SARH",
+    projectileMassKg: 75.3,
+    guidance: "SARH",
+    band: "J",
+    lockRangeKm: 8,
+    launchRangeKm: 9,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 21,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 5.5,
+    tntEquivalentKg: 8.8,
+    vehicles: [
+      {
+        id: "r_3r_mig-21_sps_k",
+        vehicleId: "mig-21_sps_k",
+        vehicleName: "◄MiG-21 SPS-K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_3r_mig-21_mf",
+        vehicleId: "mig-21_mf",
+        vehicleName: "◊MiG-21MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_bis_sau",
+        vehicleId: "mig-21_bis_sau",
+        vehicleName: "◊MiG-21bis-SAU",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_bis_lazur",
+        vehicleId: "mig-21_bis_lazur",
+        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "radar-white"
+      }
+    ]
+  },
+  {
+    id: "r_3s",
+    designation: "R-3S",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    projectileMassKg: 75.3,
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    lockRangeRearAspectKm: 3.5,
+    launchRangeKm: 9,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 21,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 5.5,
+    tntEquivalentKg: 8.8,
+    vehicles: [
+      {
+        id: "r_3s_mig-21_sps_k",
+        vehicleId: "mig-21_sps_k",
+        vehicleName: "◄MiG-21 SPS-K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_3s_mig-21_mf",
+        vehicleId: "mig-21_mf",
+        vehicleName: "◊MiG-21MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_3s_mig-21_bis_sau",
+        vehicleId: "mig-21_bis_sau",
+        vehicleName: "◊MiG-21bis-SAU",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig-21_bis_lazur",
+        vehicleId: "mig-21_bis_lazur",
+        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig_23mf_germany",
+        vehicleId: "mig_23mf_germany",
+        vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_13m1",
+    designation: "R-13M1",
+    category: "IR",
+    family: "IR",
+    icon: "ir-yellow",
+    variant: "IR",
+    projectileMassKg: 90.6,
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 16,
+    maximumSpeedMach: 2.4,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TNT",
+    explosiveMassKg: 5.5,
+    vehicles: [
+      {
+        id: "r_13m1_mig-21_sps_k",
+        vehicleId: "mig-21_sps_k",
+        vehicleName: "◄MiG-21 SPS-K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_13m1_mig-21_bis_sau",
+        vehicleId: "mig-21_bis_sau",
+        vehicleName: "◊MiG-21bis-SAU",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig-21_bis_lazur",
+        vehicleId: "mig-21_bis_lazur",
+        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig_23mf_germany",
+        vehicleId: "mig_23mf_germany",
+        vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_60",
+    designation: "R-60",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    projectileMassKg: 43.5,
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    lockRangeRearAspectKm: 5,
+    launchRangeKm: 10,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 25,
+    explosiveType: "TNT",
+    explosiveMassKg: 1.15,
+    vehicles: [
+      {
+        id: "r_60_mig-21_sps_k",
+        vehicleId: "mig-21_sps_k",
+        vehicleName: "◄MiG-21 SPS-K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_60_mig-21_mf",
+        vehicleId: "mig-21_mf",
+        vehicleName: "◊MiG-21MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_60_su_22um3k",
+        vehicleId: "su_22um3k",
+        vehicleName: "◊Su-22UM3K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        },
+        icon: "ir-white"
+      }
+    ]
+  },
+  {
+    id: "aim_9b_fgw_2",
+    designation: "AIM-9B FGW.2 Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 71.55,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 10,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "aim_9b_fgw_2_f-104g",
+        vehicleId: "f-104g",
+        vehicleName: "◄F-104G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_fgw_2_f-4f",
+        vehicleId: "f-4f",
+        vehicleName: "◄F-4F Early",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_60mk",
+    designation: "R-60MK",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    projectileMassKg: 44,
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 7.4,
+    lockRangeAllAspectsKm: 2,
+    IRCCM: false,
+    launchRangeKm: 10,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 25,
+    explosiveType: "OKFOL-20",
+    explosiveMassKg: 1.35,
+    tntEquivalentKg: 1.79,
+    vehicles: [
+      {
+        id: "r_60mk_mig-21_bis_sau",
+        vehicleId: "mig-21_bis_sau",
+        vehicleName: "◊MiG-21bis-SAU",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_su_22um3k",
+        vehicleId: "su_22um3k",
+        vehicleName: "◊Su-22UM3K",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig-21_bis_lazur",
+        vehicleId: "mig-21_bis_lazur",
+        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_23mf_germany",
+        vehicleId: "mig_23mf_germany",
+        vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_su_22m4_de_wtd61",
+        vehicleId: "su_22m4_de_wtd61",
+        vehicleName: "◄Su-22M4 WTD61",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "flz_lwf_ll_64_79_falco",
+    designation: "Flz Lwf LL 64/79 FALCO",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 117.31,
+    guidance: "SARH",
+    band: "I",
+    lockRangeKm: 12.5,
+    launchRangeKm: 19,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 28,
+    missileGuidanceTimeS: 30,
+    explosiveType: "HBX",
+    explosiveMassKg: 8.7,
+    tntEquivalentKg: 13.92,
+    vehicles: [
+      {
+        id: "flz_lwf_ll_64_79_falco_mirage_3s_c70_switzerland",
+        vehicleId: "mirage_3s_c70_switzerland",
+        vehicleName: "◌Mirage IIIS C.70",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_23r",
+    designation: "R-23R",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    projectileMassKg: 223,
+    guidance: "SARH",
+    band: "J",
+    shootDown: "Front-aspect",
+    lockRangeKm: 20,
+    launchRangeKm: 27,
+    maximumSpeedMach: 3,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 35,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 13,
+    tntEquivalentKg: 20.8,
+    vehicles: [
+      {
+        id: "r_23r_mig_23mf_germany",
+        vehicleId: "mig_23mf_germany",
+        vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_23t",
+    designation: "R-23T",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-white",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 215,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 12,
+    lockRangeAllAspectsKm: 2.3,
+    IRCCM: false,
+    launchRangeKm: 27,
+    maximumSpeedMach: 3,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 35,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 13,
+    tntEquivalentKg: 20.8,
+    vehicles: [
+      {
+        id: "r_23t_mig_23mf_germany",
+        vehicleId: "mig_23mf_germany",
+        vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "aim_9l_i",
+    designation: "AIM-9L/I Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-green",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 84.46,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3,
+    IRCCM: true,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-102",
+    explosiveMassKg: 3.58,
+    tntEquivalentKg: 4.58,
+    vehicles: [
+      {
+        id: "aim_9l_i_f-4f_kws_lv",
+        vehicleId: "f-4f_kws_lv",
+        vehicleName: "◄F-4F KWS LV",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_9l_i_tornado_ids_de_assta3_sle",
+        vehicleId: "tornado_ids_de_assta3_sle",
+        vehicleName: "◄Tornado IDS SLE",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27r1",
+    designation: "R-27R1",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH+IOG+DL",
+    projectileMassKg: 253,
+    guidance: "SARH+IOG+DL",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 55,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27r1_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27er1",
+    designation: "R-27ER1",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH+IOG+DL",
+    projectileMassKg: 350,
+    guidance: "SARH+IOG+DL",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 100,
+    maximumSpeedMach: 5.8,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27er1_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27t1",
+    designation: "R-27T1",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 245.5,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 18,
+    lockRangeAllAspectsKm: 4.8,
+    IRCCM: true,
+    launchRangeKm: 50,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27t1_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "flz_lwl_ll_97",
+    designation: "Flz Lwl LL 97 AMRAAM",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 147.87,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 80,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 80,
+    explosiveType: "PBX(AF)-108",
+    explosiveMassKg: 7.67,
+    tntEquivalentKg: 9.43,
+    vehicles: [
+      {
+        id: "flz_lwl_ll_97_fa_18c_late_switzerland",
+        vehicleId: "fa_18c_late_switzerland",
+        vehicleName: "◌F/A-18C Late",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "flz_lwl_ll_97_120c_5",
+    designation: "AIM-120C-5 AMRAAM",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-blue",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 161.48,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 120,
+    maximumSpeedMach: 4.4,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 120,
+    explosiveType: "PBXN-110",
+    explosiveMassKg: 8.62,
+    tntEquivalentKg: 11.03,
+    vehicles: [
+      {
+        id: "flz_lwl_ll_97_120c_5_fa_18c_late_switzerland",
+        vehicleId: "fa_18c_late_switzerland",
+        vehicleName: "◌F/A-18C Late",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
         }
       }
     ]

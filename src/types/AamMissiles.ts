@@ -15,7 +15,7 @@ export type ARHAam = "ARH+IOG+DL" | "ARH+IOG+GNSS+DL";
 export type BeamRidingAamGuidance = "Semi-Automatic (SACLOS)";
 export type CommandGuidedAamGuidance = "Manual (MCLOS)";
 
-export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT" | "HMX" | "HBX-3" | "PBX(AF)-108" | "PBXN-104" | "Nipolit" | "Composition B";
+export type AamExplosiveType = "PBXN-102" | "PBXN-3" | "PBXN-4" | "TGAF-5" | "PBXN-110" | "HBX" | "Nipolit" | "TNT" | "HMX" | "HBX-3" | "PBX(AF)-108" | "PBXN-104" | "Nipolit" | "Composition B" | "OKFOL-20";
 
 export type RadarAamBand = "I" | "J";
 
@@ -43,7 +43,7 @@ export interface BaseAam {
   missileGuidanceTimeS: number;
   explosiveType: AamExplosiveType;
   explosiveMassKg: number;
-  tntEquivalentKg: number;
+  tntEquivalentKg?: number;
 }
 
 export interface IRAamMissile extends BaseAam {
