@@ -3221,7 +3221,7 @@ export const aamMissiles: AamDefinition[] = [
   },
   {
     id: "flz_lwl_ll_97_120c_5",
-    designation: "AIM-120C-5 AMRAAM",
+    designation: "Flz Lwl LL 97 AMRAAM 120C-5",
     category: "Radar",
     family: "ARH",
     icon: "radar-blue",
