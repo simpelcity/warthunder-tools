@@ -260,6 +260,66 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.3",
           SB: "9.3"
         }
+      },
+      {
+        id: "aim_9b_f-86f-40_japan_blue_impulse",
+        vehicleId: "f-86f-40_japan_blue_impulse",
+        vehicleName: "F-86F-40 JASDF▅",
+        vehicleTechTree: "Japan",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_f-86f-40_japan",
+        vehicleId: "f-86f-40_japan",
+        vehicleName: "F-86F-40 ▅",
+        vehicleTechTree: "Japan",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_f-104j",
+        vehicleId: "f-104j",
+        vehicleName: "F-104J",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9b_t2",
+        vehicleId: "t2",
+        vehicleName: "T2",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9b_t2_early",
+        vehicleId: "t2_early",
+        vehicleName: "T-2 Early",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        }
       }
     ]
   },
@@ -452,6 +512,43 @@ export const aamMissiles: AamDefinition[] = [
           SB: "9.7"
         },
         icon: "ir-white"
+      },
+      {
+        id: "aim_9e_f-104j",
+        vehicleId: "f-104j",
+        vehicleName: "F-104J",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.0"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9e_t2",
+        vehicleId: "t2",
+        vehicleName: "T2",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9e_t2_early",
+        vehicleId: "t2_early",
+        vehicleName: "T-2 Early",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        }
       }
     ]
   },
@@ -1196,6 +1293,93 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.7",
           SB: "13.7"
         }
+      },
+      {
+        id: "aim_9l_tornado_f3_late",
+        vehicleId: "tornado_f3_late",
+        vehicleName: "Tornado F.3 Late",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "aim_9l_fa_18a_raaf",
+        vehicleId: "fa_18a_raaf",
+        vehicleName: "▄F/A-18A",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_fa_18a_hug_2_raaf",
+        vehicleId: "fa_18a_hug_2_raaf",
+        vehicleName: "▄AF/A-18A Late",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9l_harrier_gr7",
+        vehicleId: "harrier_gr7",
+        vehicleName: "Harrier GR.7",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_tornado_gr4",
+        vehicleId: "tornado_gr4",
+        vehicleName: "Tornado GR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_tornado_gr4",
+        vehicleId: "tornado_gr4",
+        vehicleName: "Tornado GR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_cf_188a_canada",
+        vehicleId: "cf_188a_canada",
+        vehicleName: "CF-188A",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Canada (modern)",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
       }
     ]
   },
@@ -1665,6 +1849,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.3"
         }
+      },
+      {
+        id: "aim_7f_fa_18a_raaf",
+        vehicleId: "fa_18a_raaf",
+        vehicleName: "▄F/A-18A",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
       }
     ]
   },
@@ -1884,6 +2081,104 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.7",
           RB: "13.7",
           SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_tornado_f3_late",
+        vehicleId: "tornado_f3_late",
+        vehicleName: "Tornado F.3 Late",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "aim_9m_fa_18a_hug_2_raaf",
+        vehicleId: "fa_18a_hug_2_raaf",
+        vehicleName: "▄AF/A-18A Late",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9m_harrier_gr7",
+        vehicleId: "harrier_gr7",
+        vehicleName: "Harrier GR.7",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9m_tornado_gr4",
+        vehicleId: "tornado_gr4",
+        vehicleName: "Tornado GR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9m_sea_harrier_fa2",
+        vehicleId: "sea_harrier_fa2",
+        vehicleName: "Sea Harrier FA 2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_9m_ef_2000_fgr4",
+        vehicleId: "ef_2000_fgr4",
+        vehicleName: "Typhoon FGR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_9m_ef_2000_typhoon_aesa",
+        vehicleId: "ef_2000_typhoon_aesa",
+        vehicleName: "Typhoon (AESA)",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_9m_fa_18f_block_2_raaf",
+        vehicleId: "fa_18f_block_2_raaf",
+        vehicleName: "▄F/A-18F",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
         }
       }
     ]
@@ -2132,6 +2427,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.0",
           SB: "12.7"
         }
+      },
+      {
+        id: "aim_7m_fa_18a_raaf",
+        vehicleId: "fa_18a_raaf",
+        vehicleName: "▄F/A-18A",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
       }
     ]
   },
@@ -2198,6 +2506,19 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "◌F/A-18C",
         vehicleTechTree: "Germany",
         vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_7p_cf_188a_canada",
+        vehicleId: "cf_188a_canada",
+        vehicleName: "CF-188A",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Canada (modern)",
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "12.7",
@@ -2283,6 +2604,68 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "◄EF-2000 (AESA)",
         vehicleTechTree: "Germany",
         vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_120b_tornado_f3_late",
+        vehicleId: "tornado_f3_late",
+        vehicleName: "Tornado F.3 Late",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        },
+        icon: "radar-orange"
+      },
+      {
+        id: "aim_120b_fa_18a_hug_2_raaf",
+        vehicleId: "fa_18a_hug_2_raaf",
+        vehicleName: "▄AF/A-18A Late",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120b_tornado_gr4",
+        vehicleId: "tornado_gr4",
+        vehicleName: "Tornado GR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_120b_ef_2000_fgr4",
+        vehicleId: "ef_2000_fgr4",
+        vehicleName: "Typhoon FGR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120b_ef_2000_typhoon_aesa",
+        vehicleId: "ef_2000_typhoon_aesa",
+        vehicleName: "Typhoon (AESA)",
+        vehicleTechTree: "Great Britain",
         vehicleRank: "IX",
         vehicleBr: {
           AB: "14.7",
@@ -2398,6 +2781,56 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.7",
           SB: "14.7"
         }
+      },
+      {
+        id: "aim_120c_5_fa_18a_hug_2_raaf",
+        vehicleId: "fa_18a_hug_2_raaf",
+        vehicleName: "▄AF/A-18A Late",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120c_5_ef_2000_fgr4",
+        vehicleId: "ef_2000_fgr4",
+        vehicleName: "Typhoon FGR.4",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120c_5_ef_2000_typhoon_aesa",
+        vehicleId: "ef_2000_typhoon_aesa",
+        vehicleName: "Typhoon (AESA)",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_120c_5_fa_18f_block_2_raaf",
+        vehicleId: "fa_18f_block_2_raaf",
+        vehicleName: "▄F/A-18F",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
       }
     ]
   },
@@ -2433,6 +2866,57 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.3",
           SB: "13.0"
         }
+      },
+      {
+        id: "aim_9p_f-104j",
+        vehicleId: "f-104j",
+        vehicleName: "F-104J",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9p_t2",
+        vehicleId: "t2",
+        vehicleName: "T2",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9p_av_8s_thailand",
+        vehicleId: "av_8s_thailand",
+        vehicleName: "▄AV-8S",
+        vehicleTechTree: "Japan",
+        vehicleOperator: "Thailand",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9p_t2_early",
+        vehicleId: "t2_early",
+        vehicleName: "T-2 Early",
+        vehicleTechTree: "Japan",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        },
+        icon: "ir-yellow"
       }
     ]
   },
@@ -2627,6 +3111,20 @@ export const aamMissiles: AamDefinition[] = [
           SB: "13.0"
         },
         icon: "radar-orange"
+      },
+      {
+        id: "r_27r1_mig-21_bison",
+        vehicleId: "mig-21_bison",
+        vehicleName: "▄MiG-21 Bison",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "India",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        icon: "radar-orange"
       }
     ]
   },
@@ -2755,6 +3253,20 @@ export const aamMissiles: AamDefinition[] = [
           SB: "14.3"
         },
         icon: "radar-orange"
+      },
+      {
+        id: "aim_120d_fa_18f_block_2_raaf",
+        vehicleId: "fa_18f_block_2_raaf",
+        vehicleName: "▄F/A-18F",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        },
+        icon: "radar-red"
       }
     ]
   },
@@ -4085,6 +4597,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.0",
           SB: "13.0"
         }
+      },
+      {
+        id: "r_27t1_mig-21_bison",
+        vehicleId: "mig-21_bison",
+        vehicleName: "▄MiG-21 Bison",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "India",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
       }
     ]
   },
@@ -4254,6 +4779,20 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "r_73e_mig-21_bison",
+        vehicleId: "mig-21_bison",
+        vehicleName: "▄MiG-21 Bison",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "India",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
         },
         icon: "ir-orange"
       }
@@ -5871,6 +6410,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.0",
           SB: "12.0"
         }
+      },
+      {
+        id: "skyflash_super_temp_tornado_f3_late",
+        vehicleId: "tornado_f3_late",
+        vehicleName: "Tornado F.3 Late",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        },
+        icon: "radar-white"
       }
     ]
   },
