@@ -3971,7 +3971,8 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
-        }
+        },
+        icon: "ir-orange"
       }
     ]
   },
