@@ -225,7 +225,7 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
-        id: "aim_9e_f-104g",
+        id: "aim_9b_f-104g",
         vehicleId: "f-104g",
         vehicleName: "◄F-104G",
         vehicleTechTree: "Germany",
@@ -238,16 +238,27 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
-        id: "aim_9e_f-4f",
-        vehicleId: "f-4f",
-        vehicleName: "◄F-4F Early",
-        vehicleTechTree: "Germany",
-        vehicleOperator: "FRG",
-        vehicleRank: "VII",
+        id: "aim_9b_scimitar_f1",
+        vehicleId: "scimitar_f1",
+        vehicleName: "Scimitar F Mk.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
         vehicleBr: {
-          AB: "10.7",
-          RB: "10.7",
-          SB: "10.7"
+          AB: "8.3",
+          RB: "8.7",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "aim_9b_buccaneer_s2",
+        vehicleId: "buccaneer_s2",
+        vehicleName: "Buccaneer S.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "9.3",
+          SB: "9.3"
         }
       }
     ]
@@ -415,6 +426,32 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "10.7"
         }
+      },
+      {
+        id: "aim_9e_f-4f",
+        vehicleId: "f-4f",
+        vehicleName: "◄F-4F Early",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9e_hunter_f9_rhodesia",
+        vehicleId: "hunter_f9_rhodesia",
+        vehicleName: "Hunter FGA.9",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.7"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -583,6 +620,30 @@ export const aamMissiles: AamDefinition[] = [
           SB: "12.3"
         },
         icon: "ir-yellow"
+      },
+      {
+        id: "aim_9g_jaguar_gr1",
+        vehicleId: "jaguar_gr1",
+        vehicleName: "Jaguar GR.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9g_harrier_gr3",
+        vehicleId: "harrier_gr3",
+        vehicleName: "Harrier GR.3",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "9.7",
+          SB: "9.3"
+        }
       }
     ]
   },
@@ -874,6 +935,32 @@ export const aamMissiles: AamDefinition[] = [
           AB: "14.0",
           RB: "14.0",
           SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9l_tornado_ids_de_mfg",
+        vehicleId: "tornado_ids_de_mfg",
+        vehicleName: "◄Tornado IDS MFG",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9l_fa_18c_switzerland",
+        vehicleId: "fa_18c_switzerland",
+        vehicleName: "◌F/A-18C",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
         }
       }
     ]
@@ -1489,6 +1576,32 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.0",
           SB: "14.0"
         }
+      },
+      {
+        id: "aim_9m_ef_2000_block_10",
+        vehicleId: "ef_2000_block_10",
+        vehicleName: "◄EF-2000",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_9m_ef_2000_aesa",
+        vehicleId: "ef_2000_aesa",
+        vehicleName: "◄EF-2000 (AESA)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
       }
     ]
   },
@@ -1795,6 +1908,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.0",
           SB: "14.0"
         }
+      },
+      {
+        id: "aim_7p_fa_18c_switzerland",
+        vehicleId: "fa_18c_switzerland",
+        vehicleName: "◌F/A-18C",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
       }
     ]
   },
@@ -1854,6 +1980,32 @@ export const aamMissiles: AamDefinition[] = [
           SB: "14.3"
         },
         icon: "radar-orange"
+      },
+      {
+        id: "aim_120b_ef_2000_block_10",
+        vehicleId: "ef_2000_block_10",
+        vehicleName: "◄EF-2000",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120b_ef_2000_aesa",
+        vehicleId: "ef_2000_aesa",
+        vehicleName: "◄EF-2000 (AESA)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
       }
     ]
   },
@@ -1936,6 +2088,32 @@ export const aamMissiles: AamDefinition[] = [
           AB: "14.3",
           RB: "14.3",
           SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120c_5_ef_2000_block_10",
+        vehicleId: "ef_2000_block_10",
+        vehicleName: "◄EF-2000",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120c_5_ef_2000_aesa",
+        vehicleId: "ef_2000_aesa",
+        vehicleName: "◄EF-2000 (AESA)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
         }
       }
     ]
@@ -2138,6 +2316,34 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.3",
           SB: "13.0"
         }
+      },
+      {
+        id: "r_27r1_mig_29_9_12_germany",
+        vehicleId: "mig_29_9_12_germany",
+        vehicleName: "◊MiG-29 (9-12A)",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        },
+        icon: "radar-orange"
+      },
+      {
+        id: "r_27r1_mig_29_9_12g",
+        vehicleId: "mig_29_9_12g",
+        vehicleName: "◄MiG-29G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        },
+        icon: "radar-orange"
       }
     ]
   },
@@ -2533,6 +2739,45 @@ export const aamMissiles: AamDefinition[] = [
           SB: "11.0"
         },
         icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_s",
+        vehicleId: "mig-21_s",
+        vehicleName: "MiG-21S (R-13-300)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.7",
+          SB: "10.0"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_smt",
+        vehicleId: "mig-21_smt",
+        vehicleName: "Mig-21SMT",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_bis",
+        vehicleId: "mig-21_bis",
+        vehicleName: "Mig-21bis",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "radar-white"
       }
     ]
   },
@@ -2620,6 +2865,103 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.0"
         }
+      },
+      {
+        id: "r_3s_mig-17_cuba",
+        vehicleId: "mig-17_cuba",
+        vehicleName: "MiG-17AS",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Cuba",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "r_3s_mig-19pt",
+        vehicleId: "mig-19pt",
+        vehicleName: "MiG-19PT",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "r_3s_mig-21_f13",
+        vehicleId: "mig-21_f13",
+        vehicleName: "MiG-21 F-13",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "r_3s_mig-21_s",
+        vehicleId: "mig-21_s",
+        vehicleName: "MiG-21S (R-13-300)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.7",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_3s_mig-21_pfm",
+        vehicleId: "mig-21_pfm",
+        vehicleName: "MiG-21PFM",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "9.3",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_3s_mig-21_smt",
+        vehicleId: "mig-21_smt",
+        vehicleName: "Mig-21SMT",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_3s_mig-21_bis",
+        vehicleId: "mig-21_bis",
+        vehicleName: "Mig-21bis",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig_23m",
+        vehicleId: "mig_23m",
+        vehicleName: "Mig-23M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
       }
     ]
   },
@@ -2693,6 +3035,80 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.0"
         }
+      },
+      {
+        id: "r_13m1_mig-21_bis",
+        vehicleId: "mig-21_bis",
+        vehicleName: "Mig-21bis",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig_27m",
+        vehicleId: "mig_27m",
+        vehicleName: "Mig-27M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_13m1_mig_27k",
+        vehicleId: "mig_27k",
+        vehicleName: "Mig-27K",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_13m1_mig_23m",
+        vehicleId: "mig_23m",
+        vehicleName: "Mig-23M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_13m1_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -2761,6 +3177,94 @@ export const aamMissiles: AamDefinition[] = [
         vehicleName: "◊MiG-29 (9-12A)",
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60_yak-38m",
+        vehicleId: "yak-38m",
+        vehicleName: "Yak-38M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "r_60_su_25",
+        vehicleId: "su_25",
+        vehicleName: "Su-25",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60_yak-38",
+        vehicleId: "yak-38",
+        vehicleName: "Yak-38",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "r_60_mig-21_smt",
+        vehicleId: "mig-21_smt",
+        vehicleName: "Mig-21SMT",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_60_su_17m2",
+        vehicleId: "su_17m2",
+        vehicleName: "Su-17M2",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "r_60_su_22m3",
+        vehicleId: "su_22m3",
+        vehicleName: "Su-22M3",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Syria",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "12.7",
@@ -2918,6 +3422,45 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.3"
         }
+      },
+      {
+        id: "r_60mk_su_25k",
+        vehicleId: "su_25k",
+        vehicleName: "Su-25K",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Czech Republic",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_60mk_su_22m3",
+        vehicleId: "su_22m3",
+        vehicleName: "Su-22M3",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Syria",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_su_25_558arz",
+        vehicleId: "su_25_558arz",
+        vehicleName: "Su-25BM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Kazakhstan",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
       }
     ]
   },
@@ -2987,6 +3530,42 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.0"
         }
+      },
+      {
+        id: "r_23r_mig_23m",
+        vehicleId: "mig_23m",
+        vehicleName: "Mig-23M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_23r_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_23r_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
       }
     ]
   },
@@ -3023,6 +3602,42 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.3",
           RB: "11.0",
           SB: "11.0"
+        }
+      },
+      {
+        id: "r_23t_mig_23m",
+        vehicleId: "mig_23m",
+        vehicleName: "Mig-23M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_23t_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_23t_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
         }
       }
     ]
@@ -3078,41 +3693,6 @@ export const aamMissiles: AamDefinition[] = [
     ]
   },
   {
-    id: "r_27r1",
-    designation: "R-27R1",
-    category: "Radar",
-    family: "SARH",
-    icon: "radar-orange",
-    variant: "SARH+IOG+DL",
-    projectileMassKg: 253,
-    guidance: "SARH+IOG+DL",
-    band: "I",
-    shootDown: "Front-aspect",
-    lockRangeKm: 25,
-    launchRangeKm: 55,
-    maximumSpeedMach: 3.5,
-    maximumOverloadG: 35,
-    missileGuidanceTimeS: 60,
-    explosiveType: "TGAF-5",
-    explosiveMassKg: 15,
-    tntEquivalentKg: 24,
-    vehicles: [
-      {
-        id: "r_27r1_mig_29_9_12_germany",
-        vehicleId: "mig_29_9_12_germany",
-        vehicleName: "◊MiG-29 (9-12A)",
-        vehicleTechTree: "Germany",
-        vehicleOperator: "GDR",
-        vehicleRank: "VIII",
-        vehicleBr: {
-          AB: "12.7",
-          RB: "12.7",
-          SB: "12.3"
-        }
-      }
-    ]
-  },
-  {
     id: "r_27er1",
     designation: "R-27ER1",
     category: "Radar",
@@ -3144,6 +3724,34 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.3"
         }
+      },
+      {
+        id: "r_27er1_mig_29_9_12g",
+        vehicleId: "mig_29_9_12g",
+        vehicleName: "◄MiG-29G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        },
+        icon: "radar-orange"
+      },
+      {
+        id: "r_27er1_su_30mk2v_venezuela",
+        vehicleId: "su_30mk2v_venezuela",
+        vehicleName: "▄Su-30MK2 AMV",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Venezuela",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        },
+        icon: "radar-orange"
       }
     ]
   },
@@ -3180,6 +3788,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "12.7",
           RB: "12.7",
           SB: "12.3"
+        }
+      },
+      {
+        id: "r_27t1_mig_29_9_12g",
+        vehicleId: "mig_29_9_12g",
+        vehicleName: "◄MiG-29G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
         }
       }
     ]
@@ -3250,6 +3871,1604 @@ export const aamMissiles: AamDefinition[] = [
           AB: "14.0",
           RB: "14.0",
           SB: "14.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27et1",
+    designation: "R-27ET1",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 343,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 18,
+    lockRangeAllAspectsKm: 4.8,
+    IRCCM: true,
+    launchRangeKm: 100,
+    maximumSpeedMach: 5.8,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27et1_mig_29_9_12g",
+        vehicleId: "mig_29_9_12g",
+        vehicleName: "◄MiG-29G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_27et1_su_30mk2v_venezuela",
+        vehicleId: "su_30mk2v_venezuela",
+        vehicleName: "▄Su-30MK2 AMV",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Venezuela",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_73e",
+    designation: "R-73E",
+    category: "IR",
+    family: "IR",
+    icon: "ir-yellow",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 105,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3.4,
+    IRCCM: true,
+    launchRangeKm: 30,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 40,
+    missileGuidanceTimeS: 20,
+    explosiveType: "OKFOL",
+    explosiveMassKg: 3.75,
+    tntEquivalentKg: 6.08,
+    vehicles: [
+      {
+        id: "r_73e_mig_29_9_12g",
+        vehicleId: "mig_29_9_12g",
+        vehicleName: "◄MiG-29G",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_73e_su_30mk2v_venezuela",
+        vehicleId: "su_30mk2v_venezuela",
+        vehicleName: "▄Su-30MK2 AMV",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Venezuela",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_60m",
+    designation: "R-60M",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    projectileMassKg: 44,
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 7.4,
+    lockRangeAllAspectsKm: 2,
+    IRCCM: false,
+    launchRangeKm: 10,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 25,
+    explosiveType: "OKFOL-20",
+    explosiveMassKg: 1.35,
+    tntEquivalentKg: 1.79,
+    vehicles: [
+      {
+        id: "r_60m_su_25",
+        vehicleId: "su_25",
+        vehicleName: "Su-25",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "r_60m_mig-21_bis",
+        vehicleId: "mig-21_bis",
+        vehicleName: "Mig-21bis",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60m_su_25t",
+        vehicleId: "su_25t",
+        vehicleName: "Su-25T",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60m_mig_27m",
+        vehicleId: "mig_27m",
+        vehicleName: "Mig-27M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_60m_mig_27k",
+        vehicleId: "mig_27k",
+        vehicleName: "Mig-27K",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_60m_mig_25pd",
+        vehicleId: "mig_25pd",
+        vehicleName: "Mig-25PD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60m_mig_23m",
+        vehicleId: "mig_23m",
+        vehicleName: "Mig-23M",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60m_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_60m_su_17m4",
+        vehicleId: "su_17m4",
+        vehicleName: "Su-17M4",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60m_su_24m",
+        vehicleId: "su_24m",
+        vehicleName: "Su-24M",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_60m_su_25tm",
+        vehicleId: "su_25tm",
+        vehicleName: "Su-39",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60m_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_60m_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60m_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_60m_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_73",
+    designation: "R-73",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 105,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3.4,
+    IRCCM: true,
+    launchRangeKm: 30,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 40,
+    missileGuidanceTimeS: 20,
+    explosiveType: "OKFOL",
+    explosiveMassKg: 3.75,
+    tntEquivalentKg: 6.08,
+    vehicles: [
+      {
+        id: "r_73_su_25t",
+        vehicleId: "su_25t",
+        vehicleName: "Su-25T",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_73_su_25_558arz",
+        vehicleId: "su_25_558arz",
+        vehicleName: "Su-25BM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Kazakhstan",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_73_su_25tm",
+        vehicleId: "su_25tm",
+        vehicleName: "Su-39",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_73_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "r_73_su_27",
+        vehicleId: "su_27",
+        vehicleName: "Su-27",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_73_su_25sm3",
+        vehicleId: "su_25sm3",
+        vehicleName: "Su-25SM3",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "11.7",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r_73_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_73_su_33",
+        vehicleId: "su_33",
+        vehicleName: "Su-33",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_73_mig_29kr_9_41r",
+        vehicleId: "mig_29kr_9_41r",
+        vehicleName: "MiG-29KR (9-41R)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "r_73_mig_29_9_13",
+        vehicleId: "mig_29_9_13",
+        vehicleName: "MiG-29 (9-13)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "r_73_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_73_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_73_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "r_73_su_30sm",
+        vehicleId: "su_30sm",
+        vehicleName: "Su-30SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "r_73_su_30sm2",
+        vehicleId: "su_30sm2",
+        vehicleName: "Su-30SM2",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_40rd",
+    designation: "R-40RD",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH+IOG",
+    projectileMassKg: 465,
+    guidance: "SARH+IOG",
+    band: "J",
+    shootDown: "Front-aspect",
+    lockRangeKm: 30,
+    launchRangeKm: 72,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 75,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 25,
+    tntEquivalentKg: 40,
+    vehicles: [
+      {
+        id: "r_40rd_mig_25pd",
+        vehicleId: "mig_25pd",
+        vehicleName: "Mig-25PD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_40td",
+    designation: "R-40TD",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-white",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 465,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 16,
+    lockRangeAllAspectsKm: 4.3,
+    IRCCM: false,
+    launchRangeKm: 72,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 75,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 25,
+    tntEquivalentKg: 40,
+    vehicles: [
+      {
+        id: "r_40td_mig_25pd",
+        vehicleId: "mig_25pd",
+        vehicleName: "Mig-25PD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_24r",
+    designation: "R-24R",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH+IOG",
+    projectileMassKg: 244,
+    guidance: "SARH+IOG",
+    band: "J",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 50,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 24,
+    missileGuidanceTimeS: 45,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 13,
+    tntEquivalentKg: 20.8,
+    vehicles: [
+      {
+        id: "r_24r_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_24r_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_24t",
+    designation: "R-24T",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 237,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 16,
+    lockRangeAllAspectsKm: 4.3,
+    IRCCM: false,
+    launchRangeKm: 50,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 24,
+    missileGuidanceTimeS: 45,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 13,
+    tntEquivalentKg: 20.8,
+    vehicles: [
+      {
+        id: "r_24t_mig_23mld",
+        vehicleId: "mig_23mld",
+        vehicleName: "Mig-23MLD",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_24t_mig_23ml",
+        vehicleId: "mig_23ml",
+        vehicleName: "Mig-23ML",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27r",
+    designation: "R-27R",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH+IOG+DL",
+    projectileMassKg: 253,
+    guidance: "SARH+IOG+DL",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 55,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27r_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "r_27r_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_27r_su_27",
+        vehicleId: "su_27",
+        vehicleName: "Su-27",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27r_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27r_mig_29_9_13",
+        vehicleId: "mig_29_9_13",
+        vehicleName: "MiG-29 (9-13)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_27r_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27r_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27r_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27t",
+    designation: "R-27T",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 245.5,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 18,
+    lockRangeAllAspectsKm: 4.8,
+    IRCCM: true,
+    launchRangeKm: 50,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27t_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "r_27t_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_27t_su_27",
+        vehicleId: "su_27",
+        vehicleName: "Su-27",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27t_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27t_mig_29_9_13",
+        vehicleId: "mig_29_9_13",
+        vehicleName: "MiG-29 (9-13)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_27t_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27t_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27t_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27er",
+    designation: "R-27ER",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH+IOG+DL",
+    projectileMassKg: 350,
+    guidance: "SARH+IOG+DL",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 25,
+    launchRangeKm: 100,
+    maximumSpeedMach: 5.8,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27er_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "r_27er_mig_29_9_12",
+        vehicleId: "mig_29_9_12",
+        vehicleName: "MiG-29 (9-12)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_27er_su_27",
+        vehicleId: "su_27",
+        vehicleName: "Su-27",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27er_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27er_su_33",
+        vehicleId: "su_33",
+        vehicleName: "Su-33",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27er_mig_29_9_13",
+        vehicleId: "mig_29_9_13",
+        vehicleName: "MiG-29 (9-13)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_27er_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27er_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27er_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27er_su_30sm",
+        vehicleId: "su_30sm",
+        vehicleName: "Su-30SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "r_27er_su_30sm2",
+        vehicleId: "su_30sm2",
+        vehicleName: "Su-30SM2",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_27et",
+    designation: "R-27ET",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidanceCage: "Uncaged",
+    projectileMassKg: 343,
+    guidance: "IR",
+    aspect: "All-aspects",
+    lockRangeRearAspectKm: 18,
+    lockRangeAllAspectsKm: 4.8,
+    IRCCM: true,
+    launchRangeKm: 100,
+    maximumSpeedMach: 5.8,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 60,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 15,
+    tntEquivalentKg: 24,
+    vehicles: [
+      {
+        id: "r_27et_yak_141",
+        vehicleId: "yak_141",
+        vehicleName: "Yak-141",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "r_27et_su_27",
+        vehicleId: "su_27",
+        vehicleName: "Su-27",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27et_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27et_su_33",
+        vehicleId: "su_33",
+        vehicleName: "Su-33",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27et_mig_29_9_13",
+        vehicleId: "mig_29_9_13",
+        vehicleName: "MiG-29 (9-13)",
+        vehicleTechTree: "USSR",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "r_27et_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27et_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_27et_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_27et_su_30sm",
+        vehicleId: "su_30sm",
+        vehicleName: "Su-30SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "r_27et_su_30sm2",
+        vehicleId: "su_30sm2",
+        vehicleName: "Su-30SM2",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_77",
+    designation: "R-77",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 177,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 80,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 50,
+    missileGuidanceTimeS: 90,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 9.73,
+    tntEquivalentKg: 15.56,
+    vehicles: [
+      {
+        id: "r_77_su_34",
+        vehicleId: "su_34",
+        vehicleName: "Su-34",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.7",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_77_mig_29kr_9_41r",
+        vehicleId: "mig_29kr_9_41r",
+        vehicleName: "MiG-29KR (9-41R)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_77_su_27sm",
+        vehicleId: "su_27sm",
+        vehicleName: "Su-27SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "r_77_mig_29smt_9_19",
+        vehicleId: "mig_29smt_9_19",
+        vehicleName: "MiG-29SMT (9-19)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "r_77_mig_29m_9_15",
+        vehicleId: "mig_29m_9_15",
+        vehicleName: "MiG-29M (9-15)",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "rvv_ae",
+    designation: "RVV-AE",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 177,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 80,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 50,
+    missileGuidanceTimeS: 90,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 9.73,
+    tntEquivalentKg: 15.56,
+    vehicles: [
+      {
+        id: "rvv_ae_su_30mk2v_venezuela",
+        vehicleId: "su_30mk2v_venezuela",
+        vehicleName: "▄Su-30MK2 AMV",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Venezuela",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_77_1",
+    designation: "R-77-1",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 190,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 120,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 50,
+    missileGuidanceTimeS: 120,
+    explosiveType: "TGAF-5",
+    explosiveMassKg: 9.73,
+    tntEquivalentKg: 15.56,
+    vehicles: [
+      {
+        id: "r_77_1_su_30sm",
+        vehicleId: "su_30sm",
+        vehicleName: "Su-30SM",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "r_77_1_su_30sm2",
+        vehicleId: "su_30sm2",
+        vehicleName: "Su-30SM2",
+        vehicleTechTree: "USSR",
+        vehicleOperator: "Russia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "fireflash",
+    designation: "Fireflash",
+    category: "Beam-Riding (SACLOS)",
+    family: "Beam-Riding (SACLOS)",
+    variant: "Beam-Riding (SACLOS)",
+    icon: "ir-white",
+    projectileMassKg: 150,
+    guidance: "Semi-Automatic (SACLOS)",
+    launchRangeKm: 4,
+    maximumSpeedMs: 1500,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 30,
+    explosiveType: "TNT",
+    explosiveMassKg: 7,
+    vehicles: [
+      {
+        id: "fireflash_swift_f7",
+        vehicleId: "swift_f7",
+        vehicleName: "Swift F.7",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.7",
+          SB: "8.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "red_top",
+    designation: "Red Top",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 167.83,
+    lockRangeRearAspectKm: 6,
+    launchRangeKm: 20,
+    maximumSpeedMach: 3.4,
+    maximumOverloadG: 12,
+    missileGuidanceTimeS: 30,
+    explosiveType: "RDX/TNT",
+    explosiveMassKg: 18.14,
+    tntEquivalentKg: 23.22,
+    vehicles: [
+      {
+        id: "red_top_dh_110_sea_vixen",
+        vehicleId: "dh_110_sea_vixen",
+        vehicleName: "Sea Vixen F.A.W. Mk.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "9.0",
+          SB: "8.3"
+        }
+      },
+      {
+        id: "red_top_lightning_f6",
+        vehicleId: "lightning_f6",
+        vehicleName: "Lightning F.6",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "firestreak",
+    designation: "Firestreak",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 136,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 7,
+    maximumSpeedMach: 3.4,
+    maximumOverloadG: 15,
+    missileGuidanceTimeS: 13,
+    explosiveType: "RDX/TNT",
+    explosiveMassKg: 8.75,
+    tntEquivalentKg: 11.2,
+    vehicles: [
+      {
+        id: "firestreak_dh_110_sea_vixen",
+        vehicleId: "dh_110_sea_vixen",
+        vehicleName: "Sea Vixen F.A.W. Mk.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "9.0",
+          SB: "8.3"
+        }
+      },
+      {
+        id: "firestreak_javelin_fmk9",
+        vehicleId: "javelin_fmk9",
+        vehicleName: "Javelin F.(A.W.) Mk.9",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "firestreak_lightning_f6",
+        vehicleId: "lightning_f6",
+        vehicleName: "Lightning F.6",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "sraam",
+    designation: "SRAAM",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 70,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 3,
+    maximumSpeedMach: 2.4,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 6,
+    explosiveType: "TNT",
+    explosiveMassKg: 4,
+    vehicles: [
+      {
+        id: "sraam_hunter_f6",
+        vehicleId: "hunter_f6",
+        vehicleName: "Hunter F.6",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "sraam_harrier_gr1",
+        vehicleId: "harrier_gr1",
+        vehicleName: "Harrier GR.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "9.7",
+          SB: "9.7"
         }
       }
     ]

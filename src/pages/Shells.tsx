@@ -674,6 +674,17 @@ export default function Shells() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="">
+              <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
+                {getPopoverPerformances(shell).length > 1 ? (
+                  <>
+                    {getPopoverPerformances(shell).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverPerformances(shell).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverPerformances(shell).map((vehicle) => (
                 <Dropdown.Item key={vehicle.id} className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
                   <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={24} className="me-1" />

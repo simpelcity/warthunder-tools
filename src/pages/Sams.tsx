@@ -563,6 +563,17 @@ export default function Sams() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
+              <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
+                {getPopoverVehicles(sam).length > 1 ? (
+                  <>
+                    {getPopoverVehicles(sam).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverVehicles(sam).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverVehicles(sam).map((samVehicle) => (
                 <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(samVehicle)}>
                   <Image src={`https://static.encyclopedia.warthunder.com/icons/${samVehicle?.vehicleId}_ico.svg`} height={24} />

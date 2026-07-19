@@ -558,6 +558,13 @@ export default function Aams() {
     setShowBrs(false);
   }
 
+  function getAamDesignation(aamId: string): any {
+    if (!aamId) return;
+
+    const aam = aamMissiles.find((row) => row.id === aamId);
+    return aam?.designation;
+  }
+
   const popover = (aam: AamDefinition) => (
     <Popover id="aam-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
@@ -583,7 +590,18 @@ export default function Aams() {
               </span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
+            <Dropdown.Menu className="mt-1">
+              <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
+                {getPopoverVehicles(aam).length > 1 ? (
+                  <>
+                    {getPopoverVehicles(aam).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverVehicles(aam).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverVehicles(aam).map((aamVehicle) => (
                 <Dropdown.Item key={aamVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(aamVehicle)}>
                   <Image src={`https://static.encyclopedia.warthunder.com/icons/${aamVehicle.vehicleId}_ico.svg`} height={20} />
@@ -768,10 +786,19 @@ export default function Aams() {
             </li>
           )}
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Maximum speed</span>
-            <span className="text-muted">{aam.maximumSpeedMach} M</span>
-          </li>
+          {aam.category === "Beam-Riding (SACLOS)" && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{aam.maximumSpeedMs} m/s</span>
+            </li>
+          )}
+
+          {aam.maximumSpeedMach && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{aam.maximumSpeedMach} M</span>
+            </li>
+          )}
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Maximum overload</span>
@@ -793,14 +820,17 @@ export default function Aams() {
             <span className="text-muted">{aam.explosiveMassKg} kg</span>
           </li>
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">TNT equivalent</span>
-            <span className="text-muted">{aam.tntEquivalentKg} kg</span>
-          </li>
+          {aam.tntEquivalentKg && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">TNT equivalent</span>
+              <span className="text-muted">{aam.tntEquivalentKg} kg</span>
+            </li>
+          )}
         </ul>
       </Popover.Body>
     </Popover>
   );
+
 
   return (
     <Container className="p-4">
@@ -942,7 +972,53 @@ export default function Aams() {
             className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
-          <p className="text-muted mb-3">{displayedAams.length} results</p>
+          {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+            <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
+          ) : (
+            <>
+              {(draftFilters.aam !== "All") ? (
+                <>
+                  <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                </>
+              ) : (draftFilters.br !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Battle Rating: {draftFilters.br}</p>
+                </>
+              ) : (draftFilters.category !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Category: {draftFilters.category}</p>
+                </>
+              ) : (draftFilters.family !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Family: {draftFilters.family}</p>
+                </>
+              ) : (draftFilters.operator !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Operator: {draftFilters.operator}</p>
+                </>
+              ) : (draftFilters.rank !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Rank: {draftFilters.rank}</p>
+                </>
+              ) : (draftFilters.techTree !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for TechTree: {draftFilters.techTree}</p>
+                </>
+              ) : (draftFilters.variant !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Variant: {draftFilters.variant}</p>
+                </>
+              ) : (draftFilters.vehicle !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Vehicle: {draftFilters.vehicle}</p>
+                </>
+              ) : (aamListSearch !== "") && (
+                <>
+                  <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""} for: {aamListSearch}</p>
+                </>
+              )}
+            </>
+          )}
 
           <div className="d-flex flex-column row-gap-4 plane-aams-row">
             {displayedAams.map((aam) => (
@@ -1115,7 +1191,54 @@ export default function Aams() {
               className="aams-modal-search bg-transparent text-light border-2 shadow-none mb-3"
             />
 
-            <p className="text-muted mb-3">{displayedAams.length} results</p>
+            {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+              <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
+            ) : (
+              <>
+                {(draftFilters.aam !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                  </>
+                ) : (draftFilters.br !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Battle Rating: {draftFilters.br}</p>
+                  </>
+                ) : (draftFilters.category !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Category: {draftFilters.category}</p>
+                  </>
+                ) : (draftFilters.family !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Family: {draftFilters.family}</p>
+                  </>
+                ) : (draftFilters.operator !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Operator: {draftFilters.operator}</p>
+                  </>
+                ) : (draftFilters.rank !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Rank: {draftFilters.rank}</p>
+                  </>
+                ) : (draftFilters.techTree !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for TechTree: {draftFilters.techTree}</p>
+                  </>
+                ) : (draftFilters.variant !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Variant: {draftFilters.variant}</p>
+                  </>
+                ) : (draftFilters.vehicle !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Vehicle: {draftFilters.vehicle}</p>
+                  </>
+                ) : (aamListSearch !== "") && (
+                  <>
+                    <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""} for: {aamListSearch}</p>
+                  </>
+                )}
+              </>
+            )}
+
 
             <div className="d-flex flex-column row-gap-4 plane-aams-row">
               {displayedAams.map((aam) => (
