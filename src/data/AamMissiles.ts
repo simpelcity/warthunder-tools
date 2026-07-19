@@ -525,6 +525,32 @@ export const aamMissiles: AamDefinition[] = [
           SB: "12.3"
         },
         icon: "ir-white"
+      },
+      {
+        id: "aim_9d_f-4m_fgr2",
+        vehicleId: "f-4m_fgr2",
+        vehicleName: "Phantom FGR.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "aim_9d_f-4k",
+        vehicleId: "f-4k",
+        vehicleName: "Phantom FG.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -643,6 +669,91 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.3",
           RB: "9.7",
           SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9g_f-4m_fgr2",
+        vehicleId: "f-4m_fgr2",
+        vehicleName: "Phantom FGR.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9g_harrier_frs1_early",
+        vehicleId: "harrier_frs1_early",
+        vehicleName: "Sea Harrier FRS.1 (e)",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9g_jaguar_gr1a",
+        vehicleId: "jaguar_gr1a",
+        vehicleName: "Jaguar GR.1A",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9g_buccaneer_s2b",
+        vehicleId: "buccaneer_s2b",
+        vehicleName: "Buccaneer S.2B",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "aim_9g_harrier_frs1",
+        vehicleId: "harrier_frs1",
+        vehicleName: "Sea Harrier FRS.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9g_f-4k",
+        vehicleId: "f-4k",
+        vehicleName: "Phantom FG.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9g_f-4jk",
+        vehicleId: "f-4jk",
+        vehicleName: "F-4J(UK) Phantom II",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "12.0"
         }
       }
     ]
@@ -962,6 +1073,129 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.7"
         }
+      },
+      {
+        id: "aim_9l_tornado_f3",
+        vehicleId: "tornado_f3",
+        vehicleName: "Tornado F.3",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        }
+      },
+      {
+        id: "aim_9l_harrier_frs1_early",
+        vehicleId: "harrier_frs1_early",
+        vehicleName: "Sea Harrier FRS.1 (e)",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9l_buccaneer_s2b",
+        vehicleId: "buccaneer_s2b",
+        vehicleName: "Buccaneer S.2B",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9l_harrier_frs1",
+        vehicleId: "harrier_frs1",
+        vehicleName: "Sea Harrier FRS.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9l_hawk_200",
+        vehicleId: "hawk_200",
+        vehicleName: "Hawk 200",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9l_hawk_200_rda",
+        vehicleId: "hawk_200_rda",
+        vehicleName: "Hawk 200 RDA",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9l_f_111c_raaf",
+        vehicleId: "f_111c_raaf",
+        vehicleName: "F-111C",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9l_tornado_gr1",
+        vehicleId: "tornado_gr1",
+        vehicleName: "Tornado GR.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9l_harrier_t10",
+        vehicleId: "harrier_t10",
+        vehicleName: "Harrier T.10",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_9l_saab_jas39c_south_africa",
+        vehicleId: "saab_jas39c_south_africa",
+        vehicleName: "▄JAS39C",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "South Africa (modern)",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
       }
     ]
   },
@@ -1237,6 +1471,42 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.3",
           RB: "11.3",
           SB: "10.7"
+        }
+      },
+      {
+        id: "aim_7e_f-4m_fgr2",
+        vehicleId: "f-4m_fgr2",
+        vehicleName: "Phantom FGR.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_7e_f-4k",
+        vehicleId: "f-4k",
+        vehicleName: "Phantom FG.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "aim_7e_f-4jk",
+        vehicleId: "f-4jk",
+        vehicleName: "F-4J(UK) Phantom II",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "12.0"
         }
       }
     ]
@@ -1601,6 +1871,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "14.7",
           RB: "14.7",
           SB: "14.7"
+        }
+      },
+      {
+        id: "aim_9m_saab_jas39c_south_africa",
+        vehicleId: "saab_jas39c_south_africa",
+        vehicleName: "▄JAS39C",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "South Africa (modern)",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
         }
       }
     ]
@@ -5470,6 +5753,195 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.0",
           RB: "9.7",
           SB: "9.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "skyflash_df",
+    designation: "Skyflash (Dogfight)",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    projectileMassKg: 193,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 37,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.47,
+    vehicles: [
+      {
+        id: "skyflash_df_f-4m_fgr2",
+        vehicleId: "f-4m_fgr2",
+        vehicleName: "Phantom FGR.2",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "skyflash_df_tornado_f3",
+        vehicleId: "tornado_f3",
+        vehicleName: "Tornado F.3",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "skyflash_df_f-4k",
+        vehicleId: "f-4k",
+        vehicleName: "Phantom FG.1",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "skyflash_df_hawk_200_rda",
+        vehicleId: "hawk_200_rda",
+        vehicleName: "Hawk 200 RDA",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "skyflash_df_f-4jk",
+        vehicleId: "f-4jk",
+        vehicleName: "F-4J(UK) Phantom II",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "12.0",
+          SB: "12.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "skyflash_super_temp",
+    designation: "Skyflash SuperTEMP",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    projectileMassKg: 108.2,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 37,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4.4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 50,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.47,
+    vehicles: [
+      {
+        id: "skyflash_super_temp_tornado_f3",
+        vehicleId: "tornado_f3",
+        vehicleName: "Tornado F.3",
+        vehicleTechTree: "Great Britain",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "magic_2",
+    designation: "Matra R550 Magic 2",
+    category: "IR",
+    family: "IR",
+    icon: "ir-yellow",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 89,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3.4,
+    IRCCM: true,
+    launchRangeKm: 10,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 25,
+    explosiveType: "HBX",
+    explosiveMassKg: 6,
+    tntEquivalentKg: 9.6,
+    vehicles: [
+      {
+        id: "magic_2_jaguar_is",
+        vehicleId: "jaguar_is",
+        vehicleName: "Jaguar IS",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "India",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r_darter",
+    designation: "R-Darter",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 120,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 80,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 40,
+    missileGuidanceTimeS: 70,
+    explosiveType: "HBX",
+    explosiveMassKg: 5,
+    tntEquivalentKg: 8,
+    vehicles: [
+      {
+        id: "r_darter_saab_jas39c_south_africa",
+        vehicleId: "saab_jas39c_south_africa",
+        vehicleName: "▄JAS39C",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "South Africa (modern)",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
         }
       }
     ]

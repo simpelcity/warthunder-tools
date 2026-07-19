@@ -581,7 +581,7 @@ export default function Aams() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
-              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={24} />
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
 
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
@@ -604,9 +604,9 @@ export default function Aams() {
               </Dropdown.Item>
               {getPopoverVehicles(aam).map((aamVehicle) => (
                 <Dropdown.Item key={aamVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(aamVehicle)}>
-                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${aamVehicle.vehicleId}_ico.svg`} height={20} />
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${aamVehicle.vehicleId}_ico.svg`} height={26} />
 
-                  {aamVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: aamVehicle.vehicleTechTree, vehicleOperator: aamVehicle.vehicleOperator })} width={24} />}
+                  {aamVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: aamVehicle.vehicleTechTree, vehicleOperator: aamVehicle.vehicleOperator })} width={27} />}
                   <span className="font-wt">{aamVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}

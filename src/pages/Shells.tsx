@@ -664,7 +664,7 @@ export default function Shells() {
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
             
-              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={35} />
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
               
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
@@ -687,9 +687,9 @@ export default function Shells() {
               </Dropdown.Item>
               {getPopoverPerformances(shell).map((vehicle) => (
                 <Dropdown.Item key={vehicle.id} className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
-                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={24} className="me-1" />
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={26} className="me-1" />
 
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={24} className="me-1" />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={27} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
