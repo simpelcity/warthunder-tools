@@ -590,7 +590,7 @@ export default function Aams() {
               </span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu className="mt-1 overflow-y-auto pt-0" style={{ maxHeight: "387px" }}>
+            <Dropdown.Menu className="mt-1 overflow-y-auto pt-0">
               <Dropdown.Item className="text-center border-bottom position-sticky top-0 bg-body pt-2" disabled>
                 {getPopoverVehicles(aam).length > 1 ? (
                   <>

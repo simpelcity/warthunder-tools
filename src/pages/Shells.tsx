@@ -673,7 +673,7 @@ export default function Shells() {
               </span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu className="">
+            <Dropdown.Menu className="overflow-y-auto">
               <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
                 {getPopoverPerformances(shell).length > 1 ? (
                   <>

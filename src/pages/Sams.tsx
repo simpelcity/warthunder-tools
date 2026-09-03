@@ -544,7 +544,7 @@ export default function Sams() {
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
-              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId.toLowerCase()}_ico.svg`} height={36} />
 
               {vehicle?.vehicleName === "NASAMS 3 (TEL)" ? (
                 <>
@@ -562,7 +562,7 @@ export default function Sams() {
               </span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
+            <Dropdown.Menu className="overflow-y-auto">
               <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
                 {getPopoverVehicles(sam).length > 1 ? (
                   <>
@@ -576,7 +576,7 @@ export default function Sams() {
               </Dropdown.Item>
               {getPopoverVehicles(sam).map((samVehicle) => (
                 <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(samVehicle)}>
-                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${samVehicle?.vehicleId}_ico.svg`} height={26} />
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${samVehicle?.vehicleId.toLowerCase()}_ico.svg`} height={26} />
 
                   {samVehicle.vehicleName === "NASAMS 3 (TEL)" ? (
                     <>
