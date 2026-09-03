@@ -1,10 +1,10 @@
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { samMissiles } from '@/data/SamMissiles'
-import type { SamDefinition, BaseSamVehicle, Sam, SamMissileVariant, Rank, BR } from '@/types/SamMissiles'
+import type { SamDefinition, SamVehicle, Sam, SamMissileVariant, Rank, BR } from '@/types/SamMissiles'
 import { getSamVariantName } from '@/constants/SamMissileVariantNames'
 import '@/styles/pages/Sams.scss'
-import { FaArrowLeftLong, FaCircleCheck, FaAngleDown } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaCircleCheck, FaCircleXmark, FaAngleDown } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { getCountryIcons } from '@/constants/CountryIcons'
 
@@ -44,7 +44,7 @@ const DEFAULT_FILTERS: SamFilters = {
 export default function Sams() {
   const [activeSamId, setActiveSamId] = useState<string | null>(null);
   const [activeSamPlacement, setActiveSamPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
-  const [vehicle, setVehicle] = useState<BaseSamVehicle | null>(null);
+  const [vehicle, setVehicle] = useState<SamVehicle | null>(null);
   const [isMobile, setIsMobile] = useState(false);
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false);
   const [show, setShow] = useState(false);
@@ -73,13 +73,13 @@ export default function Sams() {
   const [appliedFilters, setAppliedFilters] = useState<SamFilters>(DEFAULT_FILTERS);
   const [draftFilters, setDraftFilters] = useState<SamFilters>(DEFAULT_FILTERS);
 
-  const getVehicleBrByMode = (samVehicle: BaseSamVehicle, mode: 'AB' | 'RB' | 'SB') => {
+  const getVehicleBrByMode = (samVehicle: SamVehicle, mode: 'AB' | 'RB' | 'SB') => {
     if (mode === 'AB') return samVehicle.vehicleBr?.AB ?? samVehicle.vehicleBr?.RB;
     if (mode === 'SB') return samVehicle.vehicleBr?.SB ?? samVehicle.vehicleBr?.RB;
     return samVehicle.vehicleBr?.RB;
   };
 
-  const matchesBrFilter = (samVehicle: BaseSamVehicle, brFilter: BRFilter) => {
+  const matchesBrFilter = (samVehicle: SamVehicle, brFilter: BRFilter) => {
     if (brFilter === 'All') return true;
     return samVehicle.vehicleBr?.RB === brFilter;
   };
@@ -130,25 +130,32 @@ export default function Sams() {
             .filter((br): br is BR => Boolean(br))
         )
       )
-    ).sort((a, b) => String(a).localeCompare(String(b), undefined, { numeric: true }));
+    ).sort((a, b) => parseFloat(a) - parseFloat(b));
 
     return ['All', ...brs] as BRFilter[];
   }, [draftFilters.rank]);
 
   const vehicleOptions = useMemo(() => {
-    const names = Array.from(
-      new Set(
-        samMissiles.flatMap((sam) =>
-          sam.vehicles
-            .filter((samVehicle) => draftFilters.rank === 'All' || samVehicle.vehicleRank === draftFilters.rank)
-            .filter((samVehicle) => draftFilters.techTree === 'All' || samVehicle.vehicleTechTree === draftFilters.techTree)
-            .map((samVehicle) => samVehicle.vehicleName)
-            .filter(Boolean)
-        )
-      )
-    ).sort((a, b) => a.localeCompare(b));
+    const vehicles = Array.from(
+      new Map(
+        samMissiles
+          .flatMap((sam) =>
+            sam.vehicles
+              .filter((vehicle) => draftFilters.rank === 'All' || vehicle.vehicleRank === draftFilters.rank)
+              .filter((vehicle) => draftFilters.techTree === 'All' || vehicle.vehicleTechTree === draftFilters.techTree)
+              .map((vehicle) => ({
+                name: vehicle.vehicleName,
+                techTree: vehicle.vehicleTechTree,
+                operator: vehicle.vehicleOperator,
+                vehicleId: vehicle.vehicleId,
+              }))
+          )
+          .filter((vehicle) => vehicle.name)
+          .map((vehicle) => [vehicle.name, vehicle])
+      ).values()
+    ).sort((a, b) => a.name.localeCompare(b.name));
 
-    return ['All', ...names];
+    return [{ name: 'All', techTree: 'All', operator: 'All', vehicleId: "All" }, ...vehicles];
   }, [draftFilters.rank, draftFilters.techTree]);
 
   const techTreeOptions = useMemo(() => {
@@ -199,7 +206,7 @@ export default function Sams() {
     return ['All', ...ids];
   }, [draftFilters, samLabels]);
 
-  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option !== 'All').slice(0, 3), [vehicleOptions]);
+  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option.name !== 'All').slice(0, 3), [vehicleOptions]);
   const quickOperatorOptions = useMemo(() => operatorOptions.filter((option) => option !== 'All').slice(0, 3), [operatorOptions]);
   const quickTechTreeOptions = useMemo(() => techTreeOptions.filter((option) => option !== 'All').slice(0, 3), [techTreeOptions]);
   const quickVariantOptions = useMemo(() => variantOptions.filter((option) => option !== 'All').slice(0, 3), [variantOptions]);
@@ -208,7 +215,7 @@ export default function Sams() {
 
   const searchableVehicleOptions = useMemo(() => {
     const query = vehicleSearch.trim().toLowerCase();
-    return vehicleOptions.filter((option) => option !== 'All' && (!query || option.toLowerCase().includes(query)));
+    return vehicleOptions.filter((option) => option.name !== 'All' && (!query || option.name.toLowerCase().includes(query)));
   }, [vehicleOptions, vehicleSearch]);
 
   const searchableOperatorOptions = useMemo(() => {
@@ -327,7 +334,7 @@ export default function Sams() {
 
   const getTechTreeFilterIcon = (option: TechTreeFilter) => {
     if (option === 'All') return null;
-    return getCountryIcons({ vehicleTechTree: option as NonNullable<BaseSamVehicle['vehicleTechTree']> });
+    return getCountryIcons({ vehicleTechTree: option as NonNullable<SamVehicle['vehicleTechTree']> });
   };
 
   const getSamFilterLabel = (option: SamFilter) => {
@@ -339,7 +346,7 @@ export default function Sams() {
     return showAll ? options : options.slice(0, 3);
   };
 
-  const getVehicleBrLabel = (samVehicle: BaseSamVehicle, mode: 'AB' | 'RB' | 'SB') => {
+  const getVehicleBrLabel = (samVehicle: SamVehicle, mode: 'AB' | 'RB' | 'SB') => {
     return getVehicleBrByMode(samVehicle, mode) ?? 'N/A';
   };
 
@@ -536,8 +543,19 @@ export default function Sams() {
 
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
-            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
+
+              {vehicle?.vehicleName === "NASAMS 3 (TEL)" ? (
+                <>
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree })} height={24} />}
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
+                </>
+              ) : (
+                <>
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
+                </>
+              )}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? 'is-open' : ''}`}>
                 <FaAngleDown />
@@ -545,9 +563,31 @@ export default function Sams() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
+              <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
+                {getPopoverVehicles(sam).length > 1 ? (
+                  <>
+                    {getPopoverVehicles(sam).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverVehicles(sam).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverVehicles(sam).map((samVehicle) => (
-                <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center" onClick={() => setVehicle(samVehicle)}>
-                  {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={24} className="me-1" />}
+                <Dropdown.Item key={samVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(samVehicle)}>
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${samVehicle?.vehicleId}_ico.svg`} height={26} />
+
+                  {samVehicle.vehicleName === "NASAMS 3 (TEL)" ? (
+                    <>
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree })} width={24} />}
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={27} />}
+                    </>
+                  ) : (
+                    <>
+                      {samVehicle.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: samVehicle.vehicleTechTree, vehicleOperator: samVehicle.vehicleOperator })} width={27} />}
+                    </>
+                  )}
                   <span className="font-wt">{samVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
@@ -700,10 +740,15 @@ export default function Sams() {
                 <span className="text-muted">{sam.lockRangeAllAspectKm} km</span>
               </li>
 
-              {sam.IRCCM && (
+              {sam.IRCCM ? (
                 <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
                   <span className="fw-bold">IRCCM</span>
                   <span className="text-muted"><FaCircleCheck className="text-success" /></span>
+                </li>
+              ) : (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">IRCCM</span>
+                  <span className="text-muted"><FaCircleXmark className="text-danger" /></span>
                 </li>
               )}
             </>
@@ -847,7 +892,7 @@ export default function Sams() {
                     {quickBrOptions.map((option) => (
                       <Button key={option} variant={draftFilters.br === option ? 'primary' : 'outline-secondary'} onClick={() => handleBrSelect(option)}>{option}</Button>
                     ))}
-                    {brOptions.length > 3 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
+                    {brOptions.length > 4 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -856,9 +901,9 @@ export default function Sams() {
                   <div className="d-flex flex-wrap gap-2">
                     <Button variant={draftFilters.vehicle === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect('All')}>All</Button>
                     {quickVehicleOptions.map((option) => (
-                      <Button className="font-wt" key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
+                      <Button className="font-wt" key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option.name)}>{option.name}</Button>
                     ))}
-                    {vehicleOptions.length > 3 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
+                    {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -869,7 +914,7 @@ export default function Sams() {
                     {quickOperatorOptions.map((option) => (
                       <Button key={option} variant={draftFilters.operator === option ? 'primary' : 'outline-secondary'} onClick={() => handleOperatorSelect(option)}>{option}</Button>
                     ))}
-                    {operatorOptions.length > 3 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
+                    {operatorOptions.length > 4 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -880,7 +925,7 @@ export default function Sams() {
                     {quickTechTreeOptions.map((option) => (
                       <Button key={option} variant={draftFilters.techTree === option ? 'primary' : 'outline-secondary'} onClick={() => handleTechTreeSelect(option)}>{option}</Button>
                     ))}
-                    {techTreeOptions.length > 3 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
+                    {techTreeOptions.length > 4 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -891,7 +936,7 @@ export default function Sams() {
                     {quickSamOptions.map((option) => (
                       <Button key={option} variant={draftFilters.sam === option ? 'primary' : 'outline-secondary'} onClick={() => handleSamSelect(option)}>{getSamFilterLabel(option)}</Button>
                     ))}
-                    {samOptions.length > 3 && <Button variant="secondary" onClick={handleOpenSamPicker}>More</Button>}
+                    {samOptions.length > 4 && <Button variant="secondary" onClick={handleOpenSamPicker}>More</Button>}
                   </div>
                 </div>
                 
@@ -957,7 +1002,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {(familyOptions as string[]).length > 3 && (
+                {(familyOptions as string[]).length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={() => setShowMoreFamilyDesktop((current) => !current)}>
                     {showMoreFamilyDesktop ? 'Less' : 'More'}
                   </button>
@@ -973,7 +1018,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {variantOptions.length > 3 && (
+                {variantOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenVariantPicker}>
                     More
                   </button>
@@ -989,7 +1034,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {(rankOptions as string[]).length > 3 && (
+                {(rankOptions as string[]).length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={() => setShowMoreRankDesktop((current) => !current)}>
                     {showMoreRankDesktop ? 'Less' : 'More'}
                   </button>
@@ -1008,7 +1053,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {brOptions.length > 3 && (
+                {brOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenBrPicker}>
                     More
                   </button>
@@ -1022,12 +1067,12 @@ export default function Sams() {
                     All
                   </button>
                   {quickVehicleOptions.map((option) => (
-                    <button key={option} type="button" className={`sams-sidebar-option ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>
-                      {option}
+                    <button key={option.name} type="button" className={`sams-sidebar-option font-wt ${draftFilters.vehicle === option.name ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option.name)}>
+                      {option.name}
                     </button>
                   ))}
                 </div>
-                {vehicleOptions.length > 3 && (
+                {vehicleOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenVehiclePicker}>
                     More
                   </button>
@@ -1046,7 +1091,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {operatorOptions.length > 3 && (
+                {operatorOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenOperatorPicker}>
                     More
                   </button>
@@ -1065,7 +1110,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {techTreeOptions.length > 3 && (
+                {techTreeOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenTechTreePicker}>
                     More
                   </button>
@@ -1084,7 +1129,7 @@ export default function Sams() {
                     </button>
                   ))}
                 </div>
-                {samOptions.length > 3 && (
+                {samOptions.length > 4 && (
                   <button type="button" className="sams-sidebar-more" onClick={handleOpenSamPicker}>
                     More
                   </button>
@@ -1168,13 +1213,18 @@ export default function Sams() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className="d-flex flex-column row-gap-3">
+
+            <Offcanvas.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-offcanvas-search bg-transparent text-light border-2 shadow-none" />
+              
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span className="font-wt">{option}</span>
+                  <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>
@@ -1294,13 +1344,18 @@ export default function Sams() {
             <Modal.Header closeButton>
               <Modal.Title>Select Vehicle</Modal.Title>
             </Modal.Header>
-            <Modal.Body className="d-flex flex-column row-gap-3">
+            <Modal.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="sams-modal-search bg-transparent text-light border-2 shadow-none" />
+
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+              
               <div className="d-flex flex-column row-gap-2 overflow-auto">
-                {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span className="font-wt">{option}</span>
+                {searchableVehicleOptions.map((option: any) => (
+                  <Button key={option.name} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+                    
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} alt="Vehicle operator" />}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>

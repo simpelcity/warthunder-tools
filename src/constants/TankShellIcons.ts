@@ -27,6 +27,7 @@ const variantIconFile: Partial<Record<TankShellVariant, string>> = {
 	HESH: "hesh_tank.png",
 	Smoke: "smoke_tank.png",
 	Shrapnel: "shrapnel_tank.png",
+	AHEAD: "shrapnel_dist_fuse_tank.png",
 	HEAT: "heat_tank.png",
 	HEATFS: "heat_fs_tank.png",
 	"HEAT MP": "heat_fs_tank.png",

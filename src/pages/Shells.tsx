@@ -115,24 +115,32 @@ export default function Shells() {
 
   const brOptions = useMemo(() => {
     const brs = Array.from(
-      new Set(tankShells.flatMap((shell) => shell.performances.map((perf) => perf.vehicleBr.RB)))
-    ).filter((br): br is BR => Boolean(br));
+      new Set(
+        tankShells.flatMap((shell) =>
+          shell.performances
+          .map((perf) => perf.vehicleBr.RB)))
+    ).filter((br): br is BR => Boolean(br)).sort((a, b) => parseFloat(a) - parseFloat(b));
     return ["All", ...brs];
   }, []);
 
   const vehicleOptions = useMemo(() => {
     const names = Array.from(
-      new Set(
+      new Map(
         tankShells.flatMap((shell) =>
           shell.performances
             .filter((perf) => draftFilters.rank === "All" || perf.vehicleRank === draftFilters.rank)
             .filter((perf) => draftFilters.techTree === "All" || perf.vehicleTechTree === draftFilters.techTree)
-            .map((perf) => perf.vehicleName)
+            .map((perf) => ({
+              name: perf.vehicleName,
+              vehicleId: perf.vehicleId
+            }))
         )
-      )
-    ).sort((a, b) => a.localeCompare(b));
+        .filter((perf) => perf.name)
+        .map((perf) => [perf.name, perf])
+      ).values()
+    ).sort((a, b) => a.name.localeCompare(b.name));
 
-    return ["All", ...names];
+    return [{ name: "All", vehicleId: "All" }, ...names];
   }, [draftFilters.rank, draftFilters.techTree]);
 
   const vehicleIconByName = useMemo(() => {
@@ -235,7 +243,7 @@ export default function Shells() {
   }, [draftFilters.rank, draftFilters.br, draftFilters.vehicle, draftFilters.techTree]);
 
   const quickVehicleOptions = useMemo(
-    () => vehicleOptions.filter((option) => option !== "All").slice(0, 3),
+    () => vehicleOptions.filter((option) => option.name !== "All").slice(0, 3),
     [vehicleOptions]
   );
 
@@ -263,9 +271,9 @@ export default function Shells() {
     const query = vehicleSearch.trim().toLowerCase();
 
     return vehicleOptions.filter((option) => {
-      if (option === "All") return false;
+      if (option.name === "All") return false;
       if (!query) return true;
-      return option.toLowerCase().includes(query);
+      return option.name.toLowerCase().includes(query);
     });
   }, [vehicleOptions, vehicleSearch]);
 
@@ -647,15 +655,18 @@ export default function Shells() {
 
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
         <div>
-          <span className="text-muted">{shell.variant}</span>
+          <span className="text-muted">{shell.variant === "Rocket" ? "R" : shell.variant}</span>
           <span className="text-muted"> - </span>
           <span className="text-muted">{getTankShellVariantName(shell.variant)}</span>
         </div>
 
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
-            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
+            
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
+              
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? "is-open" : ""}`}>
                 <FaAngleDown />
@@ -663,9 +674,22 @@ export default function Shells() {
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="">
+              <Dropdown.Item className="text-center pt-0 border-bottom" disabled>
+                {getPopoverPerformances(shell).length > 1 ? (
+                  <>
+                    {getPopoverPerformances(shell).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverPerformances(shell).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverPerformances(shell).map((vehicle) => (
                 <Dropdown.Item key={vehicle.id} className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
-                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={24} className="me-1" />}
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={26} className="me-1" />
+
+                  {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={27} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
@@ -1039,12 +1063,12 @@ export default function Shells() {
 
                       {quickVehicleOptions.map((option) => (
                         <Button
-                          key={option}
-                          variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
-                          onClick={() => handleVehicleSelect(option)}
+                          key={option.vehicleId}
+                          variant={draftFilters.vehicle === option.name ? "primary" : "outline-secondary"}
+                          onClick={() => handleVehicleSelect(option.name)}
                           className="font-wt"
                         >
-                          {option}
+                          {option.name}
                         </Button>
                       ))}
 
@@ -1076,7 +1100,7 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      {operatorOptions.length > 3 && (
+                      {operatorOptions.length > 4 && (
                         <Button variant="secondary" onClick={handleOpenOperatorPicker}>
                           More
                         </Button>
@@ -1106,7 +1130,7 @@ export default function Shells() {
                         </Button>
                       ))}
 
-                      {techTreeOptions.length > 3 && (
+                      {techTreeOptions.length > 4 && (
                         <Button variant="secondary" onClick={handleOpenTechTreePicker}>
                           More
                         </Button>
@@ -1179,7 +1203,7 @@ export default function Shells() {
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
             </Offcanvas.Header>
 
-            <Offcanvas.Body className="d-flex flex-column row-gap-3">
+            <Offcanvas.Body className="d-flex flex-column row-gap-2">
               <Form.Control
                 type="search"
                 placeholder="Search vehicle..."
@@ -1188,18 +1212,22 @@ export default function Shells() {
                 className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none"
               />
 
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
                   <Button
-                    key={option}
-                    variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
+                    key={option.vehicleId}
+                    variant={draftFilters.vehicle === option.name ? "primary" : "outline-secondary"}
                     className="text-start font-wt d-flex align-items-center column-gap-2"
-                    onClick={() => handleVehicleSelect(option)}
+                    onClick={() => handleVehicleSelect(option.name)}
                   >
-                    {getVehicleFilterIcon(option) && (
-                      <Image src={getVehicleFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+
+                    {getVehicleFilterIcon(option.name) && (
+                      <Image src={getVehicleFilterIcon(option.name) ?? ""} width={20} height={20} alt="Vehicle operator" />
                     )}
-                    <span className="font-wt">{option}</span>
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
 
@@ -1403,7 +1431,7 @@ export default function Shells() {
                         </button>
                       ))}
                     </div>
-                    {(familyOptions as string[]).length > 3 && (
+                    {(familyOptions as string[]).length > 4 && (
                       <button
                         type="button"
                         className="shells-sidebar-more"
@@ -1428,7 +1456,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {variantOptions.length > 3 && (
+                  {variantOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1453,7 +1481,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {(rankOptions as string[]).length > 3 && (
+                  {(rankOptions as string[]).length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1485,7 +1513,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {brOptions.length > 3 && (
+                  {brOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1508,16 +1536,16 @@ export default function Shells() {
                     </button>
                     {quickVehicleOptions.map((option) => (
                       <button
-                        key={option}
+                        key={option.vehicleId}
                         type="button"
-                        className={`shells-sidebar-option font-wt ${draftFilters.vehicle === option ? "is-active" : ""}`}
-                        onClick={() => handleVehicleSelect(option)}
+                        className={`shells-sidebar-option font-wt ${draftFilters.vehicle === option.name ? "is-active" : ""}`}
+                        onClick={() => handleVehicleSelect(option.name)}
                       >
-                        {option}
+                        {option.name}
                       </button>
                     ))}
                   </div>
-                  {vehicleOptions.length > 3 && (
+                  {vehicleOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1549,7 +1577,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {operatorOptions.length > 3 && (
+                  {operatorOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1581,7 +1609,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {techTreeOptions.length > 3 && (
+                  {techTreeOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1606,7 +1634,7 @@ export default function Shells() {
                       </button>
                     ))}
                   </div>
-                  {shellOptions.length > 3 && (
+                  {shellOptions.length > 4 && (
                     <button
                       type="button"
                       className="shells-sidebar-more"
@@ -1788,7 +1816,7 @@ export default function Shells() {
               <Modal.Title>Select Vehicle</Modal.Title>
             </Modal.Header>
 
-            <Modal.Body className="d-flex flex-column row-gap-3">
+            <Modal.Body className="d-flex flex-column row-gap-2">
               <Form.Control
                 type="search"
                 placeholder="Search vehicle..."
@@ -1797,18 +1825,22 @@ export default function Shells() {
                 className="shells-modal-search bg-transparent text-light border-2 shadow-none"
               />
 
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
                   <Button
-                    key={option}
-                    variant={draftFilters.vehicle === option ? "primary" : "outline-secondary"}
+                    key={option.vehicleId}
+                    variant={draftFilters.vehicle === option.name ? "primary" : "outline-secondary"}
                     className="text-start font-wt d-flex align-items-center column-gap-2"
-                    onClick={() => handleVehicleSelect(option)}
+                    onClick={() => handleVehicleSelect(option.name)}
                   >
-                    {getVehicleFilterIcon(option) && (
-                      <Image src={getVehicleFilterIcon(option) ?? ""} width={20} height={20} alt="Vehicle operator" />
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+
+                    {getVehicleFilterIcon(option.name) && (
+                      <Image src={getVehicleFilterIcon(option.name) ?? ""} width={20} height={20} alt="Vehicle operator" />
                     )}
-                    {option}
+                    {option.name}
                   </Button>
                 ))}
 

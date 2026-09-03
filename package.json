@@ -1,7 +1,7 @@
 {
   "name": "warthunder-tools",
   "private": true,
-  "version": "1.13.19",
+  "version": "1.14.19",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "fs": "^0.0.1-security",
     "react": "^19.2.6",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.6",

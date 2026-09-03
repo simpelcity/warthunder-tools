@@ -1,6 +1,6 @@
 import { Container, Image, Button, Popover, OverlayTrigger, Dropdown, Overlay, Tooltip, Offcanvas, Form, Modal } from 'react-bootstrap'
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { FaArrowLeftLong, FaAngleDown } from 'react-icons/fa6'
+import { FaArrowLeftLong, FaAngleDown, FaCircleCheck, FaCircleXmark } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { aamMissiles } from '@/data/AamMissiles'
 import type { AamDefinition, BaseAamVehicle, Aam, AamMissileVariant, Rank, BR } from '@/types/AamMissiles'
@@ -154,18 +154,22 @@ export default function Aams() {
 
   const vehicleOptions = useMemo(() => {
     const values = Array.from(
-      new Set(
+      new Map(
         aamMissiles.flatMap((aam) =>
           aam.vehicles
             .filter((aamVehicle) => draftFilters.rank === 'All' || aamVehicle.vehicleRank === draftFilters.rank)
             .filter((aamVehicle) => draftFilters.techTree === 'All' || aamVehicle.vehicleTechTree === draftFilters.techTree)
-            .map((aamVehicle) => aamVehicle.vehicleName)
-            .filter(Boolean)
+            .map((aamVehicle) => ({
+              name: aamVehicle?.vehicleName,
+              vehicleId: aamVehicle?.vehicleId
+            }))
         )
-      )
-    ).sort((a, b) => a.localeCompare(b));
+        .filter((aamVehicle) => aamVehicle.name)
+        .map((aamVehicle) => [aamVehicle.name, aamVehicle])
+      ).values()
+    ).sort((a, b) => a.name.localeCompare(b.name));
 
-    return ['All', ...values];
+    return [{ name: "All", vehicleId: "All" }, ...values];
   }, [draftFilters.rank, draftFilters.techTree]);
 
   const techTreeOptions = useMemo(() => {
@@ -216,7 +220,7 @@ export default function Aams() {
     return ['All', ...values];
   }, [draftFilters, aamLabels]);
 
-  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option !== 'All').slice(0, 3), [vehicleOptions]);
+  const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option.name !== 'All').slice(0, 3), [vehicleOptions]);
   const quickOperatorOptions = useMemo(() => operatorOptions.filter((option) => option !== 'All').slice(0, 3), [operatorOptions]);
   const quickTechTreeOptions = useMemo(() => techTreeOptions.filter((option) => option !== 'All').slice(0, 3), [techTreeOptions]);
   const quickVariantOptions = useMemo(() => variantOptions.filter((option) => option !== 'All').slice(0, 3), [variantOptions]);
@@ -225,7 +229,7 @@ export default function Aams() {
 
   const searchableVehicleOptions = useMemo(() => {
     const query = vehicleSearch.trim().toLowerCase();
-    return vehicleOptions.filter((option) => option !== 'All' && (!query || option.toLowerCase().includes(query)));
+    return vehicleOptions.filter((option) => option.name !== 'All' && (!query || option.name.toLowerCase().includes(query)));
   }, [vehicleOptions, vehicleSearch]);
 
   const searchableOperatorOptions = useMemo(() => {
@@ -367,6 +371,21 @@ export default function Aams() {
     if (appliedFilters.operator !== 'All') vehicles = vehicles.filter((aamVehicle) => aamVehicle.vehicleOperator === appliedFilters.operator);
     if (appliedFilters.techTree !== 'All') vehicles = vehicles.filter((aamVehicle) => aamVehicle.vehicleTechTree === appliedFilters.techTree);
     return vehicles;
+  };
+
+  const getRowVehicleIconSrc = (aam: AamDefinition) => {
+    const activeVehicle = activeAamId === aam.id ? vehicle : appliedFilters.vehicle !== 'All' ? getVehicleForRow(aam) : null;
+    if (!activeVehicle) return getAamIconPath(aam);
+    return activeVehicle.icon ? getAamIconPath({ ...activeVehicle, icon: activeVehicle.icon }) : getAamIconPath(aam);
+  };
+
+  const getVehicleForRow = (aam: AamDefinition): BaseAamVehicle | null => {
+    // If no vehicle filter is selected, keep existing behavior (show missile icon)
+    if (appliedFilters.vehicle === 'All') return null;
+
+    // Choose the first vehicle matching the current full filter set, so row icon matches what user filtered.
+    const vehicles = getPopoverVehicles(aam);
+    return vehicles[0] ?? null;
   };
 
   const handleCategorySelect = (eventKey: string | null) => {
@@ -539,12 +558,19 @@ export default function Aams() {
     setShowBrs(false);
   }
 
+  function getAamDesignation(aamId: string): any {
+    if (!aamId) return;
+
+    const aam = aamMissiles.find((row) => row.id === aamId);
+    return aam?.designation;
+  }
+
   const popover = (aam: AamDefinition) => (
     <Popover id="aam-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
         <div className="shell-icon position-relative overflow-hidden">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-            <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+            <Image src={vehicle?.icon ? getAamIconPath({ ...vehicle, icon: vehicle.icon }) : getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
           </div>
         </div>
 
@@ -554,19 +580,34 @@ export default function Aams() {
       <Popover.Body className="px-3 pb-2 pt-1 fs-6">
         <div className="d-flex flex-wrap justify-content-between mb-2 column-gap-3">
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
-            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center">
-              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} className="me-1" />}
-              <span>{vehicle?.vehicleName}</span>
+            <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
+
+              {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
+              <span className="font-wt">{vehicle?.vehicleName}</span>
               <span className={`ms-1 chevron-rotate-180 ${isVehicleDropdownOpen ? 'is-open' : ''}`}>
                 <FaAngleDown />
               </span>
             </Dropdown.Toggle>
 
-            <Dropdown.Menu>
+            <Dropdown.Menu className="mt-1 overflow-y-auto pt-0" style={{ maxHeight: "387px" }}>
+              <Dropdown.Item className="text-center border-bottom position-sticky top-0 bg-body pt-2" disabled>
+                {getPopoverVehicles(aam).length > 1 ? (
+                  <>
+                    {getPopoverVehicles(aam).length} vehicles
+                  </>
+                ) : (
+                  <>
+                    {getPopoverVehicles(aam).length} vehicle
+                  </>
+                )}
+              </Dropdown.Item>
               {getPopoverVehicles(aam).map((aamVehicle) => (
-                <Dropdown.Item key={aamVehicle.id} className="d-flex align-items-center" onClick={() => setVehicle(aamVehicle)}>
-                  {aamVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: aamVehicle.vehicleTechTree, vehicleOperator: aamVehicle.vehicleOperator })} width={24} className="me-1" />}
-                  <span>{aamVehicle.vehicleName}</span>
+                <Dropdown.Item key={aamVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(aamVehicle)}>
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${aamVehicle.vehicleId}_ico.svg`} height={26} />
+
+                  {aamVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: aamVehicle.vehicleTechTree, vehicleOperator: aamVehicle.vehicleOperator })} width={27} />}
+                  <span className="font-wt">{aamVehicle.vehicleName}</span>
                 </Dropdown.Item>
               ))}
             </Dropdown.Menu>
@@ -682,15 +723,19 @@ export default function Aams() {
                 <span className="text-muted">{aam.band}</span>
               </li>
 
-              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                <span className="fw-bold">Shoot down</span>
-                <span className="text-muted">{aam.shootDown}</span>
-              </li>
+              {aam.shootDown && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Shoot down</span>
+                  <span className="text-muted">{aam.shootDown}</span>
+                </li>
+              )}
 
-              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                <span className="fw-bold">Lock range</span>
-                <span className="text-muted">{aam.lockRangeKm} km</span>
-              </li>
+              {aam.lockRangeKm && (
+                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                  <span className="fw-bold">Lock range</span>
+                  <span className="text-muted">{aam.lockRangeKm} km</span>
+                </li>
+              )}
             </>
           )}
 
@@ -707,11 +752,30 @@ export default function Aams() {
               </li>
 
               {aam.aspect === 'All-aspects' && (
-                <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-                  <span className="fw-bold">Lock range in all-aspect</span>
-                  <span className="text-muted">{aam.lockRangeAllAspectsKm} km</span>
-                </li>
+                <>
+                  <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                    <span className="fw-bold">Lock range in all-aspect</span>
+                    <span className="text-muted">{aam.lockRangeAllAspectsKm} km</span>
+                  </li>
+
+                  {aam.IRCCM ? (
+                    <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                      <span className="fw-bold">IRCCM</span>
+                      <span className="text-muted"><FaCircleCheck className="text-success" /></span>
+                    </li>
+                  ) : (
+                    <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                      <span className="fw-bold">IRCCM</span>
+                      <span className="text-muted"><FaCircleXmark className="text-danger" /></span>
+                    </li>
+                  )}
+                </>
               )}
+
+              <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+                <span className="fw-bold">Cage</span>
+                <span className="text-muted">{aam.guidanceCage}</span>
+              </li>
             </>
           )}
 
@@ -722,10 +786,19 @@ export default function Aams() {
             </li>
           )}
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Maximum speed</span>
-            <span className="text-muted">{aam.maximumSpeedMach} M</span>
-          </li>
+          {aam.category === "Beam-Riding (SACLOS)" && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{aam.maximumSpeedMs} m/s</span>
+            </li>
+          )}
+
+          {aam.maximumSpeedMach && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">Maximum speed</span>
+              <span className="text-muted">{aam.maximumSpeedMach} M</span>
+            </li>
+          )}
 
           <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
             <span className="fw-bold">Maximum overload</span>
@@ -747,14 +820,17 @@ export default function Aams() {
             <span className="text-muted">{aam.explosiveMassKg} kg</span>
           </li>
 
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">TNT equivalent</span>
-            <span className="text-muted">{aam.tntEquivalentKg} kg</span>
-          </li>
+          {aam.tntEquivalentKg && (
+            <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
+              <span className="fw-bold">TNT equivalent</span>
+              <span className="text-muted">{aam.tntEquivalentKg} kg</span>
+            </li>
+          )}
         </ul>
       </Popover.Body>
     </Popover>
   );
+
 
   return (
     <Container className="p-4">
@@ -832,18 +908,18 @@ export default function Aams() {
                     {quickBrOptions.map((option) => (
                       <Button key={option} variant={draftFilters.br === option ? 'primary' : 'outline-secondary'} onClick={() => handleBrSelect(option)}>{option}</Button>
                     ))}
-                    {brOptions.length > 3 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
+                    {brOptions.length > 4 && <Button variant="secondary" onClick={handleOpenBrPicker}>More</Button>}
                   </div>
                 </div>
 
                 <div className="d-flex flex-column row-gap-2">
-                  <span className="fw-semibold">Vehicle: {draftFilters.vehicle}</span>
+                  <span className="fw-semibold font-wt">Vehicle: {draftFilters.vehicle}</span>
                   <div className="d-flex flex-wrap gap-2">
                     <Button variant={draftFilters.vehicle === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect('All')}>All</Button>
                     {quickVehicleOptions.map((option) => (
-                      <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option)}>{option}</Button>
+                      <Button key={option.vehicleId} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} onClick={() => handleVehicleSelect(option.name)} className="font-wt">{option.name}</Button>
                     ))}
-                    {vehicleOptions.length > 3 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
+                    {vehicleOptions.length > 4 && <Button variant="secondary" onClick={handleOpenVehiclePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -854,7 +930,7 @@ export default function Aams() {
                     {quickOperatorOptions.map((option) => (
                       <Button key={option} variant={draftFilters.operator === option ? 'primary' : 'outline-secondary'} onClick={() => handleOperatorSelect(option)}>{option}</Button>
                     ))}
-                    {operatorOptions.length > 3 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
+                    {operatorOptions.length > 4 && <Button variant="secondary" onClick={handleOpenOperatorPicker}>More</Button>}
                   </div>
                 </div>
 
@@ -865,7 +941,7 @@ export default function Aams() {
                     {quickTechTreeOptions.map((option) => (
                       <Button key={option} variant={draftFilters.techTree === option ? 'primary' : 'outline-secondary'} onClick={() => handleTechTreeSelect(option)}>{option}</Button>
                     ))}
-                    {techTreeOptions.length > 3 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
+                    {techTreeOptions.length > 4 && <Button variant="secondary" onClick={handleOpenTechTreePicker}>More</Button>}
                   </div>
                 </div>
 
@@ -876,7 +952,7 @@ export default function Aams() {
                     {quickAamOptions.map((option) => (
                       <Button key={option} variant={draftFilters.aam === option ? 'primary' : 'outline-secondary'} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</Button>
                     ))}
-                    {aamOptions.length > 3 && <Button variant="secondary" onClick={handleOpenAamPicker}>More</Button>}
+                    {aamOptions.length > 4 && <Button variant="secondary" onClick={handleOpenAamPicker}>More</Button>}
                   </div>
                 </div>
                 
@@ -896,7 +972,53 @@ export default function Aams() {
             className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
-          <p className="text-muted mb-3">{displayedAams.length} results</p>
+          {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+            <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
+          ) : (
+            <>
+              {(draftFilters.aam !== "All") ? (
+                <>
+                  <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                </>
+              ) : (draftFilters.br !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Battle Rating: {draftFilters.br}</p>
+                </>
+              ) : (draftFilters.category !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Category: {draftFilters.category}</p>
+                </>
+              ) : (draftFilters.family !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Family: {draftFilters.family}</p>
+                </>
+              ) : (draftFilters.operator !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Operator: {draftFilters.operator}</p>
+                </>
+              ) : (draftFilters.rank !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Rank: {draftFilters.rank}</p>
+                </>
+              ) : (draftFilters.techTree !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for TechTree: {draftFilters.techTree}</p>
+                </>
+              ) : (draftFilters.variant !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Variant: {draftFilters.variant}</p>
+                </>
+              ) : (draftFilters.vehicle !== "All") ? (
+                <>
+                  <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Vehicle: {draftFilters.vehicle}</p>
+                </>
+              ) : (aamListSearch !== "") && (
+                <>
+                  <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""} for: {aamListSearch}</p>
+                </>
+              )}
+            </>
+          )}
 
           <div className="d-flex flex-column row-gap-4 plane-aams-row">
             {displayedAams.map((aam) => (
@@ -910,7 +1032,7 @@ export default function Aams() {
                 <Button variant="transparent" className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1" onClick={(event) => handleAamClick(aam.id, event.currentTarget)}>
                   <div className="shell-icon position-relative overflow-hidden">
                     <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                      <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                      <Image src={getRowVehicleIconSrc(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                     </div>
                   </div>
 
@@ -933,7 +1055,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(categoryOptions as string[]).length > 3 && (
+                {(categoryOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreCategoryDesktop((current) => !current)}>
                     {showMoreCategoryDesktop ? 'Less' : 'More'}
                   </button>
@@ -949,7 +1071,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(familyOptions as string[]).length > 3 && (
+                {(familyOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreFamilyDesktop((current) => !current)}>
                     {showMoreFamilyDesktop ? 'Less' : 'More'}
                   </button>
@@ -965,7 +1087,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {variantOptions.length > 3 && (
+                {variantOptions.length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={handleOpenVariantPicker}>More</button>
                 )}
               </div>
@@ -979,7 +1101,7 @@ export default function Aams() {
                     </button>
                   ))}
                 </div>
-                {(rankOptions as string[]).length > 3 && (
+                {(rankOptions as string[]).length > 4 && (
                   <button type="button" className="aams-sidebar-more" onClick={() => setShowMoreRankDesktop((current) => !current)}>
                     {showMoreRankDesktop ? 'Less' : 'More'}
                   </button>
@@ -994,7 +1116,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.br === option ? 'is-active' : ''}`} onClick={() => handleBrSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {brOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenBrPicker}>More</button>}
+                {brOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenBrPicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1002,10 +1124,10 @@ export default function Aams() {
                 <div className="aams-sidebar-options">
                   <button type="button" className={`aams-sidebar-option ${draftFilters.vehicle === 'All' ? 'is-active' : ''}`} onClick={() => handleVehicleSelect('All')}>All</button>
                   {quickVehicleOptions.map((option) => (
-                    <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.vehicle === option ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option)}>{option}</button>
+                    <button key={option.vehicleId} type="button" className={`aams-sidebar-option font-wt ${draftFilters.vehicle === option.name ? 'is-active' : ''}`} onClick={() => handleVehicleSelect(option.name)}>{option.name}</button>
                   ))}
                 </div>
-                {vehicleOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenVehiclePicker}>More</button>}
+                {vehicleOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenVehiclePicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1016,7 +1138,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.operator === option ? 'is-active' : ''}`} onClick={() => handleOperatorSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {operatorOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenOperatorPicker}>More</button>}
+                {operatorOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenOperatorPicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1027,7 +1149,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.techTree === option ? 'is-active' : ''}`} onClick={() => handleTechTreeSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {techTreeOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenTechTreePicker}>More</button>}
+                {techTreeOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenTechTreePicker}>More</button>}
               </div>
 
               <div className="aams-sidebar-section">
@@ -1038,7 +1160,7 @@ export default function Aams() {
                     <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.aam === option ? 'is-active' : ''}`} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</button>
                   ))}
                 </div>
-                {aamOptions.length > 3 && <button type="button" className="aams-sidebar-more" onClick={handleOpenAamPicker}>More</button>}
+                {aamOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenAamPicker}>More</button>}
               </div>
             </div>
 
@@ -1069,7 +1191,54 @@ export default function Aams() {
               className="aams-modal-search bg-transparent text-light border-2 shadow-none mb-3"
             />
 
-            <p className="text-muted mb-3">{displayedAams.length} results</p>
+            {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+              <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
+            ) : (
+              <>
+                {(draftFilters.aam !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                  </>
+                ) : (draftFilters.br !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Battle Rating: {draftFilters.br}</p>
+                  </>
+                ) : (draftFilters.category !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Category: {draftFilters.category}</p>
+                  </>
+                ) : (draftFilters.family !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Family: {draftFilters.family}</p>
+                  </>
+                ) : (draftFilters.operator !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Operator: {draftFilters.operator}</p>
+                  </>
+                ) : (draftFilters.rank !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Rank: {draftFilters.rank}</p>
+                  </>
+                ) : (draftFilters.techTree !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for TechTree: {draftFilters.techTree}</p>
+                  </>
+                ) : (draftFilters.variant !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Variant: {draftFilters.variant}</p>
+                  </>
+                ) : (draftFilters.vehicle !== "All") ? (
+                  <>
+                    <p className="text-muted mb-3 font-wt">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Vehicle: {draftFilters.vehicle}</p>
+                  </>
+                ) : (aamListSearch !== "") && (
+                  <>
+                    <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""} for: {aamListSearch}</p>
+                  </>
+                )}
+              </>
+            )}
+
 
             <div className="d-flex flex-column row-gap-4 plane-aams-row">
               {displayedAams.map((aam) => (
@@ -1083,10 +1252,9 @@ export default function Aams() {
                   <Button variant="transparent" className="border-0 text-light d-inline-flex align-items-center fs-5 column-gap-1" onClick={(event) => handleAamClick(aam.id, event.currentTarget)}>
                     <div className="shell-icon position-relative overflow-hidden">
                       <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
-                        <Image src={getAamIconPath(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
+                        <Image src={getRowVehicleIconSrc(aam)} alt="Air-to-Air Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
                       </div>
                     </div>
-
                     <span>{aam.designation}</span>
                   </Button>
                 </OverlayTrigger>
@@ -1102,13 +1270,19 @@ export default function Aams() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title>Select Vehicle</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className="d-flex flex-column row-gap-3">
+
+            <Offcanvas.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none" />
+              
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+              
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option}</span>
+                  <Button key={option.vehicleId} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={20} />
+
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>
@@ -1197,13 +1371,19 @@ export default function Aams() {
             <Modal.Header closeButton>
               <Modal.Title>Select Vehicle</Modal.Title>
             </Modal.Header>
-            <Modal.Body className="d-flex flex-column row-gap-3">
+
+            <Modal.Body className="d-flex flex-column row-gap-2">
               <Form.Control type="search" placeholder="Search vehicle..." value={vehicleSearch} onChange={(event) => setVehicleSearch(event.target.value)} className="aams-modal-search bg-transparent text-light border-2 shadow-none" />
+              
+              <span className="text-muted">{searchableVehicleOptions.length} vehicles</span>
+              
               <div className="d-flex flex-column row-gap-2 overflow-auto">
                 {searchableVehicleOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.vehicle === option ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option)}>
-                    {getVehicleFilterIcon(option) && <Image src={getVehicleFilterIcon(option) ?? ''} width={20} height={20} alt="Vehicle operator" />}
-                    <span>{option}</span>
+                  <Button key={option.vehicleId} variant={draftFilters.vehicle === option.name ? 'primary' : 'outline-secondary'} className="text-start d-flex align-items-center column-gap-2" onClick={() => handleVehicleSelect(option.name)}>
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={20} />
+
+                    {getVehicleFilterIcon(option.name) && <Image src={getVehicleFilterIcon(option.name) ?? ''} width={20} height={20} alt="Vehicle operator" />}
+                    <span className="font-wt">{option.name}</span>
                   </Button>
                 ))}
               </div>

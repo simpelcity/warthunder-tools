@@ -1,4 +1,4 @@
-import type { Aam, AamIconNames } from '@/types/AamMissiles'
+import type { AamIconNames } from '@/types/AamMissiles'
 
 const WT_SKIN_BASE = "https://static.encyclopedia.warthunder.com/gui_skin";
 
@@ -15,16 +15,10 @@ const variantIconFile: Record<AamIconNames, string> = {
   "radar-green": "missile_type_f_air_to_air_midrange.png",
   "radar-blue": "missile_type_s_air_to_air_midrange.png",
   "radar-red": "missile_type_b_air_to_air_midrange.png",
+  rocket: "rockets_he_large.png"
 } as const satisfies Record<AamIconNames, string>;
 
-const categoryfallbackFile: Record<Aam, string> = {
-  IR: "missile_air_to_air.png",
-  Radar: "missile_air_to_air_midrange.png",
-  "Beam-Riding (SACLOS)": "missile_air_to_air.png",
-  "Command-Guided (MCLOS)": "rockets_he_large.png",
-}
-
-export function getAamIconPath(aam: { icon: AamIconNames; category: Aam; }) {
-  const fileName = variantIconFile[aam.icon] ?? categoryfallbackFile[aam.category] ?? "missile_air_to_air.png";
+export function getAamIconPath(aam: { icon: AamIconNames | undefined }) {
+  const fileName = aam.icon ? variantIconFile[aam.icon] : "missile_air_to_air.png";
   return `${WT_SKIN_BASE}/${fileName}`;
 }
