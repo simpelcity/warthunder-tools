@@ -14,11 +14,7 @@ export type HighExplosive = "HE" | "HE-TF" | "HE-VT" | "HE-OR" | "HE-Grenade" | 
 export type Heat = "HEAT" | "HEATFS" | "HEAT MP" | "HEAT-Grenade";
 export type GuidedMissiles = "ATGM" | "ATGM-OTA" | "ATGM-VT" | "ATGM-Tandem" | "ATGM-HE";
 
-<<<<<<< HEAD
 export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1" | "A-IX-2" | "PAX-3" | "CLX663" | "LX-14" | "Octol" | "Fp.02" | "H.5" | "Fp.02 and Np.10" | "PH-Salz and H.10" | "OKFOL" | "RDX/TNT" | "Amatol" | "PETN" | "Np.10" | "Hexal" | "H.10" | "Fp.60/40" | "Fp.10 and Np.10" | "Comp.B, mod." | "DHL-1" | "HMX" | "JH-2" | "JHL-2" | "JHL-3" | "Lyddite" | "Melinite" | "Oshiyaku" | "Picric acid" | "Picric acid/TNT 34/66" | "RDX" | "RDX/PWX" | "Shimose" | "Torpex" | "Type 91";
-=======
-export type ShellExplosiveType = "TNT" | "Pentolite" | "Smoke composition" | "Exp. D" | "Composition B" | "Comp. A" | "A-IX-1" | "A-IX-2" | "PAX-3" | "CLX663" | "LX-14" | "Octol" | "Fp.02" | "H.5" | "Fp.02 and Np.10" | "PH-Salz and H.10" | "OKFOL" | "RDX/TNT" | "Amatol" | "PETN" | "Np.10" | "Hexal" | "H.10" | "Fp.60/40" | "Fp.10 and Np.10" | "Shimose" | "Picric acid" | "RDX" | "RDX/PWX" | "HMX" | "Lyddite" | "Type 91" | "Torpex" | "Picric acid/TNT 34/66" | "Oshiyaku" | "JHL-2" | "DHL-1" | "JH-2" | "Comp.B, mod." | "JHL-3" | "Melinite";
->>>>>>> e060e9c43a460fee3a70f6a9adaede87fe6040f8
 
 export type Guidance = "Semi-Automatic (SACLOS)" | "Beam riding" | "IR" | "Manual (MCLOS)";
 
