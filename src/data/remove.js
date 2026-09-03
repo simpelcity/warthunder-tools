@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const file = "SamMissiles.ts";
+const file = "TankShells.ts";
 
 const content = fs.readFileSync(file, "utf8");
 
