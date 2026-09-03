@@ -434,6 +434,18 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.3",
           SB: "9.7"
         }
+      },
+      {
+        id: "aim_9b_f-104s",
+        vehicleId: "f-104s",
+        vehicleName: "F-104S",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -1753,6 +1765,30 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.3",
           SB: "13.3"
         }
+      },
+      {
+        id: "aim_9l_amx",
+        vehicleId: "amx",
+        vehicleName: "AMX",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9l_tornado_ids_it",
+        vehicleId: "tornado_ids_it",
+        vehicleName: "▄Tornado IDS",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
       }
     ]
   },
@@ -1954,6 +1990,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "10.7"
         }
+      },
+      {
+        id: "aim_9j_f-104s",
+        vehicleId: "f-104s",
+        vehicleName: "F-104S",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        },
+        icon: "ir-orange"
       }
     ]
   },
@@ -2164,6 +2213,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.7",
           SB: "12.7"
         }
+      },
+      {
+        id: "aim_7e_f-104s",
+        vehicleId: "f-104s",
+        vehicleName: "F-104S",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        },
+        icon: "radar-red"
       }
     ]
   },
@@ -4589,6 +4651,20 @@ export const aamMissiles: AamDefinition[] = [
           SB: "11.0"
         },
         icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_mf_hungary",
+        vehicleId: "mig-21_mf_hungary",
+        vehicleName: "◔MiG-21MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        },
+        icon: "radar-white"
       }
     ]
   },
@@ -4772,6 +4848,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.3",
           RB: "11.0",
           SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig-21_mf_hungary",
+        vehicleId: "mig-21_mf_hungary",
+        vehicleName: "◔MiG-21MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
         }
       }
     ]
@@ -5083,6 +5172,33 @@ export const aamMissiles: AamDefinition[] = [
           SB: "12.3"
         },
         icon: "ir-white"
+      },
+      {
+        id: "r_60_su_22m3_hungary",
+        vehicleId: "su_22m3_hungary",
+        vehicleName: "◔Su-22M3",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "r_60_mig-21_mf_hungary",
+        vehicleId: "mig-21_mf_hungary",
+        vehicleName: "◔MiG-21MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -5271,6 +5387,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.3",
           RB: "11.0",
           SB: "11.7"
+        }
+      },
+      {
+        id: "r_60mk_su_22m3_hungary",
+        vehicleId: "su_22m3_hungary",
+        vehicleName: "◔Su-22M3",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
         }
       }
     ]
