@@ -300,7 +300,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "aim_9b_t2",
         vehicleId: "t2",
-        vehicleName: "T2",
+        vehicleName: "T-2",
         vehicleTechTree: "Japan",
         vehicleRank: "VI",
         vehicleBr: {
@@ -445,6 +445,228 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.0",
           RB: "11.3",
           SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_f-104s_cb",
+        vehicleId: "f-104s_cb",
+        vehicleName: "▄F-104S TAF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Turkey",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_sea_hawk_fga50_netherlands",
+        vehicleId: "sea_hawk_fga50_netherlands",
+        vehicleName: "◘Sea Hawk Mk.50",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.0",
+          RB: "8.3",
+          SB: "8.0"
+        }
+      },
+      {
+        id: "aim_9b_md_460",
+        vehicleId: "md_460",
+        vehicleName: "Super Mystere B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_f-86k_late",
+        vehicleId: "f-86k_late",
+        vehicleName: "▄F-86K",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_hunter_f6_holland",
+        vehicleId: "hunter_f6_holland",
+        vehicleName: "◘Hunter F.6",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.3",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_f-100d_france",
+        vehicleId: "f-100d_france",
+        vehicleName: "▄F-100D",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9b_etndard_4m",
+        vehicleId: "etndard_4m",
+        vehicleName: "Etendard IVM",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_mirage_milan",
+        vehicleId: "mirage_milan",
+        vehicleName: "Milan",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.3",
+          RB: "9.7",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9b_md_460_yt_cup_2019",
+        vehicleId: "md_460_yt_cup_2019",
+        vehicleName: "␙Super Mystere B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aim_9b_mirage_3c",
+        vehicleId: "mirage_3c",
+        vehicleName: "Mirage IIIC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9b_mirage_3e",
+        vehicleId: "mirage_3e",
+        vehicleName: "Mirage IIIE",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "aim_9b_f-8e_fn",
+        vehicleId: "f-8e_fn",
+        vehicleName: "▄F-8E(FN)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9b_mirage_5f",
+        vehicleId: "mirage_5f",
+        vehicleName: "Mirage 5f",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9b_mirage_5ba",
+        vehicleId: "mirage_5ba",
+        vehicleName: "▄Mirage 5BA",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_f-104g_belgium",
+        vehicleId: "f-104g_belgium",
+        vehicleName: "▄F-104G",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_saab_f35_wdns",
+        vehicleId: "saab_f35_wdns",
+        vehicleName: "Saab F-35",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Denmark",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9b_a_4e_early_iaf",
+        vehicleId: "a_4e_early_iaf",
+        vehicleName: "A-4E Early (M)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "aim_9b_a_4e_late_iaf",
+        vehicleId: "a_4e_late_iaf",
+        vehicleName: "A-4E",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "9.3"
         }
       }
     ]
@@ -627,6 +849,19 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
+        id: "aim_9e_f-4f_late",
+        vehicleId: "f-4f_late",
+        vehicleName: "◄F-4F",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
         id: "aim_9e_hunter_f9_rhodesia",
         vehicleId: "hunter_f9_rhodesia",
         vehicleName: "Hunter FGA.9",
@@ -655,7 +890,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "aim_9e_t2",
         vehicleId: "t2",
-        vehicleName: "T2",
+        vehicleName: "T-2",
         vehicleTechTree: "Japan",
         vehicleRank: "VI",
         vehicleBr: {
@@ -765,6 +1000,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.7",
           RB: "10.7",
           SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9e_f-104g_belgium",
+        vehicleId: "f-104g_belgium",
+        vehicleName: "▄F-104G",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
         }
       }
     ]
@@ -879,6 +1127,91 @@ export const aamMissiles: AamDefinition[] = [
           SB: "10.3"
         },
         icon: "ir-white"
+      },
+      {
+        id: "aim_9d_a_4n",
+        vehicleId: "a_4n",
+        vehicleName: "Ayit",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "aim_9d_mirage_3cj",
+        vehicleId: "mirage_3cj",
+        vehicleName: "Shahak",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9d_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "aim_9d_nesher",
+        vehicleId: "nesher",
+        vehicleName: "Nesher",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "aim_9d_kfir_canard",
+        vehicleId: "kfir_canard",
+        vehicleName: "Kfir Canard",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "aim_9d_kfir_c7",
+        vehicleId: "kfir_c7",
+        vehicleName: "Kfir C.7",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9d_kfir_c2",
+        vehicleId: "kfir_c2",
+        vehicleName: "Kfir C.2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.7",
+          SB: "11.3"
+        }
       }
     ]
   },
@@ -1095,6 +1428,82 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.0",
           RB: "10.3",
           SB: "10.3"
+        }
+      },
+      {
+        id: "aim_9g_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9g_nesher",
+        vehicleId: "nesher",
+        vehicleName: "Nesher",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        icon: "ir-white"
+      },
+      {
+        id: "aim_9g_kfir_canard",
+        vehicleId: "kfir_canard",
+        vehicleName: "Kfir Canard",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9g_kfir_c7",
+        vehicleId: "kfir_c7",
+        vehicleName: "Kfir C.7",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9g_kfir_c2",
+        vehicleId: "kfir_c2",
+        vehicleName: "Kfir C.2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.7",
+          SB: "11.3"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9g_f-4e_kurnass_2000",
+        vehicleId: "f-4e_kurnass_2000",
+        vehicleName: "Kurnass 2000",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.3",
+          SB: "12.0"
         }
       }
     ]
@@ -1789,6 +2198,342 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.3",
           SB: "11.3"
         }
+      },
+      {
+        id: "aim_9l_f-104s_asa",
+        vehicleId: "f-104s_asa",
+        vehicleName: "F-104S.ASA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9l_tornado_adv",
+        vehicleId: "tornado_adv",
+        vehicleName: "Tornado ADV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        }
+      },
+      {
+        id: "aim_9l_tornado_ids_it_mod95",
+        vehicleId: "tornado_ids_it_mod95",
+        vehicleName: "▄Tornado IDS (1995)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9l_tornado_ids_it_ret8",
+        vehicleId: "tornado_ids_it_ret8",
+        vehicleName: "▄Tornado IDS MLU (RET.8)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_15_adf_italy",
+        vehicleId: "f_16a_block_15_adf_italy",
+        vehicleName: "▄F-16A ADF",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "aim_9l_m_346fa",
+        vehicleId: "m_346fa",
+        vehicleName: "M-346FA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_9l_av_8b_plus_italy",
+        vehicleId: "av_8b_plus_italy",
+        vehicleName: "▄AV-8B Plus",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_9l_saab_jas39c_hungary",
+        vehicleId: "saab_jas39c_hungary",
+        vehicleName: "◔JAS39EBS HU C",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_15_belgium",
+        vehicleId: "f_16a_block_15_belgium",
+        vehicleName: "▄F-16A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_5_netherlands",
+        vehicleId: "f_16a_block_5_netherlands",
+        vehicleName: "◘F-16A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16am_block_15_mlu_belgium",
+        vehicleId: "f_16am_block_15_mlu_belgium",
+        vehicleName: "▄F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_15_ocu_belgium",
+        vehicleId: "f_16a_block_15_ocu_belgium",
+        vehicleName: "▄F-16A OCU",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16am_block_20_mlu_netherlands",
+        vehicleId: "f_16am_block_20_mlu_netherlands",
+        vehicleName: "◘F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f-5ag_norway",
+        vehicleId: "f-5ag_norway",
+        vehicleName: "◢F-5A(G)",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "ir-green"
+      },
+      {
+        id: "aim_9l_f_16a_block_10_norway",
+        vehicleId: "f_16a_block_10_norway",
+        vehicleName: "◢F-16A",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9l_fa_18c_finland",
+        vehicleId: "fa_18c_finland",
+        vehicleName: "▄F-18C",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9l_f_16am_block_20_mlu_norway",
+        vehicleId: "f_16am_block_20_mlu_norway",
+        vehicleName: "◢F-16AM",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_fa_18c_mlu_2_finland",
+        vehicleId: "fa_18c_mlu_2_finland",
+        vehicleName: "▄F/A-18C MLU 2",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_10_iaf",
+        vehicleId: "f_16a_block_10_iaf",
+        vehicleName: "Netz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_f-4e_kurnass_2000",
+        vehicleId: "f-4e_kurnass_2000",
+        vehicleName: "Kurnass 2000",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.3",
+          SB: "12.0"
+        }
+      },
+      {
+        id: "aim_9l_f_15a_iaf",
+        vehicleId: "f_15a_iaf",
+        vehicleName: "Baz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16d_block_40_barak_2",
+        vehicleId: "f_16d_block_40_barak_2",
+        vehicleName: "F-16D Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f_16i_sufa",
+        vehicleId: "f_16i_sufa",
+        vehicleName: "F-16I Sufa",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9l_f_16a_block_10_netz_mod",
+        vehicleId: "f_16a_block_10_netz_mod",
+        vehicleName: "Netz (Mod)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "aim_9l_f_16c_block_40_barak_2",
+        vehicleId: "f_16c_block_40_barak_2",
+        vehicleName: "F-16C Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f_15c_baz_msip",
+        vehicleId: "f_15c_baz_msip",
+        vehicleName: "Baz Meshupar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9l_f_15i_raam",
+        vehicleId: "f_15i_raam",
+        vehicleName: "F-15I Ra’am",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -1967,6 +2712,19 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
+        id: "aim_9j_f-4f_late",
+        vehicleId: "f-4f_late",
+        vehicleName: "◄F-4F",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
         id: "aim_9j_f-104g_china",
         vehicleId: "f-104g_china",
         vehicleName: "␗F-104G",
@@ -2003,6 +2761,47 @@ export const aamMissiles: AamDefinition[] = [
           SB: "10.7"
         },
         icon: "ir-orange"
+      },
+      {
+        id: "aim_9j_mirage_5ba",
+        vehicleId: "mirage_5ba",
+        vehicleName: "▄Mirage 5BA",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.7"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "aim_9j_f-104g_belgium",
+        vehicleId: "f-104g_belgium",
+        vehicleName: "▄F-104G",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "11.0",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9j_nf_5a_netherlands",
+        vehicleId: "nf_5a_netherlands",
+        vehicleName: "◘NF-5A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.7"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -2187,8 +2986,7 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.3",
           RB: "11.0",
           SB: "10.7"
-        },
-        icon: "radar-white"
+        }
       },
       {
         id: "aim_7e_f-4ej_kai",
@@ -2226,6 +3024,32 @@ export const aamMissiles: AamDefinition[] = [
           SB: "10.7"
         },
         icon: "radar-red"
+      },
+      {
+        id: "aim_7e_f-104s_cb",
+        vehicleId: "f-104s_cb",
+        vehicleName: "▄F-104S TAF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Turkey",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        },
+        icon: "radar-red"
+      },
+      {
+        id: "aim_7e_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -2300,6 +3124,18 @@ export const aamMissiles: AamDefinition[] = [
           SB: "12.3"
         },
         icon: "radar-white"
+      },
+      {
+        id: "aim_7e_2_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -2805,6 +3641,218 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.3",
           SB: "14.3"
         }
+      },
+      {
+        id: "aim_9m_av_8b_plus_italy",
+        vehicleId: "av_8b_plus_italy",
+        vehicleName: "▄AV-8B Plus",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_9m_saab_jas39c_hungary",
+        vehicleId: "saab_jas39c_hungary",
+        vehicleName: "◔JAS39EBS HU C",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_ef_2000a",
+        vehicleId: "ef_2000a",
+        vehicleName: "F-2000A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_9m_ef_2000a_aesa",
+        vehicleId: "ef_2000a_aesa",
+        vehicleName: "F-2000A (AESA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16a_block_15_belgium",
+        vehicleId: "f_16a_block_15_belgium",
+        vehicleName: "▄F-16A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16am_block_15_mlu_belgium",
+        vehicleId: "f_16am_block_15_mlu_belgium",
+        vehicleName: "▄F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16a_block_15_ocu_belgium",
+        vehicleId: "f_16a_block_15_ocu_belgium",
+        vehicleName: "▄F-16A OCU",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16am_block_20_mlu_netherlands",
+        vehicleId: "f_16am_block_20_mlu_netherlands",
+        vehicleName: "◘F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_fa_18c_finland",
+        vehicleId: "fa_18c_finland",
+        vehicleName: "▄F-18C",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9m_f_16am_block_20_mlu_norway",
+        vehicleId: "f_16am_block_20_mlu_norway",
+        vehicleName: "◢F-16AM",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_fa_18c_mlu_2_finland",
+        vehicleId: "fa_18c_mlu_2_finland",
+        vehicleName: "▄F/A-18C MLU 2",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9m_f_15a_iaf",
+        vehicleId: "f_15a_iaf",
+        vehicleName: "Baz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16d_block_40_barak_2",
+        vehicleId: "f_16d_block_40_barak_2",
+        vehicleName: "F-16D Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_f_16i_sufa",
+        vehicleId: "f_16i_sufa",
+        vehicleName: "F-16I Sufa",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_9m_f_16c_block_40_barak_2",
+        vehicleId: "f_16c_block_40_barak_2",
+        vehicleName: "F-16C Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_f_15c_baz_msip",
+        vehicleId: "f_15c_baz_msip",
+        vehicleName: "Baz Meshupar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_9m_f_15i_raam",
+        vehicleId: "f_15i_raam",
+        vehicleName: "F-15I Ra’am",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -2973,6 +4021,105 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        }
+      },
+      {
+        id: "aim_120a_f_16a_block_15_adf_italy",
+        vehicleId: "f_16a_block_15_adf_italy",
+        vehicleName: "▄F-16A ADF",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "aim_120a_av_8b_plus_italy",
+        vehicleId: "av_8b_plus_italy",
+        vehicleName: "▄AV-8B Plus",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "aim_120a_saab_jas39c_hungary",
+        vehicleId: "saab_jas39c_hungary",
+        vehicleName: "◔JAS39EBS HU C",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f_16am_block_15_mlu_belgium",
+        vehicleId: "f_16am_block_15_mlu_belgium",
+        vehicleName: "▄F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f_16am_block_20_mlu_netherlands",
+        vehicleId: "f_16am_block_20_mlu_netherlands",
+        vehicleName: "◘F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f_16c_block_40_barak_2",
+        vehicleId: "f_16c_block_40_barak_2",
+        vehicleName: "F-16C Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f_15c_baz_msip",
+        vehicleId: "f_15c_baz_msip",
+        vehicleName: "Baz Meshupar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120a_f_15i_raam",
+        vehicleId: "f_15i_raam",
+        vehicleName: "F-15I Ra’am",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
         }
       }
     ]
@@ -3191,6 +4338,67 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        }
+      },
+      {
+        id: "aim_7m_f_16a_block_15_adf_italy",
+        vehicleId: "f_16a_block_15_adf_italy",
+        vehicleName: "▄F-16A ADF",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "aim_7m_f_16am_block_15_mlu_belgium",
+        vehicleId: "f_16am_block_15_mlu_belgium",
+        vehicleName: "▄F-16AM",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_7m_f_15a_iaf",
+        vehicleId: "f_15a_iaf",
+        vehicleName: "Baz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_7m_f_15c_baz_msip",
+        vehicleId: "f_15c_baz_msip",
+        vehicleName: "Baz Meshupar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_7m_f_15i_raam",
+        vehicleId: "f_15i_raam",
+        vehicleName: "F-15I Ra’am",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
         }
       }
     ]
@@ -3477,6 +4685,81 @@ export const aamMissiles: AamDefinition[] = [
           SB: "14.3"
         },
         icon: "radar-orange"
+      },
+      {
+        id: "aim_120b_ef_2000a",
+        vehicleId: "ef_2000a",
+        vehicleName: "F-2000A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120b_ef_2000a_aesa",
+        vehicleId: "ef_2000a_aesa",
+        vehicleName: "F-2000A (AESA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_120b_fa_18c_finland",
+        vehicleId: "fa_18c_finland",
+        vehicleName: "▄F-18C",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120b_f_16am_block_20_mlu_norway",
+        vehicleId: "f_16am_block_20_mlu_norway",
+        vehicleName: "◢F-16AM",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "aim_120b_fa_18c_mlu_2_finland",
+        vehicleId: "fa_18c_mlu_2_finland",
+        vehicleName: "▄F/A-18C MLU 2",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120b_f_16i_sufa",
+        vehicleId: "f_16i_sufa",
+        vehicleName: "F-16I Sufa",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -3663,6 +4946,79 @@ export const aamMissiles: AamDefinition[] = [
           SB: "14.3"
         },
         icon: "radar-green"
+      },
+      {
+        id: "aim_120c_5_ef_2000a",
+        vehicleId: "ef_2000a",
+        vehicleName: "F-2000A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120c_5_ef_2000a_aesa",
+        vehicleId: "ef_2000a_aesa",
+        vehicleName: "F-2000A (AESA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "aim_120c_5_fa_18c_mlu_2_finland",
+        vehicleId: "fa_18c_mlu_2_finland",
+        vehicleName: "▄F/A-18C MLU 2",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120c_5_saab_jas39e",
+        vehicleId: "saab_jas39e",
+        vehicleName: "JAS39E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "aim_120c_5_f_16i_sufa",
+        vehicleId: "f_16i_sufa",
+        vehicleName: "F-16I Sufa",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "aim_120c_5_f_15i_raam",
+        vehicleId: "f_15i_raam",
+        vehicleName: "F-15I Ra’am",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
       }
     ]
   },
@@ -3714,7 +5070,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "aim_9p_t2",
         vehicleId: "t2",
-        vehicleName: "T2",
+        vehicleName: "T-2",
         vehicleTechTree: "Japan",
         vehicleRank: "VI",
         vehicleBr: {
@@ -3903,6 +5259,58 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "aim_9p_f-104s_cb",
+        vehicleId: "f-104s_cb",
+        vehicleName: "▄F-104S TAF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Turkey",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9p_f_16a_block_5_netherlands",
+        vehicleId: "f_16a_block_5_netherlands",
+        vehicleName: "◘F-16A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9p_f_16a_block_10_norway",
+        vehicleId: "f_16a_block_10_norway",
+        vehicleName: "◢F-16A",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Norway",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "aim_9p_f_16a_block_10_iaf",
+        vehicleId: "f_16a_block_10_iaf",
+        vehicleName: "Netz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
         },
         icon: "ir-yellow"
       }
@@ -4151,6 +5559,20 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        },
+        icon: "radar-orange"
+      },
+      {
+        id: "r_27r1_mig_29_9_12b_hungary",
+        vehicleId: "mig_29_9_12b_hungary",
+        vehicleName: "◔MiG-29 (9-12B)",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
         },
         icon: "radar-orange"
       }
@@ -4403,6 +5825,66 @@ export const aamMissiles: AamDefinition[] = [
           RB: "9.0",
           SB: "9.3"
         }
+      },
+      {
+        id: "aa_20_nord_so_4050_vautour_2n_late",
+        vehicleId: "so_4050_vautour_2n_late",
+        vehicleName: "Vautour IIN(M)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.3",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "aa_20_nord_md_454_mystere_4a",
+        vehicleId: "md_454_mystere_4a",
+        vehicleName: "Mystere IVA",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "8.7",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "aa_20_nord_md_460",
+        vehicleId: "md_460",
+        vehicleName: "Super Mystere B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aa_20_nord_so_4050_vautour_2n",
+        vehicleId: "so_4050_vautour_2n",
+        vehicleName: "Vautour IIN(C)",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "aa_20_nord_md_460_yt_cup_2019",
+        vehicleId: "md_460_yt_cup_2019",
+        vehicleName: "␙Super Mystere B2",
+        vehicleTechTree: "France",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
       }
     ]
   },
@@ -4489,6 +5971,19 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
+        id: "flz_lwf_ll_63_75_siwa_f-5e_switzerland",
+        vehicleId: "f-5e_switzerland",
+        vehicleName: "◌F-5E",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
         id: "flz_lwf_ll_63_75_siwa_mirage_3s_c70_switzerland",
         vehicleId: "mirage_3s_c70_switzerland",
         vehicleName: "◌Mirage IIIS C.70",
@@ -4535,6 +6030,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "9.3",
           RB: "10.0",
           SB: "9.7"
+        }
+      },
+      {
+        id: "flz_lwf_63_80_f-5e_switzerland",
+        vehicleId: "f-5e_switzerland",
+        vehicleName: "◌F-5E",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "Switzerland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.3"
         }
       }
     ]
@@ -4602,7 +6110,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3r_mig-21_bis_lazur",
         vehicleId: "mig-21_bis_lazur",
-        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleName: '◊MiG-21 "Lazur-M"',
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VII",
@@ -4663,6 +6171,34 @@ export const aamMissiles: AamDefinition[] = [
           AB: "10.3",
           RB: "10.3",
           SB: "10.7"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig-21_bis_sau_hungary",
+        vehicleId: "mig-21_bis_sau_hungary",
+        vehicleName: "◔MiG-21bis-SAU",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "r_3r_mig_21_bis_finland",
+        vehicleId: "mig_21_bis_finland",
+        vehicleName: "▄MiG-21bis",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
         },
         icon: "radar-white"
       }
@@ -4730,7 +6266,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3s_mig-21_bis_lazur",
         vehicleId: "mig-21_bis_lazur",
-        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleName: '◊MiG-21 "Lazur-M"',
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VII",
@@ -4781,7 +6317,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3s_mig-21_f13",
         vehicleId: "mig-21_f13",
-        vehicleName: "MiG-21 F-13",
+        vehicleName: "MiG-21F-13",
         vehicleTechTree: "USSR",
         vehicleRank: "VI",
         vehicleBr: {
@@ -4862,6 +6398,45 @@ export const aamMissiles: AamDefinition[] = [
           RB: "10.3",
           SB: "10.7"
         }
+      },
+      {
+        id: "r_3s_mig-21_bis_sau_hungary",
+        vehicleId: "mig-21_bis_sau_hungary",
+        vehicleName: "◔MiG-21bis-SAU",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig_23mf_hungary",
+        vehicleId: "mig_23mf_hungary",
+        vehicleName: "◔MiG-23MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_3s_mig_21_bis_finland",
+        vehicleId: "mig_21_bis_finland",
+        vehicleName: "▄MiG-21bis",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
       }
     ]
   },
@@ -4913,7 +6488,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig-21_bis_lazur",
         vehicleId: "mig-21_bis_lazur",
-        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleName: '◊MiG-21 "Lazur-M"',
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VII",
@@ -4935,6 +6510,20 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.0"
         }
+      },
+      {
+        id: "r_13m1_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        },
+        icon: "ir-white"
       },
       {
         id: "r_13m1_mig-21_bis",
@@ -5009,6 +6598,45 @@ export const aamMissiles: AamDefinition[] = [
           SB: "11.3"
         },
         icon: "ir-white"
+      },
+      {
+        id: "r_13m1_mig-21_bis_sau_hungary",
+        vehicleId: "mig-21_bis_sau_hungary",
+        vehicleName: "◔MiG-21bis-SAU",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig_23mf_hungary",
+        vehicleId: "mig_23mf_hungary",
+        vehicleName: "◔MiG-23MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_13m1_mig_21_bis_finland",
+        vehicleId: "mig_21_bis_finland",
+        vehicleName: "▄MiG-21bis",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
       }
     ]
   },
@@ -5199,6 +6827,20 @@ export const aamMissiles: AamDefinition[] = [
           RB: "10.3",
           SB: "10.7"
         }
+      },
+      {
+        id: "r_60_mig_29_9_12b_hungary",
+        vehicleId: "mig_29_9_12b_hungary",
+        vehicleName: "◔MiG-29 (9-12B)",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        },
+        icon: "ir-white"
       }
     ]
   },
@@ -5245,6 +6887,19 @@ export const aamMissiles: AamDefinition[] = [
         vehicleBr: {
           AB: "10.7",
           RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9b_fgw_2_f-4f_late",
+        vehicleId: "f-4f_late",
+        vehicleName: "◄F-4F",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "FRG",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
           SB: "10.7"
         }
       }
@@ -5301,7 +6956,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60mk_mig-21_bis_lazur",
         vehicleId: "mig-21_bis_lazur",
-        vehicleName: '◊MiG-21 "Lazur- M"',
+        vehicleName: '◊MiG-21 "Lazur-M"',
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VII",
@@ -5315,6 +6970,32 @@ export const aamMissiles: AamDefinition[] = [
         id: "r_60mk_mig_23mf_germany",
         vehicleId: "mig_23mf_germany",
         vehicleName: "◊MiG-23MF",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "r_60mk_su_22m4",
+        vehicleId: "su_22m4",
+        vehicleName: "◄Su-22M4",
         vehicleTechTree: "Germany",
         vehicleOperator: "GDR",
         vehicleRank: "VII",
@@ -5401,6 +7082,83 @@ export const aamMissiles: AamDefinition[] = [
           RB: "11.0",
           SB: "11.0"
         }
+      },
+      {
+        id: "r_60mk_mig-21_bis_sau_hungary",
+        vehicleId: "mig-21_bis_sau_hungary",
+        vehicleName: "◔MiG-21bis-SAU",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_23mf_hungary",
+        vehicleId: "mig_23mf_hungary",
+        vehicleName: "◔MiG-23MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_29_9_12b_hungary",
+        vehicleId: "mig_29_9_12b_hungary",
+        vehicleName: "◔MiG-29 (9-12B)",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_60mk_mig_29_9_12_sniper",
+        vehicleId: "mig_29_9_12_sniper",
+        vehicleName: "MiG-29 Sniper",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Romania",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_60mk_mig_21_bis_finland",
+        vehicleId: "mig_21_bis_finland",
+        vehicleName: "▄MiG-21bis",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r_60mk_mig_21_2000_iaf",
+        vehicleId: "mig_21_2000_iaf",
+        vehicleName: "MiG-21 2000",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "11.7",
+          SB: "12.0"
+        }
       }
     ]
   },
@@ -5472,6 +7230,19 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
+        id: "r_23r_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
         id: "r_23r_mig_23m",
         vehicleId: "mig_23m",
         vehicleName: "Mig-23M",
@@ -5505,6 +7276,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.7",
           RB: "11.7",
           SB: "11.3"
+        }
+      },
+      {
+        id: "r_23r_mig_23mf_hungary",
+        vehicleId: "mig_23mf_hungary",
+        vehicleName: "◔MiG-23MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
         }
       }
     ]
@@ -5545,6 +7329,19 @@ export const aamMissiles: AamDefinition[] = [
         }
       },
       {
+        id: "r_23t_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
         id: "r_23t_mig_23m",
         vehicleId: "mig_23m",
         vehicleName: "Mig-23M",
@@ -5578,6 +7375,19 @@ export const aamMissiles: AamDefinition[] = [
           AB: "11.7",
           RB: "11.7",
           SB: "11.3"
+        }
+      },
+      {
+        id: "r_23t_mig_23mf_hungary",
+        vehicleId: "mig_23mf_hungary",
+        vehicleName: "◔MiG-23MF",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
         }
       }
     ]
@@ -5754,6 +7564,32 @@ export const aamMissiles: AamDefinition[] = [
           RB: "13.3",
           SB: "13.3"
         }
+      },
+      {
+        id: "r_27er1_mig_29_9_12b_hungary",
+        vehicleId: "mig_29_9_12b_hungary",
+        vehicleName: "◔MiG-29 (9-12B)",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_27er1_mig_29_9_12_sniper",
+        vehicleId: "mig_29_9_12_sniper",
+        vehicleName: "MiG-29 Sniper",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Romania",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
       }
     ]
   },
@@ -5853,6 +7689,32 @@ export const aamMissiles: AamDefinition[] = [
           AB: "13.3",
           RB: "13.3",
           SB: "13.3"
+        }
+      },
+      {
+        id: "r_27t1_mig_29_9_12b_hungary",
+        vehicleId: "mig_29_9_12b_hungary",
+        vehicleName: "◔MiG-29 (9-12B)",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "r_27t1_mig_29_9_12_sniper",
+        vehicleId: "mig_29_9_12_sniper",
+        vehicleName: "MiG-29 Sniper",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Romania",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.3"
         }
       }
     ]
@@ -6688,6 +8550,19 @@ export const aamMissiles: AamDefinition[] = [
     tntEquivalentKg: 20.8,
     vehicles: [
       {
+        id: "r_24r_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
         id: "r_24r_mig_23mld",
         vehicleId: "mig_23mld",
         vehicleName: "Mig-23MLD",
@@ -6735,6 +8610,19 @@ export const aamMissiles: AamDefinition[] = [
     explosiveMassKg: 13,
     tntEquivalentKg: 20.8,
     vehicles: [
+      {
+        id: "r_24t_mig_23mla",
+        vehicleId: "mig_23mla",
+        vehicleName: "◊MiG-23MLA",
+        vehicleTechTree: "Germany",
+        vehicleOperator: "GDR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
       {
         id: "r_24t_mig_23mld",
         vehicleId: "mig_23mld",
@@ -7785,6 +9673,19 @@ export const aamMissiles: AamDefinition[] = [
           RB: "12.0",
           SB: "12.0"
         }
+      },
+      {
+        id: "skyflash_df_tornado_adv",
+        vehicleId: "tornado_adv",
+        vehicleName: "Tornado ADV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        },
+        icon: "radar-white"
       }
     ]
   },
@@ -7832,6 +9733,18 @@ export const aamMissiles: AamDefinition[] = [
           SB: "13.3"
         },
         icon: "radar-white"
+      },
+      {
+        id: "skyflash_super_temp_tornado_adv",
+        vehicleId: "tornado_adv",
+        vehicleName: "Tornado ADV",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "12.0"
+        }
       }
     ]
   },
@@ -7881,6 +9794,151 @@ export const aamMissiles: AamDefinition[] = [
           AB: "14.0",
           RB: "14.0",
           SB: "14.0"
+        }
+      },
+      {
+        id: "magic_2_mirage_f1c",
+        vehicleId: "mirage_f1c",
+        vehicleName: "Mirage F1C",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "magic_2_mirage_f1ct",
+        vehicleId: "mirage_f1ct",
+        vehicleName: "Mirage F1CT",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "magic_2_mirage_f1c_200",
+        vehicleId: "mirage_f1c_200",
+        vehicleName: "Mirage F1C-200",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "magic_2_mirage_2000c_s5",
+        vehicleId: "mirage_2000c_s5",
+        vehicleName: "Mirage 2000C-S5",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "magic_2_mirage_4000",
+        vehicleId: "mirage_4000",
+        vehicleName: "Mirage 4000",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "magic_2_mirage_2000d_r1",
+        vehicleId: "mirage_2000d_r1",
+        vehicleName: "Mirage 2000D-R1",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "magic_2_mirage_2000c_s4",
+        vehicleId: "mirage_2000c_s4",
+        vehicleName: "Mirage 2000C-S4",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "magic_2_mirage_2000_5f",
+        vehicleId: "mirage_2000_5f",
+        vehicleName: "Mirage 2000-5F",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "magic_2_mirage_2000d_rmv",
+        vehicleId: "mirage_2000d_rmv",
+        vehicleName: "Mirage 2000D-RMV",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "magic_2_f_16a_block_15_ocu_belgium",
+        vehicleId: "f_16a_block_15_ocu_belgium",
+        vehicleName: "▄F-16A OCU",
+        vehicleTechTree: "France",
+        vehicleOperator: "Belgium",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "magic_2_rafale_c_f3",
+        vehicleId: "rafale_c_f3",
+        vehicleName: "Rafale C F3",
+        vehicleTechTree: "France",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "magic_2_rafale_m_f3r",
+        vehicleId: "rafale_m_f3r",
+        vehicleName: "Rafale M F3R",
+        vehicleTechTree: "France",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
         }
       }
     ]
@@ -7994,6 +10052,117 @@ export const aamMissiles: AamDefinition[] = [
           SB: "13.7"
         },
         icon: "ir-yellow"
+      },
+      {
+        id: "python_3_kfir_c7",
+        vehicleId: "kfir_c7",
+        vehicleName: "Kfir C.7",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "python_3_kfir_c2",
+        vehicleId: "kfir_c2",
+        vehicleName: "Kfir C.2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.7",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "python_3_mig_21_2000_iaf",
+        vehicleId: "mig_21_2000_iaf",
+        vehicleName: "MiG-21 2000",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "11.7",
+          SB: "12.0"
+        }
+      },
+      {
+        id: "python_3_f_16a_block_10_iaf",
+        vehicleId: "f_16a_block_10_iaf",
+        vehicleName: "Netz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "python_3_f-4e_kurnass_2000",
+        vehicleId: "f-4e_kurnass_2000",
+        vehicleName: "Kurnass 2000",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.3",
+          SB: "12.0"
+        }
+      },
+      {
+        id: "python_3_f_15a_iaf",
+        vehicleId: "f_15a_iaf",
+        vehicleName: "Baz",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "python_3_f_16a_block_10_netz_mod",
+        vehicleId: "f_16a_block_10_netz_mod",
+        vehicleName: "Netz (Mod)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "python_3_f_15c_baz_msip",
+        vehicleId: "f_15c_baz_msip",
+        vehicleName: "Baz Meshupar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        },
+        icon: "ir-yellow"
+      },
+      {
+        id: "python_3_kfir_c10_colombia",
+        vehicleId: "kfir_c10_colombia",
+        vehicleName: "◡Kfir C.10",
+        vehicleTechTree: "Israel",
+        vehicleOperator: "Colombia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.3",
+          SB: "13.0"
+        }
       }
     ]
   },
@@ -8064,6 +10233,56 @@ export const aamMissiles: AamDefinition[] = [
         vehicleBr: {
           AB: "13.0",
           RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "derby_m_346fa",
+        vehicleId: "m_346fa",
+        vehicleName: "M-346FA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "derby_f_16d_block_40_barak_2",
+        vehicleId: "f_16d_block_40_barak_2",
+        vehicleName: "F-16D Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.3",
+          SB: "13.7"
+        },
+        icon: "radar-green"
+      },
+      {
+        id: "derby_f_16c_block_40_barak_2",
+        vehicleId: "f_16c_block_40_barak_2",
+        vehicleName: "F-16C Barak II",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "derby_kfir_c10_colombia",
+        vehicleId: "kfir_c10_colombia",
+        vehicleName: "◡Kfir C.10",
+        vehicleTechTree: "Israel",
+        vehicleOperator: "Colombia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.3",
           SB: "13.0"
         }
       }
@@ -8447,6 +10666,149 @@ export const aamMissiles: AamDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         }
+      },
+      {
+        id: "magic_1_mirage_3c",
+        vehicleId: "mirage_3c",
+        vehicleName: "Mirage IIIC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.3"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_3e",
+        vehicleId: "mirage_3e",
+        vehicleName: "Mirage IIIE",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "11.0"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_f-8e_fn",
+        vehicleId: "f-8e_fn",
+        vehicleName: "▄F-8E(FN)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_5f",
+        vehicleId: "mirage_5f",
+        vehicleName: "Mirage 5f",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_super_etendard_97",
+        vehicleId: "super_etendard_97",
+        vehicleName: "Super Etendard",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_f1c",
+        vehicleId: "mirage_f1c",
+        vehicleName: "Mirage F1C",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_jaguar_a",
+        vehicleId: "jaguar_a",
+        vehicleName: "Jaguar A",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.3"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_jaguar_e",
+        vehicleId: "jaguar_e",
+        vehicleName: "Jaguar E",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.3"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_f1c_200",
+        vehicleId: "mirage_f1c_200",
+        vehicleName: "Mirage F1C-200",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_2000c_s5",
+        vehicleId: "mirage_2000c_s5",
+        vehicleName: "Mirage 2000C-S5",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "magic_1_mirage_2000c_s4",
+        vehicleId: "mirage_2000c_s4",
+        vehicleName: "Mirage 2000C-S4",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        icon: "ir-orange"
       }
     ]
   },
@@ -8479,6 +10841,18 @@ export const aamMissiles: AamDefinition[] = [
         vehicleBr: {
           AB: "11.3",
           RB: "11.3",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "aspide_1a_f-104s_asa",
+        vehicleId: "f-104s_asa",
+        vehicleName: "F-104S.ASA",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
           SB: "11.7"
         }
       }
@@ -9005,6 +11379,42 @@ export const aamMissiles: AamDefinition[] = [
           RB: "14.0",
           SB: "14.0"
         }
+      },
+      {
+        id: "mica_em_mirage_2000_5f",
+        vehicleId: "mirage_2000_5f",
+        vehicleName: "Mirage 2000-5F",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "mica_em_rafale_c_f3",
+        vehicleId: "rafale_c_f3",
+        vehicleName: "Rafale C F3",
+        vehicleTechTree: "France",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      },
+      {
+        id: "mica_em_rafale_m_f3r",
+        vehicleId: "rafale_m_f3r",
+        vehicleName: "Rafale M F3R",
+        vehicleTechTree: "France",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
       }
     ]
   },
@@ -9121,6 +11531,1282 @@ export const aamMissiles: AamDefinition[] = [
           AB: "9.0",
           RB: "9.0",
           SB: "9.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "maa_1",
+    designation: "MAA-1",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 90,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3,
+    IRCCM: false,
+    launchRangeKm: 18,
+    maximumSpeedMach: 3.5,
+    maximumOverloadG: 45,
+    missileGuidanceTimeS: 40,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.5,
+    tntEquivalentKg: 7.2,
+    vehicles: [
+      {
+        id: "maa_1_amx_a_1a_brazil",
+        vehicleId: "amx_a_1a_brazil",
+        vehicleName: "AMX A-1A",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Brazil",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "r511",
+    designation: "Matra R511",
+    category: "Radar",
+    family: "SARH",
+    icon: "ir-large-yellow",
+    variant: "SARH",
+    projectileMassKg: 172.5,
+    guidance: "SARH",
+    band: "I",
+    lockRangeKm: 8,
+    launchRangeKm: 8,
+    maximumSpeedMach: 1.8,
+    maximumOverloadG: 12,
+    missileGuidanceTimeS: 30,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 8,
+    tntEquivalentKg: 10.32,
+    vehicles: [
+      {
+        id: "r511_so_4050_vautour_2n_late",
+        vehicleId: "so_4050_vautour_2n_late",
+        vehicleName: "Vautour IIN(M)",
+        vehicleTechTree: "France",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.3",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "r511_mirage_3c",
+        vehicleId: "mirage_3c",
+        vehicleName: "Mirage IIIC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.3"
+        },
+        icon: "radar-orange"
+      }
+    ]
+  },
+  {
+    id: "shafrir",
+    designation: "Shafrir",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 65,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 10,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 11,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "shafrir_so_4050_vautour_2a_iaf",
+        vehicleId: "so_4050_vautour_2a_iaf",
+        vehicleName: "Vautour IIA IDF/AF",
+        vehicleTechTree: "France",
+        vehicleOperator: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "shafrir_so_4050_vautour_2a_israel_iaf",
+        vehicleId: "so_4050_vautour_2a_israel_iaf",
+        vehicleName: "Vautour IIA",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "shafrir_so_4050_vautour_2n_iaf",
+        vehicleId: "so_4050_vautour_2n_iaf",
+        vehicleName: "Vautour IIN(C)",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "8.7",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "shafrir_md_460_sambad",
+        vehicleId: "md_460_sambad",
+        vehicleName: "Sambad",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+    ]
+  },
+  {
+    id: "r530e",
+    designation: "Matra R530E",
+    category: "IR",
+    family: "IR",
+    icon: "ir-large-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 193.5,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.7,
+    maximumOverloadG: 15,
+    missileGuidanceTimeS: 100,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 8.1,
+    tntEquivalentKg: 10.45,
+    vehicles: [
+      {
+        id: "r530e_mirage_3c",
+        vehicleId: "mirage_3c",
+        vehicleName: "Mirage IIIC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "r530e_mirage_3e",
+        vehicleId: "mirage_3e",
+        vehicleName: "Mirage IIIE",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r530e_f-8e_fn",
+        vehicleId: "f-8e_fn",
+        vehicleName: "▄F-8E(FN)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        icon: "ir-large-white"
+      },
+      {
+        id: "r530e_mirage_f1c",
+        vehicleId: "mirage_f1c",
+        vehicleName: "Mirage F1C",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-large-white"
+      },
+      {
+        id: "r530e_mirage_f1ct",
+        vehicleId: "mirage_f1ct",
+        vehicleName: "Mirage F1CT",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-large-white"
+      },
+      {
+        id: "r530e_mirage_f1c_200",
+        vehicleId: "mirage_f1c_200",
+        vehicleName: "Mirage F1C-200",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        },
+        icon: "ir-large-white"
+      },
+      {
+        id: "r530e_mirage_3cj",
+        vehicleId: "mirage_3cj",
+        vehicleName: "Shahak",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "r530",
+    designation: "Matra R530",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-white",
+    variant: "SARH",
+    guidance: "SARH",
+    band: "I",
+    projectileMassKg: 193.5,
+    lockRangeKm: 12.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.7,
+    maximumOverloadG: 15,
+    missileGuidanceTimeS: 25,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 8.1,
+    tntEquivalentKg: 10.45,
+    vehicles: [
+      {
+        id: "r530_mirage_3c",
+        vehicleId: "mirage_3c",
+        vehicleName: "Mirage IIIC",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "r530_mirage_3e",
+        vehicleId: "mirage_3e",
+        vehicleName: "Mirage IIIE",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "r530_f-8e_fn",
+        vehicleId: "f-8e_fn",
+        vehicleName: "▄F-8E(FN)",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.0"
+        },
+        icon: "radar-red"
+      },
+      {
+        id: "r530_mirage_f1c",
+        vehicleId: "mirage_f1c",
+        vehicleName: "Mirage F1C",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r530_mirage_f1ct",
+        vehicleId: "mirage_f1ct",
+        vehicleName: "Mirage F1CT",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r530_mirage_f1c_200",
+        vehicleId: "mirage_f1c_200",
+        vehicleName: "Mirage F1C-200",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "r530_mirage_3cj",
+        vehicleId: "mirage_3cj",
+        vehicleName: "Shahak",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "super_530f",
+    designation: "Matra Super 530F",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    guidance: "SARH",
+    band: "I",
+    projectileMassKg: 245,
+    lockRangeKm: 25,
+    launchRangeKm: 40,
+    maximumSpeedMach: 4.5,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 8.1,
+    tntEquivalentKg: 10.45,
+    vehicles: [
+      {
+        id: "super_530f_mirage_f1c",
+        vehicleId: "mirage_f1c",
+        vehicleName: "Mirage F1C",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "super_530f_mirage_f1ct",
+        vehicleId: "mirage_f1ct",
+        vehicleName: "Mirage F1CT",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "super_530f_mirage_f1c_200",
+        vehicleId: "mirage_f1c_200",
+        vehicleName: "Mirage F1C-200",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "super_530f_mirage_2000c_s5",
+        vehicleId: "mirage_2000c_s5",
+        vehicleName: "Mirage 2000C-S5",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "super_530f_mirage_4000",
+        vehicleId: "mirage_4000",
+        vehicleName: "Mirage 4000",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "super_530f_mirage_2000c_s4",
+        vehicleId: "mirage_2000c_s4",
+        vehicleName: "Mirage 2000C-S4",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        },
+        icon: "radar-white"
+      },
+      {
+        id: "super_530f_mirage_2000_5f",
+        vehicleId: "mirage_2000_5f",
+        vehicleName: "Mirage 2000-5F",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        },
+        icon: "radar-white"
+      }
+    ]
+  },
+  {
+    id: "aim_9n",
+    designation: "AIM-9N Sidewinder",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 76.93,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 40,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "aim_9n_nf_5a_netherlands",
+        vehicleId: "nf_5a_netherlands",
+        vehicleName: "◘NF-5A",
+        vehicleTechTree: "France",
+        vehicleOperator: "Netherlands",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.7",
+          SB: "10.7"
+        }
+      },
+      {
+        id: "aim_9n_saab_f35_wdns",
+        vehicleId: "saab_f35_wdns",
+        vehicleName: "Saab F-35",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Denmark",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "super_530d",
+    designation: "Matra Super 530D",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    projectileMassKg: 270,
+    lockRangeKm: 30,
+    launchRangeKm: 40,
+    maximumSpeedMach: 5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 55,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 8.1,
+    tntEquivalentKg: 10.45,
+    vehicles: [
+      {
+        id: "super_530d_mirage_2000c_s5",
+        vehicleId: "mirage_2000c_s5",
+        vehicleName: "Mirage 2000C-S5",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "super_530d_mirage_4000",
+        vehicleId: "mirage_4000",
+        vehicleName: "Mirage 4000",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "super_530d_mirage_2000c_s4",
+        vehicleId: "mirage_2000c_s4",
+        vehicleName: "Mirage 2000C-S4",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "super_530d_mirage_2000_5f",
+        vehicleId: "mirage_2000_5f",
+        vehicleName: "Mirage 2000-5F",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "rb24",
+    designation: "RB24",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 72.57,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 10,
+    maximumSpeedMach: 1.7,
+    maximumOverloadG: 10,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "rb24_saab_105oe",
+        vehicleId: "saab_105oe",
+        vehicleName: "SAAB-105OE",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Austria",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.3",
+          RB: "8.3",
+          SB: "8.3"
+        }
+      },
+      {
+        id: "rb24_saab_105g",
+        vehicleId: "saab_105g",
+        vehicleName: "SAAB-105G",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "V",
+        vehicleBr: {
+          AB: "8.7",
+          RB: "8.3",
+          SB: "8.3"
+        }
+      },
+      {
+        id: "rb24_saab_j29f",
+        vehicleId: "saab_j29f",
+        vehicleName: "J29F",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "8.7"
+        }
+      },
+      {
+        id: "rb24_hunter_f50_sweden",
+        vehicleId: "hunter_f50_sweden",
+        vehicleName: "J34",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "rb24_saab_j32b",
+        vehicleId: "saab_j32b",
+        vehicleName: "J32B",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "9.3",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "rb24_saab_j35a",
+        vehicleId: "saab_j35a",
+        vehicleName: "J35A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.3",
+          SB: "9.3"
+        }
+      },
+      {
+        id: "rb24_saab_j35d",
+        vehicleId: "saab_j35d",
+        vehicleName: "J35D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "rb24_saab_aj37",
+        vehicleId: "saab_aj37",
+        vehicleName: "AJ37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "rb24_saab_ja37",
+        vehicleId: "saab_ja37",
+        vehicleName: "JA37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "rb24j",
+    designation: "RB24J",
+    category: "IR",
+    family: "IR",
+    icon: "ir-orange",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 76.93,
+    lockRangeRearAspectKm: 5.5,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 20,
+    missileGuidanceTimeS: 40,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "rb24j_saab_j35d",
+        vehicleId: "saab_j35d",
+        vehicleName: "J35D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "rb24j_saab_aj37",
+        vehicleId: "saab_aj37",
+        vehicleName: "AJ37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "rb24j_saab_j35xs",
+        vehicleId: "saab_j35xs",
+        vehicleName: "Saab J35XS",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.3",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "rb24j_saab_ajs37_early",
+        vehicleId: "saab_ajs37_early",
+        vehicleName: "AJS37 (Early)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb24j_saab_ja37",
+        vehicleId: "saab_ja37",
+        vehicleName: "JA37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb24j_saab_ajs37",
+        vehicleId: "saab_ajs37",
+        vehicleName: "AJS37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb24j_saab_ja37d",
+        vehicleId: "saab_ja37d",
+        vehicleName: "JA37D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "rb_74",
+    designation: "RB 74",
+    category: "IR",
+    family: "IR",
+    icon: "ir-yellow",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 84.46,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3,
+    IRCCM: false,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-102",
+    explosiveMassKg: 3.58,
+    tntEquivalentKg: 4.58,
+    vehicles: [
+      {
+        id: "rb_74_saab_ajs37_early",
+        vehicleId: "saab_ajs37_early",
+        vehicleName: "AJS37 (Early)",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb_74_saab_ajs37",
+        vehicleId: "saab_ajs37",
+        vehicleName: "AJS37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb_74_saab_ja37d",
+        vehicleId: "saab_ja37d",
+        vehicleName: "JA37D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "rb_74_saab_ja37di",
+        vehicleId: "saab_ja37di",
+        vehicleName: "JA37DI",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "rb_74_saab_ja37di_f21",
+        vehicleId: "saab_ja37di_f21",
+        vehicleName: "JA37DI F21",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "rb_74_saab_jas39a",
+        vehicleId: "saab_jas39a",
+        vehicleName: "JAS39A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "rb_74_saab_jas39c",
+        vehicleId: "saab_jas39c",
+        vehicleName: "JAS39C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        },
+        icon: "ir-orange"
+      },
+      {
+        id: "rb_74_saab_jas39d",
+        vehicleId: "saab_jas39d",
+        vehicleName: "JAS39D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        },
+        icon: "ir-orange"
+      }
+    ]
+  },
+  {
+    id: "rb71_df",
+    designation: "RB71 (Dogfight)",
+    category: "Radar",
+    family: "SARH",
+    icon: "radar-orange",
+    variant: "SARH",
+    projectileMassKg: 193,
+    guidance: "SARH",
+    band: "I",
+    shootDown: "Front-aspect",
+    lockRangeKm: 37,
+    launchRangeKm: 50,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 25,
+    missileGuidanceTimeS: 40,
+    explosiveType: "PBXN-4",
+    explosiveMassKg: 9,
+    tntEquivalentKg: 7.47,
+    vehicles: [
+      {
+        id: "rb71_df_saab_ja37",
+        vehicleId: "saab_ja37",
+        vehicleName: "JA37",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.3",
+          SB: "11.3"
+        }
+      },
+      {
+        id: "rb71_df_saab_ja37d",
+        vehicleId: "saab_ja37d",
+        vehicleName: "JA37D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "rb71_df_saab_jas39a",
+        vehicleId: "saab_jas39a",
+        vehicleName: "JAS39A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "rb_99",
+    designation: "RB 99",
+    category: "Radar",
+    family: "ARH",
+    icon: "radar-green",
+    variant: "ARH+IOG+DL",
+    projectileMassKg: 147.87,
+    guidance: "ARH+IOG+DL",
+    band: "I",
+    shootDown: "All-aspects",
+    lockRangeKm: 16,
+    launchRangeKm: 80,
+    maximumSpeedMach: 4,
+    maximumOverloadG: 35,
+    missileGuidanceTimeS: 80,
+    explosiveType: "PBX(AF)-108",
+    explosiveMassKg: 7.67,
+    tntEquivalentKg: 9.43,
+    vehicles: [
+      {
+        id: "rb_99_saab_ja37di",
+        vehicleId: "saab_ja37di",
+        vehicleName: "JA37DI",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "rb_99_saab_ja37di_f21",
+        vehicleId: "saab_ja37di_f21",
+        vehicleName: "JA37DI F21",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "rb_99_saab_jas39c",
+        vehicleId: "saab_jas39c",
+        vehicleName: "JAS39C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "rb_99_saab_jas39d",
+        vehicleId: "saab_jas39d",
+        vehicleName: "JAS39D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "rb_99_saab_jas39e",
+        vehicleId: "saab_jas39e",
+        vehicleName: "JAS39E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "rb_74m",
+    designation: "RB 74(M)",
+    category: "IR",
+    family: "IR",
+    icon: "ir-green",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Uncaged",
+    aspect: "All-aspects",
+    projectileMassKg: 84.46,
+    lockRangeRearAspectKm: 11,
+    lockRangeAllAspectsKm: 3,
+    IRCCM: true,
+    launchRangeKm: 18,
+    maximumSpeedMach: 2.5,
+    maximumOverloadG: 30,
+    missileGuidanceTimeS: 60,
+    explosiveType: "PBXN-3",
+    explosiveMassKg: 3.58,
+    tntEquivalentKg: 4.62,
+    vehicles: [
+      {
+        id: "rb_74m_saab_jas39a",
+        vehicleId: "saab_jas39a",
+        vehicleName: "JAS39A",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "rb_74m_saab_jas39c",
+        vehicleId: "saab_jas39c",
+        vehicleName: "JAS39C",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "rb_74m_saab_jas39d",
+        vehicleId: "saab_jas39d",
+        vehicleName: "JAS39D",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "rb_74m_saab_jas39e",
+        vehicleId: "saab_jas39e",
+        vehicleName: "JAS39E",
+        vehicleTechTree: "Sweden",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "shafrir_2",
+    designation: "Shafrir 2",
+    category: "IR",
+    family: "IR",
+    icon: "ir-white",
+    variant: "IR",
+    guidance: "IR",
+    guidanceCage: "Caged",
+    aspect: "Rear-aspect",
+    projectileMassKg: 90,
+    lockRangeRearAspectKm: 4,
+    launchRangeKm: 20,
+    maximumSpeedMach: 2.1,
+    maximumOverloadG: 18,
+    missileGuidanceTimeS: 20,
+    explosiveType: "HBX",
+    explosiveMassKg: 4.76,
+    tntEquivalentKg: 7.62,
+    vehicles: [
+      {
+        id: "shafrir_2_md_460_saar",
+        vehicleId: "md_460_saar",
+        vehicleName: "Sa'ar",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.0",
+          RB: "9.0",
+          SB: "9.0"
+        }
+      },
+      {
+        id: "shafrir_2_mirage_3cj",
+        vehicleId: "mirage_3cj",
+        vehicleName: "Shahak",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.0",
+          RB: "10.0",
+          SB: "10.3"
+        }
+      },
+      {
+        id: "shafrir_2_a_4n",
+        vehicleId: "a_4n",
+        vehicleName: "Ayit",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VI",
+        vehicleBr: {
+          AB: "9.7",
+          RB: "10.0",
+          SB: "9.7"
+        }
+      },
+      {
+        id: "shafrir_2_nesher",
+        vehicleId: "nesher",
+        vehicleName: "Nesher",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.3",
+          RB: "10.0",
+          SB: "10.0"
+        }
+      },
+      {
+        id: "shafrir_2_kfir_canard",
+        vehicleId: "kfir_canard",
+        vehicleName: "Kfir Canard",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "shafrir_2_kfir_c7",
+        vehicleId: "kfir_c7",
+        vehicleName: "Kfir C.7",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "12.0",
+          RB: "12.0",
+          SB: "11.7"
+        }
+      },
+      {
+        id: "shafrir_2_kfir_c2",
+        vehicleId: "kfir_c2",
+        vehicleName: "Kfir C.2",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.7",
+          SB: "11.3"
         }
       }
     ]

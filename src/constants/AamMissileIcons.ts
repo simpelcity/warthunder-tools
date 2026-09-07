@@ -9,6 +9,7 @@ const variantIconFile: Record<AamIconNames, string> = {
   "ir-yellow": "missile_type_c_air_to_air.png",
   "ir-large-white": "missile_air_to_air_ir_large.png",
   "ir-large-orange": "missile_air_to_air_ir_large_special.png",
+  "ir-large-yellow": "missile_type_b_air_to_air_ir_large.png",
   "radar-white": "missile_air_to_air_midrange.png",
   "radar-orange": "missile_air_to_air_midrange_special.png",
   "radar-yellow": "missile_type_c_air_to_air_midrange.png",
