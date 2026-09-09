@@ -10,6 +10,7 @@ const variantIconFile: Record<ArmIconNames, string> = {
   "arm-red": "arm_type_b.png",
   "arm-red-1": "arm_kh31_type_b.png",
   "arm-yellow": "arm_type_c.png",
+  "arm-yellow-1": "arm_kh31_type_c.png",
 } as const satisfies Record<ArmIconNames, string>;
 
 export function getArmIconPath(arm: { icon: ArmIconNames | undefined}) {
