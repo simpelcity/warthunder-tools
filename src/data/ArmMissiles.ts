@@ -748,7 +748,7 @@ export const armMissiles: ArmDefinition[] = [
         vehicleRank: "VII",
         vehicleBr: {
           AB: "11.3",
-          RB: "11.3",
+          RB: "11.0",
           SB: "11.7"
         }
       }
