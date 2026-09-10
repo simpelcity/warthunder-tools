@@ -222,6 +222,19 @@ export const armMissiles: ArmDefinition[] = [
           RB: "10.7",
           SB: "10.7"
         }
+      },
+      {
+        id: "agm_45b_9_a_7e_thailand",
+        vehicleId: "a_7e_thailand",
+        vehicleName: "▄A-7E",
+        vehicleTechTree: "Japan",
+        vehicleOperator: "Thailand",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.3",
+          SB: "10.3"
+        }
       }
     ]
   },
@@ -277,6 +290,19 @@ export const armMissiles: ArmDefinition[] = [
           AB: "10.3",
           RB: "10.7",
           SB: "10.7"
+        }
+      },
+      {
+        id: "agm_45b_9_a_7e_thailand",
+        vehicleId: "a_7e_thailand",
+        vehicleName: "▄A-7E",
+        vehicleTechTree: "Japan",
+        vehicleOperator: "Thailand",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.0",
+          RB: "10.3",
+          SB: "10.3"
         }
       }
     ]
@@ -352,7 +378,8 @@ export const armMissiles: ArmDefinition[] = [
         id: "agm_88a_fa_18a_raaf",
         vehicleId: "fa_18a_raaf",
         vehicleName: "▄F/A-18A",
-        vehicleTechTree: "USA",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "12.3",
@@ -364,12 +391,38 @@ export const armMissiles: ArmDefinition[] = [
         id: "agm_88a_fa_18a_hug_2_raaf",
         vehicleId: "fa_18a_hug_2_raaf",
         vehicleName: "▄AF/A-18A Late",
-        vehicleTechTree: "USA",
+        vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "14.0",
           RB: "14.0",
           SB: "14.0"
+        }
+      },
+      {
+        id: "agm_88a_fa_18d_late_malaysia",
+        vehicleId: "fa_18d_late_malaysia",
+        vehicleName: "▄F/A-18D Late",
+        vehicleTechTree: "Japan",
+        vehicleOperator: "Malaysia",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "agm_88a_tornado_ids_it_ret8",
+        vehicleId: "tornado_ids_it_ret8",
+        vehicleName: "▄Tornado IDS MLU (RET.8)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.7",
+          RB: "11.7",
+          SB: "11.7"
         }
       }
     ]
@@ -397,6 +450,18 @@ export const armMissiles: ArmDefinition[] = [
         vehicleId: "av_8b_plus",
         vehicleName: "AV-8B Plus",
         vehicleTechTree: "USA",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "agm_122_av_8b_plus_italy",
+        vehicleId: "av_8b_plus_italy",
+        vehicleName: "▄AV-8B Plus",
+        vehicleTechTree: "Italy",
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "13.3",
@@ -513,8 +578,8 @@ export const armMissiles: ArmDefinition[] = [
         }
       },
       {
-        id: "agm_88c_ef_2000_fgr4_aesa",
-        vehicleId: "ef_2000_fgr4_aesa",
+        id: "agm_88c_ef_2000_typhoon_aesa",
+        vehicleId: "ef_2000_typhoon_aesa",
         vehicleName: "Typhoon (AESA)",
         vehicleTechTree: "Great Britain",
         vehicleRank: "IX",
@@ -529,6 +594,7 @@ export const armMissiles: ArmDefinition[] = [
         vehicleId: "fa_18f_block_2_raaf",
         vehicleName: "▄F/A-18F",
         vehicleTechTree: "Great Britain",
+        vehicleOperator: "Australia",
         vehicleRank: "IX",
         vehicleBr: {
           AB: "14.3",
@@ -536,6 +602,43 @@ export const armMissiles: ArmDefinition[] = [
           SB: "14.3"
         },
         icon: "arm-blue"
+      },
+      {
+        id: "agm_88c_f_16a_block_72v_china",
+        vehicleId: "f_16a_block_72v_china",
+        vehicleName: "␗F-16V",
+        vehicleTechTree: "China",
+        vehicleOperator: "Republic of China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "agm_88c_ef_2000a",
+        vehicleId: "ef_2000a",
+        vehicleName: "F-2000A",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "agm_88c_ef_2000a_aesa",
+        vehicleId: "ef_2000a_aesa",
+        vehicleName: "F-2000A (AESA)",
+        vehicleTechTree: "Italy",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
       }
     ]
   },
@@ -858,6 +961,19 @@ export const armMissiles: ArmDefinition[] = [
         vehicleId: "su_17m4",
         vehicleName: "Su-17M4",
         vehicleTechTree: "USSR",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.0",
+          SB: "11.0"
+        }
+      },
+      {
+        id: "kh_27ps_su_22m3_hungary",
+        vehicleId: "su_22m3_hungary",
+        vehicleName: "◔Su-22M3",
+        vehicleTechTree: "Italy",
+        vehicleOperator: "Hungary",
         vehicleRank: "VII",
         vehicleBr: {
           AB: "11.3",
@@ -1329,6 +1445,19 @@ export const armMissiles: ArmDefinition[] = [
           RB: "14.7",
           SB: "14.7"
         }
+      },
+      {
+        id: "kh_31pd_su_30mkm",
+        vehicleId: "su_30mkm",
+        vehicleName: "Su-30MKM",
+        vehicleTechTree: "Japan",
+        vehicleOperator: "Malaysia",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
       }
     ]
   },
@@ -1372,6 +1501,18 @@ export const armMissiles: ArmDefinition[] = [
           AB: "11.7",
           RB: "11.3",
           SB: "11.7"
+        }
+      },
+      {
+        id: "as_37_s_jaguar_a",
+        vehicleId: "jaguar_a",
+        vehicleName: "Jaguar A",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.3"
         }
       }
     ]
@@ -1417,6 +1558,18 @@ export const armMissiles: ArmDefinition[] = [
           RB: "11.3",
           SB: "11.7"
         }
+      },
+      {
+        id: "as_37_c_jaguar_a",
+        vehicleId: "jaguar_a",
+        vehicleName: "Jaguar A",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.3"
+        }
       }
     ]
   },
@@ -1461,6 +1614,18 @@ export const armMissiles: ArmDefinition[] = [
           RB: "11.3",
           SB: "11.7"
         }
+      },
+      {
+        id: "as_37_l_jaguar_a",
+        vehicleId: "jaguar_a",
+        vehicleName: "Jaguar A",
+        vehicleTechTree: "France",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "10.7",
+          RB: "10.7",
+          SB: "10.3"
+        }
       }
     ]
   },
@@ -1490,6 +1655,520 @@ export const armMissiles: ArmDefinition[] = [
         vehicleRank: "VIII",
         vehicleBr: {
           AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      }
+    ]
+  },
+  {
+    id: "yj_91_l111",
+    designation: "YJ-91 L111",
+    category: "PRH",
+    family: "PRH",
+    icon: "arm-blue-1",
+    projectileMassKg: 600,
+    guidance: "PRH",
+    band: ["I"],
+    lockRangeKm: 100,
+    launchRangeKm: 120,
+    maximumSpeedMach: 3.5,
+    missileGuidanceTimeS: 120,
+    explosiveType: "Hexal",
+    explosiveMassKg: 68.5,
+    tntEquivalentKg: 116.45,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "yj_91_l111_jh_7a",
+        vehicleId: "jh_7a",
+        vehicleName: "JH-7A",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l111_jh_7a_prototype",
+        vehicleId: "jh_7a_prototype",
+        vehicleName: "JH-7A Prototype",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l111_su_30mkk",
+        vehicleId: "su_30mkk",
+        vehicleName: "␗Su-30MKK",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "yj_91_l111_jh_7a2",
+        vehicleId: "jh_7a2",
+        vehicleName: "JH-7A2",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "yj_91_l112",
+    designation: "YJ-91 L112",
+    category: "PRH",
+    family: "PRH",
+    icon: "arm-red-1",
+    projectileMassKg: 600,
+    guidance: "PRH",
+    band: ["D", "E", "F"],
+    lockRangeKm: 100,
+    launchRangeKm: 120,
+    maximumSpeedMach: 3.5,
+    missileGuidanceTimeS: 120,
+    explosiveType: "Hexal",
+    explosiveMassKg: 68.5,
+    tntEquivalentKg: 116.45,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "yj_91_l112_jh_7a",
+        vehicleId: "jh_7a",
+        vehicleName: "JH-7A",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l112_jh_7a_prototype",
+        vehicleId: "jh_7a_prototype",
+        vehicleName: "JH-7A Prototype",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l112_su_30mkk",
+        vehicleId: "su_30mkk",
+        vehicleName: "␗Su-30MKK",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "yj_91_l112_jh_7a2",
+        vehicleId: "jh_7a2",
+        vehicleName: "JH-7A2",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "yj_91_l113",
+    designation: "YJ-91 L113",
+    category: "PRH",
+    family: "PRH",
+    icon: "arm-green-1",
+    projectileMassKg: 600,
+    guidance: "PRH",
+    band: ["G", "H"],
+    lockRangeKm: 100,
+    launchRangeKm: 120,
+    maximumSpeedMach: 3.5,
+    missileGuidanceTimeS: 120,
+    explosiveType: "Hexal",
+    explosiveMassKg: 68.5,
+    tntEquivalentKg: 116.45,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "yj_91_l113_jh_7a",
+        vehicleId: "jh_7a",
+        vehicleName: "JH-7A",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l113_jh_7a_prototype",
+        vehicleId: "jh_7a_prototype",
+        vehicleName: "JH-7A Prototype",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "yj_91_l113_su_30mkk",
+        vehicleId: "su_30mkk",
+        vehicleName: "␗Su-30MKK",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "yj_91_l113_jh_7a2",
+        vehicleId: "jh_7a2",
+        vehicleName: "JH-7A2",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      }
+    ]
+  },
+  {
+    id: "ld_10",
+    designation: "LD-10",
+    category: "PRH",
+    family: "PRH+IOG",
+    icon: "arm-blue",
+    projectileMassKg: 234,
+    guidance: "PRH+IOG",
+    band: ["E", "F", "G", "H", "I", "J"],
+    lockRangeKm: 100,
+    launchRangeKm: 60,
+    maximumSpeedMach: 4,
+    missileGuidanceTimeS: 80,
+    explosiveType: "DHL-1",
+    explosiveMassKg: 12,
+    tntEquivalentKg: 15.6,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "ld_10_su_30mkk",
+        vehicleId: "su_30mkk",
+        vehicleName: "␗Su-30MKK",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "ld_10_j_10a",
+        vehicleId: "j_10a",
+        vehicleName: "J-10A",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "ld_10_j_11b",
+        vehicleId: "j_11b",
+        vehicleName: "J-11B",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "ld_10_jf_17",
+        vehicleId: "jf_17",
+        vehicleName: "JF-17",
+        vehicleTechTree: "China",
+        vehicleOperator: "Pakistan",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "ld_10_j_10c",
+        vehicleId: "j_10c",
+        vehicleName: "J-10C",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "ld_10_j_15t",
+        vehicleId: "j_15t",
+        vehicleName: "J-15T",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "cm_102",
+    designation: "CM-102",
+    category: "PRH",
+    family: "PRH+IOG",
+    icon: "arm-red",
+    projectileMassKg: 350,
+    guidance: "PRH+IOG",
+    band: ["E", "F", "G", "H", "I", "J"],
+    lockRangeKm: 100,
+    launchRangeKm: 100,
+    maximumSpeedMach: 3.5,
+    missileGuidanceTimeS: 240,
+    explosiveType: "DHL-1",
+    explosiveMassKg: 60,
+    tntEquivalentKg: 78,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "cm_102_j_10a",
+        vehicleId: "j_10a",
+        vehicleName: "J-10A",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.7",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "cm_102_jh_7a2",
+        vehicleId: "jh_7a2",
+        vehicleName: "JH-7A2",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.0",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "cm_102_j_11b",
+        vehicleId: "j_11b",
+        vehicleName: "J-11B",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "cm_102_jf_17",
+        vehicleId: "jf_17",
+        vehicleName: "JF-17",
+        vehicleTechTree: "China",
+        vehicleOperator: "Pakistan",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "13.3",
+          RB: "13.3",
+          SB: "13.3"
+        }
+      },
+      {
+        id: "cm_102_j_10c",
+        vehicleId: "j_10c",
+        vehicleName: "J-10C",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "cm_102_j_15t",
+        vehicleId: "j_15t",
+        vehicleName: "J-15T",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "yj_91a",
+    designation: "YJ-91A",
+    category: "PRH",
+    family: "PRH",
+    icon: "arm-yellow-1",
+    projectileMassKg: 600,
+    guidance: "PRH",
+    band: ["D", "E", "F", "G", "H", "I"],
+    lockRangeKm: 100,
+    launchRangeKm: 120,
+    maximumSpeedMach: 3.5,
+    missileGuidanceTimeS: 120,
+    explosiveType: "Hexal",
+    explosiveMassKg: 68.5,
+    tntEquivalentKg: 116.45,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "yj_91a_j_11b",
+        vehicleId: "j_11b",
+        vehicleName: "J-11B",
+        vehicleTechTree: "China",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "13.7",
+          SB: "13.7"
+        }
+      },
+      {
+        id: "yj_91a_j_10c",
+        vehicleId: "j_10c",
+        vehicleName: "J-10C",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.3",
+          RB: "14.3",
+          SB: "14.3"
+        }
+      },
+      {
+        id: "yj_91a_j_15t",
+        vehicleId: "j_15t",
+        vehicleName: "J-15T",
+        vehicleTechTree: "China",
+        vehicleRank: "IX",
+        vehicleBr: {
+          AB: "14.7",
+          RB: "14.7",
+          SB: "14.7"
+        }
+      }
+    ]
+  },
+  {
+    id: "as_37",
+    designation: "AS-37 ARMAT",
+    category: "PRH",
+    family: "PRH",
+    icon: "arm-blue",
+    projectileMassKg: 532,
+    guidance: "PRH",
+    band: ["C", "D", "E", "F", "G", "H", "I"],
+    lockRangeKm: 150,
+    launchRangeKm: 150,
+    maximumSpeedMach: 2,
+    missileGuidanceTimeS: 400,
+    explosiveType: "RDX",
+    explosiveMassKg: 119,
+    tntEquivalentKg: 190.4,
+    warhead: "HE",
+    vehicles: [
+      {
+        id: "as_37_mirage_2000c_s5",
+        vehicleId: "mirage_2000c_s5",
+        vehicleName: "Mirage 2000C-S5",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.7"
+        }
+      },
+      {
+        id: "as_37_mirage_4000",
+        vehicleId: "mirage_4000",
+        vehicleName: "Mirage 4000",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "13.0",
+          SB: "13.0"
+        }
+      },
+      {
+        id: "as_37_mirage_2000d_r1",
+        vehicleId: "mirage_2000d_r1",
+        vehicleName: "Mirage 2000D-R1",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
+          RB: "12.3",
+          SB: "12.3"
+        }
+      },
+      {
+        id: "as_37_mirage_2000c_s4",
+        vehicleId: "mirage_2000c_s4",
+        vehicleName: "Mirage 2000C-S4",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.3",
           RB: "12.3",
           SB: "12.3"
         }

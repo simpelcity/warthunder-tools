@@ -18,6 +18,8 @@ type VehicleFilter = 'All' | string;
 type OperatorFilter = 'All' | string;
 type TechTreeFilter = 'All' | string;
 type SamFilter = 'All' | string;
+type SortBy = 'name' | 'vehicleCount';
+type SortDirection = 'asc' | 'desc';
 
 type SamFilters = {
   family: FamilyFilter;
@@ -42,6 +44,8 @@ const DEFAULT_FILTERS: SamFilters = {
 };
 
 export default function Sams() {
+  const [sortBy, setSortBy] = useState<SortBy>('name');
+  const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
   const [activeSamId, setActiveSamId] = useState<string | null>(null);
   const [activeSamPlacement, setActiveSamPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<SamVehicle | null>(null);
@@ -259,6 +263,18 @@ export default function Sams() {
       return designation.includes(query) || id.includes(query);
     });
   }, [filteredSams, samListSearch]);
+
+  const sortedSams = useMemo(() => {
+    const direction = sortDirection === 'asc' ? 1 : -1;
+
+    return [...displayedSams].sort((firstSam, secondSam) => {
+      if (sortBy === 'name') {
+        return firstSam.designation.localeCompare(secondSam.designation) * direction;
+      }
+
+      return (firstSam.vehicles.length - secondSam.vehicles.length) * direction;
+    });
+  }, [displayedSams, sortBy, sortDirection]);
 
   const previewFilteredSamsCount = useMemo(
     () => samMissiles.filter((sam) => samMatchesFilters(sam, draftFilters)).length,
@@ -956,10 +972,20 @@ export default function Sams() {
             className="sams-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
+          <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+            <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort SAMs by" style={{ maxWidth: '220px' }}>
+              <option value="name">Missile name</option>
+              <option value="vehicleCount">Vehicle count</option>
+            </Form.Select>
+            <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === 'asc' ? 'desc' : 'asc')}>
+              {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+            </Button>
+          </div>
+
           <p className="text-muted mb-3">{displayedSams.length} results</p>
 
           <div className="d-flex flex-column row-gap-4 spaa-sams-row">
-            {displayedSams.map((sam) => (
+            {sortedSams.map((sam) => (
               <OverlayTrigger key={sam.id} trigger="click" placement={activeSamPlacement} show={activeSamId === sam.id} overlay={popover(sam)} rootClose onToggle={(nextShow) => {
                 if (!nextShow && activeSamId === sam.id) {
                   setActiveSamId(null);
@@ -1166,10 +1192,20 @@ export default function Sams() {
               className="sams-modal-search bg-transparent text-light border-2 shadow-none mb-3"
             />
 
+            <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+              <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort SAMs by" style={{ maxWidth: '220px' }}>
+                <option value="name">Missile name</option>
+                <option value="vehicleCount">Vehicle count</option>
+              </Form.Select>
+              <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === 'asc' ? 'desc' : 'asc')}>
+                {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+              </Button>
+            </div>
+
             <p className="text-muted mb-3">{displayedSams.length} results</p>
 
             <div className="d-flex flex-column row-gap-4 spaa-sams-row">
-              {displayedSams.map((sam) => (
+              {sortedSams.map((sam) => (
                 <OverlayTrigger key={sam.id} trigger="click" placement={activeSamPlacement} show={activeSamId === sam.id} overlay={popover(sam)} rootClose onToggle={(nextShow) => {
                   if (!nextShow && activeSamId === sam.id) {
                     setActiveSamId(null);

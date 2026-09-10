@@ -20,6 +20,8 @@ type VehicleFilter = 'All' | string;
 type OperatorFilter = 'All' | string;
 type TechTreeFilter = 'All' | string;
 type ArmFilter = 'All' | string;
+type SortBy = 'name' | 'vehicleCount';
+type SortDirection = 'asc' | 'desc';
 
 type ArmFilters = {
   category: CategoryFilter;
@@ -46,6 +48,8 @@ const DEFAULT_FILTERS: ArmFilters = {
 };
 
 export default function Arms() {
+  const [sortBy, setSortBy] = useState<SortBy>('name');
+  const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
   const [activeArmId, setActiveArmId] = useState<string | null>(null);
   const [activeArmPlacement, setActiveArmPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<BaseArmVehicle | null>(null);
@@ -279,6 +283,18 @@ export default function Arms() {
       return designation.includes(query) || id.includes(query);
     });
   }, [filteredArms, armListSearch]);
+
+  const sortedArms = useMemo(() => {
+    const direction = sortDirection === 'asc' ? 1 : -1;
+
+    return [...displayedArms].sort((firstArm, secondArm) => {
+      if (sortBy === 'name') {
+        return firstArm.designation.localeCompare(secondArm.designation) * direction;
+      }
+
+      return (firstArm.vehicles.length - secondArm.vehicles.length) * direction;
+    });
+  }, [displayedArms, sortBy, sortDirection]);
 
   const previewFilteredArmsCount = useMemo(
     () => armMissiles.filter((arm) => armMatchesFilters(arm, draftFilters)).length,
@@ -912,6 +928,16 @@ export default function Arms() {
             className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
+          <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+            <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort ARMs by" style={{ maxWidth: '220px' }}>
+              <option value="name">Missile name</option>
+              <option value="vehicleCount">Vehicle count</option>
+            </Form.Select>
+            <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === 'asc' ? 'desc' : 'asc')}>
+              {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+            </Button>
+          </div>
+
           {(draftFilters.arm === 'All' && draftFilters.br === 'All' && draftFilters.category === 'All' && draftFilters.family === 'All' && draftFilters.operator === 'All' && draftFilters.rank === 'All' && draftFilters.techTree === 'All' && draftFilters.variant === 'All' && draftFilters.vehicle === 'All') ? (
             <p className="text-muted mb-3">{displayedArms.length} result{displayedArms.length > 1 ? 's' : ''}</p>
           ) : (
@@ -941,7 +967,7 @@ export default function Arms() {
           )}
 
           <div className="d-flex flex-column row-gap-4 plane-aams-row">
-            {displayedArms.map((arm) => (
+            {sortedArms.map((arm) => (
               <OverlayTrigger key={arm.id} trigger="click" placement={activeArmPlacement} show={activeArmId === arm.id} overlay={popover(arm)} rootClose onToggle={(nextShow) => {
                 if (!nextShow && activeArmId === arm.id) {
                   setActiveArmId(null);
@@ -1120,6 +1146,16 @@ export default function Arms() {
               className="aams-modal-search bg-transparent text-light border-2 shadow-none mb-3"
             />
 
+            <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+              <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort ARMs by" style={{ maxWidth: '220px' }}>
+                <option value="name">Missile name</option>
+                <option value="vehicleCount">Vehicle count</option>
+              </Form.Select>
+              <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === 'asc' ? 'desc' : 'asc')}>
+                {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+              </Button>
+            </div>
+
             {(draftFilters.arm === 'All' && draftFilters.br === 'All' && draftFilters.category === 'All' && draftFilters.family === 'All' && draftFilters.operator === 'All' && draftFilters.rank === 'All' && draftFilters.techTree === 'All' && draftFilters.variant === 'All' && draftFilters.vehicle === 'All') ? (
               <p className="text-muted mb-3">{displayedArms.length} result{displayedArms.length > 1 ? 's' : ''}</p>
             ) : (
@@ -1150,7 +1186,7 @@ export default function Arms() {
 
 
             <div className="d-flex flex-column row-gap-4 plane-aams-row">
-              {displayedArms.map((arm) => (
+              {sortedArms.map((arm) => (
                 <OverlayTrigger key={arm.id} trigger="click" placement={activeArmPlacement} show={activeArmId === arm.id} overlay={popover(arm)} rootClose onToggle={(nextShow) => {
                   if (!nextShow && activeArmId === arm.id) {
                     setActiveArmId(null);

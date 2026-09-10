@@ -20,6 +20,8 @@ type VehicleFilter = "All" | string;
 type OperatorFilter = "All" | string;
 type TechTreeFilter = "All" | string;
 type ShellFilter = "All" | string;
+type SortBy = "name" | "vehicleCount";
+type SortDirection = "asc" | "desc";
 
 type ShellFilters = {
   category: CategoryFilter;
@@ -46,6 +48,8 @@ const DEFAULT_FILTERS: ShellFilters = {
 };
 
 export default function Shells() {
+  const [sortBy, setSortBy] = useState<SortBy>("name");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
   const [activeShellId, setActiveShellId] = useState<string | null>(null);
   const [activeShellPlacement, setActiveShellPlacement] = useState<'top-start' | 'bottom-start' | 'auto'>('auto');
   const [vehicle, setVehicle] = useState<TankShellPerformance | null>(null);
@@ -400,6 +404,18 @@ export default function Shells() {
     });
   }, [filteredShells, shellListSearch]);
 
+  const sortedShells = useMemo(() => {
+    const direction = sortDirection === "asc" ? 1 : -1;
+
+    return [...displayedShells].sort((firstShell, secondShell) => {
+      if (sortBy === "name") {
+        return firstShell.designation.localeCompare(secondShell.designation) * direction;
+      }
+
+      return (firstShell.performances.length - secondShell.performances.length) * direction;
+    });
+  }, [displayedShells, sortBy, sortDirection]);
+
   const getPopoverPerformances = (shell: TankShellDefinition) => {
     let performances: TankShellPerformance[] = [...shell.performances];
     const selectedRank = appliedFilters.rank === "All" ? null : appliedFilters.rank;
@@ -633,6 +649,13 @@ export default function Shells() {
     setShowBrs(false);
   }
 
+  function getVehicleIcons(vehicleId: string | undefined) {
+    if (vehicleId === "germ_leopard_2a5_yt_cup_2019") return "germ_leopard_2a5"
+    if (vehicleId === "uk_challenger_ii_yt_cup_2019") return "uk_challenger_ii"
+    if (vehicleId === "ussr_t_80u_yt_cup_2019") return "ussr_t_80u"
+    return vehicleId
+  }
+
   const popover = (shell: TankShellDefinition) => (
     <Popover id="shell-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
@@ -664,7 +687,7 @@ export default function Shells() {
           <Dropdown className="vehicle-dropdown" onToggle={(nextShow) => setIsVehicleDropdownOpen(nextShow)}>
             <Dropdown.Toggle variant="transparent" className="border-0 p-0 d-flex align-items-center gap-1">
             
-              <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={36} />
+              <Image src={`https://static.encyclopedia.warthunder.com/icons/${getVehicleIcons(vehicle?.vehicleId)}_ico.svg`} height={36} />
               
               {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} height={24} />}
               <span className="font-wt">{vehicle?.vehicleName}</span>
@@ -687,7 +710,7 @@ export default function Shells() {
               </Dropdown.Item>
               {getPopoverPerformances(shell).map((vehicle) => (
                 <Dropdown.Item key={vehicle.id} className="d-flex" onClick={() => setVehicle(vehicle)} id={vehicle.id}>
-                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${vehicle?.vehicleId}_ico.svg`} height={26} className="me-1" />
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${getVehicleIcons(vehicle?.vehicleId)}_ico.svg`} height={26} className="me-1" />
 
                   {vehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: vehicle.vehicleTechTree, vehicleOperator: vehicle.vehicleOperator })} width={27} className="me-1" />}
                   <span className="font-wt">{vehicle.vehicleName}</span>
@@ -1222,7 +1245,7 @@ export default function Shells() {
                     className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleVehicleSelect(option.name)}
                   >
-                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${getVehicleIcons(option?.vehicleId)}_ico.svg`} height={24} />
 
                     {getVehicleFilterIcon(option.name) && (
                       <Image src={getVehicleFilterIcon(option.name) ?? ""} width={20} height={20} alt="Vehicle operator" />
@@ -1692,10 +1715,20 @@ export default function Shells() {
                 className="shells-modal-search bg-transparent text-light border-2 shadow-none mb-3"
               />
 
+              <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+                <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort shells by" style={{ maxWidth: "220px" }}>
+                  <option value="name">Shell name</option>
+                  <option value="vehicleCount">Vehicle count</option>
+                </Form.Select>
+                <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === "asc" ? "desc" : "asc")}>
+                  {sortDirection === "asc" ? "Ascending" : "Descending"}
+                </Button>
+              </div>
+
               <p className="text-muted mb-3">{displayedShells.length} results</p>
 
               <div className="d-flex flex-column row-gap-3 tank-shells-row">
-                {displayedShells.map((shell: TankShellDefinition) => (
+                {sortedShells.map((shell: TankShellDefinition) => (
                   <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
                     if (!nextShow && activeShellId === shell.id) {
                       setActiveShellId(null)
@@ -1835,7 +1868,7 @@ export default function Shells() {
                     className="text-start font-wt d-flex align-items-center column-gap-2"
                     onClick={() => handleVehicleSelect(option.name)}
                   >
-                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${option?.vehicleId}_ico.svg`} height={24} />
+                    <Image src={`https://static.encyclopedia.warthunder.com/icons/${getVehicleIcons(option?.vehicleId)}_ico.svg`} height={24} />
 
                     {getVehicleFilterIcon(option.name) && (
                       <Image src={getVehicleFilterIcon(option.name) ?? ""} width={20} height={20} alt="Vehicle operator" />
@@ -2021,8 +2054,18 @@ export default function Shells() {
             className="shells-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
+          <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+            <Form.Select value={sortBy} onChange={(event) => setSortBy(event.target.value as SortBy)} aria-label="Sort shells by" style={{ maxWidth: "220px" }}>
+              <option value="name">Shell name</option>
+              <option value="vehicleCount">Vehicle count</option>
+            </Form.Select>
+            <Button variant="outline-primary" onClick={() => setSortDirection((current) => current === "asc" ? "desc" : "asc")}>
+              {sortDirection === "asc" ? "Ascending" : "Descending"}
+            </Button>
+          </div>
+
           <div className="d-flex flex-column row-gap-3 tank-shells-row">
-          {displayedShells.map((shell: TankShellDefinition) => (
+          {sortedShells.map((shell: TankShellDefinition) => (
             <OverlayTrigger key={shell.id} trigger="click" placement={activeShellPlacement} show={activeShellId === shell.id} overlay={popover(shell)} rootClose onToggle={(nextShow) => {
               if (!nextShow && activeShellId === shell.id) {
                 setActiveShellId(null)

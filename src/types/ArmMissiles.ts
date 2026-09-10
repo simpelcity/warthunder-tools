@@ -12,7 +12,7 @@ export type ArmBand = "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J";
 
 export type ArmShootdown = "All-Aspects";
 
-export type ArmExplosiveType = "PBXN-107" | "PBXN-110" | "HMX" | "TGAF-5M" | "TG-40" | "Hexal" | "RDX" | "PBXN-9";
+export type ArmExplosiveType = "PBXN-107" | "PBXN-110" | "HMX" | "TGAF-5M" | "TG-40" | "Hexal" | "RDX" | "PBXN-9" | "DHL-1";
 
 export type ArmWarhead = "HE";
 

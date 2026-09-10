@@ -3,7 +3,7 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { FaArrowLeftLong, FaAngleDown, FaCircleCheck, FaCircleXmark } from 'react-icons/fa6'
 import { FiSliders } from 'react-icons/fi'
 import { aamMissiles } from '@/data/AamMissiles'
-import type { AamDefinition, BaseAamVehicle, Aam, AamMissileVariant, Rank, BR } from '@/types/AamMissiles'
+import type { AamDefinition, BaseAamVehicle, Aam, AamMissileVariant, IRAam, Rank, BR } from '@/types/AamMissiles'
 import '@/styles/pages/Aams.scss'
 import { getAamIconPath } from '@/constants/AamMissileIcons'
 import { getAamVariantName } from '@/constants/AamMissileVariantNames'
@@ -20,7 +20,7 @@ type BRFilter = 'All' | BR;
 type VehicleFilter = 'All' | string;
 type OperatorFilter = 'All' | string;
 type TechTreeFilter = 'All' | string;
-type AamFilter = 'All' | string;
+type CageFilter = 'All' | IRAam;
 
 type AamFilters = {
   category: CategoryFilter;
@@ -31,7 +31,7 @@ type AamFilters = {
   vehicle: VehicleFilter;
   operator: OperatorFilter;
   techTree: TechTreeFilter;
-  aam: AamFilter;
+  cage: CageFilter;
 };
 
 const DEFAULT_FILTERS: AamFilters = {
@@ -43,8 +43,11 @@ const DEFAULT_FILTERS: AamFilters = {
   vehicle: 'All',
   operator: 'All',
   techTree: 'All',
-  aam: 'All',
+  cage: 'All',
 };
+
+type SortBy = 'name' | 'vehicleCount';
+type SortDirection = 'asc' | 'desc';
 
 export default function Aams() {
   const [activeAamId, setActiveAamId] = useState<string | null>(null);
@@ -62,7 +65,6 @@ export default function Aams() {
   const [vehicleSearch, setVehicleSearch] = useState('');
   const [operatorSearch, setOperatorSearch] = useState('');
   const [techTreeSearch, setTechTreeSearch] = useState('');
-  const [aamSearch, setAamSearch] = useState('');
   const [variantSearch, setVariantSearch] = useState('');
   const [brSearch, setBrSearch] = useState('');
   const [aamListSearch, setAamListSearch] = useState('');
@@ -70,7 +72,6 @@ export default function Aams() {
   const [showVehiclePicker, setShowVehiclePicker] = useState(false);
   const [showOperatorPicker, setShowOperatorPicker] = useState(false);
   const [showTechTreePicker, setShowTechTreePicker] = useState(false);
-  const [showAamPicker, setShowAamPicker] = useState(false);
   const [showVariantPicker, setShowVariantPicker] = useState(false);
   const [showBrPicker, setShowBrPicker] = useState(false);
   const [showMoreCategoryDesktop, setShowMoreCategoryDesktop] = useState(false);
@@ -79,6 +80,9 @@ export default function Aams() {
 
   const [appliedFilters, setAppliedFilters] = useState<AamFilters>(DEFAULT_FILTERS);
   const [draftFilters, setDraftFilters] = useState<AamFilters>(DEFAULT_FILTERS);
+
+  const [sortBy, setSortBy] = useState<SortBy>('name');
+  const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
 
   const formatVehicleName = (name?: string | null, vehicleId?: string | null) => {
     if (!name) return name;
@@ -100,7 +104,7 @@ export default function Aams() {
     if (filters.category !== 'All' && aam.category !== filters.category) return false;
     if (filters.family !== 'All' && aam.family !== filters.family) return false;
     if (filters.variant !== 'All' && aam.variant !== filters.variant) return false;
-    if (filters.aam !== 'All' && aam.id !== filters.aam) return false;
+    if (filters.cage !== 'All' && (aam.category !== 'IR' || aam.guidanceCage !== filters.cage)) return false;
 
     return aam.vehicles.some((aamVehicle) => {
       if (filters.rank !== 'All' && aamVehicle.vehicleRank !== filters.rank) return false;
@@ -215,24 +219,11 @@ export default function Aams() {
     return ['All', ...values] as string[];
   }, [draftFilters.rank, draftFilters.br, draftFilters.vehicle, draftFilters.techTree]);
 
-  const aamLabels = useMemo(() => new Map(aamMissiles.map((aam) => [aam.id, aam.designation])), []);
-
-  const aamOptions = useMemo(() => {
-    const baseFilters: AamFilters = { ...draftFilters, aam: 'All' };
-    const values = aamMissiles
-      .filter((aam) => aamMatchesFilters(aam, baseFilters))
-      .map((aam) => aam.id)
-      .sort((a, b) => (aamLabels.get(a) ?? a).localeCompare(aamLabels.get(b) ?? b));
-
-    return ['All', ...values];
-  }, [draftFilters, aamLabels]);
-
   const quickVehicleOptions = useMemo(() => vehicleOptions.filter((option) => option.name !== 'All').slice(0, 3), [vehicleOptions]);
   const quickOperatorOptions = useMemo(() => operatorOptions.filter((option) => option !== 'All').slice(0, 3), [operatorOptions]);
   const quickTechTreeOptions = useMemo(() => techTreeOptions.filter((option) => option !== 'All').slice(0, 3), [techTreeOptions]);
   const quickVariantOptions = useMemo(() => variantOptions.filter((option) => option !== 'All').slice(0, 3), [variantOptions]);
   const quickBrOptions = useMemo(() => brOptions.filter((option) => option !== 'All').slice(0, 3), [brOptions]);
-  const quickAamOptions = useMemo(() => aamOptions.filter((option) => option !== 'All').slice(0, 3), [aamOptions]);
 
   const searchableVehicleOptions = useMemo(() => {
     const query = vehicleSearch.trim().toLowerCase();
@@ -259,15 +250,6 @@ export default function Aams() {
     return brOptions.filter((option) => option !== 'All' && (!query || String(option).toLowerCase().includes(query)));
   }, [brOptions, brSearch]);
 
-  const searchableAamOptions = useMemo(() => {
-    const query = aamSearch.trim().toLowerCase();
-    return aamOptions.filter((option) => {
-      if (option === 'All') return false;
-      const label = (aamLabels.get(option) ?? option).toLowerCase();
-      return !query || label.includes(query);
-    });
-  }, [aamOptions, aamSearch, aamLabels]);
-
   const filteredAams = useMemo(() => aamMissiles.filter((aam) => aamMatchesFilters(aam, appliedFilters)), [appliedFilters]);
 
   const displayedAams = useMemo(() => {
@@ -280,6 +262,18 @@ export default function Aams() {
       return designation.includes(query) || id.includes(query);
     });
   }, [filteredAams, aamListSearch]);
+
+  const sortedAams = useMemo(() => {
+    const direction = sortDirection === 'asc' ? 1 : -1;
+
+    return [...displayedAams].sort((firstAam, secondAam) => {
+      if (sortBy === 'name') {
+        return firstAam.designation.localeCompare(secondAam.designation) * direction;
+      }
+
+      return (firstAam.vehicles.length - secondAam.vehicles.length) * direction;
+    });
+  }, [displayedAams, sortBy, sortDirection]);
 
   const previewFilteredAamsCount = useMemo(
     () => aamMissiles.filter((aam) => aamMatchesFilters(aam, draftFilters)).length,
@@ -295,7 +289,7 @@ export default function Aams() {
     draftFilters.vehicle !== appliedFilters.vehicle ||
     draftFilters.operator !== appliedFilters.operator ||
     draftFilters.techTree !== appliedFilters.techTree ||
-    draftFilters.aam !== appliedFilters.aam;
+    draftFilters.cage !== appliedFilters.cage;
 
   const vehicleIconByName = useMemo(() => {
     const matches = aamMissiles.flatMap((aam) =>
@@ -359,11 +353,6 @@ export default function Aams() {
     return getCountryIcons({ vehicleTechTree: option as NonNullable<BaseAamVehicle['vehicleTechTree']> });
   };
 
-  const getAamFilterLabel = (option: AamFilter) => {
-    if (option === 'All') return 'All';
-    return aamLabels.get(option) ?? option;
-  };
-
   const getVisibleOptions = (options: string[], showAll: boolean) => {
     return showAll ? options : options.slice(0, 3);
   };
@@ -405,7 +394,6 @@ export default function Aams() {
       vehicle: 'All',
       operator: 'All',
       techTree: 'All',
-      aam: 'All',
     }));
   };
 
@@ -415,7 +403,6 @@ export default function Aams() {
       ...current,
       family: eventKey as FamilyFilter,
       variant: 'All',
-      aam: 'All',
     }));
   };
 
@@ -461,10 +448,9 @@ export default function Aams() {
     setShowTechTreePicker(false);
   };
 
-  const handleAamSelect = (eventKey: string | null) => {
+  const handleCageSelect = (eventKey: string | null) => {
     if (!eventKey) return;
-    setDraftFilters((current) => ({ ...current, aam: eventKey as AamFilter }));
-    setShowAamPicker(false);
+    setDraftFilters((current) => ({ ...current, cage: eventKey as CageFilter }));
   };
 
   const handleOpenVariantPicker = () => {
@@ -490,11 +476,6 @@ export default function Aams() {
   const handleOpenTechTreePicker = () => {
     setTechTreeSearch('');
     setShowTechTreePicker(true);
-  };
-
-  const handleOpenAamPicker = () => {
-    setAamSearch('');
-    setShowAamPicker(true);
   };
 
   const handleCloseFiltersMobile = () => {
@@ -563,13 +544,6 @@ export default function Aams() {
     setActiveAamId(aamId);
     setShow(false);
     setShowBrs(false);
-  }
-
-  function getAamDesignation(aamId: string): any {
-    if (!aamId) return;
-
-    const aam = aamMissiles.find((row) => row.id === aamId);
-    return aam?.designation;
   }
 
   const popover = (aam: AamDefinition) => (
@@ -962,13 +936,11 @@ export default function Aams() {
                 </div>
 
                 <div className="d-flex flex-column row-gap-2">
-                  <span className="fw-semibold">AAM: {getAamFilterLabel(draftFilters.aam)}</span>
+                  <span className="fw-semibold">Cage: {draftFilters.cage}</span>
                   <div className="d-flex flex-wrap gap-2">
-                    <Button variant={draftFilters.aam === 'All' ? 'primary' : 'outline-secondary'} onClick={() => handleAamSelect('All')}>All</Button>
-                    {quickAamOptions.map((option) => (
-                      <Button key={option} variant={draftFilters.aam === option ? 'primary' : 'outline-secondary'} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</Button>
+                    {(['All', 'Caged', 'Uncaged'] as CageFilter[]).map((option) => (
+                      <Button key={option} variant={draftFilters.cage === option ? 'primary' : 'outline-secondary'} onClick={() => handleCageSelect(option)}>{option}</Button>
                     ))}
-                    {aamOptions.length > 4 && <Button variant="secondary" onClick={handleOpenAamPicker}>More</Button>}
                   </div>
                 </div>
                 
@@ -988,13 +960,36 @@ export default function Aams() {
             className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none mb-2"
           />
 
-          {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+          <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+            <Form.Select
+              value={sortBy}
+              onChange={(event) => setSortBy(event.target.value as SortBy)}
+              aria-label="Sort AAMs by"
+              style={{ maxWidth: '220px' }}
+            >
+              <option value="name">Name</option>
+              <option value="vehicleCount">Vehicles</option>
+            </Form.Select>
+
+            <Button
+              variant="outline-primary"
+              onClick={() =>
+                setSortDirection((current) =>
+                  current === 'asc' ? 'desc' : 'asc'
+                )
+              }
+            >
+              {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+            </Button>
+          </div>
+
+          {(draftFilters.cage === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
             <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
           ) : (
             <>
-              {(draftFilters.aam !== "All") ? (
+              {(draftFilters.cage !== "All") ? (
                 <>
-                  <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                  <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Cage: {draftFilters.cage}</p>
                 </>
               ) : (draftFilters.br !== "All") ? (
                 <>
@@ -1037,7 +1032,7 @@ export default function Aams() {
           )}
 
           <div className="d-flex flex-column row-gap-4 plane-aams-row">
-            {displayedAams.map((aam) => (
+            {sortedAams.map((aam) => (
               <OverlayTrigger key={aam.id} trigger="click" placement={activeAamPlacement} show={activeAamId === aam.id} overlay={popover(aam)} rootClose onToggle={(nextShow) => {
                 if (!nextShow && activeAamId === aam.id) {
                   setActiveAamId(null);
@@ -1169,14 +1164,12 @@ export default function Aams() {
               </div>
 
               <div className="aams-sidebar-section">
-                <h5 className="aams-sidebar-title">AAM</h5>
+                <h5 className="aams-sidebar-title">Cage</h5>
                 <div className="aams-sidebar-options">
-                  <button type="button" className={`aams-sidebar-option ${draftFilters.aam === 'All' ? 'is-active' : ''}`} onClick={() => handleAamSelect('All')}>All</button>
-                  {quickAamOptions.map((option) => (
-                    <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.aam === option ? 'is-active' : ''}`} onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</button>
+                  {(['All', 'Caged', 'Uncaged'] as CageFilter[]).map((option) => (
+                    <button key={option} type="button" className={`aams-sidebar-option ${draftFilters.cage === option ? 'is-active' : ''}`} onClick={() => handleCageSelect(option)}>{option}</button>
                   ))}
                 </div>
-                {aamOptions.length > 4 && <button type="button" className="aams-sidebar-more" onClick={handleOpenAamPicker}>More</button>}
               </div>
             </div>
 
@@ -1216,13 +1209,36 @@ export default function Aams() {
               className="aams-modal-search bg-transparent text-light border-2 shadow-none mb-3"
             />
 
-            {(draftFilters.aam === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
+              <div className="d-flex flex-wrap align-items-center gap-2 mb-3">
+                <Form.Select
+                  value={sortBy}
+                  onChange={(event) => setSortBy(event.target.value as SortBy)}
+                  aria-label="Sort AAMs by"
+                  style={{ maxWidth: '220px' }}
+                >
+                  <option value="name">Name</option>
+                  <option value="vehicleCount">Vehicles</option>
+                </Form.Select>
+
+                <Button
+                  variant="outline-primary"
+                  onClick={() =>
+                    setSortDirection((current) =>
+                      current === 'asc' ? 'desc' : 'asc'
+                    )
+                  }
+                >
+                  {sortDirection === 'asc' ? 'Ascending' : 'Descending'}
+                </Button>
+              </div>
+
+            {(draftFilters.cage === "All" && draftFilters.br === "All" && draftFilters.category === "All" && draftFilters.family === "All" && draftFilters.operator === "All" && draftFilters.rank === "All" && draftFilters.techTree === "All" && draftFilters.variant === "All" && draftFilters.vehicle === "All") ? (
               <p className="text-muted mb-3">{displayedAams.length} result{displayedAams.length > 1 ? "s" : ""}</p>
             ) : (
               <>
-                {(draftFilters.aam !== "All") ? (
+                {(draftFilters.cage !== "All") ? (
                   <>
-                    <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for: {getAamDesignation(draftFilters.aam)}</p>
+                    <p className="text-muted mb-3">{previewFilteredAamsCount} result{previewFilteredAamsCount > 1 ? "s" : ""} for Cage: {draftFilters.cage}</p>
                   </>
                 ) : (draftFilters.br !== "All") ? (
                   <>
@@ -1266,7 +1282,7 @@ export default function Aams() {
 
 
             <div className="d-flex flex-column row-gap-4 plane-aams-row">
-              {displayedAams.map((aam) => (
+              {sortedAams.map((aam) => (
                 <OverlayTrigger key={aam.id} trigger="click" placement={activeAamPlacement} show={activeAamId === aam.id} overlay={popover(aam)} rootClose onToggle={(nextShow) => {
                   if (!nextShow && activeAamId === aam.id) {
                     setActiveAamId(null);
@@ -1376,19 +1392,6 @@ export default function Aams() {
             </Offcanvas.Body>
           </Offcanvas>
 
-          <Offcanvas show={showAamPicker} onHide={() => setShowAamPicker(false)} placement="start" className="w-100">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Select AAM</Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body className="d-flex flex-column row-gap-3">
-              <Form.Control type="search" placeholder="Search AAM..." value={aamSearch} onChange={(event) => setAamSearch(event.target.value)} className="aams-offcanvas-search bg-transparent text-light border-2 shadow-none" />
-              <div className="d-flex flex-column row-gap-2 overflow-auto">
-                {searchableAamOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.aam === option ? 'primary' : 'outline-secondary'} className="text-start" onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</Button>
-                ))}
-              </div>
-            </Offcanvas.Body>
-          </Offcanvas>
         </>
       ) : (
         <>
@@ -1477,19 +1480,6 @@ export default function Aams() {
             </Modal.Body>
           </Modal>
 
-          <Modal show={showAamPicker} onHide={() => setShowAamPicker(false)} centered scrollable>
-            <Modal.Header closeButton>
-              <Modal.Title>Select AAM</Modal.Title>
-            </Modal.Header>
-            <Modal.Body className="d-flex flex-column row-gap-3">
-              <Form.Control type="search" placeholder="Search AAM..." value={aamSearch} onChange={(event) => setAamSearch(event.target.value)} className="aams-modal-search bg-transparent text-light border-2 shadow-none" />
-              <div className="d-flex flex-column row-gap-2 overflow-auto">
-                {searchableAamOptions.map((option) => (
-                  <Button key={option} variant={draftFilters.aam === option ? 'primary' : 'outline-secondary'} className="text-start" onClick={() => handleAamSelect(option)}>{getAamFilterLabel(option)}</Button>
-                ))}
-              </div>
-            </Modal.Body>
-          </Modal>
         </>
       )}
     </Container>
