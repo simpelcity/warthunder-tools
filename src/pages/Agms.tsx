@@ -8,6 +8,7 @@ import '@/styles/pages/Aams.scss'
 import { getArmIconPath as getAgmIconPath } from '@/constants/AgmMissileIcons'
 import { getCountryIcons } from '@/constants/CountryIcons'
 import { formatVehicleNameWithNato } from '@/constants/NatoReportingNames'
+import { getAgmVariantName } from '@/constants/AgmMissileVariantNames'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
@@ -571,7 +572,7 @@ export default function Agms() {
   const popover = (agm: AgmDefinition) => (
     <Popover id="aam-popover" className={`${vehicle?.id}_popover`}>
       <Popover.Header className="d-inline-flex w-100 align-items-center border-0 px-3 pb-0 column-gap-2">
-        <div className="shell-icon position-relative overflow-hidden">
+        <div className="shell-icon position-relative">
           <div className="shell-icon_base position-absolute w-100 h-100 start-0 top-0 d-flex mw-100 align-items-center justify-content-center">
             <Image src={vehicle?.icon ? getAgmIconPath({ ...vehicle, icon: vehicle.icon }) : getAgmIconPath(agm)} alt="Air-to-Ground Missile icon" className="h-100 flex-grow-0 flex-shrink-1" />
           </div>
@@ -685,10 +686,10 @@ export default function Agms() {
             <span className="fw-bold">Guidance</span>
             {isMobile ? (
               <>
-                <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{agm.guidance}</span>
+                <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{agm.guidance === "Manual" ? "Manual (MCLOS)" : agm.guidance}</span>
                 <Overlay target={target} show={show} placement="top">
-                  <Tooltip id="overlay-name">{agm.guidance.split(/([+\s]+)/).map((part, index) =>
-                    /[+\s]+/.test(part) ? (
+                  <Tooltip id="overlay-name">{getAgmVariantName(agm.guidance).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
                       <span key={index} className="fw-normal text-muted">{part}</span>
                     ) : (
                       <span key={index} className="fw-bold">{part}</span>
@@ -698,14 +699,14 @@ export default function Agms() {
               </>
             ) : (
               <>
-                <OverlayTrigger overlay={<Tooltip id={agm.id}>{agm.guidance.split(/([+\s]+)/).map((part, index) =>
-                  /[+\s]+/.test(part) ? (
+                <OverlayTrigger overlay={<Tooltip id={agm.id}>{getAgmVariantName(agm.guidance).split(/([-\s]+)/).map((part, index) =>
+                  /[-+\s]+/.test(part) ? (
                     <span key={index} className="fw-normal text-muted">{part}</span>
                   ) : (
                     <span key={index} className="fw-bold">{part}</span>
                   )
                 )}</Tooltip>}>
-                  <span className="text-muted">{agm.guidance}</span>
+                  <span className="text-muted">{agm.guidance === "Manual" ? "Manual (MCLOS)" : agm.guidance}</span>
                 </OverlayTrigger>
               </>
             )}

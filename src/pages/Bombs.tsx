@@ -5,6 +5,7 @@ import { bombs } from '@/data/Bombs'
 import type { BombDefinition, BaseBombVehicle, Bomb, DumbBomb, GuidedBomb, Guidance, Rank, BR } from '@/types/Bombs'
 import { getCountryIcons } from '@/constants/CountryIcons'
 import { getAamIconPath } from '@/constants/BombIcons'
+import { getBombVariantName } from '@/constants/BombVariantNames'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320
 
@@ -52,6 +53,8 @@ export default function Bombs() {
   const [vehicle, setVehicle] = useState<BaseBombVehicle | null>(null)
   const [isMobile, setIsMobile] = useState(false)
   const [isVehicleDropdownOpen, setIsVehicleDropdownOpen] = useState(false)
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
   const [showBrs, setShowBrs] = useState(false)
   const targetBrs = useRef<HTMLDivElement | null>(null)
 
@@ -540,20 +543,39 @@ export default function Bombs() {
             <span className="fw-bold">Projectile Mass</span>
             <span className="text-muted">{bomb.projectileMassKg} kg</span>
           </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Category</span>
-            <span className="text-muted">{bomb.category}</span>
-          </li>
-          <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
-            <span className="fw-bold">Family</span>
-            <span className="text-muted">{bomb.family}</span>
-          </li>
+          
           {isGuidedBomb(bomb) && (
             <>
               <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
                 <span className="fw-bold">Guidance</span>
-                <span className="text-muted">{bomb.guidance}</span>
+                {isMobile ? (
+                  <>
+                    <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{bomb.guidance}</span>
+                    <Overlay target={target} show={show} placement="top">
+                      <Tooltip id="overlay-name">{getBombVariantName(bomb.guidance).split(/([-\s]+)/).map((part, index) =>
+                        /[-+\s]+/.test(part) ? (
+                          <span key={index} className="fw-normal text-muted">{part}</span>
+                        ) : (
+                          <span key={index} className="fw-bold">{part}</span>
+                        )
+                      )}</Tooltip>
+                    </Overlay>
+                  </>
+                ) : (
+                  <>
+                    <OverlayTrigger overlay={<Tooltip id={bomb.id}>{getBombVariantName(bomb.guidance).split(/([-\s]+)/).map((part, index) =>
+                      /[-+\s]+/.test(part) ? (
+                        <span key={index} className="fw-normal text-muted">{part}</span>
+                      ) : (
+                        <span key={index} className="fw-bold">{part}</span>
+                      )
+                    )}</Tooltip>}>
+                      <span className="text-muted">{bomb.guidance}</span>
+                    </OverlayTrigger>
+                  </>
+                )}
               </li>
+
               <li className="d-flex align-items-center justify-content-between flex-wrap pb-1 mb-1 border-bottom column-gap-2">
                 <span className="fw-bold">Guidance time</span>
                 <span className="text-muted">{bomb.guidanceTimeS} s</span>

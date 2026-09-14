@@ -507,7 +507,7 @@ export default function TankBelts() {
               </Dropdown.Item>
               {getPopoverVehicles(belt).map((beltVehicle) => (
                 <Dropdown.Item key={beltVehicle.id} className="d-flex align-items-center gap-1" onClick={() => setVehicle(beltVehicle)}>
-                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${beltVehicle.vehicleId}_ico.svg`} height={26} />
+                  <Image src={`https://static.encyclopedia.warthunder.com/icons/${beltVehicle.vehicleId.toLowerCase()}_ico.svg`} height={26} />
 
                   {beltVehicle?.vehicleTechTree && <Image src={getCountryIcons({ vehicleTechTree: beltVehicle.vehicleTechTree, vehicleOperator: beltVehicle.vehicleOperator })} width={27} />}
                   <span className="font-wt">{beltVehicle.vehicleName}</span>
