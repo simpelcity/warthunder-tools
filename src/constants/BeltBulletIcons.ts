@@ -7,7 +7,7 @@ const variantIconFile: Record<BeltBulletNames, string> = {
   "API-T": "bullet_cannon_red_blue_green.png",
   "HEI-T": "bullet_cannon_blue_yellow_green.png",
   "HEFI-T": "bullet_cannon_blue_yellow_green.png",
-  "HVAP-T": "bullet_gun_black_green.png",
+  "HVAP-T": "bullet_cannon_black_green.png",
   "APHE": "bullet_cannon_red_blue.png",
   "FI-T": "bullet_cannon_blue_yellow_green.png",
   "AP-I": "bullet_cannon_red_blue.png",

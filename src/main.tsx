@@ -9,7 +9,8 @@ import Aams from '@/pages/Aams'
 import Arms from '@/pages/Arms'
 import Agms from '@/pages/Agms'
 import Bombs from '@/pages/Bombs'
-import TankBelts from '@/src/pages/TankBelts'
+import TankBelts from '@/pages/TankBelts'
+import Rockets from '@/pages/Rockets'
 import '@/styles/globals.scss'
 
 const router = createBrowserRouter([
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: '/ammo/agms', element: <Agms /> },
       { path: '/ammo/bombs', element: <Bombs /> },
       { path: '/ammo/tank-belts', element: <TankBelts /> },
+      { path: '/ammo/rockets', element: <Rockets /> }
     ],
   },
 ]);
