@@ -216,17 +216,17 @@ const NATO_REPORTING_NAMES: Record<string, string | [string, string, string?] | 
   "J-7E": "Fishcan-D",
   "J-7II": "Fishcan-B",
 
-  "Mig-23M": "Flogger-B",
+  "MiG-23M": "Flogger-B",
   "◊MiG-23MF": "Flogger-B",
   "◊MiG-23MLA": "Flogger-G",
   "◔MiG-23MF": "Flogger-B",
-  "Mig-23ML": "Flogger-G",
-  "Mig-23MLD": "Flogger-K",
+  "MiG-23ML": "Flogger-G",
+  "MiG-23MLD": "Flogger-K",
 
-  "Mig-25PD": "Foxbat-E",
+  "MiG-25PD": "Foxbat-E",
 
-  "Mig-27K": "Flogger-J2",
-  "Mig-27M": "Flogger-J",
+  "MiG-27K": "Flogger-J2",
+  "MiG-27M": "Flogger-J",
 
   "MiG-29 (9-12)": "Fulcrum-A",
   "◊MiG-29 (9-12A)": "Fulcrum-A",
@@ -244,6 +244,7 @@ const NATO_REPORTING_NAMES: Record<string, string | [string, string, string?] | 
   "Su-22M3": "Fitter-J",
   "◔Su-22M3": "Fitter-J",
   "◄Su-22M4 WTD61": "Fitter-K",
+  "◊Su-22M4": "Fitter-K",
   "◊Su-22UM3K": "Fitter-G",
 
   "Su-24M": "Fencer-D",

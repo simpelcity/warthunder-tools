@@ -8,6 +8,7 @@ import '@/styles/pages/Aams.scss'
 import { getArmIconPath } from '@/constants/ArmMissileIcons'
 import { getCountryIcons } from '@/constants/CountryIcons'
 import { formatVehicleNameWithNato } from '@/constants/NatoReportingNames'
+import { getArmVariantName } from '@/constants/ArmMissileVariantNames'
 
 const MOBILE_POPOVER_HEIGHT_ESTIMATE = 320;
 
@@ -380,7 +381,7 @@ export default function Arms() {
   };
 
   const getVisibleOptions = (options: string[], showAll: boolean) => {
-    return showAll ? options : options.slice(0, 3);
+    return showAll ? options : options.slice(0, 4);
   };
 
   const getArmBrLabel = (armVehicle: BaseArmVehicle, mode: 'AB' | 'RB' | 'SB') => getVehicleBrByMode(armVehicle, mode) ?? 'N/A';
@@ -703,8 +704,8 @@ export default function Arms() {
               <>
                 <span className="text-muted" ref={target} onClick={() => setShow(!show)}>{arm.guidance}</span>
                 <Overlay target={target} show={show} placement="top">
-                  <Tooltip id="overlay-name">{arm.guidance.split(/([+\s]+)/).map((part, index) =>
-                    /[+\s]+/.test(part) ? (
+                  <Tooltip id="overlay-name">{getArmVariantName(arm.guidance).split(/([-\s]+)/).map((part, index) =>
+                    /[-+\s]+/.test(part) ? (
                       <span key={index} className="fw-normal text-muted">{part}</span>
                     ) : (
                       <span key={index} className="fw-bold">{part}</span>
@@ -714,8 +715,8 @@ export default function Arms() {
               </>
             ) : (
               <>
-                <OverlayTrigger overlay={<Tooltip id={arm.id}>{arm.guidance.split(/([+\s]+)/).map((part, index) =>
-                  /[+\s]+/.test(part) ? (
+                <OverlayTrigger overlay={<Tooltip id={arm.id}>{getArmVariantName(arm.guidance).split(/([-\s]+)/).map((part, index) =>
+                  /[-+\s]+/.test(part) ? (
                     <span key={index} className="fw-normal text-muted">{part}</span>
                   ) : (
                     <span key={index} className="fw-bold">{part}</span>

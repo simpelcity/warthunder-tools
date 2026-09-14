@@ -6137,7 +6137,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3r_mig-21_smt",
         vehicleId: "mig-21_smt",
-        vehicleName: "Mig-21SMT",
+        vehicleName: "MiG-21SMT",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6150,7 +6150,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3r_mig-21_bis",
         vehicleId: "mig-21_bis",
-        vehicleName: "Mig-21bis",
+        vehicleName: "MiG-21bis",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6353,7 +6353,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3s_mig-21_smt",
         vehicleId: "mig-21_smt",
-        vehicleName: "Mig-21SMT",
+        vehicleName: "MiG-21SMT",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6365,7 +6365,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3s_mig-21_bis",
         vehicleId: "mig-21_bis",
-        vehicleName: "Mig-21bis",
+        vehicleName: "MiG-21bis",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6377,7 +6377,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_3s_mig_23m",
         vehicleId: "mig_23m",
-        vehicleName: "Mig-23M",
+        vehicleName: "MiG-23M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6528,7 +6528,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig-21_bis",
         vehicleId: "mig-21_bis",
-        vehicleName: "Mig-21bis",
+        vehicleName: "MiG-21bis",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6540,7 +6540,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig_27m",
         vehicleId: "mig_27m",
-        vehicleName: "Mig-27M",
+        vehicleName: "MiG-27M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6552,7 +6552,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig_27k",
         vehicleId: "mig_27k",
-        vehicleName: "Mig-27K",
+        vehicleName: "MiG-27K",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6564,7 +6564,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig_23m",
         vehicleId: "mig_23m",
-        vehicleName: "Mig-23M",
+        vehicleName: "MiG-23M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6576,7 +6576,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6589,7 +6589,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_13m1_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -6753,7 +6753,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60_mig-21_smt",
         vehicleId: "mig-21_smt",
-        vehicleName: "Mig-21SMT",
+        vehicleName: "MiG-21SMT",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7245,7 +7245,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23r_mig_23m",
         vehicleId: "mig_23m",
-        vehicleName: "Mig-23M",
+        vehicleName: "MiG-23M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7257,7 +7257,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23r_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7269,7 +7269,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23r_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7344,7 +7344,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23t_mig_23m",
         vehicleId: "mig_23m",
-        vehicleName: "Mig-23M",
+        vehicleName: "MiG-23M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7356,7 +7356,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23t_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -7368,7 +7368,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_23t_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8069,7 +8069,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig-21_bis",
         vehicleId: "mig-21_bis",
-        vehicleName: "Mig-21bis",
+        vehicleName: "MiG-21bis",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8094,7 +8094,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_27m",
         vehicleId: "mig_27m",
-        vehicleName: "Mig-27M",
+        vehicleName: "MiG-27M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8106,7 +8106,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_27k",
         vehicleId: "mig_27k",
-        vehicleName: "Mig-27K",
+        vehicleName: "MiG-27K",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8118,7 +8118,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_25pd",
         vehicleId: "mig_25pd",
-        vehicleName: "Mig-25PD",
+        vehicleName: "MiG-25PD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8130,7 +8130,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_23m",
         vehicleId: "mig_23m",
-        vehicleName: "Mig-23M",
+        vehicleName: "MiG-23M",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8142,7 +8142,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8193,7 +8193,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_60m_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8482,7 +8482,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_40rd_mig_25pd",
         vehicleId: "mig_25pd",
-        vehicleName: "Mig-25PD",
+        vehicleName: "MiG-25PD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8518,7 +8518,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_40td_mig_25pd",
         vehicleId: "mig_25pd",
-        vehicleName: "Mig-25PD",
+        vehicleName: "MiG-25PD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8565,7 +8565,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_24r_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8577,7 +8577,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_24r_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8626,7 +8626,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_24t_mig_23mld",
         vehicleId: "mig_23mld",
-        vehicleName: "Mig-23MLD",
+        vehicleName: "MiG-23MLD",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
@@ -8638,7 +8638,7 @@ export const aamMissiles: AamDefinition[] = [
       {
         id: "r_24t_mig_23ml",
         vehicleId: "mig_23ml",
-        vehicleName: "Mig-23ML",
+        vehicleName: "MiG-23ML",
         vehicleTechTree: "USSR",
         vehicleRank: "VII",
         vehicleBr: {
