@@ -190,6 +190,13 @@ const NATO_REPORTING_NAMES: Record<string, string | [string, string, string?] | 
   "Kurnass 2000": { full: "F-4E Kurnass 2000" },
   "Netz": { full: "F-16A Block 10 Netz" },
   "Netz (Mod)": { full: "F-16A Block 10 Netz (Mod)" },
+  "◡Kfir C.10": "(Block 60)",
+  "Sa'ar": { full: "Super Mystere B2 Sa'ar" },
+  "Sambad": { full: "Super Mystere B2 Sambad" },
+  "Shahak": { full: "Mirage IIICJ (Shahak)" },
+  "A-4E Early (M)": { full: "A-4E Skyhawk (Early M)" },
+  "A-4E": "Skyhawk",
+  "Vautour IIN(C)": { full: "Vautour IIN" },
 
   "MiG-17": "Fresco-A",
   "MiG-17AS": "Fresco",
