@@ -198,6 +198,14 @@ const NATO_REPORTING_NAMES: Record<string, string | [string, string, string?] | 
   "A-4E": "Skyhawk",
   "Vautour IIN(C)": { full: "Vautour IIN" },
 
+  "◄G.91 R/4": "Gina",
+  "◄G.91 R/3": "Gina",
+  "G.91 R/4": "Gina",
+  "G.91 R/1": "Gina",
+  "G.91 pre-serie": "Gina",
+  "G.91 Y": "Gina",
+  "G.91 YS": "Gina",
+
   "MiG-17": "Fresco-A",
   "MiG-17AS": "Fresco",
   "Shenyang F-5": "Fresco-C",

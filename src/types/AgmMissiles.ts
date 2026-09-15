@@ -10,7 +10,7 @@ export type TVAgm = "TV" | "TV+IOG";
 
 export type AgmMissileVariant = IRAgm | "Manual" | LaserAgm | TVAgm;
 
-export type AgmExplosiveType = "Comp.H6" | "TNT";
+export type AgmExplosiveType = "Comp.H6" | "TNT" | "Composition B" | "PBX(AF)-108" | "PBXN-3";
 
 export type AgmWarhead = "HE";
 
