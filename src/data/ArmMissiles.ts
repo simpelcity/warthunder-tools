@@ -235,6 +235,18 @@ export const armMissiles: ArmDefinition[] = [
           RB: "10.3",
           SB: "10.3"
         }
+      },
+      {
+        id: "agm_45b_9_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
+        }
       }
     ]
   },
@@ -293,7 +305,7 @@ export const armMissiles: ArmDefinition[] = [
         }
       },
       {
-        id: "agm_45b_9_a_7e_thailand",
+        id: "agm_45b_10_a_7e_thailand",
         vehicleId: "a_7e_thailand",
         vehicleName: "▄A-7E",
         vehicleTechTree: "Japan",
@@ -303,6 +315,18 @@ export const armMissiles: ArmDefinition[] = [
           AB: "11.0",
           RB: "10.3",
           SB: "10.3"
+        }
+      },
+      {
+        id: "agm_45b_10_f-4e_iaf",
+        vehicleId: "f-4e_iaf",
+        vehicleName: "Kurnass",
+        vehicleTechTree: "Israel",
+        vehicleRank: "VII",
+        vehicleBr: {
+          AB: "11.3",
+          RB: "11.3",
+          SB: "10.7"
         }
       }
     ]
@@ -638,6 +662,19 @@ export const armMissiles: ArmDefinition[] = [
           AB: "14.7",
           RB: "14.7",
           SB: "14.7"
+        }
+      },
+      {
+        id: "agm_88c_fa_18c_mlu_2_finland",
+        vehicleId: "fa_18c_mlu_2_finland",
+        vehicleName: "▄F/A-18C MLU 2",
+        vehicleTechTree: "Sweden",
+        vehicleOperator: "Finland",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
         }
       }
     ]
@@ -2171,6 +2208,30 @@ export const armMissiles: ArmDefinition[] = [
           AB: "12.3",
           RB: "12.3",
           SB: "12.3"
+        }
+      },
+      {
+        id: "as_37_mirage_2000_5f",
+        vehicleId: "mirage_2000_5f",
+        vehicleName: "Mirage 2000-5F",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "14.0",
+          RB: "14.0",
+          SB: "14.0"
+        }
+      },
+      {
+        id: "as_37_mirage_2000d_rmv",
+        vehicleId: "mirage_2000d_rmv",
+        vehicleName: "Mirage 2000D-RMV",
+        vehicleTechTree: "France",
+        vehicleRank: "VIII",
+        vehicleBr: {
+          AB: "12.7",
+          RB: "12.7",
+          SB: "12.7"
         }
       }
     ]
